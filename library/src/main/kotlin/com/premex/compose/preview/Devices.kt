@@ -2,7 +2,7 @@ package com.premex.compose.preview
 
 /**
  * Extended device specifications for Android Compose previews.
- *
+ * 
  * This object provides device specifications that can be used with @Preview annotations
  * in Android Compose, extending the built-in device list with devices from the Android
  * Device Catalog maintained by Google Play Store.

@@ -42,7 +42,8 @@ debug() {
 
 cleanup() {
     if [[ -d "$TEMP_DIR" ]]; then
-        rm -rf "$TEMP_DIR"
+        # rm -rf "$TEMP_DIR"
+        echo "[INFO] Temporary directory cleaned up: $TEMP_DIR"
     fi
 }
 
@@ -291,22 +292,87 @@ generate_manufacturer_extension() {
         print "*/"
         print "val Devices." class " get() = object {"
 
-        device_counts[""] = 0  # Initialize associative array
-        current_device = ""
-        counter = 0
+        # Initialize tracking variables for duplicates
     }
     {
         device = $2; spec = $3; model = $4;
 
-        # Handle duplicates by adding suffix
-        if (device == current_device) {
-            counter++
-            final_name = device "_" counter
+        # Skip devices with empty names after sanitization
+        if (device == "" || length(device) == 0) {
+            next
+        }
+
+        # Extract dimensions and DPI from spec for conflict resolution
+        width = ""; height = ""; dpi = ""
+        if (match(spec, /width=([0-9]+)/)) {
+            width = substr(spec, RSTART + 6, RLENGTH - 6)
+        }
+        if (match(spec, /height=([0-9]+)/)) {
+            height = substr(spec, RSTART + 7, RLENGTH - 7)
+        }
+        if (match(spec, /dpi=([0-9]+)/)) {
+            dpi = substr(spec, RSTART + 4, RLENGTH - 4)
+        }
+
+        # Create a unique key combining device name and spec details
+        spec_key = device ":" width "x" height "@" dpi
+
+        # Handle duplicates by using spec-based suffixes instead of simple numbers
+        if (device in seen_devices) {
+            # Check if this exact spec was already seen
+            if (spec_key in seen_spec_keys) {
+                # Exact duplicate - skip it
+                next
+            }
+
+            # Different spec for same device name - create descriptive suffix
+            seen_devices[device]++
+
+            # Create suffix based on resolution or DPI differences
+            if (width != "" && height != "" && dpi != "") {
+                if (width == height) {
+                    # Square aspect ratio - use DPI
+                    suffix = "DPI" dpi
+                } else if (width > height) {
+                    # Landscape - use resolution
+                    suffix = width "X" height
+                } else {
+                    # Portrait - use resolution or DPI if resolution exists
+                    if (seen_devices[device] == 2) {
+                        suffix = width "X" height
+                    } else {
+                        suffix = "DPI" dpi
+                    }
+                }
+                final_name = device "_" suffix
+            } else {
+                # Fallback to hash-like suffix using spec
+                hash = 0
+                for (i = 1; i <= length(spec); i++) {
+                    char_code = index("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", substr(spec, i, 1))
+                    if (char_code > 0) {
+                        hash = (hash * 31 + char_code) % 10000
+                    }
+                }
+                final_name = device "_SPEC" hash
+            }
+
+            # Ensure the final name is still unique
+            collision_count = 0
+            base_final_name = final_name
+            while (final_name in used_names) {
+                collision_count++
+                final_name = base_final_name "_" collision_count
+            }
+
         } else {
-            current_device = device
-            counter = 1
+            seen_devices[device] = 1
             final_name = device
         }
+
+        # Track used names and spec keys
+        used_names[final_name] = 1
+        seen_spec_keys[spec_key] = 1
 
         print "    /** " mfr " " model " */"
         print "    val " final_name " = \"" spec "\""
@@ -314,8 +380,7 @@ generate_manufacturer_extension() {
     }
     END {
         print "}"
-    }
-    ' > "$file_path"
+    }' > "$file_path"
 
     local device_count=$(grep "^${manufacturer}|" "$AGG_FILE" | wc -l)
 
@@ -490,10 +555,10 @@ main() {
         cp "$latest_backup" "$DEVICES_FILE"
         # Also restore device extensions if backup exists
         latest_devices_backup=$(ls -t "$BACKUP_DIR"/devices.* 2>/dev/null | head -1 || true)
-        if [[ -n "$latest_devices_backup" ]]; then
-            rm -rf "$DEVICE_EXTENSIONS_DIR"
-            cp -r "$latest_devices_backup" "$DEVICE_EXTENSIONS_DIR" 2>/dev/null || true
-        fi
+        #if [[ -n "$latest_devices_backup" ]]; then
+            #rm -rf "$DEVICE_EXTENSIONS_DIR"
+            #cp -r "$latest_devices_backup" "$DEVICE_EXTENSIONS_DIR" 2>/dev/null || true
+        #fi
         error "Update failed and has been reverted."
         exit 1
     fi
