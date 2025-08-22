@@ -75,7 +75,7 @@ jobs:
             
             ### 📋 Projects Updated
             - ✅ Root project (`./gradlew`)
-            - ✅ Library project (`./library/gradlew`)
+            - ✅ Library project (`./android-compose-preview-ext/gradlew`)
             - ✅ Plugin project (`./plugin/gradlew`)
             
             ### 🤖 Automation Details

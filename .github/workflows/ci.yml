@@ -26,7 +26,7 @@ jobs:
     - name: Run tests
       run: ./gradlew test
     
-    - name: Build library
+    - name: Build android-compose-preview-ext
       run: ./gradlew build
     
     - name: Upload test results
@@ -34,10 +34,10 @@ jobs:
       if: always()
       with:
         name: test-results
-        path: library/build/reports/tests/test/
+        path: android-compose-preview-ext/build/reports/tests/test/
         
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
         name: build-artifacts
-        path: library/build/libs/
+        path: android-compose-preview-ext/build/libs/

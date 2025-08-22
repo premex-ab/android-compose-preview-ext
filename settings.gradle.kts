@@ -4,5 +4,5 @@ plugins {
 
 rootProject.name = "android-compose-preview-ext"
 
-include(":library")
+include(":android-compose-preview-ext")
 include(":device-generator")
