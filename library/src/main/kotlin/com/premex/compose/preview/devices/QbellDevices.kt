@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Qbell device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Qbell.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Qbell get() = object {
-    /** Qbell QPHONE_10_1 */
-    val QPHONE_10_1 = "spec:width=600,height=1280,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Qbell: Any
+  get() = object {
+      /** Qbell tamachi */
+      val TAMACHI = "spec:width=720,height=1280,unit=px,dpi=213"
 
-    /** Qbell QTAB10 */
-    val QTAB10 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Qbell yeongdeungpo */
+      val YEONGDEUNGPO = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-}
+  }

@@ -1,30 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Huskee device specifications for Android Compose previews.
+ * HUSKEE device specifications for Android Compose previews.
  *
- * This extension provides Huskee device specifications that can be used with @Preview annotations
+ * This extension provides HUSKEE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Huskee.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Huskee get() = object {
-    /** Huskee HELIOS */
-    val HELIOS = "spec:width=600,height=1024,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Huskee: Any
+  get() = object {
+      /** HUSKEE HELIOS */
+      val HELIOS = "spec:width=600,height=1024,unit=px,dpi=213"
 
-    /** Huskee HELIOS_Plus */
-    val HELIOS_PLUS = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HUSKEE HELIOS_Plus */
+      val HELIOS_PLUS = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Huskee ST-810 */
-    val ST_810 = "spec:width=600,height=1024,unit=px,dpi=160"
-
-}
+  }

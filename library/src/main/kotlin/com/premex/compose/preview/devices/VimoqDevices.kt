@@ -1,30 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vimoq device specifications for Android Compose previews.
+ * VIMOQ device specifications for Android Compose previews.
  *
- * This extension provides Vimoq device specifications that can be used with @Preview annotations
+ * This extension provides VIMOQ device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vimoq.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vimoq get() = object {
-    /** Vimoq SE668S */
-    val SE668S = "spec:width=720,height=1612,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Vimoq: Any
+  get() = object {
+      /** VIMOQ VIMOQ-A631LO */
+      val VIMOQ_A631LO = "spec:width=480,height=1014,unit=px,dpi=200"
 
-    /** Vimoq VIMOQ A49 Play */
-    val VIMOQ_A49_PLAY = "spec:width=480,height=1014,unit=px,dpi=200"
+      /** VIMOQ VIMOQ-P662LO */
+      val VIMOQ_P662LO = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Vimoq VIMOQ Vision 3 */
-    val VIMOQ_VISION_3 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** VIMOQ VIMOQ-S661LS */
+      val VIMOQ_S661LS = "spec:width=720,height=1612,unit=px,dpi=320"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Cello device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cello.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cello get() = object {
-    /** Cello T1045PC */
-    val T1045PC = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Cello: Any
+  get() = object {
+      /** Cello T1045PC */
+      val T1045PC = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Cello T1045PN */
-    val T1045PN = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Cello T1045PN */
+      val T1045PN = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

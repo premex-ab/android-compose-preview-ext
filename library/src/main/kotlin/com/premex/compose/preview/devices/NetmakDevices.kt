@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Netmak device specifications for Android Compose previews.
+ * NETMAK device specifications for Android Compose previews.
  *
- * This extension provides Netmak device specifications that can be used with @Preview annotations
+ * This extension provides NETMAK device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Netmak.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Netmak get() = object {
-    /** Netmak NM-VELOCITY */
-    val NM_VELOCITY = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Netmak: Any
+  get() = object {
+      /** NETMAK NM_VELOCITY */
+      val NM_VELOCITY = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

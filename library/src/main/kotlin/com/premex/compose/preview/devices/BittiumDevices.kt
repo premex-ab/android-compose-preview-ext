@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Bittium device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Bittium.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Bittium get() = object {
-    /** Bittium Bittium Tough Mobile 2 */
-    val BITTIUM_TOUGH_MOBILE_2 = "spec:width=1080,height=1920,unit=px,dpi=420"
+ * ```
+ */
+public val Devices.Bittium: Any
+  get() = object {
+      /** Bittium craton */
+      val CRATON = "spec:width=1080,height=1920,unit=px,dpi=420"
 
-}
+  }

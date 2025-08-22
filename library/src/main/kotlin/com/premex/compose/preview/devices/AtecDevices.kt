@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Atec device specifications for Android Compose previews.
+ * ATEC device specifications for Android Compose previews.
  *
- * This extension provides Atec device specifications that can be used with @Preview annotations
+ * This extension provides ATEC device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Atec.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Atec get() = object {
-    /** Atec APD3 */
-    val APD3 = "spec:width=1200,height=2000,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Atec: Any
+  get() = object {
+      /** ATEC APD3 */
+      val APD3 = "spec:width=1200,height=2000,unit=px,dpi=320"
 
-    /** Atec ATEC GRANDE */
-    val ATEC_GRANDE = "spec:width=2160,height=3840,unit=px,dpi=420"
+      /** ATEC ATEC_IWB */
+      val ATEC_IWB = "spec:width=2160,height=3840,unit=px,dpi=420"
 
-}
+  }

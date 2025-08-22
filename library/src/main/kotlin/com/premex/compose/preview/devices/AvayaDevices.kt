@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Avaya device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Avaya.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Avaya get() = object {
-    /** Avaya Vantage */
-    val VANTAGE = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Avaya: Any
+  get() = object {
+      /** Avaya K175 */
+      val K175 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

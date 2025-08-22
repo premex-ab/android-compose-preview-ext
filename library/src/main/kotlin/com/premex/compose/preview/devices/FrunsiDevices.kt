@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Frunsi device specifications for Android Compose previews.
@@ -9,22 +10,23 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Frunsi.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Frunsi get() = object {
-    /** Frunsi RubensTab_T11 */
-    val RUBENSTAB_T11 = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Frunsi: Any
+  get() = object {
+      /** Frunsi RubensTab_T11 */
+      val RUBENSTAB_T11 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Frunsi RubensTab_T8 */
-    val RUBENSTAB_T8 = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** Frunsi RubensTab_T8 */
+      val RUBENSTAB_T8 = "spec:width=800,height=1280,unit=px,dpi=180"
 
-    /** Frunsi T11Pro */
-    val T11PRO = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** Frunsi T11Pro */
+      val T11PRO = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-}
+  }

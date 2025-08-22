@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Abil device specifications for Android Compose previews.
+ * ABIL device specifications for Android Compose previews.
  *
- * This extension provides Abil device specifications that can be used with @Preview annotations
+ * This extension provides ABIL device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Abil.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Abil get() = object {
-    /** Abil A8 */
-    val A8 = "spec:width=1080,height=2400,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Abil: Any
+  get() = object {
+      /** ABIL A8 */
+      val A8 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-}
+  }

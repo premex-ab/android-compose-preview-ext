@@ -1,27 +1,30 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Starkfuture device specifications for Android Compose previews.
+ * StarkFuture device specifications for Android Compose previews.
  *
- * This extension provides Starkfuture device specifications that can be used with @Preview annotations
+ * This extension provides StarkFuture device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Starkfuture.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Starkfuture get() = object {
-    /** Starkfuture ARKENSTONE */
-    val ARKENSTONE = "spec:width=720,height=1612,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Starkfuture: Any
+  get() = object {
+      /** StarkFuture ARKENSTONE */
+      val ARKENSTONE = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Starkfuture VARG */
-    val VARG = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** StarkFuture ARKENSTONE_US */
+      val ARKENSTONE_US = "spec:width=720,height=1612,unit=px,dpi=320"
 
-}
+  }

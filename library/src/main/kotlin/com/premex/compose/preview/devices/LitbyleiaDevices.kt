@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Litbyleia device specifications for Android Compose previews.
+ * LitByLeia device specifications for Android Compose previews.
  *
- * This extension provides Litbyleia device specifications that can be used with @Preview annotations
+ * This extension provides LitByLeia device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Litbyleia.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Litbyleia get() = object {
-    /** Litbyleia LUME */
-    val LUME = "spec:width=1600,height=2560,unit=px,dpi=340"
+ * ```
+ */
+public val Devices.Litbyleia: Any
+  get() = object {
+      /** LitByLeia LPD-10W */
+      val LPD_10W = "spec:width=1600,height=2560,unit=px,dpi=340"
 
-}
+  }

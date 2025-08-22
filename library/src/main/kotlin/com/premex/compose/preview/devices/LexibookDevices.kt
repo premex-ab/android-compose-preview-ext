@@ -1,42 +1,41 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Lexibook device specifications for Android Compose previews.
+ * LEXIBOOK device specifications for Android Compose previews.
  *
- * This extension provides Lexibook device specifications that can be used with @Preview annotations
+ * This extension provides LEXIBOOK device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Lexibook.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Lexibook get() = object {
-    /** Lexibook LT10 */
-    val LT10 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Lexibook: Any
+  get() = object {
+      /** LEXIBOOK LT10 */
+      val LT10 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Lexibook LT10_01_EEA */
-    val LT10_01_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** LEXIBOOK LT10EN_09 */
+      val LT10EN_09 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Lexibook LT10EN_09 */
-    val LT10EN_09 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** LEXIBOOK LT10_01_EEA */
+      val LT10_01_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Lexibook MFC149 */
-    val MFC149 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** LEXIBOOK MFS100 */
+      val MFS100 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Lexibook Tablet Phone */
-    val TABLET_PHONE = "spec:width=480,height=800,unit=px,dpi=240"
+      /** LEXIBOOK TL70 */
+      val TL70 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Lexibook TL70 */
-    val TL70 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** LEXIBOOK TLN10FR */
+      val TLN10FR = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Lexibook TLN10FR */
-    val TLN10FR = "spec:width=800,height=1280,unit=px,dpi=213"
-
-}
+  }

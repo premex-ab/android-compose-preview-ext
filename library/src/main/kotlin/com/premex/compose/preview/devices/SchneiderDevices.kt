@@ -1,24 +1,42 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Schneider device specifications for Android Compose previews.
+ * SCHNEIDER device specifications for Android Compose previews.
  *
- * This extension provides Schneider device specifications that can be used with @Preview annotations
+ * This extension provides SCHNEIDER device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Schneider.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Schneider get() = object {
-    /** Schneider Wave 3 */
-    val WAVE_3 = "spec:width=720,height=1600,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Schneider: Any
+  get() = object {
+      /** SCHNEIDER bangbae */
+      val BANGBAE = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-}
+      /** SCHNEIDER barking */
+      val BARKING = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** SCHNEIDER beaudry */
+      val BEAUDRY = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** SCHNEIDER komagome */
+      val KOMAGOME = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** SCHNEIDER R1 */
+      val R1 = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** SCHNEIDER R2 */
+      val R2 = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+  }

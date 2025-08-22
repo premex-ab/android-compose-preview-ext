@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Vision device specifications for Android Compose previews.
@@ -9,16 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vision.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vision get() = object {
-    /** Vision Vision V1  */
-    val VISION_V1 = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Vision: Any
+  get() = object {
+      /** Vision martin */
+      val MARTIN = "spec:width=720,height=1280,unit=px,dpi=213"
 
-}
+      /** Vision tamachi */
+      val TAMACHI = "spec:width=720,height=1280,unit=px,dpi=213"
+
+  }

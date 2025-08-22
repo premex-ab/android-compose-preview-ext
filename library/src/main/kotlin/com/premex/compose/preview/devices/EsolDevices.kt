@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Esol device specifications for Android Compose previews.
+ * ESOL device specifications for Android Compose previews.
  *
- * This extension provides Esol device specifications that can be used with @Preview annotations
+ * This extension provides ESOL device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Esol.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Esol get() = object {
-    /** Esol ESOL_Board */
-    val ESOL_BOARD = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Esol: Any
+  get() = object {
+      /** ESOL Interactive_White_Board */
+      val INTERACTIVE_WHITE_BOARD = "spec:width=2160,height=3840,unit=px,dpi=640"
 
-    /** Esol HCB_52series */
-    val HCB_52SERIES = "spec:width=2160,height=3840,unit=px,dpi=640"
+      /** ESOL rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Avvio device specifications for Android Compose previews.
@@ -9,22 +10,23 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Avvio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Avvio get() = object {
-    /** Avvio Avvio 4GO */
-    val AVVIO_4GO = "spec:width=480,height=800,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Avvio: Any
+  get() = object {
+      /** Avvio Avvio_4GO */
+      val AVVIO_4GO = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Avvio Avvio A400 */
-    val AVVIO_A400 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Avvio Avvio_A400 */
+      val AVVIO_A400 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Avvio Q503 */
-    val Q503 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Avvio Avvio_Q503 */
+      val AVVIO_Q503 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+  }

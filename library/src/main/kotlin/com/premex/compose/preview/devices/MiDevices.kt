@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Mi device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Mi.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Mi get() = object {
-    /** Mi Mi 11 X */
-    val MI_11_X = "spec:width=1080,height=2400,unit=px,dpi=440"
+ * ```
+ */
+public val Devices.Mi: Any
+  get() = object {
+      /** Mi aliothin */
+      val ALIOTHIN = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-}
+  }

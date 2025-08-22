@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Lazor device specifications for Android Compose previews.
+ * LAZOR device specifications for Android Compose previews.
  *
- * This extension provides Lazor device specifications that can be used with @Preview annotations
+ * This extension provides LAZOR device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Lazor.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Lazor get() = object {
-    /** Lazor InfinityT10101 */
-    val INFINITYT10101 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Lazor: Any
+  get() = object {
+      /** LAZOR InfinityT10101 */
+      val INFINITYT10101 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

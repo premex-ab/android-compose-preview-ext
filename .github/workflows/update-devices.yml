@@ -35,15 +35,16 @@ jobs:
     - name: Setup Gradle
       uses: gradle/gradle-build-action@v2
     
-    - name: Run device update script
+    - name: Run device generator
       run: |
-        chmod +x scripts/update-devices.sh
-        if [[ "${{ github.event.inputs.force_update }}" == "true" ]]; then
-          scripts/update-devices.sh --force
-        else
-          scripts/update-devices.sh
-        fi
-      
+        echo "🏭 Running device generator to update device specifications..."
+        ./gradlew :device-generator:run
+
+    - name: Build and test with updated devices
+      run: |
+        echo "🔨 Building and testing with updated device specifications..."
+        ./gradlew build test
+
     - name: Check for changes
       id: git-check
       run: |
@@ -57,35 +58,41 @@ jobs:
         commit-message: |
           chore(devices): update device specifications
           
-          - Update device specifications from latest manufacturer data
-          - Add new devices and update existing specifications
-          - Automated update via update-devices.sh script
+          - Update device specifications from latest Android Device Catalog
+          - Add new devices and update existing specifications  
+          - Automated update via device-generator
         title: 'chore(devices): update device specifications'
         body: |
           ## 📱 Device Specifications Update
           
-          This PR contains automated updates to the device specifications in `Devices.kt`.
+          This PR contains automated updates to the device specifications generated from the Android Device Catalog.
           
           ### Changes Made
-          - Updated device specifications from latest manufacturer data
+          - Updated device specifications from latest Android Device Catalog data
+          - Regenerated manufacturer extension files with PascalCase naming
           - Added new devices where available
           - Updated existing device specifications with latest information
           
-          ### Validation
+          ### Generation Process
+          - ✅ Device generator executed successfully
           - ✅ Build validation passed
           - ✅ All tests passing
           - ✅ Device specifications format validated
+          - ✅ PascalCase naming conventions applied
           
-          ### Device Count Summary
-          The update script has processed devices from:
-          - Zebra Technologies (enterprise mobile computers)
-          - Samsung Galaxy (consumer and enterprise devices)
-          - Honeywell (data collection devices)
-          - Datalogic (professional data capture devices)
+          ### Device Sources
+          The device generator fetches data from:
+          - Android Device Catalog maintained by Google Play Store
+          - Supports Google Pixel/Nexus devices and third-party manufacturers
+          - Generates both main `Devices.kt` and manufacturer extension files
+          
+          ### Files Updated
+          - `library/src/main/kotlin/com/premex/compose/preview/Devices.kt`
+          - `library/src/main/kotlin/com/premex/compose/preview/devices/*Devices.kt`
           
           ---
           
-          *This is an automated PR created by the device update workflow.*
+          *This is an automated PR created by the device generator workflow.*
           *Please review the changes before merging.*
         branch: update-device-specifications
         delete-branch: true

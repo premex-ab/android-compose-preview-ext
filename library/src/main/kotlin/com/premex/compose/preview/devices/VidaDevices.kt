@@ -1,30 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vida device specifications for Android Compose previews.
+ * VIDA device specifications for Android Compose previews.
  *
- * This extension provides Vida device specifications that can be used with @Preview annotations
+ * This extension provides VIDA device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vida.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vida get() = object {
-    /** Vida EGO_plus */
-    val EGO_PLUS = "spec:width=480,height=996,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Vida: Any
+  get() = object {
+      /** VIDA S63Plus */
+      val S63PLUS = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vida S63Plus */
-    val S63PLUS = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** VIDA VIDA_i501 */
+      val VIDA_I501 = "spec:width=720,height=1280,unit=px,dpi=300"
 
-    /** Vida VIDA_i501 */
-    val VIDA_I501 = "spec:width=720,height=1280,unit=px,dpi=300"
-
-}
+  }

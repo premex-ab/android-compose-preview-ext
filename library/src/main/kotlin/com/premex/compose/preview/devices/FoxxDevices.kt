@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Foxx device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Foxx.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Foxx get() = object {
-    /** Foxx A55AM */
-    val A55AM = "spec:width=480,height=960,unit=px,dpi=200"
+ * ```
+ */
+public val Devices.Foxx: Any
+  get() = object {
+      /** Foxx A55AM */
+      val A55AM = "spec:width=480,height=960,unit=px,dpi=200"
 
-    /** Foxx V8 */
-    val V8 = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** Foxx V8 */
+      val V8 = "spec:width=800,height=1280,unit=px,dpi=240"
 
-}
+  }

@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Magneticnorth device specifications for Android Compose previews.
+ * MagneticNorth device specifications for Android Compose previews.
  *
- * This extension provides Magneticnorth device specifications that can be used with @Preview annotations
+ * This extension provides MagneticNorth device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Magneticnorth.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Magneticnorth get() = object {
-    /** Magneticnorth Multiple_Applications_Display_Terminal */
-    val MULTIPLE_APPLICATIONS_DISPLAY_TERMINAL = "spec:width=600,height=1024,unit=px,dpi=182"
+ * ```
+ */
+public val Devices.Magneticnorth: Any
+  get() = object {
+      /** MagneticNorth Multiple_Applications_Display_Terminal */
+      val MULTIPLE_APPLICATIONS_DISPLAY_TERMINAL = "spec:width=600,height=1024,unit=px,dpi=182"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Quest device specifications for Android Compose previews.
@@ -9,28 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Quest.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Quest get() = object {
-    /** Quest Amber */
-    val AMBER = "spec:width=480,height=960,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Quest: Any
+  get() = object {
+      /** Quest Amber */
+      val AMBER = "spec:width=480,height=960,unit=px,dpi=213"
 
-    /** Quest Q8_Tablet */
-    val Q8_TABLET = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Quest Vibe */
+      val VIBE = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Quest RAPTOR */
-    val RAPTOR = "spec:width=480,height=960,unit=px,dpi=213"
-
-    /** Quest Vibe */
-    val VIBE = "spec:width=720,height=1440,unit=px,dpi=320"
-
-    /** Quest VISION */
-    val VISION = "spec:width=720,height=1600,unit=px,dpi=320"
-
-}
+  }

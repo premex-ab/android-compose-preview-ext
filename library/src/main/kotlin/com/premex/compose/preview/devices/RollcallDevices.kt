@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Rollcall device specifications for Android Compose previews.
+ * ROLLCALL device specifications for Android Compose previews.
  *
- * This extension provides Rollcall device specifications that can be used with @Preview annotations
+ * This extension provides ROLLCALL device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Rollcall.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Rollcall get() = object {
-    /** Rollcall DT */
-    val DT = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Rollcall: Any
+  get() = object {
+      /** ROLLCALL DT */
+      val DT = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

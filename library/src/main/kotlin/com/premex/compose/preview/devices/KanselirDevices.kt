@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Kanselir device specifications for Android Compose previews.
+ * KANSELIR device specifications for Android Compose previews.
  *
- * This extension provides Kanselir device specifications that can be used with @Preview annotations
+ * This extension provides KANSELIR device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Kanselir.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Kanselir get() = object {
-    /** Kanselir KTB-168 */
-    val KTB_168 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Kanselir: Any
+  get() = object {
+      /** KANSELIR KTB-168 */
+      val KTB_168 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

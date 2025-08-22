@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Zoomme device specifications for Android Compose previews.
+ * ZOOMME device specifications for Android Compose previews.
  *
- * This extension provides Zoomme device specifications that can be used with @Preview annotations
+ * This extension provides ZOOMME device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Zoomme.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Zoomme get() = object {
-    /** Zoomme M2 */
-    val M2 = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Zoomme: Any
+  get() = object {
+      /** ZOOMME M2 */
+      val M2 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Zoomme M3 */
-    val M3 = "spec:width=600,height=1280,unit=px,dpi=240"
+      /** ZOOMME M3 */
+      val M3 = "spec:width=600,height=1280,unit=px,dpi=240"
 
-}
+  }

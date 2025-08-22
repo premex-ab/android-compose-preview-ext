@@ -1,27 +1,30 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Angeltech device specifications for Android Compose previews.
+ * AngelTech device specifications for Android Compose previews.
  *
- * This extension provides Angeltech device specifications that can be used with @Preview annotations
+ * This extension provides AngelTech device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Angeltech.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Angeltech get() = object {
-    /** Angeltech E109GCM  */
-    val E109GCM = "spec:width=800,height=1280,unit=px,dpi=180"
+ * ```
+ */
+public val Devices.Angeltech: Any
+  get() = object {
+      /** AngelTech E109GCM */
+      val E109GCM = "spec:width=800,height=1280,unit=px,dpi=180"
 
-    /** Angeltech P80 */
-    val P80 = "spec:width=800,height=1280,unit=px,dpi=220"
+      /** AngelTech P80 */
+      val P80 = "spec:width=800,height=1280,unit=px,dpi=220"
 
-}
+  }

@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Sunconnection device specifications for Android Compose previews.
+ * SUNCONNECTION device specifications for Android Compose previews.
  *
- * This extension provides Sunconnection device specifications that can be used with @Preview annotations
+ * This extension provides SUNCONNECTION device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Sunconnection.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Sunconnection get() = object {
-    /** Sunconnection SUNTB_01_GY */
-    val SUNTB_01_GY = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Sunconnection: Any
+  get() = object {
+      /** SUNCONNECTION SUNTB_01_GY */
+      val SUNTB_01_GY = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

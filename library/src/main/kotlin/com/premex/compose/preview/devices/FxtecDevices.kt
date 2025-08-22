@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Fxtec device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Fxtec.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Fxtec get() = object {
-    /** Fxtec Fxtec QX1000 */
-    val FXTEC_QX1000 = "spec:width=1080,height=2160,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Fxtec: Any
+  get() = object {
+      /** Fxtec QX1000 */
+      val QX1000 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-}
+  }

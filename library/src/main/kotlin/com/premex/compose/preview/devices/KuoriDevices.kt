@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Kuori device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Kuori.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Kuori get() = object {
-    /** Kuori KH3566 */
-    val KH3566 = "spec:width=1080,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Kuori: Any
+  get() = object {
+      /** Kuori Kivi */
+      val KIVI = "spec:width=1080,height=1920,unit=px,dpi=240"
 
-}
+  }

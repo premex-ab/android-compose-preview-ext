@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Lynknex device specifications for Android Compose previews.
+ * LYNKNEX device specifications for Android Compose previews.
  *
- * This extension provides Lynknex device specifications that can be used with @Preview annotations
+ * This extension provides LYNKNEX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Lynknex.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Lynknex get() = object {
-    /** Lynknex PX5 */
-    val PX5 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Lynknex: Any
+  get() = object {
+      /** LYNKNEX LYNKNEX-PX5 */
+      val LYNKNEX_PX5 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+  }

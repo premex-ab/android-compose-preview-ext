@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Ovion device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ovion.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ovion get() = object {
-    /** Ovion V11_Lite_TR */
-    val V11_LITE_TR = "spec:width=720,height=1612,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Ovion: Any
+  get() = object {
+      /** Ovion V11_Lite */
+      val V11_LITE = "spec:width=720,height=1612,unit=px,dpi=480"
 
-    /** Ovion V20_PRO_TR */
-    val V20_PRO_TR = "spec:width=1080,height=2412,unit=px,dpi=400"
+      /** Ovion V20_PRO */
+      val V20_PRO = "spec:width=1080,height=2412,unit=px,dpi=400"
 
-}
+  }

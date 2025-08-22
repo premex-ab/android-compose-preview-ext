@@ -1,30 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Andersson device specifications for Android Compose previews.
+ * andersson device specifications for Android Compose previews.
  *
- * This extension provides Andersson device specifications that can be used with @Preview annotations
+ * This extension provides andersson device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Andersson.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Andersson get() = object {
-    /** Andersson tablet */
-    val TABLET = "spec:width=1200,height=2000,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Andersson: Any
+  get() = object {
+      /** andersson TBX211 */
+      val TBX211 = "spec:width=1200,height=2000,unit=px,dpi=240"
 
-    /** Andersson TBX10 */
-    val TBX10 = "spec:width=1200,height=1920,unit=px,dpi=280"
-
-    /** Andersson TBX11 */
-    val TBX11 = "spec:width=1200,height=1920,unit=px,dpi=320"
-
-}
+  }

@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Portfolio device specifications for Android Compose previews.
+ * PORTFOLIO device specifications for Android Compose previews.
  *
- * This extension provides Portfolio device specifications that can be used with @Preview annotations
+ * This extension provides PORTFOLIO device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Portfolio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Portfolio get() = object {
-    /** Portfolio P9001 */
-    val P9001 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Portfolio: Any
+  get() = object {
+      /** PORTFOLIO P9001 */
+      val P9001 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

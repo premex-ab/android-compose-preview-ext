@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Sinognss device specifications for Android Compose previews.
+ * SinoGNSS device specifications for Android Compose previews.
  *
- * This extension provides Sinognss device specifications that can be used with @Preview annotations
+ * This extension provides SinoGNSS device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Sinognss.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Sinognss get() = object {
-    /** Sinognss R60 Data Collector */
-    val R60_DATA_COLLECTOR = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Sinognss: Any
+  get() = object {
+      /** SinoGNSS R60 */
+      val R60 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-}
+  }

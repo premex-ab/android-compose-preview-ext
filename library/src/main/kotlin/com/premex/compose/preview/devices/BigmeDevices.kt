@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Bigme device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Bigme.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Bigme get() = object {
-    /** Bigme HiBreak_EEA */
-    val HIBREAK_EEA = "spec:width=824,height=1648,unit=px,dpi=300"
+ * ```
+ */
+public val Devices.Bigme: Any
+  get() = object {
+      /** Bigme Smartphone */
+      val SMARTPHONE = "spec:width=824,height=1648,unit=px,dpi=300"
 
-}
+  }

@@ -1,45 +1,47 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Comio device specifications for Android Compose previews.
+ * COMIO device specifications for Android Compose previews.
  *
- * This extension provides Comio device specifications that can be used with @Preview annotations
+ * This extension provides COMIO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Comio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Comio get() = object {
-    /** Comio COMIO C1 */
-    val COMIO_C1 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Comio: Any
+  get() = object {
+      /** COMIO ComioC1 */
+      val COMIOC1 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO C1 Pro */
-    val COMIO_C1_PRO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COMIO ComioC1Pro */
+      val COMIOC1PRO = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO C2 */
-    val COMIO_C2 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COMIO ComioC2 */
+      val COMIOC2 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO C2 Lite */
-    val COMIO_C2_LITE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COMIO ComioC2Lite */
+      val COMIOC2LITE = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO P1 */
-    val COMIO_P1 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COMIO ComioP1 */
+      val COMIOP1 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO S1 */
-    val COMIO_S1 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COMIO ComioS1 */
+      val COMIOS1 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO S1 Lite */
-    val COMIO_S1_LITE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COMIO ComioS1Lite */
+      val COMIOS1LITE = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Comio COMIO X1 */
-    val COMIO_X1 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** COMIO ComioX1 */
+      val COMIOX1 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-}
+  }

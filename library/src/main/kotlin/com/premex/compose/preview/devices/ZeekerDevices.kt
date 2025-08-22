@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Zeeker device specifications for Android Compose previews.
+ * ZEEKER device specifications for Android Compose previews.
  *
- * This extension provides Zeeker device specifications that can be used with @Preview annotations
+ * This extension provides ZEEKER device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Zeeker.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Zeeker get() = object {
-    /** Zeeker ZEEKER_P10_RU */
-    val ZEEKER_P10_RU = "spec:width=1080,height=2400,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Zeeker: Any
+  get() = object {
+      /** ZEEKER ZEEKER_P10 */
+      val ZEEKER_P10 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Zeeker ZEEKER_T100_EEA */
-    val ZEEKER_T100_EEA = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** ZEEKER ZEEKER_T100 */
+      val ZEEKER_T100 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Jinga device specifications for Android Compose previews.
@@ -9,34 +10,35 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Jinga.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Jinga get() = object {
-    /** Jinga GoalPlus */
-    val GOALPLUS = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Jinga: Any
+  get() = object {
+      /** Jinga GoalPlus */
+      val GOALPLUS = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Jinga Jinga Hit4G */
-    val JINGA_HIT4G = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Jinga Hit4G */
+      val HIT4G = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Jinga Neon */
-    val NEON = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Jinga JI55AG_189ID */
+      val JI55AG_189ID = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Jinga Pass Plus */
-    val PASS_PLUS = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Jinga Neon */
+      val NEON = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Jinga Picasso Note */
-    val PICASSO_NOTE = "spec:width=480,height=996,unit=px,dpi=240"
+      /** Jinga PicassoNote */
+      val PICASSONOTE = "spec:width=480,height=996,unit=px,dpi=240"
 
-    /** Jinga Touch 4G */
-    val TOUCH_4G = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Jinga Touch4G */
+      val TOUCH4G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Jinga WinPRO */
-    val WINPRO = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Jinga WinPRO */
+      val WINPRO = "spec:width=720,height=1440,unit=px,dpi=320"
 
-}
+  }

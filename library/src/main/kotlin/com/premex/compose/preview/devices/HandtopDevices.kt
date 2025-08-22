@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Handtop device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Handtop.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Handtop get() = object {
-    /** Handtop HTA11 */
-    val HTA11 = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Handtop: Any
+  get() = object {
+      /** Handtop HTA11 */
+      val HTA11 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-}
+  }

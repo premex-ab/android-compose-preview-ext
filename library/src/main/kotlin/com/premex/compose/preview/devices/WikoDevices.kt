@@ -1,345 +1,401 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Wiko device specifications for Android Compose previews.
+ * WIKO device specifications for Android Compose previews.
  *
- * This extension provides Wiko device specifications that can be used with @Preview annotations
+ * This extension provides WIKO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Wiko.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Wiko get() = object {
-    /** Wiko C210AE */
-    val C210AE = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Wiko: Any
+  get() = object {
+      /** WIKO C210AE */
+      val C210AE = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko C800 */
-    val C800 = "spec:width=720,height=1528,unit=px,dpi=280"
+      /** WIKO DBA-AN00 */
+      val DBA_AN00 = "spec:width=720,height=1600,unit=px,dpi=480"
 
-    /** Wiko FEVER */
-    val FEVER = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** WIKO i9031 */
+      val I9031 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko FREDDY */
-    val FREDDY = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO L5221 */
+      val L5221 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko Gallardo */
-    val GALLARDO = "spec:width=480,height=960,unit=px,dpi=213"
+      /** WIKO L5227AC */
+      val L5227AC = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko HARRY */
-    val HARRY = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO L5251 */
+      val L5251 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko Harry2 */
-    val HARRY2 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO l5261 */
+      val L5261 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko HIGHWAY PURE */
-    val HIGHWAY_PURE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO l5320 */
+      val L5320 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko HIGHWAY STAR */
-    val HIGHWAY_STAR = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO l5421 */
+      val L5421 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko JERRY */
-    val JERRY = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO l5460 */
+      val L5460 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko JERRY2 */
-    val JERRY2 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO l5510 */
+      val L5510 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko Jerry4 */
-    val JERRY4 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO l5560ae */
+      val L5560AE = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko JERRY MAX */
-    val JERRY_MAX = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO l9010 */
+      val L9010 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko K300S */
-    val K300S = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO P4601AN */
+      val P4601AN = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko KENNY */
-    val KENNY = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO P4661AN */
+      val P4661AN = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko K-KOOL */
-    val K_KOOL = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO P4901AC */
+      val P4901AC = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko LENNY */
-    val LENNY = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO P4903JP */
+      val P4903JP = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko LENNY2 */
-    val LENNY2 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO P4903LA */
+      val P4903LA = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko LENNY3 */
-    val LENNY3 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO P6601AE */
+      val P6601AE = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko LENNY3 MAX */
-    val LENNY3_MAX = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO P6609BC */
+      val P6609BC = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko Lenny4 */
-    val LENNY4 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO P6609BCD */
+      val P6609BCD = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko Lenny4 Plus */
-    val LENNY4_PLUS = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO p6901 */
+      val P6901 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko M10 Lite */
-    val M10_LITE = "spec:width=480,height=800,unit=px,dpi=240"
+      /** WIKO p7201 */
+      val P7201 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko P4903JP */
-    val P4903JP = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO p7203 */
+      val P7203 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko Power U10 */
-    val POWER_U10 = "spec:width=720,height=1640,unit=px,dpi=280"
+      /** WIKO s4050ap */
+      val S4050AP = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko Power U20 */
-    val POWER_U20 = "spec:width=720,height=1640,unit=px,dpi=260"
+      /** WIKO s5030 */
+      val S5030 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko Power U30 */
-    val POWER_U30 = "spec:width=720,height=1640,unit=px,dpi=260"
+      /** WIKO S5030AP12H */
+      val S5030AP12H = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko PULP */
-    val PULP = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO s5201ap */
+      val S5201AP = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko PULP 4G */
-    val PULP_4G = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO s5222 */
+      val S5222 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko PULP FAB */
-    val PULP_FAB = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO s5250 */
+      val S5250 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko PULP FAB 4G */
-    val PULP_FAB_4G = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO s5254 */
+      val S5254 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko RAINBOW JAM */
-    val RAINBOW_JAM = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO S5260 */
+      val S5260 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko RAINBOW LITE */
-    val RAINBOW_LITE = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO S5420 */
+      val S5420 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko RAINBOW LITE 4G */
-    val RAINBOW_LITE_4G = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO s8515 */
+      val S8515 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko RAINBOW LITE 4G */
-    val RAINBOW_LITE_4G_720X1280 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO T20 */
+      val T20 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Wiko RIDGE 4G */
-    val RIDGE_4G = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO T2800AN */
+      val T2800AN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko RIDGE FAB 4G */
-    val RIDGE_FAB_4G = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO T3903BN */
+      val T3903BN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko ROBBY */
-    val ROBBY = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO T3931AC */
+      val T3931AC = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko ROBBY2 */
-    val ROBBY2 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO T60 */
+      val T60 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Wiko  SUGAR F7 mini */
-    val SUGAR_F7_MINI = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** WIKO T6901AC */
+      val T6901AC = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko SUGAR S9 */
-    val SUGAR_S9 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** WIKO T9051AC */
+      val T9051AC = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Wiko SUNNY */
-    val SUNNY = "spec:width=480,height=800,unit=px,dpi=240"
+      /** WIKO U307AS */
+      val U307AS = "spec:width=480,height=960,unit=px,dpi=213"
 
-    /** Wiko SUNNY2 */
-    val SUNNY2 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** WIKO U316AT */
+      val U316AT = "spec:width=480,height=960,unit=px,dpi=220"
 
-    /** Wiko Sunny2 Plus */
-    val SUNNY2_PLUS = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO U520AS */
+      val U520AS = "spec:width=720,height=1440,unit=px,dpi=300"
 
-    /** Wiko Sunny3 */
-    val SUNNY3 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO U614AS */
+      val U614AS = "spec:width=720,height=1560,unit=px,dpi=300"
 
-    /** Wiko Sunny3 Mini */
-    val SUNNY3_MINI = "spec:width=480,height=800,unit=px,dpi=240"
+      /** WIKO U616AT */
+      val U616AT = "spec:width=720,height=1600,unit=px,dpi=280"
 
-    /** Wiko sunny4 Plus */
-    val SUNNY4_PLUS = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO v12bn */
+      val V12BN = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko Sunny5 */
-    val SUNNY5 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** WIKO v12bnlite */
+      val V12BNLITE = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko Sunny5 Lite */
-    val SUNNY5_LITE = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** WIKO v12dnlite */
+      val V12DNLITE = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko SUNNY MAX */
-    val SUNNY_MAX = "spec:width=480,height=800,unit=px,dpi=240"
+      /** WIKO v12enlite */
+      val V12ENLITE = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko SUNSET2 */
-    val SUNSET2 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** WIKO V2502AN */
+      val V2502AN = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko T10 */
-    val T10 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO v2508 */
+      val V2508 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko T20 */
-    val T20 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** WIKO v2510 */
+      val V2510 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko T3 */
-    val T3 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO v2520 */
+      val V2520 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko T50 */
-    val T50 = "spec:width=1080,height=2400,unit=px,dpi=400"
+      /** WIKO v2600cn */
+      val V2600CN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko T60 */
-    val T60 = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** WIKO v2610 */
+      val V2610 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko TOMMY */
-    val TOMMY = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V2800AN */
+      val V2800AN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko TOMMY2 */
-    val TOMMY2 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V2802AN */
+      val V2802AN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko Tommy2 Plus */
-    val TOMMY2_PLUS = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO v2806 */
+      val V2806 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko Tommy3 */
-    val TOMMY3 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO V3610AN */
+      val V3610AN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko Tone E19 */
-    val TONE_E19 = "spec:width=720,height=1512,unit=px,dpi=320"
+      /** WIKO V3702AN */
+      val V3702AN = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko U307AS */
-    val U307AS = "spec:width=480,height=960,unit=px,dpi=213"
+      /** WIKO v3720 */
+      val V3720 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko U520AS */
-    val U520AS = "spec:width=720,height=1440,unit=px,dpi=300"
+      /** WIKO v3740 */
+      val V3740 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko U FEEL */
-    val U_FEEL = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V3750AN */
+      val V3750AN = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko U FEEL FAB */
-    val U_FEEL_FAB = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V3802AN */
+      val V3802AN = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko U FEEL GO */
-    val U_FEEL_GO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V3903BN */
+      val V3903BN = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko U FEEL LITE */
-    val U_FEEL_LITE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO v3913 */
+      val V3913 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko U FEEL PRIME */
-    val U_FEEL_PRIME = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** WIKO V3913BN22I */
+      val V3913BN22I = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko U PULSE */
-    val U_PULSE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V3921 */
+      val V3921 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko U PULSE LITE */
-    val U_PULSE_LITE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO V3931AC */
+      val V3931AC = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View */
-    val VIEW = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO V3933AC */
+      val V3933AC = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View2 Go */
-    val VIEW2_GO = "spec:width=720,height=1512,unit=px,dpi=320"
+      /** WIKO v3941 */
+      val V3941 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View2 Plus */
-    val VIEW2_PLUS = "spec:width=720,height=1512,unit=px,dpi=320"
+      /** WIKO v3953 */
+      val V3953 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View3 */
-    val VIEW3 = "spec:width=720,height=1520,unit=px,dpi=280"
+      /** WIKO V3953AN25K */
+      val V3953AN25K = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View3 Lite */
-    val VIEW3_LITE = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** WIKO v3961 */
+      val V3961 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View3 Pro */
-    val VIEW3_PRO = "spec:width=1080,height=2340,unit=px,dpi=420"
+      /** WIKO v3971 */
+      val V3971 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View4 */
-    val VIEW4 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO V3991AN */
+      val V3991AN = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Wiko View4 Lite */
-    val VIEW4_LITE = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO VHEM */
+      val VHEM = "spec:width=720,height=1600,unit=px,dpi=260"
 
-    /** Wiko View5 */
-    val VIEW5 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO WC300 */
+      val WC300 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko View5 Plus */
-    val VIEW5_PLUS = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO WC300SN */
+      val WC300SN = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko View Prime */
-    val VIEW_PRIME = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W_C200SN */
+      val W_C200SN = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko WAX */
-    val WAX = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** WIKO W_C201 */
+      val W_C201 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko WC300 */
-    val WC300 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W_C800 */
+      val W_C800 = "spec:width=720,height=1528,unit=px,dpi=280"
 
-    /** Wiko WC300SN */
-    val WC300SN = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W_C800S */
+      val W_C800S = "spec:width=720,height=1528,unit=px,dpi=280"
 
-    /** Wiko W_C800 */
-    val W_C800 = "spec:width=720,height=1528,unit=px,dpi=280"
+      /** WIKO W_C860 */
+      val W_C860 = "spec:width=720,height=1528,unit=px,dpi=280"
 
-    /** Wiko W_C860 */
-    val W_C860 = "spec:width=720,height=1528,unit=px,dpi=280"
+      /** WIKO W_K101 */
+      val W_K101 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko WIKO 10 */
-    val WIKO_10 = "spec:width=720,height=1600,unit=px,dpi=260"
+      /** WIKO W_K101S */
+      val W_K101S = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Wiko Wiko Life 3 */
-    val WIKO_LIFE_3 = "spec:width=480,height=960,unit=px,dpi=220"
+      /** WIKO W_K120 */
+      val W_K120 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko Wiko Ride 3 */
-    val WIKO_RIDE_3 = "spec:width=720,height=1560,unit=px,dpi=300"
+      /** WIKO W-K130 */
+      val W_K130 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Wiko WIKO T21 */
-    val WIKO_T21 = "spec:width=720,height=1600,unit=px,dpi=480"
+      /** WIKO W-K200 */
+      val W_K200 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko WIKO VOIX */
-    val WIKO_VOIX = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** WIKO W-K211 */
+      val W_K211 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Wiko WIM */
-    val WIM = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** WIKO W_K300 */
+      val W_K300 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko WIM Lite */
-    val WIM_LITE = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** WIKO W_K300S */
+      val W_K300S = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko W-K200 */
-    val W_K200 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO W-K360 */
+      val W_K360 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko W_K300 */
-    val W_K300 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO W-K380 */
+      val W_K380 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Wiko W_K400 */
-    val W_K400 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W_K400 */
+      val W_K400 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko W_K600 */
-    val W_K600 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO W-K420 */
+      val W_K420 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko W_P130 */
-    val W_P130 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W-K510 */
+      val W_K510 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko W_P200 */
-    val W_P200 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W-K510DG */
+      val W_K510DG = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko W_P200CM */
-    val W_P200CM = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W-K521 */
+      val W_K521 = "spec:width=480,height=854,unit=px,dpi=200"
 
-    /** Wiko Y50 */
-    val Y50 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** WIKO W-K560 */
+      val W_K560 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko Y52 */
-    val Y52 = "spec:width=480,height=854,unit=px,dpi=200"
+      /** WIKO W_K600 */
+      val W_K600 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Wiko Y60 */
-    val Y60 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO W-K610 */
+      val W_K610 = "spec:width=720,height=1560,unit=px,dpi=280"
 
-    /** Wiko Y61 */
-    val Y61 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WIKO W-K630 */
+      val W_K630 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Wiko Y62 */
-    val Y62 = "spec:width=720,height=1560,unit=px,dpi=280"
+      /** WIKO W_P130 */
+      val W_P130 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko Y80 */
-    val Y80 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** WIKO W_P200 */
+      val W_P200 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko Y81 */
-    val Y81 = "spec:width=720,height=1520,unit=px,dpi=280"
+      /** WIKO W_P200CM */
+      val W_P200CM = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Wiko Y82 */
-    val Y82 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** WIKO W-P210 */
+      val W_P210 = "spec:width=720,height=1512,unit=px,dpi=320"
 
-}
+      /** WIKO W-P220 */
+      val W_P220 = "spec:width=720,height=1512,unit=px,dpi=320"
+
+      /** WIKO W-P311 */
+      val W_P311 = "spec:width=720,height=1520,unit=px,dpi=280"
+
+      /** WIKO W-P611 */
+      val W_P611 = "spec:width=1080,height=2340,unit=px,dpi=420"
+
+      /** WIKO W-P861 */
+      val W_P861 = "spec:width=1080,height=2400,unit=px,dpi=400"
+
+      /** WIKO W-U300 */
+      val W_U300 = "spec:width=480,height=960,unit=px,dpi=213"
+
+      /** WIKO W-V600 */
+      val W_V600 = "spec:width=720,height=1440,unit=px,dpi=320"
+
+      /** WIKO W-V673 */
+      val W_V673 = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** WIKO W-V680 */
+      val W_V680 = "spec:width=720,height=1520,unit=px,dpi=280"
+
+      /** WIKO W-V720 */
+      val W_V720 = "spec:width=720,height=1440,unit=px,dpi=320"
+
+      /** WIKO W-V730 */
+      val W_V730 = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** WIKO W-V745 */
+      val W_V745 = "spec:width=720,height=1640,unit=px,dpi=280"
+
+      /** WIKO W-V750BN */
+      val W_V750BN = "spec:width=720,height=1640,unit=px,dpi=260"
+
+      /** WIKO W-V755 */
+      val W_V755 = "spec:width=720,height=1640,unit=px,dpi=260"
+
+      /** WIKO W-V770 */
+      val W_V770 = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** WIKO W-V800 */
+      val W_V800 = "spec:width=720,height=1560,unit=px,dpi=320"
+
+      /** WIKO W-V830 */
+      val W_V830 = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** WIKO W-V850 */
+      val W_V850 = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** WIKO W-V851 */
+      val W_V851 = "spec:width=720,height=1600,unit=px,dpi=280"
+
+  }

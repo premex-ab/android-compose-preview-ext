@@ -1,51 +1,54 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Blackberry device specifications for Android Compose previews.
+ * blackberry device specifications for Android Compose previews.
  *
- * This extension provides Blackberry device specifications that can be used with @Preview annotations
+ * This extension provides blackberry device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Blackberry.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Blackberry get() = object {
-    /** Blackberry Aurora */
-    val AURORA = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Blackberry: Any
+  get() = object {
+      /** blackberry argon */
+      val ARGON = "spec:width=1440,height=2560,unit=px,dpi=560"
 
-    /** Blackberry BlackBerry Evolve */
-    val BLACKBERRY_EVOLVE = "spec:width=1080,height=2160,unit=px,dpi=400"
+      /** blackberry bbb100 */
+      val BBB100 = "spec:width=1080,height=1620,unit=px,dpi=420"
 
-    /** Blackberry Blackberry Evolve X */
-    val BLACKBERRY_EVOLVE_X = "spec:width=1080,height=2160,unit=px,dpi=400"
+      /** blackberry bbc100 */
+      val BBC100 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Blackberry BlackBerry KEY2 */
-    val BLACKBERRY_KEY2 = "spec:width=1080,height=1620,unit=px,dpi=420"
+      /** blackberry bbd100 */
+      val BBD100 = "spec:width=1080,height=1920,unit=px,dpi=420"
 
-    /** Blackberry BlackBerry KEY2 LE */
-    val BLACKBERRY_KEY2_LE = "spec:width=1080,height=1620,unit=px,dpi=420"
+      /** blackberry bbe100 */
+      val BBE100 = "spec:width=1080,height=1620,unit=px,dpi=420"
 
-    /** Blackberry BlackBerry MOTION */
-    val BLACKBERRY_MOTION = "spec:width=1080,height=1920,unit=px,dpi=420"
+      /** blackberry bbf100 */
+      val BBF100 = "spec:width=1080,height=1620,unit=px,dpi=420"
 
-    /** Blackberry DTEK50 */
-    val DTEK50 = "spec:width=1080,height=1920,unit=px,dpi=420"
+      /** blackberry bbg100 */
+      val BBG100 = "spec:width=1080,height=2160,unit=px,dpi=400"
 
-    /** Blackberry DTEK60 */
-    val DTEK60 = "spec:width=1440,height=2560,unit=px,dpi=560"
+      /** blackberry bbh100 */
+      val BBH100 = "spec:width=1080,height=2160,unit=px,dpi=400"
 
-    /** Blackberry KEYone */
-    val KEYONE = "spec:width=1080,height=1620,unit=px,dpi=420"
+      /** blackberry hamburg */
+      val HAMBURG = "spec:width=1080,height=1920,unit=px,dpi=420"
 
-    /** Blackberry PRIV by BlackBerry */
-    val PRIV_BY_BLACKBERRY = "spec:width=1440,height=2560,unit=px,dpi=560"
+      /** blackberry venice */
+      val VENICE = "spec:width=1440,height=2560,unit=px,dpi=560"
 
-}
+  }

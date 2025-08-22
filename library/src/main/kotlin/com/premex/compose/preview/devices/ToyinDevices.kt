@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Toyin device specifications for Android Compose previews.
+ * TOYIN device specifications for Android Compose previews.
  *
- * This extension provides Toyin device specifications that can be used with @Preview annotations
+ * This extension provides TOYIN device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Toyin.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Toyin get() = object {
-    /** Toyin RJ TOYIN */
-    val RJ_TOYIN = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Toyin: Any
+  get() = object {
+      /** TOYIN RJ_TOYIN */
+      val RJ_TOYIN = "spec:width=480,height=854,unit=px,dpi=240"
 
-}
+  }

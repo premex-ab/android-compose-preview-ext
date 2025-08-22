@@ -1,36 +1,33 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Motorolasolutions device specifications for Android Compose previews.
+ * MotorolaSolutions device specifications for Android Compose previews.
  *
- * This extension provides Motorolasolutions device specifications that can be used with @Preview annotations
+ * This extension provides MotorolaSolutions device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Motorolasolutions.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Motorolasolutions get() = object {
-    /** Motorolasolutions EVOLVE */
-    val EVOLVE = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Motorolasolutions: Any
+  get() = object {
+      /** MotorolaSolutions LEXF10 */
+      val LEXF10 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Motorolasolutions LEX F10 */
-    val LEX_F10 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** MotorolaSolutions lexl10ig */
+      val LEXL10IG = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Motorolasolutions LEX L10ig */
-    val LEX_L10IG = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** MotorolaSolutions lexl11g_64 */
+      val LEXL11G_64 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Motorolasolutions LEX L11 */
-    val LEX_L11 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Motorolasolutions MOTOTRBO ION */
-    val MOTOTRBO_ION = "spec:width=480,height=800,unit=px,dpi=220"
-
-}
+  }

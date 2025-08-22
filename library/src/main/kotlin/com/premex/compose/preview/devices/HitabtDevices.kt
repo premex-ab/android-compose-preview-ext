@@ -1,30 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Hitabt device specifications for Android Compose previews.
+ * hitabt device specifications for Android Compose previews.
  *
- * This extension provides Hitabt device specifications that can be used with @Preview annotations
+ * This extension provides hitabt device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Hitabt.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Hitabt get() = object {
-    /** Hitabt K30A */
-    val K30A = "spec:width=1200,height=1920,unit=px,dpi=280"
+ * ```
+ */
+public val Devices.Hitabt: Any
+  get() = object {
+      /** hitabt K30A */
+      val K30A = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-    /** Hitabt 	P30A */
-    val P30A = "spec:width=1200,height=2000,unit=px,dpi=240"
+      /** hitabt P30A */
+      val P30A = "spec:width=1200,height=2000,unit=px,dpi=240"
 
-    /** Hitabt T30A_SY07PC01 */
-    val T30A_SY07PC01 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** hitabt T30A_SY07PC01 */
+      val T30A_SY07PC01 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

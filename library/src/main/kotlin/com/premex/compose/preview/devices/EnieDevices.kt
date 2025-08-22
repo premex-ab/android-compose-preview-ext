@@ -1,39 +1,41 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Enie device specifications for Android Compose previews.
+ * ENIE device specifications for Android Compose previews.
  *
- * This extension provides Enie device specifications that can be used with @Preview annotations
+ * This extension provides ENIE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Enie.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Enie get() = object {
-    /** Enie E4Pro */
-    val E4PRO = "spec:width=640,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Enie: Any
+  get() = object {
+      /** ENIE E4Pro */
+      val E4PRO = "spec:width=640,height=1280,unit=px,dpi=320"
 
-    /** Enie EH3 */
-    val EH3 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** ENIE EH3 */
+      val EH3 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Enie ENIE_E2 */
-    val ENIE_E2 = "spec:width=720,height=1560,unit=px,dpi=300"
+      /** ENIE ENIE_E2 */
+      val ENIE_E2 = "spec:width=720,height=1560,unit=px,dpi=300"
 
-    /** Enie SKT119 */
-    val SKT119 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** ENIE SKT119 */
+      val SKT119 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Enie SKT706 */
-    val SKT706 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** ENIE SKT706 */
+      val SKT706 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Enie VT8216 */
-    val VT8216 = "spec:width=800,height=1280,unit=px,dpi=220"
+      /** ENIE VT8216 */
+      val VT8216 = "spec:width=800,height=1280,unit=px,dpi=220"
 
-}
+  }

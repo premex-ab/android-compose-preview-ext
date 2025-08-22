@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Pokini device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Pokini.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Pokini get() = object {
-    /** Pokini K6 */
-    val K6 = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Pokini: Any
+  get() = object {
+      /** Pokini K6 */
+      val K6 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-}
+  }

@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Nexwin device specifications for Android Compose previews.
+ * NEXWIN device specifications for Android Compose previews.
  *
- * This extension provides Nexwin device specifications that can be used with @Preview annotations
+ * This extension provides NEXWIN device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nexwin.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nexwin get() = object {
-    /** Nexwin interactive flat panel display */
-    val INTERACTIVE_FLAT_PANEL_DISPLAY = "spec:width=2160,height=3840,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Nexwin: Any
+  get() = object {
+      /** NEXWIN IFPD_RK3588 */
+      val IFPD_RK3588 = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-}
+  }

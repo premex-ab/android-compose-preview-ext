@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Thinkacademy device specifications for Android Compose previews.
+ * ThinkAcademy device specifications for Android Compose previews.
  *
- * This extension provides Thinkacademy device specifications that can be used with @Preview annotations
+ * This extension provides ThinkAcademy device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Thinkacademy.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Thinkacademy get() = object {
-    /** Thinkacademy T100 */
-    val T100 = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Thinkacademy: Any
+  get() = object {
+      /** ThinkAcademy T100 */
+      val T100 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-}
+  }

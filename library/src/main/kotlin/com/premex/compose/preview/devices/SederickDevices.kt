@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Sederick device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Sederick.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Sederick get() = object {
-    /** Sederick KT101 */
-    val KT101 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Sederick: Any
+  get() = object {
+      /** Sederick KT101 */
+      val KT101 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

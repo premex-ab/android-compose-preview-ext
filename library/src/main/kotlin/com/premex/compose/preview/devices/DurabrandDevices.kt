@@ -1,0 +1,36 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * Durabrand device specifications for Android Compose previews.
+ *
+ * This extension provides Durabrand device specifications that can be used with @Preview
+ * annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Durabrand.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Durabrand: Any
+  get() = object {
+      /** Durabrand broadway */
+      val BROADWAY = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** Durabrand dupont */
+      val DUPONT = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** Durabrand hanyang */
+      val HANYANG = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** Durabrand nippori */
+      val NIPPORI = "spec:width=720,height=1280,unit=px,dpi=213"
+
+  }

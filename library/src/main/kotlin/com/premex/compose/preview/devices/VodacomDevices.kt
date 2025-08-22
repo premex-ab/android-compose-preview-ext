@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Vodacom device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vodacom.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vodacom get() = object {
-    /** Vodacom Kicka7 */
-    val KICKA7 = "spec:width=576,height=1152,unit=px,dpi=220"
+ * ```
+ */
+public val Devices.Vodacom: Any
+  get() = object {
+      /** Vodacom H6032_VDC */
+      val H6032_VDC = "spec:width=576,height=1152,unit=px,dpi=220"
 
-}
+  }

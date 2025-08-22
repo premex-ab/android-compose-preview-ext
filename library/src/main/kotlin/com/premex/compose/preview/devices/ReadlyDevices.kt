@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Readly device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Readly.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Readly get() = object {
-    /** Readly ReadlyReaderOne  */
-    val READLYREADERONE = "spec:width=800,height=1280,unit=px,dpi=200"
+ * ```
+ */
+public val Devices.Readly: Any
+  get() = object {
+      /** Readly ReadlyReaderOne */
+      val READLYREADERONE = "spec:width=800,height=1280,unit=px,dpi=200"
 
-}
+  }

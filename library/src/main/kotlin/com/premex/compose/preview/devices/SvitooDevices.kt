@@ -1,39 +1,41 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Svitoo device specifications for Android Compose previews.
+ * SVITOO device specifications for Android Compose previews.
  *
- * This extension provides Svitoo device specifications that can be used with @Preview annotations
+ * This extension provides SVITOO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Svitoo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Svitoo get() = object {
-    /** Svitoo P08 */
-    val P08 = "spec:width=800,height=1340,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Svitoo: Any
+  get() = object {
+      /** SVITOO P08 */
+      val P08 = "spec:width=800,height=1340,unit=px,dpi=213"
 
-    /** Svitoo P10_pro */
-    val P10_PRO = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** SVITOO P10 */
+      val P10 = "spec:width=800,height=1280,unit=px,dpi=180"
 
-    /** Svitoo P11_pro */
-    val P11_PRO = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** SVITOO P11 */
+      val P11 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Svitoo P11_pro_EEA */
-    val P11_PRO_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** SVITOO P11_pro_EEA */
+      val P11_PRO_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Svitoo SVITOO_P10 */
-    val SVITOO_P10 = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** SVITOO SVITOO_P10 */
+      val SVITOO_P10 = "spec:width=800,height=1280,unit=px,dpi=180"
 
-    /** Svitoo TAB_P12_EEA */
-    val TAB_P12_EEA = "spec:width=1200,height=2000,unit=px,dpi=280"
+      /** SVITOO TAB_P12 */
+      val TAB_P12 = "spec:width=1200,height=2000,unit=px,dpi=280"
 
-}
+  }

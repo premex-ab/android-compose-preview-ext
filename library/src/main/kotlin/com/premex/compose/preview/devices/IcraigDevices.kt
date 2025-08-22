@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Icraig device specifications for Android Compose previews.
+ * iCraig device specifications for Android Compose previews.
  *
- * This extension provides Icraig device specifications that can be used with @Preview annotations
+ * This extension provides iCraig device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Icraig.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Icraig get() = object {
-    /** Icraig CMP838 */
-    val CMP838 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Icraig: Any
+  get() = object {
+      /** iCraig CMP838 */
+      val CMP838 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Icraig CMP840 */
-    val CMP840 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** iCraig CMP840 */
+      val CMP840 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

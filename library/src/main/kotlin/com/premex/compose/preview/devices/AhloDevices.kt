@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Ahlo device specifications for Android Compose previews.
+ * ahlo device specifications for Android Compose previews.
  *
- * This extension provides Ahlo device specifications that can be used with @Preview annotations
+ * This extension provides ahlo device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ahlo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ahlo get() = object {
-    /** Ahlo 1 */
-    val _1 = "spec:width=1080,height=2408,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Ahlo: Any
+  get() = object {
+      /** ahlo CAV */
+      val CAV = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-}
+  }

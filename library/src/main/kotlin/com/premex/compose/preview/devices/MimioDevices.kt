@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Mimio device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Mimio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Mimio get() = object {
-    /** Mimio MimioPro-G XX5 */
-    val MIMIOPRO_G_XX5 = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Mimio: Any
+  get() = object {
+      /** Mimio rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

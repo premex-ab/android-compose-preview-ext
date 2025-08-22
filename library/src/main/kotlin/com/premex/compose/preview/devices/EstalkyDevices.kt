@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Estalky device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Estalky.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Estalky get() = object {
-    /** Estalky Estalky-E618 */
-    val ESTALKY_E618 = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Estalky: Any
+  get() = object {
+      /** Estalky E618 */
+      val E618 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-}
+  }

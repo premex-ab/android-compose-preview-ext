@@ -1,30 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Yosatoo device specifications for Android Compose previews.
+ * YosaToo device specifications for Android Compose previews.
  *
- * This extension provides Yosatoo device specifications that can be used with @Preview annotations
+ * This extension provides YosaToo device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Yosatoo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Yosatoo get() = object {
-    /** Yosatoo Y10 */
-    val Y10 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Yosatoo: Any
+  get() = object {
+      /** YosaToo Y10 */
+      val Y10 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Yosatoo Y101 */
-    val Y101 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** YosaToo Y101 */
+      val Y101 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Yosatoo Y102 */
-    val Y102 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** YosaToo Y102 */
+      val Y102 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

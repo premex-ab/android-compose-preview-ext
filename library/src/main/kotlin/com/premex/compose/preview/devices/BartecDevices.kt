@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Bartec device specifications for Android Compose previews.
+ * BARTEC device specifications for Android Compose previews.
  *
- * This extension provides Bartec device specifications that can be used with @Preview annotations
+ * This extension provides BARTEC device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Bartec.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Bartec get() = object {
-    /** Bartec BARTEC SP9EX1 Smartphone */
-    val BARTEC_SP9EX1_SMARTPHONE = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Bartec: Any
+  get() = object {
+      /** BARTEC PixaviPhone */
+      val PIXAVIPHONE = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Bartec Pixavi Phone */
-    val PIXAVI_PHONE = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** BARTEC SP9EX1 */
+      val SP9EX1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

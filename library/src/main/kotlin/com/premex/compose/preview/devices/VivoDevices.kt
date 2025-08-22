@@ -1,1473 +1,1418 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vivo device specifications for Android Compose previews.
+ * vivo device specifications for Android Compose previews.
  *
- * This extension provides Vivo device specifications that can be used with @Preview annotations
+ * This extension provides vivo device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vivo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vivo get() = object {
-    /** Vivo 1601 */
-    val _1601 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Vivo: Any
+  get() = object {
+      /** vivo bbk6735_65c_l */
+      val BBK6735_65C_L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo 1609 */
-    val _1609 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo bbk6752_lwt_kk */
+      val BBK6752_LWT_KK = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo I1927 */
-    val I1927 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo bbk6752_lwt_l */
+      val BBK6752_LWT_L = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo I2009 */
-    val I2009 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo DPD2106 */
+      val DPD2106 = "spec:width=1600,height=2560,unit=px,dpi=400"
 
-    /** Vivo I2011 */
-    val I2011 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo DPD2221 */
+      val DPD2221 = "spec:width=1968,height=2800,unit=px,dpi=400"
 
-    /** Vivo I2012 */
-    val I2012 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo DPD2305 */
+      val DPD2305 = "spec:width=1840,height=2800,unit=px,dpi=400"
 
-    /** Vivo I2017 */
-    val I2017 = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo DPD2307 */
+      val DPD2307 = "spec:width=1968,height=2800,unit=px,dpi=400"
 
-    /** Vivo I2127 */
-    val I2127 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo DPD2345 */
+      val DPD2345 = "spec:width=1968,height=2800,unit=px,dpi=400"
 
-    /** Vivo I2202 */
-    val I2202 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo DPD2424 */
+      val DPD2424 = "spec:width=1600,height=2464,unit=px,dpi=400"
 
-    /** Vivo I2306 */
-    val I2306 = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo DPD2429 */
+      val DPD2429 = "spec:width=2064,height=3096,unit=px,dpi=400"
 
-    /** Vivo iQOO 10 */
-    val IQOO_10 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo DPD2437 */
+      val DPD2437 = "spec:width=1968,height=2800,unit=px,dpi=400"
 
-    /** Vivo iQOO 10 Pro */
-    val IQOO_10_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo msm8916_32 */
+      val MSM8916_32 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vivo iQOO 11 */
-    val IQOO_11 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1401CL */
+      val PD1401CL = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO 11 */
-    val IQOO_11_1080X2400 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1415A */
+      val PD1415A = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO 11 Pro */
-    val IQOO_11_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1415BA */
+      val PD1415BA = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO 11S */
-    val IQOO_11S = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1415D */
+      val PD1415D = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO 12 */
-    val IQOO_12 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1421V */
+      val PD1421V = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO 12 */
-    val IQOO_12_1260X2800 = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1501D */
+      val PD1501D = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO 12 Pro */
-    val IQOO_12_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1502A */
+      val PD1502A = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO 13 */
-    val IQOO_13 = "spec:width=1440,height=3168,unit=px,dpi=440"
+      /** vivo PD1502L */
+      val PD1502L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO 13 */
-    val IQOO_13_1440X3168 = "spec:width=1440,height=3168,unit=px,dpi=480"
+      /** vivo PD1503 */
+      val PD1503 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO 9 Pro */
-    val IQOO_9_PRO = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1505 */
+      val PD1505 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO 9 SE */
-    val IQOO_9_SE = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1510 */
+      val PD1510 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Vivo iQOO 9T */
-    val IQOO_9T = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1515A */
+      val PD1515A = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo10 */
-    val IQOO_NEO10 = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1515BA */
+      val PD1515BA = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo10 Pro */
-    val IQOO_NEO10_PRO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1522A */
+      val PD1522A = "spec:width=1080,height=2340,unit=px,dpi=420"
 
-    /** Vivo iQOO Neo 10R */
-    val IQOO_NEO_10R = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1523 */
+      val PD1523 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo5S */
-    val IQOO_NEO5S = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1524 */
+      val PD1524 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO Neo6 */
-    val IQOO_NEO6 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1524B */
+      val PD1524B = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO Neo6 SE */
-    val IQOO_NEO6_SE = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1602 */
+      val PD1602 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo7 */
-    val IQOO_NEO7 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1603 */
+      val PD1603 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo7 */
-    val IQOO_NEO7_1080X2400 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1610 */
+      val PD1610 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo7 Pro */
-    val IQOO_NEO7_PRO = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1612 */
+      val PD1612 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO Neo7 SE */
-    val IQOO_NEO7_SE = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD1613 */
+      val PD1613 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO Neo8 */
-    val IQOO_NEO8 = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1616 */
+      val PD1616 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo  iQOO Neo8 Pro */
-    val IQOO_NEO8_PRO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1616B */
+      val PD1616B = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo9 */
-    val IQOO_NEO9 = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1619 */
+      val PD1619 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Neo9 Pro */
-    val IQOO_NEO9_PRO = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1621 */
+      val PD1621 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO Neo9S Pro+ */
-    val IQOO_NEO9S_PRO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1621B */
+      val PD1621B = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Pad */
-    val IQOO_PAD = "spec:width=1968,height=2800,unit=px,dpi=400"
+      /** vivo PD1624 */
+      val PD1624 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Pad2 */
-    val IQOO_PAD2 = "spec:width=1968,height=2800,unit=px,dpi=400"
+      /** vivo PD1628 */
+      val PD1628 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Pad Air */
-    val IQOO_PAD_AIR = "spec:width=1840,height=2800,unit=px,dpi=400"
+      /** vivo PD1635 */
+      val PD1635 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z10 5G */
-    val IQOO_Z10_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD1705 */
+      val PD1705 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo  iQOO Z10R 5G */
-    val IQOO_Z10R_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD1708 */
+      val PD1708 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z10 Turbo Pro */
-    val IQOO_Z10_TURBO_PRO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1708C */
+      val PD1708C = "spec:width=1080,height=1920,unit=px,dpi=240"
 
-    /** Vivo iQOO Z10x 5G */
-    val IQOO_Z10X_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD1709 */
+      val PD1709 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z5 */
-    val IQOO_Z5 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1709F_EX */
+      val PD1709F_EX = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Vivo iQOO Z5 6000mAh */
-    val IQOO_Z5_6000MAH = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD1710 */
+      val PD1710 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z6 */
-    val IQOO_Z6 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1710F_EX */
+      val PD1710F_EX = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Vivo iQOO Z6 Lite 5G */
-    val IQOO_Z6_LITE_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD1718 */
+      val PD1718 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo iQOO Z6 Pro */
-    val IQOO_Z6_PRO = "spec:width=1080,height=2404,unit=px,dpi=440"
+      /** vivo PD1721 */
+      val PD1721 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z6x */
-    val IQOO_Z6X = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD1728 */
+      val PD1728 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z7 */
-    val IQOO_Z7 = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo PD1728UD */
+      val PD1728UD = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z7 5G */
-    val IQOO_Z7_5G = "spec:width=1080,height=2388,unit=px,dpi=440"
+      /** vivo PD1730 */
+      val PD1730 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z7 5G */
-    val IQOO_Z7_5G_1080X2400 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1730C */
+      val PD1730C = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z7 Pro 5G */
-    val IQOO_Z7_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1730D */
+      val PD1730D = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z7s 5G */
-    val IQOO_Z7S_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1730E */
+      val PD1730E = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z7x 5G */
-    val IQOO_Z7X_5G = "spec:width=1080,height=2388,unit=px,dpi=440"
+      /** vivo PD1730G */
+      val PD1730G = "spec:width=1080,height=2400,unit=px,dpi=420"
 
-    /** Vivo iQOO Z7x (m) */
-    val IQOO_Z7X_M = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo PD1731 */
+      val PD1731 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z8 */
-    val IQOO_Z8 = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo PD1731C */
+      val PD1731C = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z9 5G */
-    val IQOO_Z9_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1731D */
+      val PD1731D = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z9 5G */
-    val IQOO_Z9_5G_1260X2800 = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo PD1732 */
+      val PD1732 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z9s 5G */
-    val IQOO_Z9S_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD1801 */
+      val PD1801 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z9s Pro 5G */
-    val IQOO_Z9S_PRO_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD1803 */
+      val PD1803 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo iQOO Z9 Turbo */
-    val IQOO_Z9_TURBO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1805 */
+      val PD1805 = "spec:width=1080,height=2316,unit=px,dpi=480"
 
-    /** Vivo iQOO Z9x 5G */
-    val IQOO_Z9X_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD1806 */
+      val PD1806 = "spec:width=1080,height=2316,unit=px,dpi=480"
 
-    /** Vivo NEX A */
-    val NEX_A = "spec:width=1080,height=2316,unit=px,dpi=480"
+      /** vivo PD1806B */
+      val PD1806B = "spec:width=1080,height=2316,unit=px,dpi=480"
 
-    /** Vivo PA2170 */
-    val PA2170 = "spec:width=1600,height=2560,unit=px,dpi=400"
+      /** vivo PD1809 */
+      val PD1809 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo PD1731D */
-    val PD1731D = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1813 */
+      val PD1813 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S17 */
-    val S17 = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1813B */
+      val PD1813B = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S17 Pro  */
-    val S17_PRO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1813C */
+      val PD1813C = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo S17t */
-    val S17T = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1813D */
+      val PD1813D = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S18 Pro */
-    val S18_PRO = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1813E */
+      val PD1813E = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S19 Pro */
-    val S19_PRO = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1814 */
+      val PD1814 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S20 */
-    val S20 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1816 */
+      val PD1816 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S20 Pro */
-    val S20_PRO = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo PD1818 */
+      val PD1818 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo S30 */
-    val S30 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD1818B */
+      val PD1818B = "spec:width=1440,height=2960,unit=px,dpi=420"
 
-    /** Vivo S30 Pro mini */
-    val S30_PRO_MINI = "spec:width=1216,height=2640,unit=px,dpi=560"
+      /** vivo PD1818C */
+      val PD1818C = "spec:width=1080,height=1920,unit=px,dpi=240"
 
-    /** Vivo T1 */
-    val T1 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1818E */
+      val PD1818E = "spec:width=1080,height=1920,unit=px,dpi=240"
 
-    /** Vivo T1 5G */
-    val T1_5G = "spec:width=1080,height=2404,unit=px,dpi=440"
+      /** vivo PD1818G */
+      val PD1818G = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo T2 */
-    val T2 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1821 */
+      val PD1821 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo T2 5G */
-    val T2_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1824 */
+      val PD1824 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo T2 Pro 5G */
-    val T2_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1829 */
+      val PD1829 = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-    /** Vivo T2x 5G */
-    val T2X_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD1831 */
+      val PD1831 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo T3 5G */
-    val T3_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD1832 */
+      val PD1832 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo T3 Ultra */
-    val T3_ULTRA = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo PD1836 */
+      val PD1836 = "spec:width=1080,height=2460,unit=px,dpi=480"
 
-    /** Vivo T3x 5G */
-    val T3X_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD1838 */
+      val PD1838 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo T4R 5G */
-    val T4R_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD1901 */
+      val PD1901 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo T4 Ultra */
-    val T4_ULTRA = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo PD1911 */
+      val PD1911 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo U5x */
-    val U5X = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD1913 */
+      val PD1913 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo V1 */
-    val V1 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo PD1914 */
+      val PD1914 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1730EA */
-    val V1730EA = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1916 */
+      val PD1916 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1731CA */
-    val V1731CA = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1921 */
+      val PD1921 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1732A */
-    val V1732A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1922 */
+      val PD1922 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1809A */
-    val V1809A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1923 */
+      val PD1923 = "spec:width=1080,height=2256,unit=px,dpi=440"
 
-    /** Vivo V1813BA */
-    val V1813BA = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1924 */
+      val PD1924 = "spec:width=1080,height=2256,unit=px,dpi=440"
 
-    /** Vivo V1813BT */
-    val V1813BT = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1928 */
+      val PD1928 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo V1814A */
-    val V1814A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1930 */
+      val PD1930 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo V1816A */
-    val V1816A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1932 */
+      val PD1932 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1818A */
-    val V1818A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1934 */
+      val PD1934 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo V1818A */
-    val V1818A_720X1520 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo PD1936 */
+      val PD1936 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1821BA */
-    val V1821BA = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1936G */
+      val PD1936G = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1824A */
-    val V1824A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1938 */
+      val PD1938 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1829A */
-    val V1829A = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** vivo PD1941 */
+      val PD1941 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1836A */
-    val V1836A = "spec:width=1080,height=2460,unit=px,dpi=480"
+      /** vivo PD1945 */
+      val PD1945 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo V1838A */
-    val V1838A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1950 */
+      val PD1950 = "spec:width=1080,height=2256,unit=px,dpi=440"
 
-    /** Vivo V1901K */
-    val V1901K = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo PD1955 */
+      val PD1955 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1911A */
-    val V1911A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1962 */
+      val PD1962 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1913A */
-    val V1913A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD1963 */
+      val PD1963 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1914A */
-    val V1914A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1965 */
+      val PD1965 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1916A */
-    val V1916A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1981 */
+      val PD1981 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V1921A */
-    val V1921A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1986 */
+      val PD1986 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V1922A */
-    val V1922A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD1990 */
+      val PD1990 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1923A */
-    val V1923A = "spec:width=1080,height=2256,unit=px,dpi=440"
+      /** vivo PD2001 */
+      val PD2001 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1924A */
-    val V1924A = "spec:width=1080,height=2256,unit=px,dpi=440"
+      /** vivo PD2002 */
+      val PD2002 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1928A */
-    val V1928A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2005 */
+      val PD2005 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1930 */
-    val V1930 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2011 */
+      val PD2011 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1930A */
-    val V1930A = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo PD2012 */
+      val PD2012 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V1932A */
-    val V1932A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2019 */
+      val PD2019 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1934A */
-    val V1934A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2020 */
+      val PD2020 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1936A */
-    val V1936A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2023 */
+      val PD2023 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo V1936AL */
-    val V1936AL = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2024 */
+      val PD2024 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1937 */
-    val V1937 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2031 */
+      val PD2031 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1938CT */
-    val V1938CT = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2031EA */
+      val PD2031EA = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1941A */
-    val V1941A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2034 */
+      val PD2034 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V1945A */
-    val V1945A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2034D */
+      val PD2034D = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V1950A */
-    val V1950A = "spec:width=1080,height=2256,unit=px,dpi=440"
+      /** vivo PD2036 */
+      val PD2036 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V1955A */
-    val V1955A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2046 */
+      val PD2046 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1962A */
-    val V1962A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2047 */
+      val PD2047 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1963A */
-    val V1963A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2048 */
+      val PD2048 = "spec:width=1080,height=2404,unit=px,dpi=480"
 
-    /** Vivo V1965A */
-    val V1965A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2049 */
+      val PD2049 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1981A */
-    val V1981A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2054 */
+      val PD2054 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V1986A */
-    val V1986A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2055 */
+      val PD2055 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V1990A */
-    val V1990A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2056 */
+      val PD2056 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V1Max */
-    val V1MAX = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo PD2057 */
+      val PD2057 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2001A */
-    val V2001A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2061 */
+      val PD2061 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2002A */
-    val V2002A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2065 */
+      val PD2065 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2005A */
-    val V2005A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2066 */
+      val PD2066 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2009A */
-    val V2009A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2066B */
+      val PD2066B = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2011A */
-    val V2011A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2068 */
+      val PD2068 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2012A */
-    val V2012A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2069 */
+      val PD2069 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2020A */
-    val V2020A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2072 */
+      val PD2072 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2022 */
-    val V2022 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2073 */
+      val PD2073 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2023A */
-    val V2023A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo PD2080 */
+      val PD2080 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2025 */
-    val V2025 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2085 */
+      val PD2085 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V2025A */
-    val V2025A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2092 */
+      val PD2092 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2027 */
-    val V2027 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2102 */
+      val PD2102 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2028 */
-    val V2028 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2106 */
+      val PD2106 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2030 */
-    val V2030 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2111 */
+      val PD2111 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2031 */
-    val V2031 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2115 */
+      val PD2115 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2031A */
-    val V2031A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2118 */
+      val PD2118 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2031EA */
-    val V2031EA = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2121 */
+      val PD2121 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2036A */
-    val V2036A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2123 */
+      val PD2123 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2038 */
-    val V2038 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2130 */
+      val PD2130 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2040 */
-    val V2040 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2131 */
+      val PD2131 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2041 */
-    val V2041 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2133 */
+      val PD2133 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V2044 */
-    val V2044 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2134 */
+      val PD2134 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V2045 */
-    val V2045 = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo PD2136 */
+      val PD2136 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V2046 */
-    val V2046 = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo PD2140 */
+      val PD2140 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo V2046A */
-    val V2046A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2141 */
+      val PD2141 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2047 */
-    val V2047 = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo PD2143 */
+      val PD2143 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2048 */
-    val V2048 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2145 */
+      val PD2145 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2048A */
-    val V2048A = "spec:width=1080,height=2404,unit=px,dpi=480"
+      /** vivo PD2148 */
+      val PD2148 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2049A */
-    val V2049A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2154 */
+      val PD2154 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2050 */
-    val V2050 = "spec:width=1080,height=2404,unit=px,dpi=440"
+      /** vivo PD2156 */
+      val PD2156 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2054A */
-    val V2054A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2156U */
+      val PD2156U = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2054A */
-    val V2054A_720X1600 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2157 */
+      val PD2157 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2055 */
-    val V2055 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2158 */
+      val PD2158 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2055A */
-    val V2055A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2162 */
+      val PD2162 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2056A */
-    val V2056A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2163 */
+      val PD2163 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V2057A */
-    val V2057A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2164 */
+      val PD2164 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2058 */
-    val V2058 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2164U */
+      val PD2164U = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2059 */
-    val V2059 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2165 */
+      val PD2165 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2059A */
-    val V2059A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2166 */
+      val PD2166 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2060 */
-    val V2060 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2168 */
+      val PD2168 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2061 */
-    val V2061 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2170 */
+      val PD2170 = "spec:width=1080,height=2310,unit=px,dpi=480"
 
-    /** Vivo V2061A */
-    val V2061A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2171 */
+      val PD2171 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2065A */
-    val V2065A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2172 */
+      val PD2172 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2066A */
-    val V2066A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2178 */
+      val PD2178 = "spec:width=1916,height=2160,unit=px,dpi=480"
 
-    /** Vivo V2066BA */
-    val V2066BA = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2180 */
+      val PD2180 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2068A */
-    val V2068A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2183 */
+      val PD2183 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2072A */
-    val V2072A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2185 */
+      val PD2185 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2073A */
-    val V2073A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2186 */
+      val PD2186 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2080A */
-    val V2080A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2188 */
+      val PD2188 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2085A */
-    val V2085A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2190 */
+      val PD2190 = "spec:width=1080,height=2404,unit=px,dpi=480"
 
-    /** Vivo V2099A */
-    val V2099A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2196 */
+      val PD2196 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2101 */
-    val V2101 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2199 */
+      val PD2199 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2102A */
-    val V2102A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2203 */
+      val PD2203 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2104 */
-    val V2104 = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo PD2207 */
+      val PD2207 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo V2109 */
-    val V2109 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2217 */
+      val PD2217 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2111 */
-    val V2111 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2218 */
+      val PD2218 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2111A */
-    val V2111A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2219 */
+      val PD2219 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2115A */
-    val V2115A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2220 */
+      val PD2220 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2116 */
-    val V2116 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2224 */
+      val PD2224 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V2118 */
-    val V2118 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2227 */
+      val PD2227 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2118A */
-    val V2118A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2229 */
+      val PD2229 = "spec:width=1916,height=2160,unit=px,dpi=480"
 
-    /** Vivo V2121A */
-    val V2121A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2230 */
+      val PD2230 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2123A */
-    val V2123A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2231 */
+      val PD2231 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2124 */
-    val V2124 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2232 */
+      val PD2232 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2126 */
-    val V2126 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2236 */
+      val PD2236 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo V2127 */
-    val V2127 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2238 */
+      val PD2238 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2129 */
-    val V2129 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2239 */
+      val PD2239 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2130 */
-    val V2130 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2241 */
+      val PD2241 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V2130A */
-    val V2130A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2242 */
+      val PD2242 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V2131 */
-    val V2131 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2243 */
+      val PD2243 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2131A */
-    val V2131A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2244 */
+      val PD2244 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2132 */
-    val V2132 = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo PD2245 */
+      val PD2245 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2132A */
-    val V2132A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2254 */
+      val PD2254 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2133A */
-    val V2133A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2256 */
+      val PD2256 = "spec:width=1080,height=2520,unit=px,dpi=480"
 
-    /** Vivo V2136A */
-    val V2136A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2266 */
+      val PD2266 = "spec:width=1916,height=2160,unit=px,dpi=480"
 
-    /** Vivo V2140A */
-    val V2140A = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2270 */
+      val PD2270 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2141 */
-    val V2141 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2271 */
+      val PD2271 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2141A */
-    val V2141A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2272 */
+      val PD2272 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2143 */
-    val V2143 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo PD2278 */
+      val PD2278 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2143A */
-    val V2143A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2279 */
+      val PD2279 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2145A */
-    val V2145A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2279J */
+      val PD2279J = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2148A */
-    val V2148A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2282 */
+      val PD2282 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2152 */
-    val V2152 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo PD2283 */
+      val PD2283 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2156FA */
-    val V2156FA = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2284 */
+      val PD2284 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2157A */
-    val V2157A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2285 */
+      val PD2285 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2158A */
-    val V2158A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2301 */
+      val PD2301 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2162A */
-    val V2162A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2302 */
+      val PD2302 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2163A */
-    val V2163A = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo PD2303 */
+      val PD2303 = "spec:width=2200,height=2480,unit=px,dpi=520"
 
-    /** Vivo V2164PA */
-    val V2164PA = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2304 */
+      val PD2304 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2165A */
-    val V2165A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2307 */
+      val PD2307 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2166A */
-    val V2166A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2309 */
+      val PD2309 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V2166BA */
-    val V2166BA = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2312 */
+      val PD2312 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2168A */
-    val V2168A = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo PD2313 */
+      val PD2313 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V2171A */
-    val V2171A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2314 */
+      val PD2314 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Vivo V2172A */
-    val V2172A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2317 */
+      val PD2317 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Vivo V2203A */
-    val V2203A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo PD2318 */
+      val PD2318 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Vivo V2220A */
-    val V2220A = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo PD2323 */
+      val PD2323 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V2279A */
-    val V2279A = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo PD2327 */
+      val PD2327 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Vivo V2353A */
-    val V2353A = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo PD2329 */
+      val PD2329 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V25 */
-    val V25 = "spec:width=1080,height=2404,unit=px,dpi=440"
+      /** vivo PD2334 */
+      val PD2334 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V25e */
-    val V25E = "spec:width=1080,height=2404,unit=px,dpi=440"
+      /** vivo PD2337 */
+      val PD2337 = "spec:width=2200,height=2480,unit=px,dpi=520"
 
-    /** Vivo V25 Pro */
-    val V25_PRO = "spec:width=1080,height=2376,unit=px,dpi=440"
+      /** vivo PD2338 */
+      val PD2338 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V27 */
-    val V27 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2344 */
+      val PD2344 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V27 Pro */
-    val V27_PRO = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2352 */
+      val PD2352 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V29 */
-    val V29 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD2353 */
+      val PD2353 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V29 Lite 5G */
-    val V29_LITE_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2354 */
+      val PD2354 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo V3 */
-    val V3 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo PD2354M */
+      val PD2354M = "spec:width=720,height=1608,unit=px,dpi=320"
 
-    /** Vivo V30 */
-    val V30 = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo PD2357 */
+      val PD2357 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Vivo V30e */
-    val V30E = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2361 */
+      val PD2361 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V30 Lite */
-    val V30_LITE = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2362 */
+      val PD2362 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V30 Pro */
-    val V30_PRO = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo PD2364 */
+      val PD2364 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V30 SE */
-    val V30_SE = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2366 */
+      val PD2366 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo V3M A */
-    val V3M_A = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo PD2403 */
+      val PD2403 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V3Max */
-    val V3MAX = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2405 */
+      val PD2405 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V3Max A */
-    val V3MAX_A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2408 */
+      val PD2408 = "spec:width=1440,height=3168,unit=px,dpi=480"
 
-    /** Vivo V40 */
-    val V40 = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo PD2410 */
+      val PD2410 = "spec:width=1080,height=2392,unit=px,dpi=480"
 
-    /** Vivo V40e */
-    val V40E = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD2415 */
+      val PD2415 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V40 Lite */
-    val V40_LITE = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2417 */
+      val PD2417 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V40 Lite 5G */
-    val V40_LITE_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo PD2419 */
+      val PD2419 = "spec:width=1216,height=2640,unit=px,dpi=560"
 
-    /** Vivo V50 */
-    val V50 = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo PD2425 */
+      val PD2425 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V9 */
-    val V9 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo PD2426 */
+      val PD2426 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo V9 6GB */
-    val V9_6GB = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo PD2429 */
+      val PD2429 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo V9 Pro */
-    val V9_PRO = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo PD2430 */
+      val PD2430 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo vivo 1611 */
-    val VIVO_1611 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2435 */
+      val PD2435 = "spec:width=1080,height=2392,unit=px,dpi=480"
 
-    /** Vivo vivo 1714 */
-    val VIVO_1714 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo PD2436 */
+      val PD2436 = "spec:width=2200,height=2480,unit=px,dpi=520"
 
-    /** Vivo vivo 1716 */
-    val VIVO_1716 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** vivo PD2442 */
+      val PD2442 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo vivo 1718 */
-    val VIVO_1718 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** vivo PD2444 */
+      val PD2444 = "spec:width=720,height=1608,unit=px,dpi=320"
 
-    /** Vivo vivo 1720 */
-    val VIVO_1720 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** vivo PD2445 */
+      val PD2445 = "spec:width=1080,height=2408,unit=px,dpi=480"
 
-    /** Vivo vivo 1721 */
-    val VIVO_1721 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** vivo PD2452 */
+      val PD2452 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo vivo 1723 */
-    val VIVO_1723 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo PD2453 */
+      val PD2453 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vivo vivo 1724 */
-    val VIVO_1724 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo PD2454 */
+      val PD2454 = "spec:width=1440,height=3168,unit=px,dpi=480"
 
-    /** Vivo vivo 1725 */
-    val VIVO_1725 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo PD2456 */
+      val PD2456 = "spec:width=1080,height=2392,unit=px,dpi=480"
 
-    /** Vivo vivo 1726 */
-    val VIVO_1726 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo PD2463 */
+      val PD2463 = "spec:width=1440,height=3168,unit=px,dpi=480"
 
-    /** Vivo vivo 1727 */
-    val VIVO_1727 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo PD2464 */
+      val PD2464 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo 1802 */
-    val VIVO_1802 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo PD2465 */
+      val PD2465 = "spec:width=1216,height=2640,unit=px,dpi=560"
 
-    /** Vivo vivo 1803 */
-    val VIVO_1803 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V1 */
+      val V1 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo 1804 */
-    val VIVO_1804 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2144 */
+      val V2144 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1805 */
-    val VIVO_1805 = "spec:width=1080,height=2316,unit=px,dpi=480"
+      /** vivo V2145 */
+      val V2145 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1806 */
-    val VIVO_1806 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** vivo V2151 */
+      val V2151 = "spec:width=1080,height=2404,unit=px,dpi=440"
 
-    /** Vivo vivo 1807 */
-    val VIVO_1807 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2154 */
+      val V2154 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1808 */
-    val VIVO_1808 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2158 */
+      val V2158 = "spec:width=1080,height=2376,unit=px,dpi=440"
 
-    /** Vivo vivo 1812 */
-    val VIVO_1812 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2201 */
+      val V2201 = "spec:width=1080,height=2404,unit=px,dpi=440"
 
-    /** Vivo vivo 1813 */
-    val VIVO_1813 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2202 */
+      val V2202 = "spec:width=1080,height=2404,unit=px,dpi=440"
 
-    /** Vivo vivo 1814 */
-    val VIVO_1814 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2204 */
+      val V2204 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo vivo 1815 */
-    val VIVO_1815 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2205 */
+      val V2205 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo vivo 1816 */
-    val VIVO_1816 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2206 */
+      val V2206 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo 1817 */
-    val VIVO_1817 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2207 */
+      val V2207 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo 1818 */
-    val VIVO_1818 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2217 */
+      val V2217 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo vivo 1819 */
-    val VIVO_1819 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2218 */
+      val V2218 = "spec:width=1260,height=2800,unit=px,dpi=420"
 
-    /** Vivo vivo 1820 */
-    val VIVO_1820 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2219 */
+      val V2219 = "spec:width=1260,height=2800,unit=px,dpi=420"
 
-    /** Vivo vivo 1901 */
-    val VIVO_1901 = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo V2222 */
+      val V2222 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1904 */
-    val VIVO_1904 = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo V2225 */
+      val V2225 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo vivo 1906 */
-    val VIVO_1906 = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo V2230 */
+      val V2230 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1907 */
-    val VIVO_1907 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2231 */
+      val V2231 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1909 */
-    val VIVO_1909 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2236 */
+      val V2236 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Vivo vivo 1910 */
-    val VIVO_1910 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2237 */
+      val V2237 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1912 */
-    val VIVO_1912 = "spec:width=1080,height=2256,unit=px,dpi=440"
+      /** vivo V2239 */
+      val V2239 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1913 */
-    val VIVO_1913 = "spec:width=1080,height=2256,unit=px,dpi=440"
+      /** vivo V2244 */
+      val V2244 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1914 */
-    val VIVO_1914 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2247 */
+      val V2247 = "spec:width=1080,height=2388,unit=px,dpi=440"
 
-    /** Vivo vivo 1915 */
-    val VIVO_1915 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2248 */
+      val V2248 = "spec:width=1080,height=2388,unit=px,dpi=440"
 
-    /** Vivo vivo 1916 */
-    val VIVO_1916 = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo V2248G */
+      val V2248G = "spec:width=1080,height=2388,unit=px,dpi=440"
 
-    /** Vivo vivo 1917 */
-    val VIVO_1917 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2249 */
+      val V2249 = "spec:width=1080,height=2388,unit=px,dpi=440"
 
-    /** Vivo vivo 1919 */
-    val VIVO_1919 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2250 */
+      val V2250 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo 1920 */
-    val VIVO_1920 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2254 */
+      val V2254 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo vivo 1921 */
-    val VIVO_1921 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2303 */
+      val V2303 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1933 */
-    val VIVO_1933 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2307 */
+      val V2307 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 1935 */
-    val VIVO_1935 = "spec:width=1080,height=2340,unit=px,dpi=440"
+      /** vivo V2308 */
+      val V2308 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo 2005 */
-    val VIVO_2005 = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo V2309 */
+      val V2309 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo 2010 */
-    val VIVO_2010 = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo V2310 */
+      val V2310 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo 2015_21 */
-    val VIVO_2015_21 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** vivo V2315 */
+      val V2315 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo 2018 */
-    val VIVO_2018 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo V2317 */
+      val V2317 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo 2019 */
-    val VIVO_2019 = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** vivo V2318 */
+      val V2318 = "spec:width=1260,height=2800,unit=px,dpi=420"
 
-    /** Vivo vivo NEX A */
-    val VIVO_NEX_A = "spec:width=1080,height=2316,unit=px,dpi=480"
+      /** vivo V2319 */
+      val V2319 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo NEX S */
-    val VIVO_NEX_S = "spec:width=1080,height=2316,unit=px,dpi=480"
+      /** vivo V2321 */
+      val V2321 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo Pad2 */
-    val VIVO_PAD2 = "spec:width=1968,height=2800,unit=px,dpi=400"
+      /** vivo V2327 */
+      val V2327 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo Pad SE */
-    val VIVO_PAD_SE = "spec:width=1600,height=2464,unit=px,dpi=400"
+      /** vivo V2330 */
+      val V2330 = "spec:width=2200,height=2480,unit=px,dpi=480"
 
-    /** Vivo vivo S1 */
-    val VIVO_S1 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** vivo V2333 */
+      val V2333 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo S15e */
-    val VIVO_S15E = "spec:width=1080,height=2404,unit=px,dpi=480"
+      /** vivo V2334 */
+      val V2334 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo  vivo S15 Pro */
-    val VIVO_S15_PRO = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo V2338 */
+      val V2338 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo vivo S16 */
-    val VIVO_S16 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2339 */
+      val V2339 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo S16e */
-    val VIVO_S16E = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2342 */
+      val V2342 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo S16 Pro */
-    val VIVO_S16_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2343 */
+      val V2343 = "spec:width=720,height=1608,unit=px,dpi=300"
 
-    /** Vivo vivo S17e */
-    val VIVO_S17E = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2344 */
+      val V2344 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo S18 */
-    val VIVO_S18 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo V2346 */
+      val V2346 = "spec:width=720,height=1612,unit=px,dpi=300"
 
-    /** Vivo vivo S18e */
-    val VIVO_S18E = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2347 */
+      val V2347 = "spec:width=1260,height=2800,unit=px,dpi=420"
 
-    /** Vivo vivo S19 */
-    val VIVO_S19 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo V2348 */
+      val V2348 = "spec:width=1260,height=2800,unit=px,dpi=420"
 
-    /** Vivo vivo T3 Pro 5G */
-    val VIVO_T3_PRO_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo V2352 */
+      val V2352 = "spec:width=720,height=1608,unit=px,dpi=300"
 
-    /** Vivo vivo T4 5G  */
-    val VIVO_T4_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo V2355 */
+      val V2355 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo vivo T4x 5G */
-    val VIVO_T4X_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo V2403 */
+      val V2403 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo V50 Lite */
-    val VIVO_V50_LITE = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo V2404 */
+      val V2404 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo V50 Lite 5G */
-    val VIVO_V50_LITE_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo V2413 */
+      val V2413 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo X20 */
-    val VIVO_X20 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2415 */
+      val V2415 = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Vivo vivo X200 */
-    val VIVO_X200 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo V2418 */
+      val V2418 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo X200 Pro mini */
-    val VIVO_X200_PRO_MINI = "spec:width=1216,height=2640,unit=px,dpi=560"
+      /** vivo V2419 */
+      val V2419 = "spec:width=720,height=1608,unit=px,dpi=300"
 
-    /** Vivo vivo X200s */
-    val VIVO_X200S = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo V2420 */
+      val V2420 = "spec:width=720,height=1608,unit=px,dpi=300"
 
-    /** Vivo vivo X20Plus */
-    val VIVO_X20PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2422 */
+      val V2422 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo X20Plus UD */
-    val VIVO_X20PLUS_UD = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2427 */
+      val V2427 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo X21A */
-    val VIVO_X21A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2428 */
+      val V2428 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo  X21i  A */
-    val VIVO_X21I_A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2429 */
+      val V2429 = "spec:width=2200,height=2480,unit=px,dpi=480"
 
-    /** Vivo vivo X21UD A */
-    val VIVO_X21UD_A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2430 */
+      val V2430 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo vivo X70 Pro+ */
-    val VIVO_X70_PRO = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo V2434 */
+      val V2434 = "spec:width=720,height=1608,unit=px,dpi=300"
 
-    /** Vivo  vivo X80 */
-    val VIVO_X80 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2436 */
+      val V2436 = "spec:width=720,height=1608,unit=px,dpi=300"
 
-    /** Vivo vivo X80 Pro */
-    val VIVO_X80_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2437 */
+      val V2437 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo vivo X80 Pro 天玑9000版 */
-    val VIVO_X80_PRO_9000 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2439 */
+      val V2439 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo X90 Pro+ */
-    val VIVO_X90_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo V2440 */
+      val V2440 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo X90 Pro */
-    val VIVO_X90_PRO_1260X2800 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo V2441 */
+      val V2441 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo X90s */
-    val VIVO_X90S = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo V2446 */
+      val V2446 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo vivo X9Plus */
-    val VIVO_X9PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2502 */
+      val V2502 = "spec:width=1080,height=2392,unit=px,dpi=440"
 
-    /** Vivo vivo X9s */
-    val VIVO_X9S = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2503 */
+      val V2503 = "spec:width=1216,height=2640,unit=px,dpi=480"
 
-    /** Vivo vivo X9s Plus */
-    val VIVO_X9S_PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo V2504 */
+      val V2504 = "spec:width=1260,height=2800,unit=px,dpi=420"
 
-    /** Vivo vivo X Fold */
-    val VIVO_X_FOLD = "spec:width=1916,height=2160,unit=px,dpi=480"
+      /** vivo V2506 */
+      val V2506 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo vivo X Fold2 */
-    val VIVO_X_FOLD2 = "spec:width=1916,height=2160,unit=px,dpi=480"
+      /** vivo V3 */
+      val V3 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo X Fold3 */
-    val VIVO_X_FOLD3 = "spec:width=2200,height=2480,unit=px,dpi=520"
+      /** vivo V3Max */
+      val V3MAX = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo vivo X Note */
-    val VIVO_X_NOTE = "spec:width=1080,height=2310,unit=px,dpi=480"
+      /** vivo X5Pro */
+      val X5PRO = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo vivo Y100i长续航版 */
-    val VIVO_Y100I = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo Y11 */
+      val Y11 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Vivo vivo Y11 */
-    val VIVO_Y11 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** vivo Y15 */
+      val Y15 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vivo vivo Y19e */
-    val VIVO_Y19E = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo Y15S */
+      val Y15S = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vivo vivo Y22 */
-    val VIVO_Y22 = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo Y21 */
+      val Y21 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vivo vivo Y29 */
-    val VIVO_Y29 = "spec:width=720,height=1608,unit=px,dpi=300"
+      /** vivo Y21L */
+      val Y21L = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vivo vivo Y29 5G */
-    val VIVO_Y29_5G = "spec:width=720,height=1608,unit=px,dpi=300"
+      /** vivo Y27 */
+      val Y27 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y300 */
-    val VIVO_Y300 = "spec:width=1080,height=2392,unit=px,dpi=480"
+      /** vivo Y31 */
+      val Y31 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y300i */
-    val VIVO_Y300I = "spec:width=720,height=1608,unit=px,dpi=320"
+      /** vivo Y31i */
+      val Y31I = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Vivo vivo Y300 Pro+ */
-    val VIVO_Y300_PRO = "spec:width=1080,height=2392,unit=px,dpi=480"
+      /** vivo Y31L */
+      val Y31L = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Vivo vivo Y300t */
-    val VIVO_Y300T = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo Y37 */
+      val Y37 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y36c */
-    val VIVO_Y36C = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** vivo Y51 */
+      val Y51 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Vivo vivo Y39 5G */
-    val VIVO_Y39_5G = "spec:width=720,height=1608,unit=px,dpi=300"
+      /** vivo 1601 */
+      val _1601 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y65 */
-    val VIVO_Y65 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 1603 */
+      val _1603 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y66i A */
-    val VIVO_Y66I_A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1606 */
+      val _1606 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Vivo vivo Y69A */
-    val VIVO_Y69A = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 1609 */
+      val _1609 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y71A */
-    val VIVO_Y71A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1610 */
+      val _1610 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y75A */
-    val VIVO_Y75A = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 1611 */
+      val _1611 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo vivo  Y75s */
-    val VIVO_Y75S = "spec:width=1080,height=1920,unit=px,dpi=240"
+      /** vivo 1714 */
+      val _1714 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo Y75s */
-    val VIVO_Y75S_1080X2408 = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo 1716 */
+      val _1716 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Vivo vivo Y77 */
-    val VIVO_Y77 = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo 1718 */
+      val _1718 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Vivo vivo Y83A */
-    val VIVO_Y83A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1719 */
+      val _1719 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vivo vivo  Y85A */
-    val VIVO_Y85A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1723 */
+      val _1723 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo vivo Z1i */
-    val VIVO_Z1I = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1723CF */
+      val _1723CF = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo vivo Z3x */
-    val VIVO_Z3X = "spec:width=1080,height=2400,unit=px,dpi=420"
+      /** vivo 1724 */
+      val _1724 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo X100 */
-    val X100 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo 1725 */
+      val _1725 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo X100 Pro */
-    val X100_PRO = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo 1726 */
+      val _1726 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X100s */
-    val X100S = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo 1727 */
+      val _1727 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo X100 Ultra */
-    val X100_ULTRA = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo 1727ID */
+      val _1727ID = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo X200 FE */
-    val X200_FE = "spec:width=1216,height=2640,unit=px,dpi=480"
+      /** vivo 1801 */
+      val _1801 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vivo X200 Pro */
-    val X200_PRO = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo 1802 */
+      val _1802 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X200 Pro */
-    val X200_PRO_1260X2800 = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo 1803 */
+      val _1803 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X200 Ultra */
-    val X200_ULTRA = "spec:width=1440,height=3168,unit=px,dpi=480"
+      /** vivo 1804 */
+      val _1804 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X50 */
-    val X50 = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo 1805 */
+      val _1805 = "spec:width=1080,height=2316,unit=px,dpi=480"
 
-    /** Vivo X50 Pro */
-    val X50_PRO = "spec:width=1080,height=2376,unit=px,dpi=480"
+      /** vivo 1806 */
+      val _1806 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo X5M */
-    val X5M = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 1807 */
+      val _1807 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X5Max S */
-    val X5MAX_S = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1807N */
+      val _1807N = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X5MaxV */
-    val X5MAXV = "spec:width=480,height=854,unit=px,dpi=240"
+      /** vivo 1808 */
+      val _1808 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X5Pro */
-    val X5PRO = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1811 */
+      val _1811 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X5Pro D */
-    val X5PRO_D = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1812 */
+      val _1812 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X5Pro V */
-    val X5PRO_V = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1813 */
+      val _1813 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X6A */
-    val X6A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1814 */
+      val _1814 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X6D */
-    val X6D = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1815 */
+      val _1815 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X6Plus A */
-    val X6PLUS_A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1816 */
+      val _1816 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X6Plus D */
-    val X6PLUS_D = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1817 */
+      val _1817 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X6S A */
-    val X6S_A = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1818 */
+      val _1818 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X6SPlusA */
-    val X6SPLUSA = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1818N */
+      val _1818N = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X7 */
-    val X7 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1819 */
+      val _1819 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X7Plus */
-    val X7PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1819N */
+      val _1819N = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X80 */
-    val X80 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 1820 */
+      val _1820 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo X80 Pro */
-    val X80_PRO = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 1851 */
+      val _1851 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Vivo X9 */
-    val X9 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1901 */
+      val _1901 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo X90 */
-    val X90 = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo 1902 */
+      val _1902 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo X90 Pro */
-    val X90_PRO = "spec:width=1260,height=2800,unit=px,dpi=420"
+      /** vivo 1902D */
+      val _1902D = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo X9i */
-    val X9I = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1904 */
+      val _1904 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo X Flip */
-    val X_FLIP = "spec:width=1080,height=2520,unit=px,dpi=480"
+      /** vivo 1906 */
+      val _1906 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo X Fold3 Pro */
-    val X_FOLD3_PRO = "spec:width=2200,height=2480,unit=px,dpi=480"
+      /** vivo 1907 */
+      val _1907 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X Fold3 Pro */
-    val X_FOLD3_PRO_2200X2480 = "spec:width=2200,height=2480,unit=px,dpi=520"
+      /** vivo 1907N */
+      val _1907N = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo X Fold5 */
-    val X_FOLD5 = "spec:width=2200,height=2480,unit=px,dpi=480"
+      /** vivo 1909 */
+      val _1909 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo X Fold5 */
-    val X_FOLD5_2200X2480 = "spec:width=2200,height=2480,unit=px,dpi=520"
+      /** vivo 1910 */
+      val _1910 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo Xplay5A */
-    val XPLAY5A = "spec:width=1080,height=2340,unit=px,dpi=420"
+      /** vivo 1910N */
+      val _1910N = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo Xplay6 */
-    val XPLAY6 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 1912 */
+      val _1912 = "spec:width=1080,height=2256,unit=px,dpi=440"
 
-    /** Vivo Y02 */
-    val Y02 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo 1913 */
+      val _1913 = "spec:width=1080,height=2256,unit=px,dpi=440"
 
-    /** Vivo Y02 */
-    val Y02_720X1600 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo 1915 */
+      val _1915 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo Y02t */
-    val Y02T = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo 1916 */
+      val _1916 = "spec:width=720,height=1544,unit=px,dpi=320"
 
-    /** Vivo Y03t */
-    val Y03T = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo 1917 */
+      val _1917 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo Y100 */
-    val Y100 = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 1919 */
+      val _1919 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo Y100 */
-    val Y100_1080X2400 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** vivo 1920 */
+      val _1920 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo Y100+ */
-    val Y100_DPI480 = "spec:width=1080,height=2408,unit=px,dpi=480"
+      /** vivo 1921 */
+      val _1921 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo Y15 */
-    val Y15 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** vivo 1930 */
+      val _1930 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo Y15S */
-    val Y15S = "spec:width=480,height=854,unit=px,dpi=240"
+      /** vivo 1933 */
+      val _1933 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vivo Y16 */
-    val Y16 = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo 1937 */
+      val _1937 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo Y17 */
-    val Y17 = "spec:width=720,height=1544,unit=px,dpi=320"
+      /** vivo 1938 */
+      val _1938 = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Vivo Y17s */
-    val Y17S = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo 1951 */
+      val _1951 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Vivo  Y18 */
-    val Y18 = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo 2004 */
+      val _2004 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo Y19s pro */
-    val Y19S_PRO = "spec:width=720,height=1608,unit=px,dpi=300"
+      /** vivo 2005 */
+      val _2005 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo Y200 5G */
-    val Y200_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 2006 */
+      val _2006 = "spec:width=1080,height=2376,unit=px,dpi=480"
 
-    /** Vivo Y200 GT */
-    val Y200_GT = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** vivo 2015 */
+      val _2015 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Vivo Y200 Pro 5G */
-    val Y200_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 2018 */
+      val _2018 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y21 */
-    val Y21 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** vivo 2023 */
+      val _2023 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y21A */
-    val Y21A = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo 2025 */
+      val _2025 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y21L */
-    val Y21L = "spec:width=480,height=854,unit=px,dpi=240"
+      /** vivo 2026 */
+      val _2026 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y22s */
-    val Y22S = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo 2028 */
+      val _2028 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y27 */
-    val Y27 = "spec:width=1080,height=2388,unit=px,dpi=440"
+      /** vivo 2030 */
+      val _2030 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y27 */
-    val Y27_720X1280 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 2034 */
+      val _2034 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y27 5G */
-    val Y27_5G = "spec:width=1080,height=2388,unit=px,dpi=440"
+      /** vivo 2036 */
+      val _2036 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y27s */
-    val Y27S = "spec:width=1080,height=2388,unit=px,dpi=440"
+      /** vivo 2037 */
+      val _2037 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y28 */
-    val Y28 = "spec:width=720,height=1608,unit=px,dpi=300"
+      /** vivo 2040 */
+      val _2040 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y28 5G */
-    val Y28_5G = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo 2041 */
+      val _2041 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y28s 5G */
-    val Y28S_5G = "spec:width=720,height=1612,unit=px,dpi=300"
+      /** vivo 2044 */
+      val _2044 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y29s 5G */
-    val Y29S_5G = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo 2045 */
+      val _2045 = "spec:width=1080,height=2376,unit=px,dpi=440"
 
-    /** Vivo Y300 GT */
-    val Y300_GT = "spec:width=1260,height=2800,unit=px,dpi=560"
+      /** vivo 2046 */
+      val _2046 = "spec:width=1080,height=2376,unit=px,dpi=440"
 
-    /** Vivo  Y300 Plus 5G */
-    val Y300_PLUS_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 2047 */
+      val _2047 = "spec:width=1080,height=2376,unit=px,dpi=440"
 
-    /** Vivo Y300 Pro */
-    val Y300_PRO = "spec:width=1080,height=2392,unit=px,dpi=480"
+      /** vivo 2050 */
+      val _2050 = "spec:width=1080,height=2404,unit=px,dpi=440"
 
-    /** Vivo  Y30 5G */
-    val Y30_5G = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** vivo 2055 */
+      val _2055 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y31 */
-    val Y31 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** vivo 2058 */
+      val _2058 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y31 */
-    val Y31_720X1280 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 2059 */
+      val _2059 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y31i */
-    val Y31I = "spec:width=540,height=960,unit=px,dpi=240"
+      /** vivo 2060 */
+      val _2060 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y31L */
-    val Y31L = "spec:width=540,height=960,unit=px,dpi=240"
+      /** vivo 2061 */
+      val _2061 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y33 */
-    val Y33 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 2105 */
+      val _2105 = "spec:width=1080,height=2376,unit=px,dpi=440"
 
-    /** Vivo Y33t */
-    val Y33T = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo 2109 */
+      val _2109 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y33t */
-    val Y33T_720X1612 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** vivo 2110 */
+      val _2110 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y35 */
-    val Y35 = "spec:width=1080,height=2408,unit=px,dpi=440"
+      /** vivo 2111 */
+      val _2111 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y35 */
-    val Y35_720X1280 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 2114 */
+      val _2114 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y35A */
-    val Y35A = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vivo 2116 */
+      val _2116 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y35m+ */
-    val Y35M = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** vivo 2120 */
+      val _2120 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y36 5G */
-    val Y36_5G = "spec:width=1080,height=2388,unit=px,dpi=440"
+      /** vivo 2124 */
+      val _2124 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y36s */
-    val Y36S = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** vivo 2126 */
+      val _2126 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y36t */
-    val Y36T = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** vivo 2127 */
+      val _2127 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y37c */
-    val Y37C = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** vivo 2129 */
+      val _2129 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y37 Pro */
-    val Y37_PRO = "spec:width=720,height=1608,unit=px,dpi=320"
+      /** vivo 2130 */
+      val _2130 = "spec:width=1080,height=2400,unit=px,dpi=440"
 
-    /** Vivo Y38 5G */
-    val Y38_5G = "spec:width=720,height=1608,unit=px,dpi=300"
+      /** vivo 2131 */
+      val _2131 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y400 5G */
-    val Y400_5G = "spec:width=1080,height=2400,unit=px,dpi=440"
+      /** vivo 2132 */
+      val _2132 = "spec:width=1080,height=2376,unit=px,dpi=440"
 
-    /** Vivo Y400 Pro 5G */
-    val Y400_PRO_5G = "spec:width=1080,height=2392,unit=px,dpi=440"
+      /** vivo 2135 */
+      val _2135 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y51 */
-    val Y51 = "spec:width=540,height=960,unit=px,dpi=240"
+      /** vivo 2141 */
+      val _2141 = "spec:width=1080,height=2408,unit=px,dpi=440"
 
-    /** Vivo Y51A */
-    val Y51A = "spec:width=540,height=960,unit=px,dpi=240"
+      /** vivo 2149 */
+      val _2149 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y53 */
-    val Y53 = "spec:width=540,height=960,unit=px,dpi=240"
+      /** vivo 2160 */
+      val _2160 = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Vivo Y53L */
-    val Y53L = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vivo Y53t */
-    val Y53T = "spec:width=720,height=1600,unit=px,dpi=320"
-
-    /** Vivo Y55 */
-    val Y55 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Vivo Y55A */
-    val Y55A = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Vivo Y55s */
-    val Y55S = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Vivo Y58 5G */
-    val Y58_5G = "spec:width=1080,height=2408,unit=px,dpi=440"
-
-    /** Vivo Y66 */
-    val Y66 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Vivo Y67 */
-    val Y67 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Vivo Y71 */
-    val Y71 = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vivo Y77t */
-    val Y77T = "spec:width=1080,height=2388,unit=px,dpi=480"
-
-    /** Vivo Y78+ */
-    val Y78 = "spec:width=1080,height=2400,unit=px,dpi=480"
-
-    /** Vivo Y79A */
-    val Y79A = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vivo Y93标准版 64G */
-    val Y93_64G = "spec:width=1440,height=2960,unit=px,dpi=420"
-
-    /** Vivo Y937 */
-    val Y937 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-    /** Vivo Y97 */
-    val Y97 = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vivo Z1 */
-    val Z1 = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vivo Z1 Pro */
-    val Z1_PRO = "spec:width=1080,height=2340,unit=px,dpi=480"
-
-    /** Vivo Z3i */
-    val Z3I = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vivo Z3i */
-    val Z3I_1080X2280 = "spec:width=1080,height=2280,unit=px,dpi=480"
-
-}
+  }

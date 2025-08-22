@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Rombica device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Rombica.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Rombica get() = object {
-    /** Rombica myPhone Jet */
-    val MYPHONE_JET = "spec:width=480,height=854,unit=px,dpi=200"
+ * ```
+ */
+public val Devices.Rombica: Any
+  get() = object {
+      /** Rombica myPhone_Jet */
+      val MYPHONE_JET = "spec:width=480,height=854,unit=px,dpi=200"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Vodafone device specifications for Android Compose previews.
@@ -9,124 +10,158 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vodafone.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vodafone get() = object {
-    /** Vodafone 785 */
-    val _785 = "spec:width=480,height=800,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Vodafone: Any
+  get() = object {
+      /** Vodafone HP46D */
+      val HP46D = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Vodafone 895 */
-    val _895 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Vodafone m377_vf */
+      val M377_VF = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Vodafone Smart first 7 */
-    val SMART_FIRST_7 = "spec:width=320,height=480,unit=px,dpi=160"
+      /** Vodafone m393gena_vf */
+      val M393GENA_VF = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Vodafone Smart mini 7 */
-    val SMART_MINI_7 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Vodafone msm8916_32 */
+      val MSM8916_32 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vodafone Smart mini 7 dual */
-    val SMART_MINI_7_DUAL = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Vodafone P731V35 */
+      val P731V35 = "spec:width=320,height=480,unit=px,dpi=160"
 
-    /** Vodafone Smart N8 */
-    val SMART_N8 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Vodafone P809V50 */
+      val P809V50 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vodafone Smart_N9_Lite */
-    val SMART_N9_LITE = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Vodafone P839V55 */
+      val P839V55 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vodafone Smart platinum 7 */
-    val SMART_PLATINUM_7 = "spec:width=1440,height=2560,unit=px,dpi=640"
+      /** Vodafone smart_grand */
+      val SMART_GRAND = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vodafone Smart prime 7 */
-    val SMART_PRIME_7 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Vodafone Tab7 */
+      val TAB7 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Vodafone Smart_Tab_3G */
-    val SMART_TAB_3G = "spec:width=540,height=960,unit=px,dpi=160"
+      /** Vodafone uiw4030vha */
+      val UIW4030VHA = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Vodafone Smart Tab 4 */
-    val SMART_TAB_4 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Vodafone VF685 */
+      val VF685 = "spec:width=320,height=480,unit=px,dpi=160"
 
-    /** Vodafone Smart_Tab_4G */
-    val SMART_TAB_4G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Vodafone VF695 */
+      val VF695 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Vodafone Smart Tab N8 */
-    val SMART_TAB_N8 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Vodafone VFD100 */
+      val VFD100 = "spec:width=320,height=480,unit=px,dpi=160"
 
-    /** Vodafone Smart turbo 7 */
-    val SMART_TURBO_7 = "spec:width=480,height=854,unit=px,dpi=213"
+      /** Vodafone VFD1300 */
+      val VFD1300 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Vodafone Smart turbo 7 dual */
-    val SMART_TURBO_7_DUAL = "spec:width=480,height=854,unit=px,dpi=213"
+      /** Vodafone VFD1400 */
+      val VFD1400 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Vodafone Smart ultra 6 */
-    val SMART_ULTRA_6 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Vodafone VFD300 */
+      val VFD300 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Vodafone Smart ultra 7 */
-    val SMART_ULTRA_7 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Vodafone VFD301 */
+      val VFD301 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Vodafone SmartV22 */
-    val SMARTV22 = "spec:width=720,height=1640,unit=px,dpi=320"
+      /** Vodafone VFD320 */
+      val VFD320 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Vodafone Smart V8 */
-    val SMART_V8 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Vodafone VFD500 */
+      val VFD500 = "spec:width=480,height=854,unit=px,dpi=213"
 
-    /** Vodafone Tab mini 7 */
-    val TAB_MINI_7 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Vodafone VFD501 */
+      val VFD501 = "spec:width=480,height=854,unit=px,dpi=213"
 
-    /** Vodafone Tab Prime 7 */
-    val TAB_PRIME_7 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** Vodafone VFD502 */
+      val VFD502 = "spec:width=480,height=854,unit=px,dpi=213"
 
-    /** Vodafone VF-1296 */
-    val VF_1296 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Vodafone VFD510 */
+      val VFD510 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vodafone VF-1397 */
-    val VF_1397 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Vodafone VFD511 */
+      val VFD511 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vodafone VF-1497 */
-    val VF_1497 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Vodafone VFD513 */
+      val VFD513 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Vodafone VF685 */
-    val VF685 = "spec:width=320,height=480,unit=px,dpi=160"
+      /** Vodafone VFD525 */
+      val VFD525 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Vodafone VF695 */
-    val VF695 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Vodafone VFD527 */
+      val VFD527 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Vodafone VF-696 */
-    val VF_696 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Vodafone VFD528 */
+      val VFD528 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Vodafone VFD320 */
-    val VFD320 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Vodafone VFD529 */
+      val VFD529 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Vodafone Vodacom Kicka VE */
-    val VODACOM_KICKA_VE = "spec:width=320,height=480,unit=px,dpi=160"
+      /** Vodafone VFD610 */
+      val VFD610 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vodafone Vodacom Smart 4G */
-    val VODACOM_SMART_4G = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Vodafone VFD620 */
+      val VFD620 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Vodafone Vodafone Smart E8 */
-    val VODAFONE_SMART_E8 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Vodafone VFD630 */
+      val VFD630 = "spec:width=720,height=1498,unit=px,dpi=340"
 
-    /** Vodafone Vodafone Smart E9 */
-    val VODAFONE_SMART_E9 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Vodafone VFD700 */
+      val VFD700 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vodafone Vodafone Smart mini */
-    val VODAFONE_SMART_MINI = "spec:width=320,height=480,unit=px,dpi=160"
+      /** Vodafone VFD710 */
+      val VFD710 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vodafone Vodafone Smart N10 */
-    val VODAFONE_SMART_N10 = "spec:width=720,height=1498,unit=px,dpi=340"
+      /** Vodafone VFD720 */
+      val VFD720 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Vodafone Vodafone Smart N9 */
-    val VODAFONE_SMART_N9 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Vodafone VFD730 */
+      val VFD730 = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Vodafone Vodafone Smart V10 */
-    val VODAFONE_SMART_V10 = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Vodafone VFD820 */
+      val VFD820 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Vodafone Vodafone Smart X9 */
-    val VODAFONE_SMART_X9 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** Vodafone VFD822 */
+      val VFD822 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-}
+      /** Vodafone VFD900 */
+      val VFD900 = "spec:width=1440,height=2560,unit=px,dpi=640"
+
+      /** Vodafone VF-895N */
+      val VF_895N = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** Vodafone Vodafone985N */
+      val VODAFONE985N = "spec:width=540,height=960,unit=px,dpi=240"
+
+      /** Vodafone VodafoneSmart4turbo */
+      val VODAFONESMART4TURBO = "spec:width=480,height=854,unit=px,dpi=213"
+
+      /** Vodafone Vodafone_785 */
+      val VODAFONE_785 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** Vodafone Vodafone_Smart_Tab_3G */
+      val VODAFONE_SMART_TAB_3G = "spec:width=540,height=960,unit=px,dpi=160"
+
+      /** Vodafone Vodafone_Smart_Tab_4 */
+      val VODAFONE_SMART_TAB_4 = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** Vodafone Vodafone_Smart_Tab_4G */
+      val VODAFONE_SMART_TAB_4G = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** Vodafone Vodafone_Tab_Prime */
+      val VODAFONE_TAB_PRIME = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** Vodafone Vodafone_Tab_speed_6 */
+      val VODAFONE_TAB_SPEED_6 = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** Vodafone voda_tab */
+      val VODA_TAB = "spec:width=800,height=1280,unit=px,dpi=213"
+
+  }

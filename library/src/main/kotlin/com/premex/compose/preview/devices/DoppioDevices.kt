@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Doppio device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Doppio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Doppio get() = object {
-    /** Doppio SL558 */
-    val SL558 = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Doppio: Any
+  get() = object {
+      /** Doppio Doppio_SL558 */
+      val DOPPIO_SL558 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Doppio U500 */
-    val U500 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Doppio U500 */
+      val U500 = "spec:width=480,height=854,unit=px,dpi=240"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Teracube device specifications for Android Compose previews.
@@ -9,22 +10,23 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Teracube.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Teracube get() = object {
-    /** Teracube Teracube 2e */
-    val TERACUBE_2E = "spec:width=720,height=1560,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Teracube: Any
+  get() = object {
+      /** Teracube sapphire */
+      val SAPPHIRE = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Teracube Teracube 2s */
-    val TERACUBE_2S = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Teracube Teracube_2e */
+      val TERACUBE_2E = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Teracube Teracube_One */
-    val TERACUBE_ONE = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** Teracube Teracube_One */
+      val TERACUBE_ONE = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-}
+  }

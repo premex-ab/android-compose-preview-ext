@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Nuribom device specifications for Android Compose previews.
+ * NURIBOM device specifications for Android Compose previews.
  *
- * This extension provides Nuribom device specifications that can be used with @Preview annotations
+ * This extension provides NURIBOM device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nuribom.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nuribom get() = object {
-    /** Nuribom NRB-IFPD */
-    val NRB_IFPD = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Nuribom: Any
+  get() = object {
+      /** NURIBOM rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

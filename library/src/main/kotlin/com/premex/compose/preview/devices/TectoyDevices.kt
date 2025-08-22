@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Tectoy device specifications for Android Compose previews.
+ * TECTOY device specifications for Android Compose previews.
  *
- * This extension provides Tectoy device specifications that can be used with @Preview annotations
+ * This extension provides TECTOY device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Tectoy.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Tectoy get() = object {
-    /** Tectoy TECTOY ON 128GB */
-    val TECTOY_ON_128GB = "spec:width=720,height=1520,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Tectoy: Any
+  get() = object {
+      /** TECTOY TokyoPro */
+      val TOKYOPRO = "spec:width=720,height=1520,unit=px,dpi=320"
 
-}
+  }

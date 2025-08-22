@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Getac device specifications for Android Compose previews.
@@ -9,25 +10,26 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Getac.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Getac get() = object {
-    /** Getac ZX10 */
-    val ZX10 = "spec:width=1200,height=1920,unit=px,dpi=260"
+ * ```
+ */
+public val Devices.Getac: Any
+  get() = object {
+      /** Getac zx10 */
+      val ZX10 = "spec:width=1200,height=1920,unit=px,dpi=260"
 
-    /** Getac ZX70 */
-    val ZX70 = "spec:width=720,height=1280,unit=px,dpi=160"
+      /** Getac zx70 */
+      val ZX70 = "spec:width=720,height=1280,unit=px,dpi=160"
 
-    /** Getac ZX70G2 */
-    val ZX70G2 = "spec:width=720,height=1280,unit=px,dpi=240"
+      /** Getac zx70g2 */
+      val ZX70G2 = "spec:width=720,height=1280,unit=px,dpi=240"
 
-    /** Getac ZX80 */
-    val ZX80 = "spec:width=1200,height=1920,unit=px,dpi=260"
+      /** Getac zx80 */
+      val ZX80 = "spec:width=1200,height=1920,unit=px,dpi=260"
 
-}
+  }

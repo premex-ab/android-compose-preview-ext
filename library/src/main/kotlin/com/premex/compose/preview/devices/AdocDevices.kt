@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Adoc device specifications for Android Compose previews.
+ * ADOC device specifications for Android Compose previews.
  *
- * This extension provides Adoc device specifications that can be used with @Preview annotations
+ * This extension provides ADOC device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Adoc.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Adoc get() = object {
-    /** Adoc ADOC  D18 */
-    val ADOC_D18 = "spec:width=480,height=854,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Adoc: Any
+  get() = object {
+      /** ADOC ADOC_D18 */
+      val ADOC_D18 = "spec:width=480,height=854,unit=px,dpi=160"
 
-    /** Adoc D30 */
-    val D30 = "spec:width=800,height=1280,unit=px,dpi=320"
+      /** ADOC D30 */
+      val D30 = "spec:width=800,height=1280,unit=px,dpi=320"
 
-}
+  }

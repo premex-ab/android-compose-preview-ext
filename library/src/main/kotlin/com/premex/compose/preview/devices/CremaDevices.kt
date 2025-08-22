@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Crema device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Crema.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Crema get() = object {
-    /** Crema CREMA0810T */
-    val CREMA0810T = "spec:width=768,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Crema: Any
+  get() = object {
+      /** Crema crema0810t */
+      val CREMA0810T = "spec:width=768,height=1024,unit=px,dpi=160"
 
-}
+  }

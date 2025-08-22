@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Verifone device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Verifone.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Verifone get() = object {
-    /** Verifone IX90_CQA1103_EEA */
-    val IX90_CQA1103_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Verifone: Any
+  get() = object {
+      /** Verifone IX90_CQA1103_EEA */
+      val IX90_CQA1103_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

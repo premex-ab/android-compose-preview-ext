@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Sannuo device specifications for Android Compose previews.
+ * SANNUO device specifications for Android Compose previews.
  *
- * This extension provides Sannuo device specifications that can be used with @Preview annotations
+ * This extension provides SANNUO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Sannuo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Sannuo get() = object {
-    /** Sannuo K102 */
-    val K102 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Sannuo: Any
+  get() = object {
+      /** SANNUO K102 */
+      val K102 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Sannuo K108 */
-    val K108 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** SANNUO K108 */
+      val K108 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

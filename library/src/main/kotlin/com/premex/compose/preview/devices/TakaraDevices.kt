@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Takara device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Takara.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Takara get() = object {
-    /** Takara MID169 */
-    val MID169 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Takara: Any
+  get() = object {
+      /** Takara MID169 */
+      val MID169 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Grolier device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Grolier.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Grolier get() = object {
-    /** Grolier GSR */
-    val GSR = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Grolier: Any
+  get() = object {
+      /** Grolier GSR */
+      val GSR = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Grolier GSR2 */
-    val GSR2 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Grolier GSR2 */
+      val GSR2 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

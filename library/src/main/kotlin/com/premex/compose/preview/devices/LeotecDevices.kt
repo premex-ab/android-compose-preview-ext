@@ -1,24 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Leotec device specifications for Android Compose previews.
+ * LEOTEC device specifications for Android Compose previews.
  *
- * This extension provides Leotec device specifications that can be used with @Preview annotations
+ * This extension provides LEOTEC device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Leotec.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Leotec get() = object {
-    /** Leotec mid1016_mk_64 */
-    val MID1016_MK_64 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Leotec: Any
+  get() = object {
+      /** LEOTEC mid1016_mk_32 */
+      val MID1016_MK_32 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+      /** LEOTEC mid1016_mk_64 */
+      val MID1016_MK_64 = "spec:width=800,height=1280,unit=px,dpi=160"
+
+  }

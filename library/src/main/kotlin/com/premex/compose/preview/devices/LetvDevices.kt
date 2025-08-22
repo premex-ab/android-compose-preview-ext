@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Letv device specifications for Android Compose previews.
@@ -9,22 +10,32 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Letv.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Letv get() = object {
-    /** Letv Le 2 */
-    val LE_2 = "spec:width=1080,height=1920,unit=px,dpi=420"
+ * ```
+ */
+public val Devices.Letv: Any
+  get() = object {
+      /** Letv DemeterDV */
+      val DEMETERDV = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Letv Le X507 */
-    val LE_X507 = "spec:width=1080,height=1920,unit=px,dpi=420"
+      /** Letv DemeterUHD */
+      val DEMETERUHD = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Letv x600 */
-    val X600 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Letv le_s2_ww */
+      val LE_S2_WW = "spec:width=1080,height=1920,unit=px,dpi=420"
 
-}
+      /** Letv le_x2 */
+      val LE_X2 = "spec:width=1440,height=2560,unit=px,dpi=560"
+
+      /** Letv X3_HK */
+      val X3_HK = "spec:width=1080,height=1920,unit=px,dpi=420"
+
+      /** Letv x600 */
+      val X600 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+  }

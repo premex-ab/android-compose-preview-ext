@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Hercls device specifications for Android Compose previews.
+ * HERCLS device specifications for Android Compose previews.
  *
- * This extension provides Hercls device specifications that can be used with @Preview annotations
+ * This extension provides HERCLS device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Hercls.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Hercls get() = object {
-    /** Hercls HERCLS L925 */
-    val HERCLS_L925 = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Hercls: Any
+  get() = object {
+      /** HERCLS L925 */
+      val L925 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Ecopower device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ecopower.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ecopower get() = object {
-    /** Ecopower EP-A100 */
-    val EP_A100 = "spec:width=1200,height=1920,unit=px,dpi=280"
+ * ```
+ */
+public val Devices.Ecopower: Any
+  get() = object {
+      /** Ecopower EP-A100 */
+      val EP_A100 = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-}
+  }

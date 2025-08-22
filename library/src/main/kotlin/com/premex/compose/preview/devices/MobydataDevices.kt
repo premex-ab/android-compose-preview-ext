@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Mobydata device specifications for Android Compose previews.
@@ -9,19 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Mobydata.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Mobydata get() = object {
-    /** Mobydata m63 */
-    val M63 = "spec:width=480,height=800,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Mobydata: Any
+  get() = object {
+      /** Mobydata m63s */
+      val M63S = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Mobydata M72 */
-    val M72 = "spec:width=480,height=800,unit=px,dpi=240"
-
-}
+  }

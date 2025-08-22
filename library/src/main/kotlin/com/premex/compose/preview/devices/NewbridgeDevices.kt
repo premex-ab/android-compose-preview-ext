@@ -1,30 +1,30 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Newbridge device specifications for Android Compose previews.
+ * NewBridge device specifications for Android Compose previews.
  *
- * This extension provides Newbridge device specifications that can be used with @Preview annotations
+ * This extension provides NewBridge device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Newbridge.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Newbridge get() = object {
-    /** Newbridge NBTB101 */
-    val NBTB101 = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Newbridge: Any
+  get() = object {
+      /** NewBridge NBTB101 */
+      val NBTB101 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Newbridge NBTB101b */
-    val NBTB101B = "spec:width=1200,height=1920,unit=px,dpi=213"
+      /** NewBridge NBTB102 */
+      val NBTB102 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Newbridge NBTB102 */
-    val NBTB102 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-}
+  }

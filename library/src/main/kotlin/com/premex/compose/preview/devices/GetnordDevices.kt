@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Getnord device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Getnord.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Getnord get() = object {
-    /** Getnord LYNX */
-    val LYNX = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Getnord: Any
+  get() = object {
+      /** Getnord LYNX */
+      val LYNX = "spec:width=480,height=854,unit=px,dpi=240"
 
-}
+  }

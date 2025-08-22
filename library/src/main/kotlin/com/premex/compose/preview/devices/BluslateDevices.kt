@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Bluslate device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Bluslate.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Bluslate get() = object {
-    /** Bluslate Bluslate8 */
-    val BLUSLATE8 = "spec:width=800,height=1280,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Bluslate: Any
+  get() = object {
+      /** Bluslate Bluslate8 */
+      val BLUSLATE8 = "spec:width=800,height=1280,unit=px,dpi=240"
 
-}
+  }

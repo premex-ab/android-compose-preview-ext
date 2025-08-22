@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Myros device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Myros.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Myros get() = object {
-    /** Myros E70 Ultra */
-    val E70_ULTRA = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Myros: Any
+  get() = object {
+      /** Myros E70_Ultra */
+      val E70_ULTRA = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

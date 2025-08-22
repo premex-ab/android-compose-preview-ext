@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Elecson device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Elecson.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Elecson get() = object {
-    /** Elecson Prime X */
-    val PRIME_X = "spec:width=720,height=1640,unit=px,dpi=340"
+ * ```
+ */
+public val Devices.Elecson: Any
+  get() = object {
+      /** Elecson PrimeX1 */
+      val PRIMEX1 = "spec:width=720,height=1640,unit=px,dpi=340"
 
-}
+  }

@@ -1,42 +1,48 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Datalogic device specifications for Android Compose previews.
  *
- * This extension provides Datalogic device specifications that can be used with @Preview annotations
+ * This extension provides Datalogic device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Datalogic.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Datalogic get() = object {
-    /** Datalogic Datalogic MEMOR 10 */
-    val DATALOGIC_MEMOR_10 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Datalogic: Any
+  get() = object {
+      /** Datalogic dl35 */
+      val DL35 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Datalogic MEMOR 1 */
-    val MEMOR_1 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Datalogic m11 */
+      val M11 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Datalogic MEMOR 11 */
-    val MEMOR_11 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Datalogic M1_HANDHELD */
+      val M1_HANDHELD = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Datalogic Memor 12 */
-    val MEMOR_12 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** Datalogic nebula_pda */
+      val NEBULA_PDA = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Datalogic Memor 20 */
-    val MEMOR_20 = "spec:width=1080,height=2160,unit=px,dpi=440"
+      /** Datalogic Q10 */
+      val Q10 = "spec:width=1080,height=2160,unit=px,dpi=440"
 
-    /** Datalogic Memor 35/35X */
-    val MEMOR_35_35X = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** Datalogic Q10A */
+      val Q10A = "spec:width=1080,height=2160,unit=px,dpi=440"
 
-    /** Datalogic Skorpio X5 */
-    val SKORPIO_X5 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Datalogic sx5 */
+      val SX5 = "spec:width=480,height=800,unit=px,dpi=240"
 
-}
+      /** Datalogic tomcat_pda */
+      val TOMCAT_PDA = "spec:width=1080,height=2160,unit=px,dpi=480"
+
+  }

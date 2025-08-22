@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Smile device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Smile.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Smile get() = object {
-    /** Smile A955Z */
-    val A955Z = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Smile: Any
+  get() = object {
+      /** Smile A955Z */
+      val A955Z = "spec:width=720,height=1440,unit=px,dpi=320"
 
-}
+  }

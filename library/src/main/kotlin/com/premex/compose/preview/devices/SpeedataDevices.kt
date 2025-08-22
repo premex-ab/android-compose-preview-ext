@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Speedata device specifications for Android Compose previews.
@@ -9,19 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Speedata.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Speedata get() = object {
-    /** Speedata FG60 */
-    val FG60 = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Speedata: Any
+  get() = object {
+      /** Speedata SD100 */
+      val SD100 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Speedata SD100 */
-    val SD100 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-}
+  }

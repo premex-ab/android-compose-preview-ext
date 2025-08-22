@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Blabloo device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Blabloo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Blabloo get() = object {
-    /** Blabloo Space1Blue */
-    val SPACE1BLUE = "spec:width=540,height=1132,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Blabloo: Any
+  get() = object {
+      /** Blabloo Space1Blue */
+      val SPACE1BLUE = "spec:width=540,height=1132,unit=px,dpi=240"
 
-}
+  }

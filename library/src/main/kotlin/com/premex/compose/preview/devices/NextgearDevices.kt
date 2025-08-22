@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Nextgear device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nextgear.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nextgear get() = object {
-    /** Nextgear Nextgear n1 */
-    val NEXTGEAR_N1 = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Nextgear: Any
+  get() = object {
+      /** Nextgear Nextgear_n1 */
+      val NEXTGEAR_N1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

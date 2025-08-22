@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Cosmos device specifications for Android Compose previews.
@@ -9,22 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cosmos.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cosmos get() = object {
-    /** Cosmos  Aries_8in */
-    val ARIES_8IN = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Cosmos: Any
+  get() = object {
+      /** Cosmos Lynx_10in */
+      val LYNX_10IN = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Cosmos Lynx_10in */
-    val LYNX_10IN = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-    /** Cosmos Nova_10in */
-    val NOVA_10IN = "spec:width=800,height=1280,unit=px,dpi=213"
-
-}
+  }

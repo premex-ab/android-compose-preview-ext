@@ -1,42 +1,56 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Polytron device specifications for Android Compose previews.
+ * POLYTRON device specifications for Android Compose previews.
  *
- * This extension provides Polytron device specifications that can be used with @Preview annotations
+ * This extension provides POLYTRON device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Polytron.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Polytron get() = object {
-    /** Polytron P500 */
-    val P500 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Polytron: Any
+  get() = object {
+      /** POLYTRON lakeside */
+      val LAKESIDE = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Polytron P551S */
-    val P551S = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** POLYTRON lushan */
+      val LUSHAN = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-    /** Polytron POLYTRON P552 */
-    val POLYTRON_P552 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** POLYTRON mateo */
+      val MATEO = "spec:width=720,height=1280,unit=px,dpi=213"
 
-    /** Polytron POLYTRON R2509 */
-    val POLYTRON_R2509 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** POLYTRON nagai */
+      val NAGAI = "spec:width=720,height=1280,unit=px,dpi=213"
 
-    /** Polytron POLYTRON R2509SE */
-    val POLYTRON_R2509SE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** POLYTRON PDB_F2 */
+      val PDB_F2 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Polytron POLYTRON R250A */
-    val POLYTRON_R250A = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** POLYTRON pioneer */
+      val PIONEER = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Polytron PRIME A8 */
-    val PRIME_A8 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** POLYTRON POLYTRON_A552 */
+      val POLYTRON_A552 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+      /** POLYTRON POLYTRON_P552 */
+      val POLYTRON_P552 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** POLYTRON POLYTRON_R2509 */
+      val POLYTRON_R2509 = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** POLYTRON POLYTRON_R2509SE */
+      val POLYTRON_R2509SE = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** POLYTRON POLYTRON_R250A */
+      val POLYTRON_R250A = "spec:width=720,height=1280,unit=px,dpi=320"
+
+  }

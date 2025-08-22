@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Tbltaca device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Tbltaca.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Tbltaca get() = object {
-    /** Tbltaca Y108 */
-    val Y108 = "spec:width=1200,height=1920,unit=px,dpi=248"
+ * ```
+ */
+public val Devices.Tbltaca: Any
+  get() = object {
+      /** Tbltaca Y108 */
+      val Y108 = "spec:width=1200,height=1920,unit=px,dpi=248"
 
-}
+  }

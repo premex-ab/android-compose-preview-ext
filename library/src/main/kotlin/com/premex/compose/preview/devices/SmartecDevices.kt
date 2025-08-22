@@ -1,33 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Smartec device specifications for Android Compose previews.
+ * SMARTEC device specifications for Android Compose previews.
  *
- * This extension provides Smartec device specifications that can be used with @Preview annotations
+ * This extension provides SMARTEC device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Smartec.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Smartec get() = object {
-    /** Smartec Atractivo */
-    val ATRACTIVO = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Smartec: Any
+  get() = object {
+      /** SMARTEC SmartabS4 */
+      val SMARTABS4 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Smartec SmartabS32 */
-    val SMARTABS32 = "spec:width=600,height=1024,unit=px,dpi=160"
-
-    /** Smartec SmartabS4 */
-    val SMARTABS4 = "spec:width=600,height=1024,unit=px,dpi=160"
-
-    /** Smartec SmartabX8 */
-    val SMARTABX8 = "spec:width=800,height=1280,unit=px,dpi=213"
-
-}
+  }

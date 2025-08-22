@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Ejboard device specifications for Android Compose previews.
+ * EJBOARD device specifications for Android Compose previews.
  *
- * This extension provides Ejboard device specifications that can be used with @Preview annotations
+ * This extension provides EJBOARD device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ejboard.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ejboard get() = object {
-    /** Ejboard EJ_IFPD */
-    val EJ_IFPD = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Ejboard: Any
+  get() = object {
+      /** EJBOARD rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

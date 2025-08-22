@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Memorex device specifications for Android Compose previews.
+ * MEMOREX device specifications for Android Compose previews.
  *
- * This extension provides Memorex device specifications that can be used with @Preview annotations
+ * This extension provides MEMOREX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Memorex.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Memorex get() = object {
-    /** Memorex MTAB_PRO_2600 */
-    val MTAB_PRO_2600 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Memorex: Any
+  get() = object {
+      /** MEMOREX MTAB_PRO_2600 */
+      val MTAB_PRO_2600 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

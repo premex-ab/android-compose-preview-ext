@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Rockcel device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Rockcel.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Rockcel get() = object {
-    /** Rockcel Quartzo UP */
-    val QUARTZO_UP = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Rockcel: Any
+  get() = object {
+      /** Rockcel Quartzo_UP */
+      val QUARTZO_UP = "spec:width=480,height=854,unit=px,dpi=240"
 
-}
+  }

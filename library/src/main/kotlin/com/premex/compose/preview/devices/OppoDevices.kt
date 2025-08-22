@@ -1,1020 +1,1193 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Oppo device specifications for Android Compose previews.
+ * OPPO device specifications for Android Compose previews.
  *
- * This extension provides Oppo device specifications that can be used with @Preview annotations
+ * This extension provides OPPO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Oppo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Oppo get() = object {
-    /** Oppo 1201 */
-    val _1201 = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Oppo: Any
+  get() = object {
+      /** OPPO A11w */
+      val A11W = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Oppo 1206 */
-    val _1206 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** OPPO A1601 */
+      val A1601 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A系列 */
-    val A = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO A1603 */
+      val A1603 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Oppo A11 中国版 */
-    val A11 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO A31u */
+      val A31U = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Oppo A11w */
-    val A11W = "spec:width=480,height=854,unit=px,dpi=240"
+      /** OPPO A33 */
+      val A33 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Oppo A11x 中国版 */
-    val A11X = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO A33w */
+      val A33W = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Oppo A1601 */
-    val A1601 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO A37 */
+      val A37 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A1603 */
-    val A1603 = "spec:width=540,height=960,unit=px,dpi=240"
+      /** OPPO A37f */
+      val A37F = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A16K */
-    val A16K = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO A51 */
+      val A51 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Oppo A17k */
-    val A17K = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO A53 */
+      val A53 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A18 */
-    val A18 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO A57 */
+      val A57 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A1k */
-    val A1K = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** OPPO A59 */
+      val A59 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A1 Pro 5G */
-    val A1_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO A73 */
+      val A73 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A2 5G */
-    val A2_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO A73t */
+      val A73T = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A3 */
-    val A3 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** OPPO A77 */
+      val A77 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A31u */
-    val A31U = "spec:width=480,height=854,unit=px,dpi=240"
+      /** OPPO A79 */
+      val A79 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A32 中国版 */
-    val A32 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO A79k */
+      val A79K = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A33f */
-    val A33F = "spec:width=540,height=960,unit=px,dpi=240"
+      /** OPPO A79kt */
+      val A79KT = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A33w */
-    val A33W = "spec:width=540,height=960,unit=px,dpi=240"
+      /** OPPO A79t */
+      val A79T = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A37f */
-    val A37F = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO A83 */
+      val A83 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Oppo A37t */
-    val A37T = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO A83t */
+      val A83T = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Oppo A38 */
-    val A38 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO beluga */
+      val BELUGA = "spec:width=402,height=476,unit=px,dpi=320"
 
-    /** Oppo A3i 5G */
-    val A3I_5G = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1605 */
+      val CPH1605 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A3 Pro 5G */
-    val A3_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO CPH1607 */
+      val CPH1607 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A3s */
-    val A3S = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO CPH1609 */
+      val CPH1609 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A3x */
-    val A3X = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1611 */
+      val CPH1611 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A3x 5G */
-    val A3X_5G = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1613 */
+      val CPH1613 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A5 */
-    val A5 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO CPH1701 */
+      val CPH1701 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A51w */
-    val A51W = "spec:width=540,height=960,unit=px,dpi=240"
+      /** OPPO CPH1707 */
+      val CPH1707 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A52 */
-    val A52 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1715 */
+      val CPH1715 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A5 2020 */
-    val A5_2020 = "spec:width=720,height=1600,unit=px,dpi=160"
+      /** OPPO CPH1717 */
+      val CPH1717 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A53 5G */
-    val A53_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1719 */
+      val CPH1719 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A53fw */
-    val A53FW = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO CPH1721 */
+      val CPH1721 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A53s */
-    val A53S = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO CPH1723 */
+      val CPH1723 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A55 5G */
-    val A55_5G = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO CPH1725 */
+      val CPH1725 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A5 5G */
-    val A5_5G = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1727 */
+      val CPH1727 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A55s 5G */
-    val A55S_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1729 */
+      val CPH1729 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Oppo A57 */
-    val A57 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO CPH1801 */
+      val CPH1801 = "spec:width=1080,height=2160,unit=px,dpi=440"
 
-    /** Oppo A57t */
-    val A57T = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO CPH1803 */
+      val CPH1803 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A58 */
-    val A58 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1805 */
+      val CPH1805 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A59 */
-    val A59 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO CPH1809 */
+      val CPH1809 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A59 5G */
-    val A59_5G = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO CPH1819 */
+      val CPH1819 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo A5 Pro */
-    val A5_PRO = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1821 */
+      val CPH1821 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo A5 Pro 5G */
-    val A5_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO CPH1823 */
+      val CPH1823 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A5 Pro 5G */
-    val A5_PRO_5G_720X1604 = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1825 */
+      val CPH1825 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A5x */
-    val A5X = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1827 */
+      val CPH1827 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Oppo A60 */
-    val A60 = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO CPH1831 */
+      val CPH1831 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo A7 */
-    val A7 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO CPH1833 */
+      val CPH1833 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo A7 */
-    val A7_720X1520 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO CPH1835 */
+      val CPH1835 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo A72 */
-    val A72 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1837 */
+      val CPH1837 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo A73 */
-    val A73 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO CPH1851 */
+      val CPH1851 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A73t */
-    val A73T = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO CPH1853 */
+      val CPH1853 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A77 */
-    val A77 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO CPH1859 */
+      val CPH1859 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A78 */
-    val A78 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1861 */
+      val CPH1861 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-    /** Oppo A78 5G */
-    val A78_5G = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO CPH1871 */
+      val CPH1871 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A79 */
-    val A79 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO CPH1875 */
+      val CPH1875 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A79 5G */
-    val A79_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO CPH1877 */
+      val CPH1877 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A79k */
-    val A79K = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO CPH1879 */
+      val CPH1879 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A79kt */
-    val A79KT = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO CPH1881 */
+      val CPH1881 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A79t */
-    val A79T = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO CPH1893 */
+      val CPH1893 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo A7n */
-    val A7N = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO CPH1901 */
+      val CPH1901 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A7x 中国版 */
-    val A7X = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO CPH1903 */
+      val CPH1903 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A83 */
-    val A83 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** OPPO CPH1905 */
+      val CPH1905 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A83t */
-    val A83T = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** OPPO CPH1909 */
+      val CPH1909 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A9 中国版 */
-    val A9 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO CPH1920 */
+      val CPH1920 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo A91 */
-    val A91 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO F1f */
+      val F1F = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A9 2020 */
-    val A9_2020 = "spec:width=720,height=1600,unit=px,dpi=160"
+      /** OPPO N1 */
+      val N1 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A93 */
-    val A93 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO N1mini */
+      val N1MINI = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo A93 5G */
-    val A93_5G = "spec:width=1200,height=2000,unit=px,dpi=300"
+      /** OPPO N1T */
+      val N1T = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A96 5G */
-    val A96_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO N1W */
+      val N1W = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A98 5G */
-    val A98_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO N3 */
+      val N3 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo A9x */
-    val A9X = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO N5117 */
+      val N5117 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Oppo AX5s */
-    val AX5S = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP4679 */
+      val OP4679 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo AX7 */
-    val AX7 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP4699 */
+      val OP4699 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1605 */
-    val CPH1605 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP46B1 */
+      val OP46B1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1609fw */
-    val CPH1609FW = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP46C3 */
+      val OP46C3 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1613 */
-    val CPH1613 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP46F1 */
+      val OP46F1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1701 */
-    val CPH1701 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP46F3 */
+      val OP46F3 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1707 */
-    val CPH1707 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP47CFL1 */
+      val OP47CFL1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1715 */
-    val CPH1715 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP47DD */
+      val OP47DD = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1717 */
-    val CPH1717 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP47DDL1 */
+      val OP47DDL1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1719 */
-    val CPH1719 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP4845 */
+      val OP4845 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1721 */
-    val CPH1721 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP4845L1 */
+      val OP4845L1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1723 */
-    val CPH1723 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP4847 */
+      val OP4847 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1725 */
-    val CPH1725 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP4847L1 */
+      val OP4847L1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1727 */
-    val CPH1727 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP4863 */
+      val OP4863 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1729 */
-    val CPH1729 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** OPPO OP486B */
+      val OP486B = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1801 */
-    val CPH1801 = "spec:width=1080,height=2160,unit=px,dpi=440"
+      /** OPPO OP486C */
+      val OP486C = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Oppo CPH1803RU */
-    val CPH1803RU = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP4883 */
+      val OP4883 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1805 */
-    val CPH1805 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP48A1 */
+      val OP48A1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1827 */
-    val CPH1827 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** OPPO OP48A1L1 */
+      val OP48A1L1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1851 */
-    val CPH1851 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP4A43 */
+      val OP4A43 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH1893RU */
-    val CPH1893RU = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4A47 */
+      val OP4A47 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH1907 */
-    val CPH1907 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4A4D */
+      val OP4A4D = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo CPH1909 */
-    val CPH1909 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP4A54 */
+      val OP4A54 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo CPH1989 */
-    val CPH1989 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4A57 */
+      val OP4A57 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2021 */
-    val CPH2021 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4A77 */
+      val OP4A77 = "spec:width=1440,height=3168,unit=px,dpi=640"
 
-    /** Oppo CPH2043 */
-    val CPH2043 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4A7A */
+      val OP4A7A = "spec:width=1440,height=3168,unit=px,dpi=640"
 
-    /** Oppo CPH2081 */
-    val CPH2081 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP4A89 */
+      val OP4A89 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2083 */
-    val CPH2083 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP4A9D */
+      val OP4A9D = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2095 */
-    val CPH2095 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4AA7 */
+      val OP4AA7 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH2113 */
-    val CPH2113 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4AB5 */
+      val OP4AB5 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2145 */
-    val CPH2145 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4ABB */
+      val OP4ABB = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2161 */
-    val CPH2161 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4ACF */
+      val OP4ACF = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2207 */
-    val CPH2207 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4AD9 */
+      val OP4AD9 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2213 */
-    val CPH2213 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4ADD */
+      val OP4ADD = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2223 */
-    val CPH2223 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4AE7 */
+      val OP4AE7 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2235 */
-    val CPH2235 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4AF7 */
+      val OP4AF7 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2237 */
-    val CPH2237 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4B65L1 */
+      val OP4B65L1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo CPH2239 */
-    val CPH2239 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP4B83L1 */
+      val OP4B83L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2247 */
-    val CPH2247 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4B9B */
+      val OP4B9B = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2249 */
-    val CPH2249 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4B9EL1 */
+      val OP4B9EL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2251 */
-    val CPH2251 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4BA1L1 */
+      val OP4BA1L1 = "spec:width=1440,height=3168,unit=px,dpi=640"
 
-    /** Oppo CPH2269 */
-    val CPH2269 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP4BA2L1 */
+      val OP4BA2L1 = "spec:width=1440,height=3168,unit=px,dpi=640"
 
-    /** Oppo CPH2293 */
-    val CPH2293 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4BA5L1 */
+      val OP4BA5L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2325 */
-    val CPH2325 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP4BAFL1 */
+      val OP4BAFL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2385 */
-    val CPH2385 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO OP4BDCL1 */
+      val OP4BDCL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2387 */
-    val CPH2387 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO OP4BFB */
+      val OP4BFB = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo CPH2421 */
-    val CPH2421 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP4C2DL1 */
+      val OP4C2DL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2455 */
-    val CPH2455 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4C41L1 */
+      val OP4C41L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2473 */
-    val CPH2473 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO OP4C45L1 */
+      val OP4C45L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo CPH2527 */
-    val CPH2527 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4C4BL1 */
+      val OP4C4BL1 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo F11 */
-    val F11 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4C51L1 */
+      val OP4C51L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo F11 Pro */
-    val F11_PRO = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4C5FL1 */
+      val OP4C5FL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo F1w */
-    val F1W = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP4C72L1 */
+      val OP4C72L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo F29 Pro 5G */
-    val F29_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP4C77L1 */
+      val OP4C77L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo F7 */
-    val F7 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** OPPO OP4C7BL1 */
+      val OP4C7BL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo F9 */
-    val F9 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4C7D */
+      val OP4C7D = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo Find N */
-    val FIND_N = "spec:width=1792,height=1920,unit=px,dpi=440"
+      /** OPPO OP4C87L1 */
+      val OP4C87L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find N2 Flip */
-    val FIND_N2_FLIP = "spec:width=1080,height=2520,unit=px,dpi=480"
+      /** OPPO OP4E21 */
+      val OP4E21 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find N3 */
-    val FIND_N3 = "spec:width=2268,height=2440,unit=px,dpi=520"
+      /** OPPO OP4E2F */
+      val OP4E2F = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo Find N3 Flip */
-    val FIND_N3_FLIP = "spec:width=1080,height=2520,unit=px,dpi=480"
+      /** OPPO OP4E35 */
+      val OP4E35 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo Find N5 */
-    val FIND_N5 = "spec:width=2248,height=2480,unit=px,dpi=520"
+      /** OPPO OP4E3F */
+      val OP4E3F = "spec:width=1440,height=3216,unit=px,dpi=480"
 
-    /** Oppo Find X */
-    val FIND_X = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4E49 */
+      val OP4E49 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X2 */
-    val FIND_X2 = "spec:width=1440,height=3168,unit=px,dpi=640"
+      /** OPPO OP4E59 */
+      val OP4E59 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X2 Lite */
-    val FIND_X2_LITE = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4E5D */
+      val OP4E5D = "spec:width=1440,height=3216,unit=px,dpi=480"
 
-    /** Oppo Find X2 Pro */
-    val FIND_X2_PRO = "spec:width=1440,height=3168,unit=px,dpi=640"
+      /** OPPO OP4E6B */
+      val OP4E6B = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X3 中国版 */
-    val FIND_X3 = "spec:width=1440,height=3216,unit=px,dpi=480"
+      /** OPPO OP4E75L1 */
+      val OP4E75L1 = "spec:width=1792,height=1920,unit=px,dpi=440"
 
-    /** Oppo Find X3 Pro */
-    val FIND_X3_PRO = "spec:width=1440,height=3216,unit=px,dpi=480"
+      /** OPPO OP4E7B */
+      val OP4E7B = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo Find X5 */
-    val FIND_X5 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4E7F */
+      val OP4E7F = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X5 Pro */
-    val FIND_X5_PRO = "spec:width=1440,height=3216,unit=px,dpi=480"
+      /** OPPO OP4E8C */
+      val OP4E8C = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo Find X6 */
-    val FIND_X6 = "spec:width=1240,height=2772,unit=px,dpi=560"
+      /** OPPO OP4E8F */
+      val OP4E8F = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X6 Pro */
-    val FIND_X6_PRO = "spec:width=1440,height=3216,unit=px,dpi=480"
+      /** OPPO OP4E9F */
+      val OP4E9F = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X7 */
-    val FIND_X7 = "spec:width=1264,height=2780,unit=px,dpi=560"
+      /** OPPO OP4EA3 */
+      val OP4EA3 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X7 Ultra */
-    val FIND_X7_ULTRA = "spec:width=1440,height=3216,unit=px,dpi=640"
+      /** OPPO OP4EA7 */
+      val OP4EA7 = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Oppo Find X8 */
-    val FIND_X8 = "spec:width=1256,height=2760,unit=px,dpi=560"
+      /** OPPO OP4EB7 */
+      val OP4EB7 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X8 Pro */
-    val FIND_X8_PRO = "spec:width=1264,height=2780,unit=px,dpi=560"
+      /** OPPO OP4EC1 */
+      val OP4EC1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X8s */
-    val FIND_X8S = "spec:width=1216,height=2640,unit=px,dpi=560"
+      /** OPPO OP4ECB */
+      val OP4ECB = "spec:width=1080,height=2388,unit=px,dpi=480"
 
-    /** Oppo Find X8s+ */
-    val FIND_X8S_1256X2760 = "spec:width=1256,height=2760,unit=px,dpi=560"
+      /** OPPO OP4ED5 */
+      val OP4ED5 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Find X8 Ultra */
-    val FIND_X8_ULTRA = "spec:width=1440,height=3216,unit=px,dpi=640"
+      /** OPPO OP4EE8L1 */
+      val OP4EE8L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K1 */
-    val K1 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4EEA */
+      val OP4EEA = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo K12 5G */
-    val K12_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP4EF3L1 */
+      val OP4EF3L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K12 Plus */
-    val K12_PLUS = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP4EFDL1 */
+      val OP4EFDL1 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo K12s 5G */
-    val K12S_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4F0BL1 */
+      val OP4F0BL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K12x 5G */
-    val K12X_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4F11L1 */
+      val OP4F11L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K12x 5G */
-    val K12X_5G_720X1604 = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO OP4F1BL1 */
+      val OP4F1BL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K13 5G */
-    val K13_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4F1FL1 */
+      val OP4F1FL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K13 Turbo 5G */
-    val K13_TURBO_5G = "spec:width=1280,height=2800,unit=px,dpi=560"
+      /** OPPO OP4F25L1 */
+      val OP4F25L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K13 Turbo Pro 5G */
-    val K13_TURBO_PRO_5G = "spec:width=1280,height=2800,unit=px,dpi=560"
+      /** OPPO OP4F2BL1 */
+      val OP4F2BL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K3 */
-    val K3 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4F2F */
+      val OP4F2F = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo K5 */
-    val K5 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP4F39L1 */
+      val OP4F39L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo K7x 中国版 */
-    val K7X = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4F43L1 */
+      val OP4F43L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo N1 */
-    val N1 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP4F4DL1 */
+      val OP4F4DL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo N1 mimi */
-    val N1_MIMI = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP4F53L1 */
+      val OP4F53L1 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo N1T */
-    val N1T = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP4F57L1 */
+      val OP4F57L1 = "spec:width=1440,height=3216,unit=px,dpi=480"
 
-    /** Oppo N1W */
-    val N1W = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP4F7FL1 */
+      val OP4F7FL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo N3 */
-    val N3 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP4F81L1 */
+      val OP4F81L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo N5117 */
-    val N5117 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP4F83L1 */
+      val OP4F83L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPD2102A */
-    val OPD2102A = "spec:width=1200,height=2000,unit=px,dpi=280"
+      /** OPPO OP4F97 */
+      val OP4F97 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo OPPO A1 5G */
-    val OPPO_A1_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP4FA7L1 */
+      val OP4FA7L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO A33 */
-    val OPPO_A33 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP520DL1 */
+      val OP520DL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO A35 */
-    val OPPO_A35 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP520F */
+      val OP520F = "spec:width=1440,height=3216,unit=px,dpi=480"
 
-    /** Oppo OPPO A53s 5G */
-    val OPPO_A53S_5G = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP5217 */
+      val OP5217 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO A5 5G */
-    val OPPO_A5_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5223 */
+      val OP5223 = "spec:width=1600,height=2560,unit=px,dpi=360"
 
-    /** Oppo OPPO A57s */
-    val OPPO_A57S = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO OP5225 */
+      val OP5225 = "spec:width=1200,height=2000,unit=px,dpi=280"
 
-    /** Oppo OPPO A6i 5G */
-    val OPPO_A6I_5G = "spec:width=720,height=1604,unit=px,dpi=320"
+      /** OPPO OP5226L1 */
+      val OP5226L1 = "spec:width=1200,height=2000,unit=px,dpi=280"
 
-    /** Oppo OPPO A74 5G */
-    val OPPO_A74_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5227 */
+      val OP5227 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO A95 5G */
-    val OPPO_A95_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5231 */
+      val OP5231 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO F21 Pro 5G */
-    val OPPO_F21_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5245 */
+      val OP5245 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO F27 Pro+ 5G */
-    val OPPO_F27_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5259 */
+      val OP5259 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO F29 5G */
-    val OPPO_F29_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5267 */
+      val OP5267 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO K11 5G */
-    val OPPO_K11_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP526D */
+      val OP526D = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo OPPO K11x 5G */
-    val OPPO_K11X_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5281 */
+      val OP5281 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo OPPO Pad */
-    val OPPO_PAD = "spec:width=1600,height=2560,unit=px,dpi=360"
+      /** OPPO OP5285 */
+      val OP5285 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Pad 2 */
-    val OPPO_PAD_2 = "spec:width=2000,height=2800,unit=px,dpi=400"
+      /** OPPO OP5287 */
+      val OP5287 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Pad 3 */
-    val OPPO_PAD_3 = "spec:width=2000,height=2800,unit=px,dpi=400"
+      /** OPPO OP528BL1 */
+      val OP528BL1 = "spec:width=1440,height=3216,unit=px,dpi=480"
 
-    /** Oppo OPPO Pad 3 Pro */
-    val OPPO_PAD_3_PRO = "spec:width=2120,height=3000,unit=px,dpi=420"
+      /** OPPO OP528F */
+      val OP528F = "spec:width=1240,height=2772,unit=px,dpi=560"
 
-    /** Oppo OPPO Pad Air */
-    val OPPO_PAD_AIR = "spec:width=1200,height=2000,unit=px,dpi=280"
+      /** OPPO OP5295 */
+      val OP5295 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo OPPO Pad Neo */
-    val OPPO_PAD_NEO = "spec:width=1720,height=2408,unit=px,dpi=360"
+      /** OPPO OP5297 */
+      val OP5297 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno10 5G */
-    val OPPO_RENO10_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP52D1L1 */
+      val OP52D1L1 = "spec:width=1440,height=3216,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno10 Pro 5G */
-    val OPPO_RENO10_PRO_5G = "spec:width=1240,height=2772,unit=px,dpi=560"
+      /** OPPO OP52D5L1 */
+      val OP52D5L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno5 pro */
-    val OPPO_RENO5_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP52E1L1 */
+      val OP52E1L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno5 Pro+ 5G */
-    val OPPO_RENO5_PRO_5G = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** OPPO OP52EBL1 */
+      val OP52EBL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno7 */
-    val OPPO_RENO7 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP52F3L1 */
+      val OP52F3L1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo OPPO Reno7 5G */
-    val OPPO_RENO7_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5303 */
+      val OP5303 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo OPPO Reno7 A */
-    val OPPO_RENO7_A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5321 */
+      val OP5321 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo OPPO Reno8 5G */
-    val OPPO_RENO8_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5325 */
+      val OP5325 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Oppo OPPO Reno8 Pro 5G */
-    val OPPO_RENO8_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP532BL1 */
+      val OP532BL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno8 T */
-    val OPPO_RENO8_T = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP532FL1 */
+      val OP532FL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo OPPO Reno9 Pro 5G */
-    val OPPO_RENO9_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5335L1 */
+      val OP5335L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo Pad 4 Pro */
-    val PAD_4_PRO = "spec:width=2400,height=3392,unit=px,dpi=420"
+      /** OPPO OP5339L1 */
+      val OP5339L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Pad SE */
-    val PAD_SE = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** OPPO OP533FL1 */
+      val OP533FL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo PCRT01 */
-    val PCRT01 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5353L1 */
+      val OP5353L1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo PDKT00 */
-    val PDKT00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5355 */
+      val OP5355 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo PDST00 */
-    val PDST00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP55F3L1 */
+      val OP55F3L1 = "spec:width=2268,height=2440,unit=px,dpi=520"
 
-    /** Oppo PDYT20 */
-    val PDYT20 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP55FF */
+      val OP55FF = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo PEAT00 */
-    val PEAT00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5601 */
+      val OP5601 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo PEGT00 */
-    val PEGT00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5605 */
+      val OP5605 = "spec:width=1080,height=2520,unit=px,dpi=480"
 
-    /** Oppo PEGT10 */
-    val PEGT10 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5607L1 */
+      val OP5607L1 = "spec:width=1080,height=2520,unit=px,dpi=480"
 
-    /** Oppo PEPM00 */
-    val PEPM00 = "spec:width=1080,height=2388,unit=px,dpi=480"
+      /** OPPO OP5613 */
+      val OP5613 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo PEQM00 */
-    val PEQM00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP561D */
+      val OP561D = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo PEXM00 */
-    val PEXM00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP561F */
+      val OP561F = "spec:width=1240,height=2772,unit=px,dpi=560"
 
-    /** Oppo PEYM00 */
-    val PEYM00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5627 */
+      val OP5627 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo PFCM00 */
-    val PFCM00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5637L1 */
+      val OP5637L1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo PFDM00 */
-    val PFDM00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5647 */
+      val OP5647 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo PFFM10 */
-    val PFFM10 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP564B */
+      val OP564B = "spec:width=1240,height=2772,unit=px,dpi=560"
 
-    /** Oppo PFFM20 */
-    val PFFM20 = "spec:width=1440,height=3216,unit=px,dpi=480"
+      /** OPPO OP5655 */
+      val OP5655 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo PFGM00 */
-    val PFGM00 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP565FL1 */
+      val OP565FL1 = "spec:width=1440,height=3216,unit=px,dpi=640"
 
-    /** Oppo PFTM20 */
-    val PFTM20 = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** OPPO OP5660L1 */
+      val OP5660L1 = "spec:width=1440,height=3216,unit=px,dpi=640"
 
-    /** Oppo PFZM10 */
-    val PFZM10 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5661L1 */
+      val OP5661L1 = "spec:width=1264,height=2780,unit=px,dpi=560"
 
-    /** Oppo PGAM10 */
-    val PGAM10 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP56BBL1 */
+      val OP56BBL1 = "spec:width=2268,height=2440,unit=px,dpi=520"
 
-    /** Oppo PGBM10 */
-    val PGBM10 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP56CDL1 */
+      val OP56CDL1 = "spec:width=1080,height=2520,unit=px,dpi=480"
 
-    /** Oppo PGCM10 */
-    val PGCM10 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP56CFL1 */
+      val OP56CFL1 = "spec:width=1080,height=2520,unit=px,dpi=480"
 
-    /** Oppo PGGM10 */
-    val PGGM10 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP56D3L1 */
+      val OP56D3L1 = "spec:width=1240,height=2772,unit=px,dpi=560"
 
-    /** Oppo PGJM10 */
-    val PGJM10 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP56DBL1 */
+      val OP56DBL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo PGW110 */
-    val PGW110 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP56E1L1 */
+      val OP56E1L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo PHM110 */
-    val PHM110 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP56E7L1 */
+      val OP56E7L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R1011w */
-    val R1011W = "spec:width=480,height=800,unit=px,dpi=240"
+      /** OPPO OP56E8L1 */
+      val OP56E8L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R11 */
-    val R11 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP56EDL1 */
+      val OP56EDL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R11 Plus */
-    val R11_PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP56F5 */
+      val OP56F5 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R11 Plusk */
-    val R11_PLUSK = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5701L1 */
+      val OP5701L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R11sPlust */
-    val R11SPLUST = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP5705L1 */
+      val OP5705L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R11st */
-    val R11ST = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP5709L1 */
+      val OP5709L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R15 */
-    val R15 = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** OPPO OP571DL1 */
+      val OP571DL1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R15 Pro */
-    val R15_PRO = "spec:width=1080,height=2280,unit=px,dpi=480"
+      /** OPPO OP571F */
+      val OP571F = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R15x */
-    val R15X = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP573DL1 */
+      val OP573DL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R17 */
-    val R17 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5745L1 */
+      val OP5745L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R17 Pro */
-    val R17_PRO = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP574FL1 */
+      val OP574FL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R2017 */
-    val R2017 = "spec:width=540,height=960,unit=px,dpi=240"
+      /** OPPO OP5759L1 */
+      val OP5759L1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R5 */
-    val R5 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP575DL1 */
+      val OP575DL1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R7 */
-    val R7 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP591D */
+      val OP591D = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R7007 */
-    val R7007 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP5925 */
+      val OP5925 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R7c */
-    val R7C = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5989 */
+      val OP5989 = "spec:width=2000,height=2800,unit=px,dpi=400"
 
-    /** Oppo R7g */
-    val R7G = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP59BBL1 */
+      val OP59BBL1 = "spec:width=2000,height=2800,unit=px,dpi=400"
 
-    /** Oppo R7Plusf */
-    val R7PLUSF = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP59EDL1 */
+      val OP59EDL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R7Plust */
-    val R7PLUST = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP59EFL1 */
+      val OP59EFL1 = "spec:width=1240,height=2772,unit=px,dpi=560"
 
-    /** Oppo R7s */
-    val R7S = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP59FB */
+      val OP59FB = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R7sf */
-    val R7SF = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5A0BL1 */
+      val OP5A0BL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R7sfg */
-    val R7SFG = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5A0D */
+      val OP5A0D = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R7s Plus */
-    val R7S_PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5A15L1 */
+      val OP5A15L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R8001 */
-    val R8001 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP5A1F */
+      val OP5A1F = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo R8006 */
-    val R8006 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP5A29L1 */
+      val OP5A29L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R815 */
-    val R815 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** OPPO OP5A2BL1 */
+      val OP5A2BL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R821 */
-    val R821 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** OPPO OP5A3DL1 */
+      val OP5A3DL1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo R827 */
-    val R827 = "spec:width=540,height=960,unit=px,dpi=240"
+      /** OPPO OP5A41L1 */
+      val OP5A41L1 = "spec:width=1264,height=2780,unit=px,dpi=560"
 
-    /** Oppo R829 */
-    val R829 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** OPPO OP5A47 */
+      val OP5A47 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo R831 */
-    val R831 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** OPPO OP5AA5L1 */
+      val OP5AA5L1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo R831L */
-    val R831L = "spec:width=480,height=854,unit=px,dpi=240"
+      /** OPPO OP5AB0L1 */
+      val OP5AB0L1 = "spec:width=1264,height=2780,unit=px,dpi=560"
 
-    /** Oppo R9 */
-    val R9 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5ABFL1 */
+      val OP5ABFL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R9 Plus */
-    val R9_PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5AD3L1 */
+      val OP5AD3L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R9Plus */
-    val R9PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5AD5L1 */
+      val OP5AD5L1 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Oppo R9s */
-    val R9S = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5ADDL1 */
+      val OP5ADDL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R9sk */
-    val R9SK = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5AE1L1 */
+      val OP5AE1L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo R9s Plus */
-    val R9S_PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5AE7L1 */
+      val OP5AE7L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo R9st */
-    val R9ST = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO OP5AF2L1 */
+      val OP5AF2L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo realme 1 */
-    val REALME_1 = "spec:width=1080,height=2160,unit=px,dpi=480"
+      /** OPPO OP5B05L1 */
+      val OP5B05L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo realme 2 */
-    val REALME_2 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP5B16L1 */
+      val OP5B16L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo realme 2 Pro */
-    val REALME_2_PRO = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5B19L1 */
+      val OP5B19L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo realme 3 */
-    val REALME_3 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP5D76L1 */
+      val OP5D76L1 = "spec:width=2120,height=3000,unit=px,dpi=420"
 
-    /** Oppo realme 3i */
-    val REALME_3I = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP5DA3L1 */
+      val OP5DA3L1 = "spec:width=1720,height=2408,unit=px,dpi=360"
 
-    /** Oppo realme 3Pro */
-    val REALME_3PRO = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5DA8L1 */
+      val OP5DA8L1 = "spec:width=2120,height=3000,unit=px,dpi=420"
 
-    /** Oppo realme 5 */
-    val REALME_5 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** OPPO OP5DC1L1 */
+      val OP5DC1L1 = "spec:width=2248,height=2480,unit=px,dpi=520"
 
-    /** Oppo realme C1 */
-    val REALME_C1 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** OPPO OP5DCBL1 */
+      val OP5DCBL1 = "spec:width=1216,height=2640,unit=px,dpi=560"
 
-    /** Oppo realme C2 */
-    val REALME_C2 = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** OPPO OP5DCDL1 */
+      val OP5DCDL1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo realme U1 */
-    val REALME_U1 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5DD2L1 */
+      val OP5DD2L1 = "spec:width=1440,height=3216,unit=px,dpi=640"
 
-    /** Oppo realme X */
-    val REALME_X = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5DD3L1 */
+      val OP5DD3L1 = "spec:width=1440,height=3216,unit=px,dpi=640"
 
-    /** Oppo realme X50 5G */
-    val REALME_X50_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5DD5L1 */
+      val OP5DD5L1 = "spec:width=1272,height=2800,unit=px,dpi=560"
 
-    /** Oppo realme X Lite */
-    val REALME_X_LITE = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5DD7L1 */
+      val OP5DD7L1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo Reno */
-    val RENO = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5DDF */
+      val OP5DDF = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno 10倍变焦版 */
-    val RENO_10 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5DF3 */
+      val OP5DF3 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo Reno10 5G */
-    val RENO10_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5DF5L1 */
+      val OP5DF5L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno10 Pro 5G */
-    val RENO10_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5DF7 */
+      val OP5DF7 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo Reno10 Pro+ 5G */
-    val RENO10_PRO_5G_1240X2772 = "spec:width=1240,height=2772,unit=px,dpi=560"
+      /** OPPO OP5DFDL1 */
+      val OP5DFDL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo Reno 10x room */
-    val RENO_10X_ROOM = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5E01L1 */
+      val OP5E01L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno 10x Zoom */
-    val RENO_10X_ZOOM = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP5E03L1 */
+      val OP5E03L1 = "spec:width=1280,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno 11 */
-    val RENO_11 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5E05L1 */
+      val OP5E05L1 = "spec:width=1280,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno11 */
-    val RENO11 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5E07L1 */
+      val OP5E07L1 = "spec:width=1272,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno11 F 5G */
-    val RENO11_F_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5E0BL1 */
+      val OP5E0BL1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo Reno 11 Pro */
-    val RENO_11_PRO = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5E89L1 */
+      val OP5E89L1 = "spec:width=2248,height=2480,unit=px,dpi=520"
 
-    /** Oppo Reno11 Pro */
-    val RENO11_PRO = "spec:width=1240,height=2772,unit=px,dpi=560"
+      /** OPPO OP5E9EL1 */
+      val OP5E9EL1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo Reno12 */
-    val RENO12 = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5EA7L1 */
+      val OP5EA7L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno12 5G */
-    val RENO12_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5EB1L1 */
+      val OP5EB1L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno12 F */
-    val RENO12_F = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5EBBL1 */
+      val OP5EBBL1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno12 F 5G */
-    val RENO12_F_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5EC5L1 */
+      val OP5EC5L1 = "spec:width=1272,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno12 Pro */
-    val RENO12_PRO = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5EC7L1 */
+      val OP5EC7L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno12 Pro 5G */
-    val RENO12_PRO_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO OP5ECBL1 */
+      val OP5ECBL1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno13 */
-    val RENO13 = "spec:width=1256,height=2760,unit=px,dpi=560"
+      /** OPPO OP5ECFL1 */
+      val OP5ECFL1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo Reno13 5G */
-    val RENO13_5G = "spec:width=1256,height=2760,unit=px,dpi=560"
+      /** OPPO OP5ED7L1 */
+      val OP5ED7L1 = "spec:width=1080,height=2412,unit=px,dpi=480"
 
-    /** Oppo Reno13 F */
-    val RENO13_F = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5ED9L1 */
+      val OP5ED9L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno13 F 5G */
-    val RENO13_F_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP5EE3L1 */
+      val OP5EE3L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno13 Pro */
-    val RENO13_PRO = "spec:width=1272,height=2800,unit=px,dpi=560"
+      /** OPPO OP5EE7L1 */
+      val OP5EE7L1 = "spec:width=1280,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno13 Pro 5G */
-    val RENO13_PRO_5G = "spec:width=1272,height=2800,unit=px,dpi=560"
+      /** OPPO OP5EE9L1 */
+      val OP5EE9L1 = "spec:width=1280,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno14 */
-    val RENO14 = "spec:width=1256,height=2760,unit=px,dpi=560"
+      /** OPPO OP5EEDL1 */
+      val OP5EEDL1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno14 5G */
-    val RENO14_5G = "spec:width=1256,height=2760,unit=px,dpi=560"
+      /** OPPO OP5EF7L1 */
+      val OP5EF7L1 = "spec:width=720,height=1604,unit=px,dpi=320"
 
-    /** Oppo Reno14 F 5G */
-    val RENO14_F_5G = "spec:width=1080,height=2372,unit=px,dpi=480"
+      /** OPPO OP5F02L1 */
+      val OP5F02L1 = "spec:width=1256,height=2760,unit=px,dpi=560"
 
-    /** Oppo Reno14 Pro */
-    val RENO14_PRO = "spec:width=1272,height=2800,unit=px,dpi=560"
+      /** OPPO OP5F05L1 */
+      val OP5F05L1 = "spec:width=1272,height=2800,unit=px,dpi=560"
 
-    /** Oppo Reno14 Pro 5G */
-    val RENO14_PRO_5G = "spec:width=1272,height=2800,unit=px,dpi=560"
+      /** OPPO OP5F0FL1 */
+      val OP5F0FL1 = "spec:width=1080,height=2372,unit=px,dpi=480"
 
-    /** Oppo Reno 2 中国版 */
-    val RENO_2 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP6159L1 */
+      val OP6159L1 = "spec:width=2000,height=2800,unit=px,dpi=400"
 
-    /** Oppo Reno2 Z */
-    val RENO2_Z = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO OP615CL1 */
+      val OP615CL1 = "spec:width=2400,height=3392,unit=px,dpi=420"
 
-    /** Oppo Reno3 5G 中国版 */
-    val RENO3_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP6160L1 */
+      val OP6160L1 = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-    /** Oppo Reno3 A */
-    val RENO3_A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP618BL1 */
+      val OP618BL1 = "spec:width=2000,height=2800,unit=px,dpi=400"
 
-    /** Oppo Reno3 Pro */
-    val RENO3_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP6192L1 */
+      val OP6192L1 = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-    /** Oppo Reno3 Pro 5G中国版 */
-    val RENO3_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OP6193L1 */
+      val OP6193L1 = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-    /** Oppo Reno4 中国版 */
-    val RENO4 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OPD2A0 */
+      val OPD2A0 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno4 5G  */
-    val RENO4_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OPD4A1L1 */
+      val OPD4A1L1 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Oppo Reno4 Pro 中国版 */
-    val RENO4_PRO = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO orca */
+      val ORCA = "spec:width=402,height=476,unit=px,dpi=320"
 
-    /** Oppo Reno4 Pro 5G */
-    val RENO4_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OWWE231 */
+      val OWWE231 = "spec:width=466,height=466,unit=px,dpi=320"
 
-    /** Oppo Reno 4Z 5G */
-    val RENO_4Z_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OWWE242 */
+      val OWWE242 = "spec:width=466,height=466,unit=px,dpi=360"
 
-    /** Oppo Reno5 A (eSIM) */
-    val RENO5_A_ESIM = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO OWWE251 */
+      val OWWE251 = "spec:width=466,height=466,unit=px,dpi=320"
 
-    /** Oppo Reno5 Lite */
-    val RENO5_LITE = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO PAAM00 */
+      val PAAM00 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo Reno6 Pro+ 5G */
-    val RENO6_PRO_5G = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO PAAT00 */
+      val PAAT00 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo Reno7 中国版 */
-    val RENO7 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO PACM00 */
+      val PACM00 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo Reno8 T 5G */
-    val RENO8_T_5G = "spec:width=1080,height=2412,unit=px,dpi=480"
+      /** OPPO PACT00 */
+      val PACT00 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo Reno9 A */
-    val RENO9_A = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO PADM00 */
+      val PADM00 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo Reno A */
-    val RENO_A = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO PADT00 */
+      val PADT00 = "spec:width=1080,height=2280,unit=px,dpi=480"
 
-    /** Oppo Reno Ace */
-    val RENO_ACE = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO PAFM00 */
+      val PAFM00 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo Reno Ace2 */
-    val RENO_ACE2 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** OPPO PAFT00 */
+      val PAFT00 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo Reno Z */
-    val RENO_Z = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** OPPO PAHM00 */
+      val PAHM00 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo X9006 */
-    val X9006 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO PBAM00 */
+      val PBAM00 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo X9007 */
-    val X9007 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO PBAT00 */
+      val PBAT00 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Oppo X9009 */
-    val X9009 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO PBBM00 */
+      val PBBM00 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Oppo X9076 */
-    val X9076 = "spec:width=1440,height=2560,unit=px,dpi=640"
+      /** OPPO PBBM30 */
+      val PBBM30 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Oppo X909 */
-    val X909 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** OPPO PBBT00 */
+      val PBBT00 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+      /** OPPO PBBT30 */
+      val PBBT30 = "spec:width=720,height=1520,unit=px,dpi=320"
+
+      /** OPPO PBCM10 */
+      val PBCM10 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBCM30 */
+      val PBCM30 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBCT10 */
+      val PBCT10 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBDM00 */
+      val PBDM00 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBDT00 */
+      val PBDT00 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBEM00 */
+      val PBEM00 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBET00 */
+      val PBET00 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO PBFM00 */
+      val PBFM00 = "spec:width=720,height=1520,unit=px,dpi=320"
+
+      /** OPPO PBFT00 */
+      val PBFT00 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO PCDT00 */
+      val PCDT00 = "spec:width=720,height=1520,unit=px,dpi=320"
+
+      /** OPPO R1011 */
+      val R1011 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** OPPO R11 */
+      val R11 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R11Plus */
+      val R11PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R11Plusk */
+      val R11PLUSK = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R11s */
+      val R11S = "spec:width=1080,height=2160,unit=px,dpi=480"
+
+      /** OPPO R11sPlus */
+      val R11SPLUS = "spec:width=1080,height=2160,unit=px,dpi=480"
+
+      /** OPPO R2017 */
+      val R2017 = "spec:width=540,height=960,unit=px,dpi=240"
+
+      /** OPPO R5 */
+      val R5 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7 */
+      val R7 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7007 */
+      val R7007 = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** OPPO R7c */
+      val R7C = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7f */
+      val R7F = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** OPPO R7Plus */
+      val R7PLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7Plusm */
+      val R7PLUSM = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7s */
+      val R7S = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7sf */
+      val R7SF = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7sm */
+      val R7SM = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R7sPlus */
+      val R7SPLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R8001 */
+      val R8001 = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** OPPO R8006 */
+      val R8006 = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** OPPO R815 */
+      val R815 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** OPPO R821 */
+      val R821 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** OPPO R827 */
+      val R827 = "spec:width=540,height=960,unit=px,dpi=240"
+
+      /** OPPO R829 */
+      val R829 = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** OPPO R831 */
+      val R831 = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** OPPO R831L */
+      val R831L = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** OPPO R9 */
+      val R9 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R9PlusA */
+      val R9PLUSA = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R9s */
+      val R9S = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R9sk */
+      val R9SK = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO R9sPlus */
+      val R9SPLUS = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO RMX1801 */
+      val RMX1801 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO RMX1803 */
+      val RMX1803 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO RMX1805 */
+      val RMX1805 = "spec:width=720,height=1520,unit=px,dpi=320"
+
+      /** OPPO RMX1807 */
+      val RMX1807 = "spec:width=1080,height=2340,unit=px,dpi=480"
+
+      /** OPPO RMX1809 */
+      val RMX1809 = "spec:width=720,height=1520,unit=px,dpi=320"
+
+      /** OPPO RMX1811 */
+      val RMX1811 = "spec:width=720,height=1520,unit=px,dpi=320"
+
+      /** OPPO X9006 */
+      val X9006 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO X9007 */
+      val X9007 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO X9009 */
+      val X9009 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO X9076 */
+      val X9076 = "spec:width=1440,height=2560,unit=px,dpi=640"
+
+      /** OPPO X9079 */
+      val X9079 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO X909 */
+      val X909 = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO X909T */
+      val X909T = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** OPPO 1201 */
+      val _1201 = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** OPPO 1206 */
+      val _1206 = "spec:width=480,height=854,unit=px,dpi=240"
+
+  }

@@ -1,51 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Kogan device specifications for Android Compose previews.
+ * KOGAN device specifications for Android Compose previews.
  *
- * This extension provides Kogan device specifications that can be used with @Preview annotations
+ * This extension provides KOGAN device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Kogan.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Kogan get() = object {
-    /** Kogan KAKT10164SA */
-    val KAKT10164SA = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Kogan: Any
+  get() = object {
+      /** KOGAN SW4H */
+      val SW4H = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Kogan KATB10128WPA */
-    val KATB10128WPA = "spec:width=1200,height=1920,unit=px,dpi=213"
+      /** KOGAN SW4H_FF */
+      val SW4H_FF = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Kogan KATB1064CGRY */
-    val KATB1064CGRY = "spec:width=800,height=1280,unit=px,dpi=240"
-
-    /** Kogan KATB1064WGRY */
-    val KATB1064WGRY = "spec:width=1200,height=1920,unit=px,dpi=213"
-
-    /** Kogan KATB21064CPA */
-    val KATB21064CPA = "spec:width=800,height=1280,unit=px,dpi=240"
-
-    /** Kogan KATB2P1064WPA */
-    val KATB2P1064WPA = "spec:width=1200,height=2000,unit=px,dpi=240"
-
-    /** Kogan Kogan Agora 9 */
-    val KOGAN_AGORA_9 = "spec:width=720,height=1440,unit=px,dpi=320"
-
-    /** Kogan Kogan Agora Go */
-    val KOGAN_AGORA_GO = "spec:width=720,height=1440,unit=px,dpi=320"
-
-    /** Kogan Kogan Agora XI */
-    val KOGAN_AGORA_XI = "spec:width=720,height=1520,unit=px,dpi=320"
-
-    /** Kogan Kogan Agora XS */
-    val KOGAN_AGORA_XS = "spec:width=720,height=1520,unit=px,dpi=320"
-
-}
+  }

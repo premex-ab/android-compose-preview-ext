@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Ruggon device specifications for Android Compose previews.
+ * RuggON device specifications for Android Compose previews.
  *
- * This extension provides Ruggon device specifications that can be used with @Preview annotations
+ * This extension provides RuggON device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ruggon.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ruggon get() = object {
-    /** Ruggon PA501 */
-    val PA501 = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Ruggon: Any
+  get() = object {
+      /** RuggON PA501BG */
+      val PA501BG = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Ruggon PA501BWR */
-    val PA501BWR = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** RuggON PA501BWR */
+      val PA501BWR = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-}
+  }

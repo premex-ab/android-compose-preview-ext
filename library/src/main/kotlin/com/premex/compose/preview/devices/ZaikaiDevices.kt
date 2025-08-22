@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Zaikai device specifications for Android Compose previews.
+ * ZAIKAI device specifications for Android Compose previews.
  *
- * This extension provides Zaikai device specifications that can be used with @Preview annotations
+ * This extension provides ZAIKAI device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Zaikai.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Zaikai get() = object {
-    /** Zaikai Mannat_Smart_Board */
-    val MANNAT_SMART_BOARD = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Zaikai: Any
+  get() = object {
+      /** ZAIKAI mensa_an64 */
+      val MENSA_AN64 = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-    /** Zaikai ZAIKAI */
-    val ZAIKAI = "spec:width=2160,height=3840,unit=px,dpi=480"
+      /** ZAIKAI t7_an400 */
+      val T7_AN400 = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

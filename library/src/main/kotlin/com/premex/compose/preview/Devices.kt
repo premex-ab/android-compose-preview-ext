@@ -1,8 +1,10 @@
 package com.premex.compose.preview
 
+import kotlin.String
+
 /**
  * Extended device specifications for Android Compose previews.
- * 
+ *
  * This object provides device specifications that can be used with @Preview annotations
  * in Android Compose, extending the built-in device list with devices from the Android
  * Device Catalog maintained by Google Play Store.
@@ -20,51 +22,87 @@ package com.premex.compose.preview
  * NOTE: Device specifications are automatically generated from the Android Device Catalog:
  * https://raw.githubusercontent.com/hossain-khan/android-device-catalog-parser/refs/heads/main/lib/src/test/resources/android-devices-catalog.csv
  *
- * Run scripts/update-devices.sh to refresh with the latest catalog data.
+ * Run ./gradlew :device-generator:run to refresh with the latest catalog data.
+ * // Google Nexus Devices
+ *
+ * // Google Pixel Devices
+ *
+ * // Automotive
  */
-object Devices {
-    const val DEFAULT = ""
+public object Devices {
+  public const val DEFAULT: String = ""
 
-    // Google Nexus Devices
-    const val NEXUS_7 = "id:Nexus 7"
-    const val NEXUS_7_2013 = "id:Nexus 7 2013"
-    const val NEXUS_5 = "id:Nexus 5"
-    const val NEXUS_6 = "id:Nexus 6"
-    const val NEXUS_9 = "id:Nexus 9"
-    const val NEXUS_10 = "name:Nexus 10"
-    const val NEXUS_5X = "id:Nexus 5X"
-    const val NEXUS_6P = "id:Nexus 6P"
+  public const val NEXUS_10: String = "id:Nexus 10"
 
-    // Google Pixel Devices
-    const val PIXEL_C = "id:pixel_c"
-    const val PIXEL = "id:pixel"
-    const val PIXEL_XL = "id:pixel_xl"
-    const val PIXEL_2 = "id:pixel_2"
-    const val PIXEL_2_XL = "id:pixel_2_xl"
-    const val PIXEL_3 = "id:pixel_3"
-    const val PIXEL_3_XL = "id:pixel_3_xl"
-    const val PIXEL_3A = "id:pixel_3a"
-    const val PIXEL_3A_XL = "id:pixel_3a_xl"
-    const val PIXEL_4 = "id:pixel_4"
-    const val PIXEL_4_XL = "id:pixel_4_xl"
-    const val PIXEL_4A = "id:pixel_4a"
-    const val PIXEL_5 = "id:pixel_5"
-    const val PIXEL_6 = "id:pixel_6"
-    const val PIXEL_6_PRO = "id:pixel_6_pro"
-    const val PIXEL_6A = "id:pixel_6a"
-    const val PIXEL_7 = "id:pixel_7"
-    const val PIXEL_7_PRO = "id:pixel_7_pro"
-    const val PIXEL_7A = "id:pixel_7a"
-    const val PIXEL_8 = "id:pixel_8"
-    const val PIXEL_8_PRO = "id:pixel_8_pro"
-    const val PIXEL_8A = "id:pixel_8a"
-    const val PIXEL_9 = "id:pixel_9"
-    const val PIXEL_9_PRO = "id:pixel_9_pro"
-    const val PIXEL_9_PRO_FOLD = "id:pixel_9_pro_fold"
-    const val PIXEL_9_PRO_XL = "id:pixel_9_pro_xl"
-    const val PIXEL_FOLD = "id:pixel_fold"
-    const val PIXEL_TABLET = "id:pixel_tablet"
+  public const val NEXUS_5: String = "id:Nexus 5"
 
-    // Automotive
-    const val AUTOMOTIVE_1024p = "id:automotive_1024p_landscape"
+  public const val NEXUS_5X: String = "id:Nexus 5X"
+
+  public const val NEXUS_6: String = "id:Nexus 6"
+
+  public const val NEXUS_6P: String = "id:Nexus 6P"
+
+  public const val NEXUS_7: String = "id:Nexus 7"
+
+  public const val NEXUS_7_2013: String = "id:Nexus 7 2013"
+
+  public const val NEXUS_9: String = "id:Nexus 9"
+
+  public const val PIXEL: String = "id:pixel"
+
+  public const val PIXEL_2: String = "id:pixel_2"
+
+  public const val PIXEL_2_XL: String = "id:pixel_2_xl"
+
+  public const val PIXEL_3: String = "id:pixel_3"
+
+  public const val PIXEL_3_XL: String = "id:pixel_3_xl"
+
+  public const val PIXEL_3A: String = "id:pixel_3a"
+
+  public const val PIXEL_3A_XL: String = "id:pixel_3a_xl"
+
+  public const val PIXEL_4: String = "id:pixel_4"
+
+  public const val PIXEL_4_XL: String = "id:pixel_4_xl"
+
+  public const val PIXEL_4A: String = "id:pixel_4a"
+
+  public const val PIXEL_5: String = "id:pixel_5"
+
+  public const val PIXEL_6: String = "id:pixel_6"
+
+  public const val PIXEL_6_PRO: String = "id:pixel_6_pro"
+
+  public const val PIXEL_6A: String = "id:pixel_6a"
+
+  public const val PIXEL_7: String = "id:pixel_7"
+
+  public const val PIXEL_7_PRO: String = "id:pixel_7_pro"
+
+  public const val PIXEL_7A: String = "id:pixel_7a"
+
+  public const val PIXEL_8: String = "id:pixel_8"
+
+  public const val PIXEL_8_PRO: String = "id:pixel_8_pro"
+
+  public const val PIXEL_8A: String = "id:pixel_8a"
+
+  public const val PIXEL_9: String = "id:pixel_9"
+
+  public const val PIXEL_9_PRO: String = "id:pixel_9_pro"
+
+  public const val PIXEL_9_PRO_FOLD: String = "id:pixel_9_pro_fold"
+
+  public const val PIXEL_9_PRO_XL: String = "id:pixel_9_pro_xl"
+
+  public const val PIXEL_C: String = "id:pixel_c"
+
+  public const val PIXEL_FOLD: String = "id:pixel_fold"
+
+  public const val PIXEL_TABLET: String = "id:pixel_tablet"
+
+  public const val PIXEL_XL: String = "id:pixel_xl"
+
+  public const val AUTOMOTIVE_1024P_LANDSCAPE: String = "id:automotive_1024p_landscape"
 }

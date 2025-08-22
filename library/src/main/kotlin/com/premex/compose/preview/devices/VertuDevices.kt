@@ -1,48 +1,38 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vertu device specifications for Android Compose previews.
+ * VERTU device specifications for Android Compose previews.
  *
- * This extension provides Vertu device specifications that can be used with @Preview annotations
+ * This extension provides VERTU device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vertu.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vertu get() = object {
-    /** Vertu ASTER  P */
-    val ASTER_P = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Vertu: Any
+  get() = object {
+      /** VERTU ASTER_P */
+      val ASTER_P = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Vertu Aster T */
-    val ASTER_T = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** VERTU VTL-202101 */
+      val VTL_202101 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vertu Constellation V */
-    val CONSTELLATION_V = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** VERTU VTL-202201 */
+      val VTL_202201 = "spec:width=1080,height=2400,unit=px,dpi=480"
 
-    /** Vertu Constellation X */
-    val CONSTELLATION_X = "spec:width=1440,height=2560,unit=px,dpi=640"
+      /** VERTU VTL-202301 */
+      val VTL_202301 = "spec:width=1260,height=2800,unit=px,dpi=560"
 
-    /** Vertu METAFLIP */
-    val METAFLIP = "spec:width=1188,height=2790,unit=px,dpi=520"
+      /** VERTU VTL-202302 */
+      val VTL_202302 = "spec:width=1188,height=2790,unit=px,dpi=520"
 
-    /** Vertu METAVERTU 2 */
-    val METAVERTU_2 = "spec:width=1260,height=2800,unit=px,dpi=560"
-
-    /** Vertu Signature Touch */
-    val SIGNATURE_TOUCH = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-    /** Vertu VTL-202101 */
-    val VTL_202101 = "spec:width=1080,height=2400,unit=px,dpi=480"
-
-    /** Vertu VTL-202201 */
-    val VTL_202201 = "spec:width=1080,height=2400,unit=px,dpi=480"
-
-}
+  }

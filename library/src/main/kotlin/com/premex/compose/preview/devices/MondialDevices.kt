@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Mondial device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Mondial.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Mondial get() = object {
-    /** Mondial TB_MONDIAL_KID */
-    val TB_MONDIAL_KID = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Mondial: Any
+  get() = object {
+      /** Mondial TB_MONDIAL_KID */
+      val TB_MONDIAL_KID = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

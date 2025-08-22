@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Imose device specifications for Android Compose previews.
@@ -9,25 +10,26 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Imose.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Imose get() = object {
-    /** Imose BAM III */
-    val BAM_III = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Imose: Any
+  get() = object {
+      /** Imose BAM_III */
+      val BAM_III = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Imose Omotab2 */
-    val OMOTAB2 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Imose Omotab2 */
+      val OMOTAB2 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Imose Omotab_2s */
-    val OMOTAB_2S = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** Imose Omotab_2s */
+      val OMOTAB_2S = "spec:width=800,height=1280,unit=px,dpi=180"
 
-    /** Imose SEMPE */
-    val SEMPE = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** Imose SEMPE */
+      val SEMPE = "spec:width=720,height=1600,unit=px,dpi=320"
 
-}
+  }

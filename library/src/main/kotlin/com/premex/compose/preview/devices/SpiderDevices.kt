@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Spider device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Spider.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Spider get() = object {
-    /** Spider Spider_A10 */
-    val SPIDER_A10 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Spider: Any
+  get() = object {
+      /** Spider Spider_A10 */
+      val SPIDER_A10 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Spider Spider_M10Pro */
-    val SPIDER_M10PRO = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** Spider Spider_M10Pro */
+      val SPIDER_M10PRO = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-}
+  }

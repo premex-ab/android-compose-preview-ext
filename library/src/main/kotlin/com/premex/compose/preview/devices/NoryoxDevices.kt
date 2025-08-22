@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Noryox device specifications for Android Compose previews.
@@ -9,19 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Noryox.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Noryox get() = object {
-    /** Noryox Handheld_POS */
-    val HANDHELD_POS = "spec:width=720,height=1440,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Noryox: Any
+  get() = object {
+      /** Noryox Handheld-POS */
+      val HANDHELD_POS = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Noryox Handheld-POS-EEA */
-    val HANDHELD_POS_EEA = "spec:width=720,height=1440,unit=px,dpi=320"
-
-}
+  }

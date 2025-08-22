@@ -1,27 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Hoffmann device specifications for Android Compose previews.
+ * HOFFMANN device specifications for Android Compose previews.
  *
- * This extension provides Hoffmann device specifications that can be used with @Preview annotations
+ * This extension provides HOFFMANN device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Hoffmann.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Hoffmann get() = object {
-    /** Hoffmann X-Go */
-    val X_GO = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Hoffmann: Any
+  get() = object {
+      /** HOFFMANN X-Go */
+      val X_GO = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Hoffmann X Max */
-    val X_MAX = "spec:width=720,height=1280,unit=px,dpi=320"
-
-}
+  }

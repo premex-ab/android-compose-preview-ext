@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Wetap device specifications for Android Compose previews.
+ * WeTap device specifications for Android Compose previews.
  *
- * This extension provides Wetap device specifications that can be used with @Preview annotations
+ * This extension provides WeTap device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Wetap.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Wetap get() = object {
-    /** Wetap WeTap_Y10 */
-    val WETAP_Y10 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Wetap: Any
+  get() = object {
+      /** WeTap WeTap_Y10 */
+      val WETAP_Y10 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

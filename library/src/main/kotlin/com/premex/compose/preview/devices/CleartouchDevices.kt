@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Cleartouch device specifications for Android Compose previews.
+ * ClearTouch device specifications for Android Compose previews.
  *
- * This extension provides Cleartouch device specifications that can be used with @Preview annotations
+ * This extension provides ClearTouch device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cleartouch.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cleartouch get() = object {
-    /** Cleartouch NEXT_TDED */
-    val NEXT_TDED = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Cleartouch: Any
+  get() = object {
+      /** ClearTouch rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

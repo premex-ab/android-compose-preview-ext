@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Njoy device specifications for Android Compose previews.
+ * nJoy device specifications for Android Compose previews.
  *
- * This extension provides Njoy device specifications that can be used with @Preview annotations
+ * This extension provides nJoy device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Njoy.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Njoy get() = object {
-    /** Njoy nJoy Theia 10 */
-    val NJOY_THEIA_10 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Njoy: Any
+  get() = object {
+      /** nJoy nJoy_Theia_10 */
+      val NJOY_THEIA_10 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

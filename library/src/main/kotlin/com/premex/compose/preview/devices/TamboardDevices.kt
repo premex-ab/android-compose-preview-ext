@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Tamboard device specifications for Android Compose previews.
+ * TAMBOARD device specifications for Android Compose previews.
  *
- * This extension provides Tamboard device specifications that can be used with @Preview annotations
+ * This extension provides TAMBOARD device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Tamboard.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Tamboard get() = object {
-    /** Tamboard TB_GH */
-    val TB_GH = "spec:width=2160,height=3840,unit=px,dpi=420"
+ * ```
+ */
+public val Devices.Tamboard: Any
+  get() = object {
+      /** TAMBOARD TB_GH */
+      val TB_GH = "spec:width=2160,height=3840,unit=px,dpi=420"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Pioneer device specifications for Android Compose previews.
@@ -9,28 +10,29 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Pioneer.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Pioneer get() = object {
-    /** Pioneer SDA-80TAB */
-    val SDA_80TAB = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Pioneer: Any
+  get() = object {
+      /** Pioneer Fu_Zin2R_32 */
+      val FU_ZIN2R_32 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Pioneer SDA-835TAB */
-    val SDA_835TAB = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Pioneer Fu_Zin_32 */
+      val FU_ZIN_32 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Pioneer SDA-8TAB */
-    val SDA_8TAB = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Pioneer SDA_80TAB */
+      val SDA_80TAB = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Pioneer XDP-100R */
-    val XDP_100R = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Pioneer SDA_835TAB */
+      val SDA_835TAB = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Pioneer XDP-300R */
-    val XDP_300R = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Pioneer SDA_8TAB */
+      val SDA_8TAB = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

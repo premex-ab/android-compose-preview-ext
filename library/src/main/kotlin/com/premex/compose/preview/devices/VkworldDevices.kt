@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vkworld device specifications for Android Compose previews.
+ * vkworld device specifications for Android Compose previews.
  *
- * This extension provides Vkworld device specifications that can be used with @Preview annotations
+ * This extension provides vkworld device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vkworld.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vkworld get() = object {
-    /** Vkworld S8 */
-    val S8 = "spec:width=1080,height=2160,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Vkworld: Any
+  get() = object {
+      /** vkworld VK7000 */
+      val VK7000 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Vkworld VK7000 */
-    val VK7000 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** vkworld vkworld_S8 */
+      val VKWORLD_S8 = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-}
+  }

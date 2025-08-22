@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Geomax device specifications for Android Compose previews.
+ * GeoMax device specifications for Android Compose previews.
  *
- * This extension provides Geomax device specifications that can be used with @Preview annotations
+ * This extension provides GeoMax device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Geomax.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Geomax get() = object {
-    /** Geomax GeoMax Zenius08 */
-    val GEOMAX_ZENIUS08 = "spec:width=1200,height=1920,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Geomax: Any
+  get() = object {
+      /** GeoMax Zenius08 */
+      val ZENIUS08 = "spec:width=1200,height=1920,unit=px,dpi=320"
 
-}
+  }

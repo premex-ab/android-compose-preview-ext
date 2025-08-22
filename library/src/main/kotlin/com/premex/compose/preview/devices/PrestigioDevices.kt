@@ -1,285 +1,291 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Prestigio device specifications for Android Compose previews.
  *
- * This extension provides Prestigio device specifications that can be used with @Preview annotations
+ * This extension provides Prestigio device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Prestigio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Prestigio get() = object {
-    /** Prestigio CD80A5G */
-    val CD80A5G = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Prestigio: Any
+  get() = object {
+      /** Prestigio BW50B1L */
+      val BW50B1L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio Grace 3118 3G */
-    val GRACE_3118_3G = "spec:width=800,height=1280,unit=px,dpi=190"
+      /** Prestigio CD10A2G */
+      val CD10A2G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio Grace 3778 3G */
-    val GRACE_3778_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio CD10A4L */
+      val CD10A4L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio Grace 3878 4G */
-    val GRACE_3878_4G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio CD10A7G */
+      val CD10A7G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio GRACE P5 */
-    val GRACE_P5 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio CD10A8L */
+      val CD10A8L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio HP10A4L */
-    val HP10A4L = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio CD80A1G */
+      val CD80A1G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio HP10A5L */
-    val HP10A5L = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio CD80A3L */
+      val CD80A3L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio HP80A16G */
-    val HP80A16G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio CD80A5G */
+      val CD80A5G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio HP80A21G */
-    val HP80A21G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio CD80A6L */
+      val CD80A6L = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio MultiPad Wize 3037 3G */
-    val MULTIPAD_WIZE_3037_3G = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio CF10A1L */
+      val CF10A1L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio MULTIPAD WIZE 3121 */
-    val MULTIPAD_WIZE_3121 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio CF80A2G */
+      val CF80A2G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio Multipad Wize 3757 3G */
-    val MULTIPAD_WIZE_3757_3G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio CF80A5L */
+      val CF80A5L = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Prestigio MultiPhone 5504 DUO */
-    val MULTIPHONE_5504_DUO = "spec:width=540,height=960,unit=px,dpi=240"
+      /** Prestigio DTE50B8L */
+      val DTE50B8L = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Prestigio MUZE E5 LTE */
-    val MUZE_E5_LTE = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Prestigio DW50A03G */
+      val DW50A03G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio MUZE V3 */
-    val MUZE_V3 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Prestigio DW50B5G */
+      val DW50B5G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PGPS7795 */
-    val PGPS7795 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio DW53B01G */
+      val DW53B01G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT1107_4G_D_RU */
-    val PMT1107_4G_D_RU = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio DW53B3G */
+      val DW53B3G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT1177_3G */
-    val PMT1177_3G = "spec:width=720,height=1280,unit=px,dpi=160"
+      /** Prestigio DW53B4G */
+      val DW53B4G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT1177_ 4G */
-    val PMT1177_4G = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio DW55B02L */
+      val DW55B02L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT1196_3G */
-    val PMT1196_3G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio DW55B8L */
+      val DW55B8L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT3031_3G */
-    val PMT3031_3G = "spec:width=600,height=1024,unit=px,dpi=132"
+      /** Prestigio EB50B1L */
+      val EB50B1L = "spec:width=640,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT3104_Wi_D_RU */
-    val PMT3104_WI_D_RU = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP10A11W */
+      val HP10A11W = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT3151_3G_D_CIS */
-    val PMT3151_3G_D_CIS = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio HP10A12L */
+      val HP10A12L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT3171_3G */
-    val PMT3171_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP10A17L */
+      val HP10A17L = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT3197_W_D_EU */
-    val PMT3197_W_D_EU = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio HP10A4L */
+      val HP10A4L = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT3197_W_EU */
-    val PMT3197_W_EU = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio HP10A5L */
+      val HP10A5L = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT3208_3G */
-    val PMT3208_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP70A10L */
+      val HP70A10L = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3231_4G_D_EEA */
-    val PMT3231_4G_D_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP70A14W */
+      val HP70A14W = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3277_3G */
-    val PMT3277_3G = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio HP70A15G */
+      val HP70A15G = "spec:width=600,height=1024,unit=px,dpi=213"
 
-    /** Prestigio PMT3287_3G */
-    val PMT3287_3G = "spec:width=770,height=1024,unit=px,dpi=160"
+      /** Prestigio HP70A1W */
+      val HP70A1W = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3301_4G */
-    val PMT3301_4G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP70A2G */
+      val HP70A2G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3351_3G */
-    val PMT3351_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP70A3L */
+      val HP70A3L = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3418_4G */
-    val PMT3418_4G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP70A6L */
+      val HP70A6L = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3607_4G */
-    val PMT3607_4G = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio HP70A7G */
+      val HP70A7G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT3608_4G */
-    val PMT3608_4G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP80A16G */
+      val HP80A16G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT3718_3G */
-    val PMT3718_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HP80A21G */
+      val HP80A21G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT3797_3G */
-    val PMT3797_3G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio HP8A6L */
+      val HP8A6L = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT3851_4G */
-    val PMT3851_4G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio HT50B2G */
+      val HT50B2G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT4111_3G */
-    val PMT4111_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio IN39B3G */
+      val IN39B3G = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Prestigio PMT4117_3G_EEA */
-    val PMT4117_3G_EEA = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio IN50B1L */
+      val IN50B1L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PMT4131_4G */
-    val PMT4131_4G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio JU10A3G */
+      val JU10A3G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT4137_4G */
-    val PMT4137_4G = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio JU70A1G */
+      val JU70A1G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT4137_4G_EEA */
-    val PMT4137_4G_EEA = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio JU80A2G */
+      val JU80A2G = "spec:width=800,height=1280,unit=px,dpi=190"
 
-    /** Prestigio PMT4138_4G_EEA */
-    val PMT4138_4G_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio KN54B1L */
+      val KN54B1L = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Prestigio PMT4208_3G_EEA */
-    val PMT4208_3G_EEA = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** Prestigio LS10A3G */
+      val LS10A3G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT4231_4G_D_RU */
-    val PMT4231_4G_D_RU = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio LS10A8L */
+      val LS10A8L = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Prestigio PMT4238_4G_RU */
-    val PMT4238_4G_RU = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio LS70A2G */
+      val LS70A2G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT4337_3G_RU */
-    val PMT4337_3G_RU = "spec:width=600,height=1024,unit=px,dpi=213"
+      /** Prestigio LS70A5G */
+      val LS70A5G = "spec:width=720,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT4511_4G_RU */
-    val PMT4511_4G_RU = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio LS70A6L */
+      val LS70A6L = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT4667_3G_RU */
-    val PMT4667_3G_RU = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio LS80A1L */
+      val LS80A1L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT5002_Wi */
-    val PMT5002_WI = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio LS80A4L */
+      val LS80A4L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT5011_3G */
-    val PMT5011_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio LS96A7G */
+      val LS96A7G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT5018_3G */
-    val PMT5018_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio NS70A03W */
+      val NS70A03W = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT5287_4G */
-    val PMT5287_4G = "spec:width=770,height=1024,unit=px,dpi=160"
+      /** Prestigio PMT3011_3G */
+      val PMT3011_3G = "spec:width=600,height=1024,unit=px,dpi=132"
 
-    /** Prestigio PMT5487_3G */
-    val PMT5487_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio PMT3038_3G */
+      val PMT3038_3G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT5771_4G */
-    val PMT5771_4G = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** Prestigio PMT3057_3G */
+      val PMT3057_3G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT5777_3G */
-    val PMT5777_3G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio PMT3277_3G */
+      val PMT3277_3G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT5887_3G */
-    val PMT5887_3G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Prestigio PMT3287_3G */
+      val PMT3287_3G = "spec:width=770,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PMT7077_3G */
-    val PMT7077_3G = "spec:width=768,height=1024,unit=px,dpi=160"
+      /** Prestigio PMT3777_3G */
+      val PMT3777_3G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PMT7177_3G */
-    val PMT7177_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio PMT5001_3G */
+      val PMT5001_3G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PMT7287_3G */
-    val PMT7287_3G = "spec:width=768,height=1024,unit=px,dpi=160"
+      /** Prestigio PMT5002_Wi */
+      val PMT5002_WI = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio Prestigio X pro */
-    val PRESTIGIO_X_PRO = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Prestigio PMT5008_3G */
+      val PMT5008_3G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PSP3471DUO */
-    val PSP3471DUO = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Prestigio PMT5287_4G */
+      val PMT5287_4G = "spec:width=770,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PSP3515DUO_RU */
-    val PSP3515DUO_RU = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PMT5487_3G */
+      val PMT5487_3G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PSP3517DUO */
-    val PSP3517DUO = "spec:width=480,height=854,unit=px,dpi=213"
+      /** Prestigio PMT5777_3G */
+      val PMT5777_3G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PSP3531DUO */
-    val PSP3531DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PMT5887_3G */
+      val PMT5887_3G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Prestigio PSP3551 */
-    val PSP3551 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Prestigio PMT7077_3G */
+      val PMT7077_3G = "spec:width=768,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PSP3552DUO */
-    val PSP3552DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PMT7177_3G */
+      val PMT7177_3G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PSP5511DUO */
-    val PSP5511DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PMT7287_3G */
+      val PMT7287_3G = "spec:width=768,height=1024,unit=px,dpi=160"
 
-    /** Prestigio PSP5516DUO */
-    val PSP5516DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PN10A01G */
+      val PN10A01G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PSP5519DUO */
-    val PSP5519DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PN80A03G */
+      val PN80A03G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PSP5521DUO */
-    val PSP5521DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio PSP5504DUO */
+      val PSP5504DUO = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Prestigio PSP5522DUO */
-    val PSP5522DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TC10A2L */
+      val TC10A2L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio PSP5531 */
-    val PSP5531 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TC10A3L */
+      val TC10A3L = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Prestigio PSP5551DUO */
-    val PSP5551DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TC70A1G */
+      val TC70A1G = "spec:width=600,height=1024,unit=px,dpi=213"
 
-    /** Prestigio PSP5552DUO */
-    val PSP5552DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TE50B2G */
+      val TE50B2G = "spec:width=480,height=854,unit=px,dpi=213"
 
-    /** Prestigio PSP7511DUO */
-    val PSP7511DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TE50B4L */
+      val TE50B4L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PSP7512DUO */
-    val PSP7512DUO = "spec:width=640,height=1280,unit=px,dpi=320"
+      /** Prestigio TE52B10G */
+      val TE52B10G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PSP7530DUO */
-    val PSP7530DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TE55B9G */
+      val TE55B9G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio PSP7550DUO */
-    val PSP7550DUO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Prestigio TL47B1G */
+      val TL47B1G = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Prestigio PSP7610DUO */
-    val PSP7610DUO = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Prestigio TL49B4L */
+      val TL49B4L = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Prestigio TC10A3L */
-    val TC10A3L = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** Prestigio TL52B5L */
+      val TL52B5L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio TC70A1G */
-    val TC70A1G = "spec:width=600,height=1024,unit=px,dpi=213"
+      /** Prestigio TL55B3L */
+      val TL55B3L = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Prestigio Wize 3131 3G */
-    val WIZE_3131_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio TL61B8L */
+      val TL61B8L = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Prestigio Wize 3147 3G */
-    val WIZE_3147_3G = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Prestigio TL80A15G */
+      val TL80A15G = "spec:width=800,height=1280,unit=px,dpi=240"
 
-    /** Prestigio Wize 3401 3G */
-    val WIZE_3401_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio UE55B1L */
+      val UE55B1L = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Prestigio Wize 3731 3G */
-    val WIZE_3731_3G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Prestigio WT10A1G */
+      val WT10A1G = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Prestigio WIZE YA3 */
-    val WIZE_YA3 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Prestigio WT10A2G */
+      val WT10A2G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+      /** Prestigio WT70A1L */
+      val WT70A1L = "spec:width=600,height=1024,unit=px,dpi=160"
+
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Inrico device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Inrico.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Inrico get() = object {
-    /** Inrico S300Plus */
-    val S300PLUS = "spec:width=720,height=1612,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Inrico: Any
+  get() = object {
+      /** Inrico S300Plus */
+      val S300PLUS = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Inrico S350 */
-    val S350 = "spec:width=1080,height=2340,unit=px,dpi=480"
+      /** Inrico S350 */
+      val S350 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

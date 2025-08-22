@@ -1,36 +1,38 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vivimage device specifications for Android Compose previews.
+ * VIVIMAGE device specifications for Android Compose previews.
  *
- * This extension provides Vivimage device specifications that can be used with @Preview annotations
+ * This extension provides VIVIMAGE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vivimage.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vivimage get() = object {
-    /** Vivimage E8 */
-    val E8 = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Vivimage: Any
+  get() = object {
+      /** VIVIMAGE E10 */
+      val E10 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Vivimage VIVIMAGE_A10 */
-    val VIVIMAGE_A10 = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** VIVIMAGE E11 */
+      val E11 = "spec:width=1200,height=1920,unit=px,dpi=213"
 
-    /** Vivimage VIVIMAGE_A10_EEA */
-    val VIVIMAGE_A10_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** VIVIMAGE E8 */
+      val E8 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** Vivimage VIVIMAGE_E10 */
-    val VIVIMAGE_E10 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** VIVIMAGE VIVIMAGE_A10 */
+      val VIVIMAGE_A10 = "spec:width=800,height=1280,unit=px,dpi=180"
 
-    /** Vivimage VIVIMAGE_E11 */
-    val VIVIMAGE_E11 = "spec:width=1200,height=1920,unit=px,dpi=213"
+      /** VIVIMAGE VIVIMAGE_A10_EEA */
+      val VIVIMAGE_A10_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

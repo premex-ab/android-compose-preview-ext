@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Orbic device specifications for Android Compose previews.
@@ -9,49 +10,50 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Orbic.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Orbic get() = object {
-    /** Orbic Magic */
-    val MAGIC = "spec:width=720,height=1600,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Orbic: Any
+  get() = object {
+      /** Orbic JOY2 */
+      val JOY2 = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Orbic R4S14V_Visible */
-    val R4S14V_VISIBLE = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** Orbic R678EL */
+      val R678EL = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Orbic R678L5V */
-    val R678L5V = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** Orbic R678L5 */
+      val R678L5 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Orbic R8L5T */
-    val R8L5T = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** Orbic R8L5T */
+      val R8L5T = "spec:width=800,height=1280,unit=px,dpi=240"
 
-    /** Orbic RC10RLT-RW1 */
-    val RC10RLT_RW1 = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** Orbic RC545L */
+      val RC545L = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Orbic RC545LF */
-    val RC545LF = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Orbic RC555L */
+      val RC555L = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Orbic RC608L2 */
-    val RC608L2 = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Orbic RC608L */
+      val RC608L = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Orbic RC609L */
-    val RC609L = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Orbic RC609L */
+      val RC609L = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Orbic RC609LP-RWANZ */
-    val RC609LP_RWANZ = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Orbic RC609LP */
+      val RC609LP = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Orbic RC609LSM */
-    val RC609LSM = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** Orbic RC609LSM */
+      val RC609LSM = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Orbic RC8L1T-RW1 */
-    val RC8L1T_RW1 = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** Orbic RC8L1T-RW */
+      val RC8L1T_RW = "spec:width=800,height=1280,unit=px,dpi=240"
 
-    /** Orbic Wonder */
-    val WONDER = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Orbic VC_Device */
+      val VC_DEVICE = "spec:width=800,height=1280,unit=px,dpi=240"
 
-}
+  }

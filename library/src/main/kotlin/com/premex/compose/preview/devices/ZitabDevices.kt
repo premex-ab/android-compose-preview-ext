@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Zitab device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Zitab.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Zitab get() = object {
-    /** Zitab Zitab01 */
-    val ZITAB01 = "spec:width=1200,height=2000,unit=px,dpi=280"
+ * ```
+ */
+public val Devices.Zitab: Any
+  get() = object {
+      /** Zitab Zitab01 */
+      val ZITAB01 = "spec:width=1200,height=2000,unit=px,dpi=280"
 
-}
+  }

@@ -1,30 +1,33 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Zoomsmart device specifications for Android Compose previews.
+ * ZOOMSMART device specifications for Android Compose previews.
  *
- * This extension provides Zoomsmart device specifications that can be used with @Preview annotations
+ * This extension provides ZOOMSMART device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Zoomsmart.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Zoomsmart get() = object {
-    /** Zoomsmart LT600T */
-    val LT600T = "spec:width=1200,height=1920,unit=px,dpi=360"
+ * ```
+ */
+public val Devices.Zoomsmart: Any
+  get() = object {
+      /** ZOOMSMART LT600T */
+      val LT600T = "spec:width=1200,height=1920,unit=px,dpi=360"
 
-    /** Zoomsmart LT800 */
-    val LT800 = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** ZOOMSMART LT800 */
+      val LT800 = "spec:width=800,height=1280,unit=px,dpi=240"
 
-    /** Zoomsmart ZM800_EEA */
-    val ZM800_EEA = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** ZOOMSMART ZM800 */
+      val ZM800 = "spec:width=800,height=1280,unit=px,dpi=240"
 
-}
+  }

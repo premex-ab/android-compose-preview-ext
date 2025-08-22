@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Axioo device specifications for Android Compose previews.
@@ -9,22 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Axioo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Axioo get() = object {
-    /** Axioo PICOpad-7H */
-    val PICOPAD_7H = "spec:width=800,height=1280,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Axioo: Any
+  get() = object {
+      /** Axioo PICOpad_7H_R8 */
+      val PICOPAD_7H_R8 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Axioo PICOpad_7H_JL */
-    val PICOPAD_7H_JL = "spec:width=800,height=1280,unit=px,dpi=213"
-
-    /** Axioo PICOpad_7H_R8 */
-    val PICOPAD_7H_R8 = "spec:width=800,height=1280,unit=px,dpi=160"
-
-}
+  }

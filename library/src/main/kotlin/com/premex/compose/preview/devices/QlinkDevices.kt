@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Qlink device specifications for Android Compose previews.
@@ -9,22 +10,23 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Qlink.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Qlink get() = object {
-    /** Qlink Scepter_8 */
-    val SCEPTER_8 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Qlink: Any
+  get() = object {
+      /** Qlink Scepter8 */
+      val SCEPTER8 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Qlink scepter8 */
-    val SCEPTER8 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Qlink Scepter8_tablet */
+      val SCEPTER8_TABLET = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Qlink Scepter 8 Tablet */
-    val SCEPTER_8_TABLET = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Qlink Scepter_8 */
+      val SCEPTER_8 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Aoyodkg device specifications for Android Compose previews.
+ * AOYODKG device specifications for Android Compose previews.
  *
- * This extension provides Aoyodkg device specifications that can be used with @Preview annotations
+ * This extension provides AOYODKG device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Aoyodkg.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Aoyodkg get() = object {
-    /** Aoyodkg M50 */
-    val M50 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Aoyodkg: Any
+  get() = object {
+      /** AOYODKG M50 */
+      val M50 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Aoyodkg M50_EEA */
-    val M50_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** AOYODKG M50_EEA */
+      val M50_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

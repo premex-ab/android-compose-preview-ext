@@ -1,27 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * _7mobile device specifications for Android Compose previews.
+ * 7mobile device specifications for Android Compose previews.
  *
- * This extension provides _7mobile device specifications that can be used with @Preview annotations
+ * This extension provides 7mobile device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices._7mobile.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices._7mobile get() = object {
-    /** _7mobile Kamba 2 */
-    val KAMBA_2 = "spec:width=720,height=1440,unit=px,dpi=320"
+ * ```
+ */
+public val Devices._7mobile: Any
+  get() = object {
+      /** 7mobile Swegue_2 */
+      val SWEGUE_2 = "spec:width=480,height=996,unit=px,dpi=240"
 
-    /** _7mobile Swegue 2 */
-    val SWEGUE_2 = "spec:width=480,height=996,unit=px,dpi=240"
+      /** 7mobile 7mobile_Kamba_2 */
+      val _7MOBILE_KAMBA_2 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-}
+  }

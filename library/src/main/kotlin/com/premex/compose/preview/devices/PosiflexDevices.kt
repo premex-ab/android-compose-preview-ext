@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Posiflex device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Posiflex.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Posiflex get() = object {
-    /** Posiflex MK_1000 */
-    val MK_1000 = "spec:width=768,height=1366,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Posiflex: Any
+  get() = object {
+      /** Posiflex MK_1000 */
+      val MK_1000 = "spec:width=768,height=1366,unit=px,dpi=160"
 
-}
+  }

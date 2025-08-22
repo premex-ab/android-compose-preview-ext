@@ -1,33 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Nasco device specifications for Android Compose previews.
+ * NASCO device specifications for Android Compose previews.
  *
- * This extension provides Nasco device specifications that can be used with @Preview annotations
+ * This extension provides NASCO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nasco.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nasco get() = object {
-    /** Nasco Hero */
-    val HERO = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Nasco: Any
+  get() = object {
+      /** NASCO NAS-400 */
+      val NAS_400 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Nasco Magic-s */
-    val MAGIC_S = "spec:width=480,height=960,unit=px,dpi=240"
+      /** NASCO NAS-503 */
+      val NAS_503 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Nasco Power Plus */
-    val POWER_PLUS = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** NASCO NAS-510 */
+      val NAS_510 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Nasco Warrior */
-    val WARRIOR = "spec:width=480,height=800,unit=px,dpi=240"
-
-}
+  }

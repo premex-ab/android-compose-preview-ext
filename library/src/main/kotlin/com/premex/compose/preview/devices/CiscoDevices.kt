@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Cisco device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cisco.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cisco get() = object {
-    /** Cisco CP-860S */
-    val CP_860S = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Cisco: Any
+  get() = object {
+      /** Cisco CP-DX80 */
+      val CP_DX80 = "spec:width=1032,height=1920,unit=px,dpi=160"
 
-    /** Cisco Desktop Collaboration Experience DX80 */
-    val DESKTOP_COLLABORATION_EXPERIENCE_DX80 = "spec:width=1032,height=1920,unit=px,dpi=160"
+      /** Cisco 860 */
+      val _860 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-}
+  }

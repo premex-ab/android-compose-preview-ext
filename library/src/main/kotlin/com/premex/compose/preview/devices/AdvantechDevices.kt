@@ -1,27 +1,30 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Advantech device specifications for Android Compose previews.
  *
- * This extension provides Advantech device specifications that can be used with @Preview annotations
+ * This extension provides Advantech device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Advantech.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Advantech get() = object {
-    /** Advantech AIM-75 */
-    val AIM_75 = "spec:width=1200,height=1920,unit=px,dpi=420"
+ * ```
+ */
+public val Devices.Advantech: Any
+  get() = object {
+      /** Advantech AIM75-LTE */
+      val AIM75_LTE = "spec:width=1200,height=1920,unit=px,dpi=420"
 
-    /** Advantech AIM75-WIFI */
-    val AIM75_WIFI = "spec:width=1200,height=1920,unit=px,dpi=420"
+      /** Advantech AIM75-WIFI */
+      val AIM75_WIFI = "spec:width=1200,height=1920,unit=px,dpi=420"
 
-}
+  }

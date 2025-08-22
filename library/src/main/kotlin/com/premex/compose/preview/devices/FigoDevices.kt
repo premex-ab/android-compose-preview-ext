@@ -1,30 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Figo device specifications for Android Compose previews.
+ * FIGO device specifications for Android Compose previews.
  *
- * This extension provides Figo device specifications that can be used with @Preview annotations
+ * This extension provides FIGO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Figo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Figo get() = object {
-    /** Figo Fierce_L5510 */
-    val FIERCE_L5510 = "spec:width=480,height=960,unit=px,dpi=180"
+ * ```
+ */
+public val Devices.Figo: Any
+  get() = object {
+      /** FIGO Orbit_ll */
+      val ORBIT_LL = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Figo Orbit_ll */
-    val ORBIT_LL = "spec:width=480,height=800,unit=px,dpi=240"
+      /** FIGO Telecell */
+      val TELECELL = "spec:width=480,height=960,unit=px,dpi=180"
 
-    /** Figo Ultra J8 */
-    val ULTRA_J8 = "spec:width=480,height=854,unit=px,dpi=240"
-
-}
+  }

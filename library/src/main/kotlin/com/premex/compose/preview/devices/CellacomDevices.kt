@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Cellacom device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cellacom.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cellacom get() = object {
-    /** Cellacom Cellacom_S62 */
-    val CELLACOM_S62 = "spec:width=600,height=1280,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Cellacom: Any
+  get() = object {
+      /** Cellacom Cellacom_S62 */
+      val CELLACOM_S62 = "spec:width=600,height=1280,unit=px,dpi=240"
 
-}
+  }

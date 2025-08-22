@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Plaisio device specifications for Android Compose previews.
@@ -9,34 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Plaisio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Plaisio get() = object {
-    /** Plaisio A4 */
-    val A4 = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Plaisio: Any
+  get() = object {
+      /** Plaisio Earth3G */
+      val EARTH3G = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Plaisio Aqua */
-    val AQUA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Plaisio Turbox_S3 */
+      val TURBOX_S3 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Plaisio Aqua_II */
-    val AQUA_II = "spec:width=800,height=1280,unit=px,dpi=160"
-
-    /** Plaisio Calltab2GB10.1 */
-    val CALLTAB2GB10_1 = "spec:width=800,height=1280,unit=px,dpi=160"
-
-    /** Plaisio Earth 7.0' 3G */
-    val EARTH_7_0_3G = "spec:width=600,height=1024,unit=px,dpi=160"
-
-    /** Plaisio Fire */
-    val FIRE = "spec:width=800,height=1280,unit=px,dpi=160"
-
-    /** Plaisio Turbox_S3 */
-    val TURBOX_S3 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-}
+  }

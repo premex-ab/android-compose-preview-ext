@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Spectra device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Spectra.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Spectra get() = object {
-    /** Spectra Spectra MobileMapper6 */
-    val SPECTRA_MOBILEMAPPER6 = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Spectra: Any
+  get() = object {
+      /** Spectra bcat */
+      val BCAT = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Spectra TAP-POS */
-    val TAP_POS = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Spectra MobileMapper6 */
+      val MOBILEMAPPER6 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Thuraya device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Thuraya.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Thuraya get() = object {
-    /** Thuraya Thuraya X5-Touch */
-    val THURAYA_X5_TOUCH = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Thuraya: Any
+  get() = object {
+      /** Thuraya X5-Touch */
+      val X5_TOUCH = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-}
+  }

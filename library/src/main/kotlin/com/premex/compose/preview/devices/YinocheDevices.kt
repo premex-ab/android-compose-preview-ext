@@ -1,24 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Yinoche device specifications for Android Compose previews.
+ * YINOCHE device specifications for Android Compose previews.
  *
- * This extension provides Yinoche device specifications that can be used with @Preview annotations
+ * This extension provides YINOCHE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Yinoche.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Yinoche get() = object {
-    /** Yinoche R8 */
-    val R8 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Yinoche: Any
+  get() = object {
+      /** YINOCHE R8 */
+      val R8 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+      /** YINOCHE Y8 */
+      val Y8 = "spec:width=600,height=1024,unit=px,dpi=160"
+
+  }

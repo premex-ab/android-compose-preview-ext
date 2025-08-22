@@ -1,24 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Marq device specifications for Android Compose previews.
+ * MarQ device specifications for Android Compose previews.
  *
- * This extension provides Marq device specifications that can be used with @Preview annotations
+ * This extension provides MarQ device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Marq.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Marq get() = object {
-    /** Marq MarQ_M3 */
-    val MARQ_M3 = "spec:width=720,height=1560,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Marq: Any
+  get() = object {
+      /** MarQ bangbae */
+      val BANGBAE = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-}
+      /** MarQ GIONEE_MAX */
+      val GIONEE_MAX = "spec:width=720,height=1560,unit=px,dpi=320"
+
+      /** MarQ komagome */
+      val KOMAGOME = "spec:width=720,height=1280,unit=px,dpi=213"
+
+  }

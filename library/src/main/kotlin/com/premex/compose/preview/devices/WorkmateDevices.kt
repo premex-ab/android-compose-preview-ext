@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Workmate device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Workmate.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Workmate get() = object {
-    /** Workmate U13 */
-    val U13 = "spec:width=1200,height=2000,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Workmate: Any
+  get() = object {
+      /** Workmate U13 */
+      val U13 = "spec:width=1200,height=2000,unit=px,dpi=240"
 
-}
+  }

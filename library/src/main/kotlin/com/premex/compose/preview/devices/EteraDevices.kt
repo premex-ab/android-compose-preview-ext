@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Etera device specifications for Android Compose previews.
+ * eTera device specifications for Android Compose previews.
  *
- * This extension provides Etera device specifications that can be used with @Preview annotations
+ * This extension provides eTera device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Etera.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Etera get() = object {
-    /** Etera  E980 */
-    val E980 = "spec:width=240,height=320,unit=px,dpi=120"
+ * ```
+ */
+public val Devices.Etera: Any
+  get() = object {
+      /** eTera E980U */
+      val E980U = "spec:width=240,height=320,unit=px,dpi=120"
 
-}
+  }

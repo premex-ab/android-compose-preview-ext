@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Bigtech device specifications for Android Compose previews.
@@ -9,16 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Bigtech.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Bigtech get() = object {
-    /** Bigtech Bigtech_A_RU */
-    val BIGTECH_A_RU = "spec:width=1200,height=1920,unit=px,dpi=280"
+ * ```
+ */
+public val Devices.Bigtech: Any
+  get() = object {
+      /** Bigtech Bigtech_A_RU */
+      val BIGTECH_A_RU = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-}
+      /** Bigtech Bigtech_B_RU */
+      val BIGTECH_B_RU = "spec:width=1200,height=1920,unit=px,dpi=280"
+
+  }

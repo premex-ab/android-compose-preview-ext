@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Mengaltab device specifications for Android Compose previews.
+ * MengalTab device specifications for Android Compose previews.
  *
- * This extension provides Mengaltab device specifications that can be used with @Preview annotations
+ * This extension provides MengalTab device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Mengaltab.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Mengaltab get() = object {
-    /** Mengaltab ANZATECH */
-    val ANZATECH = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Mengaltab: Any
+  get() = object {
+      /** MengalTab Mengaltab_Echague_anzatech */
+      val MENGALTAB_ECHAGUE_ANZATECH = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

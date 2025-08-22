@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Sylvania device specifications for Android Compose previews.
@@ -9,19 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Sylvania.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Sylvania get() = object {
-    /** Sylvania SLTDVD1024 */
-    val SLTDVD1024 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Sylvania: Any
+  get() = object {
+      /** Sylvania mdt1005_mk_32 */
+      val MDT1005_MK_32 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Sylvania SLTDVD1024_B */
-    val SLTDVD1024_B = "spec:width=600,height=1024,unit=px,dpi=160"
-
-}
+  }

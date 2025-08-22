@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Wieppo device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Wieppo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Wieppo get() = object {
-    /** Wieppo Wieppo S6 */
-    val WIEPPO_S6 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Wieppo: Any
+  get() = object {
+      /** Wieppo t596_jw_wieppo */
+      val T596_JW_WIEPPO = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+  }

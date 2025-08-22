@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Cricket device specifications for Android Compose previews.
@@ -9,64 +10,65 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cricket.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cricket get() = object {
-    /** Cricket Cricket Debut S2™ */
-    val CRICKET_DEBUT_S2 = "spec:width=720,height=1560,unit=px,dpi=300"
+ * ```
+ */
+public val Devices.Cricket: Any
+  get() = object {
+      /** Cricket EC211001 */
+      val EC211001 = "spec:width=720,height=1640,unit=px,dpi=280"
 
-    /** Cricket Cricket® Dream 5G */
-    val CRICKET_DREAM_5G = "spec:width=720,height=1640,unit=px,dpi=280"
+      /** Cricket EC211002 */
+      val EC211002 = "spec:width=720,height=1600,unit=px,dpi=280"
 
-    /** Cricket Cricket® Icon 3 */
-    val CRICKET_ICON_3 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** Cricket EC211003 */
+      val EC211003 = "spec:width=720,height=1600,unit=px,dpi=280"
 
-    /** Cricket Cricket® Icon 4 */
-    val CRICKET_ICON_4 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** Cricket EC211004 */
+      val EC211004 = "spec:width=720,height=1640,unit=px,dpi=280"
 
-    /** Cricket Cricket Icon™6 */
-    val CRICKET_ICON_6 = "spec:width=720,height=1600,unit=px,dpi=260"
+      /** Cricket SL100EA */
+      val SL100EA = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Cricket Cricket® Influence */
-    val CRICKET_INFLUENCE = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** Cricket SL101AE */
+      val SL101AE = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Cricket Cricket® Innovate 5G */
-    val CRICKET_INNOVATE_5G = "spec:width=720,height=1640,unit=px,dpi=280"
+      /** Cricket SL219C */
+      val SL219C = "spec:width=720,height=1600,unit=px,dpi=260"
 
-    /** Cricket Cricket® Magic 5G */
-    val CRICKET_MAGIC_5G = "spec:width=720,height=1612,unit=px,dpi=280"
+      /** Cricket SN304AE */
+      val SN304AE = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Cricket Cricket Outlast™ 5G */
-    val CRICKET_OUTLAST_5G = "spec:width=720,height=1600,unit=px,dpi=260"
+      /** Cricket SN509C */
+      val SN509C = "spec:width=720,height=1600,unit=px,dpi=260"
 
-    /** Cricket Cricket® Ovation 2 */
-    val CRICKET_OVATION_2 = "spec:width=720,height=1640,unit=px,dpi=280"
+      /** Cricket U304AC */
+      val U304AC = "spec:width=480,height=960,unit=px,dpi=213"
 
-    /** Cricket Cricket® Splendor */
-    val CRICKET_SPLENDOR = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** Cricket U325AC */
+      val U325AC = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Cricket DEMK4119 */
-    val DEMK4119 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Cricket U380AC */
+      val U380AC = "spec:width=720,height=1560,unit=px,dpi=300"
 
-    /** Cricket 	DEMK4120 */
-    val DEMK4120 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Cricket U6080AC */
+      val U6080AC = "spec:width=720,height=1612,unit=px,dpi=280"
 
-    /** Cricket SN304AE */
-    val SN304AE = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** Cricket U705AC */
+      val U705AC = "spec:width=720,height=1600,unit=px,dpi=300"
 
-    /** Cricket U304AC */
-    val U304AC = "spec:width=480,height=960,unit=px,dpi=213"
+      /** Cricket v350c */
+      val V350C = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Cricket U325AC */
-    val U325AC = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Cricket WTCKT01 */
+      val WTCKT01 = "spec:width=720,height=1600,unit=px,dpi=280"
 
-    /** Cricket U705AC */
-    val U705AC = "spec:width=720,height=1600,unit=px,dpi=300"
+      /** Cricket ZON */
+      val ZON = "spec:width=720,height=1640,unit=px,dpi=280"
 
-}
+  }

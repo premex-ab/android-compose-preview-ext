@@ -1,78 +1,80 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Fcnt device specifications for Android Compose previews.
+ * FCNT device specifications for Android Compose previews.
  *
- * This extension provides Fcnt device specifications that can be used with @Preview annotations
+ * This extension provides FCNT device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Fcnt.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Fcnt get() = object {
-    /** Fcnt A401FC */
-    val A401FC = "spec:width=720,height=1560,unit=px,dpi=360"
+ * ```
+ */
+public val Devices.Fcnt: Any
+  get() = object {
+      /** FCNT A101FC */
+      val A101FC = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Fcnt arrows Alpha F-51F */
-    val ARROWS_ALPHA_F_51F = "spec:width=1200,height=2670,unit=px,dpi=450"
+      /** FCNT A401FC */
+      val A401FC = "spec:width=720,height=1560,unit=px,dpi=360"
 
-    /** Fcnt arrows Alpha M08 */
-    val ARROWS_ALPHA_M08 = "spec:width=1200,height=2670,unit=px,dpi=450"
+      /** FCNT A402FC */
+      val A402FC = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Fcnt arrows Be4 Plus F-41B */
-    val ARROWS_BE4_PLUS_F_41B = "spec:width=720,height=1480,unit=px,dpi=320"
+      /** FCNT BZ02 */
+      val BZ02 = "spec:width=720,height=1480,unit=px,dpi=320"
 
-    /** Fcnt arrows BZ02 */
-    val ARROWS_BZ02 = "spec:width=720,height=1480,unit=px,dpi=320"
+      /** FCNT BZ03 */
+      val BZ03 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Fcnt arrows BZ03 */
-    val ARROWS_BZ03 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** FCNT F41B */
+      val F41B = "spec:width=720,height=1480,unit=px,dpi=320"
 
-    /** Fcnt arrows N F-51C */
-    val ARROWS_N_F_51C = "spec:width=1080,height=2400,unit=px,dpi=420"
+      /** FCNT F51B */
+      val F51B = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Fcnt arrows We2 A402FC */
-    val ARROWS_WE2_A402FC = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** FCNT F51C */
+      val F51C = "spec:width=1080,height=2400,unit=px,dpi=420"
 
-    /** Fcnt arrows We2 F-52E */
-    val ARROWS_WE2_F_52E = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** FCNT F51E */
+      val F51E = "spec:width=1080,height=2400,unit=px,dpi=420"
 
-    /** Fcnt arrows We2 FCG02 */
-    val ARROWS_WE2_FCG02 = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** FCNT F52B */
+      val F52B = "spec:width=1080,height=1980,unit=px,dpi=480"
 
-    /** Fcnt arrows We2 M07 */
-    val ARROWS_WE2_M07 = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** FCNT F52E */
+      val F52E = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Fcnt arrows We2 Plus F-51E */
-    val ARROWS_WE2_PLUS_F_51E = "spec:width=1080,height=2400,unit=px,dpi=420"
+      /** FCNT F53E */
+      val F53E = "spec:width=1080,height=2160,unit=px,dpi=400"
 
-    /** Fcnt arrows We2 Plus M06 */
-    val ARROWS_WE2_PLUS_M06 = "spec:width=1080,height=2400,unit=px,dpi=420"
+      /** FCNT FCG01 */
+      val FCG01 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Fcnt arrows We A101FC */
-    val ARROWS_WE_A101FC = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** FCNT FCG02 */
+      val FCG02 = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Fcnt arrows We F-51B */
-    val ARROWS_WE_F_51B = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** FCNT fuji */
+      val FUJI = "spec:width=1200,height=2670,unit=px,dpi=450"
 
-    /** Fcnt arrows We FCG01 */
-    val ARROWS_WE_FCG01 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** FCNT F-51F */
+      val F_51F = "spec:width=1200,height=2670,unit=px,dpi=450"
 
-    /** Fcnt F-52B */
-    val F_52B = "spec:width=1080,height=1980,unit=px,dpi=480"
+      /** FCNT M06 */
+      val M06 = "spec:width=1080,height=2400,unit=px,dpi=420"
 
-    /** Fcnt F-53E */
-    val F_53E = "spec:width=1080,height=2160,unit=px,dpi=400"
+      /** FCNT M07 */
+      val M07 = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Fcnt MR01 */
-    val MR01 = "spec:width=720,height=1560,unit=px,dpi=360"
+      /** FCNT MR01 */
+      val MR01 = "spec:width=720,height=1560,unit=px,dpi=360"
 
-}
+  }

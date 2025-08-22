@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Orange device specifications for Android Compose previews.
@@ -9,112 +10,146 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Orange.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Orange get() = object {
-    /** Orange Dive 30 */
-    val DIVE_30 = "spec:width=480,height=800,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Orange: Any
+  get() = object {
+      /** Orange Alto45 */
+      val ALTO45 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Orange Dive 50 */
-    val DIVE_50 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Orange BUZZ6T4G */
+      val BUZZ6T4G = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Orange Dive_70 */
-    val DIVE_70 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Orange Dive_70 */
+      val DIVE_70 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Orange Dive 71 */
-    val DIVE_71 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Orange Dive_73 */
+      val DIVE_73 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Orange Dive72 */
-    val DIVE72 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Orange DSB0010 */
+      val DSB0010 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Orange Luno */
-    val LUNO = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Orange DSB0110 */
+      val DSB0110 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Orange Mahpee */
-    val MAHPEE = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Orange DV8555-KPO */
+      val DV8555_KPO = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Orange Neva 80 */
-    val NEVA_80 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Orange hwG535-L11 */
+      val HWG535_L11 = "spec:width=540,height=960,unit=px,dpi=240"
 
-    /** Orange Neva leaf */
-    val NEVA_LEAF = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Orange hwG740-L00 */
+      val HWG740_L00 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Orange Neva Rise S1 */
-    val NEVA_RISE_S1 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Orange hwt1821l */
+      val HWT1821L = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Orange Neva start */
-    val NEVA_START = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Orange hwt1a21l */
+      val HWT1A21L = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Orange Nola fun */
-    val NOLA_FUN = "spec:width=480,height=854,unit=px,dpi=200"
+      /** Orange KSTB7259 */
+      val KSTB7259 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Orange Nura */
-    val NURA = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** Orange Luno */
+      val LUNO = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Orange Nura2 */
-    val NURA2 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Orange m393vsb_osp */
+      val M393VSB_OSP = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Orange Orange */
-    val ORANGE = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Orange Mahpee */
+      val MAHPEE = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Orange Orange Neva play */
-    val ORANGE_NEVA_PLAY = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** Orange mickey6 */
+      val MICKEY6 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Orange Orange Neva sparkle */
-    val ORANGE_NEVA_SPARKLE = "spec:width=480,height=960,unit=px,dpi=200"
+      /** Orange Neva_jet */
+      val NEVA_JET = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-    /** Orange Orange Neva zen */
-    val ORANGE_NEVA_ZEN = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** Orange Neva_leaf */
+      val NEVA_LEAF = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Orange Orange Nola play */
-    val ORANGE_NOLA_PLAY = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Orange Neva_play */
+      val NEVA_PLAY = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Orange Orange Nola play plus */
-    val ORANGE_NOLA_PLAY_PLUS = "spec:width=480,height=854,unit=px,dpi=200"
+      /** Orange Neva_Rise_S1 */
+      val NEVA_RISE_S1 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Orange Orange Nola XL */
-    val ORANGE_NOLA_XL = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** Orange Neva_sparkle */
+      val NEVA_SPARKLE = "spec:width=480,height=960,unit=px,dpi=200"
 
-    /** Orange Orange Rise 33 */
-    val ORANGE_RISE_33 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Orange Neva_start */
+      val NEVA_START = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Orange Orange Rise 53 */
-    val ORANGE_RISE_53 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Orange Neva_zen */
+      val NEVA_ZEN = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Orange Rise 30 */
-    val RISE_30 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Orange Nola_fun_3 */
+      val NOLA_FUN_3 = "spec:width=480,height=854,unit=px,dpi=200"
 
-    /** Orange Rise31 */
-    val RISE31 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Orange Nola_play */
+      val NOLA_PLAY = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Orange Rise32 */
-    val RISE32 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Orange Nola_play_plus */
+      val NOLA_PLAY_PLUS = "spec:width=480,height=854,unit=px,dpi=200"
 
-    /** Orange Rise51 */
-    val RISE51 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Orange Nola-ultra */
+      val NOLA_ULTRA = "spec:width=720,height=1612,unit=px,dpi=320"
 
-    /** Orange Rise52 */
-    val RISE52 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Orange Nola_Up */
+      val NOLA_UP = "spec:width=480,height=854,unit=px,dpi=200"
 
-    /** Orange Rise_54 */
-    val RISE_54 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Orange Orange_Dive_71 */
+      val ORANGE_DIVE_71 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Orange Roya */
-    val ROYA = "spec:width=480,height=854,unit=px,dpi=240"
+      /** Orange Orange_Neva_80 */
+      val ORANGE_NEVA_80 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Orange Sanza plus */
-    val SANZA_PLUS = "spec:width=480,height=960,unit=px,dpi=200"
+      /** Orange Orange-Rise32 */
+      val ORANGE_RISE32 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Orange Sanza_touch */
-    val SANZA_TOUCH = "spec:width=480,height=800,unit=px,dpi=213"
+      /** Orange Orange_Sego */
+      val ORANGE_SEGO = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Orange Sego */
-    val SEGO = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Orange P635E40 */
+      val P635E40 = "spec:width=480,height=800,unit=px,dpi=240"
 
-}
+      /** Orange Pixi3-4 */
+      val PIXI3_4 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** Orange Pixi4-4 */
+      val PIXI4_4 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** Orange PIXI4_5_4G */
+      val PIXI4_5_4G = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** Orange Rise33 */
+      val RISE33 = "spec:width=480,height=800,unit=px,dpi=240"
+
+      /** Orange Rise_53 */
+      val RISE_53 = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** Orange Rise_54 */
+      val RISE_54 = "spec:width=480,height=960,unit=px,dpi=240"
+
+      /** Orange Rise_55 */
+      val RISE_55 = "spec:width=480,height=960,unit=px,dpi=240"
+
+      /** Orange Sanza_plus */
+      val SANZA_PLUS = "spec:width=480,height=960,unit=px,dpi=200"
+
+      /** Orange Sanza_touch */
+      val SANZA_TOUCH = "spec:width=480,height=800,unit=px,dpi=213"
+
+      /** Orange Vec4G */
+      val VEC4G = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** Orange Yaris35_GSM */
+      val YARIS35_GSM = "spec:width=320,height=480,unit=px,dpi=160"
+
+  }

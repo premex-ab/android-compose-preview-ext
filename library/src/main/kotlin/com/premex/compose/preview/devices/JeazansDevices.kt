@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Jeazans device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Jeazans.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Jeazans get() = object {
-    /** Jeazans A13 */
-    val A13 = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Jeazans: Any
+  get() = object {
+      /** Jeazans A13 */
+      val A13 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Jeazans KT1016_EEA */
-    val KT1016_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Jeazans KT1016 */
+      val KT1016 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

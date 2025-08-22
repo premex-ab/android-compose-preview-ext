@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Rephone device specifications for Android Compose previews.
+ * rephone device specifications for Android Compose previews.
  *
- * This extension provides Rephone device specifications that can be used with @Preview annotations
+ * This extension provides rephone device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Rephone.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Rephone get() = object {
-    /** Rephone rephone */
-    val REPHONE = "spec:width=1080,height=2340,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Rephone: Any
+  get() = object {
+      /** rephone rephone */
+      val REPHONE = "spec:width=1080,height=2340,unit=px,dpi=480"
 
-}
+  }

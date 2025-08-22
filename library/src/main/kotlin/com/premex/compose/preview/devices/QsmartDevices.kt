@@ -1,90 +1,110 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Qsmart device specifications for Android Compose previews.
+ * QSmart device specifications for Android Compose previews.
  *
- * This extension provides Qsmart device specifications that can be used with @Preview annotations
+ * This extension provides QSmart device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Qsmart.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Qsmart get() = object {
-    /** Qsmart GLi */
-    val GLI = "spec:width=480,height=800,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Qsmart: Any
+  get() = object {
+      /** QSmart Blaze */
+      val BLAZE = "spec:width=720,height=1600,unit=px,dpi=280"
 
-    /** Qsmart Hot 1 */
-    val HOT_1 = "spec:width=720,height=1480,unit=px,dpi=320"
+      /** QSmart GLi */
+      val GLI = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Qsmart Hot 5 */
-    val HOT_5 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** QSmart GLi_2020 */
+      val GLI_2020 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Qsmart i10 2019 */
-    val I10_2019 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart GLi_Lite */
+      val GLI_LITE = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Qsmart i10_2020 */
-    val I10_2020 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart Hot_1 */
+      val HOT_1 = "spec:width=720,height=1480,unit=px,dpi=320"
 
-    /** Qsmart i5i 2019 */
-    val I5I_2019 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** QSmart Hot_5 */
+      val HOT_5 = "spec:width=720,height=1520,unit=px,dpi=320"
 
-    /** Qsmart i6i_2020 */
-    val I6I_2020 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** QSmart i10_2019 */
+      val I10_2019 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart LT900 */
-    val LT900 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart i10_2020 */
+      val I10_2020 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart LT950 */
-    val LT950 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart i4i */
+      val I4I = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart Mark 2 */
-    val MARK_2 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart i7i_2020 */
+      val I7I_2020 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Qsmart QSmart Blaze */
-    val QSMART_BLAZE = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** QSmart LT950 */
+      val LT950 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart QSmart i4i */
-    val QSMART_I4I = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart MARK_2 */
+      val MARK_2 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart QSmart Rocket */
-    val QSMART_ROCKET = "spec:width=600,height=1280,unit=px,dpi=240"
+      /** QSmart Mark_5 */
+      val MARK_5 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Qsmart QSmart Ultra */
-    val QSMART_ULTRA = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** QSmart QSmart_i5i_2019 */
+      val QSMART_I5I_2019 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Qsmart QSmart X10 */
-    val QSMART_X10 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** QSmart QSmart_i6i_2020 */
+      val QSMART_I6I_2020 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Qsmart QSmart X20 */
-    val QSMART_X20 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** QSmart QSmart_LT900 */
+      val QSMART_LT900 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart QSmart X40 */
-    val QSMART_X40 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** QSmart Rocket */
+      val ROCKET = "spec:width=600,height=1280,unit=px,dpi=240"
 
-    /** Qsmart Rocket_Lite */
-    val ROCKET_LITE = "spec:width=480,height=960,unit=px,dpi=240"
+      /** QSmart Rocket_Lite */
+      val ROCKET_LITE = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Qsmart Smart 8 */
-    val SMART_8 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** QSmart Rocket_Pro */
+      val ROCKET_PRO = "spec:width=600,height=1280,unit=px,dpi=240"
 
-    /** Qsmart Smart HD Pro */
-    val SMART_HD_PRO = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** QSmart Smart_8 */
+      val SMART_8 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Qsmart View */
-    val VIEW = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** QSmart Smart_HD_Pro */
+      val SMART_HD_PRO = "spec:width=720,height=1440,unit=px,dpi=320"
 
-    /** Qsmart View Max */
-    val VIEW_MAX = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** QSmart Ultra */
+      val ULTRA = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Qsmart View Max Pro */
-    val VIEW_MAX_PRO = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** QSmart View */
+      val VIEW = "spec:width=720,height=1560,unit=px,dpi=320"
 
-}
+      /** QSmart View_Max */
+      val VIEW_MAX = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** QSmart View_Max_Pro */
+      val VIEW_MAX_PRO = "spec:width=720,height=1600,unit=px,dpi=280"
+
+      /** QSmart VIEW_PRO */
+      val VIEW_PRO = "spec:width=720,height=1560,unit=px,dpi=320"
+
+      /** QSmart X10 */
+      val X10 = "spec:width=720,height=1440,unit=px,dpi=320"
+
+      /** QSmart X20 */
+      val X20 = "spec:width=720,height=1440,unit=px,dpi=320"
+
+      /** QSmart X40 */
+      val X40 = "spec:width=720,height=1440,unit=px,dpi=320"
+
+  }

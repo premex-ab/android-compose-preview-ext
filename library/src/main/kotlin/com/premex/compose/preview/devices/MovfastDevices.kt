@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Movfast device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Movfast.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Movfast get() = object {
-    /** Movfast Ranger2 */
-    val RANGER2 = "spec:width=720,height=1440,unit=px,dpi=280"
+ * ```
+ */
+public val Devices.Movfast: Any
+  get() = object {
+      /** Movfast MFT1522 */
+      val MFT1522 = "spec:width=720,height=1440,unit=px,dpi=280"
 
-    /** Movfast Ranger2 Lite */
-    val RANGER2_LITE = "spec:width=480,height=800,unit=px,dpi=220"
+      /** Movfast MFT1621 */
+      val MFT1621 = "spec:width=480,height=800,unit=px,dpi=220"
 
-}
+  }

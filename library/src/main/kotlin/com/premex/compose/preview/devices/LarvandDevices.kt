@@ -1,27 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Larvand device specifications for Android Compose previews.
+ * LARVAND device specifications for Android Compose previews.
  *
- * This extension provides Larvand device specifications that can be used with @Preview annotations
+ * This extension provides LARVAND device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Larvand.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Larvand get() = object {
-    /** Larvand M863TabH8 */
-    val M863TABH8 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Larvand: Any
+  get() = object {
+      /** LARVAND M863TabH8 */
+      val M863TABH8 = "spec:width=800,height=1280,unit=px,dpi=240"
 
-    /** Larvand M863TabH8 */
-    val M863TABH8_800X1280 = "spec:width=800,height=1280,unit=px,dpi=240"
-
-}
+  }

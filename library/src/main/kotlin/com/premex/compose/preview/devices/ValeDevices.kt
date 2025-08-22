@@ -1,36 +1,38 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Vale device specifications for Android Compose previews.
+ * VALE device specifications for Android Compose previews.
  *
- * This extension provides Vale device specifications that can be used with @Preview annotations
+ * This extension provides VALE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Vale.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Vale get() = object {
-    /** Vale V10A */
-    val V10A = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Vale: Any
+  get() = object {
+      /** VALE V10A-4128 */
+      val V10A_4128 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Vale V10E-LTE */
-    val V10E_LTE = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** VALE V10E-LTE */
+      val V10E_LTE = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Vale V11E LTE_4128 */
-    val V11E_LTE_4128 = "spec:width=1200,height=1920,unit=px,dpi=200"
+      /** VALE V11E_LTE_4128 */
+      val V11E_LTE_4128 = "spec:width=1200,height=1920,unit=px,dpi=200"
 
-    /** Vale V12E-LTE */
-    val V12E_LTE = "spec:width=1200,height=2000,unit=px,dpi=280"
+      /** VALE V12E-LTE */
+      val V12E_LTE = "spec:width=1200,height=2000,unit=px,dpi=280"
 
-    /** Vale V12E LTE_14 */
-    val V12E_LTE_14 = "spec:width=1200,height=2000,unit=px,dpi=240"
+      /** VALE V12E_LTE_8128 */
+      val V12E_LTE_8128 = "spec:width=1200,height=2000,unit=px,dpi=240"
 
-}
+  }

@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Phoenix device specifications for Android Compose previews.
+ * PHOENIX device specifications for Android Compose previews.
  *
- * This extension provides Phoenix device specifications that can be used with @Preview annotations
+ * This extension provides PHOENIX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Phoenix.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Phoenix get() = object {
-    /** Phoenix PHONETABPRO */
-    val PHONETABPRO = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Phoenix: Any
+  get() = object {
+      /** PHOENIX PHPHOENIXONETAB */
+      val PHPHOENIXONETAB = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

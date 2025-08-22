@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Nobby device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nobby.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nobby get() = object {
-    /** Nobby S300 pro */
-    val S300_PRO = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Nobby: Any
+  get() = object {
+      /** Nobby Nobby_S300_Pro */
+      val NOBBY_S300_PRO = "spec:width=480,height=960,unit=px,dpi=240"
 
-}
+  }

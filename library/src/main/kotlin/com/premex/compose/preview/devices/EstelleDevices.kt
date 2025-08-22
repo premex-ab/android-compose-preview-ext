@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Estelle device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Estelle.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Estelle get() = object {
-    /** Estelle EST-001-BLA */
-    val EST_001_BLA = "spec:width=1080,height=2160,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Estelle: Any
+  get() = object {
+      /** Estelle EST_001_BLK */
+      val EST_001_BLK = "spec:width=1080,height=2160,unit=px,dpi=480"
 
-}
+  }

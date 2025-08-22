@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Geecoo device specifications for Android Compose previews.
+ * GEECOO device specifications for Android Compose previews.
  *
- * This extension provides Geecoo device specifications that can be used with @Preview annotations
+ * This extension provides GEECOO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Geecoo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Geecoo get() = object {
-    /** Geecoo G4 */
-    val G4 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Geecoo: Any
+  get() = object {
+      /** GEECOO G4 */
+      val G4 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+  }

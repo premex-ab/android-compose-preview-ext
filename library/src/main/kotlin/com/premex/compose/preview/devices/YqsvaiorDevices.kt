@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Yqsvaior device specifications for Android Compose previews.
+ * YQSVAIOR device specifications for Android Compose previews.
  *
- * This extension provides Yqsvaior device specifications that can be used with @Preview annotations
+ * This extension provides YQSVAIOR device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Yqsvaior.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Yqsvaior get() = object {
-    /** Yqsvaior YQ10 */
-    val YQ10 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Yqsvaior: Any
+  get() = object {
+      /** YQSVAIOR YQ10 */
+      val YQ10 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

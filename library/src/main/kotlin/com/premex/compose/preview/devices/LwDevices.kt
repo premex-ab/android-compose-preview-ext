@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Lw device specifications for Android Compose previews.
+ * LW device specifications for Android Compose previews.
  *
- * This extension provides Lw device specifications that can be used with @Preview annotations
+ * This extension provides LW device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Lw.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Lw get() = object {
-    /** Lw LW788 */
-    val LW788 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Lw: Any
+  get() = object {
+      /** LW LW788 */
+      val LW788 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

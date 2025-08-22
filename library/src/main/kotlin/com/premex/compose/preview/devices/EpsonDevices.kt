@@ -1,24 +1,29 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Epson device specifications for Android Compose previews.
+ * EPSON device specifications for Android Compose previews.
  *
- * This extension provides Epson device specifications that can be used with @Preview annotations
+ * This extension provides EPSON device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Epson.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Epson get() = object {
-    /** Epson embt4 */
-    val EMBT4 = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Epson: Any
+  get() = object {
+      /** EPSON himalaya */
+      val HIMALAYA = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-}
+      /** EPSON sti6290d101 */
+      val STI6290D101 = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+  }

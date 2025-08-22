@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Leica device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Leica.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Leica get() = object {
-    /** Leica Leica CSX8 */
-    val LEICA_CSX8 = "spec:width=1200,height=1920,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Leica: Any
+  get() = object {
+      /** Leica CSX8 */
+      val CSX8 = "spec:width=1200,height=1920,unit=px,dpi=320"
 
-}
+  }

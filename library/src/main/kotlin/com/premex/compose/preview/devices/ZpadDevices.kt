@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Zpad device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Zpad.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Zpad get() = object {
-    /** Zpad Zpad_X7 */
-    val ZPAD_X7 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Zpad: Any
+  get() = object {
+      /** Zpad ZpadX7 */
+      val ZPADX7 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Zpad ZpadX7 */
-    val ZPADX7 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Zpad Zpad_X7 */
+      val ZPAD_X7 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

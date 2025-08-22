@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Nothing device specifications for Android Compose previews.
@@ -9,31 +10,38 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nothing.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nothing get() = object {
-    /** Nothing Nothing Phone (1) */
-    val NOTHING_PHONE_1 = "spec:width=1080,height=2400,unit=px,dpi=420"
+ * ```
+ */
+public val Devices.Nothing: Any
+  get() = object {
+      /** Nothing Asteroids */
+      val ASTEROIDS = "spec:width=1080,height=2392,unit=px,dpi=420"
 
-    /** Nothing Nothing Phone (2) */
-    val NOTHING_PHONE_2 = "spec:width=1080,height=2412,unit=px,dpi=420"
+      /** Nothing Galaga */
+      val GALAGA = "spec:width=1080,height=2392,unit=px,dpi=420"
 
-    /** Nothing Nothing Phone (2a) */
-    val NOTHING_PHONE_2A = "spec:width=1084,height=2412,unit=px,dpi=420"
+      /** Nothing Metroid */
+      val METROID = "spec:width=1260,height=2800,unit=px,dpi=480"
 
-    /** Nothing Nothing Phone (2a) Plus */
-    val NOTHING_PHONE_2A_PLUS = "spec:width=1084,height=2412,unit=px,dpi=420"
+      /** Nothing Pacman */
+      val PACMAN = "spec:width=1084,height=2412,unit=px,dpi=420"
 
-    /** Nothing Nothing Phone (3) */
-    val NOTHING_PHONE_3 = "spec:width=1260,height=2800,unit=px,dpi=480"
+      /** Nothing PacmanPro */
+      val PACMANPRO = "spec:width=1084,height=2412,unit=px,dpi=420"
 
-    /** Nothing Nothing Phone (3a) Pro */
-    val NOTHING_PHONE_3A_PRO = "spec:width=1080,height=2392,unit=px,dpi=420"
+      /** Nothing Pong */
+      val PONG = "spec:width=1080,height=2412,unit=px,dpi=420"
 
-}
+      /** Nothing Spacewar */
+      val SPACEWAR = "spec:width=1080,height=2400,unit=px,dpi=420"
+
+      /** Nothing Tetris */
+      val TETRIS = "spec:width=1080,height=2400,unit=px,dpi=420"
+
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Porodo device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Porodo.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Porodo get() = object {
-    /** Porodo Ultra_Max_10_1 */
-    val ULTRA_MAX_10_1 = "spec:width=1200,height=1920,unit=px,dpi=300"
+ * ```
+ */
+public val Devices.Porodo: Any
+  get() = object {
+      /** Porodo Ultra_Max_10_1 */
+      val ULTRA_MAX_10_1 = "spec:width=1200,height=1920,unit=px,dpi=300"
 
-}
+  }

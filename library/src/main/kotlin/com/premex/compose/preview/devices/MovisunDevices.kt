@@ -1,30 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Movisun device specifications for Android Compose previews.
+ * MOVISUN device specifications for Android Compose previews.
  *
- * This extension provides Movisun device specifications that can be used with @Preview annotations
+ * This extension provides MOVISUN device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Movisun.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Movisun get() = object {
-    /** Movisun ASTROA1  */
-    val ASTROA1 = "spec:width=720,height=1560,unit=px,dpi=280"
+ * ```
+ */
+public val Devices.Movisun: Any
+  get() = object {
+      /** MOVISUN ASTROA1 */
+      val ASTROA1 = "spec:width=720,height=1560,unit=px,dpi=280"
 
-    /** Movisun Astro_Pad10 */
-    val ASTRO_PAD10 = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** MOVISUN Astro_Pad10 */
+      val ASTRO_PAD10 = "spec:width=800,height=1280,unit=px,dpi=240"
 
-    /** Movisun TAB-S1 */
-    val TAB_S1 = "spec:width=600,height=1024,unit=px,dpi=213"
+      /** MOVISUN TAB-S1 */
+      val TAB_S1 = "spec:width=600,height=1024,unit=px,dpi=213"
 
-}
+  }

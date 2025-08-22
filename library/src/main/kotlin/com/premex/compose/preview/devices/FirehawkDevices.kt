@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Firehawk device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Firehawk.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Firehawk get() = object {
-    /** Firehawk FP-600 */
-    val FP_600 = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Firehawk: Any
+  get() = object {
+      /** Firehawk FP-600 */
+      val FP_600 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Firehawk ToughDroid */
-    val TOUGHDROID = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** Firehawk ToughDroid */
+      val TOUGHDROID = "spec:width=800,height=1280,unit=px,dpi=240"
 
-}
+  }

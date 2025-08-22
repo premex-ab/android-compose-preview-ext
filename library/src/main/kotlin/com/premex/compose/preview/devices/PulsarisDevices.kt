@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Pulsaris device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Pulsaris.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Pulsaris get() = object {
-    /** Pulsaris Fresh */
-    val FRESH = "spec:width=720,height=1560,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Pulsaris: Any
+  get() = object {
+      /** Pulsaris Fresh */
+      val FRESH = "spec:width=720,height=1560,unit=px,dpi=320"
 
-    /** Pulsaris Pluma */
-    val PLUMA = "spec:width=480,height=854,unit=px,dpi=220"
+      /** Pulsaris Pluma */
+      val PLUMA = "spec:width=480,height=854,unit=px,dpi=220"
 
-}
+  }

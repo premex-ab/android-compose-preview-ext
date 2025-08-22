@@ -1,57 +1,68 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Noblex device specifications for Android Compose previews.
+ * NOBLEX device specifications for Android Compose previews.
  *
- * This extension provides Noblex device specifications that can be used with @Preview annotations
+ * This extension provides NOBLEX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Noblex.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Noblex get() = object {
-    /** Noblex A50 */
-    val A50 = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Noblex: Any
+  get() = object {
+      /** NOBLEX A50UNS */
+      val A50UNS = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Noblex A60 */
-    val A60 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** NOBLEX A60UNS */
+      val A60UNS = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Noblex B30 */
-    val B30 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** NOBLEX N405 */
+      val N405 = "spec:width=480,height=800,unit=px,dpi=240"
 
-    /** Noblex Go Action */
-    val GO_ACTION = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** NOBLEX N503 */
+      val N503 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Noblex Go Move */
-    val GO_MOVE = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** NOBLEX N504 */
+      val N504 = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Noblex Go Street */
-    val GO_STREET = "spec:width=480,height=854,unit=px,dpi=240"
+      /** NOBLEX N551 */
+      val N551 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Noblex Go Urban */
-    val GO_URBAN = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** NOBLEX N552 */
+      val N552 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Noblex N52 */
-    val N52 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** NOBLEX N601 */
+      val N601 = "spec:width=720,height=1528,unit=px,dpi=280"
 
-    /** Noblex N601 */
-    val N601 = "spec:width=720,height=1528,unit=px,dpi=280"
+      /** NOBLEX NOBLEX_B30 */
+      val NOBLEX_B30 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Noblex N62 */
-    val N62 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** NOBLEX NOBLEX_N52 */
+      val NOBLEX_N52 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Noblex T7A6N */
-    val T7A6N = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** NOBLEX NOBLEX_N62 */
+      val NOBLEX_N62 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Noblex TN11A6128 */
-    val TN11A6128 = "spec:width=1200,height=1920,unit=px,dpi=320"
+      /** NOBLEX R3 */
+      val R3 = "spec:width=720,height=1280,unit=px,dpi=213"
 
-}
+      /** NOBLEX sunnyvale */
+      val SUNNYVALE = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** NOBLEX Tablet */
+      val TABLET = "spec:width=600,height=1024,unit=px,dpi=160"
+
+      /** NOBLEX TN11A6128 */
+      val TN11A6128 = "spec:width=1200,height=1920,unit=px,dpi=320"
+
+  }

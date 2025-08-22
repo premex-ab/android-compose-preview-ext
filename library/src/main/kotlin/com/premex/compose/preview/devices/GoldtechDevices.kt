@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Goldtech device specifications for Android Compose previews.
@@ -9,22 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Goldtech.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Goldtech get() = object {
-    /** Goldtech GT10-B16 */
-    val GT10_B16 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Goldtech: Any
+  get() = object {
+      /** Goldtech JTTAB035 */
+      val JTTAB035 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Goldtech GT7-B16 */
-    val GT7_B16 = "spec:width=600,height=1024,unit=px,dpi=160"
-
-    /** Goldtech JTTAB035 */
-    val JTTAB035 = "spec:width=600,height=1024,unit=px,dpi=160"
-
-}
+  }

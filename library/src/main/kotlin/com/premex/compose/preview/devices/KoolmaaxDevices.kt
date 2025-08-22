@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Koolmaax device specifications for Android Compose previews.
+ * KOOLMAAX device specifications for Android Compose previews.
  *
- * This extension provides Koolmaax device specifications that can be used with @Preview annotations
+ * This extension provides KOOLMAAX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Koolmaax.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Koolmaax get() = object {
-    /** Koolmaax GEMINI */
-    val GEMINI = "spec:width=480,height=960,unit=px,dpi=220"
+ * ```
+ */
+public val Devices.Koolmaax: Any
+  get() = object {
+      /** KOOLMAAX GEMINI */
+      val GEMINI = "spec:width=480,height=960,unit=px,dpi=220"
 
-}
+  }

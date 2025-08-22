@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Hanet device specifications for Android Compose previews.
+ * HANET device specifications for Android Compose previews.
  *
- * This extension provides Hanet device specifications that can be used with @Preview annotations
+ * This extension provides HANET device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Hanet.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Hanet get() = object {
-    /** Hanet T432 */
-    val T432 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Hanet: Any
+  get() = object {
+      /** HANET SmartEdu */
+      val SMARTEDU = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

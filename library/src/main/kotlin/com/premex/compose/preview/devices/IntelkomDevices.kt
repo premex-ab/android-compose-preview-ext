@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Intelkom device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Intelkom.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Intelkom get() = object {
-    /** Intelkom meanIT_X2 */
-    val MEANIT_X2 = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Intelkom: Any
+  get() = object {
+      /** Intelkom meanIT_C10C11 */
+      val MEANIT_C10C11 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Okin device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Okin.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Okin get() = object {
-    /** Okin FP2901 */
-    val FP2901 = "spec:width=600,height=1024,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Okin: Any
+  get() = object {
+      /** Okin FP2901 */
+      val FP2901 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-    /** Okin Tablet_FP */
-    val TABLET_FP = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** Okin FP290101 */
+      val FP290101 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-}
+  }

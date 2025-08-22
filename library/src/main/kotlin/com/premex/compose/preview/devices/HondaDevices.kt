@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Honda device specifications for Android Compose previews.
@@ -9,16 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Honda.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Honda get() = object {
-    /** Honda A-DA */
-    val A_DA = "spec:width=480,height=800,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Honda: Any
+  get() = object {
+      /** Honda msmnile_au */
+      val MSMNILE_AU = "spec:width=720,height=1920,unit=px,dpi=160"
 
-}
+      /** Honda vcm30t30 */
+      val VCM30T30 = "spec:width=480,height=800,unit=px,dpi=160"
+
+  }

@@ -1,24 +1,27 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Cablecolor device specifications for Android Compose previews.
  *
- * This extension provides Cablecolor device specifications that can be used with @Preview annotations
+ * This extension provides Cablecolor device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Cablecolor.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Cablecolor get() = object {
-    /** Cablecolor CAB_TAB */
-    val CAB_TAB = "spec:width=600,height=1024,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Cablecolor: Any
+  get() = object {
+      /** Cablecolor GIU3A00 */
+      val GIU3A00 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-}
+  }

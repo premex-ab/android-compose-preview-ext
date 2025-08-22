@@ -1,27 +1,30 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Swisstone device specifications for Android Compose previews.
+ * swisstone device specifications for Android Compose previews.
  *
- * This extension provides Swisstone device specifications that can be used with @Preview annotations
+ * This extension provides swisstone device specifications that can be used with @Preview
+ * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Swisstone.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Swisstone get() = object {
-    /** Swisstone swisstone SD 510 */
-    val SWISSTONE_SD_510 = "spec:width=480,height=854,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Swisstone: Any
+  get() = object {
+      /** swisstone SD5103G */
+      val SD5103G = "spec:width=480,height=854,unit=px,dpi=240"
 
-    /** Swisstone swisstone SD 530 */
-    val SWISSTONE_SD_530 = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** swisstone SD5304G */
+      val SD5304G = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+  }

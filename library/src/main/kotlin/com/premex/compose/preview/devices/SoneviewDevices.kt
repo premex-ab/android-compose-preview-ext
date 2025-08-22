@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Soneview device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Soneview.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Soneview get() = object {
-    /** Soneview SV_TAB10 */
-    val SV_TAB10 = "spec:width=800,height=1280,unit=px,dpi=220"
+ * ```
+ */
+public val Devices.Soneview: Any
+  get() = object {
+      /** Soneview SV_TAB10 */
+      val SV_TAB10 = "spec:width=800,height=1280,unit=px,dpi=220"
 
-}
+  }

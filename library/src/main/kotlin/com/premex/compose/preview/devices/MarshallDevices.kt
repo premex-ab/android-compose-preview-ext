@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Marshall device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Marshall.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Marshall get() = object {
-    /** Marshall London */
-    val LONDON = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Marshall: Any
+  get() = object {
+      /** Marshall KB-1501 */
+      val KB_1501 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-}
+  }

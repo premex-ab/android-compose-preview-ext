@@ -1,27 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Maxtron device specifications for Android Compose previews.
+ * maxtron device specifications for Android Compose previews.
  *
- * This extension provides Maxtron device specifications that can be used with @Preview annotations
+ * This extension provides maxtron device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Maxtron.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Maxtron get() = object {
-    /** Maxtron MAXTRON Genio */
-    val MAXTRON_GENIO = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Maxtron: Any
+  get() = object {
+      /** maxtron smart */
+      val SMART = "spec:width=600,height=1024,unit=px,dpi=213"
 
-    /** Maxtron smart */
-    val SMART = "spec:width=600,height=1024,unit=px,dpi=213"
-
-}
+  }

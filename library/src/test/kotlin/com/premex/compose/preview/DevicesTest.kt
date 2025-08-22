@@ -78,7 +78,7 @@ class DevicesTest {
 
     @Test
     fun `test automotive device is defined`() {
-        assertNotNull(Devices.AUTOMOTIVE_1024p)
-        assertTrue(Devices.AUTOMOTIVE_1024p.startsWith("id:"))
+        assertNotNull(Devices.AUTOMOTIVE_1024P_LANDSCAPE)
+        assertTrue(Devices.AUTOMOTIVE_1024P_LANDSCAPE.startsWith("id:"))
     }
 }

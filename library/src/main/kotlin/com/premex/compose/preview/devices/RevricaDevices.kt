@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Revrica device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Revrica.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Revrica get() = object {
-    /** Revrica Uko108T */
-    val UKO108T = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Revrica: Any
+  get() = object {
+      /** Revrica Uko108T */
+      val UKO108T = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

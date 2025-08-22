@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * V7 device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.V7.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.V7 get() = object {
-    /** V7 BUV7TBLT10A */
-    val BUV7TBLT10A = "spec:width=1200,height=1920,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.V7: Any
+  get() = object {
+      /** V7 BUV7TBLT10A */
+      val BUV7TBLT10A = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-    /** V7 IFPXX03-V7PRO */
-    val IFPXX03_V7PRO = "spec:width=2160,height=3840,unit=px,dpi=480"
+      /** V7 rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

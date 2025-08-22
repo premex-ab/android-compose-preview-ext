@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Topjoy device specifications for Android Compose previews.
@@ -9,16 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Topjoy.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Topjoy get() = object {
-    /** Topjoy SC0802 */
-    val SC0802 = "spec:width=800,height=1280,unit=px,dpi=170"
+ * ```
+ */
+public val Devices.Topjoy: Any
+  get() = object {
+      /** Topjoy SC0802 */
+      val SC0802 = "spec:width=800,height=1280,unit=px,dpi=170"
 
-}
+  }

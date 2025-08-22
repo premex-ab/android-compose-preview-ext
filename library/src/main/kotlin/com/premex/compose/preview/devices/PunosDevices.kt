@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Punos device specifications for Android Compose previews.
@@ -9,28 +10,23 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Punos.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Punos get() = object {
-    /** Punos Punos_10 */
-    val PUNOS_10 = "spec:width=800,height=1280,unit=px,dpi=213"
+ * ```
+ */
+public val Devices.Punos: Any
+  get() = object {
+      /** Punos PTXR1024B */
+      val PTXR1024B = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Punos Punos X10 */
-    val PUNOS_X10 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Punos PTXR824B */
+      val PTXR824B = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Punos Punos X8 PTX822G */
-    val PUNOS_X8_PTX822G = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** Punos Punos_10 */
+      val PUNOS_10 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Punos XR10_Tablet */
-    val XR10_TABLET = "spec:width=800,height=1280,unit=px,dpi=160"
-
-    /** Punos XR8_Tablet */
-    val XR8_TABLET = "spec:width=800,height=1280,unit=px,dpi=160"
-
-}
+  }

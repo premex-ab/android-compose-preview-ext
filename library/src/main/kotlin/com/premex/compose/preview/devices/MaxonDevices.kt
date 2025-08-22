@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Maxon device specifications for Android Compose previews.
@@ -9,22 +10,17 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Maxon.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Maxon get() = object {
-    /** Maxon MAXON_MX4 */
-    val MAXON_MX4 = "spec:width=480,height=800,unit=px,dpi=220"
+ * ```
+ */
+public val Devices.Maxon: Any
+  get() = object {
+      /** Maxon Maxon_MX50 */
+      val MAXON_MX50 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Maxon MAXON_MX70PRO */
-    val MAXON_MX70PRO = "spec:width=720,height=1600,unit=px,dpi=320"
-
-    /** Maxon MX50 */
-    val MX50 = "spec:width=480,height=960,unit=px,dpi=240"
-
-}
+  }

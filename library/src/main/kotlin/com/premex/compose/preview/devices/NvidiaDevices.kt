@@ -1,30 +1,32 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Nvidia device specifications for Android Compose previews.
+ * nvidia device specifications for Android Compose previews.
  *
- * This extension provides Nvidia device specifications that can be used with @Preview annotations
+ * This extension provides nvidia device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Nvidia.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Nvidia get() = object {
-    /** Nvidia Shield */
-    val SHIELD = "spec:width=720,height=1280,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Nvidia: Any
+  get() = object {
+      /** nvidia roth */
+      val ROTH = "spec:width=720,height=1280,unit=px,dpi=320"
 
-    /** Nvidia SHIELD Tablet */
-    val SHIELD_TABLET = "spec:width=1200,height=1920,unit=px,dpi=320"
+      /** nvidia shieldtablet */
+      val SHIELDTABLET = "spec:width=1200,height=1920,unit=px,dpi=320"
 
-    /** Nvidia TegraNote */
-    val TEGRANOTE = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** nvidia tegranote */
+      val TEGRANOTE = "spec:width=800,height=1280,unit=px,dpi=213"
 
-}
+  }

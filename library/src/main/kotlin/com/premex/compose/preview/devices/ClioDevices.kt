@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Clio device specifications for Android Compose previews.
+ * CLIO device specifications for Android Compose previews.
  *
- * This extension provides Clio device specifications that can be used with @Preview annotations
+ * This extension provides CLIO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Clio.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Clio get() = object {
-    /** Clio Neo_4_Plus */
-    val NEO_4_PLUS = "spec:width=480,height=800,unit=px,dpi=220"
+ * ```
+ */
+public val Devices.Clio: Any
+  get() = object {
+      /** CLIO Neo_4_Plus */
+      val NEO_4_PLUS = "spec:width=480,height=800,unit=px,dpi=220"
 
-}
+  }

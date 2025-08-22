@@ -188,67 +188,6 @@ Run the update script locally:
 ./scripts/update-devices.sh --force
 ```
 
-## 🌐 Curated External Device Sources (Maintainer Managed)
-
-Third-party device specifications are enriched using a small set of vetted, version-controlled external JSON catalogs referenced in:
-```
-scripts/curated-sources.json
-```
-Consumers do not configure URLs. Maintainers update this file when adding or revising external catalogs. The update script fetches each source, normalizes heterogeneous field names, deduplicates, and merges them with locally maintained authoritative JSON specs found in `scripts/local-sources/*.json` (local sources take precedence when duplicates occur by manufacturer+code).
-
-### Current Curated Sources
-(See `scripts/curated-sources.json` for the up-to-date list.) Example entry:
-```json
-{
-  "sources": [
-    {
-      "name": "Android Device Catalog (minimal subset)",
-      "url": "https://raw.githubusercontent.com/hossain-khan/android-device-catalog-parser/main/lib/src/test/resources/android-devices-catalog-min.json",
-      "format": "catalog_min"
-    }
-  ]
-}
-```
-
-### Accepted JSON Shapes (auto-detected)
-The parser recognizes objects under any of these keys or root arrays:
-- `devices[]`, root `[]`, `deviceList[]`, `supportedDevices[]`
-It maps common field aliases:
-- Manufacturer: `manufacturer`, `brand`, `oem`, `vendor`
-- Code / model: `code`, `id`, `identifier`, `model`, `name`
-- Width: `width`, `widthPx`, `screenWidthPx`, `screenX`, `screen_width`
-- Height: `height`, `heightPx`, `screenHeightPx`, `screenY`, `screen_height`
-- Density / DPI: `dpi`, `density`, `screenDensity`, `screen_density`, `ppi`
-Missing manufacturer defaults to `Generic`; missing code is synthesized: `UNNAMED_<WxH>_<DPI>DPI`.
-
-### Normalization Rules
-- Constant names are converted to SCREAMING_SNAKE_CASE (non-alphanumerics become `_`).
-- First occurrence of a (manufacturer, code) pair wins (later duplicates skipped).
-- Portrait orientation expected for width/height (natural device orientation).
-
-### Running the Aggregation
-```bash
-./scripts/update-devices.sh --dry-run   # Show counts
-./scripts/update-devices.sh            # Regenerate Devices.kt
-```
-The script ensures required test devices remain present even if a remote source omits them.
-
-### Adding / Updating Sources (Maintainers Only)
-1. Edit `scripts/curated-sources.json` (add new `{"name","url","format"}` entry).
-2. Run the update script locally and verify diff + tests.
-3. Commit both the curated sources file change and regenerated `Devices.kt`.
-
-### Rationale
-Centralizing sources avoids user-side configuration drift and guarantees reproducible device lists across environments and CI.
-
-### Validation & Safety
-- Soft-fails on unreachable remote sources (continues with whatever was aggregated so far).
-- Skips entries with non-numeric width/height/dpi (or computes dpi if diagonal provided).
-- Ignores incomplete records missing width/height/dpi (and no diagonal).
-- Does not execute remote code—pure JSON ingestion.
-
----
-
 ## 🏗 Development
 
 ### Building the Project
@@ -268,36 +207,36 @@ Centralizing sources avoids user-side configuration drift and guarantees reprodu
 
 1. Fork the repository
 2. Create a feature branch
-3. Add your device specifications
+3. Add your device specifications using the generator
 4. Run tests: `./gradlew test`
 5. Submit a pull request
 
 ### Adding New Devices
 
-Add or update JSON entries instead of modifying script-internal arrays (arrays removed):
+The device generation is now handled by a Kotlin module instead of the bash script:
 
-1. For authoritative/internal devices (e.g. rugged / enterprise): edit or add a file in `scripts/local-sources/` (one JSON per manufacturer recommended). Schema:
-   ```json
-   {
-     "devices": [
-       { "manufacturer": "Acme", "code": "ACME_PRO_X", "width": 1080, "height": 2400, "dpi": 420 }
-     ]
-   }
-   ```
-2. For publicly sourced devices you still trust: add a new entry to `scripts/curated-sources.json` (remote URL).
-3. Run:
+1. **Generate devices**: Run the Kotlin generator
    ```bash
-   ./scripts/update-devices.sh --dry-run
-   ./scripts/update-devices.sh
+   ./gradlew :device-generator:run --args="--dry-run"  # Preview changes
+   ./gradlew :device-generator:run                      # Generate files
+   ```
+
+2. **Run tests**: Validate the generated code
+   ```bash
    ./gradlew test
    ```
-4. Commit the updated JSON plus regenerated `Devices.kt`.
+
+3. **Commit changes**: Include both generator changes and generated files
+
+The generator fetches device specifications from external sources and creates:
+- Main `Devices.kt` file with Google device constants (170+ devices)
+- Manufacturer extension files (3000+ manufacturers, 24000+ devices total)
 
 Guidelines:
-- Use natural portrait pixel dimensions.
-- Supply integer DPI; if only diagonal size is known the script will compute DPI.
-- Use SCREAMING_SNAKE_CASE for `code`; uniqueness per manufacturer.
-- Avoid duplicates: first occurrence (local overrides remote) is kept.
+- Device specs are fetched automatically from the Android Device Catalog
+- Built-in fallbacks ensure critical Google devices are always available
+- Automatic deduplication handles duplicate device specifications
+- Generated code uses proper Kotlin naming conventions
 
 ## 📦 Releases
 

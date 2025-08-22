@@ -1,33 +1,53 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Ktc device specifications for Android Compose previews.
+ * KTC device specifications for Android Compose previews.
  *
- * This extension provides Ktc device specifications that can be used with @Preview annotations
+ * This extension provides KTC device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ktc.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ktc get() = object {
-    /** Ktc SD_GM01 */
-    val SD_GM01 = "spec:width=2160,height=3840,unit=px,dpi=560"
+ * ```
+ */
+public val Devices.Ktc: Any
+  get() = object {
+      /** KTC BLISS503 */
+      val BLISS503 = "spec:width=800,height=1280,unit=px,dpi=213"
 
-    /** Ktc SD_GM02 */
-    val SD_GM02 = "spec:width=1080,height=1920,unit=px,dpi=240"
+      /** KTC Capricorn */
+      val CAPRICORN = "spec:width=2160,height=3840,unit=px,dpi=560"
 
-    /** Ktc SD_GM03 */
-    val SD_GM03 = "spec:width=1080,height=1920,unit=px,dpi=240"
+      /** KTC hongkong */
+      val HONGKONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-    /** Ktc W83B-LANGO3576 */
-    val W83B_LANGO3576 = "spec:width=2160,height=3840,unit=px,dpi=480"
+      /** KTC lavender */
+      val LAVENDER = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-}
+      /** KTC Leo */
+      val LEO = "spec:width=1080,height=1920,unit=px,dpi=240"
+
+      /** KTC mountbaker */
+      val MOUNTBAKER = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** KTC Sagittarius */
+      val SAGITTARIUS = "spec:width=1080,height=1920,unit=px,dpi=240"
+
+      /** KTC stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** KTC W83B-F2-RK3576 */
+      val W83B_F2_RK3576 = "spec:width=2160,height=3840,unit=px,dpi=480"
+
+      /** KTC zhongshan */
+      val ZHONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+  }

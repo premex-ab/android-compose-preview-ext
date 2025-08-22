@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Kozen device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Kozen.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Kozen get() = object {
-    /** Kozen D1 */
-    val D1 = "spec:width=720,height=1600,unit=px,dpi=320"
+ * ```
+ */
+public val Devices.Kozen: Any
+  get() = object {
+      /** Kozen D1 */
+      val D1 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-    /** Kozen T5 */
-    val T5 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** Kozen T05 */
+      val T05 = "spec:width=480,height=800,unit=px,dpi=240"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Meitu device specifications for Android Compose previews.
@@ -9,40 +10,41 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Meitu.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Meitu get() = object {
-    /** Meitu M6 */
-    val M6 = "spec:width=1080,height=1920,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Meitu: Any
+  get() = object {
+      /** Meitu M6 */
+      val M6 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Meitu M8s */
-    val M8S = "spec:width=1080,height=2220,unit=px,dpi=440"
+      /** Meitu Maya */
+      val MAYA = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Meitu Maya */
-    val MAYA = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Meitu MayaS */
+      val MAYAS = "spec:width=1080,height=2220,unit=px,dpi=440"
 
-    /** Meitu Meitu T8s */
-    val MEITU_T8S = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Meitu Melody */
+      val MELODY = "spec:width=1080,height=2244,unit=px,dpi=480"
 
-    /** Meitu Meitu V6 */
-    val MEITU_V6 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Meitu Tiffany */
+      val TIFFANY = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Meitu MI CC 9 Meitu Edition */
-    val MI_CC_9_MEITU_EDITION = "spec:width=1080,height=2340,unit=px,dpi=440"
+      /** Meitu vela */
+      val VELA = "spec:width=1080,height=2340,unit=px,dpi=440"
 
-    /** Meitu T9 */
-    val T9 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Meitu Victoria */
+      val VICTORIA = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Meitu T9 */
-    val T9_1080X2244 = "spec:width=1080,height=2244,unit=px,dpi=480"
+      /** Meitu VictoriaS */
+      val VICTORIAS = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-    /** Meitu Victoria */
-    val VICTORIA = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Meitu Vivian */
+      val VIVIAN = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-}
+  }

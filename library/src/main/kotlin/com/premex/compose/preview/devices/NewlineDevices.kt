@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Newline device specifications for Android Compose previews.
@@ -9,22 +10,23 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Newline.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Newline get() = object {
-    /** Newline 23QA */
-    val _23QA = "spec:width=2160,height=3840,unit=px,dpi=480"
+ * ```
+ */
+public val Devices.Newline: Any
+  get() = object {
+      /** Newline rk3588_t */
+      val RK3588_T = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-    /** Newline Q23 */
-    val Q23 = "spec:width=2160,height=3840,unit=px,dpi=320"
+      /** Newline velvet */
+      val VELVET = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-    /** Newline Z Pro Series */
-    val Z_PRO_SERIES = "spec:width=2160,height=3840,unit=px,dpi=480"
+      /** Newline Z24 */
+      val Z24 = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-}
+  }

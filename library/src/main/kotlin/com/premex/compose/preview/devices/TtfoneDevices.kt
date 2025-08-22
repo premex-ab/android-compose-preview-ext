@@ -1,24 +1,26 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
- * Ttfone device specifications for Android Compose previews.
+ * TTfone device specifications for Android Compose previews.
  *
- * This extension provides Ttfone device specifications that can be used with @Preview annotations
+ * This extension provides TTfone device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Ttfone.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Ttfone get() = object {
-    /** Ttfone TT20_eea */
-    val TT20_EEA = "spec:width=480,height=800,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Ttfone: Any
+  get() = object {
+      /** TTfone TTfone_TT20 */
+      val TTFONE_TT20 = "spec:width=480,height=800,unit=px,dpi=240"
 
-}
+  }

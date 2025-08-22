@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Invens device specifications for Android Compose previews.
@@ -9,25 +10,26 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Invens.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Invens get() = object {
-    /** Invens K1 */
-    val K1 = "spec:width=480,height=960,unit=px,dpi=240"
+ * ```
+ */
+public val Devices.Invens: Any
+  get() = object {
+      /** Invens K1 */
+      val K1 = "spec:width=480,height=960,unit=px,dpi=240"
 
-    /** Invens MAX5 */
-    val MAX5 = "spec:width=480,height=1014,unit=px,dpi=220"
+      /** Invens MAX5 */
+      val MAX5 = "spec:width=480,height=1014,unit=px,dpi=220"
 
-    /** Invens MAX8 */
-    val MAX8 = "spec:width=1080,height=2220,unit=px,dpi=440"
+      /** Invens MAX8 */
+      val MAX8 = "spec:width=1080,height=2220,unit=px,dpi=440"
 
-    /** Invens MAX9 */
-    val MAX9 = "spec:width=600,height=1280,unit=px,dpi=240"
+      /** Invens MAX9 */
+      val MAX9 = "spec:width=600,height=1280,unit=px,dpi=240"
 
-}
+  }

@@ -1,6 +1,7 @@
 package com.premex.compose.preview.devices
 
 import com.premex.compose.preview.Devices
+import kotlin.Any
 
 /**
  * Wainyok device specifications for Android Compose previews.
@@ -9,19 +10,20 @@ import com.premex.compose.preview.Devices
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
- * \`\`\`kotlin
+ * ```kotlin
  * @Preview(device = Devices.Wainyok.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
- * \`\`\`
-*/
-val Devices.Wainyok get() = object {
-    /** Wainyok P10S_EEA */
-    val P10S_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+ * ```
+ */
+public val Devices.Wainyok: Any
+  get() = object {
+      /** Wainyok P10S */
+      val P10S = "spec:width=800,height=1280,unit=px,dpi=160"
 
-    /** Wainyok P10X */
-    val P10X = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** Wainyok P10X */
+      val P10X = "spec:width=800,height=1280,unit=px,dpi=160"
 
-}
+  }
