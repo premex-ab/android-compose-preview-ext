@@ -1,0 +1,26 @@
+package se.premex.compose.preview.devices
+
+import kotlin.Any
+import se.premex.compose.preview.Devices
+
+/**
+ * MDC device specifications for Android Compose previews.
+ *
+ * This extension provides MDC device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Mdc.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Mdc: Any
+  get() = object {
+      /** MDC Prime_S */
+      val PRIME_S = "spec:width=720,height=1280,unit=px,dpi=320"
+
+  }

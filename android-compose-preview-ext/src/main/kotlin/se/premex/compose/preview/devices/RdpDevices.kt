@@ -1,0 +1,26 @@
+package se.premex.compose.preview.devices
+
+import kotlin.Any
+import se.premex.compose.preview.Devices
+
+/**
+ * RDP device specifications for Android Compose previews.
+ *
+ * This extension provides RDP device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Rdp.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Rdp: Any
+  get() = object {
+      /** RDP TP802 */
+      val TP802 = "spec:width=800,height=1280,unit=px,dpi=213"
+
+  }

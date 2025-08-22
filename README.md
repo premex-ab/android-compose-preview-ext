@@ -22,7 +22,7 @@ This library provides device specifications for:
 
 ```kotlin
 dependencies {
-    implementation("com.premex.compose.preview:android-compose-preview-ext:1.0.0")
+    implementation("se.premex.compose.preview:android-compose-preview-ext:1.0.0")
 }
 ```
 
@@ -30,7 +30,7 @@ dependencies {
 
 ```gradle
 dependencies {
-    implementation 'com.premex.compose.preview:android-compose-preview-ext:1.0.0'
+    implementation 'se.premex.compose.preview:android-compose-preview-ext:1.0.0'
 }
 ```
 
@@ -38,7 +38,7 @@ dependencies {
 
 ```xml
 <dependency>
-    <groupId>com.premex.compose.preview</groupId>
+    <groupId>se.premex.compose.preview</groupId>
     <artifactId>android-compose-preview-ext</artifactId>
     <version>1.0.0</version>
 </dependency>
@@ -52,7 +52,7 @@ Use the device specifications directly in your `@Preview` annotations:
 
 ```kotlin
 import androidx.compose.ui.tooling.preview.Preview
-import com.premex.compose.preview.Devices
+import se.premex.compose.preview.Devices
 
 @Preview(device = Devices.PIXEL_8)
 @Preview(device = Devices.Zebra.TC26) 
