@@ -3,7 +3,6 @@
 name: "Update Gradle Wrapper"
 
 on:
-  push:
   schedule:
     # Run every day at 6:00 AM UTC (weekly)
     - cron: '0 6 * * *'
