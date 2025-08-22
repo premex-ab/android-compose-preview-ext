@@ -1,0 +1,49 @@
+# PLAISIO Devices
+
+This document lists all Plaisio device specifications available for Android Compose previews.
+
+## Overview
+
+- **Total devices**: 2
+- **Manufacturer**: Plaisio
+- **Usage**: `Devices.Plaisio.DEVICE_NAME`
+
+## Usage Example
+
+```kotlin
+import se.premex.compose.preview.devices.*
+
+@Preview(device = Devices.Plaisio.EARTH3G)
+@Composable
+fun MyPreview() {
+    // Your composable content
+}
+```
+
+## Device Specifications
+
+### 600x1024 (Medium)
+
+**Screen specs**: 600x1024px | **Aspect ratio**: 75:128
+
+- **`EARTH3G`** - Earth3g | **DPI**: 160
+  ```kotlin
+  spec:width=600,height=1024,unit=px,dpi=160
+  ```
+
+### 720x1280 (Large)
+
+**Screen specs**: 720x1280px | **Aspect ratio**: 9:16
+
+- **`TURBOX_S3`** - Turbox S3 | **DPI**: 320
+  ```kotlin
+  spec:width=720,height=1280,unit=px,dpi=320
+  ```
+
+## Navigation
+
+- [← Back to Main README](../../README.md)
+- [📱 All Device Categories](../README.md)
+
+---
+*Generated automatically from Android Device Catalog*

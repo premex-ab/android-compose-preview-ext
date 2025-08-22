@@ -3,6 +3,8 @@ package se.premex.compose.preview.generator
 import se.premex.compose.preview.generator.fetcher.DeviceFetcher
 import se.premex.compose.preview.generator.generator.DevicesFileGenerator
 import se.premex.compose.preview.generator.generator.ManufacturerExtensionGenerator
+import se.premex.compose.preview.generator.readme.ReadmeGenerator
+import se.premex.compose.preview.generator.readme.DeviceFileParser
 import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -18,20 +20,21 @@ fun main(args: Array<String>) {
     try {
         runBlocking {
             val dryRun = args.contains("--dry-run")
+            val readmeOnly = args.contains("--readme-only")
             val generator = DeviceGenerator()
             
-            if (dryRun) {
-                generator.dryRun()
-            } else {
-                generator.generateDeviceFiles()
+            when {
+                dryRun -> generator.dryRun()
+                readmeOnly -> generator.generateReadmeOnly()
+                else -> generator.generateDeviceFiles()
             }
             
-            println("🎉 Device generation completed successfully!")
+            println("🎉 Generation completed successfully!")
             println("Run 'git diff' to see the changes made.")
         }
         
     } catch (e: Exception) {
-        println("[ERROR] Device generation failed: ${e.message}")
+        println("[ERROR] Generation failed: ${e.message}")
         e.printStackTrace()
         exitProcess(1)
     }
@@ -44,6 +47,8 @@ class DeviceGenerator {
     private val deviceFetcher = DeviceFetcher()
     private val devicesFileGenerator = DevicesFileGenerator()
     private val manufacturerExtensionGenerator = ManufacturerExtensionGenerator()
+    private val readmeGenerator = ReadmeGenerator()
+    private val deviceFileParser = DeviceFileParser()
     
     // Project paths
     private val projectRoot = findProjectRoot()
@@ -98,8 +103,31 @@ class DeviceGenerator {
         // Generate manufacturer extension files
         manufacturerExtensionGenerator.generateManufacturerExtensions(devices, librarySourcePath)
         
+        // Generate README documentation files
+        readmeGenerator.generateReadmeFiles(devices, projectRoot)
+        
         // Validate the generation
         validateGeneration()
+    }
+    
+    /**
+     * Generates only README documentation files from existing device files.
+     */
+    fun generateReadmeOnly() {
+        println("📚 Starting README generation from existing device files...")
+        
+        // Parse existing device files
+        val devices = deviceFileParser.parseDeviceFiles(extensionsPath)
+        
+        if (devices.isEmpty()) {
+            println("[WARN] No devices found in existing files. Run full generation first.")
+            return
+        }
+        
+        // Generate README documentation files
+        readmeGenerator.generateReadmeFiles(devices, projectRoot)
+        
+        println("✅ README generation completed for ${devices.size} devices")
     }
     
     /**

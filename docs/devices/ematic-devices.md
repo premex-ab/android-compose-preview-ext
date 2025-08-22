@@ -1,0 +1,93 @@
+# EMATIC Devices
+
+This document lists all Ematic device specifications available for Android Compose previews.
+
+## Overview
+
+- **Total devices**: 10
+- **Manufacturer**: Ematic
+- **Usage**: `Devices.Ematic.DEVICE_NAME`
+
+## Usage Example
+
+```kotlin
+import se.premex.compose.preview.devices.*
+
+@Preview(device = Devices.Ematic.DV8235)
+@Composable
+fun MyPreview() {
+    // Your composable content
+}
+```
+
+## Device Specifications
+
+### 1080x1920 (XL)
+
+**Screen specs**: 1080x1920px | **Aspect ratio**: 9:16
+
+- **`DV8235`** - Dv8235 | **DPI**: 320
+  ```kotlin
+  spec:width=1080,height=1920,unit=px,dpi=320
+  ```
+
+- **`JETSTREAM`** - Jetstream | **DPI**: 320
+  ```kotlin
+  spec:width=1080,height=1920,unit=px,dpi=320
+  ```
+
+### 600x1024 (Medium)
+
+**Screen specs**: 600x1024px | **Aspect ratio**: 75:128
+
+- **`EGQ235SK`** - Egq235sk | **DPI**: 160
+  ```kotlin
+  spec:width=600,height=1024,unit=px,dpi=160
+  ```
+
+- **`EGQ236BD`** - Egq236bd | **DPI**: 160
+  ```kotlin
+  spec:width=600,height=1024,unit=px,dpi=160
+  ```
+
+- **`PBSKD12`** - Pbskd12 | **DPI**: 160
+  ```kotlin
+  spec:width=600,height=1024,unit=px,dpi=160
+  ```
+
+- **`PBSKD7001`** - Pbskd7001 | **DPI**: 160
+  ```kotlin
+  spec:width=600,height=1024,unit=px,dpi=160
+  ```
+
+- **`PBSKD7200`** - Pbskd7200 | **DPI**: 160
+  ```kotlin
+  spec:width=600,height=1024,unit=px,dpi=160
+  ```
+
+### 800x1280 (Large)
+
+**Screen specs**: 800x1280px | **Aspect ratio**: 5:8
+
+- **`EGQ101`** - Egq101 | **DPI**: 213
+  ```kotlin
+  spec:width=800,height=1280,unit=px,dpi=213
+  ```
+
+- **`EGQ238BD`** - Egq238bd | **DPI**: 160
+  ```kotlin
+  spec:width=800,height=1280,unit=px,dpi=160
+  ```
+
+- **`EGQ239BD`** - Egq239bd | **DPI**: 160
+  ```kotlin
+  spec:width=800,height=1280,unit=px,dpi=160
+  ```
+
+## Navigation
+
+- [← Back to Main README](../../README.md)
+- [📱 All Device Categories](../README.md)
+
+---
+*Generated automatically from Android Device Catalog*
