@@ -10,19 +10,19 @@ import java.nio.file.Path
  */
 class ManufacturerExtensionGenerator {
     
-    fun generateManufacturerExtensions(devices: List<DeviceSpec>, outputDirectory: Path) {
+    fun generateManufacturerExtensions(devices: List<DeviceSpec>, sourceRootDirectory: Path) {
         val nonGoogleDevices = devices.filterNot { it.isGoogleDevice }
         val devicesByManufacturer = nonGoogleDevices.groupBy { it.manufacturer }
         
-        // Clean output directory
-        val outputDir = outputDirectory.toFile()
-        if (outputDir.exists()) {
-            outputDir.listFiles()?.filter { it.name.endsWith("Devices.kt") }?.forEach { it.delete() }
-        }
-        outputDir.mkdirs()
+        // Ensure the devices directory exists
+        val devicesDir = sourceRootDirectory.resolve("com/premex/compose/preview/devices")
+        devicesDir.toFile().mkdirs()
+        
+        // Clean existing extension files
+        devicesDir.toFile().listFiles()?.filter { it.name.endsWith("Devices.kt") }?.forEach { it.delete() }
         
         devicesByManufacturer.forEach { (manufacturer, manufacturerDevices) ->
-            generateManufacturerExtension(manufacturer, manufacturerDevices, outputDirectory)
+            generateManufacturerExtension(manufacturer, manufacturerDevices, sourceRootDirectory)
         }
         
         println("[INFO] Generated ${devicesByManufacturer.size} manufacturer extension files")
@@ -31,7 +31,7 @@ class ManufacturerExtensionGenerator {
     private fun generateManufacturerExtension(
         manufacturer: String, 
         devices: List<DeviceSpec>, 
-        outputDirectory: Path
+        sourceRootDirectory: Path
     ) {
         val className = devices.first().toManufacturerClassName()
         val fileName = "${className}Devices"
@@ -64,20 +64,23 @@ class ManufacturerExtensionGenerator {
             .addProperty(extensionProperty)
             .build()
         
-        fileSpec.writeTo(outputDirectory.toFile())
+        fileSpec.writeTo(sourceRootDirectory.toFile())
         println("[INFO] Generated extension for $manufacturer (${devices.size} devices)")
     }
     
     private fun generateDeviceConstants(devices: List<DeviceSpec>): CodeBlock {
         val codeBlock = CodeBlock.builder()
         
-        // Sort devices by constant name for consistent ordering
+        // Sort devices by constant name and remove duplicates by constant name
         val sortedDevices = devices
-            .distinctBy { it.code } // Remove duplicates
+            .distinctBy { "${it.toConstantName()}:${it.toDeviceString()}" } // Remove exact duplicates
+            .groupBy { it.toConstantName() } // Group by constant name
+            .mapValues { (_, deviceList) -> deviceList.first() } // Take first device for each constant name
+            .values
             .sortedBy { it.toConstantName() }
         
         sortedDevices.forEach { device ->
-            codeBlock.add("\n    /** $device.manufacturer $device.code */\n")
+            codeBlock.add("\n    /** ${device.manufacturer} ${device.code} */\n")
             codeBlock.add("    val ${device.toConstantName()} = \"${device.toDeviceString()}\"\n")
         }
         

@@ -93,7 +93,7 @@ class DeviceGenerator {
         devicesFileGenerator.generateDevicesFile(devices, devicesFilePath)
         
         // Generate manufacturer extension files
-        manufacturerExtensionGenerator.generateManufacturerExtensions(devices, extensionsPath)
+        manufacturerExtensionGenerator.generateManufacturerExtensions(devices, librarySourcePath)
         
         // Validate the generation
         validateGeneration()
