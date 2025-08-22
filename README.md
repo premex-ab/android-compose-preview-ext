@@ -188,6 +188,67 @@ Run the update script locally:
 ./scripts/update-devices.sh --force
 ```
 
+## 🌐 Curated External Device Sources (Maintainer Managed)
+
+Third-party device specifications are enriched using a small set of vetted, version-controlled external JSON catalogs referenced in:
+```
+scripts/curated-sources.json
+```
+Consumers do not configure URLs. Maintainers update this file when adding or revising external catalogs. The update script fetches each source, normalizes heterogeneous field names, deduplicates, and merges them with locally maintained authoritative JSON specs found in `scripts/local-sources/*.json` (local sources take precedence when duplicates occur by manufacturer+code).
+
+### Current Curated Sources
+(See `scripts/curated-sources.json` for the up-to-date list.) Example entry:
+```json
+{
+  "sources": [
+    {
+      "name": "Android Device Catalog (minimal subset)",
+      "url": "https://raw.githubusercontent.com/hossain-khan/android-device-catalog-parser/main/lib/src/test/resources/android-devices-catalog-min.json",
+      "format": "catalog_min"
+    }
+  ]
+}
+```
+
+### Accepted JSON Shapes (auto-detected)
+The parser recognizes objects under any of these keys or root arrays:
+- `devices[]`, root `[]`, `deviceList[]`, `supportedDevices[]`
+It maps common field aliases:
+- Manufacturer: `manufacturer`, `brand`, `oem`, `vendor`
+- Code / model: `code`, `id`, `identifier`, `model`, `name`
+- Width: `width`, `widthPx`, `screenWidthPx`, `screenX`, `screen_width`
+- Height: `height`, `heightPx`, `screenHeightPx`, `screenY`, `screen_height`
+- Density / DPI: `dpi`, `density`, `screenDensity`, `screen_density`, `ppi`
+Missing manufacturer defaults to `Generic`; missing code is synthesized: `UNNAMED_<WxH>_<DPI>DPI`.
+
+### Normalization Rules
+- Constant names are converted to SCREAMING_SNAKE_CASE (non-alphanumerics become `_`).
+- First occurrence of a (manufacturer, code) pair wins (later duplicates skipped).
+- Portrait orientation expected for width/height (natural device orientation).
+
+### Running the Aggregation
+```bash
+./scripts/update-devices.sh --dry-run   # Show counts
+./scripts/update-devices.sh            # Regenerate Devices.kt
+```
+The script ensures required test devices remain present even if a remote source omits them.
+
+### Adding / Updating Sources (Maintainers Only)
+1. Edit `scripts/curated-sources.json` (add new `{"name","url","format"}` entry).
+2. Run the update script locally and verify diff + tests.
+3. Commit both the curated sources file change and regenerated `Devices.kt`.
+
+### Rationale
+Centralizing sources avoids user-side configuration drift and guarantees reproducible device lists across environments and CI.
+
+### Validation & Safety
+- Soft-fails on unreachable remote sources (continues with whatever was aggregated so far).
+- Skips entries with non-numeric width/height/dpi (or computes dpi if diagonal provided).
+- Ignores incomplete records missing width/height/dpi (and no diagonal).
+- Does not execute remote code—pure JSON ingestion.
+
+---
+
 ## 🏗 Development
 
 ### Building the Project
@@ -213,15 +274,30 @@ Run the update script locally:
 
 ### Adding New Devices
 
-To add new devices, update the device arrays in `scripts/update-devices.sh`:
+Add or update JSON entries instead of modifying script-internal arrays (arrays removed):
 
-```bash
-declare -A NEW_MANUFACTURER_DEVICES=(
-    ["DEVICE_MODEL"]="spec:width=1080,height=1920,unit=px,dpi=441"
-)
-```
+1. For authoritative/internal devices (e.g. rugged / enterprise): edit or add a file in `scripts/local-sources/` (one JSON per manufacturer recommended). Schema:
+   ```json
+   {
+     "devices": [
+       { "manufacturer": "Acme", "code": "ACME_PRO_X", "width": 1080, "height": 2400, "dpi": 420 }
+     ]
+   }
+   ```
+2. For publicly sourced devices you still trust: add a new entry to `scripts/curated-sources.json` (remote URL).
+3. Run:
+   ```bash
+   ./scripts/update-devices.sh --dry-run
+   ./scripts/update-devices.sh
+   ./gradlew test
+   ```
+4. Commit the updated JSON plus regenerated `Devices.kt`.
 
-Then run the update script to regenerate the `Devices.kt` file.
+Guidelines:
+- Use natural portrait pixel dimensions.
+- Supply integer DPI; if only diagonal size is known the script will compute DPI.
+- Use SCREAMING_SNAKE_CASE for `code`; uniqueness per manufacturer.
+- Avoid duplicates: first occurrence (local overrides remote) is kept.
 
 ## 📦 Releases
 

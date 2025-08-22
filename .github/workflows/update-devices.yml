@@ -14,7 +14,7 @@ on:
 
 jobs:
   update-devices:
-    runs-on: ubuntu-latest
+    runs-on: tart
     permissions:
       contents: write
       pull-requests: write
