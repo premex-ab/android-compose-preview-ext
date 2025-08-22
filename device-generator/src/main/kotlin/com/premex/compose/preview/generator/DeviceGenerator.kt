@@ -47,7 +47,7 @@ class DeviceGenerator {
     
     // Project paths
     private val projectRoot = findProjectRoot()
-    private val librarySourcePath = projectRoot.resolve("library/src/main/kotlin")
+    private val librarySourcePath = projectRoot.resolve("android-compose-preview-ext/src/main/kotlin")
     private val devicesFilePath = librarySourcePath
     private val extensionsPath = librarySourcePath.resolve("com/premex/compose/preview/devices")
     
@@ -74,9 +74,9 @@ class DeviceGenerator {
         }
         
         println("\nFiles that would be generated:")
-        println("  - library/src/main/kotlin/com/premex/compose/preview/Devices.kt")
+        println("  - android-compose-preview-ext/src/main/kotlin/com/premex/compose/preview/Devices.kt")
         manufacturers.keys.sorted().forEach { manufacturer ->
-            println("  - library/src/main/kotlin/com/premex/compose/preview/devices/${manufacturer}Devices.kt")
+            println("  - android-compose-preview-ext/src/main/kotlin/com/premex/compose/preview/devices/${manufacturer}Devices.kt")
         }
     }
     

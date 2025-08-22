@@ -6,7 +6,7 @@ This repository contains a Kotlin library that provides extended device specific
 
 ```
 android-compose-preview-ext/
-├── library/                          # Main Kotlin library module
+├── android-compose-preview-ext/                          # Main Kotlin library module
 │   ├── src/main/kotlin/             # Source code
 │   │   └── com/premex/compose/preview/
 │   │       └── Devices.kt           # Main device specifications

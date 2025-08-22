@@ -43,8 +43,8 @@ Primary source: [Android Device Catalog CSV](https://raw.githubusercontent.com/h
 
 ## Output
 
-- **Main file**: `library/src/main/kotlin/com/premex/compose/preview/Devices.kt`
-- **Extensions**: `library/src/main/kotlin/com/premex/compose/preview/devices/*Devices.kt`
+- **Main file**: `android-compose-preview-ext/src/main/kotlin/com/premex/compose/preview/Devices.kt`
+- **Extensions**: `android-compose-preview-ext/src/main/kotlin/com/premex/compose/preview/devices/*Devices.kt`
 
 ## Migration from Bash Script
 
