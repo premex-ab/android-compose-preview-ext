@@ -1,0 +1,60 @@
+name: Publish to GitHub Packages
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (e.g., 1.0.1)'
+        required: true
+        default: '1.0.0'
+
+jobs:
+  publish:
+    runs-on: tart
+    permissions:
+      contents: read
+      packages: write
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+    
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+    
+    - name: Set version from release tag
+      if: github.event_name == 'release'
+      run: |
+        VERSION=${GITHUB_REF#refs/tags/v}
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+        sed -i "s/version = \".*\"/version = \"$VERSION\"/" build.gradle.kts
+    
+    - name: Set version from input
+      if: github.event_name == 'workflow_dispatch'
+      run: |
+        VERSION=${{ github.event.inputs.version }}
+        echo "VERSION=$VERSION" >> $GITHUB_ENV
+        sed -i "s/version = \".*\"/version = \"$VERSION\"/" build.gradle.kts
+    
+    - name: Build and test
+      run: ./gradlew build test
+    
+    - name: Publish to GitHub Packages
+      env:
+        USERNAME: ${{ github.actor }}
+        TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: ./gradlew publish
+    
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: published-artifacts-${{ env.VERSION }}
+        path: library/build/libs/
