@@ -1,0 +1,29 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * SIRIN_LABS device specifications for Android Compose previews.
+ *
+ * This extension provides SIRIN_LABS device specifications that can be used with @Preview
+ * annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.SIRINLABS.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.SIRINLABS: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=SIRIN_LABS, code=SR00300-W, width=1080, height=2160, dpi=420,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=SIRIN_LABS, code=SR00300-W,
+      width=1080, height=2160, dpi=420, isGoogleDevice=false).code */
+      val SR00300_W = "spec:width=1080,height=2160,unit=px,dpi=420"
+
+  }

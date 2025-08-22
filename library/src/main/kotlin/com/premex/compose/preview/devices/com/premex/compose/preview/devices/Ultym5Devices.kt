@@ -1,0 +1,28 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * Ultym5 device specifications for Android Compose previews.
+ *
+ * This extension provides Ultym5 device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Ultym5.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Ultym5: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=Ultym5, code=hwG535-L11, width=540, height=960, dpi=240,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=Ultym5, code=hwG535-L11, width=540,
+      height=960, dpi=240, isGoogleDevice=false).code */
+      val HWG535_L11 = "spec:width=540,height=960,unit=px,dpi=240"
+
+  }

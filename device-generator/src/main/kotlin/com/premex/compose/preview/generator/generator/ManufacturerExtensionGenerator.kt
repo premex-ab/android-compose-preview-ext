@@ -1,0 +1,87 @@
+package com.premex.compose.preview.generator.generator
+
+import com.premex.compose.preview.generator.model.DeviceSpec
+import com.squareup.kotlinpoet.*
+import java.io.File
+import java.nio.file.Path
+
+/**
+ * Generates manufacturer-specific device extension files using KotlinPoet.
+ */
+class ManufacturerExtensionGenerator {
+    
+    fun generateManufacturerExtensions(devices: List<DeviceSpec>, outputDirectory: Path) {
+        val nonGoogleDevices = devices.filterNot { it.isGoogleDevice }
+        val devicesByManufacturer = nonGoogleDevices.groupBy { it.manufacturer }
+        
+        // Clean output directory
+        val outputDir = outputDirectory.toFile()
+        if (outputDir.exists()) {
+            outputDir.listFiles()?.filter { it.name.endsWith("Devices.kt") }?.forEach { it.delete() }
+        }
+        outputDir.mkdirs()
+        
+        devicesByManufacturer.forEach { (manufacturer, manufacturerDevices) ->
+            generateManufacturerExtension(manufacturer, manufacturerDevices, outputDirectory)
+        }
+        
+        println("[INFO] Generated ${devicesByManufacturer.size} manufacturer extension files")
+    }
+    
+    private fun generateManufacturerExtension(
+        manufacturer: String, 
+        devices: List<DeviceSpec>, 
+        outputDirectory: Path
+    ) {
+        val className = devices.first().toManufacturerClassName()
+        val fileName = "${className}Devices"
+        
+        // Create the extension property that returns an object
+        val extensionProperty = PropertySpec.builder(className, ANY)
+            .receiver(ClassName("com.premex.compose.preview", "Devices"))
+            .getter(FunSpec.getterBuilder()
+                .addCode("return object {%L}", generateDeviceConstants(devices))
+                .build())
+            .addKdoc("""
+                $manufacturer device specifications for Android Compose previews.
+
+                This extension provides $manufacturer device specifications that can be used with @Preview annotations
+                in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+
+                Usage:
+                ```kotlin
+                @Preview(device = Devices.$className.DEVICE_NAME)
+                @Composable
+                fun MyPreview() {
+                    // Your composable content
+                }
+                ```
+            """.trimIndent())
+            .build()
+        
+        val fileSpec = FileSpec.builder("com.premex.compose.preview.devices", fileName)
+            .addImport("com.premex.compose.preview", "Devices")
+            .addProperty(extensionProperty)
+            .build()
+        
+        fileSpec.writeTo(outputDirectory.toFile())
+        println("[INFO] Generated extension for $manufacturer (${devices.size} devices)")
+    }
+    
+    private fun generateDeviceConstants(devices: List<DeviceSpec>): CodeBlock {
+        val codeBlock = CodeBlock.builder()
+        
+        // Sort devices by constant name for consistent ordering
+        val sortedDevices = devices
+            .distinctBy { it.code } // Remove duplicates
+            .sortedBy { it.toConstantName() }
+        
+        sortedDevices.forEach { device ->
+            codeBlock.add("\n    /** $device.manufacturer $device.code */\n")
+            codeBlock.add("    val ${device.toConstantName()} = \"${device.toDeviceString()}\"\n")
+        }
+        
+        codeBlock.add("\n")
+        return codeBlock.build()
+    }
+}

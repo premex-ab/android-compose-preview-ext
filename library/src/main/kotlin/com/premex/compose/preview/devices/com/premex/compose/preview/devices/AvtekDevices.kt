@@ -1,0 +1,28 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * Avtek device specifications for Android Compose previews.
+ *
+ * This extension provides Avtek device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Avtek.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Avtek: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=Avtek, code=MTK9679, width=2160, height=3840, dpi=480,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=Avtek, code=MTK9679, width=2160,
+      height=3840, dpi=480, isGoogleDevice=false).code */
+      val MTK9679 = "spec:width=2160,height=3840,unit=px,dpi=480"
+
+  }

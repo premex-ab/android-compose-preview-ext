@@ -1,0 +1,38 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * ZOJI device specifications for Android Compose previews.
+ *
+ * This extension provides ZOJI device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.ZOJI.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.ZOJI: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=ZOJI, code=Z33, width=720, height=1512, dpi=320,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=ZOJI, code=Z33, width=720,
+      height=1512, dpi=320, isGoogleDevice=false).code */
+      val Z33 = "spec:width=720,height=1512,unit=px,dpi=320"
+
+      /** DeviceSpec(manufacturer=ZOJI, code=Z8, width=720, height=1280, dpi=320,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=ZOJI, code=Z8, width=720,
+      height=1280, dpi=320, isGoogleDevice=false).code */
+      val Z8 = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** DeviceSpec(manufacturer=ZOJI, code=Z9, width=720, height=1440, dpi=320,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=ZOJI, code=Z9, width=720,
+      height=1440, dpi=320, isGoogleDevice=false).code */
+      val Z9 = "spec:width=720,height=1440,unit=px,dpi=320"
+
+  }

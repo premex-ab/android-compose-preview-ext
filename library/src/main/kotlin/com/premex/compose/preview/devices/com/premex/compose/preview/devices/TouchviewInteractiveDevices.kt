@@ -1,0 +1,29 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * Touchview_Interactive device specifications for Android Compose previews.
+ *
+ * This extension provides Touchview_Interactive device specifications that can be used with
+ * @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.TouchviewInteractive.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.TouchviewInteractive: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=Touchview_Interactive, code=TVULTRA98_G5, width=2160, height=3840,
+      dpi=420, isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=Touchview_Interactive,
+      code=TVULTRA98_G5, width=2160, height=3840, dpi=420, isGoogleDevice=false).code */
+      val TVULTRA98_G5 = "spec:width=2160,height=3840,unit=px,dpi=420"
+
+  }

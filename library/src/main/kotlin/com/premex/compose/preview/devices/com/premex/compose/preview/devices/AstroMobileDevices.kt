@@ -1,0 +1,29 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * Astro_Mobile device specifications for Android Compose previews.
+ *
+ * This extension provides Astro_Mobile device specifications that can be used with @Preview
+ * annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.AstroMobile.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.AstroMobile: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=Astro_Mobile, code=Smart_A1_Plus, width=480, height=960, dpi=200,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=Astro_Mobile, code=Smart_A1_Plus,
+      width=480, height=960, dpi=200, isGoogleDevice=false).code */
+      val SMART_A1_PLUS = "spec:width=480,height=960,unit=px,dpi=200"
+
+  }

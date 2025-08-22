@@ -1,0 +1,28 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * NOVO device specifications for Android Compose previews.
+ *
+ * This extension provides NOVO device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.NOVO.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.NOVO: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=NOVO, code=t596_dp_n_37m35, width=1080, height=2220, dpi=440,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=NOVO, code=t596_dp_n_37m35,
+      width=1080, height=2220, dpi=440, isGoogleDevice=false).code */
+      val T596_DP_N_37M35 = "spec:width=1080,height=2220,unit=px,dpi=440"
+
+  }

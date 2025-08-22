@@ -1,0 +1,33 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * SCOPE device specifications for Android Compose previews.
+ *
+ * This extension provides SCOPE device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.SCOPE.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.SCOPE: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=SCOPE, code=F5O3V, width=800, height=1280, dpi=213,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=SCOPE, code=F5O3V, width=800,
+      height=1280, dpi=213, isGoogleDevice=false).code */
+      val F5O3V = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** DeviceSpec(manufacturer=SCOPE, code=SP1089, width=800, height=1280, dpi=213,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=SCOPE, code=SP1089, width=800,
+      height=1280, dpi=213, isGoogleDevice=false).code */
+      val SP1089 = "spec:width=800,height=1280,unit=px,dpi=213"
+
+  }

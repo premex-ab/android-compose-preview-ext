@@ -1,0 +1,28 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * Melita device specifications for Android Compose previews.
+ *
+ * This extension provides Melita device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Melita.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Melita: Any
+  get() = object {
+      /** DeviceSpec(manufacturer=Melita, code=DV8955C-C-KMM, width=1080, height=1920, dpi=320,
+      isGoogleDevice=false).manufacturer DeviceSpec(manufacturer=Melita, code=DV8955C-C-KMM,
+      width=1080, height=1920, dpi=320, isGoogleDevice=false).code */
+      val DV8955C_C_KMM = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+  }
