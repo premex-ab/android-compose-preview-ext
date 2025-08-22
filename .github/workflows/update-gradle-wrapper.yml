@@ -31,12 +31,14 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "Setup runner"
-        uses: ./.github/actions/prepare_runner
+      - name: Setup java 21
+        uses: actions/setup-java@v4
         with:
-          check-lfs: false
-          check-kvm: false
-          cache-encryption-key: ${{ secrets.CACHE_ENCRYPTION_KEY }}
+          distribution: 'temurin'
+          java-version: 21
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
 
       - name: Update Gradle Wrapper
         id: update-wrapper
