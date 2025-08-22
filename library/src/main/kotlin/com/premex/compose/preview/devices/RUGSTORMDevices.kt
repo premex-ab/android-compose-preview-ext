@@ -1,0 +1,26 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * RUGSTORM device specifications for Android Compose previews.
+ *
+ * This extension provides RUGSTORM device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.RUGSTORM.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.RUGSTORM: Any
+  get() = object {
+      /** RUGSTORM UA80 */
+      val UA80 = "spec:width=800,height=1280,unit=px,dpi=280"
+
+  }

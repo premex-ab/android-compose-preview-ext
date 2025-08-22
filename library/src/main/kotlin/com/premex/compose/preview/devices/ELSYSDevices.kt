@@ -1,0 +1,26 @@
+package com.premex.compose.preview.devices
+
+import com.premex.compose.preview.Devices
+import kotlin.Any
+
+/**
+ * ELSYS device specifications for Android Compose previews.
+ *
+ * This extension provides ELSYS device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.ELSYS.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.ELSYS: Any
+  get() = object {
+      /** ELSYS SEI103 */
+      val SEI103 = "spec:width=720,height=1280,unit=px,dpi=213"
+
+  }
