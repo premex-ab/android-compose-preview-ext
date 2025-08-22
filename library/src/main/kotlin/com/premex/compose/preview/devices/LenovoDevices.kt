@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * lenovo device specifications for Android Compose previews.
+ * LENOVO device specifications for Android Compose previews.
  *
- * This extension provides lenovo device specifications that can be used with @Preview annotations
+ * This extension provides LENOVO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Lenovo: Any
   get() = object {
-      /** lenovo manning */
-      val MANNING = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** LENOVO aio_3m_otfp_m */
+      val AIO_3M_OTFP_M = "spec:width=1080,height=1920,unit=px,dpi=480"
 
   }

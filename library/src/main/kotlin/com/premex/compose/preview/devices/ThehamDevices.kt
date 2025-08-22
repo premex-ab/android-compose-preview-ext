@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Theham device specifications for Android Compose previews.
+ * THEHAM device specifications for Android Compose previews.
  *
- * This extension provides Theham device specifications that can be used with @Preview annotations
+ * This extension provides THEHAM device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,16 @@ import kotlin.Any
  */
 public val Devices.Theham: Any
   get() = object {
-      /** Theham huangshan */
-      val HUANGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** THEHAM hongkong */
+      val HONGKONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Theham longshan */
-      val LONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** THEHAM stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Theham sindorim */
-      val SINDORIM = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** THEHAM vileparle */
+      val VILEPARLE = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** THEHAM zhongshan */
+      val ZHONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

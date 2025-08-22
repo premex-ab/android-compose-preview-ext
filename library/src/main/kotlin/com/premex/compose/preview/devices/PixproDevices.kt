@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Pixpro device specifications for Android Compose previews.
+ * PIXPRO device specifications for Android Compose previews.
  *
- * This extension provides Pixpro device specifications that can be used with @Preview annotations
+ * This extension provides PIXPRO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Pixpro: Any
   get() = object {
-      /** Pixpro VT10_Rugged */
-      val VT10_RUGGED = "spec:width=800,height=1280,unit=px,dpi=180"
+      /** PIXPRO PIXPRO_L1_PRO */
+      val PIXPRO_L1_PRO = "spec:width=720,height=1440,unit=px,dpi=320"
 
   }

@@ -2,7 +2,6 @@ package com.premex.compose.preview.generator.generator
 
 import com.premex.compose.preview.generator.model.DeviceSpec
 import com.squareup.kotlinpoet.*
-import java.io.File
 import java.nio.file.Path
 
 /**

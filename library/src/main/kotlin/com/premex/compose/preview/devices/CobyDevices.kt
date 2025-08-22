@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Coby device specifications for Android Compose previews.
+ * COBY device specifications for Android Compose previews.
  *
- * This extension provides Coby device specifications that can be used with @Preview annotations
+ * This extension provides COBY device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,10 @@ import kotlin.Any
  */
 public val Devices.Coby: Any
   get() = object {
-      /** Coby Dorado */
-      val DORADO = "spec:width=1200,height=2000,unit=px,dpi=240"
+      /** COBY MID7052 */
+      val MID7052 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-      /** Coby MID-CBY1108 */
-      val MID_CBY1108 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** COBY MID8072 */
+      val MID8072 = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * bush device specifications for Android Compose previews.
+ * BUSH device specifications for Android Compose previews.
  *
- * This extension provides bush device specifications that can be used with @Preview annotations
+ * This extension provides BUSH device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,13 @@ import kotlin.Any
  */
 public val Devices.Bush: Any
   get() = object {
-      /** bush ac101boxv2 */
-      val AC101BOXV2 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** BUSH Bush10Nou */
+      val BUSH10NOU = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-      /** bush ac101boxv3 */
-      val AC101BOXV3 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** BUSH ewha */
+      val EWHA = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** bush ac80oxv2 */
-      val AC80OXV2 = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** BUSH sindang */
+      val SINDANG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

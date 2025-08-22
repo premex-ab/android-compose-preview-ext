@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Selvas device specifications for Android Compose previews.
+ * SELVAS device specifications for Android Compose previews.
  *
- * This extension provides Selvas device specifications that can be used with @Preview annotations
+ * This extension provides SELVAS device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,10 @@ import kotlin.Any
  */
 public val Devices.Selvas: Any
   get() = object {
-      /** Selvas polaris */
-      val POLARIS = "spec:width=1080,height=1920,unit=px,dpi=240"
+      /** SELVAS BrailleSense */
+      val BRAILLESENSE = "spec:width=1080,height=1920,unit=px,dpi=280"
+
+      /** SELVAS BrailleSenseMini */
+      val BRAILLESENSEMINI = "spec:width=1080,height=1920,unit=px,dpi=280"
 
   }

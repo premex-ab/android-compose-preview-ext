@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Winmax device specifications for Android Compose previews.
+ * WINMAX device specifications for Android Compose previews.
  *
- * This extension provides Winmax device specifications that can be used with @Preview annotations
+ * This extension provides WINMAX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,10 @@ import kotlin.Any
  */
 public val Devices.Winmax: Any
   get() = object {
-      /** Winmax X50 */
-      val X50 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** WINMAX Tiger_X12 */
+      val TIGER_X12 = "spec:width=320,height=385,unit=px,dpi=160"
+
+      /** WINMAX TIGER_X7 */
+      val TIGER_X7 = "spec:width=480,height=854,unit=px,dpi=240"
 
   }

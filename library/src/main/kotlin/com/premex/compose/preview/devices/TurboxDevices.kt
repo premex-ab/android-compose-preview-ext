@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Turbox device specifications for Android Compose previews.
+ * TurboX device specifications for Android Compose previews.
  *
- * This extension provides Turbox device specifications that can be used with @Preview annotations
+ * This extension provides TurboX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Turbox: Any
   get() = object {
-      /** Turbox Aqua_II */
-      val AQUA_II = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** TurboX Mercury */
+      val MERCURY = "spec:width=720,height=1440,unit=px,dpi=320"
 
   }

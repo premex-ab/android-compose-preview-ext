@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Maxcom device specifications for Android Compose previews.
+ * MAXCOM device specifications for Android Compose previews.
  *
- * This extension provides Maxcom device specifications that can be used with @Preview annotations
+ * This extension provides MAXCOM device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,19 +20,19 @@ import kotlin.Any
  */
 public val Devices.Maxcom: Any
   get() = object {
-      /** Maxcom Maxcom_MS554 */
-      val MAXCOM_MS554 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** MAXCOM MS457 */
+      val MS457 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-      /** Maxcom MS459 */
-      val MS459 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** MAXCOM MS457PLUS */
+      val MS457PLUS = "spec:width=720,height=1280,unit=px,dpi=320"
 
-      /** Maxcom MS507_STRONG */
-      val MS507_STRONG = "spec:width=480,height=960,unit=px,dpi=240"
+      /** MAXCOM MS571 */
+      val MS571 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-      /** Maxcom MS515 */
-      val MS515 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** MAXCOM MS571_plus */
+      val MS571_PLUS = "spec:width=720,height=1440,unit=px,dpi=320"
 
-      /** Maxcom MS651 */
-      val MS651 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** MAXCOM MS572 */
+      val MS572 = "spec:width=720,height=1520,unit=px,dpi=320"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Hyjoy device specifications for Android Compose previews.
+ * HYJOY device specifications for Android Compose previews.
  *
- * This extension provides Hyjoy device specifications that can be used with @Preview annotations
+ * This extension provides HYJOY device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Hyjoy: Any
   get() = object {
-      /** Hyjoy P11 */
-      val P11 = "spec:width=800,height=1280,unit=px,dpi=160"
-
-      /** Hyjoy P11_EEA */
-      val P11_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** HYJOY KT1006 */
+      val KT1006 = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

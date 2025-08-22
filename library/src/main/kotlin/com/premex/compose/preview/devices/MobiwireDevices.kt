@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Mobiwire device specifications for Android Compose previews.
+ * MobiWire device specifications for Android Compose previews.
  *
- * This extension provides Mobiwire device specifications that can be used with @Preview annotations
+ * This extension provides MobiWire device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,58 +20,64 @@ import kotlin.Any
  */
 public val Devices.Mobiwire: Any
   get() = object {
-      /** Mobiwire Edjromi */
-      val EDJROMI = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire Cygnus_mini */
+      val CYGNUS_MINI = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Mobiwire Giyafa */
-      val GIYAFA = "spec:width=480,height=854,unit=px,dpi=200"
-
-      /** Mobiwire H5032U */
+      /** MobiWire H5032U */
       val H5032U = "spec:width=480,height=854,unit=px,dpi=200"
 
-      /** Mobiwire H5111 */
-      val H5111 = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire Halona */
+      val HALONA = "spec:width=320,height=480,unit=px,dpi=160"
 
-      /** Mobiwire H5111L */
-      val H5111L = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire Hotah */
+      val HOTAH = "spec:width=720,height=1280,unit=px,dpi=320"
 
-      /** Mobiwire H5111L_Mascom */
-      val H5111L_MASCOM = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire IKOSORA_Plus */
+      val IKOSORA_PLUS = "spec:width=480,height=854,unit=px,dpi=200"
 
-      /** Mobiwire H5112 */
-      val H5112 = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire K5P_4G */
+      val K5P_4G = "spec:width=480,height=854,unit=px,dpi=240"
 
-      /** Mobiwire H6681_Pro */
-      val H6681_PRO = "spec:width=720,height=1612,unit=px,dpi=280"
+      /** MobiWire Kicka_4_Plus */
+      val KICKA_4_PLUS = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Mobiwire H6682 */
-      val H6682 = "spec:width=720,height=1612,unit=px,dpi=280"
+      /** MobiWire Kicka_5 */
+      val KICKA_5 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Mobiwire H67A1 */
-      val H67A1 = "spec:width=720,height=1600,unit=px,dpi=280"
+      /** MobiWire Kicka_5_Plus */
+      val KICKA_5_PLUS = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Mobiwire K5P_4G_U */
-      val K5P_4G_U = "spec:width=480,height=854,unit=px,dpi=240"
+      /** MobiWire Kicka_5_U */
+      val KICKA_5_U = "spec:width=720,height=1600,unit=px,dpi=300"
 
-      /** Mobiwire Kicka6 */
-      val KICKA6 = "spec:width=720,height=1480,unit=px,dpi=280"
+      /** MobiWire Kicka_Zoom */
+      val KICKA_ZOOM = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Mobiwire Smart_E25 */
-      val SMART_E25 = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire MobiWire_Verda */
+      val MOBIWIRE_VERDA = "spec:width=480,height=960,unit=px,dpi=200"
 
-      /** Mobiwire Smart_V25 */
-      val SMART_V25 = "spec:width=720,height=1612,unit=px,dpi=280"
+      /** MobiWire Smart_E11 */
+      val SMART_E11 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Mobiwire Verda */
-      val VERDA = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire Smart_N11 */
+      val SMART_N11 = "spec:width=540,height=1132,unit=px,dpi=240"
 
-      /** Mobiwire V_Lite_2 */
-      val V_LITE_2 = "spec:width=480,height=854,unit=px,dpi=200"
+      /** MobiWire Smart_N12 */
+      val SMART_N12 = "spec:width=444,height=960,unit=px,dpi=200"
 
-      /** Mobiwire V_Pro_2 */
-      val V_PRO_2 = "spec:width=720,height=1612,unit=px,dpi=280"
+      /** MobiWire Smart_P24 */
+      val SMART_P24 = "spec:width=720,height=1560,unit=px,dpi=280"
 
-      /** Mobiwire V_Smart_2 */
-      val V_SMART_2 = "spec:width=720,height=1560,unit=px,dpi=280"
+      /** MobiWire Smart_T23 */
+      val SMART_T23 = "spec:width=720,height=1600,unit=px,dpi=320"
+
+      /** MobiWire Smart_V22 */
+      val SMART_V22 = "spec:width=720,height=1640,unit=px,dpi=320"
+
+      /** MobiWire Vodafone_Pro */
+      val VODAFONE_PRO = "spec:width=720,height=1600,unit=px,dpi=320"
+
+      /** MobiWire Vodafone_Smart */
+      val VODAFONE_SMART = "spec:width=444,height=960,unit=px,dpi=200"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Element device specifications for Android Compose previews.
+ * ELEMENT device specifications for Android Compose previews.
  *
- * This extension provides Element device specifications that can be used with @Preview annotations
+ * This extension provides ELEMENT device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,10 @@ import kotlin.Any
  */
 public val Devices.Element: Any
   get() = object {
-      /** Element kaitak */
-      val KAITAK = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** ELEMENT hongkong */
+      val HONGKONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Element tennoji */
-      val TENNOJI = "spec:width=720,height=1280,unit=px,dpi=213"
-
-      /** Element Tiger838 */
-      val TIGER838 = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** ELEMENT khardi */
+      val KHARDI = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

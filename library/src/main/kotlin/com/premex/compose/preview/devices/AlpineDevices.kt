@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * alpine device specifications for Android Compose previews.
+ * ALPINE device specifications for Android Compose previews.
  *
- * This extension provides alpine device specifications that can be used with @Preview annotations
+ * This extension provides ALPINE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,10 @@ import kotlin.Any
  */
 public val Devices.Alpine: Any
   get() = object {
-      /** alpine aivi2_r_full_dom */
-      val AIVI2_R_FULL_DOM = "spec:width=720,height=1280,unit=px,dpi=160"
+      /** ALPINE INE-AW409S */
+      val INE_AW409S = "spec:width=720,height=1280,unit=px,dpi=160"
+
+      /** ALPINE INE-AX809 */
+      val INE_AX809 = "spec:width=720,height=1280,unit=px,dpi=160"
 
   }

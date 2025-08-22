@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Inco device specifications for Android Compose previews.
+ * INCO device specifications for Android Compose previews.
  *
- * This extension provides Inco device specifications that can be used with @Preview annotations
+ * This extension provides INCO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Inco: Any
   get() = object {
-      /** Inco eco_s */
-      val ECO_S = "spec:width=480,height=800,unit=px,dpi=240"
-
-      /** Inco Horizon_S */
-      val HORIZON_S = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** INCO Horizon */
+      val HORIZON = "spec:width=480,height=996,unit=px,dpi=240"
 
   }

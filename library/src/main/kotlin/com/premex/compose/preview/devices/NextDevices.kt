@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Next device specifications for Android Compose previews.
+ * NEXT device specifications for Android Compose previews.
  *
- * This extension provides Next device specifications that can be used with @Preview annotations
+ * This extension provides NEXT device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,13 @@ import kotlin.Any
  */
 public val Devices.Next: Any
   get() = object {
-      /** Next YDA */
-      val YDA = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** NEXT elliniko */
+      val ELLINIKO = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-      /** Next YYT */
-      val YYT = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** NEXT stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** NEXT zhongshan */
+      val ZHONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

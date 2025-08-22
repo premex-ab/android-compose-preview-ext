@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Daiwa device specifications for Android Compose previews.
+ * DAIWA device specifications for Android Compose previews.
  *
- * This extension provides Daiwa device specifications that can be used with @Preview annotations
+ * This extension provides DAIWA device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Daiwa: Any
   get() = object {
-      /** Daiwa capitolhill */
-      val CAPITOLHILL = "spec:width=720,height=1280,unit=px,dpi=213"
-
-      /** Daiwa keoneae */
-      val KEONEAE = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** DAIWA lavender */
+      val LAVENDER = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Fero device specifications for Android Compose previews.
+ * FERO device specifications for Android Compose previews.
  *
- * This extension provides Fero device specifications that can be used with @Preview annotations
+ * This extension provides FERO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Fero: Any
   get() = object {
-      /** Fero A4001_Plus_2019 */
-      val A4001_PLUS_2019 = "spec:width=480,height=800,unit=px,dpi=240"
-
-      /** Fero A5003_512 */
-      val A5003_512 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** FERO Royale_X2 */
+      val ROYALE_X2 = "spec:width=720,height=1280,unit=px,dpi=320"
 
   }

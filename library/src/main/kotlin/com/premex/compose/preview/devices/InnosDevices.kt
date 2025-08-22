@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Innos device specifications for Android Compose previews.
+ * INNOS device specifications for Android Compose previews.
  *
- * This extension provides Innos device specifications that can be used with @Preview annotations
+ * This extension provides INNOS device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Innos: Any
   get() = object {
-      /** Innos bruno */
-      val BRUNO = "spec:width=720,height=1280,unit=px,dpi=213"
-
-      /** Innos shilin */
-      val SHILIN = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** INNOS R2 */
+      val R2 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

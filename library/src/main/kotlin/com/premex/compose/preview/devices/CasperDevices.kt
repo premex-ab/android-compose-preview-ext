@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Casper device specifications for Android Compose previews.
+ * CASPER device specifications for Android Compose previews.
  *
- * This extension provides Casper device specifications that can be used with @Preview annotations
+ * This extension provides CASPER device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,157 +20,31 @@ import kotlin.Any
  */
 public val Devices.Casper: Any
   get() = object {
-      /** Casper barking */
-      val BARKING = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** CASPER elliniko */
+      val ELLINIKO = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-      /** Casper BBL7551TC */
-      val BBL7551TC = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** CASPER R1 */
+      val R1 = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Casper beaudry */
-      val BEAUDRY = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** CASPER R2 */
+      val R2 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Casper CASPER_L10_4_5G */
-      val CASPER_L10_4_5G = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** CASPER R3 */
+      val R3 = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Casper Casper_S38 */
-      val CASPER_S38 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** CASPER R3_GTV */
+      val R3_GTV = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Casper CASPER_VIA_A2 */
-      val CASPER_VIA_A2 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** CASPER R4 */
+      val R4 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Casper CASPER_VIA_G1 */
-      val CASPER_VIA_G1 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** CASPER sunnyvale */
+      val SUNNYVALE = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Casper CASPER_VIA_G1_Plus */
-      val CASPER_VIA_G1_PLUS = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** CASPER SW6H */
+      val SW6H = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Casper CASPER_VIA_M3 */
-      val CASPER_VIA_M3 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-      /** Casper L20 */
-      val L20 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-      /** Casper S20 */
-      val S20 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-      /** Casper VIA_A1 */
-      val VIA_A1 = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-      /** Casper VIA_A1_1 */
-      val VIA_A1_1 = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-      /** Casper VIA_A3 */
-      val VIA_A3 = "spec:width=1080,height=2246,unit=px,dpi=480"
-
-      /** Casper VIA_A3_Plus */
-      val VIA_A3_PLUS = "spec:width=1080,height=2246,unit=px,dpi=480"
-
-      /** Casper VIA_A40 */
-      val VIA_A40 = "spec:width=1080,height=2460,unit=px,dpi=480"
-
-      /** Casper VIA_E3 */
-      val VIA_E3 = "spec:width=720,height=1520,unit=px,dpi=320"
-
-      /** Casper VIA_E30 */
-      val VIA_E30 = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_E4 */
-      val VIA_E4 = "spec:width=720,height=1560,unit=px,dpi=320"
-
-      /** Casper VIA_F1 */
-      val VIA_F1 = "spec:width=1080,height=1920,unit=px,dpi=480"
-
-      /** Casper VIA_F20 */
-      val VIA_F20 = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_F3 */
-      val VIA_F3 = "spec:width=720,height=1520,unit=px,dpi=280"
-
-      /** Casper VIA_F30 */
-      val VIA_F30 = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_F30_Plus */
-      val VIA_F30_PLUS = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_G3 */
-      val VIA_G3 = "spec:width=720,height=1520,unit=px,dpi=320"
-
-      /** Casper VIA_G5 */
-      val VIA_G5 = "spec:width=720,height=1600,unit=px,dpi=280"
-
-      /** Casper VIA_L30 */
-      val VIA_L30 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-      /** Casper VIA_L30_0 */
-      val VIA_L30_0 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-      /** Casper VIA_L40 */
-      val VIA_L40 = "spec:width=1200,height=2000,unit=px,dpi=240"
-
-      /** Casper VIA_L50 */
-      val VIA_L50 = "spec:width=1200,height=1920,unit=px,dpi=280"
-
-      /** Casper VIA_M30 */
-      val VIA_M30 = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_M30_Plus */
-      val VIA_M30_PLUS = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_M35 */
-      val VIA_M35 = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_M4 */
-      val VIA_M4 = "spec:width=720,height=1440,unit=px,dpi=320"
-
-      /** Casper VIA_M40 */
-      val VIA_M40 = "spec:width=720,height=1600,unit=px,dpi=320"
-
-      /** Casper VIA_P2 */
-      val VIA_P2 = "spec:width=720,height=1280,unit=px,dpi=320"
-
-      /** Casper VIA_P3 */
-      val VIA_P3 = "spec:width=720,height=1520,unit=px,dpi=320"
-
-      /** Casper VIA_S */
-      val VIA_S = "spec:width=720,height=1520,unit=px,dpi=320"
-
-      /** Casper VIA_S10 */
-      val VIA_S10 = "spec:width=800,height=1280,unit=px,dpi=213"
-
-      /** Casper VIA_S30 */
-      val VIA_S30 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-      /** Casper VIA_S30_0 */
-      val VIA_S30_0 = "spec:width=1200,height=1920,unit=px,dpi=240"
-
-      /** Casper VIA_S40 */
-      val VIA_S40 = "spec:width=1200,height=2000,unit=px,dpi=240"
-
-      /** Casper VIA_S48 */
-      val VIA_S48 = "spec:width=800,height=1280,unit=px,dpi=213"
-
-      /** Casper VIA_S48_0 */
-      val VIA_S48_0 = "spec:width=800,height=1280,unit=px,dpi=213"
-
-      /** Casper VIA_S50 */
-      val VIA_S50 = "spec:width=1200,height=1920,unit=px,dpi=280"
-
-      /** Casper VIA-T7D */
-      val VIA_T7D = "spec:width=600,height=1024,unit=px,dpi=160"
-
-      /** Casper VIA_X20 */
-      val VIA_X20 = "spec:width=1080,height=2340,unit=px,dpi=480"
-
-      /** Casper VIA_X30 */
-      val VIA_X30 = "spec:width=1080,height=2400,unit=px,dpi=480"
-
-      /** Casper VIA_X30_Plus */
-      val VIA_X30_PLUS = "spec:width=1080,height=2400,unit=px,dpi=480"
-
-      /** Casper VIA_X40 */
-      val VIA_X40 = "spec:width=1080,height=2400,unit=px,dpi=480"
-
-      /** Casper VIA_X45 */
-      val VIA_X45 = "spec:width=1080,height=2400,unit=px,dpi=480"
+      /** CASPER VIA_A4 */
+      val VIA_A4 = "spec:width=1080,height=2340,unit=px,dpi=480"
 
   }

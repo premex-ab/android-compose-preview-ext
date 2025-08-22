@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * veidoo device specifications for Android Compose previews.
+ * VEIDOO device specifications for Android Compose previews.
  *
- * This extension provides veidoo device specifications that can be used with @Preview annotations
+ * This extension provides VEIDOO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,10 @@ import kotlin.Any
  */
 public val Devices.Veidoo: Any
   get() = object {
-      /** veidoo T30_Plus_EEA */
-      val T30_PLUS_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** VEIDOO VEIDOO_T30_PLUS */
+      val VEIDOO_T30_PLUS = "spec:width=800,height=1280,unit=px,dpi=160"
 
-      /** veidoo T80_PLUS */
-      val T80_PLUS = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** VEIDOO VEIDOO_T8 */
+      val VEIDOO_T8 = "spec:width=600,height=1024,unit=px,dpi=160"
 
   }

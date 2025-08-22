@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Uniscope device specifications for Android Compose previews.
+ * UNISCOPE device specifications for Android Compose previews.
  *
- * This extension provides Uniscope device specifications that can be used with @Preview annotations
+ * This extension provides UNISCOPE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Uniscope: Any
   get() = object {
-      /** Uniscope S6s */
-      val S6S = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** UNISCOPE s6w */
+      val S6W = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

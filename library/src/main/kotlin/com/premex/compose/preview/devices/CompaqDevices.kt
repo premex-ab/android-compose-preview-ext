@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Compaq device specifications for Android Compose previews.
+ * COMPAQ device specifications for Android Compose previews.
  *
- * This extension provides Compaq device specifications that can be used with @Preview annotations
+ * This extension provides COMPAQ device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,34 +20,49 @@ import kotlin.Any
  */
 public val Devices.Compaq: Any
   get() = object {
-      /** Compaq fireball */
-      val FIREBALL = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** COMPAQ CT201 */
+      val CT201 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-      /** Compaq Q6 */
-      val Q6 = "spec:width=720,height=1640,unit=px,dpi=320"
+      /** COMPAQ CT211 */
+      val CT211 = "spec:width=1080,height=1920,unit=px,dpi=213"
 
-      /** Compaq QT10 */
-      val QT10 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** COMPAQ guandu */
+      val GUANDU = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Compaq QTAB */
-      val QTAB = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** COMPAQ marina */
+      val MARINA = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Compaq Qtab10 */
-      val QTAB10 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** COMPAQ martin */
+      val MARTIN = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Compaq Qtab10Plus */
-      val QTAB10PLUS = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** COMPAQ nagata */
+      val NAGATA = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Compaq QTab10_LTE */
-      val QTAB10_LTE = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** COMPAQ Q5 */
+      val Q5 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-      /** Compaq QTab8 */
+      /** COMPAQ QTAB10_1 */
+      val QTAB10_1 = "spec:width=800,height=1280,unit=px,dpi=160"
+
+      /** COMPAQ QTAB10_PLUS */
+      val QTAB10_PLUS = "spec:width=1200,height=1920,unit=px,dpi=320"
+
+      /** COMPAQ QTAB8 */
       val QTAB8 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-      /** Compaq QTab8_LTE */
-      val QTAB8_LTE = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** COMPAQ QTabPro */
+      val QTABPRO = "spec:width=1200,height=1920,unit=px,dpi=280"
 
-      /** Compaq QTAB_NOTE */
-      val QTAB_NOTE = "spec:width=1200,height=2000,unit=px,dpi=280"
+      /** COMPAQ R1 */
+      val R1 = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** COMPAQ R2 */
+      val R2 = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** COMPAQ stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** COMPAQ zhongshan */
+      val ZHONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

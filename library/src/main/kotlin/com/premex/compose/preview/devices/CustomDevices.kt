@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Custom device specifications for Android Compose previews.
+ * CUSTOM device specifications for Android Compose previews.
  *
- * This extension provides Custom device specifications that can be used with @Preview annotations
+ * This extension provides CUSTOM device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,7 @@ import kotlin.Any
  */
 public val Devices.Custom: Any
   get() = object {
-      /** Custom Ares */
-      val ARES = "spec:width=720,height=1560,unit=px,dpi=320"
-
-      /** Custom K-Ranger */
-      val K_RANGER = "spec:width=480,height=800,unit=px,dpi=240"
-
-      /** Custom P-Ranger */
+      /** CUSTOM P_Ranger */
       val P_RANGER = "spec:width=720,height=1280,unit=px,dpi=320"
 
   }

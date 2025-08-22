@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Selecline device specifications for Android Compose previews.
+ * SELECLINE device specifications for Android Compose previews.
  *
- * This extension provides Selecline device specifications that can be used with @Preview
+ * This extension provides SELECLINE device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,16 @@ import kotlin.Any
  */
 public val Devices.Selecline: Any
   get() = object {
-      /** Selecline SP19403 */
-      val SP19403 = "spec:width=480,height=800,unit=px,dpi=240"
+      /** SELECLINE S3T10IN */
+      val S3T10IN = "spec:width=600,height=1024,unit=px,dpi=160"
 
-      /** Selecline SP19504 */
-      val SP19504 = "spec:width=480,height=960,unit=px,dpi=240"
+      /** SELECLINE S5S5IN4G */
+      val S5S5IN4G = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** SELECLINE S5T10IN */
+      val S5T10IN = "spec:width=600,height=1024,unit=px,dpi=160"
+
+      /** SELECLINE ST19101 */
+      val ST19101 = "spec:width=600,height=1024,unit=px,dpi=160"
 
   }

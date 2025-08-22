@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Unistrong device specifications for Android Compose previews.
+ * UniStrong device specifications for Android Compose previews.
  *
- * This extension provides Unistrong device specifications that can be used with @Preview
+ * This extension provides UniStrong device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,13 +21,13 @@ import kotlin.Any
  */
 public val Devices.Unistrong: Any
   get() = object {
-      /** Unistrong UT12P */
-      val UT12P = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** UniStrong UT10 */
+      val UT10 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-      /** Unistrong UT32 */
-      val UT32 = "spec:width=800,height=1280,unit=px,dpi=320"
+      /** UniStrong UT12 */
+      val UT12 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-      /** Unistrong UT56 */
-      val UT56 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** UniStrong UT30 */
+      val UT30 = "spec:width=800,height=1280,unit=px,dpi=320"
 
   }

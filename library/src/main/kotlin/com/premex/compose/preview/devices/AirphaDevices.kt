@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Airpha device specifications for Android Compose previews.
+ * AIRPHA device specifications for Android Compose previews.
  *
- * This extension provides Airpha device specifications that can be used with @Preview annotations
+ * This extension provides AIRPHA device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Airpha: Any
   get() = object {
-      /** Airpha Halo3_Pro */
-      val HALO3_PRO = "spec:width=720,height=1560,unit=px,dpi=320"
-
-      /** Airpha Halo4 */
-      val HALO4 = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** AIRPHA Halo4_Pro */
+      val HALO4_PRO = "spec:width=720,height=1600,unit=px,dpi=320"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * RedMobile device specifications for Android Compose previews.
+ * Red_Mobile device specifications for Android Compose previews.
  *
- * This extension provides RedMobile device specifications that can be used with @Preview
+ * This extension provides Red_Mobile device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,7 +21,7 @@ import kotlin.Any
  */
 public val Devices.RedMobile: Any
   get() = object {
-      /** RedMobile Volt_L */
-      val VOLT_L = "spec:width=480,height=960,unit=px,dpi=240"
+      /** Red_Mobile Quick_5_0 */
+      val QUICK_5_0 = "spec:width=480,height=854,unit=px,dpi=240"
 
   }

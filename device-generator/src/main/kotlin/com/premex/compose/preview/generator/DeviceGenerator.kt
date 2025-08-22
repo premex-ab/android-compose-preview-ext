@@ -86,6 +86,9 @@ class DeviceGenerator {
     suspend fun generateDeviceFiles() {
         println("🏭 Starting Android Compose Preview device generation...")
         
+        // Clean up old device files before generating new ones
+        cleanupOldDeviceFiles()
+
         // Fetch device specifications
         val devices = deviceFetcher.fetchDeviceSpecs()
         
@@ -99,6 +102,53 @@ class DeviceGenerator {
         validateGeneration()
     }
     
+    /**
+     * Cleans up old device files to ensure fresh generation.
+     */
+    private fun cleanupOldDeviceFiles() {
+        println("🧹 Cleaning up old device files...")
+
+        try {
+            // Clean main Devices.kt file
+            val mainDevicesFile = devicesFilePath.resolve("com/premex/compose/preview/Devices.kt").toFile()
+            if (mainDevicesFile.exists()) {
+                val deleted = mainDevicesFile.delete()
+                if (deleted) {
+                    println("[INFO] Removed old Devices.kt file")
+                } else {
+                    println("[WARN] Failed to remove old Devices.kt file")
+                }
+            }
+
+            // Clean manufacturer extension files directory
+            val extensionsDir = extensionsPath.toFile()
+            if (extensionsDir.exists()) {
+                val extensionFiles = extensionsDir.listFiles { file ->
+                    file.isFile && file.name.endsWith("Devices.kt")
+                }
+
+                if (extensionFiles != null && extensionFiles.isNotEmpty()) {
+                    val deletedCount = extensionFiles.count { it.delete() }
+                    println("[INFO] Removed $deletedCount old manufacturer extension files")
+
+                    if (deletedCount < extensionFiles.size) {
+                        println("[WARN] Failed to remove ${extensionFiles.size - deletedCount} manufacturer extension files")
+                    }
+                } else {
+                    println("[INFO] No old manufacturer extension files found")
+                }
+            } else {
+                println("[INFO] Manufacturer extensions directory doesn't exist, will be created during generation")
+            }
+
+        } catch (e: Exception) {
+            println("[WARN] Error during cleanup: ${e.message}")
+            // Don't fail the entire process due to cleanup issues
+        }
+
+        println("✅ Cleanup completed")
+    }
+
     /**
      * Validates that the generated files can be compiled.
      */

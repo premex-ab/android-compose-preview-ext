@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Grundig device specifications for Android Compose previews.
+ * GRUNDIG device specifications for Android Compose previews.
  *
- * This extension provides Grundig device specifications that can be used with @Preview annotations
+ * This extension provides GRUNDIG device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,19 @@ import kotlin.Any
  */
 public val Devices.Grundig: Any
   get() = object {
-      /** Grundig martin */
-      val MARTIN = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** GRUNDIG akropoli */
+      val AKROPOLI = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-      /** Grundig shinagawa */
-      val SHINAGAWA = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** GRUNDIG kunyang */
+      val KUNYANG = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** GRUNDIG R4 */
+      val R4 = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** GRUNDIG sinchon */
+      val SINCHON = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** GRUNDIG wanchai */
+      val WANCHAI = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

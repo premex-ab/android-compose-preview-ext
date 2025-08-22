@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Tiwell device specifications for Android Compose previews.
+ * TIWELL device specifications for Android Compose previews.
  *
- * This extension provides Tiwell device specifications that can be used with @Preview annotations
+ * This extension provides TIWELL device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,10 @@ import kotlin.Any
  */
 public val Devices.Tiwell: Any
   get() = object {
-      /** Tiwell t662_dh4_tiwell */
-      val T662_DH4_TIWELL = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** TIWELL AP-115G */
+      val AP_115G = "spec:width=800,height=1280,unit=px,dpi=213"
 
-      /** Tiwell t662_gq_tiwell */
-      val T662_GQ_TIWELL = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** TIWELL AS_601L */
+      val AS_601L = "spec:width=720,height=1440,unit=px,dpi=320"
 
   }

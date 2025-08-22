@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Blackfox device specifications for Android Compose previews.
+ * BLACKFOX device specifications for Android Compose previews.
  *
- * This extension provides Blackfox device specifications that can be used with @Preview annotations
+ * This extension provides BLACKFOX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Blackfox: Any
   get() = object {
-      /** Blackfox BMM531A */
-      val BMM531A = "spec:width=480,height=960,unit=px,dpi=240"
+      /** BLACKFOX BMM441B */
+      val BMM441B = "spec:width=720,height=1560,unit=px,dpi=320"
 
   }

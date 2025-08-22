@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Teeview device specifications for Android Compose previews.
+ * TEEVIEW device specifications for Android Compose previews.
  *
- * This extension provides Teeview device specifications that can be used with @Preview annotations
+ * This extension provides TEEVIEW device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Teeview: Any
   get() = object {
-      /** Teeview lakeside */
-      val LAKESIDE = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** TEEVIEW nagai */
+      val NAGAI = "spec:width=720,height=1280,unit=px,dpi=213"
 
   }

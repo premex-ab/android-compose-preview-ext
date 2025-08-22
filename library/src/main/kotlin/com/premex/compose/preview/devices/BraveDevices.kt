@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Brave device specifications for Android Compose previews.
+ * BRAVE device specifications for Android Compose previews.
  *
- * This extension provides Brave device specifications that can be used with @Preview annotations
+ * This extension provides BRAVE device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,19 @@ import kotlin.Any
  */
 public val Devices.Brave: Any
   get() = object {
-      /** Brave T2lite */
-      val T2LITE = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** BRAVE BT7X1 */
+      val BT7X1 = "spec:width=600,height=1024,unit=px,dpi=213"
 
-      /** Brave T2Max */
-      val T2MAX = "spec:width=1200,height=1920,unit=px,dpi=213"
+      /** BRAVE BT8X1 */
+      val BT8X1 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-      /** Brave T2Pro */
-      val T2PRO = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** BRAVE BTSL1 */
+      val BTSL1 = "spec:width=1200,height=1920,unit=px,dpi=320"
+
+      /** BRAVE BTXS1 */
+      val BTXS1 = "spec:width=800,height=1280,unit=px,dpi=240"
+
+      /** BRAVE EXCEED */
+      val EXCEED = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

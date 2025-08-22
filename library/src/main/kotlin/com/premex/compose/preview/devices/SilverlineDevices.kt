@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Silverline device specifications for Android Compose previews.
+ * SilverLine device specifications for Android Compose previews.
  *
- * This extension provides Silverline device specifications that can be used with @Preview
+ * This extension provides SilverLine device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,13 @@ import kotlin.Any
  */
 public val Devices.Silverline: Any
   get() = object {
-      /** Silverline SL1046 */
-      val SL1046 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** SilverLine SL1021 */
+      val SL1021 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-      /** Silverline SL868G */
-      val SL868G = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** SilverLine SL1022 */
+      val SL1022 = "spec:width=800,height=1280,unit=px,dpi=160"
+
+      /** SilverLine SL721 */
+      val SL721 = "spec:width=600,height=1024,unit=px,dpi=160"
 
   }

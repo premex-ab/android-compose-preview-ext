@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Hyundai device specifications for Android Compose previews.
+ * HYUNDAI device specifications for Android Compose previews.
  *
- * This extension provides Hyundai device specifications that can be used with @Preview annotations
+ * This extension provides HYUNDAI device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,169 +20,226 @@ import kotlin.Any
  */
 public val Devices.Hyundai: Any
   get() = object {
-      /** Hyundai bangbae */
-      val BANGBAE = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** HYUNDAI bruno */
+      val BRUNO = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai e501 */
-      val E501 = "spec:width=480,height=854,unit=px,dpi=240"
+      /** HYUNDAI capitolhill */
+      val CAPITOLHILL = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai guandu */
-      val GUANDU = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** HYUNDAI E435_Plus */
+      val E435_PLUS = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Hyundai H25568K */
-      val H25568K = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** HYUNDAI E465GO */
+      val E465GO = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Hyundai HT0703K */
-      val HT0703K = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI E475 */
+      val E475 = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Hyundai HT0704K08 */
-      val HT0704K08 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI E485 */
+      val E485 = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Hyundai HT0705W08 */
-      val HT0705W08 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI e502 */
+      val E502 = "spec:width=720,height=1280,unit=px,dpi=320"
 
-      /** Hyundai HT0802W16 */
-      val HT0802W16 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI E506 */
+      val E506 = "spec:width=480,height=854,unit=px,dpi=200"
 
-      /** Hyundai HT1003X16 */
-      val HT1003X16 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI e551_Lite */
+      val E551_LITE = "spec:width=720,height=1280,unit=px,dpi=320"
 
-      /** Hyundai HT1004L16 */
-      val HT1004L16 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** HYUNDAI E553 */
+      val E553 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai HT1004X16 */
-      val HT1004X16 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** HYUNDAI E554 */
+      val E554 = "spec:width=480,height=960,unit=px,dpi=200"
 
-      /** Hyundai HT10LA2MSGNA01 */
-      val HT10LA2MSGNA01 = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** HYUNDAI E601F */
+      val E601F = "spec:width=720,height=1440,unit=px,dpi=320"
 
-      /** Hyundai HT10LB2MBKLTM */
-      val HT10LB2MBKLTM = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** HYUNDAI E602 */
+      val E602 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-      /** Hyundai HT10LB3MBKLTM */
-      val HT10LB3MBKLTM = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI E603 */
+      val E603 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai HT10LB3MBKWW */
-      val HT10LB3MBKWW = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI Eternity_G25 */
+      val ETERNITY_G25 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai HT10LC1MBKLTM */
-      val HT10LC1MBKLTM = "spec:width=800,height=1280,unit=px,dpi=200"
+      /** HYUNDAI gangbyeon */
+      val GANGBYEON = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai HT10LC1MBKLTM01 */
-      val HT10LC1MBKLTM01 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI hanyang */
+      val HANYANG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai HT1G50K */
-      val HT1G50K = "spec:width=480,height=854,unit=px,dpi=240"
+      /** HYUNDAI HDIT_IFPD */
+      val HDIT_IFPD = "spec:width=2160,height=3840,unit=px,dpi=480"
 
-      /** Hyundai HT2G50KBK */
-      val HT2G50KBK = "spec:width=480,height=854,unit=px,dpi=240"
+      /** HYUNDAI hongkong */
+      val HONGKONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai HT2G57K */
-      val HT2G57K = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** HYUNDAI HT0703W08 */
+      val HT0703W08 = "spec:width=600,height=1024,unit=px,dpi=160"
 
-      /** Hyundai HT2G57L */
-      val HT2G57L = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** HYUNDAI HT10LA1MSGNA02 */
+      val HT10LA1MSGNA02 = "spec:width=1200,height=1920,unit=px,dpi=360"
 
-      /** Hyundai HT3G60L */
-      val HT3G60L = "spec:width=720,height=1560,unit=px,dpi=320"
+      /** HYUNDAI HT10LB2MBKLTM02 */
+      val HT10LB2MBKLTM02 = "spec:width=800,height=1280,unit=px,dpi=200"
 
-      /** Hyundai HT7WB1RBK */
-      val HT7WB1RBK = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI HT10WB2MSG01 */
+      val HT10WB2MSG01 = "spec:width=800,height=1280,unit=px,dpi=200"
 
-      /** Hyundai HT7WC1PBK */
-      val HT7WC1PBK = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI HT7GB1MBK_ */
+      val HT7GB1MBK = "spec:width=600,height=1024,unit=px,dpi=160"
 
-      /** Hyundai HT8LA1RBKNA01 */
-      val HT8LA1RBKNA01 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** HYUNDAI HT8WB1RBK01 */
+      val HT8WB1RBK01 = "spec:width=1200,height=1920,unit=px,dpi=300"
 
-      /** Hyundai HT8LAB1PBKLTM */
-      val HT8LAB1PBKLTM = "spec:width=800,height=1280,unit=px,dpi=240"
+      /** HYUNDAI HYUNDAI_Ultra_Live_II */
+      val HYUNDAI_ULTRA_LIVE_II = "spec:width=1080,height=1920,unit=px,dpi=480"
 
-      /** Hyundai HT8LB1PBK01 */
-      val HT8LB1PBK01 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI HY_BDL163G_001_EEA */
+      val HY_BDL163G_001_EEA = "spec:width=600,height=1024,unit=px,dpi=160"
 
-      /** Hyundai HT8WB1RBK02 */
-      val HT8WB1RBK02 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI kenton */
+      val KENTON = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai HT8WB1RBK02A */
-      val HT8WB1RBK02A = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI keoneae */
+      val KEONEAE = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai HT8WB1RBK03 */
-      val HT8WB1RBK03 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI L465 */
+      val L465 = "spec:width=480,height=800,unit=px,dpi=240"
 
-      /** Hyundai HY65PA1401NA */
-      val HY65PA1401NA = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** HYUNDAI L503F */
+      val L503F = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai HY65PA1402NA */
-      val HY65PA1402NA = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** HYUNDAI L503F_Plus */
+      val L503F_PLUS = "spec:width=480,height=960,unit=px,dpi=213"
 
-      /** Hyundai HY65PB1401NA */
-      val HY65PB1401NA = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** HYUNDAI L506 */
+      val L506 = "spec:width=480,height=854,unit=px,dpi=200"
 
-      /** Hyundai HyTab_Plus_10LC2 */
-      val HYTAB_PLUS_10LC2 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI L553 */
+      val L553 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai ikebukuro */
-      val IKEBUKURO = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** HYUNDAI L601F */
+      val L601F = "spec:width=720,height=1440,unit=px,dpi=320"
 
-      /** Hyundai komagome */
-      val KOMAGOME = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** HYUNDAI L604 */
+      val L604 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai Koral_10WB1 */
-      val KORAL_10WB1 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI L610 */
+      val L610 = "spec:width=720,height=1560,unit=px,dpi=280"
 
-      /** Hyundai Koral_10X3 */
-      val KORAL_10X3 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI L622 */
+      val L622 = "spec:width=720,height=1520,unit=px,dpi=280"
 
-      /** Hyundai Koral_10XL */
-      val KORAL_10XL = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** HYUNDAI L651 */
+      val L651 = "spec:width=720,height=1600,unit=px,dpi=320"
 
-      /** Hyundai Koral_7W4X */
-      val KORAL_7W4X = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI L681 */
+      val L681 = "spec:width=720,height=1640,unit=px,dpi=260"
 
-      /** Hyundai Koral_7WB1 */
-      val KORAL_7WB1 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI lasalle */
+      val LASALLE = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai Koral_7WC1 */
-      val KORAL_7WC1 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI lavender */
+      val LAVENDER = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai Koral_7WD1 */
-      val KORAL_7WD1 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI marina */
+      val MARINA = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai Koral_8WC1 */
-      val KORAL_8WC1 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI mountbaker */
+      val MOUNTBAKER = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai longshan */
-      val LONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** HYUNDAI nagata */
+      val NAGATA = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai martin */
-      val MARTIN = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** HYUNDAI nippori */
+      val NIPPORI = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai redwood */
+      /** HYUNDAI R1 */
+      val R1 = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** HYUNDAI R2 */
+      val R2 = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** HYUNDAI R3 */
+      val R3 = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** HYUNDAI R4 */
+      val R4 = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** HYUNDAI redwood */
       val REDWOOD = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai samseong */
+      /** HYUNDAI samseong */
       val SAMSEONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai shinjuku */
-      val SHINJUKU = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** HYUNDAI Seoul_9 */
+      val SEOUL_9 = "spec:width=480,height=960,unit=px,dpi=240"
 
-      /** Hyundai sindorim */
-      val SINDORIM = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** HYUNDAI Seoul_S8 */
+      val SEOUL_S8 = "spec:width=720,height=1440,unit=px,dpi=320"
 
-      /** Hyundai 10LA2 */
-      val _10LA2 = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** HYUNDAI stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai 10LB1 */
-      val _10LB1 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** HYUNDAI sunnyvale */
+      val SUNNYVALE = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hyundai 10LC1 */
-      val _10LC1 = "spec:width=1200,height=1920,unit=px,dpi=360"
+      /** HYUNDAI SW4H */
+      val SW4H = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Hyundai 7LB1 */
-      val _7LB1 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** HYUNDAI SW6H */
+      val SW6H = "spec:width=1080,height=1920,unit=px,dpi=160"
 
-      /** Hyundai 8LAB1 */
-      val _8LAB1 = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** HYUNDAI tamachi */
+      val TAMACHI = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** HYUNDAI Ultra_Active */
+      val ULTRA_ACTIVE = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Dream */
+      val ULTRA_DREAM = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** HYUNDAI Ultra_Energy_Lite */
+      val ULTRA_ENERGY_LITE = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** HYUNDAI Ultra_Energy_Plus */
+      val ULTRA_ENERGY_PLUS = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Latitude */
+      val ULTRA_LATITUDE = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Shadow */
+      val ULTRA_SHADOW = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Shine */
+      val ULTRA_SHINE = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Storm */
+      val ULTRA_STORM = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** HYUNDAI Ultra_Style */
+      val ULTRA_STYLE = "spec:width=1080,height=1920,unit=px,dpi=480"
+
+      /** HYUNDAI Ultra_Sync */
+      val ULTRA_SYNC = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** HYUNDAI Ultra_Trend */
+      val ULTRA_TREND = "spec:width=720,height=1280,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Vision */
+      val ULTRA_VISION = "spec:width=720,height=1440,unit=px,dpi=320"
+
+      /** HYUNDAI Ultra_Vision_Plus */
+      val ULTRA_VISION_PLUS = "spec:width=720,height=1440,unit=px,dpi=320"
+
+      /** HYUNDAI yeongdeungpo */
+      val YEONGDEUNGPO = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** HYUNDAI 7WA1 */
+      val _7WA1 = "spec:width=1200,height=1920,unit=px,dpi=320"
 
   }

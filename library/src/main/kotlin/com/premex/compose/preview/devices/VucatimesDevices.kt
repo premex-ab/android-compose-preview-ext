@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Vucatimes device specifications for Android Compose previews.
+ * VUCATIMES device specifications for Android Compose previews.
  *
- * This extension provides Vucatimes device specifications that can be used with @Preview
+ * This extension provides VUCATIMES device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,13 @@ import kotlin.Any
  */
 public val Devices.Vucatimes: Any
   get() = object {
-      /** Vucatimes VucaPad_N20 */
-      val VUCAPAD_N20 = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** VUCATIMES N10 */
+      val N10 = "spec:width=800,height=1280,unit=px,dpi=160"
 
-      /** Vucatimes VucaPad_NS20_EEA */
-      val VUCAPAD_NS20_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** VUCATIMES N7 */
+      val N7 = "spec:width=600,height=1024,unit=px,dpi=160"
+
+      /** VUCATIMES N8 */
+      val N8 = "spec:width=800,height=1280,unit=px,dpi=213"
 
   }

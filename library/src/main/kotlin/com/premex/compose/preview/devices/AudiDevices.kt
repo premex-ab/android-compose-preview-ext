@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Audi device specifications for Android Compose previews.
+ * AUDI device specifications for Android Compose previews.
  *
- * This extension provides Audi device specifications that can be used with @Preview annotations
+ * This extension provides AUDI device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Audi: Any
   get() = object {
-      /** Audi sdis1 */
-      val SDIS1 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** AUDI RSEIII */
+      val RSEIII = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

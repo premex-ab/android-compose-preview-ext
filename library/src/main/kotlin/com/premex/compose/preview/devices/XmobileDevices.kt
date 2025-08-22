@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * X-mobile device specifications for Android Compose previews.
+ * Xmobile device specifications for Android Compose previews.
  *
- * This extension provides X-mobile device specifications that can be used with @Preview annotations
+ * This extension provides Xmobile device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,10 @@ import kotlin.Any
  */
 public val Devices.Xmobile: Any
   get() = object {
-      /** X-mobile XM-SW1 */
-      val XM_SW1 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Xmobile X1 */
+      val X1 = "spec:width=480,height=960,unit=px,dpi=213"
+
+      /** Xmobile X7 */
+      val X7 = "spec:width=600,height=1024,unit=px,dpi=213"
 
   }

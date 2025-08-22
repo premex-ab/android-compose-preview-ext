@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Logik device specifications for Android Compose previews.
+ * LOGIK device specifications for Android Compose previews.
  *
- * This extension provides Logik device specifications that can be used with @Preview annotations
+ * This extension provides LOGIK device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,10 @@ import kotlin.Any
  */
 public val Devices.Logik: Any
   get() = object {
-      /** Logik ueno */
-      val UENO = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** LOGIK sadang */
+      val SADANG = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** LOGIK tabata */
+      val TABATA = "spec:width=720,height=1280,unit=px,dpi=213"
 
   }

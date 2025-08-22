@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * generalmobile device specifications for Android Compose previews.
+ * GeneralMobile device specifications for Android Compose previews.
  *
- * This extension provides generalmobile device specifications that can be used with @Preview
+ * This extension provides GeneralMobile device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,10 @@ import kotlin.Any
  */
 public val Devices.Generalmobile: Any
   get() = object {
-      /** generalmobile GM6_d_sprout */
-      val GM6_D_SPROUT = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** GeneralMobile Etab5 */
+      val ETAB5 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
-      /** generalmobile GM6_s_sprout */
-      val GM6_S_SPROUT = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** GeneralMobile mehmet */
+      val MEHMET = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

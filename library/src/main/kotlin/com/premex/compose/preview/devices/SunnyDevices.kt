@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Sunny device specifications for Android Compose previews.
+ * SUNNY device specifications for Android Compose previews.
  *
- * This extension provides Sunny device specifications that can be used with @Preview annotations
+ * This extension provides SUNNY device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,10 @@ import kotlin.Any
  */
 public val Devices.Sunny: Any
   get() = object {
-      /** Sunny SN10016 */
-      val SN10016 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** SUNNY TABLET */
+      val TABLET = "spec:width=1200,height=1920,unit=px,dpi=320"
 
-      /** Sunny SN7016 */
-      val SN7016 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** SUNNY YQB */
+      val YQB = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

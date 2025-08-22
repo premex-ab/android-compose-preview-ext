@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * ebox device specifications for Android Compose previews.
+ * EBOX device specifications for Android Compose previews.
  *
- * This extension provides ebox device specifications that can be used with @Preview annotations
+ * This extension provides EBOX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Ebox: Any
   get() = object {
-      /** ebox diw387eb */
-      val DIW387EB = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** EBOX sti6280d391 */
+      val STI6280D391 = "spec:width=720,height=1280,unit=px,dpi=320"
 
   }

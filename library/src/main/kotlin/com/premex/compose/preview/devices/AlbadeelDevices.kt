@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Albadeel device specifications for Android Compose previews.
+ * ALBADEEL device specifications for Android Compose previews.
  *
- * This extension provides Albadeel device specifications that can be used with @Preview annotations
+ * This extension provides ALBADEEL device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,10 @@ import kotlin.Any
  */
 public val Devices.Albadeel: Any
   get() = object {
-      /** Albadeel longshan */
-      val LONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** ALBADEEL ikebukuro */
+      val IKEBUKURO = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Albadeel redwood */
-      val REDWOOD = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** ALBADEEL samseong */
+      val SAMSEONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

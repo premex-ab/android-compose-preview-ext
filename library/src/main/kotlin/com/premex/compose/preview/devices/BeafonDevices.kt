@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Bea-fon device specifications for Android Compose previews.
+ * beafon device specifications for Android Compose previews.
  *
- * This extension provides Bea-fon device specifications that can be used with @Preview annotations
+ * This extension provides beafon device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Beafon: Any
   get() = object {
-      /** Bea-fon MX1 */
-      val MX1 = "spec:width=720,height=1520,unit=px,dpi=320"
+      /** beafon TW20_EEA */
+      val TW20_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
 
   }

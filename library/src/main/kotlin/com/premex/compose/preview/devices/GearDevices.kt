@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * gear device specifications for Android Compose previews.
+ * GEAR device specifications for Android Compose previews.
  *
- * This extension provides gear device specifications that can be used with @Preview annotations
+ * This extension provides GEAR device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Gear: Any
   get() = object {
-      /** gear Feel_1008S */
-      val FEEL_1008S = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** GEAR Space_Pro */
+      val SPACE_PRO = "spec:width=1200,height=1920,unit=px,dpi=240"
 
   }

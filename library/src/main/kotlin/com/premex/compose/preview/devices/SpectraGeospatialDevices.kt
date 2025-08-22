@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * SpectraGeospatial device specifications for Android Compose previews.
+ * Spectra_Geospatial device specifications for Android Compose previews.
  *
- * This extension provides SpectraGeospatial device specifications that can be used with @Preview
+ * This extension provides Spectra_Geospatial device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,7 +21,7 @@ import kotlin.Any
  */
 public val Devices.SpectraGeospatial: Any
   get() = object {
-      /** SpectraGeospatial E7167 */
-      val E7167 = "spec:width=1080,height=1920,unit=px,dpi=480"
+      /** Spectra_Geospatial MM60_2 */
+      val MM60_2 = "spec:width=1080,height=1920,unit=px,dpi=480"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * meanit device specifications for Android Compose previews.
+ * MeanIT device specifications for Android Compose previews.
  *
- * This extension provides meanit device specifications that can be used with @Preview annotations
+ * This extension provides MeanIT device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Meanit: Any
   get() = object {
-      /** meanit meanit_K28_EEA */
-      val MEANIT_K28_EEA = "spec:width=800,height=1280,unit=px,dpi=213"
-
-      /** meanit meanit_X50_EEA */
-      val MEANIT_X50_EEA = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** MeanIT meanIT_X4 */
+      val MEANIT_X4 = "spec:width=480,height=1014,unit=px,dpi=240"
 
   }

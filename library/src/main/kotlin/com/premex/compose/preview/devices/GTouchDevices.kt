@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * G-Touch device specifications for Android Compose previews.
+ * G_TOUCH device specifications for Android Compose previews.
  *
- * This extension provides G-Touch device specifications that can be used with @Preview annotations
+ * This extension provides G_TOUCH device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,16 @@ import kotlin.Any
  */
 public val Devices.GTouch: Any
   get() = object {
-      /** G-Touch SPEED_2021 */
-      val SPEED_2021 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** G_TOUCH Stella_Omega */
+      val STELLA_OMEGA = "spec:width=1080,height=2220,unit=px,dpi=440"
+
+      /** G_TOUCH Stella_Omega_Plus */
+      val STELLA_OMEGA_PLUS = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** G_TOUCH Stella_XS */
+      val STELLA_XS = "spec:width=480,height=960,unit=px,dpi=240"
+
+      /** G_TOUCH Stella_X_Plus */
+      val STELLA_X_PLUS = "spec:width=480,height=854,unit=px,dpi=240"
 
   }

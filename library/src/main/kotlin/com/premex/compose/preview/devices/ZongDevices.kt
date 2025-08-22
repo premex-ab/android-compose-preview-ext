@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Zong device specifications for Android Compose previews.
+ * ZONG device specifications for Android Compose previews.
  *
- * This extension provides Zong device specifications that can be used with @Preview annotations
+ * This extension provides ZONG device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Zong: Any
   get() = object {
-      /** Zong Z2 */
-      val Z2 = "spec:width=720,height=1440,unit=px,dpi=320"
+      /** ZONG Z1 */
+      val Z1 = "spec:width=720,height=1280,unit=px,dpi=320"
 
   }

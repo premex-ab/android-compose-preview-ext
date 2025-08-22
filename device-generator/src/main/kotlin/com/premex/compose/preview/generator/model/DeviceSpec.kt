@@ -52,10 +52,10 @@ data class DeviceSpec(
     }
     
     private fun sanitizeClassName(manufacturer: String): String {
-        // Convert manufacturer name to valid Kotlin class name
-        var clean = manufacturer.replace(Regex("[^A-Za-z0-9]+"), "")
-        
-        // Handle special cases
+        // Convert manufacturer name to valid Kotlin class name in PascalCase
+        var clean = manufacturer.replace(Regex("[^A-Za-z0-9]+"), " ").trim()
+
+        // Handle special cases and convert to PascalCase
         clean = when (clean.lowercase()) {
             "google" -> "Google"
             "samsung" -> "Samsung"
@@ -64,19 +64,28 @@ data class DeviceSpec(
             "oppo" -> "Oppo"
             "vivo" -> "Vivo"
             "motorola" -> "Motorola"
-            "lg" -> "LG"
+            "lg" -> "Lg"
             "sony" -> "Sony"
-            "htc" -> "HTC"
+            "htc" -> "Htc"
             "nokia" -> "Nokia"
             "honor" -> "Honor"
             "realme" -> "Realme"
+            "zebra" -> "Zebra"
+            "honeywell" -> "Honeywell"
+            "datalogic" -> "Datalogic"
             else -> {
-                // Title case and clean
-                clean.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+                // Convert to PascalCase: split by spaces, capitalize each word, then join
+                clean.split(Regex("\\s+"))
+                    .filter { it.isNotEmpty() }
+                    .joinToString("") { word ->
+                        word.lowercase().replaceFirstChar { char ->
+                            if (char.isLowerCase()) char.titlecase() else char.toString()
+                        }
+                    }
             }
         }
         
-        // If starts with number, prefix with underscore
+        // Ensure it starts with a letter (if starts with number, prefix with underscore)
         if (clean.isNotEmpty() && clean[0].isDigit()) {
             clean = "_$clean"
         }

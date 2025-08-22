@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Emerson device specifications for Android Compose previews.
+ * EMERSON device specifications for Android Compose previews.
  *
- * This extension provides Emerson device specifications that can be used with @Preview annotations
+ * This extension provides EMERSON device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,13 @@ import kotlin.Any
  */
 public val Devices.Emerson: Any
   get() = object {
-      /** Emerson EID-1400 */
-      val EID_1400 = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** EMERSON EID_1050 */
+      val EID_1050 = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** EMERSON EID_1061 */
+      val EID_1061 = "spec:width=800,height=1280,unit=px,dpi=213"
+
+      /** EMERSON EID_9000 */
+      val EID_9000 = "spec:width=600,height=1024,unit=px,dpi=160"
 
   }

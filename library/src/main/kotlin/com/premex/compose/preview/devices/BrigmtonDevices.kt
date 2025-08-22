@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Brigmton device specifications for Android Compose previews.
+ * BRIGMTON device specifications for Android Compose previews.
  *
- * This extension provides Brigmton device specifications that can be used with @Preview annotations
+ * This extension provides BRIGMTON device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Brigmton: Any
   get() = object {
-      /** Brigmton BTPC-1023OC4G */
-      val BTPC_1023OC4G = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** BRIGMTON BTPC-1025OC */
+      val BTPC_1025OC = "spec:width=800,height=1280,unit=px,dpi=213"
 
   }

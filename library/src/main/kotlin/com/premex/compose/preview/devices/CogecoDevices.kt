@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Cogeco device specifications for Android Compose previews.
+ * COGECO device specifications for Android Compose previews.
  *
- * This extension provides Cogeco device specifications that can be used with @Preview annotations
+ * This extension provides COGECO device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Cogeco: Any
   get() = object {
-      /** Cogeco m393gena_c */
-      val M393GENA_C = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** COGECO uiw4020cog */
+      val UIW4020COG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

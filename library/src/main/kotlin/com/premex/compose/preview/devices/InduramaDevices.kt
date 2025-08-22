@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * indurama device specifications for Android Compose previews.
+ * INDURAMA device specifications for Android Compose previews.
  *
- * This extension provides indurama device specifications that can be used with @Preview annotations
+ * This extension provides INDURAMA device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,19 @@ import kotlin.Any
  */
 public val Devices.Indurama: Any
   get() = object {
-      /** indurama shinjuku */
-      val SHINJUKU = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** INDURAMA elliniko */
+      val ELLINIKO = "spec:width=2160,height=3840,unit=px,dpi=320"
 
-      /** indurama sunnyvale */
-      val SUNNYVALE = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** INDURAMA hongkong */
+      val HONGKONG = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** indurama SW4H */
-      val SW4H = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** INDURAMA mountbaker */
+      val MOUNTBAKER = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** INDURAMA stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** INDURAMA zhongshan */
+      val ZHONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

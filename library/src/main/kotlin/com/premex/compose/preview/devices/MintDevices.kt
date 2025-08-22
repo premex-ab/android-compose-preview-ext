@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Mint device specifications for Android Compose previews.
+ * MINT device specifications for Android Compose previews.
  *
- * This extension provides Mint device specifications that can be used with @Preview annotations
+ * This extension provides MINT device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,16 @@ import kotlin.Any
  */
 public val Devices.Mint: Any
   get() = object {
-      /** Mint Mint_Triton */
-      val MINT_TRITON = "spec:width=1080,height=2220,unit=px,dpi=440"
+      /** MINT M5CR */
+      val M5CR = "spec:width=480,height=854,unit=px,dpi=240"
+
+      /** MINT Mint_Fox */
+      val MINT_FOX = "spec:width=320,height=480,unit=px,dpi=160"
+
+      /** MINT Mint_Fusion */
+      val MINT_FUSION = "spec:width=480,height=960,unit=px,dpi=240"
+
+      /** MINT Pearl_Neo */
+      val PEARL_NEO = "spec:width=480,height=854,unit=px,dpi=240"
 
   }

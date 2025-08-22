@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Funai device specifications for Android Compose previews.
+ * FUNAI device specifications for Android Compose previews.
  *
- * This extension provides Funai device specifications that can be used with @Preview annotations
+ * This extension provides FUNAI device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,10 @@ import kotlin.Any
  */
 public val Devices.Funai: Any
   get() = object {
-      /** Funai cocina */
-      val COCINA = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** FUNAI daitou */
+      val DAITOU = "spec:width=1080,height=1920,unit=px,dpi=320"
 
-      /** Funai freesia */
-      val FREESIA = "spec:width=1080,height=1920,unit=px,dpi=320"
-
-      /** Funai peach */
-      val PEACH = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** FUNAI FAS_K2150 */
+      val FAS_K2150 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Orca device specifications for Android Compose previews.
+ * ORCA device specifications for Android Compose previews.
  *
- * This extension provides Orca device specifications that can be used with @Preview annotations
+ * This extension provides ORCA device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,16 @@ import kotlin.Any
  */
 public val Devices.Orca: Any
   get() = object {
-      /** Orca Orca_Display_2 */
-      val ORCA_DISPLAY_2 = "spec:width=1200,height=1920,unit=px,dpi=240"
+      /** ORCA kenton */
+      val KENTON = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** ORCA lasalle */
+      val LASALLE = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** ORCA samseong */
+      val SAMSEONG = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** ORCA yeongdeungpo */
+      val YEONGDEUNGPO = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Prime device specifications for Android Compose previews.
+ * PRIME device specifications for Android Compose previews.
  *
- * This extension provides Prime device specifications that can be used with @Preview annotations
+ * This extension provides PRIME device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Prime: Any
   get() = object {
-      /** Prime X6_Pro */
-      val X6_PRO = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** PRIME shinagawa */
+      val SHINAGAWA = "spec:width=720,height=1280,unit=px,dpi=213"
 
   }

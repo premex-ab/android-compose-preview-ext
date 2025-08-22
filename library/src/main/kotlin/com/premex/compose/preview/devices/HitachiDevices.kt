@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Hitachi device specifications for Android Compose previews.
+ * HITACHI device specifications for Android Compose previews.
  *
- * This extension provides Hitachi device specifications that can be used with @Preview annotations
+ * This extension provides HITACHI device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,10 @@ import kotlin.Any
  */
 public val Devices.Hitachi: Any
   get() = object {
-      /** Hitachi bangbae */
-      val BANGBAE = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** HITACHI R1 */
+      val R1 = "spec:width=720,height=1280,unit=px,dpi=213"
 
-      /** Hitachi komagome */
-      val KOMAGOME = "spec:width=720,height=1280,unit=px,dpi=213"
-
-      /** Hitachi samseong */
-      val SAMSEONG = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** HITACHI R2 */
+      val R2 = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

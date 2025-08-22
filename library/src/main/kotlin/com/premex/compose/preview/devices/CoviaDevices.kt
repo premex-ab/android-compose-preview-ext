@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * covia device specifications for Android Compose previews.
+ * COVIA device specifications for Android Compose previews.
  *
- * This extension provides covia device specifications that can be used with @Preview annotations
+ * This extension provides COVIA device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Covia: Any
   get() = object {
-      /** covia CP-W5s */
-      val CP_W5S = "spec:width=720,height=1280,unit=px,dpi=320"
+      /** COVIA CP-L45s */
+      val CP_L45S = "spec:width=480,height=854,unit=px,dpi=240"
 
   }

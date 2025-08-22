@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Trekstor device specifications for Android Compose previews.
+ * TrekStor device specifications for Android Compose previews.
  *
- * This extension provides Trekstor device specifications that can be used with @Preview annotations
+ * This extension provides TrekStor device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,16 +20,16 @@ import kotlin.Any
  */
 public val Devices.Trekstor: Any
   get() = object {
-      /** Trekstor TFMTKAW01216 */
-      val TFMTKAW01216 = "spec:width=1080,height=1920,unit=px,dpi=213"
+      /** TrekStor SurfTab */
+      val SURFTAB = "spec:width=800,height=1280,unit=px,dpi=160"
 
-      /** Trekstor TFMTKAW01232 */
-      val TFMTKAW01232 = "spec:width=1080,height=1920,unit=px,dpi=160"
+      /** TrekStor tolino7 */
+      val TOLINO7 = "spec:width=900,height=1440,unit=px,dpi=240"
 
-      /** Trekstor TFMTKAW01332 */
-      val TFMTKAW01332 = "spec:width=1080,height=1920,unit=px,dpi=213"
+      /** TrekStor tolino8 */
+      val TOLINO8 = "spec:width=1200,height=1920,unit=px,dpi=320"
 
-      /** Trekstor THMTKAW01232 */
-      val THMTKAW01232 = "spec:width=800,height=1280,unit=px,dpi=160"
+      /** TrekStor tolino89 */
+      val TOLINO89 = "spec:width=1200,height=1920,unit=px,dpi=240"
 
   }

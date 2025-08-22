@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Xitrix device specifications for Android Compose previews.
+ * XITRIX device specifications for Android Compose previews.
  *
- * This extension provides Xitrix device specifications that can be used with @Preview annotations
+ * This extension provides XITRIX device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,10 @@ import kotlin.Any
  */
 public val Devices.Xitrix: Any
   get() = object {
-      /** Xitrix TravelPad_A10 */
-      val TRAVELPAD_A10 = "spec:width=1200,height=1920,unit=px,dpi=280"
+      /** XITRIX stanford */
+      val STANFORD = "spec:width=720,height=1280,unit=px,dpi=213"
+
+      /** XITRIX zhongshan */
+      val ZHONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

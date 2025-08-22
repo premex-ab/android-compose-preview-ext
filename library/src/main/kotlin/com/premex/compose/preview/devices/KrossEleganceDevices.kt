@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * KrossElegance device specifications for Android Compose previews.
+ * Kross_Elegance device specifications for Android Compose previews.
  *
- * This extension provides KrossElegance device specifications that can be used with @Preview
+ * This extension provides Kross_Elegance device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,7 @@ import kotlin.Any
  */
 public val Devices.KrossElegance: Any
   get() = object {
-      /** KrossElegance KE-TB1032OF */
-      val KE_TB1032OF = "spec:width=1200,height=2000,unit=px,dpi=280"
-
-      /** KrossElegance KE-TB816OF */
-      val KE_TB816OF = "spec:width=800,height=1280,unit=px,dpi=213"
+      /** Kross_Elegance KE-TB815 */
+      val KE_TB815 = "spec:width=800,height=1280,unit=px,dpi=213"
 
   }

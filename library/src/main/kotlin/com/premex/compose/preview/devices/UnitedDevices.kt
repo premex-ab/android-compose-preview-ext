@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * United device specifications for Android Compose previews.
+ * UNITED device specifications for Android Compose previews.
  *
- * This extension provides United device specifications that can be used with @Preview annotations
+ * This extension provides UNITED device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.United: Any
   get() = object {
-      /** United ikebukuro */
-      val IKEBUKURO = "spec:width=720,height=1280,unit=px,dpi=213"
-
-      /** United redwood */
-      val REDWOOD = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** UNITED gangbyeon */
+      val GANGBYEON = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }

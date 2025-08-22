@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Figgers device specifications for Android Compose previews.
+ * FIGGERS device specifications for Android Compose previews.
  *
- * This extension provides Figgers device specifications that can be used with @Preview annotations
+ * This extension provides FIGGERS device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Figgers: Any
   get() = object {
-      /** Figgers Figgers_DragonX */
-      val FIGGERS_DRAGONX = "spec:width=720,height=1600,unit=px,dpi=320"
+      /** FIGGERS Figgers_F3 */
+      val FIGGERS_F3 = "spec:width=1080,height=2246,unit=px,dpi=480"
 
   }

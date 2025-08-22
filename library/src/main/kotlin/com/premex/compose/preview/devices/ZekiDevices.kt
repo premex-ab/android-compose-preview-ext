@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Zeki device specifications for Android Compose previews.
+ * ZEKI device specifications for Android Compose previews.
  *
- * This extension provides Zeki device specifications that can be used with @Preview annotations
+ * This extension provides ZEKI device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,13 +20,7 @@ import kotlin.Any
  */
 public val Devices.Zeki: Any
   get() = object {
-      /** Zeki TBDV986 */
-      val TBDV986 = "spec:width=600,height=1024,unit=px,dpi=160"
-
-      /** Zeki TBOG1034 */
-      val TBOG1034 = "spec:width=800,height=1280,unit=px,dpi=160"
-
-      /** Zeki TBQG1038 */
-      val TBQG1038 = "spec:width=600,height=1024,unit=px,dpi=160"
+      /** ZEKI TBQG1031 */
+      val TBQG1031 = "spec:width=800,height=1280,unit=px,dpi=213"
 
   }

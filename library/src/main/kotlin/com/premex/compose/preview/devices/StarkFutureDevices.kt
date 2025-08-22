@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * StarkFuture device specifications for Android Compose previews.
+ * STARK_FUTURE device specifications for Android Compose previews.
  *
- * This extension provides StarkFuture device specifications that can be used with @Preview
+ * This extension provides STARK_FUTURE device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,7 @@ import kotlin.Any
  */
 public val Devices.StarkFuture: Any
   get() = object {
-      /** StarkFuture ARKENSTONE */
-      val ARKENSTONE = "spec:width=720,height=1612,unit=px,dpi=320"
-
-      /** StarkFuture ARKENSTONE_US */
-      val ARKENSTONE_US = "spec:width=720,height=1612,unit=px,dpi=320"
+      /** STARK_FUTURE VARG */
+      val VARG = "spec:width=720,height=1440,unit=px,dpi=320"
 
   }

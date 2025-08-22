@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Viper device specifications for Android Compose previews.
+ * VIPER device specifications for Android Compose previews.
  *
- * This extension provides Viper device specifications that can be used with @Preview annotations
+ * This extension provides VIPER device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,10 +20,7 @@ import kotlin.Any
  */
 public val Devices.Viper: Any
   get() = object {
-      /** Viper SZ11MK1 */
-      val SZ11MK1 = "spec:width=800,height=1280,unit=px,dpi=200"
-
-      /** Viper Z11MK */
-      val Z11MK = "spec:width=1200,height=1920,unit=px,dpi=248"
+      /** VIPER VIPER-Z08MK */
+      val VIPER_Z08MK = "spec:width=800,height=1280,unit=px,dpi=213"
 
   }

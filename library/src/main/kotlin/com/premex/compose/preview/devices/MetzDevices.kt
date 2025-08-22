@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Metz device specifications for Android Compose previews.
+ * METZ device specifications for Android Compose previews.
  *
- * This extension provides Metz device specifications that can be used with @Preview annotations
+ * This extension provides METZ device specifications that can be used with @Preview annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
  * Usage:
@@ -20,7 +20,7 @@ import kotlin.Any
  */
 public val Devices.Metz: Any
   get() = object {
-      /** Metz shinagawa */
-      val SHINAGAWA = "spec:width=720,height=1280,unit=px,dpi=213"
+      /** METZ 86SG1 */
+      val _86SG1 = "spec:width=2160,height=3840,unit=px,dpi=480"
 
   }

@@ -4,9 +4,9 @@ import com.premex.compose.preview.Devices
 import kotlin.Any
 
 /**
- * Transvision device specifications for Android Compose previews.
+ * TRANSVISION device specifications for Android Compose previews.
  *
- * This extension provides Transvision device specifications that can be used with @Preview
+ * This extension provides TRANSVISION device specifications that can be used with @Preview
  * annotations
  * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
  *
@@ -21,10 +21,7 @@ import kotlin.Any
  */
 public val Devices.Transvision: Any
   get() = object {
-      /** Transvision UHD_I56AD_TRV */
-      val UHD_I56AD_TRV = "spec:width=1080,height=1920,unit=px,dpi=320"
-
-      /** Transvision USB6_IR80 */
-      val USB6_IR80 = "spec:width=1080,height=1920,unit=px,dpi=320"
+      /** TRANSVISION SEI500TR */
+      val SEI500TR = "spec:width=1080,height=1920,unit=px,dpi=320"
 
   }
