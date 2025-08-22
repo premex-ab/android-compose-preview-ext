@@ -87,8 +87,8 @@ jobs:
           - Generates both main `Devices.kt` and manufacturer extension files
           
           ### Files Updated
-          - `android-compose-preview-ext/src/main/kotlin/com/premex/compose/preview/Devices.kt`
-          - `android-compose-preview-ext/src/main/kotlin/com/premex/compose/preview/devices/*Devices.kt`
+          - `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/Devices.kt`
+          - `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/*Devices.kt`
           
           ---
           

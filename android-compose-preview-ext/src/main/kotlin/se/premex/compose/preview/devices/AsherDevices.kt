@@ -1,0 +1,29 @@
+package se.premex.compose.preview.devices
+
+import kotlin.Any
+import se.premex.compose.preview.Devices
+
+/**
+ * ASHER device specifications for Android Compose previews.
+ *
+ * This extension provides ASHER device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Asher.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Asher: Any
+  get() = object {
+      /** ASHER longshan */
+      val LONGSHAN = "spec:width=1080,height=1920,unit=px,dpi=320"
+
+      /** ASHER redwood */
+      val REDWOOD = "spec:width=720,height=1280,unit=px,dpi=213"
+
+  }

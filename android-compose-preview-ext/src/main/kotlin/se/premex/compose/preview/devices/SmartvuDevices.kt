@@ -1,0 +1,26 @@
+package se.premex.compose.preview.devices
+
+import kotlin.Any
+import se.premex.compose.preview.Devices
+
+/**
+ * SmartVu device specifications for Android Compose previews.
+ *
+ * This extension provides SmartVu device specifications that can be used with @Preview annotations
+ * in Android Compose, sourced from the Android Device Catalog maintained by Google Play Store.
+ *
+ * Usage:
+ * ```kotlin
+ * @Preview(device = Devices.Smartvu.DEVICE_NAME)
+ * @Composable
+ * fun MyPreview() {
+ *     // Your composable content
+ * }
+ * ```
+ */
+public val Devices.Smartvu: Any
+  get() = object {
+      /** SmartVu SEI730BSVU */
+      val SEI730BSVU = "spec:width=720,height=1280,unit=px,dpi=320"
+
+  }

@@ -3,7 +3,7 @@ plugins {
 }
 
 allprojects {
-    group = "com.premex.compose.preview"
+    group = "se.premex.compose.preview"
     version = "1.0.0"
     
     repositories {

@@ -22,5 +22,5 @@ tasks.test {
 }
 
 application {
-    mainClass.set("com.premex.compose.preview.generator.DeviceGeneratorKt")
+    mainClass.set("se.premex.compose.preview.generator.DeviceGeneratorKt")
 }
