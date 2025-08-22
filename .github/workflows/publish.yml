@@ -35,15 +35,15 @@ jobs:
       run: |
         VERSION=${GITHUB_REF#refs/tags/v}
         echo "VERSION=$VERSION" >> $GITHUB_ENV
-        sed -i "s/version = \".*\"/version = \"$VERSION\"/" build.gradle.kts
-    
+        sed -E -i.bak 's/^(\s*version = )".*"/\1"'"$VERSION"'"/' build.gradle.kts && rm build.gradle.kts.bak
+
     - name: Set version from input
       if: github.event_name == 'workflow_dispatch'
       run: |
         VERSION=${{ github.event.inputs.version }}
         echo "VERSION=$VERSION" >> $GITHUB_ENV
-        sed -i "s/version = \".*\"/version = \"$VERSION\"/" build.gradle.kts
-    
+        sed -E -i.bak 's/^(\s*version = )".*"/\1"'"$VERSION"'"/' build.gradle.kts && rm build.gradle.kts.bak
+
     - name: Build and test
       run: ./gradlew build test
     
