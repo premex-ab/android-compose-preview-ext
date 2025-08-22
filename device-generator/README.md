@@ -29,12 +29,19 @@ The `device-generator` module provides a Kotlin-based alternative to `scripts/up
 ./gradlew :device-generator:run --args="--dry-run"
 ```
 
+### Generate README documentation only
+```bash
+./gradlew :device-generator:run --args="--readme-only"
+```
+
 ## Architecture
 
 - `DeviceFetcher`: Downloads and parses device data from external CSV
 - `DeviceSpec`: Data model representing a device specification
 - `DevicesFileGenerator`: Generates main Devices.kt using KotlinPoet
 - `ManufacturerExtensionGenerator`: Generates manufacturer extension files
+- `ReadmeGenerator`: Generates comprehensive README documentation for all devices
+- `DeviceFileParser`: Parses existing device files to extract specifications
 - `DeviceGenerator`: Main orchestrator class
 
 ## Data Sources
@@ -45,6 +52,7 @@ Primary source: [Android Device Catalog CSV](https://raw.githubusercontent.com/h
 
 - **Main file**: `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/Devices.kt`
 - **Extensions**: `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/*Devices.kt`
+- **Documentation**: `docs/devices/*-devices.md` (comprehensive README files for each manufacturer)
 
 ## Migration from Bash Script
 
