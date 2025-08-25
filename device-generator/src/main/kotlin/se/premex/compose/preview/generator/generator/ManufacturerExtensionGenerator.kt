@@ -37,7 +37,7 @@ class ManufacturerExtensionGenerator {
         
         // Create the extension property that returns an object
         val extensionProperty = PropertySpec.builder(className, ANY)
-            .receiver(ClassName("se.premex.compose.preview", "Devices"))
+            .receiver(ClassName("se.premex.compose.preview", "DeviceCatalog"))
             .getter(FunSpec.getterBuilder()
                 .addCode("return object {%L}", generateDeviceConstants(devices))
                 .build())
@@ -49,7 +49,7 @@ class ManufacturerExtensionGenerator {
 
                 Usage:
                 ```kotlin
-                @Preview(device = Devices.$className.DEVICE_NAME)
+                @Preview(device = DeviceCatalog.$className.DEVICE_NAME)
                 @Composable
                 fun MyPreview() {
                     // Your composable content
@@ -59,7 +59,7 @@ class ManufacturerExtensionGenerator {
             .build()
         
         val fileSpec = FileSpec.builder("se.premex.compose.preview.devices", fileName)
-            .addImport("se.premex.compose.preview", "Devices")
+            .addImport("se.premex.compose.preview", "DeviceCatalog")
             .addProperty(extensionProperty)
             .build()
         

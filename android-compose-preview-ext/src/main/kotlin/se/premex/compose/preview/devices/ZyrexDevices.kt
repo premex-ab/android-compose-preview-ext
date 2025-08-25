@@ -1,7 +1,7 @@
 package se.premex.compose.preview.devices
 
 import kotlin.Any
-import se.premex.compose.preview.Devices
+import se.premex.compose.preview.DeviceCatalog
 
 /**
  * zyrex device specifications for Android Compose previews.
@@ -11,14 +11,14 @@ import se.premex.compose.preview.Devices
  *
  * Usage:
  * ```kotlin
- * @Preview(device = Devices.Zyrex.DEVICE_NAME)
+ * @Preview(device = DeviceCatalog.Zyrex.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
  * ```
  */
-public val Devices.Zyrex: Any
+public val DeviceCatalog.Zyrex: Any
   get() = object {
       /** zyrex ZT216_1 */
       val ZT216_1 = "spec:width=800,height=1280,unit=px,dpi=160"

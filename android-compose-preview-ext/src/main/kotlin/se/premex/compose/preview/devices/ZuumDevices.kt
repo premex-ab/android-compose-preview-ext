@@ -1,7 +1,7 @@
 package se.premex.compose.preview.devices
 
 import kotlin.Any
-import se.premex.compose.preview.Devices
+import se.premex.compose.preview.DeviceCatalog
 
 /**
  * ZUUM device specifications for Android Compose previews.
@@ -11,14 +11,14 @@ import se.premex.compose.preview.Devices
  *
  * Usage:
  * ```kotlin
- * @Preview(device = Devices.Zuum.DEVICE_NAME)
+ * @Preview(device = DeviceCatalog.Zuum.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
  * ```
  */
-public val Devices.Zuum: Any
+public val DeviceCatalog.Zuum: Any
   get() = object {
       /** ZUUM AKUS */
       val AKUS = "spec:width=720,height=1280,unit=px,dpi=320"

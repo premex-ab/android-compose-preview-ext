@@ -6,8 +6,11 @@ This module replaces the bash script functionality with Kotlin code using Kotlin
 
 The `device-generator` module provides a Kotlin-based alternative to `scripts/update-devices.sh`. It fetches device data from external sources and generates:
 
-1. Main `Devices.kt` file with Google device constants
+1. Main `Devices.kt` file containing the `DeviceCatalog` object (backward compatible `typealias Devices = DeviceCatalog`)
 2. Manufacturer extension files (e.g., `SamsungDevices.kt`, `XiaomiDevices.kt`)
+
+## Migration Notice
+The core object has been renamed from `Devices` to `DeviceCatalog` for clarity. Existing code using `Devices.*` continues to work via a deprecated typealias, but you should migrate to `DeviceCatalog.*`.
 
 ## Features
 
@@ -16,6 +19,7 @@ The `device-generator` module provides a Kotlin-based alternative to `scripts/up
 - **Duplicate handling**: Automatically deduplicates device specifications
 - **Dry run support**: Preview changes before generating files
 - **Built-in fallbacks**: Ensures critical Google devices are always available
+- **Backward compatibility**: Provides deprecated `Devices` alias
 
 ## Usage
 
@@ -33,7 +37,7 @@ The `device-generator` module provides a Kotlin-based alternative to `scripts/up
 
 - `DeviceFetcher`: Downloads and parses device data from external CSV
 - `DeviceSpec`: Data model representing a device specification
-- `DevicesFileGenerator`: Generates main Devices.kt using KotlinPoet
+- `DevicesFileGenerator`: Generates main Devices.kt (with DeviceCatalog object) using KotlinPoet
 - `ManufacturerExtensionGenerator`: Generates manufacturer extension files
 - `DeviceGenerator`: Main orchestrator class
 

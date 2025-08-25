@@ -1,7 +1,6 @@
 package se.premex.compose.preview.generator
 
 import se.premex.compose.preview.generator.fetcher.DeviceFetcher
-import se.premex.compose.preview.generator.generator.DevicesFileGenerator
 import se.premex.compose.preview.generator.generator.ManufacturerExtensionGenerator
 import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
@@ -42,13 +41,11 @@ fun main(args: Array<String>) {
  */
 class DeviceGenerator {
     private val deviceFetcher = DeviceFetcher()
-    private val devicesFileGenerator = DevicesFileGenerator()
     private val manufacturerExtensionGenerator = ManufacturerExtensionGenerator()
     
     // Project paths
     private val projectRoot = findProjectRoot()
     private val librarySourcePath = projectRoot.resolve("android-compose-preview-ext/src/main/kotlin")
-    private val devicesFilePath = librarySourcePath
     private val extensionsPath = librarySourcePath.resolve("se/premex/compose/preview/devices")
     
     /**
@@ -58,25 +55,19 @@ class DeviceGenerator {
         println("🔍 Performing dry run - no files will be modified...")
         
         val devices = deviceFetcher.fetchDeviceSpecs()
-        val googleDevices = devices.filter { it.isGoogleDevice }
         val nonGoogleDevices = devices.filterNot { it.isGoogleDevice }
         val manufacturers = nonGoogleDevices.groupBy { it.toManufacturerClassName() }
         
-        println("\n📊 Summary of what would be generated:")
-        println("- Total devices: ${devices.size}")
-        println("- Google devices (for main Devices.kt): ${googleDevices.size}")
+        println("\n📊 Summary:")
         println("- Third-party devices: ${nonGoogleDevices.size}")
         println("- Manufacturer extensions: ${manufacturers.size}")
         
         println("\nManufacturer breakdown:")
-        manufacturers.forEach { (manufacturer, devices) ->
-            println("  - $manufacturer: ${devices.size} devices")
-        }
-        
+        manufacturers.forEach { (m, list) -> println("  - $m: ${list.size} devices") }
+
         println("\nFiles that would be generated:")
-        println("  - android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/Devices.kt")
-        manufacturers.keys.sorted().forEach { manufacturer ->
-            println("  - android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/${manufacturer}Devices.kt")
+        manufacturers.keys.sorted().forEach { m ->
+            println("  - android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/${m}Devices.kt")
         }
     }
     
@@ -84,16 +75,13 @@ class DeviceGenerator {
      * Generates all device specification files.
      */
     suspend fun generateDeviceFiles() {
-        println("🏭 Starting Android Compose Preview device generation...")
-        
+        println("🏭 Generating manufacturer extension files (Google devices removed)...")
+
         // Clean up old device files before generating new ones
-        cleanupOldDeviceFiles()
+        cleanupOldExtensionFiles()
 
         // Fetch device specifications
         val devices = deviceFetcher.fetchDeviceSpecs()
-        
-        // Generate main Devices.kt file
-        devicesFileGenerator.generateDevicesFile(devices, devicesFilePath)
         
         // Generate manufacturer extension files
         manufacturerExtensionGenerator.generateManufacturerExtensions(devices, librarySourcePath)
@@ -105,35 +93,17 @@ class DeviceGenerator {
     /**
      * Cleans up old device files to ensure fresh generation.
      */
-    private fun cleanupOldDeviceFiles() {
-        println("🧹 Cleaning up old device files...")
+    private fun cleanupOldExtensionFiles() {
+        println("🧹 Cleaning up old manufacturer extension files...")
 
         try {
-            // Clean main Devices.kt file
-            val mainDevicesFile = devicesFilePath.resolve("se/premex/compose/preview/Devices.kt").toFile()
-            if (mainDevicesFile.exists()) {
-                val deleted = mainDevicesFile.delete()
-                if (deleted) {
-                    println("[INFO] Removed old Devices.kt file")
-                } else {
-                    println("[WARN] Failed to remove old Devices.kt file")
-                }
-            }
-
-            // Clean manufacturer extension files directory
             val extensionsDir = extensionsPath.toFile()
             if (extensionsDir.exists()) {
-                val extensionFiles = extensionsDir.listFiles { file ->
-                    file.isFile && file.name.endsWith("Devices.kt")
-                }
+                val extensionFiles = extensionsDir.listFiles { f -> f.isFile && f.name.endsWith("Devices.kt") }
 
                 if (extensionFiles != null && extensionFiles.isNotEmpty()) {
                     val deletedCount = extensionFiles.count { it.delete() }
                     println("[INFO] Removed $deletedCount old manufacturer extension files")
-
-                    if (deletedCount < extensionFiles.size) {
-                        println("[WARN] Failed to remove ${extensionFiles.size - deletedCount} manufacturer extension files")
-                    }
                 } else {
                     println("[INFO] No old manufacturer extension files found")
                 }
@@ -143,7 +113,6 @@ class DeviceGenerator {
 
         } catch (e: Exception) {
             println("[WARN] Error during cleanup: ${e.message}")
-            // Don't fail the entire process due to cleanup issues
         }
 
         println("✅ Cleanup completed")
@@ -155,36 +124,12 @@ class DeviceGenerator {
     private fun validateGeneration() {
         println("[INFO] Validating generated files...")
         
-        // Check if files exist
-        val devicesFile = devicesFilePath.resolve("se/premex/compose/preview/Devices.kt").toFile()
-        if (!devicesFile.exists()) {
-            error("Main Devices.kt file was not generated")
-        }
-        
         val extensionsDir = extensionsPath.toFile()
         if (!extensionsDir.exists() || extensionsDir.listFiles()?.isEmpty() == true) {
             error("No manufacturer extension files were generated")
         }
         
-        println("[INFO] ✅ Generated files validation passed")
-        
-        // Optionally run a build to verify compilation
-        try {
-            val projectDir = findProjectRoot().toFile()
-            val process = ProcessBuilder("./gradlew", "build", "--quiet")
-                .directory(projectDir)
-                .inheritIO()
-                .start()
-                
-            val exitCode = process.waitFor()
-            if (exitCode == 0) {
-                println("[INFO] ✅ Build successful - generated files compile correctly")
-            } else {
-                println("[WARN] Build failed - there may be compilation issues with generated files")
-            }
-        } catch (e: Exception) {
-            println("[WARN] Could not run validation build: ${e.message}")
-        }
+        println("[INFO] ✅ Generated manufacturer extensions present")
     }
     
     /**

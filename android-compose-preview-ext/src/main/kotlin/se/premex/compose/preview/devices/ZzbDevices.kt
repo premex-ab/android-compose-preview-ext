@@ -1,7 +1,7 @@
 package se.premex.compose.preview.devices
 
 import kotlin.Any
-import se.premex.compose.preview.Devices
+import se.premex.compose.preview.DeviceCatalog
 
 /**
  * ZZB device specifications for Android Compose previews.
@@ -11,14 +11,14 @@ import se.premex.compose.preview.Devices
  *
  * Usage:
  * ```kotlin
- * @Preview(device = Devices.Zzb.DEVICE_NAME)
+ * @Preview(device = DeviceCatalog.Zzb.DEVICE_NAME)
  * @Composable
  * fun MyPreview() {
  *     // Your composable content
  * }
  * ```
  */
-public val Devices.Zzb: Any
+public val DeviceCatalog.Zzb: Any
   get() = object {
       /** ZZB ZB10 */
       val ZB10 = "spec:width=800,height=1280,unit=px,dpi=213"
