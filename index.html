@@ -345,15 +345,15 @@
             <div style="margin-bottom: 3rem;">
                 <h3 style="margin-bottom: 1rem; color: #667eea;">1. Add Dependency</h3>
                 <p style="margin-bottom: 1rem; color: #666;">The library is hosted on Maven Central, so no additional repository configuration is needed if you already have <code>mavenCentral()</code> in your repositories block.</p>
-                <div class="code-block">// Module build.gradle.kts
+                <div class="code-block"><pre>// Module build.gradle.kts
 dependencies {
     implementation("se.premex.compose.preview:android-compose-preview-ext:1.0.0")
-}</div>
+}</pre></div>
             </div>
 
             <div style="margin-bottom: 3rem;">
                 <h3 style="margin-bottom: 1rem; color: #667eea;">2. Use in Previews</h3>
-                <div class="code-block">import androidx.compose.ui.tooling.preview.Preview
+                <div class="code-block"><pre>import androidx.compose.ui.tooling.preview.Preview
 import se.premex.compose.preview.device.catalog.android.Zebra
 
 @Preview(name = "Zebra MC33", device = Zebra.MC33)
@@ -361,7 +361,7 @@ import se.premex.compose.preview.device.catalog.android.Zebra
 @Composable
 fun MultiDevicePreview() {
     YourComposableContent()
-}</div>
+}</pre></div>
             </div>
 
             <p style="text-align: center; margin-top: 2rem;">
