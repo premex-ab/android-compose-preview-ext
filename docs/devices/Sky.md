@@ -1,0 +1,82 @@
+# Sky Devices
+
+Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sky`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| B866VH | B866VH | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Sky.B866VH)` |
+| DV6067Y_SKY | DV6067Y_SKY | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sky.DV6067Y_SKY)` |
+| ef71g | EF71G | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sky.EF71G)` |
+| ef71k | EF71K | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sky.EF71K)` |
+| ef71s | EF71S | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sky.EF71S)` |
+| ELIBI_55 | ELIBI_55 | 720x1440 | 360 | `spec:width=720px,height=1440px,dpi=360` | `@Preview(device = Sky.ELIBI_55)` |
+| Elite_4T_GT | ELITE_4T_GT | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Sky.ELITE_4T_GT)` |
+| Elite_A6 | ELITE_A6 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Sky.ELITE_A6)` |
+| Elite_A63 | ELITE_A63 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Sky.ELITE_A63)` |
+| Elite_B5MS | ELITE_B5MS | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_B5MS)` |
+| Elite_C55 | ELITE_C55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_C55)` |
+| Elite_C55US | ELITE_C55US | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sky.ELITE_C55US)` |
+| Elite_C55USA | ELITE_C55USA | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sky.ELITE_C55USA)` |
+| Elite_H55 | ELITE_H55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_H55)` |
+| Elite_H55_HD | ELITE_H55_HD | 720x1440 | 360 | `spec:width=720px,height=1440px,dpi=360` | `@Preview(device = Sky.ELITE_H55_HD)` |
+| Elite_H5_FW | ELITE_H5_FW | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_H5_FW)` |
+| Elite_J55 | ELITE_J55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_J55)` |
+| Elite_J55US | ELITE_J55US | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_J55US)` |
+| Elite_L55 | ELITE_L55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_L55)` |
+| Elite_M45 | ELITE_M45 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_M45)` |
+| Elite_M5Plus_PA | ELITE_M5PLUS_PA | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_M5PLUS_PA)` |
+| Elite_M5Plus_SAL | ELITE_M5PLUS_SAL | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_M5PLUS_SAL)` |
+| Elite_N55 | ELITE_N55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_N55)` |
+| Elite_N55Max | ELITE_N55MAX | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Sky.ELITE_N55MAX)` |
+| Elite_Octa_Plus | ELITE_OCTA_PLUS | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_OCTA_PLUS)` |
+| Elite_OctaPlus | ELITE_OCTAPLUS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_OCTAPLUS)` |
+| Elite_OctaPlus3us | ELITE_OCTAPLUS3US | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_OCTAPLUS3US)` |
+| Elite_OctaPlusa2 | ELITE_OCTAPLUSA2 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_OCTAPLUSA2)` |
+| Elite_OctaPlusKK1 | ELITE_OCTAPLUSKK1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_OCTAPLUSKK1)` |
+| Elite_OctaX | ELITE_OCTAX | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_OCTAX)` |
+| Elite_OctaXK | ELITE_OCTAXK | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_OCTAXK)` |
+| Elite_OctaXK2 | ELITE_OCTAXK2 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_OCTAXK2)` |
+| Elite_OctaXkk3 | ELITE_OCTAXKK3 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_OCTAXKK3)` |
+| Elite_OctaXS | ELITE_OCTAXS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_OCTAXS)` |
+| Elite_PAD8USA | ELITE_PAD8USA | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_PAD8USA)` |
+| Elite_R55 | ELITE_R55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_R55)` |
+| Elite_T4 | ELITE_T4 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Sky.ELITE_T4)` |
+| Elite_T6 | ELITE_T6 | 600x1280 | 280 | `spec:width=600px,height=1280px,dpi=280` | `@Preview(device = Sky.ELITE_T6)` |
+| ELITE_T8 | ELITE_T8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_T8)` |
+| Elite_T8Plus | ELITE_T8PLUS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_T8PLUS)` |
+| Elite_T8PlusK | ELITE_T8PLUSK | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_T8PLUSK)` |
+| Elite_T8Pluss | ELITE_T8PLUSS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_T8PLUSS)` |
+| Elite_T8PUB | ELITE_T8PUB | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_T8PUB)` |
+| Elite_T8PUSA | ELITE_T8PUSA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_T8PUSA)` |
+| ELITE_US_T8 | ELITE_US_T8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sky.ELITE_US_T8)` |
+| HY40A | HY40A | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sky.HY40A)` |
+| KSTB3226 | KSTB3226 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sky.KSTB3226)` |
+| Platinum_A57_OP | PLATINUM_A57_OP | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.PLATINUM_A57_OP)` |
+| Platinum_A7 | PLATINUM_A7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Sky.PLATINUM_A7)` |
+| Platinum_K5 | PLATINUM_K5 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.PLATINUM_K5)` |
+| Platinum_K55 | PLATINUM_K55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.PLATINUM_K55)` |
+| Platinum_P4 | PLATINUM_P4 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Sky.PLATINUM_P4)` |
+| PLATINUM_VIEW2 | PLATINUM_VIEW2 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Sky.PLATINUM_VIEW2)` |
+| PLATINUM_VIEW2_PLUS | PLATINUM_VIEW2_PLUS | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Sky.PLATINUM_VIEW2_PLUS)` |
+| Platinum_View2_V2 | PLATINUM_VIEW2_V2 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Sky.PLATINUM_VIEW2_V2)` |
+| Premier5_US | PREMIER5_US | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.PREMIER5_US)` |
+| PRO_SELFIE | PRO_SELFIE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sky.PRO_SELFIE)` |
+| SEI800SKM | SEI800SKM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sky.SEI800SKM)` |
+| SKY_KIDsPro | SKY_KIDSPRO | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_KIDSPRO)` |
+| SKY_PAD10 | SKY_PAD10 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_PAD10)` |
+| SKY_Pad10k | SKY_PAD10K | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_PAD10K)` |
+| SKY_PAD10Maxk1 | SKY_PAD10MAXK1 | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Sky.SKY_PAD10MAXK1)` |
+| SKY_PAD10Maxk2 | SKY_PAD10MAXK2 | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Sky.SKY_PAD10MAXK2)` |
+| SKY_PAD10Maxk3 | SKY_PAD10MAXK3 | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Sky.SKY_PAD10MAXK3)` |
+| SKY_PAD10MaxNUS | SKY_PAD10MAXNUS | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_PAD10MAXNUS)` |
+| SKY_PAD10MaxOPM | SKY_PAD10MAXOPM | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_PAD10MAXOPM)` |
+| SKY_PAD10us | SKY_PAD10US | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Sky.SKY_PAD10US)` |
+| SKY_PAD8 | SKY_PAD8 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.SKY_PAD8)` |
+| SKY_PAD8Pro | SKY_PAD8PRO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.SKY_PAD8PRO)` |
+| SKY_PAD8PROUS | SKY_PAD8PROUS | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Sky.SKY_PAD8PROUS)` |
+| SKY_PAX10US | SKY_PAX10US | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_PAX10US)` |
+| SKY_Prestige | SKY_PRESTIGE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sky.SKY_PRESTIGE)` |
+| SKY_Prestige2 | SKY_PRESTIGE2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sky.SKY_PRESTIGE2)` |
+| SKY_VISION2_Plus | SKY_VISION2_PLUS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Sky.SKY_VISION2_PLUS)` |
+
+<!-- Generated automatically. Do not edit manually. -->

@@ -19,7 +19,7 @@ data class DeviceSpec(
         return if (isGoogleDevice) {
             "id:$code"
         } else {
-            "spec:width=$width,height=$height,unit=px,dpi=$dpi"
+            "spec:width=${width}px,height=${height}px,dpi=$dpi"
         }
     }
     

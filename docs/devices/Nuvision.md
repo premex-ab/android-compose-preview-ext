@@ -1,0 +1,9 @@
+# Nuvision Devices
+
+Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nuvision`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| TM800AM | TM800AM | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Nuvision.TM800AM)` |
+
+<!-- Generated automatically. Do not edit manually. -->

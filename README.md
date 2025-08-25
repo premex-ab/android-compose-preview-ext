@@ -4,280 +4,109 @@
 [![Publish to GitHub Packages](https://github.com/premex-ab/android-compose-preview-ext/actions/workflows/publish.yml/badge.svg)](https://github.com/premex-ab/android-compose-preview-ext/actions/workflows/publish.yml)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A Kotlin library that extends Android Compose preview capabilities with comprehensive device specifications from major manufacturers, designed to work seamlessly with `androidx.compose.ui:ui-tooling-preview` and `androidx.compose.ui:ui-tooling-preview-android`.
+Super‑charge your Jetpack Compose previews with production‑grade device specs for rugged enterprise handhelds and popular Android OEM devices – Zebra, Honeywell, Datalogic, Samsung, and more – plus Google reference devices through their stable IDs.
 
-## 📱 Supported Devices
+> Stop eyeballing layouts on a single Pixel. Catch density, width/height & aspect issues instantly – before they ship.
 
-This library provides device specifications for:
+<!-- SUPPORTED_DEVICE_STATS_START -->
+Total devices: **24282** across **2668** manufacturers. See the full list: [Supported Devices](docs/devices/README.md).
+<!-- SUPPORTED_DEVICE_STATS_END -->
 
-- **Google Devices**: All Nexus and Pixel devices (25+ devices)
-- **Zebra Technologies**: Professional mobile computers and rugged devices (17+ models)
-- **Samsung Galaxy**: Popular consumer and enterprise devices (11+ models) 
-- **Honeywell**: Enterprise mobility and data collection devices (10+ models)
-- **Datalogic**: Professional data capture and industrial automation devices (7+ models)
+## Why this exists
+The built‑in Compose preview device list is limited and focused on consumer phones. Enterprise & vertical‑market apps often run on purpose‑built scanners, sleds and rugged handhelds with very different screen metrics. This library ships curated, de‑duplicated specs so you can preview realistically with a single import.
 
-## 🚀 Installation
+## Key Features
+- One Kotlin object per manufacturer (e.g. `Zebra`, `Honeywell`, `Samsung`)
+- Simple constant strings drop straight into `@Preview(device = Zebra.MC33)` style usage
+- Google devices use official `id:` previews; others use explicit `spec:width=...,height=...,dpi=...` strings
+- Automatic markdown catalog generation: browse all supported devices in [docs/devices](docs/devices/README.md)
+- Deterministic naming with conflict resolution (resolution / DPI / short hash fallbacks)
+- Regenerate & extend via a Kotlin generator module (no shell scripts)
 
-### Gradle (Kotlin DSL)
+## Quick Start
+Add the GitHub Packages repository (if you haven't globally) and the dependency:
 
 ```kotlin
+// settings.gradle.kts or build.gradle.kts (top-level repositories block)
+repositories {
+    mavenCentral()
+    google()
+    maven {
+        url = uri("https://maven.pkg.github.com/premex-ab/android-compose-preview-ext")
+        credentials {
+            username = extra["gpr.user"].toString()
+            password = extra["gpr.key"].toString()
+        }
+    }
+}
+```
+
+```kotlin
+// Module build.gradle.kts
 dependencies {
     implementation("se.premex.compose.preview:android-compose-preview-ext:1.0.0")
 }
 ```
 
-### Gradle (Groovy)
+Provide `gpr.user` / `gpr.key` through `gradle.properties` or environment variables (`USERNAME` / `TOKEN`).
 
-```gradle
-dependencies {
-    implementation 'se.premex.compose.preview:android-compose-preview-ext:1.0.0'
-}
-```
-
-### Maven
-
-```xml
-<dependency>
-    <groupId>se.premex.compose.preview</groupId>
-    <artifactId>android-compose-preview-ext</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
-
-## 💻 Usage
-
-### Basic Usage
-
-Use the device specifications directly in your `@Preview` annotations:
+## Usage
+Import the manufacturer object you need and reference a constant:
 
 ```kotlin
 import androidx.compose.ui.tooling.preview.Preview
-import se.premex.compose.preview.Devices
+import se.premex.compose.preview.device.catalog.android.Zebra
 
-@Preview(device = Devices.PIXEL_8)
-@Preview(device = Devices.Zebra.TC26) 
-@Preview(device = Devices.Samsung.GALAXY_S24)
+@Preview(name = "Zebra MC33", device = Zebra.MC33)
 @Composable
-fun MyComposablePreview() {
-    MyComposable()
-}
+fun ZebraPreview() { /* ... */ }
 ```
 
-### Enterprise Device Examples
-
-Perfect for enterprise and industrial applications:
+Multiple devices in one file:
 
 ```kotlin
-@Preview(
-    name = "Zebra TC27 - Warehouse Scanner",
-    device = Devices.Zebra.TC27
-)
-@Preview(
-    name = "Honeywell CT45 - Retail POS",
-    device = Devices.Honeywell.CT45
-)
-@Preview(
-    name = "Datalogic Memor 11 - Logistics",
-    device = Devices.Datalogic.MEMOR_11
-)
+@Preview(name = "Rugged (MC33)", device = Zebra.MC33)
+@Preview(name = "Rugged (EC50)", device = Zebra.EC50)
+@Preview(name = "Scanner (CK65)", device = Honeywell.CK65)
 @Composable
-fun EnterpriseAppPreview() {
-    EnterpriseApp()
-}
+fun MultiDevicePreview() { /* ... */ }
 ```
 
-### Multi-Device Preview Groups
-
-Create comprehensive preview groups for different use cases:
+Google reference devices (Pixels etc.) use their `id:` values automatically in constants, so you still write:
 
 ```kotlin
-@Preview(device = Devices.PIXEL_8, name = "Consumer - Pixel 8")
-@Preview(device = Devices.Samsung.GALAXY_S24, name = "Consumer - Galaxy S24")
-@Preview(device = Devices.Zebra.TC57, name = "Enterprise - Zebra TC57")
-@Preview(device = Devices.Honeywell.CT60, name = "Enterprise - Honeywell CT60")
-@Composable
-fun UniversalAppPreview() {
-    MyUniversalApp()
-}
+@Preview(name = "Pixel 8", device = Google.PIXEL_8)
 ```
 
-## 📋 Device Categories
+## Supported Devices
+A regenerated catalog lives here: [docs/devices/README.md](docs/devices/README.md). (If the link is empty, run the generator locally.)
 
-### Google Devices
-All standard Google devices are included:
-- Nexus series (Nexus 5, 6, 7, 9, 10, 5X, 6P)
-- Pixel series (Pixel, Pixel 2-9, Pro, XL, Fold, Tablet)
-- Automotive displays
+## Regenerating / Contributing New Devices
+The `device-generator` module fetches & normalizes specs, then outputs:
+- Kotlin sources under `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/device/catalog/android/`
+- Markdown docs under `docs/devices/`
+- Updated stats block in this README (between markers)
 
-### Enterprise Devices
-
-#### Zebra Technologies
-Professional mobile computers and rugged devices:
-```kotlin
-Devices.Zebra.TC26    // 5" HD, 720x1280, 294 DPI
-Devices.Zebra.TC27    // 5" FHD, 1080x2160, 402 DPI  
-Devices.Zebra.TC57    // 5" FHD, 1080x1920, 441 DPI
-Devices.Zebra.TC77    // 4.7" FHD, 1080x1920, 469 DPI
-// ... and more
-```
-
-#### Samsung Galaxy
-Consumer and enterprise devices:
-```kotlin
-Devices.Samsung.GALAXY_S24        // 6.2" FHD+, 1080x2340, 416 DPI
-Devices.Samsung.GALAXY_S24_ULTRA  // 6.8" QHD+, 1440x3120, 505 DPI
-Devices.Samsung.GALAXY_TAB_S9     // 11" WQXGA, 1600x2560, 274 DPI
-// ... and more
-```
-
-#### Honeywell
-Enterprise mobility and data collection:
-```kotlin
-Devices.Honeywell.CT40    // 5" HD, 720x1280, 294 DPI
-Devices.Honeywell.CT45    // 5" HD, 720x1280, 294 DPI
-Devices.Honeywell.EDA52   // 5" HD, 720x1280, 294 DPI
-// ... and more
-```
-
-#### Datalogic
-Professional data capture and automation:
-```kotlin
-Devices.Datalogic.MEMOR_10     // 5" HD, 720x1280, 294 DPI
-Devices.Datalogic.MEMOR_11     // 5" FHD, 1080x1920, 441 DPI
-Devices.Datalogic.SKORPIO_X5   // 3.2" WVGA, 800x480, 216 DPI
-// ... and more
-```
-
-## 🛠 Device Specification Format
-
-This library uses Android's device specification format:
-
-- **Google devices**: Use `id:` format (e.g., `"id:pixel_8"`)
-- **Third-party devices**: Use `spec:` format (e.g., `"spec:width=720,height=1280,unit=px,dpi=294"`)
-
-The spec format allows precise control over:
-- **Width/Height**: Screen dimensions in pixels
-- **Unit**: Always `px` for pixels
-- **DPI**: Dots per inch for accurate rendering
-
-## 🔄 Automated Updates
-
-This library includes automated device specification updates:
-
-### Weekly Updates
-- Runs every Sunday at 6:00 UTC
-- Automatically checks for new device specifications
-- Creates pull requests with updates
-
-### Manual Updates
-You can trigger updates manually:
-1. Go to the [Actions tab](https://github.com/premex-ab/android-compose-preview-ext/actions)
-2. Select "Update Device Specifications"
-3. Click "Run workflow"
-
-### Local Updates
-Run the update script locally:
+Run:
 ```bash
-# Show what would be updated
-./scripts/update-devices.sh --dry-run
-
-# Run the update
-./scripts/update-devices.sh
-
-# Force update without validation  
-./scripts/update-devices.sh --force
+./gradlew :device-generator:run
 ```
+Commit the changed Kotlin & Markdown files.
 
-## 🏗 Development
+### Adding / fixing a device
+1. Locate the fetch logic inside `device-generator` (e.g. `DeviceFetcher`) and extend its source lists.
+2. Run the generator.
+3. Verify new constants & docs.
+4. Open a PR describing the source/reference for the spec (link to vendor PDF / site preferred).
 
-### Building the Project
+## Versioning & Stability
+Constant names are derived from vendor model codes. If a conflict occurs (same code, different resolution) a suffix (resolution, DPI or short hash) is appended. This keeps existing names stable for the common case.
 
-```bash
-# Build the library
-./gradlew build
+## License
+MIT – see [LICENSE](LICENSE).
 
-# Run tests
-./gradlew test
-
-# Generate documentation
-./gradlew dokkaHtml
-```
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Add your device specifications using the generator
-4. Run tests: `./gradlew test`
-5. Submit a pull request
-
-### Adding New Devices
-
-The device generation is now handled by a Kotlin module instead of the bash script:
-
-1. **Generate devices**: Run the Kotlin generator
-   ```bash
-   ./gradlew :device-generator:run --args="--dry-run"  # Preview changes
-   ./gradlew :device-generator:run                      # Generate files
-   ```
-
-2. **Run tests**: Validate the generated code
-   ```bash
-   ./gradlew test
-   ```
-
-3. **Commit changes**: Include both generator changes and generated files
-
-The generator fetches device specifications from external sources and creates:
-- Main `Devices.kt` file with Google device constants (170+ devices)
-- Manufacturer extension files (3000+ manufacturers, 24000+ devices total)
-
-Guidelines:
-- Device specs are fetched automatically from the Android Device Catalog
-- Built-in fallbacks ensure critical Google devices are always available
-- Automatic deduplication handles duplicate device specifications
-- Generated code uses proper Kotlin naming conventions
-
-## 📦 Releases
-
-This library uses automated releases via GitHub Actions:
-
-### Creating a Release
-1. Create and push a git tag: `git tag v1.0.1 && git push origin v1.0.1`
-2. Create a GitHub release from the tag
-3. The library will be automatically published to GitHub Packages
-
-### Manual Publishing
-You can also publish manually using the workflow dispatch:
-1. Go to Actions → "Publish to GitHub Packages"
-2. Click "Run workflow"
-3. Enter the version number
-
-## 🎯 Use Cases
-
-This library is perfect for:
-
-- **Enterprise Applications**: Preview on actual devices used in warehouses, retail, healthcare
-- **Consumer Applications**: Test on popular Samsung Galaxy and Google Pixel devices  
-- **Cross-Platform Testing**: Ensure UI works across different screen sizes and densities
-- **Device-Specific Development**: Optimize for specific hardware configurations
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 🐛 Issues
-
-If you encounter any issues or have suggestions for improvements, please [create an issue](https://github.com/premex-ab/android-compose-preview-ext/issues).
-
-## ⭐ Support
-
-If you find this library useful, please consider giving it a star on GitHub!
+## Credits
+Maintained by [Premex AB](https://premex.se). Vendor names & trademarks belong to their respective owners.
 
 ---
-
-**Made with ❤️ for the Android development community**
+Enjoy faster feedback loops? Star the repo so others can discover it ⭐

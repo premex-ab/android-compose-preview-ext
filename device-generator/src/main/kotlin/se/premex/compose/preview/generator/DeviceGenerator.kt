@@ -1,8 +1,8 @@
 package se.premex.compose.preview.generator
 
 import se.premex.compose.preview.generator.fetcher.DeviceFetcher
-import se.premex.compose.preview.generator.generator.DevicesFileGenerator
-import se.premex.compose.preview.generator.generator.ManufacturerExtensionGenerator
+import se.premex.compose.preview.generator.generator.DeviceCatalogGenerator
+import se.premex.compose.preview.generator.generator.DeviceDocsGenerator
 import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -17,19 +17,11 @@ import kotlin.system.exitProcess
 fun main(args: Array<String>) {
     try {
         runBlocking {
-            val dryRun = args.contains("--dry-run")
             val generator = DeviceGenerator()
-            
-            if (dryRun) {
-                generator.dryRun()
-            } else {
-                generator.generateDeviceFiles()
-            }
-            
+            generator.generateDeviceFiles()
             println("🎉 Device generation completed successfully!")
             println("Run 'git diff' to see the changes made.")
         }
-        
     } catch (e: Exception) {
         println("[ERROR] Device generation failed: ${e.message}")
         e.printStackTrace()
@@ -42,149 +34,46 @@ fun main(args: Array<String>) {
  */
 class DeviceGenerator {
     private val deviceFetcher = DeviceFetcher()
-    private val devicesFileGenerator = DevicesFileGenerator()
-    private val manufacturerExtensionGenerator = ManufacturerExtensionGenerator()
-    
+    private val combinedGenerator = DeviceCatalogGenerator()
+    private val docsGenerator = DeviceDocsGenerator()
+
     // Project paths
     private val projectRoot = findProjectRoot()
     private val librarySourcePath = projectRoot.resolve("android-compose-preview-ext/src/main/kotlin")
-    private val devicesFilePath = librarySourcePath
-    private val extensionsPath = librarySourcePath.resolve("se/premex/compose/preview/devices")
-    
-    /**
-     * Performs a dry run to show what would be generated without actually generating files.
-     */
-    suspend fun dryRun() {
-        println("🔍 Performing dry run - no files will be modified...")
-        
-        val devices = deviceFetcher.fetchDeviceSpecs()
-        val googleDevices = devices.filter { it.isGoogleDevice }
-        val nonGoogleDevices = devices.filterNot { it.isGoogleDevice }
-        val manufacturers = nonGoogleDevices.groupBy { it.toManufacturerClassName() }
-        
-        println("\n📊 Summary of what would be generated:")
-        println("- Total devices: ${devices.size}")
-        println("- Google devices (for main Devices.kt): ${googleDevices.size}")
-        println("- Third-party devices: ${nonGoogleDevices.size}")
-        println("- Manufacturer extensions: ${manufacturers.size}")
-        
-        println("\nManufacturer breakdown:")
-        manufacturers.forEach { (manufacturer, devices) ->
-            println("  - $manufacturer: ${devices.size} devices")
-        }
-        
-        println("\nFiles that would be generated:")
-        println("  - android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/Devices.kt")
-        manufacturers.keys.sorted().forEach { manufacturer ->
-            println("  - android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/${manufacturer}Devices.kt")
-        }
-    }
-    
+
     /**
      * Generates all device specification files.
      */
     suspend fun generateDeviceFiles() {
-        println("🏭 Starting Android Compose Preview device generation...")
-        
-        // Clean up old device files before generating new ones
-        cleanupOldDeviceFiles()
+        println("🏭 Generating per-manufacturer device files (no unified kt)...")
 
         // Fetch device specifications
         val devices = deviceFetcher.fetchDeviceSpecs()
         
-        // Generate main Devices.kt file
-        devicesFileGenerator.generateDevicesFile(devices, devicesFilePath)
-        
         // Generate manufacturer extension files
-        manufacturerExtensionGenerator.generateManufacturerExtensions(devices, librarySourcePath)
-        
+        combinedGenerator.generate(devices, librarySourcePath)
+
+        // Generate markdown documentation for devices
+        docsGenerator.generate(devices, projectRoot)
+
         // Validate the generation
         validateGeneration()
     }
-    
-    /**
-     * Cleans up old device files to ensure fresh generation.
-     */
-    private fun cleanupOldDeviceFiles() {
-        println("🧹 Cleaning up old device files...")
 
-        try {
-            // Clean main Devices.kt file
-            val mainDevicesFile = devicesFilePath.resolve("se/premex/compose/preview/Devices.kt").toFile()
-            if (mainDevicesFile.exists()) {
-                val deleted = mainDevicesFile.delete()
-                if (deleted) {
-                    println("[INFO] Removed old Devices.kt file")
-                } else {
-                    println("[WARN] Failed to remove old Devices.kt file")
-                }
-            }
-
-            // Clean manufacturer extension files directory
-            val extensionsDir = extensionsPath.toFile()
-            if (extensionsDir.exists()) {
-                val extensionFiles = extensionsDir.listFiles { file ->
-                    file.isFile && file.name.endsWith("Devices.kt")
-                }
-
-                if (extensionFiles != null && extensionFiles.isNotEmpty()) {
-                    val deletedCount = extensionFiles.count { it.delete() }
-                    println("[INFO] Removed $deletedCount old manufacturer extension files")
-
-                    if (deletedCount < extensionFiles.size) {
-                        println("[WARN] Failed to remove ${extensionFiles.size - deletedCount} manufacturer extension files")
-                    }
-                } else {
-                    println("[INFO] No old manufacturer extension files found")
-                }
-            } else {
-                println("[INFO] Manufacturer extensions directory doesn't exist, will be created during generation")
-            }
-
-        } catch (e: Exception) {
-            println("[WARN] Error during cleanup: ${e.message}")
-            // Don't fail the entire process due to cleanup issues
-        }
-
-        println("✅ Cleanup completed")
-    }
 
     /**
      * Validates that the generated files can be compiled.
      */
     private fun validateGeneration() {
-        println("[INFO] Validating generated files...")
-        
-        // Check if files exist
-        val devicesFile = devicesFilePath.resolve("se/premex/compose/preview/Devices.kt").toFile()
-        if (!devicesFile.exists()) {
-            error("Main Devices.kt file was not generated")
-        }
-        
-        val extensionsDir = extensionsPath.toFile()
-        if (!extensionsDir.exists() || extensionsDir.listFiles()?.isEmpty() == true) {
-            error("No manufacturer extension files were generated")
-        }
-        
-        println("[INFO] ✅ Generated files validation passed")
-        
-        // Optionally run a build to verify compilation
-        try {
-            val projectDir = findProjectRoot().toFile()
-            val process = ProcessBuilder("./gradlew", "build", "--quiet")
-                .directory(projectDir)
-                .inheritIO()
-                .start()
-                
-            val exitCode = process.waitFor()
-            if (exitCode == 0) {
-                println("[INFO] ✅ Build successful - generated files compile correctly")
-            } else {
-                println("[WARN] Build failed - there may be compilation issues with generated files")
-            }
-        } catch (e: Exception) {
-            println("[WARN] Could not run validation build: ${e.message}")
-        }
+        // Actual base package used in DeviceCatalogGenerator
+        val generatedPkgDir = librarySourcePath.resolve("se/premex/compose/preview/device/catalog/android").toFile()
+        if (!generatedPkgDir.exists()) error("Generated package directory missing: $generatedPkgDir")
+        val generatedFiles = generatedPkgDir.walkTopDown().filter { it.isFile && it.name.endsWith(".kt") }.toList()
+        if (generatedFiles.isEmpty()) error("No manufacturer files generated in $generatedPkgDir")
+        // Basic sanity: ensure at least one object declaration exists
+        val hasObject = generatedFiles.any { it.readText().contains("object ") }
+        if (!hasObject) error("Generated files missing object declarations")
+        println("[INFO] ✅ Generation validated: ${generatedFiles.size} manufacturer files in ${generatedPkgDir}.")
     }
     
     /**

@@ -1,0 +1,86 @@
+# Lanix Devices
+
+Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lanix`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| Alpha_1R | ALPHA_1R | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_1R)` |
+| Alpha_1V | ALPHA_1V | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_1V)` |
+| ALPHA_3R | ALPHA_3R | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_3R)` |
+| Alpha_3V | ALPHA_3V | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_3V)` |
+| Alpha_5V | ALPHA_5V | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lanix.ALPHA_5V)` |
+| Alpha_950 | ALPHA_950 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ALPHA_950)` |
+| Alpha_950XL | ALPHA_950XL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ALPHA_950XL)` |
+| Alpha_9V | ALPHA_9V | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lanix.ALPHA_9V)` |
+| Ilium_Alpha7 | ILIUM_ALPHA7 | 720x1528 | 280 | `spec:width=720px,height=1528px,dpi=280` | `@Preview(device = Lanix.ILIUM_ALPHA7)` |
+| Ilium_Alpha_1s | ILIUM_ALPHA_1S | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Lanix.ILIUM_ALPHA_1S)` |
+| Ilium_Alpha_1TT | ILIUM_ALPHA_1TT | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Lanix.ILIUM_ALPHA_1TT)` |
+| Ilium_Alpha_3 | ILIUM_ALPHA_3 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ILIUM_ALPHA_3)` |
+| Ilium_Alpha_5s | ILIUM_ALPHA_5S | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Lanix.ILIUM_ALPHA_5S)` |
+| Ilium_Alpha_5T | ILIUM_ALPHA_5T | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ILIUM_ALPHA_5T)` |
+| Ilium_Alpha_9 | ILIUM_ALPHA_9 | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Lanix.ILIUM_ALPHA_9)` |
+| Ilium_L1100 | ILIUM_L1100 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L1100)` |
+| Ilium_L1120 | ILIUM_L1120 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L1120)` |
+| Ilium_L1400 | ILIUM_L1400 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lanix.ILIUM_L1400)` |
+| ILIUM_L200 | ILIUM_L200 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_L200)` |
+| Ilium_L610 | ILIUM_L610 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L610)` |
+| Ilium_L620 | ILIUM_L620 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L620)` |
+| Ilium_L910 | ILIUM_L910 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L910)` |
+| Ilium_L920 | ILIUM_L920 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L920)` |
+| Ilium_LT510 | ILIUM_LT510 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_LT510)` |
+| Ilium_LT520 | ILIUM_LT520 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_LT520)` |
+| Ilium_M1 | ILIUM_M1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.ILIUM_M1)` |
+| Ilium_M3 | ILIUM_M3 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.ILIUM_M3)` |
+| Ilium_M5 | ILIUM_M5 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.ILIUM_M5)` |
+| Ilium_M5s | ILIUM_M5S | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.ILIUM_M5S)` |
+| Ilium_M7 | ILIUM_M7 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ILIUM_M7)` |
+| Ilium_M7s | ILIUM_M7S | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ILIUM_M7S)` |
+| Ilium_M7T | ILIUM_M7T | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.ILIUM_M7T)` |
+| Ilium_M7V | ILIUM_M7V | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.ILIUM_M7V)` |
+| Ilium_M9 | ILIUM_M9 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ILIUM_M9)` |
+| Ilium_M9s | ILIUM_M9S | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ILIUM_M9S)` |
+| Ilium_M9V | ILIUM_M9V | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Lanix.ILIUM_M9V)` |
+| iLium_Pad_E10Si_1 | ILIUM_PAD_E10SI_1 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lanix.ILIUM_PAD_E10SI_1)` |
+| Ilium_PAD_RX8 | ILIUM_PAD_RX8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lanix.ILIUM_PAD_RX8)` |
+| ILIUM_PAD_RX8_v5 | ILIUM_PAD_RX8_V5 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lanix.ILIUM_PAD_RX8_V5)` |
+| ilium_PADE10 | ILIUM_PADE10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lanix.ILIUM_PADE10)` |
+| ILIUM_PADE8 | ILIUM_PADE8 | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Lanix.ILIUM_PADE8)` |
+| ILIUM_X110 | ILIUM_X110 | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lanix.ILIUM_X110)` |
+| Ilium_X200 | ILIUM_X200 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_X200)` |
+| Ilium_X210 | ILIUM_X210 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_X210)` |
+| Ilium_X220 | ILIUM_X220 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_X220)` |
+| Ilium_X500B | ILIUM_X500B | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_X500B)` |
+| Ilium_X510 | ILIUM_X510 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_X510)` |
+| Ilium_X520 | ILIUM_X520 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_X520)` |
+| Ilium_X710 | ILIUM_X710 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_X710)` |
+| IliumPad_RX10 | ILIUMPAD_RX10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lanix.ILIUMPAD_RX10)` |
+| IliumPad_RX10v3 | ILIUMPAD_RX10V3 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lanix.ILIUMPAD_RX10V3)` |
+| ILIUMPAD_RX10v5 | ILIUMPAD_RX10V5 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lanix.ILIUMPAD_RX10V5)` |
+| IliumPad_RX7 | ILIUMPAD_RX7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lanix.ILIUMPAD_RX7)` |
+| IliumPad_RX8v2 | ILIUMPAD_RX8V2 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lanix.ILIUMPAD_RX8V2)` |
+| L540 | L540 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.L540)` |
+| M1R | M1R | 480x1014 | 200 | `spec:width=480px,height=1014px,dpi=200` | `@Preview(device = Lanix.M1R)` |
+| RX10ProV7 | RX10PROV7 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Lanix.RX10PROV7)` |
+| RX10V6 | RX10V6 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lanix.RX10V6)` |
+| RX10v8 | RX10V8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lanix.RX10V8)` |
+| RX10v9 | RX10V9 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Lanix.RX10V9)` |
+| RX11 | RX11 | 1200x2000 | 213 | `spec:width=1200px,height=2000px,dpi=213` | `@Preview(device = Lanix.RX11)` |
+| RX7_v3 | RX7_V3 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lanix.RX7_V3)` |
+| RX7V4 | RX7V4 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lanix.RX7V4)` |
+| stanford | STANFORD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Lanix.STANFORD)` |
+| X120C | X120C | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lanix.X120C)` |
+| X1S | X1S | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Lanix.X1S)` |
+| X230 | X230 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.X230)` |
+| X240 | X240 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.X240)` |
+| X5 | X5 | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Lanix.X5)` |
+| X530 | X530 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.X530)` |
+| X540 | X540 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.X540)` |
+| X550 | X550 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Lanix.X550)` |
+| X560 | X560 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.X560)` |
+| X7 | X7 | 480x1014 | 200 | `spec:width=480px,height=1014px,dpi=200` | `@Preview(device = Lanix.X7)` |
+| X750 | X750 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.X750)` |
+| X770 | X770 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lanix.X770)` |
+| X860 | X860 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Lanix.X860)` |
+| zhongshan | ZHONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Lanix.ZHONGSHAN)` |
+
+<!-- Generated automatically. Do not edit manually. -->
