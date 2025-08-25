@@ -64,12 +64,7 @@ jobs:
           # Create a PR using GitHub CLI
           gh pr create \
             --title "Bump version to $NEXT_VERSION" \
-            --body "Automatically bumping version to $NEXT_VERSION after release $RELEASED_VERSION
-
-This PR updates the version in gradle.properties to prepare for the next development cycle.
-            
-- Previous version: $RELEASED_VERSION
-- New version: $NEXT_VERSION" \
+            --body "Automatically bumping version to $NEXT_VERSION after release $RELEASED_VERSION. This PR updates the version in gradle.properties to prepare for the next development cycle. Previous version: $RELEASED_VERSION, New version: $NEXT_VERSION" \
             --head "$BRANCH_NAME" \
             --base main
         env:
