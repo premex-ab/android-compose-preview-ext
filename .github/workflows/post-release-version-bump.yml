@@ -1,0 +1,77 @@
+name: Post-Release Version Bump
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  bump-version:
+    runs-on: tart
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Calculate next version and create PR
+        run: |
+          # Get the released version from the tag (remove 'v' prefix if present)
+          RELEASED_TAG="${GITHUB_REF#refs/tags/}"
+          if [[ $RELEASED_TAG =~ ^v(.+)$ ]]; then
+            RELEASED_VERSION="${BASH_REMATCH[1]}"
+          else
+            RELEASED_VERSION="$RELEASED_TAG"
+          fi
+          
+          echo "Released version: $RELEASED_VERSION"
+          
+          # Parse version components (assuming semantic versioning)
+          if [[ $RELEASED_VERSION =~ ^([0-9]+)\.([0-9]+)\.([0-9]+)$ ]]; then
+            MAJOR="${BASH_REMATCH[1]}"
+            MINOR="${BASH_REMATCH[2]}"
+            PATCH="${BASH_REMATCH[3]}"
+          else
+            echo "Cannot parse version $RELEASED_VERSION, expected semantic version format"
+            exit 1
+          fi
+          
+          # Bump to next minor version (reset patch to 0)
+          NEXT_MINOR=$((MINOR + 1))
+          NEXT_VERSION="${MAJOR}.${NEXT_MINOR}.0"
+          
+          echo "Next version: $NEXT_VERSION"
+          
+          # Create a new branch for the version bump
+          BRANCH_NAME="bump-version-to-${NEXT_VERSION}"
+          git checkout -b "$BRANCH_NAME"
+          
+          # Update gradle.properties with the new version
+          sed -i "s/^version=.*/version=${NEXT_VERSION}/" gradle.properties
+          
+          # Commit the changes
+          git add gradle.properties
+          git commit -m "Bump version to $NEXT_VERSION after release $RELEASED_VERSION"
+          
+          # Push the branch
+          git push origin "$BRANCH_NAME"
+          
+          # Create a PR using GitHub CLI
+          gh pr create \
+            --title "Bump version to $NEXT_VERSION" \
+            --body "Automatically bumping version to $NEXT_VERSION after release $RELEASED_VERSION
+
+This PR updates the version in gradle.properties to prepare for the next development cycle.
+            
+- Previous version: $RELEASED_VERSION
+- New version: $NEXT_VERSION" \
+            --head "$BRANCH_NAME" \
+            --base main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

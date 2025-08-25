@@ -24,22 +24,7 @@ The built‑in Compose preview device list is limited and focused on consumer ph
 - Regenerate & extend via a Kotlin generator module (no shell scripts)
 
 ## Quick Start
-Add the GitHub Packages repository (if you haven't globally) and the dependency:
-
-```kotlin
-// settings.gradle.kts or build.gradle.kts (top-level repositories block)
-repositories {
-    mavenCentral()
-    google()
-    maven {
-        url = uri("https://maven.pkg.github.com/premex-ab/android-compose-preview-ext")
-        credentials {
-            username = extra["gpr.user"].toString()
-            password = extra["gpr.key"].toString()
-        }
-    }
-}
-```
+Add the dependency from Maven Central:
 
 ```kotlin
 // Module build.gradle.kts
@@ -48,7 +33,7 @@ dependencies {
 }
 ```
 
-Provide `gpr.user` / `gpr.key` through `gradle.properties` or environment variables (`USERNAME` / `TOKEN`).
+The library is hosted on Maven Central, so no additional repository configuration is needed if you already have `mavenCentral()` in your repositories block.
 
 ## Usage
 Import the manufacturer object you need and reference a constant:

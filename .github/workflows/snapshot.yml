@@ -30,7 +30,19 @@ jobs:
 
       - name: Publish application
         run: |
-          echo VERSION_NAME=1.0.0-SNAPSHOT > ./local.properties
+          # Get current version from gradle.properties
+          CURRENT_VERSION=$(grep "^version=" gradle.properties | cut -d'=' -f2)
+          echo "Current version: $CURRENT_VERSION"
+          
+          # Set snapshot version (if not already a snapshot)
+          if [[ $CURRENT_VERSION != *"-SNAPSHOT" ]]; then
+            SNAPSHOT_VERSION="${CURRENT_VERSION}-SNAPSHOT"
+          else
+            SNAPSHOT_VERSION="$CURRENT_VERSION"
+          fi
+          
+          echo "Publishing snapshot version: $SNAPSHOT_VERSION"
+          export VERSION_NAME="$SNAPSHOT_VERSION"
           ./gradlew publishAllPublicationsToMavenCentralRepository
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.OSSRH_USERNAME }}
