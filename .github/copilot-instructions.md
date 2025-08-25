@@ -9,7 +9,7 @@ android-compose-preview-ext/
 ├── android-compose-preview-ext/                          # Main Kotlin library module
 │   ├── src/main/kotlin/             # Source code
 │   │   └── se/premex/compose/preview/
-│   │       └── Devices.kt           # Main device specifications
+│   │       └── kt           # Main device specifications
 │   └── src/test/kotlin/             # Test files
 ├── scripts/                         # Automation scripts
 │   └── update-devices.sh           # Device update automation
@@ -22,10 +22,10 @@ android-compose-preview-ext/
 
 ## Key Components
 
-### Device Specifications (`Devices.kt`)
+### Device Specifications (`kt`)
 - Contains device specifications in two formats:
   - Google devices: `id:` format (e.g., `"id:pixel_8"`)
-  - Third-party devices: `spec:` format (e.g., `"spec:width=720,height=1280,unit=px,dpi=294"`)
+  - Third-party devices: `spec:` format (e.g., `"spec:width=720px,height=1280px,dpi=294"`)
 - Organized by manufacturer using nested objects (e.g., `Devices.Zebra.TC26`)
 - Supports Google, Zebra, Samsung, Honeywell, and Datalogic devices
 
@@ -38,7 +38,7 @@ android-compose-preview-ext/
 
 ### Adding New Devices
 1. Update device arrays in `scripts/update-devices.sh`
-2. Run `./scripts/update-devices.sh` to regenerate `Devices.kt`
+2. Run `./scripts/update-devices.sh` to regenerate `kt`
 3. Run tests with `./gradlew test`
 4. Update tests in `DevicesTest.kt` if needed
 
@@ -82,7 +82,7 @@ android-compose-preview-ext/
 
 ## Important Files to Modify
 
-1. **`Devices.kt`** - Use the update script, don't edit directly
+1. **`kt`** - Use the update script, don't edit directly
 2. **`update-devices.sh`** - Add new devices here
 3. **`DevicesTest.kt`** - Add tests for new manufacturers
 4. **`README.md`** - Update documentation and device counts

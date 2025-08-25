@@ -84,11 +84,11 @@ jobs:
           The device generator fetches data from:
           - Android Device Catalog maintained by Google Play Store
           - Supports Google Pixel/Nexus devices and third-party manufacturers
-          - Generates both main `Devices.kt` and manufacturer extension files
+          - Generates both main `kt` and manufacturer extension files
           
           ### Files Updated
-          - `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/Devices.kt`
-          - `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/*Devices.kt`
+          - `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/kt`
+          - `android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/devices/*kt`
           
           ---
           

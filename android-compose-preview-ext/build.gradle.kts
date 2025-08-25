@@ -3,6 +3,15 @@ plugins {
     `maven-publish`
 }
 
+// Exclude legacy per-manufacturer extension files (now deprecated)
+sourceSets {
+    named("main") {
+        kotlin {
+            exclude("se/premex/compose/preview/devices/**")
+        }
+    }
+}
+
 dependencies {
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
