@@ -1,13 +1,12 @@
-name: Auto deploy artifacts on release
+name: Auto deploy snapshot artifacts on draft release
 
 on:
-  release:
-    types: [ published ]
+  push:
+    branches:
+      - main
 
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: tart
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -45,8 +44,9 @@ jobs:
           key: gradle-${{ hashFiles('checksum.txt') }}
 
       - name: Publish application
-        # run: ./gradlew publishAndReleaseToMavenCentral --no-configuration-cache
-        run: ./gradlew publishAllPublicationsToMavenCentralRepository --rerun-tasks --no-configuration-cache
+        run: |
+          echo VERSION_NAME=1.0.0-SNAPSHOT > ./local.properties
+          ./gradlew publishAllPublicationsToMavenCentralRepository
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.OSSRH_USERNAME }}
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.OSSRH_PASSWORD }}
