@@ -3,6 +3,7 @@ package se.premex.compose.preview.generator
 import se.premex.compose.preview.generator.fetcher.DeviceFetcher
 import se.premex.compose.preview.generator.generator.DeviceCatalogGenerator
 import se.premex.compose.preview.generator.generator.DeviceDocsGenerator
+import se.premex.compose.preview.generator.generator.PreviewGroupsGenerator
 import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -36,6 +37,7 @@ class DeviceGenerator {
     private val deviceFetcher = DeviceFetcher()
     private val combinedGenerator = DeviceCatalogGenerator()
     private val docsGenerator = DeviceDocsGenerator()
+    private val previewGroupsGenerator = PreviewGroupsGenerator()
 
     // Project paths
     private val projectRoot = findProjectRoot()
@@ -52,6 +54,9 @@ class DeviceGenerator {
         
         // Generate manufacturer extension files
         combinedGenerator.generate(devices, librarySourcePath)
+
+        // Generate preview groups files
+        previewGroupsGenerator.generate(devices, librarySourcePath)
 
         // Generate markdown documentation for devices
         docsGenerator.generate(devices, projectRoot)

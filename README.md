@@ -63,6 +63,24 @@ Google reference devices (Pixels etc.) use their `id:` values automatically in c
 @Preview(name = "Pixel 8", device = Google.PIXEL_8)
 ```
 
+### Preview Groups (New!)
+
+For comprehensive testing across entire device brands, use Preview Groups:
+
+```kotlin
+import se.premex.compose.preview.groups.PreviewGroups
+
+// Get all Zebra devices programmatically
+val zebraDevices = PreviewGroups.getZebraDevices()
+
+// Access devices by category
+import se.premex.compose.preview.groups.ZebraPreviewGroup
+val handhelds = ZebraPreviewGroup.Categories.handhelds     // MC series
+val tablets = ZebraPreviewGroup.Categories.tablets         // ET series
+```
+
+Perfect for enterprise apps targeting specific device fleets. See [Preview Groups documentation](android-compose-preview-ext/src/main/kotlin/se/premex/compose/preview/groups/README.md) for detailed usage examples.
+
 ## Supported Devices
 A regenerated catalog lives here: [docs/devices/README.md](docs/devices/README.md). (If the link is empty, run the generator locally.)
 
