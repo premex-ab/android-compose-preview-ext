@@ -29,9 +29,6 @@ jobs:
           distribution: 'adopt'
           java-version: 21
 
-      - name: Copy CI gradle.properties
-        run: mkdir -p ~/.gradle ; cp .github/ci-gradle.properties ~/.gradle/gradle.properties
-
       - name: Generate cache key
         run: ./scripts/checksum.sh ./ checksum.txt
 
