@@ -30,8 +30,18 @@ jobs:
           java-version: 21
 
       - name: Publish application
-        # run: ./gradlew publishAndReleaseToMavenCentral --no-configuration-cache
-        run: ./gradlew publishAllPublicationsToMavenCentralRepository --rerun-tasks --no-configuration-cache
+        run: |
+          # Extract version from git tag (remove 'v' prefix if present)
+          TAG_VERSION=$(git describe --tags --exact-match HEAD 2>/dev/null || echo "")
+          if [[ $TAG_VERSION =~ ^v(.+)$ ]]; then
+            RELEASE_VERSION="${BASH_REMATCH[1]}"
+          else
+            RELEASE_VERSION="$TAG_VERSION"
+          fi
+          
+          echo "Publishing release version: $RELEASE_VERSION"
+          export VERSION_NAME="$RELEASE_VERSION"
+          ./gradlew publishAllPublicationsToMavenCentralRepository --rerun-tasks --no-configuration-cache
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.OSSRH_USERNAME }}
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.OSSRH_PASSWORD }}
