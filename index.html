@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Compose Preview Extensions</title>
+    <meta name="description" content="Super‑charge your Jetpack Compose previews with production‑grade device specs for rugged enterprise handhelds and popular Android OEM devices.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #555;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #667eea;
+        }
+        
+        .hero {
+            padding: 6rem 0;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .hero .subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            opacity: 0.95;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .stats {
+            font-size: 1.1rem;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid transparent;
+        }
+        
+        .btn-primary {
+            background: #fff;
+            color: #667eea;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: #fff;
+            border: 2px solid rgba(255,255,255,0.8);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #fff;
+        }
+        
+        .section {
+            padding: 5rem 0;
+            background: #fff;
+        }
+        
+        .section:nth-child(even) {
+            background: #f8f9fa;
+        }
+        
+        .section h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3rem;
+            color: #2c3e50;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .feature {
+            padding: 2rem;
+            border-radius: 12px;
+            background: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        .code-block {
+            background: #1e1e1e;
+            color: #f8f8f2;
+            padding: 1.5rem;
+            border-radius: 8px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            margin: 1rem 0;
+            overflow-x: auto;
+        }
+        
+        .github-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+        }
+        
+        .github-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            background: #24292e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        
+        .github-btn:hover {
+            background: #2f363d;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">📱 Compose Preview Extensions</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#quickstart">Quick Start</a></li>
+                    <li><a href="https://premex.se" target="_blank" rel="noopener">Premex.se</a></li>
+                    <li><a href="https://github.com/premex-ab/android-compose-preview-ext" target="_blank" rel="noopener">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Android Compose Preview Extensions</h1>
+            <p class="subtitle">
+                Super‑charge your Jetpack Compose previews with production‑grade device specs for rugged enterprise handhelds and popular Android OEM devices.
+            </p>
+            <p class="stats">
+                <strong>24,282</strong> devices across <strong>2,668</strong> manufacturers
+            </p>
+            <div class="cta-buttons">
+                <a href="https://github.com/premex-ab/android-compose-preview-ext" class="btn btn-primary" target="_blank" rel="noopener">
+                    View on GitHub
+                </a>
+                <a href="#quickstart" class="btn btn-secondary">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="features">
+        <div class="container">
+            <h2>Why This Exists</h2>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; max-width: 800px; margin-left: auto; margin-right: auto; color: #666;">
+                The built‑in Compose preview device list is limited and focused on consumer phones. Enterprise & vertical‑market apps often run on purpose‑built scanners, sleds and rugged handhelds with very different screen metrics.
+            </p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>🏭 Enterprise Ready</h3>
+                    <p>Support for Zebra, Honeywell, Datalogic, and other rugged enterprise devices used in warehouses, retail, and field operations.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🎯 One Import</h3>
+                    <p>Simple constant strings drop straight into <code>@Preview(device = Zebra.MC33)</code> style usage with a single import.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📊 Comprehensive Catalog</h3>
+                    <p>Over 24,000 devices from 2,600+ manufacturers, automatically generated and maintained with conflict resolution.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔄 Always Updated</h3>
+                    <p>Automatic regeneration via Kotlin generator module ensures specs stay current with latest device releases.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📝 Deterministic Naming</h3>
+                    <p>Stable constant names derived from vendor model codes with intelligent conflict resolution.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📱 Google Devices</h3>
+                    <p>Includes Google reference devices using official <code>id:</code> previews for seamless integration.</p>
+                </div>
+            </div>
+
+            <div class="github-buttons">
+                <a href="https://github.com/premex-ab/android-compose-preview-ext/fork" class="github-btn" target="_blank" rel="noopener">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878z"/>
+                    </svg>
+                    Fork Repository
+                </a>
+                <a href="https://github.com/premex-ab/android-compose-preview-ext" class="github-btn" target="_blank" rel="noopener" onclick="this.querySelector('.star-text').textContent = this.querySelector('.star-text').textContent.includes('Star') ? 'Starred!' : 'Star Repository'">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/>
+                    </svg>
+                    <span class="star-text">Star Repository</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="quickstart">
+        <div class="container">
+            <h2>Quick Start</h2>
+            
+            <div style="margin-bottom: 3rem;">
+                <h3 style="margin-bottom: 1rem; color: #667eea;">1. Add Repository</h3>
+                <div class="code-block">// settings.gradle.kts or build.gradle.kts (top-level repositories block)
+repositories {
+    mavenCentral()
+    google()
+    maven {
+        url = uri("https://maven.pkg.github.com/premex-ab/android-compose-preview-ext")
+        credentials {
+            username = extra["gpr.user"].toString()
+            password = extra["gpr.key"].toString()
+        }
+    }
+}</div>
+            </div>
+
+            <div style="margin-bottom: 3rem;">
+                <h3 style="margin-bottom: 1rem; color: #667eea;">2. Add Dependency</h3>
+                <div class="code-block">// Module build.gradle.kts
+dependencies {
+    implementation("se.premex.compose.preview:android-compose-preview-ext:1.0.0")
+}</div>
+            </div>
+
+            <div style="margin-bottom: 3rem;">
+                <h3 style="margin-bottom: 1rem; color: #667eea;">3. Use in Previews</h3>
+                <div class="code-block">import androidx.compose.ui.tooling.preview.Preview
+import se.premex.compose.preview.device.catalog.android.Zebra
+
+@Preview(name = "Zebra MC33", device = Zebra.MC33)
+@Preview(name = "Zebra EC50", device = Zebra.EC50)
+@Composable
+fun MultiDevicePreview() {
+    YourComposableContent()
+}</div>
+            </div>
+
+            <p style="text-align: center; margin-top: 2rem;">
+                <strong>Stop eyeballing layouts on a single Pixel.</strong><br>
+                Catch density, width/height & aspect issues instantly – before they ship.
+            </p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2>Supported Device Manufacturers</h2>
+            <p style="text-align: center; margin-bottom: 2rem; font-size: 1.1rem;">
+                Browse the complete catalog: 
+                <a href="https://github.com/premex-ab/android-compose-preview-ext/tree/main/docs/devices" target="_blank" rel="noopener" style="color: #667eea; font-weight: 600;">Device Documentation</a>
+            </p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; text-align: center; margin: 2rem 0;">
+                <div>📊 <strong>Zebra</strong> - Enterprise scanners</div>
+                <div>🏭 <strong>Honeywell</strong> - Industrial handhelds</div>
+                <div>📱 <strong>Samsung</strong> - Popular Android devices</div>
+                <div>🔧 <strong>Datalogic</strong> - Rugged terminals</div>
+                <div>📱 <strong>Google</strong> - Reference devices</div>
+                <div>⚡ <strong>And 2,663+ more</strong> manufacturers</div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="https://github.com/premex-ab/android-compose-preview-ext#regenerating--contributing-new-devices" class="btn btn-primary" target="_blank" rel="noopener">
+                    Contribute New Devices
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <strong>Android Compose Preview Extensions</strong><br>
+                Maintained by <a href="https://premex.se" target="_blank" rel="noopener">Premex AB</a> • 
+                <a href="https://github.com/premex-ab/android-compose-preview-ext/blob/main/LICENSE" target="_blank" rel="noopener">MIT License</a>
+            </p>
+            <p style="margin-top: 1rem; opacity: 0.8;">
+                Vendor names & trademarks belong to their respective owners.
+            </p>
+            <p style="margin-top: 2rem; font-size: 1.1rem;">
+                Enjoy faster feedback loops? 
+                <a href="https://github.com/premex-ab/android-compose-preview-ext" target="_blank" rel="noopener">Star the repo</a> 
+                so others can discover it ⭐
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
