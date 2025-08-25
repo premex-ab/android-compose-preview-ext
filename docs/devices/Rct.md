@@ -1,0 +1,9 @@
+# Rct Devices
+
+Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.android.Rct`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| MX101M2 | MX101M2 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Rct.MX101M2)` |
+
+<!-- Generated automatically. Do not edit manually. -->

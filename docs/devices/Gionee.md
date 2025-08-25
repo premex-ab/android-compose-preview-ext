@@ -1,0 +1,82 @@
+# Gionee Devices
+
+Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.android.Gionee`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| F10 | F10 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Gionee.F10)` |
+| F10_Plus | F10_PLUS | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.F10_PLUS)` |
+| F205_Pro | F205_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Gionee.F205_PRO)` |
+| F8_Neo | F8_NEO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Gionee.F8_NEO)` |
+| F9 | F9 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Gionee.F9)` |
+| F9_Plus | F9_PLUS | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Gionee.F9_PLUS)` |
+| GiONEE_BBL7332 | GIONEE_BBL7332 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_BBL7332)` |
+| GiONEE_BBL7337A | GIONEE_BBL7337A | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_BBL7337A)` |
+| GiONEE_BBL7505 | GIONEE_BBL7505 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_BBL7505)` |
+| GiONEE_BBL7515A | GIONEE_BBL7515A | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_BBL7515A)` |
+| GIONEE_BBL7516A | GIONEE_BBL7516A | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_BBL7516A)` |
+| GIONEE_BBL7516A01 | GIONEE_BBL7516A01 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_BBL7516A01)` |
+| GIONEE_BJ17G16 | GIONEE_BJ17G16 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Gionee.GIONEE_BJ17G16)` |
+| GiONEE_CBL7513 | GIONEE_CBL7513 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_CBL7513)` |
+| GIONEE_F11 | GIONEE_F11 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Gionee.GIONEE_F11)` |
+| GIONEE_G1602A | GIONEE_G1602A | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_G1602A)` |
+| GIONEE_G1605A | GIONEE_G1605A | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_G1605A)` |
+| GiONEE_GBL7319 | GIONEE_GBL7319 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7319)` |
+| GiONEE_GBL7333 | GIONEE_GBL7333 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7333)` |
+| GiONEE_GBL7335 | GIONEE_GBL7335 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7335)` |
+| GIONEE_GBL7358 | GIONEE_GBL7358 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7358)` |
+| GIONEE_GBL7359 | GIONEE_GBL7359 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7359)` |
+| GIONEE_GBL7360 | GIONEE_GBL7360 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7360)` |
+| GIONEE_GBL7370 | GIONEE_GBL7370 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7370)` |
+| GiONEE_GBL7523 | GIONEE_GBL7523 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_GBL7523)` |
+| GIONEE_GBL7529 | GIONEE_GBL7529 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_GBL7529)` |
+| GIONEE_GBL7553 | GIONEE_GBL7553 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_GBL7553)` |
+| GiONEE_GN9008 | GIONEE_GN9008 | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Gionee.GIONEE_GN9008)` |
+| GIONEE_H601 | GIONEE_H601 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.GIONEE_H601)` |
+| GIONEE_H603 | GIONEE_H603 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.GIONEE_H603)` |
+| GIONEE_M100 | GIONEE_M100 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Gionee.GIONEE_M100)` |
+| GIONEE_M11 | GIONEE_M11 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Gionee.GIONEE_M11)` |
+| GIONEE_M15 | GIONEE_M15 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Gionee.GIONEE_M15)` |
+| GiONEE_M3 | GIONEE_M3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_M3)` |
+| GIONEE_MAX | GIONEE_MAX | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Gionee.GIONEE_MAX)` |
+| GIONEE_MAX_Pro | GIONEE_MAX_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.GIONEE_MAX_PRO)` |
+| GIONEE_P12 | GIONEE_P12 | 600x1280 | 240 | `spec:width=600px,height=1280px,dpi=240` | `@Preview(device = Gionee.GIONEE_P12)` |
+| GIONEE_P15 | GIONEE_P15 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.GIONEE_P15)` |
+| GIONEE_SW17G01 | GIONEE_SW17G01 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_SW17G01)` |
+| GIONEE_SW17G02 | GIONEE_SW17G02 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SW17G02)` |
+| GIONEE_SW17G03 | GIONEE_SW17G03 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SW17G03)` |
+| GIONEE_SW17G04 | GIONEE_SW17G04 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_SW17G04)` |
+| GIONEE_SW17G07 | GIONEE_SW17G07 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Gionee.GIONEE_SW17G07)` |
+| GIONEE_SW17G09 | GIONEE_SW17G09 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SW17G09)` |
+| GIONEE_SW17G13 | GIONEE_SW17G13 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Gionee.GIONEE_SW17G13)` |
+| GIONEE_SW17G15 | GIONEE_SW17G15 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Gionee.GIONEE_SW17G15)` |
+| GIONEE_SW17G18 | GIONEE_SW17G18 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Gionee.GIONEE_SW17G18)` |
+| GIONEE_SW17W04 | GIONEE_SW17W04 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SW17W04)` |
+| GIONEE_SWG1608 | GIONEE_SWG1608 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SWG1608)` |
+| GIONEE_SWG1613 | GIONEE_SWG1613 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_SWG1613)` |
+| GIONEE_SWW1609 | GIONEE_SWW1609 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_SWW1609)` |
+| GIONEE_SWW1617 | GIONEE_SWW1617 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_SWW1617)` |
+| GIONEE_SWW1618 | GIONEE_SWW1618 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SWW1618)` |
+| GIONEE_SWW1627 | GIONEE_SWW1627 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SWW1627)` |
+| GIONEE_SWW1631 | GIONEE_SWW1631 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SWW1631)` |
+| GIONEE_WBL5708 | GIONEE_WBL5708 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL5708)` |
+| GiONEE_WBL7352 | GIONEE_WBL7352 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7352)` |
+| GIONEE_WBL7361 | GIONEE_WBL7361 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7361)` |
+| GIONEE_WBL7365 | GIONEE_WBL7365 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7365)` |
+| GIONEE_WBL7372 | GIONEE_WBL7372 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7372)` |
+| GiONEE_WBL7511 | GIONEE_WBL7511 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7511)` |
+| GIONEE_WBL7517 | GIONEE_WBL7517 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_WBL7517)` |
+| GIONEE_WBL7519 | GIONEE_WBL7519 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_WBL7519)` |
+| GiONEE_WBW5612 | GIONEE_WBW5612 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Gionee.GIONEE_WBW5612)` |
+| GiONEE_WBW5613 | GIONEE_WBW5613 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Gionee.GIONEE_WBW5613)` |
+| GiONEE_WBW5615 | GIONEE_WBW5615 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBW5615)` |
+| GiONEE_WBW5616 | GIONEE_WBW5616 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBW5616)` |
+| GiONEE_WBW5617 | GIONEE_WBW5617 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Gionee.GIONEE_WBW5617)` |
+| GIONEE_WBW5620 | GIONEE_WBW5620 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBW5620)` |
+| GN9006 | GN9006 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GN9006)` |
+| M5 | M5 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.M5)` |
+| P15_Pro | P15_PRO | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Gionee.P15_PRO)` |
+| P61 | P61 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.P61)` |
+| S12_Lite | S12_LITE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gionee.S12_LITE)` |
+
+<!-- Generated automatically. Do not edit manually. -->

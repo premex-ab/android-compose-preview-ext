@@ -1,0 +1,82 @@
+# Pritom Devices
+
+Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.android.Pritom`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| K7 | K7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7)` |
+| K7_A04 | K7_A04 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A04)` |
+| K7_A04_EEA | K7_A04_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A04_EEA)` |
+| K7_A101 | K7_A101 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A101)` |
+| K7_A101_EEA | K7_A101_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A101_EEA)` |
+| K7_A102 | K7_A102 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A102)` |
+| K7Pro | K7PRO | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7PRO)` |
+| K7Pro_EEA | K7PRO_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7PRO_EEA)` |
+| L10 | L10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.L10)` |
+| L10_EEA | L10_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.L10_EEA)` |
+| L10_T07 | L10_T07 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Pritom.L10_T07)` |
+| L10_T13 | L10_T13 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L10_T13)` |
+| L8 | L8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8)` |
+| L8-T01 | L8_T01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_T01)` |
+| L8_A01 | L8_A01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_A01)` |
+| L8_B01 | L8_B01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B01)` |
+| L8_B02 | L8_B02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B02)` |
+| L8_B02_EEA | L8_B02_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B02_EEA)` |
+| L8_B03 | L8_B03 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B03)` |
+| L8_C01 | L8_C01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C01)` |
+| L8_C01_EEA | L8_C01_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C01_EEA)` |
+| L8_C02 | L8_C02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C02)` |
+| L8_C02_EEA | L8_C02_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C02_EEA)` |
+| L8_EEA | L8_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_EEA)` |
+| L8_PRO | L8_PRO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_PRO)` |
+| L8_PRO_EEA | L8_PRO_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_PRO_EEA)` |
+| M10 | M10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10)` |
+| M10_A01 | M10_A01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_A01)` |
+| M10_A01_EEA | M10_A01_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_A01_EEA)` |
+| M10_A05 | M10_A05 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_A05)` |
+| M10_A05_EEA | M10_A05_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_A05_EEA)` |
+| M10_Air_EEA | M10_AIR_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_AIR_EEA)` |
+| M10_B05 | M10_B05 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_B05)` |
+| M10_B05_EEA | M10_B05_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_B05_EEA)` |
+| M10_B06 | M10_B06 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_B06)` |
+| M10_C01 | M10_C01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C01)` |
+| M10_C01_EEA | M10_C01_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C01_EEA)` |
+| M10_C02 | M10_C02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C02)` |
+| M10_C02_EEA | M10_C02_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C02_EEA)` |
+| M10_C03 | M10_C03 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C03)` |
+| M10_C03_EEA | M10_C03_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C03_EEA)` |
+| M10_C04 | M10_C04 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C04)` |
+| M10_C04_EEA | M10_C04_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C04_EEA)` |
+| M10_C05 | M10_C05 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C05)` |
+| M10_C05_EEA | M10_C05_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C05_EEA)` |
+| M10_C05_Kids | M10_C05_KIDS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C05_KIDS)` |
+| M10_C06_Kids | M10_C06_KIDS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C06_KIDS)` |
+| M10_C07 | M10_C07 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C07)` |
+| M10_EEA | M10_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_EEA)` |
+| M10_Lite | M10_LITE | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Pritom.M10_LITE)` |
+| M10_Max | M10_MAX | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Pritom.M10_MAX)` |
+| M10_Max_EEA | M10_MAX_EEA | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Pritom.M10_MAX_EEA)` |
+| M10_PLUS_EEA | M10_PLUS_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_PLUS_EEA)` |
+| M10_PRO | M10_PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_PRO)` |
+| M10_PRO_EEA | M10_PRO_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_PRO_EEA)` |
+| M10_R01 | M10_R01 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R01)` |
+| M10_R01_EEA | M10_R01_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R01_EEA)` |
+| M10_R02 | M10_R02 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R02)` |
+| M10_R02_EEA | M10_R02_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R02_EEA)` |
+| M10_R03 | M10_R03 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R03)` |
+| M10_R04 | M10_R04 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R04)` |
+| M30 | M30 | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Pritom.M30)` |
+| M30_EEA | M30_EEA | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Pritom.M30_EEA)` |
+| P7 | P7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7)` |
+| P7_A03 | P7_A03 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A03)` |
+| P7_A04 | P7_A04 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A04)` |
+| P7_A05 | P7_A05 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A05)` |
+| P7_A07 | P7_A07 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A07)` |
+| P7_A1 | P7_A1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A1)` |
+| P7_A1_EEA | P7_A1_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A1_EEA)` |
+| P7PLUS | P7PLUS | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Pritom.P7PLUS)` |
+| P7PLUS_EEA | P7PLUS_EEA | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Pritom.P7PLUS_EEA)` |
+| P7PRO | P7PRO | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Pritom.P7PRO)` |
+| P7PRO_EEA | P7PRO_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7PRO_EEA)` |
+
+<!-- Generated automatically. Do not edit manually. -->

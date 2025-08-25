@@ -1,0 +1,84 @@
+# Zebra Devices
+
+Total: **76** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zebra`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| CC605LN | CC605LN | 720x1280 | 160 | `spec:width=720px,height=1280px,dpi=160` | `@Preview(device = Zebra.CC605LN)` |
+| CC610LC | CC610LC | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Zebra.CC610LC)` |
+| CC610PC | CC610PC | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Zebra.CC610PC)` |
+| EC30RT | EC30RT | 480x854 | 320 | `spec:width=480px,height=854px,dpi=320` | `@Preview(device = Zebra.EC30RT)` |
+| EC50 | EC50 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.EC50)` |
+| EC55 | EC55 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.EC55)` |
+| EM45 | EM45 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zebra.EM45)` |
+| ET40L | ET40L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET40L)` |
+| ET40S | ET40S | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Zebra.ET40S)` |
+| ET45L | ET45L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET45L)` |
+| ET45S | ET45S | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Zebra.ET45S)` |
+| ET50E | ET50E | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET50E)` |
+| ET50T | ET50T | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET50T)` |
+| ET51L | ET51L | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Zebra.ET51L)` |
+| ET51S | ET51S | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Zebra.ET51S)` |
+| ET55E | ET55E | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET55E)` |
+| ET55T | ET55T | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET55T)` |
+| ET56L | ET56L | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Zebra.ET56L)` |
+| ET56S | ET56S | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Zebra.ET56S)` |
+| ET60 | ET60 | 1200x1920 | 220 | `spec:width=1200px,height=1920px,dpi=220` | `@Preview(device = Zebra.ET60)` |
+| ET65 | ET65 | 1200x1920 | 220 | `spec:width=1200px,height=1920px,dpi=220` | `@Preview(device = Zebra.ET65)` |
+| KC50L | KC50L | 1080x1920 | 220 | `spec:width=1080px,height=1920px,dpi=220` | `@Preview(device = Zebra.KC50L)` |
+| KC50S | KC50S | 1080x1920 | 220 | `spec:width=1080px,height=1920px,dpi=220` | `@Preview(device = Zebra.KC50S)` |
+| L10AW | L10AW | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.L10AW)` |
+| MC2200 | MC2200 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC2200)` |
+| MC2700 | MC2700 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC2700)` |
+| MC33 | MC33 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC33)` |
+| MC3300x | MC3300X | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC3300X)` |
+| MC3300xC | MC3300XC | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC3300XC)` |
+| MC33C | MC33C | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC33C)` |
+| MC3400 | MC3400 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC3400)` |
+| MC93 | MC93 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC93)` |
+| MC93C | MC93C | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC93C)` |
+| MC9400 | MC9400 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC9400)` |
+| MC9450 | MC9450 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC9450)` |
+| PS20JP | PS20JP | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.PS20JP)` |
+| TC15 | TC15 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zebra.TC15)` |
+| TC20KB | TC20KB | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC20KB)` |
+| TC20RD | TC20RD | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC20RD)` |
+| TC20RT | TC20RT | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC20RT)` |
+| TC21 | TC21 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC21)` |
+| TC22 | TC22 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC22)` |
+| TC25FM | TC25FM | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC25FM)` |
+| TC26 | TC26 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC26)` |
+| TC27 | TC27 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC27)` |
+| TC51 | TC51 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC51)` |
+| TC51HC | TC51HC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC51HC)` |
+| TC52 | TC52 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC52)` |
+| TC52X | TC52X | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zebra.TC52X)` |
+| TC53 | TC53 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC53)` |
+| TC53E | TC53E | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC53E)` |
+| TC55 | TC55 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC55)` |
+| TC56 | TC56 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC56)` |
+| TC57 | TC57 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC57)` |
+| TC57X | TC57X | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zebra.TC57X)` |
+| TC58 | TC58 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC58)` |
+| TC58E | TC58E | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC58E)` |
+| TC70 | TC70 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC70)` |
+| TC70x | TC70X | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC70X)` |
+| TC72 | TC72 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC72)` |
+| TC73 | TC73 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC73)` |
+| TC73T | TC73T | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC73T)` |
+| TC75 | TC75 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC75)` |
+| TC75x | TC75X | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC75X)` |
+| TC75xDF | TC75XDF | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC75XDF)` |
+| TC77 | TC77 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.TC77)` |
+| TC78 | TC78 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC78)` |
+| TC78T | TC78T | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zebra.TC78T)` |
+| TC8000 | TC8000 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC8000)` |
+| TC83B0 | TC83B0 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC83B0)` |
+| TC83BH | TC83BH | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC83BH)` |
+| VC80x | VC80X | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Zebra.VC80X)` |
+| VC8308 | VC8308 | 720x1280 | 160 | `spec:width=720px,height=1280px,dpi=160` | `@Preview(device = Zebra.VC8308)` |
+| VC8310 | VC8310 | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Zebra.VC8310)` |
+| WT63B0 | WT63B0 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.WT63B0)` |
+| WT6400 | WT6400 | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Zebra.WT6400)` |
+
+<!-- Generated automatically. Do not edit manually. -->

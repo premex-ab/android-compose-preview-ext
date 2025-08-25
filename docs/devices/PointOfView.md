@@ -1,0 +1,9 @@
+# PointOfView Devices
+
+Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.android.PointOfView`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| TAB-P10232-3G | TAB_P10232_3G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = PointOfView.TAB_P10232_3G)` |
+
+<!-- Generated automatically. Do not edit manually. -->

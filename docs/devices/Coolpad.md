@@ -1,0 +1,86 @@
+# Coolpad Devices
+
+Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.android.Coolpad`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| 1821 | _1821 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Coolpad._1821)` |
+| 1825-I01 | _1825_I01 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad._1825_I01)` |
+| 1826-I01 | _1826_I01 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad._1826_I01)` |
+| 1901 | _1901 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Coolpad._1901)` |
+| 1904 | _1904 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad._1904)` |
+| 2021 | _2021 | 540x1200 | 240 | `spec:width=540px,height=1200px,dpi=240` | `@Preview(device = Coolpad._2021)` |
+| 2039 | _2039 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Coolpad._2039)` |
+| 2040 | _2040 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad._2040)` |
+| 2042 | _2042 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad._2042)` |
+| 8750 | _8750 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad._8750)` |
+| A8 | A8 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.A8)` |
+| A8-831 | A8_831 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.A8_831)` |
+| A8-930 | A8_930 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.A8_930)` |
+| apollo | APOLLO | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Coolpad.APOLLO)` |
+| B770 | B770 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Coolpad.B770)` |
+| C1-S02 | C1_S02 | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Coolpad.C1_S02)` |
+| C103 | C103 | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Coolpad.C103)` |
+| clover | CLOVER | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.CLOVER)` |
+| cool_c1 | COOL_C1 | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Coolpad.COOL_C1)` |
+| Coolpad5267 | COOLPAD5267 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Coolpad.COOLPAD5267)` |
+| Coolpad5370 | COOLPAD5370 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.COOLPAD5370)` |
+| Coolpad7295A | COOLPAD7295A | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Coolpad.COOLPAD7295A)` |
+| Coolpad8737A | COOLPAD8737A | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.COOLPAD8737A)` |
+| Coolpad_1803 | COOLPAD_1803 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_1803)` |
+| Coolpad_2041 | COOLPAD_2041 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2041)` |
+| Coolpad_2041_S0 | COOLPAD_2041_S0 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2041_S0)` |
+| Coolpad_2041_U0 | COOLPAD_2041_U0 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2041_U0)` |
+| Coolpad_2042_U0 | COOLPAD_2042_U0 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2042_U0)` |
+| COOLPAD_C202 | COOLPAD_C202 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_C202)` |
+| COOLPAD_C203 | COOLPAD_C203 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_C203)` |
+| coolpad_Cool_X | COOLPAD_COOL_X | 1080x2244 | 480 | `spec:width=1080px,height=2244px,dpi=480` | `@Preview(device = Coolpad.COOLPAD_COOL_X)` |
+| coolpad_N7_Plus | COOLPAD_N7_PLUS | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_N7_PLUS)` |
+| CoolpadE2 | COOLPADE2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.COOLPADE2)` |
+| CP07 | CP07 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Coolpad.CP07)` |
+| CP12 | CP12 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.CP12)` |
+| CP12p | CP12P | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.CP12P)` |
+| CP12Q | CP12Q | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Coolpad.CP12Q)` |
+| CP12s | CP12S | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Coolpad.CP12S)` |
+| CP12t | CP12T | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad.CP12T)` |
+| CP32 | CP32 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Coolpad.CP32)` |
+| CP32t | CP32T | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.CP32T)` |
+| cp3320a | CP3320A | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Coolpad.CP3320A)` |
+| CP3503I | CP3503I | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CP3503I)` |
+| CP3503L | CP3503L | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Coolpad.CP3503L)` |
+| CP3504L | CP3504L | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad.CP3504L)` |
+| CP3505I | CP3505I | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CP3505I)` |
+| CP3505I_U00 | CP3505I_U00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CP3505I_U00)` |
+| CP3600I | CP3600I | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.CP3600I)` |
+| cp3622a | CP3622A | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Coolpad.CP3622A)` |
+| cp3632a | CP3632A | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Coolpad.CP3632A)` |
+| cp3636a | CP3636A | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CP3636A)` |
+| cp3648a | CP3648A | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Coolpad.CP3648A)` |
+| cp3648at | CP3648AT | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Coolpad.CP3648AT)` |
+| CP3667AT | CP3667AT | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Coolpad.CP3667AT)` |
+| CP3669AS | CP3669AS | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Coolpad.CP3669AS)` |
+| CP36t | CP36T | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Coolpad.CP36T)` |
+| CP8676_I03 | CP8676_I03 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.CP8676_I03)` |
+| CP8722_S00 | CP8722_S00 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.CP8722_S00)` |
+| CP8722_U00 | CP8722_U00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CP8722_U00)` |
+| CPY83_I00 | CPY83_I00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CPY83_I00)` |
+| CPY83_S00 | CPY83_S00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CPY83_S00)` |
+| CPY83_U00 | CPY83_U00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.CPY83_U00)` |
+| E561_EU | E561_EU | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.E561_EU)` |
+| K04L | K04L | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Coolpad.K04L)` |
+| K11 | K11 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Coolpad.K11)` |
+| K12 | K12 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.K12)` |
+| K18 | K18 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Coolpad.K18)` |
+| K2L_S00 | K2L_S00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.K2L_S00)` |
+| k69v1_64 | K69V1_64 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.K69V1_64)` |
+| lithium | LITHIUM | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Coolpad.LITHIUM)` |
+| MOBOK1 | MOBOK1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.MOBOK1)` |
+| R108 | R108 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.R108)` |
+| ventura | VENTURA | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Coolpad.VENTURA)` |
+| victor | VICTOR | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.VICTOR)` |
+| X20 | X20 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Coolpad.X20)` |
+| Y72_921 | Y72_921 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.Y72_921)` |
+| Y91 | Y91 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.Y91)` |
+| Z1 | Z1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.Z1)` |
+
+<!-- Generated automatically. Do not edit manually. -->

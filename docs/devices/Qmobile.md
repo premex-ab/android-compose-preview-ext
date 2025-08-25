@@ -1,0 +1,85 @@
+# Qmobile Devices
+
+Total: **77** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qmobile`
+
+| Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
+|------|----------|------------|-----|-------------|---------------|
+| BBL7551QM | BBL7551QM | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qmobile.BBL7551QM)` |
+| CBL7521QM | CBL7521QM | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.CBL7521QM)` |
+| CS1 | CS1 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.CS1)` |
+| CS1_Plus | CS1_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.CS1_PLUS)` |
+| E2_Noir | E2_NOIR | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.E2_NOIR)` |
+| E3_Dual | E3_DUAL | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.E3_DUAL)` |
+| ENERGY_X1 | ENERGY_X1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.ENERGY_X1)` |
+| ENERGY_X2 | ENERGY_X2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.ENERGY_X2)` |
+| Evok_Power_Lite | EVOK_POWER_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.EVOK_POWER_LITE)` |
+| Fire | FIRE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.FIRE)` |
+| GBL7325QM | GBL7325QM | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.GBL7325QM)` |
+| i2_POWER | I2_POWER | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I2_POWER)` |
+| i2_PRO | I2_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I2_PRO)` |
+| i5_5 | I5_5 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.I5_5)` |
+| i5i_2018 | I5I_2018 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I5I_2018)` |
+| i6_Metal_2017 | I6_METAL_2017 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I6_METAL_2017)` |
+| i6_Metal_HD | I6_METAL_HD | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.I6_METAL_HD)` |
+| i6_Metal_ONE | I6_METAL_ONE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I6_METAL_ONE)` |
+| i6_Metal_ONE_new | I6_METAL_ONE_NEW | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I6_METAL_ONE_NEW)` |
+| i8i | I8I | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I8I)` |
+| i8i_2019 | I8I_2019 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.I8I_2019)` |
+| i8i_PRO | I8I_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I8I_PRO)` |
+| i8i_Pro_II | I8I_PRO_II | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.I8I_PRO_II)` |
+| J1 | J1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.J1)` |
+| J2 | J2 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.J2)` |
+| J5 | J5 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.J5)` |
+| J7 | J7 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.J7)` |
+| J7_PRO | J7_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.J7_PRO)` |
+| KING_KONG_MAX | KING_KONG_MAX | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.KING_KONG_MAX)` |
+| LT100 | LT100 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.LT100)` |
+| LT360 | LT360 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.LT360)` |
+| LT700_PRO | LT700_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.LT700_PRO)` |
+| LT750 | LT750 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.LT750)` |
+| LT900 | LT900 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.LT900)` |
+| M350_Pro | M350_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.M350_PRO)` |
+| Noir_A1_lite | NOIR_A1_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.NOIR_A1_LITE)` |
+| Noir_X1S | NOIR_X1S | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.NOIR_X1S)` |
+| Phantom_P1 | PHANTOM_P1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.PHANTOM_P1)` |
+| Phantom_P1_Pro | PHANTOM_P1_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.PHANTOM_P1_PRO)` |
+| Q_Infinity | Q_INFINITY | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.Q_INFINITY)` |
+| Q_Infinity_B | Q_INFINITY_B | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_B)` |
+| Q_Infinity_C | Q_INFINITY_C | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_C)` |
+| Q_Infinity_Cinema | Q_INFINITY_CINEMA | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.Q_INFINITY_CINEMA)` |
+| Q_Infinity_D | Q_INFINITY_D | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_D)` |
+| Q_Infinity_E | Q_INFINITY_E | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_E)` |
+| Q_Infinity_E_Lite | Q_INFINITY_E_LITE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_E_LITE)` |
+| Q_Infinity_Prime | Q_INFINITY_PRIME | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.Q_INFINITY_PRIME)` |
+| QMobile_Blue_5 | QMOBILE_BLUE_5 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_BLUE_5)` |
+| QMobile_Dual_One | QMOBILE_DUAL_ONE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_DUAL_ONE)` |
+| QMobile_E1 | QMOBILE_E1 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_E1)` |
+| QMobile_Evok_Power | QMOBILE_EVOK_POWER | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_EVOK_POWER)` |
+| QMobile_HD_Plus | QMOBILE_HD_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_HD_PLUS)` |
+| QMobile_i9i | QMOBILE_I9I | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Qmobile.QMOBILE_I9I)` |
+| QMobile_LT500_PRO | QMOBILE_LT500_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_LT500_PRO)` |
+| QMobile_LT550 | QMOBILE_LT550 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_LT550)` |
+| QMobile_Noir_A1 | QMOBILE_NOIR_A1 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qmobile.QMOBILE_NOIR_A1)` |
+| QMobile_S4 | QMOBILE_S4 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S4)` |
+| QMobile_S6_PLUS | QMOBILE_S6_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S6_PLUS)` |
+| QMobile_S6S | QMOBILE_S6S | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S6S)` |
+| QMobile_S8 | QMOBILE_S8 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S8)` |
+| QMobile_X33 | QMOBILE_X33 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_X33)` |
+| QMobile_X36 | QMOBILE_X36 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_X36)` |
+| QMobile_XLi | QMOBILE_XLI | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_XLI)` |
+| QMobileS6 | QMOBILES6 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILES6)` |
+| QTab_Y1 | QTAB_Y1 | 600x1024 | 240 | `spec:width=600px,height=1024px,dpi=240` | `@Preview(device = Qmobile.QTAB_Y1)` |
+| QTab_Y2 | QTAB_Y2 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Qmobile.QTAB_Y2)` |
+| QTab_Y3 | QTAB_Y3 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Qmobile.QTAB_Y3)` |
+| S1_PRO | S1_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.S1_PRO)` |
+| S2_Pro | S2_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.S2_PRO)` |
+| X32 | X32 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.X32)` |
+| X32_new | X32_NEW | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.X32_NEW)` |
+| X32_Power | X32_POWER | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.X32_POWER)` |
+| X700_PRO | X700_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.X700_PRO)` |
+| X700_PRO_II | X700_PRO_II | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.X700_PRO_II)` |
+| X700_PRO_Lite | X700_PRO_LITE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.X700_PRO_LITE)` |
+| Z12_PRO | Z12_PRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qmobile.Z12_PRO)` |
+| Z14 | Z14 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qmobile.Z14)` |
+
+<!-- Generated automatically. Do not edit manually. -->
