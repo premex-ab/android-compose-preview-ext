@@ -343,23 +343,8 @@
             <h2>Quick Start</h2>
             
             <div style="margin-bottom: 3rem;">
-                <h3 style="margin-bottom: 1rem; color: #667eea;">1. Add Repository</h3>
-                <div class="code-block">// settings.gradle.kts or build.gradle.kts (top-level repositories block)
-repositories {
-    mavenCentral()
-    google()
-    maven {
-        url = uri("https://maven.pkg.github.com/premex-ab/android-compose-preview-ext")
-        credentials {
-            username = extra["gpr.user"].toString()
-            password = extra["gpr.key"].toString()
-        }
-    }
-}</div>
-            </div>
-
-            <div style="margin-bottom: 3rem;">
-                <h3 style="margin-bottom: 1rem; color: #667eea;">2. Add Dependency</h3>
+                <h3 style="margin-bottom: 1rem; color: #667eea;">1. Add Dependency</h3>
+                <p style="margin-bottom: 1rem; color: #666;">The library is hosted on Maven Central, so no additional repository configuration is needed if you already have <code>mavenCentral()</code> in your repositories block.</p>
                 <div class="code-block">// Module build.gradle.kts
 dependencies {
     implementation("se.premex.compose.preview:android-compose-preview-ext:1.0.0")
@@ -367,7 +352,7 @@ dependencies {
             </div>
 
             <div style="margin-bottom: 3rem;">
-                <h3 style="margin-bottom: 1rem; color: #667eea;">3. Use in Previews</h3>
+                <h3 style="margin-bottom: 1rem; color: #667eea;">2. Use in Previews</h3>
                 <div class="code-block">import androidx.compose.ui.tooling.preview.Preview
 import se.premex.compose.preview.device.catalog.android.Zebra
 
@@ -403,11 +388,7 @@ fun MultiDevicePreview() {
                 <div>⚡ <strong>And 2,663+ more</strong> manufacturers</div>
             </div>
 
-            <div style="text-align: center; margin-top: 3rem;">
-                <a href="https://github.com/premex-ab/android-compose-preview-ext#regenerating--contributing-new-devices" class="btn btn-primary" target="_blank" rel="noopener">
-                    Contribute New Devices
-                </a>
-            </div>
+
         </div>
     </section>
 
