@@ -93,5 +93,7 @@ MIT – see [LICENSE](LICENSE).
 ## Credits
 Maintained by [Premex AB](https://premex.se). Vendor names & trademarks belong to their respective owners.
 
+Device catalog data is sourced from [android-device-catalog-parser](https://github.com/hossain-khan/android-device-catalog-parser) by Hossain Khan.
+
 ---
 Enjoy faster feedback loops? Star the repo so others can discover it ⭐
