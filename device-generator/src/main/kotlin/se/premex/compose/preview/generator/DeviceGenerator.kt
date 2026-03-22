@@ -3,6 +3,7 @@ package se.premex.compose.preview.generator
 import se.premex.compose.preview.generator.fetcher.DeviceFetcher
 import se.premex.compose.preview.generator.generator.DeviceCatalogGenerator
 import se.premex.compose.preview.generator.generator.DeviceDocsGenerator
+import se.premex.compose.preview.generator.generator.PreviewGroupGenerator
 import kotlinx.coroutines.runBlocking
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -36,6 +37,7 @@ class DeviceGenerator {
     private val deviceFetcher = DeviceFetcher()
     private val combinedGenerator = DeviceCatalogGenerator()
     private val docsGenerator = DeviceDocsGenerator()
+    private val previewGroupGenerator = PreviewGroupGenerator()
 
     // Project paths
     private val projectRoot = findProjectRoot()
@@ -52,6 +54,9 @@ class DeviceGenerator {
         
         // Generate manufacturer extension files
         combinedGenerator.generate(devices, librarySourcePath)
+
+        // Generate preview group files (one per manufacturer, in the `groups` subpackage)
+        previewGroupGenerator.generate(devices, librarySourcePath)
 
         // Generate markdown documentation for devices
         docsGenerator.generate(devices, projectRoot)
@@ -70,6 +75,11 @@ class DeviceGenerator {
         if (!generatedPkgDir.exists()) error("Generated package directory missing: $generatedPkgDir")
         val generatedFiles = generatedPkgDir.walkTopDown().filter { it.isFile && it.name.endsWith(".kt") }.toList()
         if (generatedFiles.isEmpty()) error("No manufacturer files generated in $generatedPkgDir")
+        // Validate preview group files were generated
+        val groupsDir = generatedPkgDir.resolve("groups")
+        if (!groupsDir.exists()) error("Generated groups directory missing: $groupsDir")
+        val groupFiles = groupsDir.walkTopDown().filter { it.isFile && it.name.endsWith(".kt") }.toList()
+        if (groupFiles.isEmpty()) error("No preview group files generated in $groupsDir")
         // Basic sanity: ensure at least one object declaration exists
         val hasObject = generatedFiles.any { it.readText().contains("object ") }
         if (!hasObject) error("Generated files missing object declarations")
