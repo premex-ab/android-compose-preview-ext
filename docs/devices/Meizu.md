@@ -1,6 +1,6 @@
 # Meizu Devices
 
-Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.android.Meizu`
+Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.android.Meizu`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,15 +11,15 @@ Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.
 | 16s | _16S | 1080x2232 | 480 | `spec:width=1080px,height=2232px,dpi=480` | `@Preview(device = Meizu._16S)` |
 | 16th | _16TH | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Meizu._16TH)` |
 | 16thPlus | _16THPLUS | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Meizu._16THPLUS)` |
-| 16X | _16X | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Meizu._16X)` |
+| 16X | _16X | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Meizu._16X)` |
 | M15 | M15 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Meizu.M15)` |
-| M1813 | M1813 | 1080x1920 | 556 | `spec:width=1080px,height=1920px,dpi=556` | `@Preview(device = Meizu.M1813)` |
+| M1813 | M1813 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Meizu.M1813)` |
 | M1822 | M1822 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Meizu.M1822)` |
 | M1852 | M1852 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Meizu.M1852)` |
 | M6Note | M6NOTE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Meizu.M6NOTE)` |
 | M8lite | M8LITE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Meizu.M8LITE)` |
-| meizu16sPro | MEIZU16SPRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Meizu.MEIZU16SPRO)` |
-| meizu16T | MEIZU16T | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Meizu.MEIZU16T)` |
+| meizu16sPro | MEIZU16SPRO | 1440x3120 | 600 | `spec:width=1440px,height=3120px,dpi=600` | `@Preview(device = Meizu.MEIZU16SPRO)` |
+| meizu16T | MEIZU16T | 1080x2232 | 380 | `spec:width=1080px,height=2232px,dpi=380` | `@Preview(device = Meizu.MEIZU16T)` |
 | meizu16Xs | MEIZU16XS | 1080x2232 | 480 | `spec:width=1080px,height=2232px,dpi=480` | `@Preview(device = Meizu.MEIZU16XS)` |
 | meizu17 | MEIZU17 | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Meizu.MEIZU17)` |
 | meizu17Pro | MEIZU17PRO | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Meizu.MEIZU17PRO)` |
@@ -34,6 +34,7 @@ Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.
 | meizu21 | MEIZU21 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Meizu.MEIZU21)` |
 | Meizu21Note | MEIZU21NOTE | 1264x2780 | 520 | `spec:width=1264px,height=2780px,dpi=520` | `@Preview(device = Meizu.MEIZU21NOTE)` |
 | meizu21Pro | MEIZU21PRO | 1368x3192 | 480 | `spec:width=1368px,height=3192px,dpi=480` | `@Preview(device = Meizu.MEIZU21PRO)` |
+| Meizu22 | MEIZU22 | 1200x2670 | 480 | `spec:width=1200px,height=2670px,dpi=480` | `@Preview(device = Meizu.MEIZU22)` |
 | Meizu6T | MEIZU6T | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Meizu.MEIZU6T)` |
 | meizu_M6 | MEIZU_M6 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Meizu.MEIZU_M6)` |
 | MEIZU_mblu | MEIZU_MBLU | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Meizu.MEIZU_MBLU)` |
@@ -52,6 +53,7 @@ Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.
 | meizunote8 | MEIZUNOTE8 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Meizu.MEIZUNOTE8)` |
 | meizunote9 | MEIZUNOTE9 | 1080x2244 | 480 | `spec:width=1080px,height=2244px,dpi=480` | `@Preview(device = Meizu.MEIZUNOTE9)` |
 | MeizuS6 | MEIZUS6 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Meizu.MEIZUS6)` |
+| MeizuVenus | MEIZUVENUS | 1264x2780 | 520 | `spec:width=1264px,height=2780px,dpi=520` | `@Preview(device = Meizu.MEIZUVENUS)` |
 | Note9 | NOTE9 | 1080x2244 | 480 | `spec:width=1080px,height=2244px,dpi=480` | `@Preview(device = Meizu.NOTE9)` |
 | PolestarPhone | POLESTARPHONE | 1368x3192 | 480 | `spec:width=1368px,height=3192px,dpi=480` | `@Preview(device = Meizu.POLESTARPHONE)` |
 | PRO7H | PRO7H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Meizu.PRO7H)` |

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=40
+// Generated manufacturer device catalog. Devices=42
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Kruger_Matz (40 models).
+ * Device specifications for Kruger_Matz (42 models).
  */
 public object KrugerMatz {
   /**
@@ -31,11 +31,6 @@ public object KrugerMatz {
    * Kruger_Matz EAGLE_1066
    */
   public const val EAGLE_1066: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Kruger_Matz EAGLE_1067
-   */
-  public const val EAGLE_1067: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Kruger_Matz EAGLE_1068
@@ -76,11 +71,6 @@ public object KrugerMatz {
    * Kruger_Matz FLOW5PLUS
    */
   public const val FLOW5PLUS: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Kruger_Matz FLOW6Lite
-   */
-  public const val FLOW6LITE: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Kruger_Matz FLOW7
@@ -151,6 +141,26 @@ public object KrugerMatz {
    * Kruger_Matz KM1076
    */
   public const val KM1076: String = "spec:width=1200px,height=2000px,dpi=320"
+
+  /**
+   * Kruger_Matz KM1077
+   */
+  public const val KM1077: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Kruger_Matz KM1077S
+   */
+  public const val KM1077S: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Kruger_Matz KM1078
+   */
+  public const val KM1078: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * Kruger_Matz KM1078S
+   */
+  public const val KM1078S: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * Kruger_Matz LIVE_11

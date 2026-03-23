@@ -1,23 +1,26 @@
 # Philips Devices
 
-Total: **68** devices. Import: `import se.premex.compose.preview.device.catalog.android.Philips`
+Total: **72** devices. Import: `import se.premex.compose.preview.device.catalog.android.Philips`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| 65BDL4152E | _65BDL4152E | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Philips._65BDL4152E)` |
 | anaheim | ANAHEIM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.ANAHEIM)` |
 | E1027 | E1027 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Philips.E1027)` |
 | eleonas | ELEONAS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Philips.ELEONAS)` |
+| elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Philips.ELLINIKO)` |
 | GMP | GMP | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.GMP)` |
 | gotanda | GOTANDA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.GOTANDA)` |
 | guui | GUUI | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.GUUI)` |
 | hino | HINO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.HINO)` |
 | hongkong | HONGKONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.HONGKONG)` |
+| jagalchi | JAGALCHI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Philips.JAGALCHI)` |
 | khardi | KHARDI | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.KHARDI)` |
 | kujo | KUJO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.KUJO)` |
 | lavender | LAVENDER | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.LAVENDER)` |
-| Marathon | MARATHON | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Philips.MARATHON)` |
 | mountbaker | MOUNTBAKER | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.MOUNTBAKER)` |
 | MT5593Uplus | MT5593UPLUS | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.MT5593UPLUS)` |
+| PH0M_EA_T32 | PH0M_EA_T32 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.PH0M_EA_T32)` |
 | PH1M_EA_9970A | PH1M_EA_9970A | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.PH1M_EA_9970A)` |
 | PH1M_WW_9687 | PH1M_WW_9687 | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Philips.PH1M_WW_9687)` |
 | PH1M_WW_9972 | PH1M_WW_9972 | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Philips.PH1M_WW_9972)` |
@@ -41,7 +44,6 @@ Total: **68** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Philips_X586 | PHILIPS_X586 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Philips.PHILIPS_X586)` |
 | Philips_X586_NEW | PHILIPS_X586_NEW | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Philips.PHILIPS_X586_NEW)` |
 | Philips_Xenium_V787 | PHILIPS_XENIUM_V787 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Philips.PHILIPS_XENIUM_V787)` |
-| PI3100_98 | PI3100_98 | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Philips.PI3100_98)` |
 | QM16XE_F | QM16XE_F | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.QM16XE_F)` |
 | QM16XE_U | QM16XE_U | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.QM16XE_U)` |
 | QM16XE_UB | QM16XE_UB | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.QM16XE_UB)` |
@@ -62,11 +64,13 @@ Total: **68** devices. Import: `import se.premex.compose.preview.device.catalog.
 | S6206 | S6206 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Philips.S6206)` |
 | scx35_sp7731gea_hd | SCX35_SP7731GEA_HD | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Philips.SCX35_SP7731GEA_HD)` |
 | sindap | SINDAP | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.SINDAP)` |
+| T7315 | T7315 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Philips.T7315)` |
 | T8010 | T8010 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Philips.T8010)` |
 | T8015 | T8015 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Philips.T8015)` |
 | takao | TAKAO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.TAKAO)` |
+| templeton | TEMPLETON | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Philips.TEMPLETON)` |
 | TLE722G | TLE722G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Philips.TLE722G)` |
-| V387 | V387 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Philips.V387)` |
+| umeda | UMEDA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Philips.UMEDA)` |
 | whitefield | WHITEFIELD | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philips.WHITEFIELD)` |
 | X588_RU | X588_RU | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Philips.X588_RU)` |
 | X818 | X818 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Philips.X818)` |

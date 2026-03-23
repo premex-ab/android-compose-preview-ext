@@ -1,21 +1,51 @@
-// Generated manufacturer device catalog. Devices=138
+// Generated manufacturer device catalog. Devices=148
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Acer (138 models).
+ * Device specifications for Acer (148 models).
  */
 public object Acer {
+  /**
+   * acer A10P2
+   */
+  public const val A10P2: String = "spec:width=800px,height=1280px,dpi=160"
+
   /**
    * acer acer_A10M1
    */
   public const val ACER_A10M1: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * acer acer_A10M2
+   */
+  public const val ACER_A10M2: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * acer acer_A10P2
+   */
+  public const val ACER_A10P2: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * acer acer_A11M1
    */
   public const val ACER_A11M1: String = "spec:width=1200px,height=1920px,dpi=213"
+
+  /**
+   * acer acer_A11M2
+   */
+  public const val ACER_A11M2: String = "spec:width=1200px,height=1920px,dpi=213"
+
+  /**
+   * acer acer_A11P2
+   */
+  public const val ACER_A11P2: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * acer acer_A12M1N
+   */
+  public const val ACER_A12M1N: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
    * Acer Acer_A60
@@ -116,11 +146,6 @@ public object Acer {
    * acer acer_barricadewifi
    */
   public const val ACER_BARRICADEWIFI: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * acer acer_c01
-   */
-  public const val ACER_C01: String = "spec:width=480px,height=640px,dpi=240"
 
   /**
    * acer acer_Colnago
@@ -258,6 +283,11 @@ public object Acer {
   public const val ACER_V11M1: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
+   * acer acer_V12M1
+   */
+  public const val ACER_V12M1: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
    * acer acer_Vulcan
    */
   public const val ACER_VULCAN: String = "spec:width=600px,height=1024px,dpi=160"
@@ -271,11 +301,6 @@ public object Acer {
    * acer acer_z410
    */
   public const val ACER_Z410: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * acer acer_Z500
-   */
-  public const val ACER_Z500: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * acer acer_z520
@@ -363,6 +388,16 @@ public object Acer {
   public const val ACTABKID: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * Acer AITiM10-22
+   */
+  public const val AITIM10_22: String = "spec:width=1200px,height=2000px,dpi=260"
+
+  /**
+   * Acer AITiM9-12M
+   */
+  public const val AITIM9_12M: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * ACER AKMEI14
    */
   public const val AKMEI14: String = "spec:width=2160px,height=3840px,dpi=420"
@@ -378,9 +413,19 @@ public object Acer {
   public const val AOT10_22L: String = "spec:width=1200px,height=2000px,dpi=260"
 
   /**
+   * Acer AOT11-22L
+   */
+  public const val AOT11_22L: String = "spec:width=1440px,height=2200px,dpi=260"
+
+  /**
    * ACER ARSP25MTA14A1
    */
   public const val ARSP25MTA14A1: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * Acer AS10L
+   */
+  public const val AS10L: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * Acer AS10LXPro
@@ -396,6 +441,11 @@ public object Acer {
    * Acer AS10WF
    */
   public const val AS10WF: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
+   * Acer AS20WF
+   */
+  public const val AS20WF: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * ACER AS8W
@@ -493,11 +543,6 @@ public object Acer {
   public const val BAYMAX: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
-   * acer C11
-   */
-  public const val C11: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * ACER chester
    */
   public const val CHESTER: String = "spec:width=2160px,height=3840px,dpi=320"
@@ -551,6 +596,11 @@ public object Acer {
    * acer Frontier
    */
   public const val FRONTIER: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * Acer iM11-12M
+   */
+  public const val IM11_12M: String = "spec:width=1440px,height=2200px,dpi=260"
 
   /**
    * acer mango

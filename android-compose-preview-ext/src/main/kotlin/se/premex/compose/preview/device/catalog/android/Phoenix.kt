@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Phoenix (2 models).
+ * Device specifications for Phoenix (3 models).
  */
 public object Phoenix {
+  /**
+   * Phoenix belford
+   */
+  public const val BELFORD: String = "spec:width=1080px,height=2348px,dpi=200"
+
   /**
    * Phoenix PHONETABPRO
    */

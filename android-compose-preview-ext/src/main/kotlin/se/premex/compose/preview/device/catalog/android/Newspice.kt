@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for newspice (6 models).
+ * Device specifications for newspice (5 models).
  */
 public object Newspice {
   /**
@@ -16,11 +16,6 @@ public object Newspice {
    * newspice Spice-F311
    */
   public const val SPICE_F311: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * newspice Spice_F301
-   */
-  public const val SPICE_F301: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * newspice Spice_F302

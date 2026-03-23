@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KaonMedia (13 models).
+ * Device specifications for KaonMedia (12 models).
  */
 public object Kaonmedia {
   /**
@@ -16,11 +16,6 @@ public object Kaonmedia {
    * KaonMedia IC1110
    */
   public const val IC1110: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * KaonMedia KM_SH368AT
-   */
-  public const val KM_SH368AT: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * KaonMedia KSTB2019

@@ -13,11 +13,6 @@ public object Gm {
   public const val AEGEAN: String = "spec:width=974px,height=2000px,dpi=160"
 
   /**
-   * gm burmese
-   */
-  public const val BURMESE: String = "spec:width=1134px,height=2914px,dpi=200"
-
-  /**
    * GM e-tab20
    */
   public const val E_TAB20: String = "spec:width=1200px,height=1920px,dpi=320"
@@ -80,7 +75,7 @@ public object Gm {
   /**
    * GM G501
    */
-  public const val G501: String = "spec:width=1080px,height=2340px,dpi=480"
+  public const val G501: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * GM G510
@@ -176,4 +171,9 @@ public object Gm {
    * GM GM9PRO_sprout
    */
   public const val GM9PRO_SPROUT: String = "spec:width=1080px,height=2160px,dpi=480"
+
+  /**
+   * gm gminfo37
+   */
+  public const val GMINFO37: String = "spec:width=768px,height=1280px,dpi=160"
 }

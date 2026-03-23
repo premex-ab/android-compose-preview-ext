@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=76
+// Generated manufacturer device catalog. Devices=79
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Zebra (76 models).
+ * Device specifications for Zebra (79 models).
  */
 public object Zebra {
   /**
@@ -41,6 +41,11 @@ public object Zebra {
    * Zebra EM45
    */
   public const val EM45: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * Zebra ET401L0
+   */
+  public const val ET401L0: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * Zebra ET40L
@@ -163,6 +168,11 @@ public object Zebra {
   public const val MC3400: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
+   * Zebra MC3450
+   */
+  public const val MC3450: String = "spec:width=480px,height=800px,dpi=240"
+
+  /**
    * Zebra MC93
    */
   public const val MC93: String = "spec:width=480px,height=800px,dpi=240"
@@ -186,6 +196,11 @@ public object Zebra {
    * Zebra PS20JP
    */
   public const val PS20JP: String = "spec:width=480px,height=800px,dpi=240"
+
+  /**
+   * Zebra PS30Jx
+   */
+  public const val PS30JX: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Zebra TC15

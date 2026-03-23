@@ -1,16 +1,31 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SANSUI (12 models).
+ * Device specifications for SANSUI (14 models).
  */
 public object Sansui {
+  /**
+   * SANSUI beomil
+   */
+  public const val BEOMIL: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * SANSUI cottongreen
    */
   public const val COTTONGREEN: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * SANSUI dongnae
+   */
+  public const val DONGNAE: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
+   * SANSUI eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Sansui Grand
@@ -31,11 +46,6 @@ public object Sansui {
    * SANSUI nagata
    */
   public const val NAGATA: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * Sansui Sansui_Nova
-   */
-  public const val SANSUI_NOVA: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * SANSUI shibuya

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Homatics (9 models).
+ * Device specifications for Homatics (10 models).
  */
 public object Homatics {
   /**
@@ -26,6 +26,11 @@ public object Homatics {
    * Homatics MIA
    */
   public const val MIA: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Homatics SEI700GHMG
+   */
+  public const val SEI700GHMG: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Homatics SEI700HMG

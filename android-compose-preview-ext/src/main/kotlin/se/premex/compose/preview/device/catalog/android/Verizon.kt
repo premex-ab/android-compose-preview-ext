@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=60
+// Generated manufacturer device catalog. Devices=59
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Verizon (60 models).
+ * Device specifications for Verizon (59 models).
  */
 public object Verizon {
   /**
@@ -46,11 +46,6 @@ public object Verizon {
    * Verizon f354
    */
   public const val F354: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * Verizon goldenltevzw
-   */
-  public const val GOLDENLTEVZW: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Verizon graceqltevzw

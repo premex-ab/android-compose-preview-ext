@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=193
+// Generated manufacturer device catalog. Devices=204
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Xiaomi (193 models).
+ * Device specifications for Xiaomi (204 models).
  */
 public object Xiaomi {
   /**
@@ -303,6 +303,11 @@ public object Xiaomi {
   public const val GOKU: String = "spec:width=2224px,height=2488px,dpi=480"
 
   /**
+   * Xiaomi goya
+   */
+  public const val GOYA: String = "spec:width=1280px,height=2772px,dpi=520"
+
+  /**
    * Xiaomi grus
    */
   public const val GRUS: String = "spec:width=1080px,height=2340px,dpi=480"
@@ -443,6 +448,11 @@ public object Xiaomi {
   public const val KENZO: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
+   * Xiaomi klimt
+   */
+  public const val KLIMT: String = "spec:width=1280px,height=2772px,dpi=520"
+
+  /**
    * Xiaomi kungfupanda
    */
   public const val KUNGFUPANDA: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -470,7 +480,7 @@ public object Xiaomi {
   /**
    * Xiaomi laurus
    */
-  public const val LAURUS: String = "spec:width=720px,height=1560px,dpi=320"
+  public const val LAURUS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * xiaomi lavender
@@ -511,6 +521,11 @@ public object Xiaomi {
    * xiaomi lotus
    */
   public const val LOTUS: String = "spec:width=1080px,height=2280px,dpi=480"
+
+  /**
+   * Xiaomi luming
+   */
+  public const val LUMING: String = "spec:width=1236px,height=2750px,dpi=520"
 
   /**
    * Xiaomi machuca
@@ -638,9 +653,19 @@ public object Xiaomi {
   public const val OXYGEN: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
+   * Xiaomi pandora
+   */
+  public const val PANDORA: String = "spec:width=1220px,height=2656px,dpi=520"
+
+  /**
    * Xiaomi perseus
    */
   public const val PERSEUS: String = "spec:width=1080px,height=2340px,dpi=440"
+
+  /**
+   * Xiaomi piano
+   */
+  public const val PIANO: String = "spec:width=2136px,height=3200px,dpi=440"
 
   /**
    * Xiaomi pine
@@ -683,6 +708,11 @@ public object Xiaomi {
   public const val POLARIS: String = "spec:width=1080px,height=2160px,dpi=440"
 
   /**
+   * Xiaomi popsicle
+   */
+  public const val POPSICLE: String = "spec:width=1200px,height=2608px,dpi=480"
+
+  /**
    * Xiaomi prada
    */
   public const val PRADA: String = "spec:width=720px,height=1280px,dpi=320"
@@ -691,6 +721,11 @@ public object Xiaomi {
    * Xiaomi psyche
    */
   public const val PSYCHE: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * Xiaomi pudding
+   */
+  public const val PUDDING: String = "spec:width=1220px,height=2656px,dpi=520"
 
   /**
    * Xiaomi pyxis
@@ -838,6 +873,11 @@ public object Xiaomi {
   public const val TUCANA: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
+   * Xiaomi turner
+   */
+  public const val TURNER: String = "spec:width=1880px,height=3008px,dpi=450"
+
+  /**
    * Xiaomi twilight
    */
   public const val TWILIGHT: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -888,6 +928,11 @@ public object Xiaomi {
   public const val VENOM: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * Xiaomi vili
+   */
+  public const val VILI: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
    * xiaomi vince
    */
   public const val VINCE: String = "spec:width=1080px,height=2160px,dpi=480"
@@ -896,6 +941,11 @@ public object Xiaomi {
    * xiaomi violet
    */
   public const val VIOLET: String = "spec:width=1080px,height=2340px,dpi=440"
+
+  /**
+   * Xiaomi violin
+   */
+  public const val VIOLIN: String = "spec:width=2136px,height=3200px,dpi=400"
 
   /**
    * Xiaomi virgo
@@ -951,6 +1001,11 @@ public object Xiaomi {
    * Xiaomi yuechu
    */
   public const val YUECHU: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * Xiaomi yupei
+   */
+  public const val YUPEI: String = "spec:width=2136px,height=3200px,dpi=440"
 
   /**
    * Xiaomi zeus

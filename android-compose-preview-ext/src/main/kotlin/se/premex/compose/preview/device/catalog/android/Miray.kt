@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MIRAY (15 models).
+ * Device specifications for MIRAY (17 models).
  */
 public object Miray {
+  /**
+   * Miray dongnae
+   */
+  public const val DONGNAE: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * MIRAY MIDM_F10
    */
@@ -46,6 +51,11 @@ public object Miray {
    * MIRAY R4_GTV
    */
   public const val R4_GTV: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Miray sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * MIRAY TM4G_1006

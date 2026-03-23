@@ -1,9 +1,11 @@
 # Teclast Devices
 
-Total: **156** devices. Import: `import se.premex.compose.preview.device.catalog.android.Teclast`
+Total: **164** devices. Import: `import se.premex.compose.preview.device.catalog.android.Teclast`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| ArtPadAir | ARTPADAIR | 1280x1840 | 240 | `spec:width=1280px,height=1840px,dpi=240` | `@Preview(device = Teclast.ARTPADAIR)` |
+| ArtPadPro_ROW | ARTPADPRO_ROW | 1600x2176 | 320 | `spec:width=1600px,height=2176px,dpi=320` | `@Preview(device = Teclast.ARTPADPRO_ROW)` |
 | M20_4G | M20_4G | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Teclast.M20_4G)` |
 | M30_Pro_ROW | M30_PRO_ROW | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Teclast.M30_PRO_ROW)` |
 | M40_EEA | M40_EEA | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Teclast.M40_EEA)` |
@@ -80,6 +82,7 @@ Total: **156** devices. Import: `import se.premex.compose.preview.device.catalog
 | P30T_B | P30T_B | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Teclast.P30T_B)` |
 | P30T_EEA | P30T_EEA | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Teclast.P30T_EEA)` |
 | P30T_ROW | P30T_ROW | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Teclast.P30T_ROW)` |
+| P33_ROW | P33_ROW | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Teclast.P33_ROW)` |
 | P40HD_EEA | P40HD_EEA | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Teclast.P40HD_EEA)` |
 | P40HD_ROW | P40HD_ROW | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Teclast.P40HD_ROW)` |
 | P40HD_T | P40HD_T | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Teclast.P40HD_T)` |
@@ -106,6 +109,7 @@ Total: **156** devices. Import: `import se.premex.compose.preview.device.catalog
 | P80T | P80T | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Teclast.P80T)` |
 | P80T_Y_EEA | P80T_Y_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Teclast.P80T_Y_EEA)` |
 | P80X | P80X | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Teclast.P80X)` |
+| P85_B_ROW | P85_B_ROW | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Teclast.P85_B_ROW)` |
 | P85_EEA | P85_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Teclast.P85_EEA)` |
 | P85_ROW | P85_ROW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Teclast.P85_ROW)` |
 | P85T | P85T | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Teclast.P85T)` |
@@ -138,6 +142,7 @@ Total: **156** devices. Import: `import se.premex.compose.preview.device.catalog
 | T50HD_ROW | T50HD_ROW | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Teclast.T50HD_ROW)` |
 | T50Max_EEA | T50MAX_EEA | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Teclast.T50MAX_EEA)` |
 | T50Max_ROW | T50MAX_ROW | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Teclast.T50MAX_ROW)` |
+| T50Plus_E | T50PLUS_E | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Teclast.T50PLUS_E)` |
 | T50Pro_W_EEA | T50PRO_W_EEA | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Teclast.T50PRO_W_EEA)` |
 | T50Pro_W_ROW | T50PRO_W_ROW | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Teclast.T50PRO_W_ROW)` |
 | T60 | T60 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Teclast.T60)` |
@@ -148,9 +153,12 @@ Total: **156** devices. Import: `import se.premex.compose.preview.device.catalog
 | T60Ai | T60AI | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Teclast.T60AI)` |
 | T60Plus_EEA | T60PLUS_EEA | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Teclast.T60PLUS_EEA)` |
 | T60Plus_ROW | T60PLUS_ROW | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Teclast.T60PLUS_ROW)` |
-| T65 | T65 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Teclast.T65)` |
+| T65 | T65 | 1200x1920 | 480 | `spec:width=1200px,height=1920px,dpi=480` | `@Preview(device = Teclast.T65)` |
 | T65Max_EEA | T65MAX_EEA | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Teclast.T65MAX_EEA)` |
 | T65Max_ROW | T65MAX_ROW | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Teclast.T65MAX_ROW)` |
+| T65Plus_EEA | T65PLUS_EEA | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Teclast.T65PLUS_EEA)` |
+| T70 | T70 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Teclast.T70)` |
+| T70_EEA | T70_EEA | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Teclast.T70_EEA)` |
 | T70_ROW | T70_ROW | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Teclast.T70_ROW)` |
 | Teclast_T40Pro | TECLAST_T40PRO | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Teclast.TECLAST_T40PRO)` |
 | Teclast_T40Pro_EA | TECLAST_T40PRO_EA | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Teclast.TECLAST_T40PRO_EA)` |

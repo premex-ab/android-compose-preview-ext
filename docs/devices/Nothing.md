@@ -1,11 +1,12 @@
 # Nothing Devices
 
-Total: **8** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nothing`
+Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nothing`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | Asteroids | ASTEROIDS | 1080x2392 | 420 | `spec:width=1080px,height=2392px,dpi=420` | `@Preview(device = Nothing.ASTEROIDS)` |
 | Galaga | GALAGA | 1080x2392 | 420 | `spec:width=1080px,height=2392px,dpi=420` | `@Preview(device = Nothing.GALAGA)` |
+| Galaxian | GALAXIAN | 1080x2392 | 420 | `spec:width=1080px,height=2392px,dpi=420` | `@Preview(device = Nothing.GALAXIAN)` |
 | Metroid | METROID | 1260x2800 | 480 | `spec:width=1260px,height=2800px,dpi=480` | `@Preview(device = Nothing.METROID)` |
 | Pacman | PACMAN | 1084x2412 | 420 | `spec:width=1084px,height=2412px,dpi=420` | `@Preview(device = Nothing.PACMAN)` |
 | PacmanPro | PACMANPRO | 1084x2412 | 420 | `spec:width=1084px,height=2412px,dpi=420` | `@Preview(device = Nothing.PACMANPRO)` |

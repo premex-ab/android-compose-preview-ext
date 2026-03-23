@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ZTLEKE (5 models).
+ * Device specifications for ZTLEKE (6 models).
  */
 public object Ztleke {
   /**
@@ -21,6 +21,11 @@ public object Ztleke {
    * ZTLEKE P10PRO
    */
   public const val P10PRO: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ZTLEKE P10Pro3
+   */
+  public const val P10PRO3: String = "spec:width=800px,height=1280px,dpi=200"
 
   /**
    * ZTLEKE S8Plus

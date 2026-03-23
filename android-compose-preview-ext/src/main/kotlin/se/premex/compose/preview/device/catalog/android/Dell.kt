@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Dell (7 models).
+ * Device specifications for Dell (6 models).
  */
 public object Dell {
   /**
    * Dell BB
    */
   public const val BB: String = "spec:width=1600px,height=2560px,dpi=320"
-
-  /**
-   * Dell EP
-   */
-  public const val EP: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * Dell SO

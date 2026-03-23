@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ECHO (10 models).
+ * Device specifications for ECHO (8 models).
  */
 public object Echo {
   /**
@@ -18,19 +18,9 @@ public object Echo {
   public const val ECHO_HORIZON_LITE: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * ECHO ECHO_LOLLY
-   */
-  public const val ECHO_LOLLY: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * ECHO FEELING
    */
   public const val FEELING: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * ECHO HOLI
-   */
-  public const val HOLI: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * ECHO HORIZON_LITE_PLUS

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=27
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IRIS_OHYAMA (24 models).
+ * Device specifications for IRIS_OHYAMA (27 models).
  */
 public object IrisOhyama {
   /**
@@ -103,6 +103,11 @@ public object IrisOhyama {
   public const val TM083: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
+   * IRIS_OHYAMA TM08E2W74
+   */
+  public const val TM08E2W74: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * IRIS_OHYAMA TM102
    */
   public const val TM102: String = "spec:width=1200px,height=1920px,dpi=240"
@@ -111,6 +116,16 @@ public object IrisOhyama {
    * IRIS_OHYAMA TM103
    */
   public const val TM103: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * IRIS_OHYAMA TM12E2W74
+   */
+  public const val TM12E2W74: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * IRIS_OHYAMA TM12E3W74
+   */
+  public const val TM12E3W74: String = "spec:width=1200px,height=2000px,dpi=213"
 
   /**
    * IRIS_OHYAMA TM152M4

@@ -1,6 +1,6 @@
 # Sg Devices
 
-Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sg`
+Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sg`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,6 +14,7 @@ Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Levil | LEVIL | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Sg.LEVIL)` |
 | Levil5 | LEVIL5 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Sg.LEVIL5)` |
 | Lockon | LOCKON | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Sg.LOCKON)` |
+| Lyle | LYLE | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Sg.LYLE)` |
 | Mikazuki | MIKAZUKI | 1440x3120 | 520 | `spec:width=1440px,height=3120px,dpi=520` | `@Preview(device = Sg.MIKAZUKI)` |
 | Mineva | MINEVA | 1260x2730 | 480 | `spec:width=1260px,height=2730px,dpi=480` | `@Preview(device = Sg.MINEVA)` |
 | MinevaL | MINEVAL | 1260x2730 | 480 | `spec:width=1260px,height=2730px,dpi=480` | `@Preview(device = Sg.MINEVAL)` |

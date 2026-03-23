@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=25
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Kogan (24 models).
+ * Device specifications for Kogan (25 models).
  */
 public object Kogan {
   /**
@@ -18,9 +18,19 @@ public object Kogan {
   public const val AGORA_XI: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
+   * Kogan alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * Kogan cottongreen
    */
   public const val COTTONGREEN: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Kogan dangni
+   */
+  public const val DANGNI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * Kogan hanyang
@@ -63,16 +73,6 @@ public object Kogan {
   public const val KATB2P1064WPA: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
-   * Kogan Kogan_Agora_9
-   */
-  public const val KOGAN_AGORA_9: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Kogan Kogan_Agora_XS
-   */
-  public const val KOGAN_AGORA_XS: String = "spec:width=720px,height=1520px,dpi=320"
-
-  /**
    * Kogan longshan
    */
   public const val LONGSHAN: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -101,6 +101,11 @@ public object Kogan {
    * Kogan samseong
    */
   public const val SAMSEONG: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Kogan sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Kogan shibuya

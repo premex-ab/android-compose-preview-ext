@@ -1,6 +1,6 @@
 # Sharp Devices
 
-Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sharp`
+Total: **129** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sharp`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -15,6 +15,7 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | Chara | CHARA | 1080x2432 | 440 | `spec:width=1080px,height=2432px,dpi=440` | `@Preview(device = Sharp.CHARA)` |
 | Cruze_Lite_S | CRUZE_LITE_S | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Sharp.CRUZE_LITE_S)` |
 | Cruze_Pro | CRUZE_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Sharp.CRUZE_PRO)` |
+| dongnae | DONGNAE | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Sharp.DONGNAE)` |
 | ebisu | EBISU | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sharp.EBISU)` |
 | egaleo | EGALEO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Sharp.EGALEO)` |
 | ewha | EWHA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sharp.EWHA)` |
@@ -45,6 +46,8 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | lc_xu930x_830x | LC_XU930X_830X | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sharp.LC_XU930X_830X)` |
 | Levin | LEVIN | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Sharp.LEVIN)` |
 | Lockon | LOCKON | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Sharp.LOCKON)` |
+| Lyle | LYLE | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Sharp.LYLE)` |
+| maniatika | MANIATIKA | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Sharp.MANIATIKA)` |
 | martin | MARTIN | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sharp.MARTIN)` |
 | meguro | MEGURO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sharp.MEGURO)` |
 | Mikazuki | MIKAZUKI | 1440x3120 | 520 | `spec:width=1440px,height=3120px,dpi=520` | `@Preview(device = Sharp.MIKAZUKI)` |
@@ -68,7 +71,6 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | SAT | SAT | 1080x2040 | 480 | `spec:width=1080px,height=2040px,dpi=480` | `@Preview(device = Sharp.SAT)` |
 | SD1 | SD1 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Sharp.SD1)` |
 | SE3 | SE3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.SE3)` |
-| SE3_TH | SE3_TH | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.SE3_TH)` |
 | SE3_VN | SE3_VN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.SE3_VN)` |
 | SG1 | SG1 | 1080x2040 | 420 | `spec:width=1080px,height=2040px,dpi=420` | `@Preview(device = Sharp.SG1)` |
 | SG306SH | SG306SH | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.SG306SH)` |
@@ -94,7 +96,6 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | SH-Z01 | SH_Z01 | 1080x2040 | 480 | `spec:width=1080px,height=2040px,dpi=480` | `@Preview(device = Sharp.SH_Z01)` |
 | SH-Z10 | SH_Z10 | 1440x2992 | 640 | `spec:width=1440px,height=2992px,dpi=640` | `@Preview(device = Sharp.SH_Z10)` |
 | SH-Z20 | SH_Z20 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Sharp.SH_Z20)` |
-| SH825Wi | SH825WI | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.SH825WI)` |
 | SH90B | SH90B | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sharp.SH90B)` |
 | sharp_2k15_us_android | SHARP_2K15_US_ANDROID | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sharp.SHARP_2K15_US_ANDROID)` |
 | shilin | SHILIN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sharp.SHILIN)` |
@@ -104,6 +105,7 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | SJ3 | SJ3 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sharp.SJ3)` |
 | SK3 | SK3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.SK3)` |
 | SS2 | SS2 | 1080x2040 | 480 | `spec:width=1080px,height=2040px,dpi=480` | `@Preview(device = Sharp.SS2)` |
+| ST4 | ST4 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Sharp.ST4)` |
 | stanford | STANFORD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sharp.STANFORD)` |
 | STTM21VAPP | STTM21VAPP | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Sharp.STTM21VAPP)` |
 | SW4H_FF | SW4H_FF | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sharp.SW4H_FF)` |
@@ -130,7 +132,6 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | umeda | UMEDA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sharp.UMEDA)` |
 | VG2 | VG2 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Sharp.VG2)` |
 | VGO | VGO | 1080x2160 | 420 | `spec:width=1080px,height=2160px,dpi=420` | `@Preview(device = Sharp.VGO)` |
-| VN3N | VN3N | 1440x2560 | 560 | `spec:width=1440px,height=2560px,dpi=560` | `@Preview(device = Sharp.VN3N)` |
 | VZJ | VZJ | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sharp.VZJ)` |
 
 <!-- Generated automatically. Do not edit manually. -->

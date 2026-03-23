@@ -1,6 +1,6 @@
 # Gionee Devices
 
-Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.android.Gionee`
+Total: **71** devices. Import: `import se.premex.compose.preview.device.catalog.android.Gionee`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -61,14 +61,11 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | GIONEE_SWW1631 | GIONEE_SWW1631 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_SWW1631)` |
 | GIONEE_WBL5708 | GIONEE_WBL5708 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL5708)` |
 | GiONEE_WBL7352 | GIONEE_WBL7352 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7352)` |
-| GIONEE_WBL7361 | GIONEE_WBL7361 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7361)` |
 | GIONEE_WBL7365 | GIONEE_WBL7365 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7365)` |
 | GIONEE_WBL7372 | GIONEE_WBL7372 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7372)` |
 | GiONEE_WBL7511 | GIONEE_WBL7511 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBL7511)` |
 | GIONEE_WBL7517 | GIONEE_WBL7517 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_WBL7517)` |
 | GIONEE_WBL7519 | GIONEE_WBL7519 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Gionee.GIONEE_WBL7519)` |
-| GiONEE_WBW5612 | GIONEE_WBW5612 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Gionee.GIONEE_WBW5612)` |
-| GiONEE_WBW5613 | GIONEE_WBW5613 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Gionee.GIONEE_WBW5613)` |
 | GiONEE_WBW5615 | GIONEE_WBW5615 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBW5615)` |
 | GiONEE_WBW5616 | GIONEE_WBW5616 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Gionee.GIONEE_WBW5616)` |
 | GiONEE_WBW5617 | GIONEE_WBW5617 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Gionee.GIONEE_WBW5617)` |

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=159
+// Generated manufacturer device catalog. Devices=181
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for OUKITEL (159 models).
+ * Device specifications for OUKITEL (181 models).
  */
 public object Oukitel {
   /**
@@ -130,7 +130,7 @@ public object Oukitel {
   /**
    * OUKITEL C32
    */
-  public const val C32: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val C32: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * OUKITEL C33
@@ -140,12 +140,12 @@ public object Oukitel {
   /**
    * OUKITEL C35
    */
-  public const val C35: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val C35: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * OUKITEL C36
    */
-  public const val C36: String = "spec:width=720px,height=1612px,dpi=320"
+  public const val C36: String = "spec:width=576px,height=1280px,dpi=213"
 
   /**
    * OUKITEL C37
@@ -198,9 +198,39 @@ public object Oukitel {
   public const val C59_PRO: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
+   * OUKITEL C6
+   */
+  public const val C6: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * OUKITEL C60_Pro
+   */
+  public const val C60_PRO: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * OUKITEL C61
+   */
+  public const val C61: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * OUKITEL C61_Plus
+   */
+  public const val C61_PLUS: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
    * OUKITEL C61_Pro
    */
   public const val C61_PRO: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * OUKITEL C62
+   */
+  public const val C62: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * OUKITEL C62_Pro
+   */
+  public const val C62_PRO: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * OUKITEL C65
@@ -213,6 +243,21 @@ public object Oukitel {
   public const val C65_PRO: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * OUKITEL C68
+   */
+  public const val C68: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * OUKITEL C68_Plus
+   */
+  public const val C68_PLUS: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * OUKITEL C69
+   */
+  public const val C69: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
    * OUKITEL C8
    */
   public const val C8: String = "spec:width=640px,height=1280px,dpi=320"
@@ -221,11 +266,6 @@ public object Oukitel {
    * OUKITEL C8_4G
    */
   public const val C8_4G: String = "spec:width=640px,height=1280px,dpi=320"
-
-  /**
-   * OUKITEL C9
-   */
-  public const val C9: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * OUKITEL G1
@@ -418,9 +458,19 @@ public object Oukitel {
   public const val OUKITEL_C59: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
+   * OUKITEL OUKITEL_C60
+   */
+  public const val OUKITEL_C60: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
    * OUKITEL OUKITEL_C61
    */
   public const val OUKITEL_C61: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * OUKITEL OUKITEL_G3
+   */
+  public const val OUKITEL_G3: String = "spec:width=576px,height=1152px,dpi=213"
 
   /**
    * OUKITEL OUKITEL_G5
@@ -458,6 +508,11 @@ public object Oukitel {
   public const val P07: String = "spec:width=1200px,height=1920px,dpi=320"
 
   /**
+   * OUKITEL P1_Pro
+   */
+  public const val P1_PRO: String = "spec:width=1080px,height=2412px,dpi=480"
+
+  /**
    * OUKITEL RT1
    */
   public const val RT1: String = "spec:width=1200px,height=1920px,dpi=320"
@@ -478,6 +533,11 @@ public object Oukitel {
   public const val RT3_EEA: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
+   * OUKITEL RT3_Plus
+   */
+  public const val RT3_PLUS: String = "spec:width=800px,height=1280px,dpi=240"
+
+  /**
    * OUKITEL RT3_Pro
    */
   public const val RT3_PRO: String = "spec:width=800px,height=1280px,dpi=240"
@@ -496,6 +556,11 @@ public object Oukitel {
    * OUKITEL RT7_TITAN
    */
   public const val RT7_TITAN: String = "spec:width=1200px,height=1920px,dpi=320"
+
+  /**
+   * OUKITEL RT7_TITAN_5G
+   */
+  public const val RT7_TITAN_5G: String = "spec:width=1200px,height=1920px,dpi=320"
 
   /**
    * OUKITEL RT8
@@ -533,11 +598,6 @@ public object Oukitel {
   public const val S118: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
-   * OUKITEL U11_Plus
-   */
-  public const val U11_PLUS: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * OUKITEL U18
    */
   public const val U18: String = "spec:width=720px,height=1512px,dpi=320"
@@ -566,6 +626,11 @@ public object Oukitel {
    * OUKITEL WP10
    */
   public const val WP10: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * OUKITEL WP100
+   */
+  public const val WP100: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
    * OUKITEL WP100_TITAN
@@ -651,6 +716,11 @@ public object Oukitel {
    * OUKITEL WP21
    */
   public const val WP21: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * OUKITEL WP210_Pro
+   */
+  public const val WP210_PRO: String = "spec:width=1080px,height=2412px,dpi=480"
 
   /**
    * OUKITEL WP21_U
@@ -763,9 +833,39 @@ public object Oukitel {
   public const val WP52: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * OUKITEL WP53
+   */
+  public const val WP53: String = "spec:width=576px,height=1280px,dpi=320"
+
+  /**
+   * OUKITEL WP53_Pro
+   */
+  public const val WP53_PRO: String = "spec:width=576px,height=1280px,dpi=320"
+
+  /**
+   * OUKITEL WP53_S
+   */
+  public const val WP53_S: String = "spec:width=576px,height=1280px,dpi=320"
+
+  /**
    * OUKITEL WP55
    */
   public const val WP55: String = "spec:width=1080px,height=2408px,dpi=480"
+
+  /**
+   * OUKITEL WP55_Ultra
+   */
+  public const val WP55_ULTRA: String = "spec:width=1080px,height=2408px,dpi=480"
+
+  /**
+   * OUKITEL WP56
+   */
+  public const val WP56: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * OUKITEL WP58_Pro
+   */
+  public const val WP58_PRO: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * OUKITEL WP5_Pro
@@ -776,6 +876,11 @@ public object Oukitel {
    * OUKITEL WP6
    */
   public const val WP6: String = "spec:width=1080px,height=2340px,dpi=480"
+
+  /**
+   * OUKITEL WP62
+   */
+  public const val WP62: String = "spec:width=1080px,height=2408px,dpi=480"
 
   /**
    * OUKITEL WP7
@@ -801,4 +906,9 @@ public object Oukitel {
    * OUKITEL Y4800
    */
   public const val Y4800: String = "spec:width=1080px,height=2340px,dpi=480"
+
+  /**
+   * OUKITEL YJC235
+   */
+  public const val YJC235: String = "spec:width=540px,height=1200px,dpi=230"
 }

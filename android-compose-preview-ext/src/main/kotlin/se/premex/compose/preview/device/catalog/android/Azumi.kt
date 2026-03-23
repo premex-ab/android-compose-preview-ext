@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=37
+// Generated manufacturer device catalog. Devices=33
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Azumi (37 models).
+ * Device specifications for Azumi (33 models).
  */
 public object Azumi {
   /**
@@ -36,11 +36,6 @@ public object Azumi {
    * Azumi Azumi_A4PLUS_AC11
    */
   public const val AZUMI_A4PLUS_AC11: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Azumi Azumi_A57B
-   */
-  public const val AZUMI_A57B: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Azumi Azumi_A5_P
@@ -93,11 +88,6 @@ public object Azumi {
   public const val AZUMI_V4_AC04: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * Azumi Azumi_V4_AC23
-   */
-  public const val AZUMI_V4_AC23: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * Azumi Azumi_V54_AC04
    */
   public const val AZUMI_V54_AC04: String = "spec:width=480px,height=960px,dpi=240"
@@ -123,19 +113,19 @@ public object Azumi {
   public const val AZUMI_V5_AC04: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * Azumi Azumi_V5_AC25
+   * Azumi Azumi_V5_AC25B
    */
-  public const val AZUMI_V5_AC25: String = "spec:width=480px,height=854px,dpi=240"
+  public const val AZUMI_V5_AC25B: String = "spec:width=480px,height=854px,dpi=240"
+
+  /**
+   * Azumi Azumi_V5_AC25S
+   */
+  public const val AZUMI_V5_AC25S: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Azumi Azumi_V5PLUS_AC24
    */
   public const val AZUMI_V5PLUS_AC24: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * Azumi Azumi_V5PLUS_AC25
-   */
-  public const val AZUMI_V5PLUS_AC25: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Azumi AZUMI_V5PLUS_AC27
@@ -151,11 +141,6 @@ public object Azumi {
    * Azumi Azumi_V60F
    */
   public const val AZUMI_V60F: String = "spec:width=720px,height=1560px,dpi=320"
-
-  /**
-   * Azumi IRO_A4_Q
-   */
-  public const val IRO_A4_Q: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Azumi IRO_A55_Q
@@ -176,11 +161,6 @@ public object Azumi {
    * Azumi IRO_A5_QL
    */
   public const val IRO_A5_QL: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Azumi KIREI_A45_D
-   */
-  public const val KIREI_A45_D: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Azumi NOBU_A55

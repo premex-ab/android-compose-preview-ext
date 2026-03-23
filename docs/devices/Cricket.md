@@ -1,6 +1,6 @@
 # Cricket Devices
 
-Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Cricket`
+Total: **18** devices. Import: `import se.premex.compose.preview.device.catalog.android.Cricket`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,6 +12,7 @@ Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SL101AE | SL101AE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Cricket.SL101AE)` |
 | SL219C | SL219C | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Cricket.SL219C)` |
 | SN304AE | SN304AE | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Cricket.SN304AE)` |
+| SN333C | SN333C | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Cricket.SN333C)` |
 | SN509C | SN509C | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Cricket.SN509C)` |
 | U304AC | U304AC | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Cricket.U304AC)` |
 | U325AC | U325AC | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Cricket.U325AC)` |

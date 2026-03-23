@@ -1,6 +1,6 @@
 # Honor Devices
 
-Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog.android.Honor`
+Total: **136** devices. Import: `import se.premex.compose.preview.device.catalog.android.Honor`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -15,6 +15,7 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNALT-QL | HNALT_QL | 720x1610 | 320 | `spec:width=720px,height=1610px,dpi=320` | `@Preview(device = Honor.HNALT_QL)` |
 | HNANY-Q | HNANY_Q | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Honor.HNANY_Q)` |
 | HNANY-Q1 | HNANY_Q1 | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Honor.HNANY_Q1)` |
+| HNBKQ | HNBKQ | 1256x2808 | 560 | `spec:width=1256px,height=2808px,dpi=560` | `@Preview(device = Honor.HNBKQ)` |
 | HNBRC-M | HNBRC_M | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Honor.HNBRC_M)` |
 | HNBRC-M1 | HNBRC_M1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Honor.HNBRC_M1)` |
 | HNBRP-Q | HNBRP_Q | 1224x2700 | 520 | `spec:width=1224px,height=2700px,dpi=520` | `@Preview(device = Honor.HNBRP_Q)` |
@@ -22,7 +23,9 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNBVL | HNBVL | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Honor.HNBVL)` |
 | HNBVL-AN00 | HNBVL_AN00 | 1264x2800 | 560 | `spec:width=1264px,height=2800px,dpi=560` | `@Preview(device = Honor.HNBVL_AN00)` |
 | HNCGA-Q | HNCGA_Q | 2136x3200 | 420 | `spec:width=2136px,height=3200px,dpi=420` | `@Preview(device = Honor.HNCGA_Q)` |
+| HNCGA-Q1 | HNCGA_Q1 | 2136x3200 | 420 | `spec:width=2136px,height=3200px,dpi=420` | `@Preview(device = Honor.HNCGA_Q1)` |
 | hnCHE-H | HNCHE_H | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HNCHE_H)` |
+| HNCHG-Q | HNCHG_Q | 2032x3048 | 400 | `spec:width=2032px,height=3048px,dpi=400` | `@Preview(device = Honor.HNCHG_Q)` |
 | HNCLK-M1 | HNCLK_M1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Honor.HNCLK_M1)` |
 | HNCLK-Q | HNCLK_Q | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Honor.HNCLK_Q)` |
 | HNCMA-Q | HNCMA_Q | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Honor.HNCMA_Q)` |
@@ -31,6 +34,7 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNDNPX | HNDNPX | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Honor.HNDNPX)` |
 | HNDNYX | HNDNYX | 1264x2736 | 560 | `spec:width=1264px,height=2736px,dpi=560` | `@Preview(device = Honor.HNDNYX)` |
 | HNDVD-Q | HNDVD_Q | 1224x2700 | 520 | `spec:width=1224px,height=2700px,dpi=520` | `@Preview(device = Honor.HNDVD_Q)` |
+| HNELA-M | HNELA_M | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Honor.HNELA_M)` |
 | HNELI | HNELI | 1200x2664 | 520 | `spec:width=1200px,height=2664px,dpi=520` | `@Preview(device = Honor.HNELI)` |
 | HNELIX | HNELIX | 1200x2664 | 520 | `spec:width=1200px,height=2664px,dpi=520` | `@Preview(device = Honor.HNELIX)` |
 | HNELN-Q | HNELN_Q | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Honor.HNELN_Q)` |
@@ -48,6 +52,8 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNJDY-M1 | HNJDY_M1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Honor.HNJDY_M1)` |
 | HNKIW-Q | HNKIW_Q | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Honor.HNKIW_Q)` |
 | HNLGE | HNLGE | 1312x2848 | 560 | `spec:width=1312px,height=2848px,dpi=560` | `@Preview(device = Honor.HNLGE)` |
+| HNLGN-Q1 | HNLGN_Q1 | 720x1610 | 320 | `spec:width=720px,height=1610px,dpi=320` | `@Preview(device = Honor.HNLGN_Q1)` |
+| HNLGN-QL | HNLGN_QL | 720x1610 | 320 | `spec:width=720px,height=1610px,dpi=320` | `@Preview(device = Honor.HNLGN_QL)` |
 | HNLLY-M1 | HNLLY_M1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Honor.HNLLY_M1)` |
 | HNLLY-Q | HNLLY_Q | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Honor.HNLLY_Q)` |
 | HNMAA | HNMAA | 1200x2664 | 524 | `spec:width=1200px,height=2664px,dpi=524` | `@Preview(device = Honor.HNMAA)` |
@@ -55,9 +61,11 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNMAP | HNMAP | 1224x2700 | 530 | `spec:width=1224px,height=2700px,dpi=530` | `@Preview(device = Honor.HNMAP)` |
 | HNMBHX | HNMBHX | 2172x2352 | 480 | `spec:width=2172px,height=2352px,dpi=480` | `@Preview(device = Honor.HNMBHX)` |
 | HNMTN-Q | HNMTN_Q | 1200x2640 | 520 | `spec:width=1200px,height=2640px,dpi=520` | `@Preview(device = Honor.HNMTN_Q)` |
+| HNMTN-Q1 | HNMTN_Q1 | 1200x2640 | 520 | `spec:width=1200px,height=2640px,dpi=520` | `@Preview(device = Honor.HNMTN_Q1)` |
 | HNNDL-Q | HNNDL_Q | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Honor.HNNDL_Q)` |
 | HNNEM-H | HNNEM_H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Honor.HNNEM_H)` |
 | HNNIC-M1 | HNNIC_M1 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Honor.HNNIC_M1)` |
+| HNNLA-M | HNNLA_M | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Honor.HNNLA_M)` |
 | HNNTH | HNNTH | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Honor.HNNTH)` |
 | HNNTN | HNNTN | 1080x2376 | 480 | `spec:width=1080px,height=2376px,dpi=480` | `@Preview(device = Honor.HNNTN)` |
 | HNPGT | HNPGT | 1312x2848 | 560 | `spec:width=1312px,height=2848px,dpi=560` | `@Preview(device = Honor.HNPGT)` |
@@ -79,6 +87,7 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNVNE-M | HNVNE_M | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Honor.HNVNE_M)` |
 | HNVNE-Q | HNVNE_Q | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Honor.HNVNE_Q)` |
 | HNWDY-M | HNWDY_M | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Honor.HNWDY_M)` |
+| HNYLP-Q | HNYLP_Q | 2136x3200 | 420 | `spec:width=2136px,height=3200px,dpi=420` | `@Preview(device = Honor.HNYLP_Q)` |
 | HWAGS2 | HWAGS2 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Honor.HWAGS2)` |
 | HWARE-Q | HWARE_Q | 1080x2244 | 480 | `spec:width=1080px,height=2244px,dpi=480` | `@Preview(device = Honor.HWARE_Q)` |
 | HWARE-QC | HWARE_QC | 1080x2244 | 480 | `spec:width=1080px,height=2244px,dpi=480` | `@Preview(device = Honor.HWARE_QC)` |
@@ -92,7 +101,6 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HWCAM-Q | HWCAM_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWCAM_Q)` |
 | hwChe2 | HWCHE2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWCHE2)` |
 | hwCHM-H | HWCHM_H | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWCHM_H)` |
-| hwCHM-Q | HWCHM_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWCHM_Q)` |
 | HWCOL | HWCOL | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Honor.HWCOL)` |
 | HWCOR | HWCOR | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Honor.HWCOR)` |
 | HWDLI-Q | HWDLI_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWDLI_Q)` |
@@ -127,7 +135,7 @@ Total: **128** devices. Import: `import se.premex.compose.preview.device.catalog
 | HWSTF | HWSTF | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Honor.HWSTF)` |
 | HWSTK-HF | HWSTK_HF | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Honor.HWSTK_HF)` |
 | HWTIT-L6735 | HWTIT_L6735 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWTIT_L6735)` |
-| HWTNY | HWTNY | 1344x2772 | 480 | `spec:width=1344px,height=2772px,dpi=480` | `@Preview(device = Honor.HWTNY)` |
+| HWTNY | HWTNY | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Honor.HWTNY)` |
 | HWTRT-Q | HWTRT_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honor.HWTRT_Q)` |
 | HWVNS-H | HWVNS_H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Honor.HWVNS_H)` |
 | HWYAL | HWYAL | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Honor.HWYAL)` |

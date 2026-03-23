@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=339
+// Generated manufacturer device catalog. Devices=336
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Sony (339 models).
+ * Device specifications for Sony (336 models).
  */
 public object Sony {
   /**
@@ -343,11 +343,6 @@ public object Sony {
   public const val C6606: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Sony C6616
-   */
-  public const val C6616: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * Sony C6802
    */
   public const val C6802: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -431,11 +426,6 @@ public object Sony {
    * Sony D2212
    */
   public const val D2212: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Sony D2243
-   */
-  public const val D2243: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Sony D2302
@@ -666,11 +656,6 @@ public object Sony {
    * Sony E5333
    */
   public const val E5333: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * Sony E5343
-   */
-  public const val E5343: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Sony E5353
@@ -1393,11 +1378,6 @@ public object Sony {
   public const val SOV42_U: String = "spec:width=1080px,height=2520px,dpi=420"
 
   /**
-   * Sony ST26a
-   */
-  public const val ST26A: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * Sony ST26i
    */
   public const val ST26I: String = "spec:width=480px,height=854px,dpi=240"
@@ -1696,6 +1676,11 @@ public object Sony {
    * Sony XQ-ES72
    */
   public const val XQ_ES72: String = "spec:width=1080px,height=2520px,dpi=450"
+
+  /**
+   * Sony XQ-FE
+   */
+  public const val XQ_FE: String = "spec:width=1080px,height=2340px,dpi=420"
 
   /**
    * Sony XQ-FS

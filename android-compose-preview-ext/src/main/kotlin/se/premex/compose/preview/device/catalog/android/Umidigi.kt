@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=114
+// Generated manufacturer device catalog. Devices=116
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for UMIDIGI (114 models).
+ * Device specifications for UMIDIGI (116 models).
  */
 public object Umidigi {
   /**
@@ -105,7 +105,7 @@ public object Umidigi {
   /**
    * UMIDIGI A5_Pro
    */
-  public const val A5_PRO: String = "spec:width=1080px,height=2280px,dpi=480"
+  public const val A5_PRO: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * UMIDIGI A7
@@ -268,9 +268,19 @@ public object Umidigi {
   public const val G100: String = "spec:width=720px,height=1640px,dpi=480"
 
   /**
+   * UMIDIGI G100_Pro
+   */
+  public const val G100_PRO: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
    * UMIDIGI G100A
    */
   public const val G100A: String = "spec:width=720px,height=1640px,dpi=480"
+
+  /**
+   * UMIDIGI G100x
+   */
+  public const val G100X: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * UMIDIGI G1_Max

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=95
+// Generated manufacturer device catalog. Devices=101
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for OnePlus (95 models).
+ * Device specifications for OnePlus (101 models).
  */
 public object Oneplus {
   /**
@@ -145,7 +145,7 @@ public object Oneplus {
   /**
    * OnePlus OnePlus9ProTMO
    */
-  public const val ONEPLUS9PROTMO: String = "spec:width=1080px,height=2412px,dpi=480"
+  public const val ONEPLUS9PROTMO: String = "spec:width=1440px,height=3216px,dpi=480"
 
   /**
    * OnePlus OnePlus9R
@@ -201,6 +201,11 @@ public object Oneplus {
    * OnePlus OnePlusN200TMO
    */
   public const val ONEPLUSN200TMO: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * OnePlus OnePlusNordCE
+   */
+  public const val ONEPLUSNORDCE: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * OnePlus OP5154L1
@@ -418,6 +423,21 @@ public object Oneplus {
   public const val OP60F9L1: String = "spec:width=1080px,height=2392px,dpi=480"
 
   /**
+   * OnePlus OP60FFL1
+   */
+  public const val OP60FFL1: String = "spec:width=1272px,height=2772px,dpi=560"
+
+  /**
+   * OnePlus OP6113L1
+   */
+  public const val OP6113L1: String = "spec:width=1272px,height=2800px,dpi=560"
+
+  /**
+   * OnePlus OP611FL1
+   */
+  public const val OP611FL1: String = "spec:width=1272px,height=2772px,dpi=560"
+
+  /**
    * OnePlus OP612BL1
    */
   public const val OP612BL1: String = "spec:width=1216px,height=2640px,dpi=560"
@@ -448,9 +468,19 @@ public object Oneplus {
   public const val OP6190L1: String = "spec:width=2400px,height=3392px,dpi=420"
 
   /**
+   * OnePlus OP6194L1
+   */
+  public const val OP6194L1: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * OnePlus OP6195L1
    */
   public const val OP6195L1: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * OnePlus OP6543L1
+   */
+  public const val OP6543L1: String = "spec:width=2120px,height=3000px,dpi=400"
 
   /**
    * OnePlus OP7ProNRSpr

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for M4TEL (5 models).
+ * Device specifications for M4TEL (4 models).
  */
 public object M4tel {
   /**
@@ -21,11 +21,6 @@ public object M4tel {
    * M4TEL NOVA03A_S22A
    */
   public const val NOVA03A_S22A: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * M4TEL R2
-   */
-  public const val R2: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * M4TEL R2_Plus

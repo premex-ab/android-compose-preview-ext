@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Dialog (4 models).
+ * Device specifications for Dialog (3 models).
  */
 public object Dialog {
-  /**
-   * Dialog Dialog_Blaze_Mini
-   */
-  public const val DIALOG_BLAZE_MINI: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * Dialog DV8829_Dialog
    */

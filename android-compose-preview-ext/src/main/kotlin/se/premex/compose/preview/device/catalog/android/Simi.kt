@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SIMI (6 models).
+ * Device specifications for SIMI (8 models).
  */
 public object Simi {
+  /**
+   * SIMI COOL2
+   */
+  public const val COOL2: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * SIMI DREAM2
+   */
+  public const val DREAM2: String = "spec:width=720px,height=1612px,dpi=320"
+
   /**
    * SIMI Mecha
    */

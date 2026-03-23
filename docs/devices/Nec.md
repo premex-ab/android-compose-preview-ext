@@ -6,7 +6,6 @@ Total: **29** devices. Import: `import se.premex.compose.preview.device.catalog.
 |------|----------|------------|-----|-------------|---------------|
 | 508T1W | _508T1W | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Nec._508T1W)` |
 | 708T1W | _708T1W | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Nec._708T1W)` |
-| D000000039 | D000000039 | 752x1280 | 160 | `spec:width=752px,height=1280px,dpi=160` | `@Preview(device = Nec.D000000039)` |
 | LAVIET11112K1 | LAVIET11112K1 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Nec.LAVIET11112K1)` |
 | LAVIET1111QHD1 | LAVIET1111QHD1 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Nec.LAVIET1111QHD1)` |
 | LAVIET77SD1 | LAVIET77SD1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Nec.LAVIET77SD1)` |
@@ -17,6 +16,7 @@ Total: **29** devices. Import: `import se.premex.compose.preview.device.catalog.
 | LAVIETab112K2 | LAVIETAB112K2 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Nec.LAVIETAB112K2)` |
 | LAVIETab11FHD1 | LAVIETAB11FHD1 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Nec.LAVIETAB11FHD1)` |
 | LAVIETab11QHD2 | LAVIETAB11QHD2 | 1536x2560 | 320 | `spec:width=1536px,height=2560px,dpi=320` | `@Preview(device = Nec.LAVIETAB11QHD2)` |
+| LAVIETab11QHD3 | LAVIETAB11QHD3 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Nec.LAVIETAB11QHD3)` |
 | LAVIETab143K1 | LAVIETAB143K1 | 1876x3000 | 320 | `spec:width=1876px,height=3000px,dpi=320` | `@Preview(device = Nec.LAVIETAB143K1)` |
 | LAVIETab9QHD1 | LAVIETAB9QHD1 | 1600x2560 | 400 | `spec:width=1600px,height=2560px,dpi=400` | `@Preview(device = Nec.LAVIETAB9QHD1)` |
 | LAVIETabE10FHD1 | LAVIETABE10FHD1 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Nec.LAVIETABE10FHD1)` |

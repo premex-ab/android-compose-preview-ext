@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=18
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Cricket (17 models).
+ * Device specifications for Cricket (18 models).
  */
 public object Cricket {
   /**
@@ -46,6 +46,11 @@ public object Cricket {
    * Cricket SN304AE
    */
   public const val SN304AE: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Cricket SN333C
+   */
+  public const val SN333C: String = "spec:width=720px,height=1640px,dpi=260"
 
   /**
    * Cricket SN509C

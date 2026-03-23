@@ -123,9 +123,9 @@ public object Altice {
   public const val S70: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * ALTICE STARACTIVE
+   * Altice SEI740ATC
    */
-  public const val STARACTIVE: String = "spec:width=480px,height=854px,dpi=240"
+  public const val SEI740ATC: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * ALTICE STARNAUTE4

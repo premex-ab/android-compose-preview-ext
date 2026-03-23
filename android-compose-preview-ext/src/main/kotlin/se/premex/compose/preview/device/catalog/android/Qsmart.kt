@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=29
+// Generated manufacturer device catalog. Devices=27
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for QSmart (29 models).
+ * Device specifications for QSmart (27 models).
  */
 public object Qsmart {
   /**
@@ -66,16 +66,6 @@ public object Qsmart {
    * QSmart MARK_2
    */
   public const val MARK_2: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * QSmart Mark_5
-   */
-  public const val MARK_5: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * QSmart QSmart_i5i_2019
-   */
-  public const val QSMART_I5I_2019: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * QSmart QSmart_i6i_2020

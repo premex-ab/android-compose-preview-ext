@@ -1,18 +1,16 @@
 # Zte Devices
 
-Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zte`
+Total: **389** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zte`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | abby | ABBY | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.ABBY)` |
 | achill | ACHILL | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Zte.ACHILL)` |
-| ailsa | AILSA | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Zte.AILSA)` |
 | ailsa_ii | AILSA_II | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Zte.AILSA_II)` |
 | alice | ALICE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.ALICE)` |
 | B860H_V1 | B860H_V1 | 1080x1920 | 238 | `spec:width=1080px,height=1920px,dpi=238` | `@Preview(device = Zte.B860H_V1)` |
 | baffin | BAFFIN | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zte.BAFFIN)` |
 | beam | BEAM | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.BEAM)` |
-| benz | BENZ | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.BENZ)` |
 | billy | BILLY | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.BILLY)` |
 | Blade_L3_Plus | BLADE_L3_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.BLADE_L3_PLUS)` |
 | bolton | BOLTON | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.BOLTON)` |
@@ -65,7 +63,6 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | MO-01K | MO_01K | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.MO_01K)` |
 | msm8226 | MSM8226 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.MSM8226)` |
 | msm8909 | MSM8909 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Zte.MSM8909)` |
-| msm8916_32 | MSM8916_32 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.MSM8916_32)` |
 | msm8916_64 | MSM8916_64 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.MSM8916_64)` |
 | msm8937 | MSM8937 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zte.MSM8937)` |
 | msm8952_64 | MSM8952_64 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.MSM8952_64)` |
@@ -94,6 +91,7 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | P606F17 | P606F17 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P606F17)` |
 | P606F19 | P606F19 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Zte.P606F19)` |
 | P606F20 | P606F20 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P606F20)` |
+| P606F20_A | P606F20_A | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P606F20_A)` |
 | P606F21 | P606F21 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P606F21)` |
 | P606T07C | P606T07C | 800x1280 | 480 | `spec:width=800px,height=1280px,dpi=480` | `@Preview(device = Zte.P606T07C)` |
 | P609 | P609 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P609)` |
@@ -107,6 +105,7 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | P616T02C | P616T02C | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Zte.P616T02C)` |
 | P616T03_AC | P616T03_AC | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Zte.P616T03_AC)` |
 | P616T03C | P616T03C | 1200x1920 | 360 | `spec:width=1200px,height=1920px,dpi=360` | `@Preview(device = Zte.P616T03C)` |
+| P616T04C | P616T04C | 1200x1920 | 480 | `spec:width=1200px,height=1920px,dpi=480` | `@Preview(device = Zte.P616T04C)` |
 | P618A01 | P618A01 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Zte.P618A01)` |
 | P618A03 | P618A03 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Zte.P618A03)` |
 | P618A11 | P618A11 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zte.P618A11)` |
@@ -115,8 +114,6 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | P618F07 | P618F07 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zte.P618F07)` |
 | P618F08 | P618F08 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zte.P618F08)` |
 | P618T01C | P618T01C | 1200x2000 | 340 | `spec:width=1200px,height=2000px,dpi=340` | `@Preview(device = Zte.P618T01C)` |
-| P632A10 | P632A10 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Zte.P632A10)` |
-| P632T31 | P632T31 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Zte.P632T31)` |
 | P633F05 | P633F05 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zte.P633F05)` |
 | P633F08 | P633F08 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P633F08)` |
 | P633F10 | P633F10 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Zte.P633F10)` |
@@ -156,15 +153,15 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | P653S07 | P653S07 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zte.P653S07)` |
 | P655A30 | P655A30 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.P655A30)` |
 | P662F02 | P662F02 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P662F02)` |
-| P662F02_D1 | P662F02_D1 | 1080x2220 | 440 | `spec:width=1080px,height=2220px,dpi=440` | `@Preview(device = Zte.P662F02_D1)` |
+| P662F02_D1 | P662F02_D1 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P662F02_D1)` |
 | P662F02_D2 | P662F02_D2 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P662F02_D2)` |
 | P662F02D | P662F02D | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P662F02D)` |
 | P671A11 | P671A11 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.P671A11)` |
 | P671A13 | P671A13 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.P671A13)` |
-| P671F20 | P671F20 | 1080x2220 | 440 | `spec:width=1080px,height=2220px,dpi=440` | `@Preview(device = Zte.P671F20)` |
+| P671F20 | P671F20 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Zte.P671F20)` |
 | P671F20D | P671F20D | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Zte.P671F20D)` |
 | P671F50 | P671F50 | 1080x2220 | 440 | `spec:width=1080px,height=2220px,dpi=440` | `@Preview(device = Zte.P671F50)` |
-| P671F50_D | P671F50_D | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.P671F50_D)` |
+| P671F50_D | P671F50_D | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P671F50_D)` |
 | P671F60 | P671F60 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.P671F60)` |
 | P671F70 | P671F70 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P671F70)` |
 | P671S02 | P671S02 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Zte.P671S02)` |
@@ -180,6 +177,7 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | P720F09 | P720F09 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Zte.P720F09)` |
 | P720S07 | P720S07 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P720S07)` |
 | P720S11 | P720S11 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.P720S11)` |
+| P720T01 | P720T01 | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Zte.P720T01)` |
 | P725A02 | P725A02 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Zte.P725A02)` |
 | P725A11 | P725A11 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.P725A11)` |
 | P725A12 | P725A12 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.P725A12)` |
@@ -224,7 +222,7 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | P840F13 | P840F13 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.P840F13)` |
 | P840F20 | P840F20 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.P840F20)` |
 | P840S03 | P840S03 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Zte.P840S03)` |
-| P840S18 | P840S18 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Zte.P840S18)` |
+| P840S18 | P840S18 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.P840S18)` |
 | P840T22 | P840T22 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.P840T22)` |
 | P845A01 | P845A01 | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Zte.P845A01)` |
 | P845A02 | P845A02 | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Zte.P845A02)` |
@@ -300,7 +298,6 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | stollen | STOLLEN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.STOLLEN)` |
 | sweet | SWEET | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Zte.SWEET)` |
 | T86 | T86 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Zte.T86)` |
-| tom | TOM | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.TOM)` |
 | tulip | TULIP | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.TULIP)` |
 | TURKCELL-T40 | TURKCELL_T40 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zte.TURKCELL_T40)` |
 | urd | URD | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Zte.URD)` |
@@ -313,16 +310,18 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | warp8 | WARP8 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.WARP8)` |
 | wellington | WELLINGTON | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zte.WELLINGTON)` |
 | xuantan | XUANTAN | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Zte.XUANTAN)` |
-| YEV | YEV | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.YEV)` |
+| YEV | YEV | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Zte.YEV)` |
 | YMA | YMA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zte.YMA)` |
 | YXE | YXE | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Zte.YXE)` |
 | Z-01K | Z_01K | 1920x2160 | 480 | `spec:width=1920px,height=2160px,dpi=480` | `@Preview(device = Zte.Z_01K)` |
 | Z2339 | Z2339 | 480x800 | 220 | `spec:width=480px,height=800px,dpi=220` | `@Preview(device = Zte.Z2339)` |
+| Z2470C | Z2470C | 720x1612 | 270 | `spec:width=720px,height=1612px,dpi=270` | `@Preview(device = Zte.Z2470C)` |
 | Z3051T | Z3051T | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3051T)` |
 | Z3052O | Z3052O | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3052O)` |
 | Z3052T | Z3052T | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3052T)` |
 | Z3101T | Z3101T | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3101T)` |
-| Z3153 | Z3153 | 1080x2220 | 440 | `spec:width=1080px,height=2220px,dpi=440` | `@Preview(device = Zte.Z3153)` |
+| Z3103O | Z3103O | 576x1152 | 240 | `spec:width=576px,height=1152px,dpi=240` | `@Preview(device = Zte.Z3103O)` |
+| Z3153 | Z3153 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3153)` |
 | Z3351 | Z3351 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3351)` |
 | Z3352CA | Z3352CA | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3352CA)` |
 | Z3353 | Z3353 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Zte.Z3353)` |
@@ -362,7 +361,9 @@ Total: **388** devices. Import: `import se.premex.compose.preview.device.catalog
 | Z6650S | Z6650S | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.Z6650S)` |
 | Z6750 | Z6750 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.Z6750)` |
 | Z6750K | Z6750K | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.Z6750K)` |
+| Z7306O | Z7306O | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.Z7306O)` |
 | Z7540 | Z7540 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.Z7540)` |
+| Z7602O | Z7602O | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zte.Z7602O)` |
 | Z7750R | Z7750R | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Zte.Z7750R)` |
 | Z8850K | Z8850K | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Zte.Z8850K)` |
 | Z8888S | Z8888S | 1188x2790 | 520 | `spec:width=1188px,height=2790px,dpi=520` | `@Preview(device = Zte.Z8888S)` |

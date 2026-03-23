@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Alba (10 models).
+ * Device specifications for Alba (9 models).
  */
 public object Alba {
   /**
@@ -16,11 +16,6 @@ public object Alba {
    * alba ac40as3g
    */
   public const val AC40AS3G: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Alba ac60crs
-   */
-  public const val AC60CRS: String = "spec:width=720px,height=1440px,dpi=280"
 
   /**
    * Alba Alba10Nou

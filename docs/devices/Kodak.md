@@ -1,6 +1,6 @@
 # Kodak Devices
 
-Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Kodak`
+Total: **19** devices. Import: `import se.premex.compose.preview.device.catalog.android.Kodak`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -13,7 +13,6 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Kodak_D65LX | KODAK_D65LX | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Kodak.KODAK_D65LX)` |
 | Kodak_KD50 | KODAK_KD50 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Kodak.KODAK_KD50)` |
 | KODAK_SMARTWAY_L1 | KODAK_SMARTWAY_L1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Kodak.KODAK_SMARTWAY_L1)` |
-| KODAK_SMARTWAY_T2 | KODAK_SMARTWAY_T2 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Kodak.KODAK_SMARTWAY_T2)` |
 | KodakEktra | KODAKEKTRA | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Kodak.KODAKEKTRA)` |
 | L1_PRO | L1_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Kodak.L1_PRO)` |
 | marina | MARINA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Kodak.MARINA)` |

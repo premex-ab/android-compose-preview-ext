@@ -25,12 +25,12 @@ public object Luna {
   /**
    * LUNA LUNA_T10
    */
-  public const val LUNA_T10: String = "spec:width=1200px,height=1920px,dpi=240"
+  public const val LUNA_T10: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * LUNA LUNA_V6
    */
-  public const val LUNA_V6: String = "spec:width=1080px,height=2248px,dpi=480"
+  public const val LUNA_V6: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * LUNA LUNA_V6_3GB

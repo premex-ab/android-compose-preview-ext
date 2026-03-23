@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BRAVIS (13 models).
+ * Device specifications for bravis (9 models).
  */
 public object Bravis {
   /**
@@ -18,29 +18,9 @@ public object Bravis {
   public const val A512_HARMONY_PRO: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * bravis bravis_A506
-   */
-  public const val BRAVIS_A506: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BRAVIS BRAVIS_X500
-   */
-  public const val BRAVIS_X500: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * bravis ikebukuro
    */
   public const val IKEBUKURO: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * BRAVIS N1-570-Space
-   */
-  public const val N1_570_SPACE: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * BRAVIS N1_550_Cruiser
-   */
-  public const val N1_550_CRUISER: String = "spec:width=640px,height=1280px,dpi=320"
 
   /**
    * bravis NB108

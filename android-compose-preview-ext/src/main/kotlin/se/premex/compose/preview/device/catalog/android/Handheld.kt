@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Handheld (11 models).
+ * Device specifications for Handheld (12 models).
  */
 public object Handheld {
   /**
@@ -41,6 +41,11 @@ public object Handheld {
    * Handheld alta_GL
    */
   public const val ALTA_GL: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * handheld condor
+   */
+  public const val CONDOR: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
    * Handheld NAUTIZ_X2

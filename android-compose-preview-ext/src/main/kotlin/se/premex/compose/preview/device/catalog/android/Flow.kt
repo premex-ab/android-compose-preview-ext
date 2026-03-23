@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FLOW (5 models).
+ * Device specifications for FLOW (6 models).
  */
 public object Flow {
   /**
    * FLOW B866V2F_FLOW
    */
-  public const val B866V2F_FLOW: String = "spec:width=720px,height=1280px,dpi=213"
+  public const val B866V2F_FLOW: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * FLOW B866V6N_FLOW
+   */
+  public const val B866V6N_FLOW: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * FLOW HP40A2

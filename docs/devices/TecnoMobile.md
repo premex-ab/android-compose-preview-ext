@@ -21,6 +21,6 @@ Total: **18** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TECNO-Mobile-KL5n | TECNO_MOBILE_KL5N | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = TecnoMobile.TECNO_MOBILE_KL5N)` |
 | TECNO-Mobile-LG6n | TECNO_MOBILE_LG6N | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = TecnoMobile.TECNO_MOBILE_LG6N)` |
 | TECNO-Mobile-LH8n | TECNO_MOBILE_LH8N | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = TecnoMobile.TECNO_MOBILE_LH8N)` |
-| TECNO-Mobile-LI6 | TECNO_MOBILE_LI6 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = TecnoMobile.TECNO_MOBILE_LI6)` |
+| TECNO-Mobile-LI6 | TECNO_MOBILE_LI6 | 1080x2460 | 440 | `spec:width=1080px,height=2460px,dpi=440` | `@Preview(device = TecnoMobile.TECNO_MOBILE_LI6)` |
 
 <!-- Generated automatically. Do not edit manually. -->

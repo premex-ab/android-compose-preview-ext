@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BPL (7 models).
+ * Device specifications for BPL (8 models).
  */
 public object Bpl {
+  /**
+   * BPL alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * BPL ikebukuro
    */

@@ -1,12 +1,12 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=34
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TechPad (24 models).
+ * Device specifications for Tech_Pad (34 models).
  */
-public object Techpad {
+public object TechPad {
   /**
    * TechPad 1016S
    */
@@ -16,6 +16,11 @@ public object Techpad {
    * TechPad 1032
    */
   public const val _1032: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Tech_Pad 816
+   */
+  public const val _816: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * TechPad 816x
@@ -43,6 +48,11 @@ public object Techpad {
   public const val K13PRO: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
+   * TechPad Kids_Pro
+   */
+  public const val KIDS_PRO: String = "spec:width=800px,height=1280px,dpi=200"
+
+  /**
    * Techpad M55_4G
    */
   public const val M55_4G: String = "spec:width=480px,height=960px,dpi=240"
@@ -68,6 +78,11 @@ public object Techpad {
   public const val R10: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * TechPad R11_ULTRA
+   */
+  public const val R11_ULTRA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * TechPad S6
    */
   public const val S6: String = "spec:width=480px,height=960px,dpi=240"
@@ -76,6 +91,26 @@ public object Techpad {
    * Techpad S6
    */
   public const val S6_720X1520: String = "spec:width=720px,height=1520px,dpi=320"
+
+  /**
+   * Tech_Pad Tech_Pad_3G16
+   */
+  public const val TECH_PAD_3G16: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * Tech_Pad Tech_Pad_732
+   */
+  public const val TECH_PAD_732: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * Tech_Pad Tech_Pad_S813G
+   */
+  public const val TECH_PAD_S813G: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * Tech_Pad Tech_Pad_X10
+   */
+  public const val TECH_PAD_X10: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * TechPad TechPad_1032
@@ -108,6 +143,11 @@ public object Techpad {
   public const val TECHPAD_716: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * TechPad Techpad_864
+   */
+  public const val TECHPAD_864: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * TechPad TechPad_9x
    */
   public const val TECHPAD_9X: String = "spec:width=600px,height=1024px,dpi=160"
@@ -118,9 +158,19 @@ public object Techpad {
   public const val TECHPAD_KIDS_7: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * Tech_Pad X11
+   */
+  public const val X11: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * TechPad X7
    */
   public const val X7: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * Tech_Pad X9_PLUS
+   */
+  public const val X9_PLUS: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * TechPad Z10

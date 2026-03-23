@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FOSSiBOT (15 models).
+ * Device specifications for FOSSiBOT (20 models).
  */
 public object Fossibot {
   /**
@@ -16,6 +16,11 @@ public object Fossibot {
    * FOSSiBOT DT2
    */
   public const val DT2: String = "spec:width=1200px,height=2000px,dpi=320"
+
+  /**
+   * FOSSiBOT DT3
+   */
+  public const val DT3: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
    * FOSSiBOT F101
@@ -48,6 +53,11 @@ public object Fossibot {
   public const val F106_PRO: String = "spec:width=1080px,height=2408px,dpi=480"
 
   /**
+   * FOSSiBOT F107_Pro
+   */
+  public const val F107_PRO: String = "spec:width=1080px,height=2460px,dpi=400"
+
+  /**
    * FOSSiBOT F109
    */
   public const val F109: String = "spec:width=720px,height=1600px,dpi=280"
@@ -58,9 +68,24 @@ public object Fossibot {
   public const val F109_S: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
+   * FOSSiBOT F110L
+   */
+  public const val F110L: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * FOSSiBOT F112_Pro
    */
   public const val F112_PRO: String = "spec:width=720px,height=1640px,dpi=280"
+
+  /**
+   * FOSSiBOT F113
+   */
+  public const val F113: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * FOSSiBOT F114
+   */
+  public const val F114: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * FOSSiBOT FOSSiBOT_S2

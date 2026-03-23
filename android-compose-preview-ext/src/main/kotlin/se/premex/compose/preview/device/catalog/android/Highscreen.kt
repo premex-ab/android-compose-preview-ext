@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HighScreen (15 models).
+ * Device specifications for HighScreen (11 models).
  */
 public object Highscreen {
-  /**
-   * HighScreen Bay
-   */
-  public const val BAY: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * HighScreen BBL7353RV
    */
@@ -21,16 +16,6 @@ public object Highscreen {
    * HighScreen Expanse
    */
   public const val EXPANSE: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * HighScreen FestXL
-   */
-  public const val FESTXL: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * HighScreen FestXL-Pro
-   */
-  public const val FESTXL_PRO: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Highscreen Max3
@@ -76,9 +61,4 @@ public object Highscreen {
    * HighScreen PowerRageEvo
    */
   public const val POWERRAGEEVO: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * HighScreen PrimeL
-   */
-  public const val PRIMEL: String = "spec:width=720px,height=1280px,dpi=320"
 }

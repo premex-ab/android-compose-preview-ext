@@ -10,5 +10,5 @@ public object OxTab {
   /**
    * OX_TAB OX_TAB_10
    */
-  public const val OX_TAB_10: String = "spec:width=800px,height=1280px,dpi=200"
+  public const val OX_TAB_10: String = "spec:width=800px,height=1280px,dpi=180"
 }

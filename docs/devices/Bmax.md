@@ -1,6 +1,6 @@
 # Bmax Devices
 
-Total: **36** devices. Import: `import se.premex.compose.preview.device.catalog.android.Bmax`
+Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.android.Bmax`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -16,6 +16,7 @@ Total: **36** devices. Import: `import se.premex.compose.preview.device.catalog.
 | I10_Pro_LTE | I10_PRO_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Bmax.I10_PRO_LTE)` |
 | I10_Pro_LTE_EEA | I10_PRO_LTE_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Bmax.I10_PRO_LTE_EEA)` |
 | I10_Pro_ROW | I10_PRO_ROW | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Bmax.I10_PRO_ROW)` |
+| I10_S | I10_S | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Bmax.I10_S)` |
 | I10_S_Pro | I10_S_PRO | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Bmax.I10_S_PRO)` |
 | I10Pro_LTE | I10PRO_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Bmax.I10PRO_LTE)` |
 | I10Pro_LTE_EEA | I10PRO_LTE_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Bmax.I10PRO_LTE_EEA)` |

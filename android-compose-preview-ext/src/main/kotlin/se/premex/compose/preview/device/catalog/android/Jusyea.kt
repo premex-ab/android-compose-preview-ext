@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for JUSYEA (9 models).
+ * Device specifications for JUSYEA (8 models).
  */
 public object Jusyea {
   /**
@@ -26,11 +26,6 @@ public object Jusyea {
    * JUSYEA J6_EEA
    */
   public const val J6_EEA: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * JUSYEA J8
-   */
-  public const val J8: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * JUSYEA J8_EEA

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=28
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Mintt (24 models).
+ * Device specifications for Mintt (28 models).
  */
 public object Mintt {
   /**
@@ -48,6 +48,11 @@ public object Mintt {
   public const val COOLMINTT_X9: String = "spec:width=720px,height=1600px,dpi=480"
 
   /**
+   * Mintt MINTT_ASPIRE_X9
+   */
+  public const val MINTT_ASPIRE_X9: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
    * Mintt MINTT_DIGI_2
    */
   public const val MINTT_DIGI_2: String = "spec:width=480px,height=800px,dpi=240"
@@ -63,9 +68,24 @@ public object Mintt {
   public const val MINTT_M5: String = "spec:width=480px,height=960px,dpi=220"
 
   /**
+   * Mintt MINTT_PRIME_S11
+   */
+  public const val MINTT_PRIME_S11: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
    * MINTT MINTT_T11
    */
   public const val MINTT_T11: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Mintt Mintt_T11_SE
+   */
+  public const val MINTT_T11_SE: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Mintt Mintt_T3_SE
+   */
+  public const val MINTT_T3_SE: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Mintt MinttPoro

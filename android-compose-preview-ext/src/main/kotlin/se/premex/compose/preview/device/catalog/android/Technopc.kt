@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Technopc (4 models).
+ * Device specifications for Technopc (5 models).
  */
 public object Technopc {
+  /**
+   * Technopc QUANTUM_ZIRCON_11Q801
+   */
+  public const val QUANTUM_ZIRCON_11Q801: String = "spec:width=1200px,height=1920px,dpi=280"
+
   /**
    * Technopc Technopc_UP10S43LA
    */

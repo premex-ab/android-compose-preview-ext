@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for GLOBAL (4 models).
+ * Device specifications for GLOBAL (5 models).
  */
 public object Global {
+  /**
+   * GLOBAL elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * GLOBAL lavender
    */

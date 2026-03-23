@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=36
+// Generated manufacturer device catalog. Devices=37
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CWOWDEFU (36 models).
+ * Device specifications for CWOWDEFU (37 models).
  */
 public object Cwowdefu {
   /**
@@ -28,6 +28,11 @@ public object Cwowdefu {
   public const val C28: String = "spec:width=600px,height=1024px,dpi=200"
 
   /**
+   * CWOWDEFU C29
+   */
+  public const val C29: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * CWOWDEFU C6
    */
   public const val C6: String = "spec:width=720px,height=1560px,dpi=320"
@@ -46,11 +51,6 @@ public object Cwowdefu {
    * CWOWDEFU C77W_EEA
    */
   public const val C77W_EEA: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * CWOWDEFU C80W
-   */
-  public const val C80W: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * CWOWDEFU C82W
@@ -176,6 +176,11 @@ public object Cwowdefu {
    * CWOWDEFU P80L
    */
   public const val P80L: String = "spec:width=800px,height=1280px,dpi=240"
+
+  /**
+   * CWOWDEFU P81L
+   */
+  public const val P81L: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * CWOWDEFU S18

@@ -1,6 +1,6 @@
 # IrisOhyama Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.IrisOhyama`
+Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.android.IrisOhyama`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -23,8 +23,11 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TE10D2M64 | TE10D2M64 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = IrisOhyama.TE10D2M64)` |
 | TM082 | TM082 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = IrisOhyama.TM082)` |
 | TM083 | TM083 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = IrisOhyama.TM083)` |
+| TM08E2W74 | TM08E2W74 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = IrisOhyama.TM08E2W74)` |
 | TM102 | TM102 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = IrisOhyama.TM102)` |
 | TM103 | TM103 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = IrisOhyama.TM103)` |
+| TM12E2W74 | TM12E2W74 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = IrisOhyama.TM12E2W74)` |
+| TM12E3W74 | TM12E3W74 | 1200x2000 | 213 | `spec:width=1200px,height=2000px,dpi=213` | `@Preview(device = IrisOhyama.TM12E3W74)` |
 | TM152M4 | TM152M4 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = IrisOhyama.TM152M4)` |
 | TM152M8 | TM152M8 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = IrisOhyama.TM152M8)` |
 | TM153M6 | TM153M6 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = IrisOhyama.TM153M6)` |

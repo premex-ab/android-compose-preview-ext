@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iGET (24 models).
+ * Device specifications for iGET (26 models).
  */
 public object Iget {
   /**
@@ -21,6 +21,11 @@ public object Iget {
    * iGET iGET_SMART_L102
    */
   public const val IGET_SMART_L102: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * iGET iGET_T1
+   */
+  public const val IGET_T1: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * iGET SMART_G81
@@ -71,6 +76,11 @@ public object Iget {
    * iGET SMART_L32
    */
   public const val SMART_L32: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * iGET SMART_L43
+   */
+  public const val SMART_L43: String = "spec:width=1200px,height=2000px,dpi=320"
 
   /**
    * iGET SMART_W101

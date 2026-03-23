@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LP (15 models).
+ * Device specifications for LP (13 models).
  */
 public object Lp {
   /**
@@ -68,17 +68,7 @@ public object Lp {
   public const val N60: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * LP T100
-   */
-  public const val T100: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * LP Vyper_PRO
    */
   public const val VYPER_PRO: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * LP W55
-   */
-  public const val W55: String = "spec:width=480px,height=960px,dpi=213"
 }

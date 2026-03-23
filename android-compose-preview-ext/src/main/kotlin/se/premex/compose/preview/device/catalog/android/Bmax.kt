@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=36
+// Generated manufacturer device catalog. Devices=37
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BMAX (36 models).
+ * Device specifications for BMAX (37 models).
  */
 public object Bmax {
   /**
@@ -66,6 +66,11 @@ public object Bmax {
    * BMAX I10_Pro_ROW
    */
   public const val I10_PRO_ROW: String = "spec:width=1200px,height=1920px,dpi=320"
+
+  /**
+   * BMAX I10_S
+   */
+  public const val I10_S: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * BMAX I10_S_Pro

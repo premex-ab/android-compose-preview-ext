@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ERGO (9 models).
+ * Device specifications for ERGO (10 models).
  */
 public object Ergo {
   /**
@@ -18,9 +18,19 @@ public object Ergo {
   public const val B502_BASIC: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
+   * ERGO beomil
+   */
+  public const val BEOMIL: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
    * ERGO byculla
    */
   public const val BYCULLA: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * ERGO eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * ERGO longshan
@@ -36,11 +46,6 @@ public object Ergo {
    * ERGO SW6H
    */
   public const val SW6H: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * ERGO V540_Level
-   */
-  public const val V540_LEVEL: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * ERGO V550_Vision

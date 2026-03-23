@@ -15,5 +15,5 @@ public object Tigers {
   /**
    * TIGERS TIS001_S4
    */
-  public const val TIS001_S4: String = "spec:width=480px,height=960px,dpi=220"
+  public const val TIS001_S4: String = "spec:width=540px,height=1200px,dpi=240"
 }

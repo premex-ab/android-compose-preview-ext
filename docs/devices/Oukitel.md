@@ -1,6 +1,6 @@
 # Oukitel Devices
 
-Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog.android.Oukitel`
+Total: **181** devices. Import: `import se.premex.compose.preview.device.catalog.android.Oukitel`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -28,10 +28,10 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | C25 | C25 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C25)` |
 | C31 | C31 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C31)` |
 | C31_Pro | C31_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C31_PRO)` |
-| C32 | C32 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oukitel.C32)` |
+| C32 | C32 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C32)` |
 | C33 | C33 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C33)` |
-| C35 | C35 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oukitel.C35)` |
-| C36 | C36 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Oukitel.C36)` |
+| C35 | C35 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Oukitel.C35)` |
+| C36 | C36 | 576x1280 | 213 | `spec:width=576px,height=1280px,dpi=213` | `@Preview(device = Oukitel.C36)` |
 | C37 | C37 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Oukitel.C37)` |
 | C38 | C38 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Oukitel.C38)` |
 | C50 | C50 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C50)` |
@@ -42,12 +42,20 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | C58 | C58 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C58)` |
 | C58_Pro | C58_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C58_PRO)` |
 | C59_Pro | C59_PRO | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C59_PRO)` |
+| C6 | C6 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C6)` |
+| C60_Pro | C60_PRO | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C60_PRO)` |
+| C61 | C61 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C61)` |
+| C61_Plus | C61_PLUS | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C61_PLUS)` |
 | C61_Pro | C61_PRO | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C61_PRO)` |
+| C62 | C62 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C62)` |
+| C62_Pro | C62_PRO | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.C62_PRO)` |
 | C65 | C65 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C65)` |
 | C65_Pro | C65_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.C65_PRO)` |
+| C68 | C68 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Oukitel.C68)` |
+| C68_Plus | C68_PLUS | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Oukitel.C68_PLUS)` |
+| C69 | C69 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Oukitel.C69)` |
 | C8 | C8 | 640x1280 | 320 | `spec:width=640px,height=1280px,dpi=320` | `@Preview(device = Oukitel.C8)` |
 | C8_4G | C8_4G | 640x1280 | 320 | `spec:width=640px,height=1280px,dpi=320` | `@Preview(device = Oukitel.C8_4G)` |
-| C9 | C9 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oukitel.C9)` |
 | G1 | G1 | 576x1280 | 240 | `spec:width=576px,height=1280px,dpi=240` | `@Preview(device = Oukitel.G1)` |
 | G2 | G2 | 576x1152 | 260 | `spec:width=576px,height=1152px,dpi=260` | `@Preview(device = Oukitel.G2)` |
 | K10 | K10 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oukitel.K10)` |
@@ -86,7 +94,9 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | OT9 | OT9 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Oukitel.OT9)` |
 | OUKITEL_C1 | OUKITEL_C1 | 576x1280 | 213 | `spec:width=576px,height=1280px,dpi=213` | `@Preview(device = Oukitel.OUKITEL_C1)` |
 | OUKITEL_C59 | OUKITEL_C59 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.OUKITEL_C59)` |
+| OUKITEL_C60 | OUKITEL_C60 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.OUKITEL_C60)` |
 | OUKITEL_C61 | OUKITEL_C61 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Oukitel.OUKITEL_C61)` |
+| OUKITEL_G3 | OUKITEL_G3 | 576x1152 | 213 | `spec:width=576px,height=1152px,dpi=213` | `@Preview(device = Oukitel.OUKITEL_G3)` |
 | OUKITEL_G5 | OUKITEL_G5 | 576x1152 | 213 | `spec:width=576px,height=1152px,dpi=213` | `@Preview(device = Oukitel.OUKITEL_G5)` |
 | OUKITEL_K7 | OUKITEL_K7 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oukitel.OUKITEL_K7)` |
 | OUKITEL_P1 | OUKITEL_P1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oukitel.OUKITEL_P1)` |
@@ -94,14 +104,17 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | OUKITEL_WP36 | OUKITEL_WP36 | 576x1280 | 240 | `spec:width=576px,height=1280px,dpi=240` | `@Preview(device = Oukitel.OUKITEL_WP36)` |
 | OUKITEL_WP38 | OUKITEL_WP38 | 576x1280 | 240 | `spec:width=576px,height=1280px,dpi=240` | `@Preview(device = Oukitel.OUKITEL_WP38)` |
 | P07 | P07 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.P07)` |
+| P1_Pro | P1_PRO | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oukitel.P1_PRO)` |
 | RT1 | RT1 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT1)` |
 | RT2 | RT2 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT2)` |
 | RT3 | RT3 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Oukitel.RT3)` |
 | RT3_EEA | RT3_EEA | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Oukitel.RT3_EEA)` |
+| RT3_Plus | RT3_PLUS | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Oukitel.RT3_PLUS)` |
 | RT3_Pro | RT3_PRO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Oukitel.RT3_PRO)` |
 | RT5 | RT5 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT5)` |
 | RT6 | RT6 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT6)` |
 | RT7_TITAN | RT7_TITAN | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT7_TITAN)` |
+| RT7_TITAN_5G | RT7_TITAN_5G | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT7_TITAN_5G)` |
 | RT8 | RT8 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Oukitel.RT8)` |
 | RT9 | RT9 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Oukitel.RT9)` |
 | S105B | S105B | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.S105B)` |
@@ -109,13 +122,13 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | S111 | S111 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.S111)` |
 | S115 | S115 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Oukitel.S115)` |
 | S118 | S118 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.S118)` |
-| U11_Plus | U11_PLUS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oukitel.U11_PLUS)` |
 | U18 | U18 | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Oukitel.U18)` |
 | U20_Plus | U20_PLUS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oukitel.U20_PLUS)` |
 | U22 | U22 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oukitel.U22)` |
 | U23 | U23 | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Oukitel.U23)` |
 | U25_Pro | U25_PRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oukitel.U25_PRO)` |
 | WP10 | WP10 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oukitel.WP10)` |
+| WP100 | WP100 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.WP100)` |
 | WP100_TITAN | WP100_TITAN | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.WP100_TITAN)` |
 | WP12 | WP12 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Oukitel.WP12)` |
 | WP12_Pro | WP12_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Oukitel.WP12_PRO)` |
@@ -133,6 +146,7 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | WP200_Pro | WP200_PRO | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oukitel.WP200_PRO)` |
 | WP20_Pro | WP20_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Oukitel.WP20_PRO)` |
 | WP21 | WP21 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.WP21)` |
+| WP210_Pro | WP210_PRO | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oukitel.WP210_PRO)` |
 | WP21_U | WP21_U | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.WP21_U)` |
 | WP23_Plus | WP23_PLUS | 576x1280 | 240 | `spec:width=576px,height=1280px,dpi=240` | `@Preview(device = Oukitel.WP23_PLUS)` |
 | WP27 | WP27 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.WP27)` |
@@ -155,13 +169,21 @@ Total: **159** devices. Import: `import se.premex.compose.preview.device.catalog
 | WP50 | WP50 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Oukitel.WP50)` |
 | WP5000 | WP5000 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Oukitel.WP5000)` |
 | WP52 | WP52 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Oukitel.WP52)` |
+| WP53 | WP53 | 576x1280 | 320 | `spec:width=576px,height=1280px,dpi=320` | `@Preview(device = Oukitel.WP53)` |
+| WP53_Pro | WP53_PRO | 576x1280 | 320 | `spec:width=576px,height=1280px,dpi=320` | `@Preview(device = Oukitel.WP53_PRO)` |
+| WP53_S | WP53_S | 576x1280 | 320 | `spec:width=576px,height=1280px,dpi=320` | `@Preview(device = Oukitel.WP53_S)` |
 | WP55 | WP55 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Oukitel.WP55)` |
+| WP55_Ultra | WP55_ULTRA | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Oukitel.WP55_ULTRA)` |
+| WP56 | WP56 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Oukitel.WP56)` |
+| WP58_Pro | WP58_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Oukitel.WP58_PRO)` |
 | WP5_Pro | WP5_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Oukitel.WP5_PRO)` |
 | WP6 | WP6 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Oukitel.WP6)` |
+| WP62 | WP62 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Oukitel.WP62)` |
 | WP7 | WP7 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Oukitel.WP7)` |
 | WP8_Pro | WP8_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Oukitel.WP8_PRO)` |
 | WP9 | WP9 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oukitel.WP9)` |
 | Y1000 | Y1000 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Oukitel.Y1000)` |
 | Y4800 | Y4800 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Oukitel.Y4800)` |
+| YJC235 | YJC235 | 540x1200 | 230 | `spec:width=540px,height=1200px,dpi=230` | `@Preview(device = Oukitel.YJC235)` |
 
 <!-- Generated automatically. Do not edit manually. -->

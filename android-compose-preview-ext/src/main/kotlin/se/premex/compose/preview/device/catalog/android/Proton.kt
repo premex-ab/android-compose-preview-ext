@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PROTON (8 models).
+ * Device specifications for PROTON (9 models).
  */
 public object Proton {
   /**
@@ -16,6 +16,11 @@ public object Proton {
    * PROTON capitolhill
    */
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Proton Infinity_8
+   */
+  public const val INFINITY_8: String = "spec:width=720px,height=1640px,dpi=480"
 
   /**
    * PROTON kenton

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Oangcc (12 models).
+ * Device specifications for Oangcc (10 models).
  */
 public object Oangcc {
   /**
@@ -48,11 +48,6 @@ public object Oangcc {
   public const val TAB_A8_EEA: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Oangcc Tab_A6
-   */
-  public const val TAB_A6: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
    * Oangcc Tab_A6_EEA
    */
   public const val TAB_A6_EEA: String = "spec:width=800px,height=1280px,dpi=213"
@@ -61,9 +56,4 @@ public object Oangcc {
    * Oangcc TAB_A8_EEA_T
    */
   public const val TAB_A8_EEA_T: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Oangcc TAB_A8_T
-   */
-  public const val TAB_A8_T: String = "spec:width=600px,height=1024px,dpi=160"
 }

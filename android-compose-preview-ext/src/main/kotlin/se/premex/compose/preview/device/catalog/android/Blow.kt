@@ -33,9 +33,9 @@ public object Blow {
   public const val KIDSTAB10_4G_EEA: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
-   * BLOW KidsTAB7_EEA
+   * BLOW KidsTAB7_V2_EEA
    */
-  public const val KIDSTAB7_EEA: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val KIDSTAB7_V2_EEA: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * BLOW LaserTAB10

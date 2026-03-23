@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Smartfren (9 models).
+ * Device specifications for Smartfren (8 models).
  */
 public object Smartfren {
   /**
@@ -31,11 +31,6 @@ public object Smartfren {
    * Smartfren B26D2H
    */
   public const val B26D2H: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Smartfren G36C1H
-   */
-  public const val G36C1H: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Smartfren HS8916QC

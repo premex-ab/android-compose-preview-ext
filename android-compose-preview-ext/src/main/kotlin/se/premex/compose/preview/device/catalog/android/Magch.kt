@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MAGCH (10 models).
+ * Device specifications for MAGCH (9 models).
  */
 public object Magch {
   /**
@@ -21,11 +21,6 @@ public object Magch {
    * MAGCH M321-EEA
    */
   public const val M321_EEA: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * MAGCH M610
-   */
-  public const val M610: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * MAGCH M610-EEA

@@ -1,13 +1,13 @@
 # Lenovo Devices
 
-Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lenovo`
+Total: **358** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lenovo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | 701LV | _701LV | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo._701LV)` |
 | 702LV | _702LV | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo._702LV)` |
 | 7305F | _7305F | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo._7305F)` |
-| 7305I | _7305I | 360x360 | 160 | `spec:width=360px,height=360px,dpi=160` | `@Preview(device = Lenovo._7305I)` |
+| 7305I | _7305I | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo._7305I)` |
 | 7305X | _7305X | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo._7305X)` |
 | 7306F | _7306F | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo._7306F)` |
 | 7306X | _7306X | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo._7306X)` |
@@ -48,10 +48,11 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | A3500H | A3500H | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lenovo.A3500H)` |
 | A3500HV | A3500HV | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lenovo.A3500HV)` |
 | A369i | A369I | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lenovo.A369I)` |
+| A3860 | A3860 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A3860)` |
+| A401LV | A401LV | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Lenovo.A401LV)` |
 | A5000 | A5000 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A5000)` |
 | A5000E | A5000E | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Lenovo.A5000E)` |
 | A516_ROW | A516_ROW | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lenovo.A516_ROW)` |
-| A526 | A526 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lenovo.A526)` |
 | A536 | A536 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lenovo.A536)` |
 | A5500-F | A5500_F | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lenovo.A5500_F)` |
 | A5500-H | A5500_H | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lenovo.A5500_H)` |
@@ -84,13 +85,10 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | A8-50L | A8_50L | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lenovo.A8_50L)` |
 | A8-50LC | A8_50LC | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lenovo.A8_50LC)` |
 | A806 | A806 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A806)` |
-| A850 | A850 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Lenovo.A850)` |
 | A850p | A850P | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Lenovo.A850P)` |
 | A859_ROW | A859_ROW | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A859_ROW)` |
 | A889 | A889 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Lenovo.A889)` |
 | A916 | A916 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A916)` |
-| A936 | A936 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A936)` |
-| A938t | A938T | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.A938T)` |
 | aio_3m_otfp_m | AIO_3M_OTFP_M | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.AIO_3M_OTFP_M)` |
 | aio_otfp | AIO_OTFP | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.AIO_OTFP)` |
 | aio_otfp_m | AIO_OTFP_M | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.AIO_OTFP_M)` |
@@ -137,7 +135,6 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | K33a42 | K33A42 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K33A42)` |
 | K33a48 | K33A48 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K33A48)` |
 | K33b36 | K33B36 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K33B36)` |
-| K33b37 | K33B37 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K33B37)` |
 | K350t | K350T | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lenovo.K350T)` |
 | k5 | K5 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lenovo.K5)` |
 | K50-t5 | K50_T5 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K50_T5)` |
@@ -147,11 +144,9 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | K53b36 | K53B36 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K53B36)` |
 | k5fp | K5FP | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K5FP)` |
 | k5fp_m | K5FP_M | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K5FP_M)` |
-| K5S | K5S | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lenovo.K5S)` |
 | K606F | K606F | 1350x2160 | 240 | `spec:width=1350px,height=2160px,dpi=240` | `@Preview(device = Lenovo.K606F)` |
 | K80M | K80M | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K80M)` |
 | K9 | K9 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lenovo.K9)` |
-| K900_ROW | K900_ROW | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.K900_ROW)` |
 | kingdom_row | KINGDOM_ROW | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Lenovo.KINGDOM_ROW)` |
 | kiton | KITON | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.KITON)` |
 | kitonw | KITONW | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.KITONW)` |
@@ -187,7 +182,6 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | PB2-670N | PB2_670N | 1080x1920 | 360 | `spec:width=1080px,height=1920px,dpi=360` | `@Preview(device = Lenovo.PB2_670N)` |
 | PB2-670Y | PB2_670Y | 1080x1920 | 360 | `spec:width=1080px,height=1920px,dpi=360` | `@Preview(device = Lenovo.PB2_670Y)` |
 | PB2PRO | PB2PRO | 1440x2560 | 480 | `spec:width=1440px,height=2560px,dpi=480` | `@Preview(device = Lenovo.PB2PRO)` |
-| pxa1L88H2 | PXA1L88H2 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lenovo.PXA1L88H2)` |
 | Q706F | Q706F | 1600x2560 | 240 | `spec:width=1600px,height=2560px,dpi=240` | `@Preview(device = Lenovo.Q706F)` |
 | Q706Z | Q706Z | 1600x2560 | 240 | `spec:width=1600px,height=2560px,dpi=240` | `@Preview(device = Lenovo.Q706Z)` |
 | S1a40 | S1A40 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.S1A40)` |
@@ -207,7 +201,6 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | S860 | S860 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.S860)` |
 | S898tp | S898TP | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.S898TP)` |
 | S920_ROW | S920_ROW | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lenovo.S920_ROW)` |
-| S930_ROW | S930_ROW | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Lenovo.S930_ROW)` |
 | S960 | S960 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.S960)` |
 | S960_ROW | S960_ROW | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.S960_ROW)` |
 | S968t | S968T | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lenovo.S968T)` |
@@ -277,6 +270,7 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | TB301FU | TB301FU | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lenovo.TB301FU)` |
 | TB301XU | TB301XU | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lenovo.TB301XU)` |
 | TB305FU | TB305FU | 800x1340 | 180 | `spec:width=800px,height=1340px,dpi=180` | `@Preview(device = Lenovo.TB305FU)` |
+| TB305XU | TB305XU | 800x1340 | 180 | `spec:width=800px,height=1340px,dpi=180` | `@Preview(device = Lenovo.TB305XU)` |
 | TB310FU | TB310FU | 800x1340 | 200 | `spec:width=800px,height=1340px,dpi=200` | `@Preview(device = Lenovo.TB310FU)` |
 | TB310XU | TB310XU | 800x1340 | 200 | `spec:width=800px,height=1340px,dpi=200` | `@Preview(device = Lenovo.TB310XU)` |
 | TB311FU | TB311FU | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.TB311FU)` |
@@ -296,12 +290,14 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | TB351FU | TB351FU | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Lenovo.TB351FU)` |
 | TB352FU | TB352FU | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Lenovo.TB352FU)` |
 | TB360ZU | TB360ZU | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Lenovo.TB360ZU)` |
+| TB361FU | TB361FU | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Lenovo.TB361FU)` |
 | TB370FU | TB370FU | 1840x2944 | 340 | `spec:width=1840px,height=2944px,dpi=340` | `@Preview(device = Lenovo.TB370FU)` |
 | TB371FC | TB371FC | 1840x2944 | 340 | `spec:width=1840px,height=2944px,dpi=340` | `@Preview(device = Lenovo.TB371FC)` |
 | TB372FC | TB372FC | 1840x2944 | 340 | `spec:width=1840px,height=2944px,dpi=340` | `@Preview(device = Lenovo.TB372FC)` |
 | TB373FU | TB373FU | 1840x2944 | 340 | `spec:width=1840px,height=2944px,dpi=340` | `@Preview(device = Lenovo.TB373FU)` |
 | TB520FU | TB520FU | 1840x2944 | 340 | `spec:width=1840px,height=2944px,dpi=340` | `@Preview(device = Lenovo.TB520FU)` |
 | TB570FU | TB570FU | 1876x3000 | 320 | `spec:width=1876px,height=3000px,dpi=320` | `@Preview(device = Lenovo.TB570FU)` |
+| TB571FU | TB571FU | 1876x3000 | 320 | `spec:width=1876px,height=3000px,dpi=320` | `@Preview(device = Lenovo.TB571FU)` |
 | TB7104F | TB7104F | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo.TB7104F)` |
 | TB7104I | TB7104I | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lenovo.TB7104I)` |
 | vega | VEGA | 1440x2560 | 400 | `spec:width=1440px,height=2560px,dpi=400` | `@Preview(device = Lenovo.VEGA)` |
@@ -341,7 +337,6 @@ Total: **363** devices. Import: `import se.premex.compose.preview.device.catalog
 | X704F | X704F | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.X704F)` |
 | X704L | X704L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.X704L)` |
 | X704V | X704V | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.X704V)` |
-| X704Y | X704Y | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.X704Y)` |
 | X705F | X705F | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.X705F)` |
 | X705L | X705L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Lenovo.X705L)` |
 | yeti | YETI | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Lenovo.YETI)` |

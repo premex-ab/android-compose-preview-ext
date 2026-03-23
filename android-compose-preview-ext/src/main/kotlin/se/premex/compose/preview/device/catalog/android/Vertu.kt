@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Vertu (10 models).
+ * Device specifications for Vertu (9 models).
  */
 public object Vertu {
   /**
@@ -16,11 +16,6 @@ public object Vertu {
    * VERTU ASTER_P
    */
   public const val ASTER_P: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * Vertu gambit
-   */
-  public const val GAMBIT: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Vertu odin

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=1
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for THEHAAM (1 models).
+ * Device specifications for THEHAAM (2 models).
  */
 public object Thehaam {
+  /**
+   * thehaam alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * THEHAAM hongkong
    */

@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iSWAG (8 models).
+ * Device specifications for iSWAG (7 models).
  */
 public object Iswag {
-  /**
-   * ISWAG Alpha
-   */
-  public const val ALPHA: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * iSWAG BLINK
    */

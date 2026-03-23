@@ -1,6 +1,6 @@
 # Att Devices
 
-Total: **23** devices. Import: `import se.premex.compose.preview.device.catalog.android.Att`
+Total: **25** devices. Import: `import se.premex.compose.preview.device.catalog.android.Att`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -13,7 +13,9 @@ Total: **23** devices. Import: `import se.premex.compose.preview.device.catalog.
 | EA211005 | EA211005 | 720x1640 | 280 | `spec:width=720px,height=1640px,dpi=280` | `@Preview(device = Att.EA211005)` |
 | QS5509QL | QS5509QL | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Att.QS5509QL)` |
 | SL219A | SL219A | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Att.SL219A)` |
+| SN333A | SN333A | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Att.SN333A)` |
 | SN509A | SN509A | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Att.SN509A)` |
+| SN512A | SN512A | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Att.SN512A)` |
 | tint8_att | TINT8_ATT | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Att.TINT8_ATT)` |
 | U202AA | U202AA | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Att.U202AA)` |
 | U304AA | U304AA | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Att.U304AA)` |

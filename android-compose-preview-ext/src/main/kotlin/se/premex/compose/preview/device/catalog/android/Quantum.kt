@@ -8,6 +8,11 @@ import kotlin.String
  */
 public object Quantum {
   /**
+   * Quantum Elise_T65
+   */
+  public const val ELISE_T65: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
    * Quantum Q03
    */
   public const val Q03: String = "spec:width=480px,height=1014px,dpi=200"
@@ -26,11 +31,6 @@ public object Quantum {
    * Quantum Q17
    */
   public const val Q17: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Quantum Q19
-   */
-  public const val Q19: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Quantum Q2

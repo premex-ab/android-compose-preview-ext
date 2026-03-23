@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for nano (7 models).
+ * Device specifications for nano (8 models).
  */
 public object Nano {
+  /**
+   * Nano dongnae
+   */
+  public const val DONGNAE: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * nano gangbyeon
    */

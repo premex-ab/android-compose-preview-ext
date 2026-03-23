@@ -10,5 +10,5 @@ public object Shaks {
   /**
    * Shaks TSA
    */
-  public const val TSA: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val TSA: String = "spec:width=2160px,height=3840px,dpi=320"
 }

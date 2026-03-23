@@ -1,6 +1,6 @@
 # Infinix Devices
 
-Total: **232** devices. Import: `import se.premex.compose.preview.device.catalog.android.Infinix`
+Total: **237** devices. Import: `import se.premex.compose.preview.device.catalog.android.Infinix`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,6 +12,8 @@ Total: **232** devices. Import: `import se.premex.compose.preview.device.catalog
 | Infinix-X1101 | INFINIX_X1101 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Infinix.INFINIX_X1101)` |
 | Infinix-X1101B | INFINIX_X1101B | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Infinix.INFINIX_X1101B)` |
 | Infinix-X1102 | INFINIX_X1102 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Infinix.INFINIX_X1102)` |
+| Infinix-X1201 | INFINIX_X1201 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Infinix.INFINIX_X1201)` |
+| Infinix-X1302 | INFINIX_X1302 | 1600x2400 | 240 | `spec:width=1600px,height=2400px,dpi=240` | `@Preview(device = Infinix.INFINIX_X1302)` |
 | Infinix-X5010 | INFINIX_X5010 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X5010)` |
 | Infinix-X521 | INFINIX_X521 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X521)` |
 | Infinix-X521-Pro | INFINIX_X521_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X521_PRO)` |
@@ -27,7 +29,6 @@ Total: **232** devices. Import: `import se.premex.compose.preview.device.catalog
 | Infinix-X5516B | INFINIX_X5516B | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Infinix.INFINIX_X5516B)` |
 | Infinix-X5516C | INFINIX_X5516C | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Infinix.INFINIX_X5516C)` |
 | INFINIX-X552 | INFINIX_X552 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Infinix.INFINIX_X552)` |
-| INFINIX-X552-95M | INFINIX_X552_95M | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Infinix.INFINIX_X552_95M)` |
 | INFINIX-X553 | INFINIX_X553 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X553)` |
 | INFINIX-X553-A1 | INFINIX_X553_A1 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X553_A1)` |
 | INFINIX-X554 | INFINIX_X554 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X554)` |
@@ -37,7 +38,6 @@ Total: **232** devices. Import: `import se.premex.compose.preview.device.catalog
 | Infinix-X572 | INFINIX_X572 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Infinix.INFINIX_X572)` |
 | Infinix-X573 | INFINIX_X573 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Infinix.INFINIX_X573)` |
 | Infinix-X573B | INFINIX_X573B | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Infinix.INFINIX_X573B)` |
-| INFINIX-X600-5M | INFINIX_X600_5M | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X600_5M)` |
 | INFINIX-X600-H533-5M | INFINIX_X600_H533_5M | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Infinix.INFINIX_X600_H533_5M)` |
 | Infinix-X603 | INFINIX_X603 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Infinix.INFINIX_X603)` |
 | Infinix-X604_sprout | INFINIX_X604_SPROUT | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Infinix.INFINIX_X604_SPROUT)` |
@@ -137,7 +137,12 @@ Total: **232** devices. Import: `import se.premex.compose.preview.device.catalog
 | Infinix-X6725B | INFINIX_X6725B | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Infinix.INFINIX_X6725B)` |
 | Infinix-X6725C | INFINIX_X6725C | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Infinix.INFINIX_X6725C)` |
 | Infinix-X6725D | INFINIX_X6725D | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Infinix.INFINIX_X6725D)` |
+| Infinix-X6726 | INFINIX_X6726 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Infinix.INFINIX_X6726)` |
+| Infinix-X6726B | INFINIX_X6726B | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Infinix.INFINIX_X6726B)` |
 | Infinix-X6728 | INFINIX_X6728 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Infinix.INFINIX_X6728)` |
+| Infinix-X6728B | INFINIX_X6728B | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Infinix.INFINIX_X6728B)` |
+| Infinix-X6730 | INFINIX_X6730 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Infinix.INFINIX_X6730)` |
+| Infinix-X6730B | INFINIX_X6730B | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Infinix.INFINIX_X6730B)` |
 | Infinix-X6731 | INFINIX_X6731 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Infinix.INFINIX_X6731)` |
 | Infinix-X6731B | INFINIX_X6731B | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Infinix.INFINIX_X6731B)` |
 | Infinix-X6739 | INFINIX_X6739 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Infinix.INFINIX_X6739)` |

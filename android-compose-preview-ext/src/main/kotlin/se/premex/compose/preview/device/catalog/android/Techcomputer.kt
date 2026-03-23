@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TECHcomputer (3 models).
+ * Device specifications for TECHcomputer (4 models).
  */
 public object Techcomputer {
+  /**
+   * TECHcomputer F102-MT8781-EEA
+   */
+  public const val F102_MT8781_EEA: String = "spec:width=1600px,height=2560px,dpi=360"
+
   /**
    * TECHcomputer F102-T610-EEA
    */

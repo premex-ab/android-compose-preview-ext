@@ -10,7 +10,7 @@ public object Cloud {
   /**
    * Cloud Cyclone_C4
    */
-  public const val CYCLONE_C4: String = "spec:width=480px,height=854px,dpi=240"
+  public const val CYCLONE_C4: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Cloud Storm_C3

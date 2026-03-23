@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=25
+// Generated manufacturer device catalog. Devices=24
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for starlight (25 models).
+ * Device specifications for starlight (24 models).
  */
 public object Starlight {
+  /**
+   * starlight Alpha_100
+   */
+  public const val ALPHA_100: String = "spec:width=720px,height=1520px,dpi=280"
+
+  /**
+   * starlight Alpha_200
+   */
+  public const val ALPHA_200: String = "spec:width=720px,height=1600px,dpi=320"
+
   /**
    * starlight Alpha_300
    */
@@ -20,7 +30,7 @@ public object Starlight {
   /**
    * Starlight C_Note
    */
-  public const val C_NOTE: String = "spec:width=720px,height=1440px,dpi=320"
+  public const val C_NOTE: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Starlight C_Note_Pro
@@ -41,11 +51,6 @@ public object Starlight {
    * Starlight I_Star_Plus
    */
   public const val I_STAR_PLUS: String = "spec:width=640px,height=1280px,dpi=240"
-
-  /**
-   * Starlight I_star_two
-   */
-  public const val I_STAR_TWO: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Starlight Milan_2G
@@ -78,11 +83,6 @@ public object Starlight {
   public const val SAFARI: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Starlight STAR_MIX
-   */
-  public const val STAR_MIX: String = "spec:width=1080px,height=2160px,dpi=480"
-
-  /**
    * Starlight Star_Mix_2
    */
   public const val STAR_MIX_2: String = "spec:width=720px,height=1520px,dpi=320"
@@ -106,11 +106,6 @@ public object Starlight {
    * STARLIGHT tamachi
    */
   public const val TAMACHI: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * Starlight UMI_G
-   */
-  public const val UMI_G: String = "spec:width=720px,height=1280px,dpi=272"
 
   /**
    * starlight Vegas

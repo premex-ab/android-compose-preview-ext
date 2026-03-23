@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=298
+// Generated manufacturer device catalog. Devices=286
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BLU (298 models).
+ * Device specifications for BLU (286 models).
  */
 public object Blu {
   /**
@@ -23,19 +23,9 @@ public object Blu {
   public const val A290Q: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * BLU A30
-   */
-  public const val A30: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * BLU A350
    */
   public const val A350: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * BLU A350A
-   */
-  public const val A350A: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * BLU A390
@@ -51,11 +41,6 @@ public object Blu {
    * BLU Advance_4_0_L3
    */
   public const val ADVANCE_4_0_L3: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * BLU Advance_5_0_HD
-   */
-  public const val ADVANCE_5_0_HD: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * BLU B100DL
@@ -108,19 +93,9 @@ public object Blu {
   public const val BLU_DASH_M2: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * BLU BLU_DASH_X
-   */
-  public const val BLU_DASH_X: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * BLU BLU_DASH_X2
    */
   public const val BLU_DASH_X2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BLU BLU_DIAMOND_M
-   */
-  public const val BLU_DIAMOND_M: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * BLU BLU_ENERGY_DIAMOND
@@ -148,11 +123,6 @@ public object Blu {
   public const val BLU_GRAND_5_5_HD: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * BLU BLU_Grand_X_LTE
-   */
-  public const val BLU_GRAND_X_LTE: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * BLU BLU_LIFE_XL
    */
   public const val BLU_LIFE_XL: String = "spec:width=720px,height=1280px,dpi=320"
@@ -173,29 +143,9 @@ public object Blu {
   public const val BLU_R1_HD: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * BLU BLU_STUDIO_C_HD
-   */
-  public const val BLU_STUDIO_C_HD: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BLU BLU_STUDIO_ENERGY_2
-   */
-  public const val BLU_STUDIO_ENERGY_2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BLU BLU_STUDIO_G
-   */
-  public const val BLU_STUDIO_G: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * BLU BLU_STUDIO_G2
    */
   public const val BLU_STUDIO_G2: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * BLU BLU_STUDIO_M_HD
-   */
-  public const val BLU_STUDIO_M_HD: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * BLU BLU_STUDIO_ONE
@@ -236,11 +186,6 @@ public object Blu {
    * BLU BLU_Vivo_XL2
    */
   public const val BLU_VIVO_XL2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BLU C0010LL
-   */
-  public const val C0010LL: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * BLU C0010TT
@@ -440,7 +385,7 @@ public object Blu {
   /**
    * BLU C230EQ
    */
-  public const val C230EQ: String = "spec:width=720px,height=1440px,dpi=320"
+  public const val C230EQ: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
    * BLU C250EQ
@@ -468,11 +413,6 @@ public object Blu {
   public const val D10: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * BLU D600
-   */
-  public const val D600: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * BLU D701
    */
   public const val D701: String = "spec:width=480px,height=960px,dpi=240"
@@ -481,11 +421,6 @@ public object Blu {
    * BLU Dash_G
    */
   public const val DASH_G: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * BLU Dash_X2
-   */
-  public const val DASH_X2: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * BLU Dash_XL
@@ -503,11 +438,6 @@ public object Blu {
   public const val E20: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * BLU ENERGY_DIAMOND_MINI
-   */
-  public const val ENERGY_DIAMOND_MINI: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * BLU F0030UU
    */
   public const val F0030UU: String = "spec:width=1080px,height=2460px,dpi=480"
@@ -521,11 +451,6 @@ public object Blu {
    * BLU G0030
    */
   public const val G0030: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BLU G0050
-   */
-  public const val G0050: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * BLU G0070WW
@@ -655,7 +580,7 @@ public object Blu {
   /**
    * BLU G0530WW
    */
-  public const val G0530WW: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val G0530WW: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * BLU G0550WW
@@ -685,12 +610,12 @@ public object Blu {
   /**
    * BLU G0630WW
    */
-  public const val G0630WW: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val G0630WW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * BLU G0670WW
    */
-  public const val G0670WW: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val G0670WW: String = "spec:width=720px,height=1553px,dpi=320"
 
   /**
    * BLU G0690WW
@@ -755,7 +680,7 @@ public object Blu {
   /**
    * BLU G0851
    */
-  public const val G0851: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val G0851: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * BLU G0860
@@ -838,9 +763,19 @@ public object Blu {
   public const val G1110: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
-   * BLU G170Q
+   * BLU G1130
    */
-  public const val G170Q: String = "spec:width=480px,height=854px,dpi=240"
+  public const val G1130: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * BLU G1150
+   */
+  public const val G1150: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * BLU G1170
+   */
+  public const val G1170: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * BLU G190
@@ -895,7 +830,7 @@ public object Blu {
   /**
    * BLU J0090WW
    */
-  public const val J0090WW: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val J0090WW: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * BLU J0092WW
@@ -911,6 +846,11 @@ public object Blu {
    * BLU J0110
    */
   public const val J0110: String = "spec:width=480px,height=960px,dpi=200"
+
+  /**
+   * BLU J0120
+   */
+  public const val J0120: String = "spec:width=720px,height=1640px,dpi=300"
 
   /**
    * BLU J0140
@@ -1070,7 +1010,7 @@ public object Blu {
   /**
    * BLU M0178_ND
    */
-  public const val M0178_ND: String = "spec:width=800px,height=1280px,dpi=200"
+  public const val M0178_ND: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * BLU M0208WW
@@ -1146,11 +1086,6 @@ public object Blu {
    * BLU M0224
    */
   public const val M0224: String = "spec:width=800px,height=1280px,dpi=200"
-
-  /**
-   * BLU M030P
-   */
-  public const val M030P: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * BLU N0030WW
@@ -1260,7 +1195,7 @@ public object Blu {
   /**
    * BLU S0730WW
    */
-  public const val S0730WW: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val S0730WW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * BLU S532
@@ -1323,11 +1258,6 @@ public object Blu {
   public const val STUDIO_G2_HD: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * BLU Studio_G_HD_LTE
-   */
-  public const val STUDIO_G_HD_LTE: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * BLU Studio_J1
    */
   public const val STUDIO_J1: String = "spec:width=480px,height=800px,dpi=240"
@@ -1340,7 +1270,7 @@ public object Blu {
   /**
    * BLU Studio_J5
    */
-  public const val STUDIO_J5: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val STUDIO_J5: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * BLU Studio_J8
@@ -1470,7 +1400,7 @@ public object Blu {
   /**
    * BLU V0350WW
    */
-  public const val V0350WW: String = "spec:width=720px,height=1500px,dpi=320"
+  public const val V0350WW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * BLU V0370WW
@@ -1496,4 +1426,14 @@ public object Blu {
    * BLU X0020
    */
   public const val X0020: String = "spec:width=540px,height=960px,dpi=200"
+
+  /**
+   * BLU X0050
+   */
+  public const val X0050: String = "spec:width=480px,height=960px,dpi=200"
+
+  /**
+   * BLU X0060
+   */
+  public const val X0060: String = "spec:width=540px,height=1092px,dpi=220"
 }

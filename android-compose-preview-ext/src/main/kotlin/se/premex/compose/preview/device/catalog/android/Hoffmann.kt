@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Hoffmann (2 models).
+ * Device specifications for Hoffmann (1 models).
  */
 public object Hoffmann {
-  /**
-   * HOFFMANN X-Go
-   */
-  public const val X_GO: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * Hoffmann X-Max
    */

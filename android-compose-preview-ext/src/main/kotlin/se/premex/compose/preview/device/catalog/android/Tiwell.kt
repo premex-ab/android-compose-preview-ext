@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Tiwell (4 models).
+ * Device specifications for Tiwell (3 models).
  */
 public object Tiwell {
   /**
@@ -16,11 +16,6 @@ public object Tiwell {
    * TIWELL AS_601L
    */
   public const val AS_601L: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Tiwell t662_dh4_tiwell
-   */
-  public const val T662_DH4_TIWELL: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Tiwell t662_gq_tiwell

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CHAINWAY (11 models).
+ * Device specifications for CHAINWAY (12 models).
  */
 public object Chainway {
+  /**
+   * CHAINWAY C5
+   */
+  public const val C5: String = "spec:width=1080px,height=2160px,dpi=480"
+
   /**
    * chainway C6000
    */

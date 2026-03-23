@@ -5,7 +5,6 @@ Total: **34** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | aegean | AEGEAN | 974x2000 | 160 | `spec:width=974px,height=2000px,dpi=160` | `@Preview(device = Gm.AEGEAN)` |
-| burmese | BURMESE | 1134x2914 | 200 | `spec:width=1134px,height=2914px,dpi=200` | `@Preview(device = Gm.BURMESE)` |
 | e-tab20 | E_TAB20 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Gm.E_TAB20)` |
 | e-tab20_variant | E_TAB20_VARIANT | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Gm.E_TAB20_VARIANT)` |
 | G008 | G008 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Gm.G008)` |
@@ -18,7 +17,7 @@ Total: **34** devices. Import: `import se.premex.compose.preview.device.catalog.
 | G314 | G314 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gm.G314)` |
 | G316 | G316 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gm.G316)` |
 | G318 | G318 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Gm.G318)` |
-| G501 | G501 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Gm.G501)` |
+| G501 | G501 | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Gm.G501)` |
 | G510 | G510 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Gm.G510)` |
 | G512 | G512 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Gm.G512)` |
 | G514 | G514 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Gm.G514)` |
@@ -38,5 +37,6 @@ Total: **34** devices. Import: `import se.premex.compose.preview.device.catalog.
 | GM9PLUS_s | GM9PLUS_S | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Gm.GM9PLUS_S)` |
 | GM9PRO_d_sprout | GM9PRO_D_SPROUT | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Gm.GM9PRO_D_SPROUT)` |
 | GM9PRO_sprout | GM9PRO_SPROUT | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Gm.GM9PRO_SPROUT)` |
+| gminfo37 | GMINFO37 | 768x1280 | 160 | `spec:width=768px,height=1280px,dpi=160` | `@Preview(device = Gm.GMINFO37)` |
 
 <!-- Generated automatically. Do not edit manually. -->

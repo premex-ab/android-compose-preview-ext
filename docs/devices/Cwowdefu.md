@@ -1,6 +1,6 @@
 # Cwowdefu Devices
 
-Total: **36** devices. Import: `import se.premex.compose.preview.device.catalog.android.Cwowdefu`
+Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.android.Cwowdefu`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,11 +8,11 @@ Total: **36** devices. Import: `import se.premex.compose.preview.device.catalog.
 | C18W | C18W | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Cwowdefu.C18W)` |
 | C18W_EEA | C18W_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Cwowdefu.C18W_EEA)` |
 | C28 | C28 | 600x1024 | 200 | `spec:width=600px,height=1024px,dpi=200` | `@Preview(device = Cwowdefu.C28)` |
+| C29 | C29 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Cwowdefu.C29)` |
 | C6 | C6 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Cwowdefu.C6)` |
 | C73W | C73W | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Cwowdefu.C73W)` |
 | C77W | C77W | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Cwowdefu.C77W)` |
 | C77W_EEA | C77W_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Cwowdefu.C77W_EEA)` |
-| C80W | C80W | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Cwowdefu.C80W)` |
 | C82W | C82W | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Cwowdefu.C82W)` |
 | C82W_EEA | C82W_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Cwowdefu.C82W_EEA)` |
 | C84W | C84W | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Cwowdefu.C84W)` |
@@ -38,6 +38,7 @@ Total: **36** devices. Import: `import se.premex.compose.preview.device.catalog.
 | P38W_EEA | P38W_EEA | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Cwowdefu.P38W_EEA)` |
 | P50L_EEA | P50L_EEA | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Cwowdefu.P50L_EEA)` |
 | P80L | P80L | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Cwowdefu.P80L)` |
+| P81L | P81L | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Cwowdefu.P81L)` |
 | S18 | S18 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Cwowdefu.S18)` |
 | S28 | S28 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Cwowdefu.S28)` |
 

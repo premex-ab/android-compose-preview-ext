@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=59
+// Generated manufacturer device catalog. Devices=58
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ZUUM (59 models).
+ * Device specifications for ZUUM (58 models).
  */
 public object Zuum {
-  /**
-   * ZUUM AKUS
-   */
-  public const val AKUS: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * ZUUM AKUS_P1
    */
@@ -123,6 +118,11 @@ public object Zuum {
   public const val GRAVITY_Z: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
+   * ZUUM Hidra_Max
+   */
+  public const val HIDRA_MAX: String = "spec:width=1080px,height=1920px,dpi=480"
+
+  /**
    * ZUUM Hidra_Plus
    */
   public const val HIDRA_PLUS: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -141,6 +141,11 @@ public object Zuum {
    * ZUUM MAGNO_C2
    */
   public const val MAGNO_C2: String = "spec:width=480px,height=854px,dpi=220"
+
+  /**
+   * ZUUM MAGNO_C3
+   */
+  public const val MAGNO_C3: String = "spec:width=480px,height=854px,dpi=200"
 
   /**
    * ZUUM Magno_C_Plus
@@ -178,14 +183,14 @@ public object Zuum {
   public const val MAGNO_S: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * ZUUM NOVUS_PRO
+   */
+  public const val NOVUS_PRO: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * ZUUM NOVUS_TAB
    */
   public const val NOVUS_TAB: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * ZUUM ONIX
-   */
-  public const val ONIX: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * ZUUM ONIX_S
@@ -211,6 +216,11 @@ public object Zuum {
    * ZUUM SENS_G
    */
   public const val SENS_G: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * ZUUM SENS_PRO
+   */
+  public const val SENS_PRO: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * ZUUM STELLAR_M1
@@ -248,11 +258,6 @@ public object Zuum {
   public const val STELLAR_MAX: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
-   * ZUUM STELLAR_MINI
-   */
-  public const val STELLAR_MINI: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * ZUUM STELLAR_P3
    */
   public const val STELLAR_P3: String = "spec:width=720px,height=1520px,dpi=320"
@@ -276,16 +281,6 @@ public object Zuum {
    * ZUUM STELLAR_P8
    */
   public const val STELLAR_P8: String = "spec:width=720px,height=1612px,dpi=480"
-
-  /**
-   * ZUUM STELLAR_PLUS
-   */
-  public const val STELLAR_PLUS: String = "spec:width=720px,height=1500px,dpi=320"
-
-  /**
-   * ZUUM STELLAR_Z
-   */
-  public const val STELLAR_Z: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * ZUUM VOLTA_KIDS

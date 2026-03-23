@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=91
+// Generated manufacturer device catalog. Devices=99
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CUBOT (91 models).
+ * Device specifications for CUBOT (99 models).
  */
 public object Cubot {
   /**
@@ -26,6 +26,11 @@ public object Cubot {
    * CUBOT A30
    */
   public const val A30: String = "spec:width=720px,height=1600px,dpi=260"
+
+  /**
+   * CUBOT A40
+   */
+  public const val A40: String = "spec:width=720px,height=1640px,dpi=260"
 
   /**
    * CUBOT C20
@@ -153,6 +158,11 @@ public object Cubot {
   public const val KING_KONG_CS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
+   * CUBOT KINGKONG_11
+   */
+  public const val KINGKONG_11: String = "spec:width=1080px,height=2400px,dpi=400"
+
+  /**
    * CUBOT KINGKONG_5
    */
   public const val KINGKONG_5: String = "spec:width=720px,height=1560px,dpi=320"
@@ -198,6 +208,11 @@ public object Cubot {
   public const val KINGKONG_ES: String = "spec:width=720px,height=1612px,dpi=272"
 
   /**
+   * CUBOT KINGKONG_ES_3
+   */
+  public const val KINGKONG_ES_3: String = "spec:width=720px,height=1600px,dpi=260"
+
+  /**
    * CUBOT KINGKONG_MINI
    */
   public const val KINGKONG_MINI: String = "spec:width=540px,height=1080px,dpi=240"
@@ -211,6 +226,11 @@ public object Cubot {
    * CUBOT KINGKONG_MINI2_Pro
    */
   public const val KINGKONG_MINI2_PRO: String = "spec:width=540px,height=1080px,dpi=240"
+
+  /**
+   * CUBOT KINGKONG_MINI_4
+   */
+  public const val KINGKONG_MINI_4: String = "spec:width=720px,height=1600px,dpi=260"
 
   /**
    * CUBOT KINGKONG_POWER_3
@@ -283,6 +303,11 @@ public object Cubot {
   public const val NOTE_50: String = "spec:width=720px,height=1612px,dpi=260"
 
   /**
+   * CUBOT NOTE_60
+   */
+  public const val NOTE_60: String = "spec:width=720px,height=1560px,dpi=240"
+
+  /**
    * CUBOT NOTE_7
    */
   public const val NOTE_7: String = "spec:width=442px,height=960px,dpi=240"
@@ -321,6 +346,11 @@ public object Cubot {
    * CUBOT P80
    */
   public const val P80: String = "spec:width=1080px,height=2408px,dpi=480"
+
+  /**
+   * CUBOT P90
+   */
+  public const val P90: String = "spec:width=720px,height=1640px,dpi=260"
 
   /**
    * CUBOT Pocket
@@ -393,6 +423,11 @@ public object Cubot {
   public const val TAB_60: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * CUBOT TAB_65
+   */
+  public const val TAB_65: String = "spec:width=800px,height=1280px,dpi=150"
+
+  /**
    * CUBOT TAB_70
    */
   public const val TAB_70: String = "spec:width=800px,height=1280px,dpi=200"
@@ -406,6 +441,11 @@ public object Cubot {
    * CUBOT TAB_KINGKONG_2
    */
   public const val TAB_KINGKONG_2: String = "spec:width=1200px,height=1920px,dpi=200"
+
+  /**
+   * CUBOT X100
+   */
+  public const val X100: String = "spec:width=720px,height=1640px,dpi=260"
 
   /**
    * CUBOT X19

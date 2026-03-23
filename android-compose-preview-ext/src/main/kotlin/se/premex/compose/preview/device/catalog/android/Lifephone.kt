@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LIFEPHONE (4 models).
+ * Device specifications for LIFEPHONE (5 models).
  */
 public object Lifephone {
   /**
@@ -16,6 +16,11 @@ public object Lifephone {
    * LIFEPHONE LIFEPHONE_IDOL
    */
   public const val LIFEPHONE_IDOL: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
+   * LIFEPHONE LIFEPHONE_SIMPLE
+   */
+  public const val LIFEPHONE_SIMPLE: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * LIFEPHONE LIFEPHONE_STAR

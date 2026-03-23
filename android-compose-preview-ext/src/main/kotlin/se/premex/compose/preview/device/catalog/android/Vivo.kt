@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=465
+// Generated manufacturer device catalog. Devices=483
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for vivo (465 models).
+ * Device specifications for vivo (483 models).
  */
 public object Vivo {
   /**
@@ -70,7 +70,7 @@ public object Vivo {
   /**
    * vivo 1724
    */
-  public const val _1724: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val _1724: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * vivo 1725
@@ -301,6 +301,11 @@ public object Vivo {
    * vivo 1933
    */
   public const val _1933: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * vivo 1935
+   */
+  public const val _1935: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
    * vivo 1937
@@ -640,7 +645,7 @@ public object Vivo {
   /**
    * vivo PD1505
    */
-  public const val PD1505: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val PD1505: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * vivo PD1510
@@ -660,7 +665,7 @@ public object Vivo {
   /**
    * vivo PD1522A
    */
-  public const val PD1522A: String = "spec:width=1080px,height=2340px,dpi=420"
+  public const val PD1522A: String = "spec:width=1440px,height=2560px,dpi=640"
 
   /**
    * vivo PD1523
@@ -750,7 +755,7 @@ public object Vivo {
   /**
    * vivo PD1708
    */
-  public const val PD1708: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val PD1708: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * vivo PD1708C
@@ -780,7 +785,7 @@ public object Vivo {
   /**
    * vivo PD1718
    */
-  public const val PD1718: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val PD1718: String = "spec:width=1080px,height=2160px,dpi=428"
 
   /**
    * vivo PD1721
@@ -820,7 +825,7 @@ public object Vivo {
   /**
    * vivo PD1730G
    */
-  public const val PD1730G: String = "spec:width=1080px,height=2400px,dpi=420"
+  public const val PD1730G: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * vivo PD1731
@@ -915,7 +920,7 @@ public object Vivo {
   /**
    * vivo PD1818B
    */
-  public const val PD1818B: String = "spec:width=1440px,height=2960px,dpi=420"
+  public const val PD1818B: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * vivo PD1818C
@@ -1015,7 +1020,7 @@ public object Vivo {
   /**
    * vivo PD1928
    */
-  public const val PD1928: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val PD1928: String = "spec:width=720px,height=1544px,dpi=320"
 
   /**
    * vivo PD1930
@@ -1030,7 +1035,7 @@ public object Vivo {
   /**
    * vivo PD1934
    */
-  public const val PD1934: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val PD1934: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * vivo PD1936
@@ -1055,7 +1060,7 @@ public object Vivo {
   /**
    * vivo PD1945
    */
-  public const val PD1945: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val PD1945: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * vivo PD1950
@@ -1838,6 +1843,11 @@ public object Vivo {
   public const val PD2442: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * vivo PD2443
+   */
+  public const val PD2443: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * vivo PD2444
    */
   public const val PD2444: String = "spec:width=720px,height=1608px,dpi=320"
@@ -1881,6 +1891,41 @@ public object Vivo {
    * vivo PD2465
    */
   public const val PD2465: String = "spec:width=1216px,height=2640px,dpi=560"
+
+  /**
+   * vivo PD2502
+   */
+  public const val PD2502: String = "spec:width=1260px,height=2800px,dpi=560"
+
+  /**
+   * vivo PD2505
+   */
+  public const val PD2505: String = "spec:width=1440px,height=3168px,dpi=480"
+
+  /**
+   * vivo PD2506
+   */
+  public const val PD2506: String = "spec:width=1080px,height=2392px,dpi=480"
+
+  /**
+   * vivo PD2507
+   */
+  public const val PD2507: String = "spec:width=1260px,height=2800px,dpi=560"
+
+  /**
+   * vivo PD2509
+   */
+  public const val PD2509: String = "spec:width=1216px,height=2640px,dpi=560"
+
+  /**
+   * vivo PD2516
+   */
+  public const val PD2516: String = "spec:width=1260px,height=2800px,dpi=560"
+
+  /**
+   * vivo PD2520
+   */
+  public const val PD2520: String = "spec:width=1440px,height=3168px,dpi=480"
 
   /**
    * vivo V1
@@ -2213,6 +2258,11 @@ public object Vivo {
   public const val V2434: String = "spec:width=720px,height=1608px,dpi=300"
 
   /**
+   * vivo V2434L
+   */
+  public const val V2434L: String = "spec:width=1080px,height=2408px,dpi=440"
+
+  /**
    * vivo V2436
    */
   public const val V2436: String = "spec:width=720px,height=1608px,dpi=300"
@@ -2243,6 +2293,11 @@ public object Vivo {
   public const val V2446: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
+   * vivo V2455
+   */
+  public const val V2455: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
    * vivo V2502
    */
   public const val V2502: String = "spec:width=1080px,height=2392px,dpi=440"
@@ -2261,6 +2316,46 @@ public object Vivo {
    * vivo V2506
    */
   public const val V2506: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * vivo V2511
+   */
+  public const val V2511: String = "spec:width=1080px,height=2392px,dpi=440"
+
+  /**
+   * vivo V2513
+   */
+  public const val V2513: String = "spec:width=1080px,height=2392px,dpi=440"
+
+  /**
+   * vivo V2514
+   */
+  public const val V2514: String = "spec:width=1260px,height=2800px,dpi=520"
+
+  /**
+   * vivo V2515
+   */
+  public const val V2515: String = "spec:width=1216px,height=2640px,dpi=480"
+
+  /**
+   * vivo V2520
+   */
+  public const val V2520: String = "spec:width=720px,height=1608px,dpi=300"
+
+  /**
+   * vivo V2521
+   */
+  public const val V2521: String = "spec:width=1080px,height=2408px,dpi=440"
+
+  /**
+   * vivo V2521L
+   */
+  public const val V2521L: String = "spec:width=720px,height=1608px,dpi=300"
+
+  /**
+   * vivo V2529
+   */
+  public const val V2529: String = "spec:width=1080px,height=2392px,dpi=440"
 
   /**
    * vivo V3
@@ -2301,11 +2396,6 @@ public object Vivo {
    * vivo Y21L
    */
   public const val Y21L: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * vivo Y27
-   */
-  public const val Y27: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * vivo Y31

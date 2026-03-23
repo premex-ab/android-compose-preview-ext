@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Ematic (10 models).
+ * Device specifications for Ematic (7 models).
  */
 public object Ematic {
   /**
@@ -18,24 +18,9 @@ public object Ematic {
   public const val EGQ101: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * Ematic EGQ235SK
-   */
-  public const val EGQ235SK: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Ematic EGQ236BD
-   */
-  public const val EGQ236BD: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Ematic EGQ238BD
    */
   public const val EGQ238BD: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Ematic EGQ239BD
-   */
-  public const val EGQ239BD: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Ematic Jetstream

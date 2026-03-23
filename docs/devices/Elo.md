@@ -1,6 +1,6 @@
 # Elo Devices
 
-Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Elo`
+Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Elo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,8 +10,10 @@ Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.
 | 15in-I-Series-4-USB-C | _15IN_I_SERIES_4_USB_C | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._15IN_I_SERIES_4_USB_C)` |
 | 15in-I-Series-4-USBC-V | _15IN_I_SERIES_4_USBC_V | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._15IN_I_SERIES_4_USBC_V)` |
 | 15in-I-Series-4-Value | _15IN_I_SERIES_4_VALUE | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._15IN_I_SERIES_4_VALUE)` |
+| 15in-I-Series-5 | _15IN_I_SERIES_5 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._15IN_I_SERIES_5)` |
 | 22in-I-Series-4 | _22IN_I_SERIES_4 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._22IN_I_SERIES_4)` |
 | 22in-I-Series-4-Value | _22IN_I_SERIES_4_VALUE | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._22IN_I_SERIES_4_VALUE)` |
+| 22in-I-Series-5 | _22IN_I_SERIES_5 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo._22IN_I_SERIES_5)` |
 | Backpack-4 | BACKPACK_4 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo.BACKPACK_4)` |
 | Backpack-4-Value | BACKPACK_4_VALUE | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Elo.BACKPACK_4_VALUE)` |
 | Elo-i3-10Std | ELO_I3_10STD | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Elo.ELO_I3_10STD)` |

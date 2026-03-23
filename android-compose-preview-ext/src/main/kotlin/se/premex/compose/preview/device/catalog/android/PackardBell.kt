@@ -58,16 +58,6 @@ public object PackardBell {
   public const val M11550: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
-   * PACKARD_BELL M7500
-   */
-  public const val M7500: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * PACKARD_BELL M7600-D
-   */
-  public const val M7600_D: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Packard_Bell MONZA-T5
    */
   public const val MONZA_T5: String = "spec:width=600px,height=1024px,dpi=160"
@@ -111,4 +101,14 @@ public object PackardBell {
    * Packard_Bell TARGA-F10PRO
    */
   public const val TARGA_F10PRO: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Packard_Bell TARGA-F11PRO
+   */
+  public const val TARGA_F11PRO: String = "spec:width=1200px,height=1920px,dpi=213"
+
+  /**
+   * Packard_Bell TARGA-F8
+   */
+  public const val TARGA_F8: String = "spec:width=800px,height=1280px,dpi=213"
 }

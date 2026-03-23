@@ -1,6 +1,6 @@
 # Lp Devices
 
-Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lp`
+Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lp`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -16,8 +16,6 @@ Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.
 | N-57-Plus | N_57_PLUS | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lp.N_57_PLUS)` |
 | N-60 | N_60 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lp.N_60)` |
 | N60 | N60 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lp.N60)` |
-| T100 | T100 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lp.T100)` |
 | Vyper_PRO | VYPER_PRO | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Lp.VYPER_PRO)` |
-| W55 | W55 | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Lp.W55)` |
 
 <!-- Generated automatically. Do not edit manually. -->

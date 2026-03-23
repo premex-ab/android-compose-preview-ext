@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Sebbe (11 models).
+ * Device specifications for Sebbe (10 models).
  */
 public object Sebbe {
   /**
@@ -51,11 +51,6 @@ public object Sebbe {
    * SEBBE S23_T_US
    */
   public const val S23_T_US: String = "spec:width=1200px,height=2000px,dpi=240"
-
-  /**
-   * SEBBE S23_US
-   */
-  public const val S23_US: String = "spec:width=800px,height=1332px,dpi=160"
 
   /**
    * SEBBE S23_US_B

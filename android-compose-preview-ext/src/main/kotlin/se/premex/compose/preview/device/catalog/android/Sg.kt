@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=56
+// Generated manufacturer device catalog. Devices=57
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SG (56 models).
+ * Device specifications for SG (57 models).
  */
 public object Sg {
   /**
@@ -56,6 +56,11 @@ public object Sg {
    * SG Lockon
    */
   public const val LOCKON: String = "spec:width=1080px,height=2340px,dpi=420"
+
+  /**
+   * SG Lyle
+   */
+  public const val LYLE: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
    * SG Mikazuki

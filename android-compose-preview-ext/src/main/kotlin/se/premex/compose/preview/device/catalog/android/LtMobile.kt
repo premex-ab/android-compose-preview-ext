@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LT_mobile (8 models).
+ * Device specifications for LT_mobile (11 models).
  */
 public object LtMobile {
   /**
@@ -16,6 +16,11 @@ public object LtMobile {
    * LT_mobile LT_mobile_C26
    */
   public const val LT_MOBILE_C26: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * LT_mobile LT_mobile_C27
+   */
+  public const val LT_MOBILE_C27: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * LT_mobile LT_mobile_C60
@@ -38,6 +43,11 @@ public object LtMobile {
   public const val LT_MOBILE_E6707: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
+   * LT_mobile LT_mobile_K80
+   */
+  public const val LT_MOBILE_K80: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * LT_mobile LT_mobile_S22
    */
   public const val LT_MOBILE_S22: String = "spec:width=720px,height=1600px,dpi=320"
@@ -46,4 +56,9 @@ public object LtMobile {
    * LT_mobile LT_mobile_S33
    */
   public const val LT_MOBILE_S33: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * LT_mobile LT_mobile_S40
+   */
+  public const val LT_MOBILE_S40: String = "spec:width=1080px,height=2460px,dpi=480"
 }

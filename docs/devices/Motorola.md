@@ -1,6 +1,6 @@
 # Motorola Devices
 
-Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog.android.Motorola`
+Total: **284** devices. Import: `import se.premex.compose.preview.device.catalog.android.Motorola`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -74,6 +74,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | doha | DOHA | 1080x2280 | 420 | `spec:width=1080px,height=2280px,dpi=420` | `@Preview(device = Motorola.DOHA)` |
 | doha_n | DOHA_N | 1080x2280 | 420 | `spec:width=1080px,height=2280px,dpi=420` | `@Preview(device = Motorola.DOHA_N)` |
 | dubai | DUBAI | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.DUBAI)` |
+| elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Motorola.ELLINIKO)` |
 | ellis | ELLIS | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.ELLIS)` |
 | eqe | EQE | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Motorola.EQE)` |
 | eqs | EQS | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.EQS)` |
@@ -109,13 +110,13 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | hawaiip | HAWAIIP | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.HAWAIIP)` |
 | hawao | HAWAO | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Motorola.HAWAO)` |
 | hawk35_umts | HAWK35_UMTS | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Motorola.HAWK35_UMTS)` |
-| hawk40_umts | HAWK40_UMTS | 480x788 | 240 | `spec:width=480px,height=788px,dpi=240` | `@Preview(device = Motorola.HAWK40_UMTS)` |
 | hayward | HAYWARD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Motorola.HAYWARD)` |
 | hiphi | HIPHI | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.HIPHI)` |
 | hiphic | HIPHIC | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.HIPHIC)` |
 | hiphid | HIPHID | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.HIPHID)` |
 | hongkong | HONGKONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Motorola.HONGKONG)` |
 | ibiza | IBIZA | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.IBIZA)` |
+| jagalchi | JAGALCHI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Motorola.JAGALCHI)` |
 | james | JAMES | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Motorola.JAMES)` |
 | java | JAVA | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.JAVA)` |
 | jeter | JETER | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Motorola.JETER)` |
@@ -125,12 +126,13 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | kievv | KIEVV | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.KIEVV)` |
 | kinzie | KINZIE | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Motorola.KINZIE)` |
 | kinzie_uds | KINZIE_UDS | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Motorola.KINZIE_UDS)` |
-| kungfu_m | KUNGFU_M | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Motorola.KUNGFU_M)` |
 | kyoto | KYOTO | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.KYOTO)` |
+| lagos | LAGOS | 720x1640 | 280 | `spec:width=720px,height=1640px,dpi=280` | `@Preview(device = Motorola.LAGOS)` |
 | lake | LAKE | 1080x2270 | 480 | `spec:width=1080px,height=2270px,dpi=480` | `@Preview(device = Motorola.LAKE)` |
 | lake_n | LAKE_N | 1080x2270 | 480 | `spec:width=1080px,height=2270px,dpi=480` | `@Preview(device = Motorola.LAKE_N)` |
 | lamu | LAMU | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.LAMU)` |
 | lamul | LAMUL | 720x1604 | 280 | `spec:width=720px,height=1604px,dpi=280` | `@Preview(device = Motorola.LAMUL)` |
+| landen | LANDEN | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Motorola.LANDEN)` |
 | leap | LEAP | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Motorola.LEAP)` |
 | liber | LIBER | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Motorola.LIBER)` |
 | lima | LIMA | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Motorola.LIMA)` |
@@ -142,6 +144,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | lynkco | LYNKCO | 1080x2640 | 420 | `spec:width=1080px,height=2640px,dpi=420` | `@Preview(device = Motorola.LYNKCO)` |
 | lyriq | LYRIQ | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.LYRIQ)` |
 | M-51E | M_51E | 1080x2640 | 420 | `spec:width=1080px,height=2640px,dpi=420` | `@Preview(device = Motorola.M_51E)` |
+| M-51F | M_51F | 1080x2640 | 420 | `spec:width=1080px,height=2640px,dpi=420` | `@Preview(device = Motorola.M_51F)` |
 | malmo | MALMO | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.MALMO)` |
 | malta | MALTA | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.MALTA)` |
 | maltalsc | MALTALSC | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.MALTALSC)` |
@@ -162,6 +165,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | mototabg70 | MOTOTABG70 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Motorola.MOTOTABG70)` |
 | mototabg70LTE | MOTOTABG70LTE | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Motorola.MOTOTABG70LTE)` |
 | mountbaker | MOUNTBAKER | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Motorola.MOUNTBAKER)` |
+| mumba | MUMBA | 1080x2400 | 390 | `spec:width=1080px,height=2400px,dpi=390` | `@Preview(device = Motorola.MUMBA)` |
 | nairo | NAIRO | 1080x2520 | 420 | `spec:width=1080px,height=2520px,dpi=420` | `@Preview(device = Motorola.NAIRO)` |
 | namath | NAMATH | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Motorola.NAMATH)` |
 | nash | NASH | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Motorola.NASH)` |
@@ -206,6 +210,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | pettyl | PETTYL | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Motorola.PETTYL)` |
 | pnangn | PNANGN | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.PNANGN)` |
 | pokerp | POKERP | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Motorola.POKERP)` |
+| portov | PORTOV | 1080x2400 | 390 | `spec:width=1080px,height=2400px,dpi=390` | `@Preview(device = Motorola.PORTOV)` |
 | potter | POTTER | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Motorola.POTTER)` |
 | potter_n | POTTER_N | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Motorola.POTTER_N)` |
 | potter_nt | POTTER_NT | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Motorola.POTTER_NT)` |
@@ -225,6 +230,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | river_n | RIVER_N | 1080x2270 | 480 | `spec:width=1080px,height=2270px,dpi=480` | `@Preview(device = Motorola.RIVER_N)` |
 | rjames_f | RJAMES_F | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Motorola.RJAMES_F)` |
 | rjames_go | RJAMES_GO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Motorola.RJAMES_GO)` |
+| roadstr | ROADSTR | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Motorola.ROADSTR)` |
 | robusta | ROBUSTA | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Motorola.ROBUSTA)` |
 | rtwo | RTWO | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.RTWO)` |
 | sabahl | SABAHL | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Motorola.SABAHL)` |
@@ -235,7 +241,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | scorpion_mini | SCORPION_MINI | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Motorola.SCORPION_MINI)` |
 | scout | SCOUT | 1220x2712 | 450 | `spec:width=1220px,height=2712px,dpi=450` | `@Preview(device = Motorola.SCOUT)` |
 | smelt | SMELT | 330x360 | 160 | `spec:width=330px,height=360px,dpi=160` | `@Preview(device = Motorola.SMELT)` |
-| smi | SMI | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Motorola.SMI)` |
+| smi | SMI | 540x888 | 240 | `spec:width=540px,height=888px,dpi=240` | `@Preview(device = Motorola.SMI)` |
 | smith | SMITH | 876x2142 | 360 | `spec:width=876px,height=2142px,dpi=360` | `@Preview(device = Motorola.SMITH)` |
 | sofia | SOFIA | 1080x2300 | 420 | `spec:width=1080px,height=2300px,dpi=420` | `@Preview(device = Motorola.SOFIA)` |
 | sofiap | SOFIAP | 1080x2300 | 420 | `spec:width=1080px,height=2300px,dpi=420` | `@Preview(device = Motorola.SOFIAP)` |
@@ -265,9 +271,7 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | troika | TROIKA | 1080x2520 | 480 | `spec:width=1080px,height=2520px,dpi=480` | `@Preview(device = Motorola.TROIKA)` |
 | troika_sprout | TROIKA_SPROUT | 1080x2520 | 480 | `spec:width=1080px,height=2520px,dpi=480` | `@Preview(device = Motorola.TROIKA_SPROUT)` |
 | tundra | TUNDRA | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.TUNDRA)` |
-| umts_spyder | UMTS_SPYDER | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Motorola.UMTS_SPYDER)` |
 | vanquish | VANQUISH | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Motorola.VANQUISH)` |
-| vanquish_u | VANQUISH_U | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Motorola.VANQUISH_U)` |
 | vegas | VEGAS | 1080x2388 | 390 | `spec:width=1080px,height=2388px,dpi=390` | `@Preview(device = Motorola.VEGAS)` |
 | vicky | VICKY | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Motorola.VICKY)` |
 | victara | VICTARA | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Motorola.VICTARA)` |
@@ -280,6 +284,8 @@ Total: **278** devices. Import: `import se.premex.compose.preview.device.catalog
 | XT1663 | XT1663 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Motorola.XT1663)` |
 | XT2261-1 | XT2261_1 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Motorola.XT2261_1)` |
 | XT2261-2 | XT2261_2 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Motorola.XT2261_2)` |
+| XT2575-1 | XT2575_1 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Motorola.XT2575_1)` |
+| XT2575-3 | XT2575_3 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Motorola.XT2575_3)` |
 | zeekr | ZEEKR | 1080x2640 | 420 | `spec:width=1080px,height=2640px,dpi=420` | `@Preview(device = Motorola.ZEEKR)` |
 | zhongshan | ZHONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Motorola.ZHONGSHAN)` |
 

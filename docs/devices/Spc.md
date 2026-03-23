@@ -1,6 +1,6 @@
 # Spc Devices
 
-Total: **65** devices. Import: `import se.premex.compose.preview.device.catalog.android.Spc`
+Total: **66** devices. Import: `import se.premex.compose.preview.device.catalog.android.Spc`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -35,15 +35,15 @@ Total: **65** devices. Import: `import se.premex.compose.preview.device.catalog.
 | GRAVITY_5_SE_EEA | GRAVITY_5_SE_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Spc.GRAVITY_5_SE_EEA)` |
 | GRAVITY_6_10 | GRAVITY_6_10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Spc.GRAVITY_6_10)` |
 | GRAVITY_6_11 | GRAVITY_6_11 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Spc.GRAVITY_6_11)` |
+| GRAVITY_6_PRO_11 | GRAVITY_6_PRO_11 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Spc.GRAVITY_6_PRO_11)` |
+| GRAVITY_6_PRO_12 | GRAVITY_6_PRO_12 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Spc.GRAVITY_6_PRO_12)` |
 | Gravity_Max | GRAVITY_MAX | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Spc.GRAVITY_MAX)` |
 | GRAVITY_OCTACORE | GRAVITY_OCTACORE | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Spc.GRAVITY_OCTACORE)` |
 | GRAVITY_PRO | GRAVITY_PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Spc.GRAVITY_PRO)` |
 | heaven-10_1 | HEAVEN_10_1 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Spc.HEAVEN_10_1)` |
 | L52 | L52 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Spc.L52)` |
-| L52_Pro | L52_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Spc.L52_PRO)` |
 | L53 | L53 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Spc.L53)` |
 | L56 | L56 | 240x282 | 120 | `spec:width=240px,height=282px,dpi=120` | `@Preview(device = Spc.L56)` |
-| L60 | L60 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Spc.L60)` |
 | L60_Pro | L60_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Spc.L60_PRO)` |
 | L60_Turbo | L60_TURBO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Spc.L60_TURBO)` |
 | L70_Lite | L70_LITE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Spc.L70_LITE)` |
@@ -63,10 +63,11 @@ Total: **65** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SPC_GEN_MAX | SPC_GEN_MAX | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Spc.SPC_GEN_MAX)` |
 | SPC_GEN_PLUS | SPC_GEN_PLUS | 600x1280 | 320 | `spec:width=600px,height=1280px,dpi=320` | `@Preview(device = Spc.SPC_GEN_PLUS)` |
 | SPC_L52X | SPC_L52X | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Spc.SPC_L52X)` |
-| SPC_SMART | SPC_SMART | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Spc.SPC_SMART)` |
 | SPC_SMART_LITE | SPC_SMART_LITE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Spc.SPC_SMART_LITE)` |
 | SPC_SMART_MAX | SPC_SMART_MAX | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Spc.SPC_SMART_MAX)` |
 | SPC_SMART_PLUS | SPC_SMART_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Spc.SPC_SMART_PLUS)` |
+| ZEUS_2 | ZEUS_2 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Spc.ZEUS_2)` |
+| ZEUS_2_PRO | ZEUS_2_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Spc.ZEUS_2_PRO)` |
 | ZEUS_4G | ZEUS_4G | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Spc.ZEUS_4G)` |
 | ZEUS_4G_PRO | ZEUS_4G_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Spc.ZEUS_4G_PRO)` |
 

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=171
+// Generated manufacturer device catalog. Devices=177
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for google (171 models).
+ * Device specifications for google (177 models).
  */
 public object Google {
   /**
@@ -56,6 +56,11 @@ public object Google {
    * google barbet
    */
   public const val BARBET: String = "id:barbet"
+
+  /**
+   * google blazer
+   */
+  public const val BLAZER: String = "id:blazer"
 
   /**
    * google bluejay
@@ -248,6 +253,11 @@ public object Google {
   public const val FLOUNDER_LTE: String = "id:flounder_lte"
 
   /**
+   * google frankel
+   */
+  public const val FRANKEL: String = "id:frankel"
+
+  /**
    * google fugu
    */
   public const val FUGU: String = "id:fugu"
@@ -348,6 +358,16 @@ public object Google {
   public const val KEFKA_CHEETS: String = "id:kefka_cheets"
 
   /**
+   * google kenari_btwifi
+   */
+  public const val KENARI_BTWIFI: String = "id:kenari_btwifi"
+
+  /**
+   * google kenari_lte
+   */
+  public const val KENARI_LTE: String = "id:kenari_lte"
+
+  /**
    * google kevin_cheets
    */
   public const val KEVIN_CHEETS: String = "id:kevin_cheets"
@@ -408,6 +428,16 @@ public object Google {
   public const val MARLIN: String = "id:marlin"
 
   /**
+   * google meridian_btwifi
+   */
+  public const val MERIDIAN_BTWIFI: String = "id:meridian_btwifi"
+
+  /**
+   * google meridian_lte
+   */
+  public const val MERIDIAN_LTE: String = "id:meridian_lte"
+
+  /**
    * google mighty_cheets
    */
   public const val MIGHTY_CHEETS: String = "id:mighty_cheets"
@@ -416,6 +446,11 @@ public object Google {
    * google minnie_cheets
    */
   public const val MINNIE_CHEETS: String = "id:minnie_cheets"
+
+  /**
+   * google mustang
+   */
+  public const val MUSTANG: String = "id:mustang"
 
   /**
    * google nami_cheets
@@ -668,6 +703,11 @@ public object Google {
   public const val RAMMUS_CHEETS: String = "id:rammus_cheets"
 
   /**
+   * google rango
+   */
+  public const val RANGO: String = "id:rango"
+
+  /**
    * google rauru_cheets
    */
   public const val RAURU_CHEETS: String = "id:rauru_cheets"
@@ -828,11 +868,6 @@ public object Google {
   public const val TOKAY: String = "id:tokay"
 
   /**
-   * google toro
-   */
-  public const val TORO: String = "id:toro"
-
-  /**
    * google trogdor_cheets
    */
   public const val TROGDOR_CHEETS: String = "id:trogdor_cheets"
@@ -846,11 +881,6 @@ public object Google {
    * google volteer_cheets
    */
   public const val VOLTEER_CHEETS: String = "id:volteer_cheets"
-
-  /**
-   * google vsoc_x86_64
-   */
-  public const val VSOC_X86_64: String = "id:vsoc_x86_64"
 
   /**
    * google wizpig_cheets

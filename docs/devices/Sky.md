@@ -1,6 +1,6 @@
 # Sky Devices
 
-Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sky`
+Total: **68** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sky`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,7 +10,6 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | ef71k | EF71K | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sky.EF71K)` |
 | ef71s | EF71S | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sky.EF71S)` |
 | ELIBI_55 | ELIBI_55 | 720x1440 | 360 | `spec:width=720px,height=1440px,dpi=360` | `@Preview(device = Sky.ELIBI_55)` |
-| Elite_4T_GT | ELITE_4T_GT | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Sky.ELITE_4T_GT)` |
 | Elite_A6 | ELITE_A6 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Sky.ELITE_A6)` |
 | Elite_A63 | ELITE_A63 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Sky.ELITE_A63)` |
 | Elite_B5MS | ELITE_B5MS | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_B5MS)` |
@@ -18,14 +17,10 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Elite_C55US | ELITE_C55US | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sky.ELITE_C55US)` |
 | Elite_C55USA | ELITE_C55USA | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sky.ELITE_C55USA)` |
 | Elite_H55 | ELITE_H55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_H55)` |
-| Elite_H55_HD | ELITE_H55_HD | 720x1440 | 360 | `spec:width=720px,height=1440px,dpi=360` | `@Preview(device = Sky.ELITE_H55_HD)` |
 | Elite_H5_FW | ELITE_H5_FW | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_H5_FW)` |
 | Elite_J55 | ELITE_J55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_J55)` |
 | Elite_J55US | ELITE_J55US | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_J55US)` |
 | Elite_L55 | ELITE_L55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_L55)` |
-| Elite_M45 | ELITE_M45 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_M45)` |
-| Elite_M5Plus_PA | ELITE_M5PLUS_PA | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_M5PLUS_PA)` |
-| Elite_M5Plus_SAL | ELITE_M5PLUS_SAL | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sky.ELITE_M5PLUS_SAL)` |
 | Elite_N55 | ELITE_N55 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sky.ELITE_N55)` |
 | Elite_N55Max | ELITE_N55MAX | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Sky.ELITE_N55MAX)` |
 | Elite_Octa_Plus | ELITE_OCTA_PLUS | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Sky.ELITE_OCTA_PLUS)` |
@@ -76,7 +71,6 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SKY_PAD8PROUS | SKY_PAD8PROUS | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Sky.SKY_PAD8PROUS)` |
 | SKY_PAX10US | SKY_PAX10US | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Sky.SKY_PAX10US)` |
 | SKY_Prestige | SKY_PRESTIGE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sky.SKY_PRESTIGE)` |
-| SKY_Prestige2 | SKY_PRESTIGE2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sky.SKY_PRESTIGE2)` |
 | SKY_VISION2_Plus | SKY_VISION2_PLUS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Sky.SKY_VISION2_PLUS)` |
 
 <!-- Generated automatically. Do not edit manually. -->

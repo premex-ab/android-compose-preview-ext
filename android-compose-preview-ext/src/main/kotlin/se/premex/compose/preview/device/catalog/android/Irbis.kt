@@ -1,26 +1,16 @@
-// Generated manufacturer device catalog. Devices=36
+// Generated manufacturer device catalog. Devices=31
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IRBIS (36 models).
+ * Device specifications for IRBIS (31 models).
  */
 public object Irbis {
   /**
    * IRBIS SP514
    */
   public const val SP514: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * IRBIS SP542
-   */
-  public const val SP542: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * IRBIS SP554
-   */
-  public const val SP554: String = "spec:width=640px,height=1280px,dpi=320"
 
   /**
    * IRBIS TZ151
@@ -103,11 +93,6 @@ public object Irbis {
   public const val TZ725: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Irbis TZ727
-   */
-  public const val TZ727: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
    * IRBIS TZ728
    */
   public const val TZ728: String = "spec:width=600px,height=1024px,dpi=213"
@@ -118,11 +103,6 @@ public object Irbis {
   public const val TZ737: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * IRBIS TZ754
-   */
-  public const val TZ754: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
    * IRBIS TZ772
    */
   public const val TZ772: String = "spec:width=600px,height=1024px,dpi=160"
@@ -131,11 +111,6 @@ public object Irbis {
    * IRBIS TZ773
    */
   public const val TZ773: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
-   * IRBIS TZ777
-   */
-  public const val TZ777: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * IRBIS TZ797

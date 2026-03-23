@@ -1,6 +1,6 @@
 # Philco Devices
 
-Total: **32** devices. Import: `import se.premex.compose.preview.device.catalog.android.Philco`
+Total: **33** devices. Import: `import se.premex.compose.preview.device.catalog.android.Philco`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -30,10 +30,11 @@ Total: **32** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SW4H | SW4H | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philco.SW4H)` |
 | SW6H | SW6H | 1080x1920 | 160 | `spec:width=1080px,height=1920px,dpi=160` | `@Preview(device = Philco.SW6H)` |
 | TP10A332 | TP10A332 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Philco.TP10A332)` |
-| TP10A3N | TP10A3N | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Philco.TP10A3N)` |
 | TP10A464 | TP10A464 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Philco.TP10A464)` |
+| TP10A464D | TP10A464D | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Philco.TP10A464D)` |
 | TP10F | TP10F | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Philco.TP10F)` |
 | TP7A464 | TP7A464 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Philco.TP7A464)` |
+| TP7A464D | TP7A464D | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Philco.TP7A464D)` |
 | TP7A4N | TP7A4N | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Philco.TP7A4N)` |
 | zhongshan | ZHONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Philco.ZHONGSHAN)` |
 

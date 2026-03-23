@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MobiIoT (9 models).
+ * Device specifications for MobiIoT (10 models).
  */
 public object Mobiiot {
   /**
@@ -43,12 +43,17 @@ public object Mobiiot {
   public const val MP5: String = "spec:width=720px,height=1440px,dpi=300"
 
   /**
+   * MobiIoT WM18PPv2
+   */
+  public const val WM18PPV2: String = "spec:width=480px,height=960px,dpi=213"
+
+  /**
    * MobiIoT WM19
    */
   public const val WM19: String = "spec:width=480px,height=800px,dpi=200"
 
   /**
-   * MobiIoT WM58
+   * MobiIoT WM26
    */
-  public const val WM58: String = "spec:width=576px,height=1152px,dpi=200"
+  public const val WM26: String = "spec:width=1200px,height=1920px,dpi=240"
 }

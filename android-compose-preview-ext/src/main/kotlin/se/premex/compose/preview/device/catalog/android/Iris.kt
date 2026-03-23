@@ -18,6 +18,11 @@ public object Iris {
   public const val BEOMIL: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
+   * IRIS eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * IRIS G7060
    */
   public const val G7060: String = "spec:width=600px,height=1024px,dpi=160"
@@ -36,11 +41,6 @@ public object Iris {
    * IRIS IS2PLUS
    */
   public const val IS2PLUS: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * IRIS IS2S
-   */
-  public const val IS2S: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * IRIS IS6Plus

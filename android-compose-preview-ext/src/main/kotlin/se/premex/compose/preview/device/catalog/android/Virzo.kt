@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VIRZO (4 models).
+ * Device specifications for VIRZO (3 models).
  */
 public object Virzo {
   /**
    * VIRZO V511
    */
   public const val V511: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * VIRZO V608_C
-   */
-  public const val V608_C: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
    * VIRZO VT1001

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IndiHome (2 models).
+ * Device specifications for IndiHome (3 models).
  */
 public object Indihome {
+  /**
+   * IndiHome B860HV5_Telkom
+   */
+  public const val B860HV5_TELKOM: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * IndiHome B866FV1_1
    */

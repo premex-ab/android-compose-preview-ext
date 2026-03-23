@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Telma (9 models).
+ * Device specifications for Telma (8 models).
  */
 public object Telma {
-  /**
-   * TELMA EGO_plus
-   */
-  public const val EGO_PLUS: String = "spec:width=480px,height=996px,dpi=240"
-
   /**
    * Telma IFeel_Max_4G
    */

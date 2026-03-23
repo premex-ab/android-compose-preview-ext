@@ -1,11 +1,12 @@
 # Poco Devices
 
-Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.android.Poco`
+Total: **64** devices. Import: `import se.premex.compose.preview.device.catalog.android.Poco`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | alioth | ALIOTH | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.ALIOTH)` |
 | angelicain | ANGELICAIN | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Poco.ANGELICAIN)` |
+| annibale | ANNIBALE | 1156x2510 | 480 | `spec:width=1156px,height=2510px,dpi=480` | `@Preview(device = Poco.ANNIBALE)` |
 | aresin | ARESIN | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.ARESIN)` |
 | beryl | BERYL | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Poco.BERYL)` |
 | bhima | BHIMA | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.BHIMA)` |
@@ -16,6 +17,8 @@ Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.
 | chopin | CHOPIN | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.CHOPIN)` |
 | citrine | CITRINE | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Poco.CITRINE)` |
 | citrus | CITRUS | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Poco.CITRUS)` |
+| creek | CREEK | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Poco.CREEK)` |
+| dew | DEW | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Poco.DEW)` |
 | dizi | DIZI | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Poco.DIZI)` |
 | duchamp | DUCHAMP | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Poco.DUCHAMP)` |
 | earth | EARTH | 720x1650 | 320 | `spec:width=720px,height=1650px,dpi=320` | `@Preview(device = Poco.EARTH)` |
@@ -23,6 +26,7 @@ Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.
 | evergreen | EVERGREEN | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.EVERGREEN)` |
 | flame | FLAME | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Poco.FLAME)` |
 | fleur | FLEUR | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.FLEUR)` |
+| flute | FLUTE | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Poco.FLUTE)` |
 | gale | GALE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Poco.GALE)` |
 | garnet | GARNET | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Poco.GARNET)` |
 | gram | GRAM | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.GRAM)` |
@@ -39,6 +43,7 @@ Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.
 | miro | MIRO | 1080x2400 | 600 | `spec:width=1080px,height=2400px,dpi=600` | `@Preview(device = Poco.MIRO)` |
 | moon | MOON | 1080x2460 | 440 | `spec:width=1080px,height=2460px,dpi=440` | `@Preview(device = Poco.MOON)` |
 | munch | MUNCH | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.MUNCH)` |
+| myron | MYRON | 1200x2608 | 480 | `spec:width=1200px,height=2608px,dpi=480` | `@Preview(device = Poco.MYRON)` |
 | onyx | ONYX | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Poco.ONYX)` |
 | peridot | PERIDOT | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Poco.PERIDOT)` |
 | peux | PEUX | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.PEUX)` |
@@ -52,9 +57,11 @@ Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.
 | shiva | SHIVA | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Poco.SHIVA)` |
 | sky | SKY | 1080x2460 | 440 | `spec:width=1080px,height=2460px,dpi=440` | `@Preview(device = Poco.SKY)` |
 | snow | SNOW | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Poco.SNOW)` |
+| spring | SPRING | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Poco.SPRING)` |
 | stone | STONE | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Poco.STONE)` |
 | surya | SURYA | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.SURYA)` |
 | thunder | THUNDER | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Poco.THUNDER)` |
+| tornado | TORNADO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Poco.TORNADO)` |
 | vermeer | VERMEER | 1440x3200 | 560 | `spec:width=1440px,height=3200px,dpi=560` | `@Preview(device = Poco.VERMEER)` |
 | veux | VEUX | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Poco.VEUX)` |
 | warm | WARM | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Poco.WARM)` |

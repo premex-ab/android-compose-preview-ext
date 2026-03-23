@@ -15,5 +15,5 @@ public object Olike {
   /**
    * Olike E3
    */
-  public const val E3: String = "spec:width=1200px,height=1920px,dpi=280"
+  public const val E3: String = "spec:width=1080px,height=2248px,dpi=480"
 }

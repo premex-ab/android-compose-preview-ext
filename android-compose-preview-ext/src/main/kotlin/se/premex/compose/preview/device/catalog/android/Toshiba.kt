@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=27
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TOSHIBA (27 models).
+ * Device specifications for TOSHIBA (26 models).
  */
 public object Toshiba {
   /**
@@ -35,7 +35,7 @@ public object Toshiba {
   /**
    * Toshiba l4300
    */
-  public const val L4300: String = "spec:width=1080px,height=1920px,dpi=240"
+  public const val L4300: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * TOSHIBA l9450
@@ -96,11 +96,6 @@ public object Toshiba {
    * TOSHIBA tostab11BA
    */
   public const val TOSTAB11BA: String = "spec:width=752px,height=1280px,dpi=160"
-
-  /**
-   * TOSHIBA tostab11BS
-   */
-  public const val TOSTAB11BS: String = "spec:width=736px,height=1280px,dpi=213"
 
   /**
    * TOSHIBA tostab12AL

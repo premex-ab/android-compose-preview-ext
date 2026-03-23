@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=229
+// Generated manufacturer device catalog. Devices=227
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for asus (229 models).
+ * Device specifications for asus (227 models).
  */
 public object Asus {
   /**
@@ -90,7 +90,7 @@ public object Asus {
   /**
    * asus ASUS_I001_1
    */
-  public const val ASUS_I001_1: String = "spec:width=720px,height=1280px,dpi=240"
+  public const val ASUS_I001_1: String = "spec:width=900px,height=1600px,dpi=240"
 
   /**
    * asus ASUS_I002D
@@ -105,7 +105,7 @@ public object Asus {
   /**
    * asus ASUS_I004D
    */
-  public const val ASUS_I004D: String = "spec:width=1080px,height=2400px,dpi=420"
+  public const val ASUS_I004D: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * asus ASUS_I005_1
@@ -648,11 +648,6 @@ public object Asus {
   public const val ASUS_Z01R_1: String = "spec:width=1080px,height=2246px,dpi=420"
 
   /**
-   * asus ASUS_ZENBO
-   */
-  public const val ASUS_ZENBO: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * asus ASUSAI2501
    */
   public const val ASUSAI2501: String = "spec:width=1080px,height=2400px,dpi=420"
@@ -806,11 +801,6 @@ public object Asus {
    * asus K019_3
    */
   public const val K019_3: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * asus K019_4
-   */
-  public const val K019_4: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * asus K01A

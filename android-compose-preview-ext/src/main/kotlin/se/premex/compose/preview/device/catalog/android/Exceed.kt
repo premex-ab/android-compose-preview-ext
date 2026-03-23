@@ -8,6 +8,11 @@ import kotlin.String
  */
 public object Exceed {
   /**
+   * EXCEED E10G21
+   */
+  public const val E10G21: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * EXCEED E10G22
    */
   public const val E10G22: String = "spec:width=800px,height=1280px,dpi=213"
@@ -15,7 +20,7 @@ public object Exceed {
   /**
    * EXCEED E10W10
    */
-  public const val E10W10: String = "spec:width=800px,height=1280px,dpi=180"
+  public const val E10W10: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * EXCEED EX10S10
@@ -26,11 +31,6 @@ public object Exceed {
    * EXCEED EX10S4
    */
   public const val EX10S4: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * EXCEED EX7S4
-   */
-  public const val EX7S4: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * EXCEED EX7SL4

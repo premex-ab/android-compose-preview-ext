@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=24
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PEAQ (17 models).
+ * Device specifications for PEAQ (24 models).
  */
 public object Peaq {
+  /**
+   * PEAQ alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * PEAQ dangni
+   */
+  public const val DANGNI: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * PEAQ PET-1008-F464E
    */
@@ -31,6 +41,11 @@ public object Peaq {
    * PEAQ PET-101-H332S-W
    */
   public const val PET_101_H332S_W: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * PEAQ PET-10182-H332E
+   */
+  public const val PET_10182_H332E: String = "spec:width=800px,height=1280px,dpi=200"
 
   /**
    * PEAQ PET-102-H232S
@@ -58,6 +73,16 @@ public object Peaq {
   public const val PET_10980_F628E: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
+   * PEAQ PET-11080-2K628E
+   */
+  public const val PET_11080_2K628E: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * PEAQ PET-11080-F428E
+   */
+  public const val PET_11080_F428E: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
    * PEAQ PET-882-H232S
    */
   public const val PET_882_H232S: String = "spec:width=800px,height=1280px,dpi=213"
@@ -68,6 +93,11 @@ public object Peaq {
   public const val PET_10180_H464S: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * PEAQ PET_10181_H464S
+   */
+  public const val PET_10181_H464S: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * PEAQ PET_11080-F628S
    */
   public const val PET_11080_F628S: String = "spec:width=1200px,height=1920px,dpi=280"
@@ -76,6 +106,11 @@ public object Peaq {
    * PEAQ PET_11080_H428S
    */
   public const val PET_11080_H428S: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * PEAQ PET_11081_H428S
+   */
+  public const val PET_11081_H428S: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * PEAQ PET_8040_H464S

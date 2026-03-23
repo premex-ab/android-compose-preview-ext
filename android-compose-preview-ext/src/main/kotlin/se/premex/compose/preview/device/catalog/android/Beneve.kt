@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BENEVE (11 models).
+ * Device specifications for BENEVE (10 models).
  */
 public object Beneve {
   /**
@@ -16,11 +16,6 @@ public object Beneve {
    * BENEVE M1038_EEA
    */
   public const val M1038_EEA: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * BENEVE M51S
-   */
-  public const val M51S: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * BENEVE M51S_EEA

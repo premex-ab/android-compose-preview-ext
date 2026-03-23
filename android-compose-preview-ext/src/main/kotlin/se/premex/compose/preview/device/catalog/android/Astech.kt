@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ASTECH (10 models).
+ * Device specifications for ASTECH (12 models).
  */
 public object Astech {
+  /**
+   * ASTECH alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * ASTECH Astech_IRIS
    */
@@ -26,6 +31,11 @@ public object Astech {
    * ASTECH Astech_S9
    */
   public const val ASTECH_S9: String = "spec:width=720px,height=1612px,dpi=280"
+
+  /**
+   * ASTECH dangni
+   */
+  public const val DANGNI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * ASTECH R10G

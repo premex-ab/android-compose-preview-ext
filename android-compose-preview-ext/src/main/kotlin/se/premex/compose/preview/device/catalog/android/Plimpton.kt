@@ -1,16 +1,31 @@
-// Generated manufacturer device catalog. Devices=22
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Plimpton (22 models).
+ * Device specifications for Plimpton (26 models).
  */
 public object Plimpton {
+  /**
+   * Plimpton Kids10_A15
+   */
+  public const val KIDS10_A15: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Plimpton Kids10_A15_EEA
+   */
+  public const val KIDS10_A15_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
   /**
    * Plimpton Kids20
    */
   public const val KIDS20: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Plimpton Kids20_PA15
+   */
+  public const val KIDS20_PA15: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Plimpton Kids20A14
@@ -56,6 +71,11 @@ public object Plimpton {
    * Plimpton Kids_8
    */
   public const val KIDS_8: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Plimpton P1A15
+   */
+  public const val P1A15: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Plimpton P2

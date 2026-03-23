@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CHALLENGER (13 models).
+ * Device specifications for CHALLENGER (14 models).
  */
 public object Challenger {
   /**
@@ -21,6 +21,11 @@ public object Challenger {
    * Challenger gangbyeon
    */
   public const val GANGBYEON: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * CHALLENGER jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * CHALLENGER lavender

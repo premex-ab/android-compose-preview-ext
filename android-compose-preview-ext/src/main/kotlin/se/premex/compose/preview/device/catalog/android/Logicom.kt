@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=97
+// Generated manufacturer device catalog. Devices=88
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Logicom (97 models).
+ * Device specifications for Logicom (88 models).
  */
 public object Logicom {
   /**
@@ -16,11 +16,6 @@ public object Logicom {
    * LOGICOM COMET_EEA
    */
   public const val COMET_EEA: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
-   * LOGICOM CT1080
-   */
-  public const val CT1080: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Logicom Elio
@@ -61,21 +56,6 @@ public object Logicom {
    * Logicom generic
    */
   public const val GENERIC: String = "spec:width=600px,height=1024px,dpi=120"
-
-  /**
-   * Logicom IDbot53plus
-   */
-  public const val IDBOT53PLUS: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Logicom IDbot553
-   */
-  public const val IDBOT553: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Logicom IDbot553PLUS
-   */
-  public const val IDBOT553PLUS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Logicom L-EMENT505
@@ -133,11 +113,6 @@ public object Logicom {
   public const val LA_TAB_124_HD: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * LOGICOM La_Tab_124_HD_Plus
-   */
-  public const val LA_TAB_124_HD_PLUS: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * Logicom La_Tab_127_HD_EEA
    */
   public const val LA_TAB_127_HD_EEA: String = "spec:width=800px,height=1280px,dpi=213"
@@ -148,11 +123,6 @@ public object Logicom {
   public const val LA_TAB_128: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Logicom La_Tab_292
-   */
-  public const val LA_TAB_292: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * LOGICOM La_Tab_72
    */
   public const val LA_TAB_72: String = "spec:width=600px,height=1024px,dpi=160"
@@ -161,11 +131,6 @@ public object Logicom {
    * Logicom La_Tab_74
    */
   public const val LA_TAB_74: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * LOGICOM La_Tab_74_Rev2_AF
-   */
-  public const val LA_TAB_74_REV2_AF: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * LOGICOM La_Tab_74_Rev2_EEA
@@ -263,11 +228,6 @@ public object Logicom {
   public const val LE_PULSE: String = "spec:width=600px,height=1280px,dpi=240"
 
   /**
-   * Logicom Le_Smooth
-   */
-  public const val LE_SMOOTH: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * Logicom Le_Spark
    */
   public const val LE_SPARK: String = "spec:width=600px,height=1280px,dpi=280"
@@ -291,16 +251,6 @@ public object Logicom {
    * Logicom LeLift
    */
   public const val LELIFT: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Logicom LEMENTTAB1042
-   */
-  public const val LEMENTTAB1042: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Logicom LEMENTTAB1043
-   */
-  public const val LEMENTTAB1043: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Logicom LeMoov
@@ -358,24 +308,14 @@ public object Logicom {
   public const val LOGIKIDS_11P: String = "spec:width=800px,height=1280px,dpi=245"
 
   /**
-   * LOGICOM LOGIKIDS_5_Rev2
+   * Logicom LOGIKIDS_STAR
    */
-  public const val LOGIKIDS_5_REV2: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * LOGICOM LOGIKIDS_5_Rev2_AF
-   */
-  public const val LOGIKIDS_5_REV2_AF: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val LOGIKIDS_STAR: String = "spec:width=800px,height=1280px,dpi=200"
 
   /**
    * Logicom LS0591121F
    */
   public const val LS0591121F: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * Logicom LT1012211F
-   */
-  public const val LT1012211F: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Logicom Luma
@@ -391,6 +331,11 @@ public object Logicom {
    * Logicom Lunar_Pro
    */
   public const val LUNAR_PRO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Logicom LYRA
+   */
+  public const val LYRA: String = "spec:width=540px,height=1092px,dpi=213"
 
   /**
    * Logicom LYRA_PLUS_EEA
@@ -453,6 +398,11 @@ public object Logicom {
   public const val TAB_80: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * Logicom TAB_FOLD_12
+   */
+  public const val TAB_FOLD_12: String = "spec:width=1200px,height=2000px,dpi=320"
+
+  /**
    * Logicom Tab_Link_104
    */
   public const val TAB_LINK_104: String = "spec:width=800px,height=1280px,dpi=180"
@@ -486,6 +436,11 @@ public object Logicom {
    * Logicom WAVE_2s
    */
   public const val WAVE_2S: String = "spec:width=480px,height=800px,dpi=180"
+
+  /**
+   * Logicom Xtrem650
+   */
+  public const val XTREM650: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Logicom Yuno

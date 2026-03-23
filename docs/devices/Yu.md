@@ -13,7 +13,7 @@ Total: **12** devices. Import: `import se.premex.compose.preview.device.catalog.
 | YUNICORN | YUNICORN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Yu.YUNICORN)` |
 | YUPHORIA | YUPHORIA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Yu.YUPHORIA)` |
 | YUREKA | YUREKA | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Yu.YUREKA)` |
-| YUREKA2 | YUREKA2 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Yu.YUREKA2)` |
+| YUREKA2 | YUREKA2 | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Yu.YUREKA2)` |
 | YUREKAS | YUREKAS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Yu.YUREKAS)` |
 | YUTOPIA | YUTOPIA | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Yu.YUTOPIA)` |
 

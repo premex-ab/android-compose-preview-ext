@@ -1,9 +1,10 @@
 # Synetech Devices
 
-Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.android.Synetech`
+Total: **2** devices. Import: `import se.premex.compose.preview.device.catalog.android.Synetech`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| Piscis | PISCIS | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Synetech.PISCIS)` |
 | rk3588_t | RK3588_T | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Synetech.RK3588_T)` |
 
 <!-- Generated automatically. Do not edit manually. -->

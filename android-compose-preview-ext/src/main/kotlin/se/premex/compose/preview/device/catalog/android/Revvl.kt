@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=1
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for REVVL (1 models).
+ * Device specifications for REVVL (2 models).
  */
 public object Revvl {
+  /**
+   * REVVL Diana_TMO
+   */
+  public const val DIANA_TMO: String = "spec:width=800px,height=1280px,dpi=240"
+
   /**
    * REVVL REVVLTAB5G
    */

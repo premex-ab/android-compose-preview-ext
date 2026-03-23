@@ -1,6 +1,6 @@
 # Krono Devices
 
-Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Krono`
+Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.android.Krono`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,6 +10,7 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | MATRIX_PRO | MATRIX_PRO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Krono.MATRIX_PRO)` |
 | NET_ADVANCE | NET_ADVANCE | 480x1014 | 213 | `spec:width=480px,height=1014px,dpi=213` | `@Preview(device = Krono.NET_ADVANCE)` |
 | NET_ALPHA | NET_ALPHA | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Krono.NET_ALPHA)` |
+| NET_G | NET_G | 800x1280 | 196 | `spec:width=800px,height=1280px,dpi=196` | `@Preview(device = Krono.NET_G)` |
 | NET_HIT | NET_HIT | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Krono.NET_HIT)` |
 | NET_K7 | NET_K7 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Krono.NET_K7)` |
 | NET_K7_PLUS | NET_K7_PLUS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Krono.NET_K7_PLUS)` |

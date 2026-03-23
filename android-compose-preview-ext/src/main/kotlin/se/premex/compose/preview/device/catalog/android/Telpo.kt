@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Telpo (3 models).
+ * Device specifications for Telpo (4 models).
  */
 public object Telpo {
+  /**
+   * Telpo C9D
+   */
+  public const val C9D: String = "spec:width=1080px,height=1920px,dpi=240"
+
   /**
    * Telpo M10
    */

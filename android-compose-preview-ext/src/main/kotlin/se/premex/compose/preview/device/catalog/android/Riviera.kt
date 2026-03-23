@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Riviera (5 models).
+ * Device specifications for Riviera (7 models).
  */
 public object Riviera {
+  /**
+   * RIVIERA alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * RIVIERA dangni
+   */
+  public const val DANGNI: String = "spec:width=720px,height=1280px,dpi=213"
+
   /**
    * Riviera hamamatsucho
    */

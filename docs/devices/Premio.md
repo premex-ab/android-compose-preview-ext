@@ -1,21 +1,20 @@
 # Premio Devices
 
-Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.android.Premio`
+Total: **46** devices. Import: `import se.premex.compose.preview.device.catalog.android.Premio`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | 186HS1080233 | _186HS1080233 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Premio._186HS1080233)` |
 | HMR5510 | HMR5510 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Premio.HMR5510)` |
 | P520 | P520 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Premio.P520)` |
-| Premio | PREMIO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Premio.PREMIO)` |
-| Premio_P420 | PREMIO_P420 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Premio.PREMIO_P420)` |
 | S51 | S51 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Premio.S51)` |
 | S53 | S53 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Premio.S53)` |
 | S54 | S54 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Premio.S54)` |
 | S55 | S55 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Premio.S55)` |
 | S56 | S56 | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Premio.S56)` |
 | S57 | S57 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Premio.S57)` |
-| S73 | S73 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Premio.S73)` |
+| S58 | S58 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Premio.S58)` |
+| S59 | S59 | 480x854 | 180 | `spec:width=480px,height=854px,dpi=180` | `@Preview(device = Premio.S59)` |
 | S75 | S75 | 480x960 | 220 | `spec:width=480px,height=960px,dpi=220` | `@Preview(device = Premio.S75)` |
 | S80 | S80 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Premio.S80)` |
 | S81 | S81 | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Premio.S81)` |
@@ -33,14 +32,13 @@ Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TAB8 | TAB8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Premio.TAB8)` |
 | TAB_7_1 | TAB_7_1 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Premio.TAB_7_1)` |
 | TAB_8_1 | TAB_8_1 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Premio.TAB_8_1)` |
-| X70-2021 | X70_2021 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Premio.X70_2021)` |
+| X70-2021 | X70_2021 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Premio.X70_2021)` |
 | X75-2021 | X75_2021 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Premio.X75_2021)` |
 | X76 | X76 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Premio.X76)` |
 | X77 | X77 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Premio.X77)` |
 | X80 | X80 | 480x996 | 240 | `spec:width=480px,height=996px,dpi=240` | `@Preview(device = Premio.X80)` |
 | X81 | X81 | 600x1280 | 280 | `spec:width=600px,height=1280px,dpi=280` | `@Preview(device = Premio.X81)` |
 | X82 | X82 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Premio.X82)` |
-| X83 | X83 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Premio.X83)` |
 | X84 | X84 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Premio.X84)` |
 | X85 | X85 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Premio.X85)` |
 | X85_PRO | X85_PRO | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Premio.X85_PRO)` |

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=74
+// Generated manufacturer device catalog. Devices=84
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PRITOM (74 models).
+ * Device specifications for PRITOM (84 models).
  */
 public object Pritom {
   /**
@@ -21,6 +21,11 @@ public object Pritom {
    * PRITOM K7_A04_EEA
    */
   public const val K7_A04_EEA: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * PRITOM K7_A05
+   */
+  public const val K7_A05: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * PRITOM K7_A101
@@ -68,6 +73,11 @@ public object Pritom {
   public const val L10_T13: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * PRITOM L10_T13_EEA
+   */
+  public const val L10_T13_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * PRITOM L8
    */
   public const val L8: String = "spec:width=800px,height=1280px,dpi=213"
@@ -101,6 +111,11 @@ public object Pritom {
    * pritom L8_B03
    */
   public const val L8_B03: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * PRITOM L8_B04_EEA
+   */
+  public const val L8_B04_EEA: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * PRITOM L8_C01
@@ -183,6 +198,21 @@ public object Pritom {
   public const val M10_B06: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * PRITOM M10_B07
+   */
+  public const val M10_B07: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * PRITOM M10_B07_EEA
+   */
+  public const val M10_B07_EEA: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * PRITOM M10_B08
+   */
+  public const val M10_B08: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * PRITOM M10_C01
    */
   public const val M10_C01: String = "spec:width=800px,height=1280px,dpi=213"
@@ -246,6 +276,11 @@ public object Pritom {
    * PRITOM M10_C07
    */
   public const val M10_C07: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * PRITOM M10_C07_EEA
+   */
+  public const val M10_C07_EEA: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * PRITOM M10_EEA
@@ -315,7 +350,7 @@ public object Pritom {
   /**
    * PRITOM M30
    */
-  public const val M30: String = "spec:width=800px,height=1280px,dpi=190"
+  public const val M30: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
    * PRITOM M30_EEA
@@ -343,9 +378,19 @@ public object Pritom {
   public const val P7_A05: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * PRITOM P7_A06
+   */
+  public const val P7_A06: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
    * PRITOM P7_A07
    */
   public const val P7_A07: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * PRITOM P7_A07_EEA
+   */
+  public const val P7_A07_EEA: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * PRITOM P7_A1
@@ -376,4 +421,9 @@ public object Pritom {
    * PRITOM P7PRO_EEA
    */
   public const val P7PRO_EEA: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * PRITOM Pritom_M10_EEA
+   */
+  public const val PRITOM_M10_EEA: String = "spec:width=1200px,height=1920px,dpi=280"
 }

@@ -1,6 +1,6 @@
 # Mecool Devices
 
-Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mecool`
+Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mecool`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -17,6 +17,7 @@ Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.
 | KM9PRO | KM9PRO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.KM9PRO)` |
 | KT1 | KT1 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.KT1)` |
 | LAS | LAS | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.LAS)` |
+| ROM | ROM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.ROM)` |
 | YDA | YDA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.YDA)` |
 | YYC | YYC | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.YYC)` |
 | YYT | YYT | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Mecool.YYT)` |

@@ -10,5 +10,5 @@ public object Voobox {
   /**
    * VOOBox SEI700TMM
    */
-  public const val SEI700TMM: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val SEI700TMM: String = "spec:width=1080px,height=1920px,dpi=320"
 }

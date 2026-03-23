@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=126
+// Generated manufacturer device catalog. Devices=122
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for WIKO (126 models).
+ * Device specifications for WIKO (122 models).
  */
 public object Wiko {
   /**
@@ -88,11 +88,6 @@ public object Wiko {
   public const val P4901AC: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * WIKO P4903JP
-   */
-  public const val P4903JP: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * WIKO P4903LA
    */
   public const val P4903LA: String = "spec:width=720px,height=1280px,dpi=320"
@@ -143,11 +138,6 @@ public object Wiko {
   public const val S5030AP12H: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * WIKO s5201ap
-   */
-  public const val S5201AP: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * WIKO s5222
    */
   public const val S5222: String = "spec:width=480px,height=854px,dpi=240"
@@ -171,11 +161,6 @@ public object Wiko {
    * WIKO S5420
    */
   public const val S5420: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * WIKO s8515
-   */
-  public const val S8515: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * WIKO T20
@@ -266,11 +251,6 @@ public object Wiko {
    * WIKO v2508
    */
   public const val V2508: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * WIKO v2510
-   */
-  public const val V2510: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * WIKO v2520
@@ -450,12 +430,12 @@ public object Wiko {
   /**
    * WIKO W-K610
    */
-  public const val W_K610: String = "spec:width=720px,height=1560px,dpi=280"
+  public const val W_K610: String = "spec:width=720px,height=1503px,dpi=288"
 
   /**
    * WIKO W-K630
    */
-  public const val W_K630: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val W_K630: String = "spec:width=720px,height=1560px,dpi=280"
 
   /**
    * WIKO W-P210
@@ -520,7 +500,7 @@ public object Wiko {
   /**
    * WIKO W-V750BN
    */
-  public const val W_V750BN: String = "spec:width=720px,height=1640px,dpi=260"
+  public const val W_V750BN: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * WIKO W-V755

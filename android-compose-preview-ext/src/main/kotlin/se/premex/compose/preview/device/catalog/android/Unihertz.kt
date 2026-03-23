@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Unihertz (16 models).
+ * Device specifications for Unihertz (17 models).
  */
 public object Unihertz {
   /**
@@ -71,6 +71,11 @@ public object Unihertz {
    * Unihertz Titan
    */
   public const val TITAN: String = "spec:width=1440px,height=1440px,dpi=400"
+
+  /**
+   * Unihertz Titan_2
+   */
+  public const val TITAN_2: String = "spec:width=1440px,height=1440px,dpi=400"
 
   /**
    * Unihertz Titan_pocket

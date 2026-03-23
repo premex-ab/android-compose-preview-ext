@@ -1,10 +1,11 @@
 # Orbic Devices
 
-Total: **12** devices. Import: `import se.premex.compose.preview.device.catalog.android.Orbic`
+Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Orbic`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | JOY2 | JOY2 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Orbic.JOY2)` |
+| R10L5TR | R10L5TR | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Orbic.R10L5TR)` |
 | R678EL | R678EL | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Orbic.R678EL)` |
 | R678L5 | R678L5 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Orbic.R678L5)` |
 | R8L5T | R8L5T | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Orbic.R8L5T)` |

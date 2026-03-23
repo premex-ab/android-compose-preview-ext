@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=19
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Bluebird (19 models).
+ * Device specifications for Bluebird (20 models).
  */
 public object Bluebird {
   /**
@@ -48,9 +48,9 @@ public object Bluebird {
   public const val EF550R: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * Bluebird EF551
+   * Bluebird EK430
    */
-  public const val EF551: String = "spec:width=1080px,height=2160px,dpi=480"
+  public const val EK430: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Bluebird HF550
@@ -71,6 +71,11 @@ public object Bluebird {
    * Bluebird RT103
    */
   public const val RT103: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Bluebird S10
+   */
+  public const val S10: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Bluebird S20

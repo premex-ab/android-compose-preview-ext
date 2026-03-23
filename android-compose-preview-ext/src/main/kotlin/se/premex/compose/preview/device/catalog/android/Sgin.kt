@@ -55,7 +55,7 @@ public object Sgin {
   /**
    * SGIN T12S
    */
-  public const val T12S: String = "spec:width=1200px,height=2000px,dpi=213"
+  public const val T12S: String = "spec:width=1200px,height=2000px,dpi=320"
 
   /**
    * SGIN T12S_EEA

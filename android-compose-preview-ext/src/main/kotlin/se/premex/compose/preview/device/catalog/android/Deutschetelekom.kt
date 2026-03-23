@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DeutscheTelekom (7 models).
+ * Device specifications for DeutscheTelekom (9 models).
  */
 public object Deutschetelekom {
+  /**
+   * DeutscheTelekom BELUGA
+   */
+  public const val BELUGA: String = "spec:width=1200px,height=1920px,dpi=320"
+
   /**
    * DeutscheTelekom CHEETAH
    */
@@ -31,6 +36,11 @@ public object Deutschetelekom {
    * DeutscheTelekom Lion
    */
   public const val LION: String = "spec:width=720px,height=1640px,dpi=280"
+
+  /**
+   * DeutscheTelekom Lynx
+   */
+  public const val LYNX: String = "spec:width=1080px,height=2408px,dpi=480"
 
   /**
    * DeutscheTelekom PUMA

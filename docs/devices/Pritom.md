@@ -1,12 +1,13 @@
 # Pritom Devices
 
-Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.android.Pritom`
+Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.android.Pritom`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | K7 | K7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7)` |
 | K7_A04 | K7_A04 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A04)` |
 | K7_A04_EEA | K7_A04_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A04_EEA)` |
+| K7_A05 | K7_A05 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A05)` |
 | K7_A101 | K7_A101 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A101)` |
 | K7_A101_EEA | K7_A101_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A101_EEA)` |
 | K7_A102 | K7_A102 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.K7_A102)` |
@@ -16,6 +17,7 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | L10_EEA | L10_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.L10_EEA)` |
 | L10_T07 | L10_T07 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Pritom.L10_T07)` |
 | L10_T13 | L10_T13 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L10_T13)` |
+| L10_T13_EEA | L10_T13_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L10_T13_EEA)` |
 | L8 | L8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8)` |
 | L8-T01 | L8_T01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_T01)` |
 | L8_A01 | L8_A01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_A01)` |
@@ -23,6 +25,7 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | L8_B02 | L8_B02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B02)` |
 | L8_B02_EEA | L8_B02_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B02_EEA)` |
 | L8_B03 | L8_B03 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B03)` |
+| L8_B04_EEA | L8_B04_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_B04_EEA)` |
 | L8_C01 | L8_C01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C01)` |
 | L8_C01_EEA | L8_C01_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C01_EEA)` |
 | L8_C02 | L8_C02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.L8_C02)` |
@@ -39,6 +42,9 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | M10_B05 | M10_B05 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_B05)` |
 | M10_B05_EEA | M10_B05_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_B05_EEA)` |
 | M10_B06 | M10_B06 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_B06)` |
+| M10_B07 | M10_B07 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_B07)` |
+| M10_B07_EEA | M10_B07_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_B07_EEA)` |
+| M10_B08 | M10_B08 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_B08)` |
 | M10_C01 | M10_C01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C01)` |
 | M10_C01_EEA | M10_C01_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C01_EEA)` |
 | M10_C02 | M10_C02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Pritom.M10_C02)` |
@@ -52,6 +58,7 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | M10_C05_Kids | M10_C05_KIDS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C05_KIDS)` |
 | M10_C06_Kids | M10_C06_KIDS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C06_KIDS)` |
 | M10_C07 | M10_C07 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C07)` |
+| M10_C07_EEA | M10_C07_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_C07_EEA)` |
 | M10_EEA | M10_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_EEA)` |
 | M10_Lite | M10_LITE | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Pritom.M10_LITE)` |
 | M10_Max | M10_MAX | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Pritom.M10_MAX)` |
@@ -65,18 +72,21 @@ Total: **74** devices. Import: `import se.premex.compose.preview.device.catalog.
 | M10_R02_EEA | M10_R02_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R02_EEA)` |
 | M10_R03 | M10_R03 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R03)` |
 | M10_R04 | M10_R04 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Pritom.M10_R04)` |
-| M30 | M30 | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Pritom.M30)` |
+| M30 | M30 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Pritom.M30)` |
 | M30_EEA | M30_EEA | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Pritom.M30_EEA)` |
 | P7 | P7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7)` |
 | P7_A03 | P7_A03 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A03)` |
 | P7_A04 | P7_A04 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A04)` |
 | P7_A05 | P7_A05 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A05)` |
+| P7_A06 | P7_A06 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A06)` |
 | P7_A07 | P7_A07 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A07)` |
+| P7_A07_EEA | P7_A07_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A07_EEA)` |
 | P7_A1 | P7_A1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A1)` |
 | P7_A1_EEA | P7_A1_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7_A1_EEA)` |
 | P7PLUS | P7PLUS | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Pritom.P7PLUS)` |
 | P7PLUS_EEA | P7PLUS_EEA | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Pritom.P7PLUS_EEA)` |
 | P7PRO | P7PRO | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Pritom.P7PRO)` |
 | P7PRO_EEA | P7PRO_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Pritom.P7PRO_EEA)` |
+| Pritom_M10_EEA | PRITOM_M10_EEA | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Pritom.PRITOM_M10_EEA)` |
 
 <!-- Generated automatically. Do not edit manually. -->

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CEPTER (15 models).
+ * Device specifications for CEPTER (16 models).
  */
 public object Cepter {
   /**
@@ -56,6 +56,11 @@ public object Cepter {
    * CEPTER CTABNEXUS
    */
   public const val CTABNEXUS: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * CEPTER CTABNEXUS8128
+   */
+  public const val CTABNEXUS8128: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
    * CEPTER CTABTERRA128

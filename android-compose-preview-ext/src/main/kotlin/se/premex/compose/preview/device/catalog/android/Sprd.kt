@@ -15,7 +15,7 @@ public object Sprd {
   /**
    * SPRD sp9832a_2h11_volte
    */
-  public const val SP9832A_2H11_VOLTE: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val SP9832A_2H11_VOLTE: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
    * SPRD ums512_1h10

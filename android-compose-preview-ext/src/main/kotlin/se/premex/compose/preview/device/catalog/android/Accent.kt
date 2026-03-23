@@ -1,26 +1,16 @@
-// Generated manufacturer device catalog. Devices=18
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ACCENT (18 models).
+ * Device specifications for ACCENT (15 models).
  */
 public object Accent {
   /**
    * ACCENT C5_PLUS
    */
   public const val C5_PLUS: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * ACCENT CAMELEON_C5
-   */
-  public const val CAMELEON_C5: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * ACCENT CAMELEON_C6
-   */
-  public const val CAMELEON_C6: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * ACCENT FAST10
@@ -51,11 +41,6 @@ public object Accent {
    * ACCENT FAST7_3G
    */
   public const val FAST7_3G: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Accent KIDZY70
-   */
-  public const val KIDZY70: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * ACCENT Pearl_A4

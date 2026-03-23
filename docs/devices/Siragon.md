@@ -1,11 +1,12 @@
 # Siragon Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.Siragon`
+Total: **26** devices. Import: `import se.premex.compose.preview.device.catalog.android.Siragon`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Siragon.ELLINIKO)` |
 | hongkong | HONGKONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Siragon.HONGKONG)` |
+| jagalchi | JAGALCHI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Siragon.JAGALCHI)` |
 | lavender | LAVENDER | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Siragon.LAVENDER)` |
 | mountbaker | MOUNTBAKER | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Siragon.MOUNTBAKER)` |
 | R3_GTV | R3_GTV | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Siragon.R3_GTV)` |
@@ -21,6 +22,7 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SP-6150 | SP_6150 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Siragon.SP_6150)` |
 | SP-6200 | SP_6200 | 540x1200 | 240 | `spec:width=540px,height=1200px,dpi=240` | `@Preview(device = Siragon.SP_6200)` |
 | SP-7050 | SP_7050 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Siragon.SP_7050)` |
+| SP_6300 | SP_6300 | 720x1640 | 480 | `spec:width=720px,height=1640px,dpi=480` | `@Preview(device = Siragon.SP_6300)` |
 | SP_7250 | SP_7250 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Siragon.SP_7250)` |
 | SP_7275 | SP_7275 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Siragon.SP_7275)` |
 | stanford | STANFORD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Siragon.STANFORD)` |

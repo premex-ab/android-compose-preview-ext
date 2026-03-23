@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DIXON (16 models).
+ * Device specifications for DIXON (15 models).
  */
 public object Dixon {
   /**
@@ -31,11 +31,6 @@ public object Dixon {
    * DIXON DN6901
    */
   public const val DN6901: String = "spec:width=720px,height=1640px,dpi=320"
-
-  /**
-   * DIXON KT5512
-   */
-  public const val KT5512: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * DIXON L-5

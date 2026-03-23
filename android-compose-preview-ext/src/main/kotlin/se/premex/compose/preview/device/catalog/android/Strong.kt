@@ -1,16 +1,26 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Strong (12 models).
+ * Device specifications for Strong (14 models).
  */
 public object Strong {
+  /**
+   * STRONG alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * Strong bangbae
    */
   public const val BANGBAE: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Strong BKK
+   */
+  public const val BKK: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * Strong komagome

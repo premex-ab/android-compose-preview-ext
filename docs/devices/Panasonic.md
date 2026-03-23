@@ -1,31 +1,24 @@
 # Panasonic Devices
 
-Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.android.Panasonic`
+Total: **70** devices. Import: `import se.premex.compose.preview.device.catalog.android.Panasonic`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | anaheim | ANAHEIM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.ANAHEIM)` |
-| DMC-CM1 | DMC_CM1 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Panasonic.DMC_CM1)` |
 | Eluga_A2 | ELUGA_A2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_A2)` |
-| ELUGA_A3 | ELUGA_A3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_A3)` |
 | ELUGA_A4 | ELUGA_A4 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_A4)` |
 | Eluga_Arc_2 | ELUGA_ARC_2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_ARC_2)` |
 | ELUGA_F | ELUGA_F | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Panasonic.ELUGA_F)` |
 | ELUGA_I2 | ELUGA_I2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_I2)` |
 | Eluga_I3 | ELUGA_I3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_I3)` |
-| Eluga_I3_Mega | ELUGA_I3_MEGA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_I3_MEGA)` |
 | Eluga_I6 | ELUGA_I6 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Panasonic.ELUGA_I6)` |
 | ELUGA_I7 | ELUGA_I7 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Panasonic.ELUGA_I7)` |
 | ELUGA_I7_EE | ELUGA_I7_EE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Panasonic.ELUGA_I7_EE)` |
 | Eluga_I8 | ELUGA_I8 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Panasonic.ELUGA_I8)` |
 | Eluga_Mark_2 | ELUGA_MARK_2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_MARK_2)` |
 | ELUGA_Note | ELUGA_NOTE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Panasonic.ELUGA_NOTE)` |
-| ELUGA_Prim | ELUGA_PRIM | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_PRIM)` |
-| ELUGA_Pulse_X | ELUGA_PULSE_X | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_PULSE_X)` |
 | ELUGA_Ray | ELUGA_RAY | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY)` |
 | ELUGA_Ray_500 | ELUGA_RAY_500 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY_500)` |
-| ELUGA_Ray_530 | ELUGA_RAY_530 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY_530)` |
-| ELUGA_Ray_550 | ELUGA_RAY_550 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY_550)` |
 | ELUGA_Ray_600 | ELUGA_RAY_600 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY_600)` |
 | ELUGA_Ray_610 | ELUGA_RAY_610 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY_610)` |
 | Eluga_Ray_700 | ELUGA_RAY_700 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Panasonic.ELUGA_RAY_700)` |
@@ -35,7 +28,6 @@ Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.
 | ELUGA_Ray_X | ELUGA_RAY_X | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_RAY_X)` |
 | ELUGA_Turbo | ELUGA_TURBO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_TURBO)` |
 | ELUGA_U3 | ELUGA_U3 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Panasonic.ELUGA_U3)` |
-| ELUGA_WE | ELUGA_WE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.ELUGA_WE)` |
 | ELUGA_X1 | ELUGA_X1 | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Panasonic.ELUGA_X1)` |
 | ELUGA_Y | ELUGA_Y | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Panasonic.ELUGA_Y)` |
 | ELUGA_Y_Pro | ELUGA_Y_PRO | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Panasonic.ELUGA_Y_PRO)` |
@@ -59,17 +51,11 @@ Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Jupiter | JUPITER | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.JUPITER)` |
 | kadoma | KADOMA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.KADOMA)` |
 | OD0M_EA_T32 | OD0M_EA_T32 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.OD0M_EA_T32)` |
-| P100 | P100 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.P100)` |
 | P101 | P101 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Panasonic.P101)` |
-| P55_Novo_4G | P55_NOVO_4G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.P55_NOVO_4G)` |
 | P6 | P6 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Panasonic.P6)` |
-| P71 | P71 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.P71)` |
-| P77 | P77 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.P77)` |
 | P85 | P85 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.P85)` |
 | P85Nxt | P85NXT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.P85NXT)` |
 | P91 | P91 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Panasonic.P91)` |
-| Panasonic_ELUGA_C | PANASONIC_ELUGA_C | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.PANASONIC_ELUGA_C)` |
-| Panasonic_P90 | PANASONIC_P90 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Panasonic.PANASONIC_P90)` |
 | R1 | R1 | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Panasonic.R1)` |
 | R2 | R2 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.R2)` |
 | R3 | R3 | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Panasonic.R3)` |
@@ -84,9 +70,9 @@ Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SW4H | SW4H | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.SW4H)` |
 | SW4H_FF | SW4H_FF | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Panasonic.SW4H_FF)` |
 | SW6H | SW6H | 1080x1920 | 160 | `spec:width=1080px,height=1920px,dpi=160` | `@Preview(device = Panasonic.SW6H)` |
-| T44 | T44 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Panasonic.T44)` |
 | TAB-A05 | TAB_A05 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Panasonic.TAB_A05)` |
-| TAB-A05-BA1 | TAB_A05_BA1 | 1440x2960 | 440 | `spec:width=1440px,height=2960px,dpi=440` | `@Preview(device = Panasonic.TAB_A05_BA1)` |
+| TAB-A05-BA1 | TAB_A05_BA1 | 1440x3040 | 560 | `spec:width=1440px,height=3040px,dpi=560` | `@Preview(device = Panasonic.TAB_A05_BA1)` |
 | Tab_8 | TAB_8 | 800x1280 | 320 | `spec:width=800px,height=1280px,dpi=320` | `@Preview(device = Panasonic.TAB_8)` |
+| umeda | UMEDA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Panasonic.UMEDA)` |
 
 <!-- Generated automatically. Do not edit manually. -->

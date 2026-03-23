@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FPD (6 models).
+ * Device specifications for FPD (9 models).
  */
 public object Fpd {
+  /**
+   * FPD CP08_J1
+   */
+  public const val CP08_J1: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * FPD CP11_J1
+   */
+  public const val CP11_J1: String = "spec:width=1200px,height=1920px,dpi=280"
+
   /**
    * FPD elliniko
    */
@@ -31,6 +41,11 @@ public object Fpd {
    * FPD lavender
    */
   public const val LAVENDER: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * FPD minami
+   */
+  public const val MINAMI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * FPD mountbaker

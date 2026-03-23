@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IKON (12 models).
+ * Device specifications for IKON (11 models).
  */
 public object Ikon {
   /**
@@ -26,11 +26,6 @@ public object Ikon {
    * IKON IK-1106
    */
   public const val IK_1106: String = "spec:width=1080px,height=1920px,dpi=240"
-
-  /**
-   * IKON IK-7108
-   */
-  public const val IK_7108: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
    * IKON IK-869
@@ -55,7 +50,7 @@ public object Ikon {
   /**
    * IKON IK-WT1088
    */
-  public const val IK_WT1088: String = "spec:width=800px,height=1280px,dpi=170"
+  public const val IK_WT1088: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * IKON IK_WA024

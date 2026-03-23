@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Cellecor (2 models).
+ * Device specifications for Cellecor (1 models).
  */
 public object Cellecor {
-  /**
-   * Cellecor S2
-   */
-  public const val S2: String = "spec:width=720px,height=1440px,dpi=320"
-
   /**
    * Cellecor S3pro
    */

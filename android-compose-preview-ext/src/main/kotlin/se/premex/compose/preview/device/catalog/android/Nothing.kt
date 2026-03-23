@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Nothing (8 models).
+ * Device specifications for Nothing (9 models).
  */
 public object Nothing {
   /**
@@ -16,6 +16,11 @@ public object Nothing {
    * Nothing Galaga
    */
   public const val GALAGA: String = "spec:width=1080px,height=2392px,dpi=420"
+
+  /**
+   * Nothing Galaxian
+   */
+  public const val GALAXIAN: String = "spec:width=1080px,height=2392px,dpi=420"
 
   /**
    * Nothing Metroid

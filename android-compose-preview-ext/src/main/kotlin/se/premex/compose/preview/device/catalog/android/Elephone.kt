@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=19
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Elephone (19 models).
+ * Device specifications for Elephone (17 models).
  */
 public object Elephone {
-  /**
-   * Elephone A3_Pro
-   */
-  public const val A3_PRO: String = "spec:width=720px,height=1440px,dpi=320"
-
   /**
    * Elephone A4
    */
@@ -61,11 +56,6 @@ public object Elephone {
    * Elephone P11
    */
   public const val P11: String = "spec:width=1080px,height=2160px,dpi=480"
-
-  /**
-   * Elephone P8_3D
-   */
-  public const val P8_3D: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Elephone P8_Max

@@ -27,7 +27,7 @@ Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.
 | S61 | S61 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Altice.S61)` |
 | S64 | S64 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Altice.S64)` |
 | S70 | S70 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Altice.S70)` |
-| STARACTIVE | STARACTIVE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Altice.STARACTIVE)` |
+| SEI740ATC | SEI740ATC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Altice.SEI740ATC)` |
 | STARNAUTE4 | STARNAUTE4 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Altice.STARNAUTE4)` |
 | STARTRAIL7 | STARTRAIL7 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Altice.STARTRAIL7)` |
 | STARXTREM5 | STARXTREM5 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Altice.STARXTREM5)` |

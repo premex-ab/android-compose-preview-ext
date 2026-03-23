@@ -20,7 +20,7 @@ public object Fairphone {
   /**
    * Fairphone FP4
    */
-  public const val FP4: String = "spec:width=1080px,height=2340px,dpi=400"
+  public const val FP4: String = "spec:width=1080px,height=2340px,dpi=420"
 
   /**
    * Fairphone FP5

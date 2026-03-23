@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=21
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SBM (24 models).
+ * Device specifications for SBM (21 models).
  */
 public object Sbm {
   /**
@@ -38,11 +38,6 @@ public object Sbm {
   public const val _602LV: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * SBM DM016SH
-   */
-  public const val DM016SH: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * SBM e2jps
    */
   public const val E2JPS: String = "spec:width=720px,height=1280px,dpi=320"
@@ -56,16 +51,6 @@ public object Sbm {
    * SBM hwfdr
    */
   public const val HWFDR: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * SBM hws10231l
-   */
-  public const val HWS10231L: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * SBM msm8974
-   */
-  public const val MSM8974: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * SBM P809F10

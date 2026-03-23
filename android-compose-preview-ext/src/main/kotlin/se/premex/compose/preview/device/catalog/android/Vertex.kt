@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=41
+// Generated manufacturer device catalog. Devices=33
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Vertex (41 models).
+ * Device specifications for Vertex (33 models).
  */
 public object Vertex {
-  /**
-   * Vertex Baccara
-   */
-  public const val BACCARA: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * Vertex BLK3D
    */
@@ -98,16 +93,6 @@ public object Vertex {
   public const val IMPRESS_FOREST: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * Vertex Impress_Frost
-   */
-  public const val IMPRESS_FROST: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Vertex Impress_Indigo
-   */
-  public const val IMPRESS_INDIGO: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * Vertex Impress_Life
    */
   public const val IMPRESS_LIFE: String = "spec:width=480px,height=854px,dpi=240"
@@ -123,16 +108,6 @@ public object Vertex {
   public const val IMPRESS_LUCK4G_NFC: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
-   * Vertex Impress_Play
-   */
-  public const val IMPRESS_PLAY: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * Vertex Impress_Stone
-   */
-  public const val IMPRESS_STONE: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * Vertex Impress_Sunset4G
    */
   public const val IMPRESS_SUNSET4G: String = "spec:width=480px,height=960px,dpi=240"
@@ -141,21 +116,6 @@ public object Vertex {
    * Vertex Impress_Tor
    */
   public const val IMPRESS_TOR: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Vertex Impress_Vega
-   */
-  public const val IMPRESS_VEGA: String = "spec:width=640px,height=1280px,dpi=320"
-
-  /**
-   * Vertex Impress_Vira
-   */
-  public const val IMPRESS_VIRA: String = "spec:width=640px,height=1280px,dpi=320"
-
-  /**
-   * VERTEX Impress_Win
-   */
-  public const val IMPRESS_WIN: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Vertex Impress_Wolf
@@ -168,6 +128,12 @@ public object Vertex {
   public const val IMPRESS_ZEON4G: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
+   * VERTEX Interactive-Multimedia-Display
+   */
+  public const val INTERACTIVE_MULTIMEDIA_DISPLAY: String =
+      "spec:width=2160px,height=3840px,dpi=480"
+
+  /**
    * Vertex Lion_DC
    */
   public const val LION_DC: String = "spec:width=720px,height=1280px,dpi=320"
@@ -176,11 +142,6 @@ public object Vertex {
    * Vertex Luck
    */
   public const val LUCK: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Vertex Luck_L100_3G
-   */
-  public const val LUCK_L100_3G: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Vertex Luck_L120_4G

@@ -28,14 +28,14 @@ public object Lexibook {
   public const val MFC149: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * LEXIBOOK MFS100
-   */
-  public const val MFS100: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * LEXIBOOK TL70
    */
   public const val TL70: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * LEXIBOOK TL70_04_EEA
+   */
+  public const val TL70_04_EEA: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * LEXIBOOK TLN10FR

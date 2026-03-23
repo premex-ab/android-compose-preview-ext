@@ -1,6 +1,6 @@
 # Azeyou Devices
 
-Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Azeyou`
+Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Azeyou`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -16,6 +16,8 @@ Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.
 | AT1016U | AT1016U | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Azeyou.AT1016U)` |
 | AT1101 | AT1101 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Azeyou.AT1101)` |
 | AT1202J | AT1202J | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Azeyou.AT1202J)` |
+| F8 | F8 | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Azeyou.F8)` |
 | M17QF27A | M17QF27A | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Azeyou.M17QF27A)` |
+| M17T11 | M17T11 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Azeyou.M17T11)` |
 
 <!-- Generated automatically. Do not edit manually. -->

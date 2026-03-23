@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=77
+// Generated manufacturer device catalog. Devices=68
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for QMobile (77 models).
+ * Device specifications for QMobile (68 models).
  */
 public object Qmobile {
   /**
@@ -46,11 +46,6 @@ public object Qmobile {
    * QMobile ENERGY_X2
    */
   public const val ENERGY_X2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * QMobile Evok_Power_Lite
-   */
-  public const val EVOK_POWER_LITE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * QMobile Fire
@@ -138,21 +133,6 @@ public object Qmobile {
   public const val J5: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * QMobile J7
-   */
-  public const val J7: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * QMobile J7_PRO
-   */
-  public const val J7_PRO: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * QMobile KING_KONG_MAX
-   */
-  public const val KING_KONG_MAX: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * QMobile LT100
    */
   public const val LT100: String = "spec:width=480px,height=800px,dpi=240"
@@ -166,11 +146,6 @@ public object Qmobile {
    * QMobile LT700_PRO
    */
   public const val LT700_PRO: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * QMobile LT750
-   */
-  public const val LT750: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * QMobile LT900
@@ -216,11 +191,6 @@ public object Qmobile {
    * Qmobile Q_Infinity_C
    */
   public const val Q_INFINITY_C: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * QMobile Q_Infinity_Cinema
-   */
-  public const val Q_INFINITY_CINEMA: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * QMobile Q_Infinity_D
@@ -273,19 +243,9 @@ public object Qmobile {
   public const val QMOBILE_I9I: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
-   * QMobile QMobile_LT500_PRO
-   */
-  public const val QMOBILE_LT500_PRO: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * QMobile QMobile_LT550
    */
   public const val QMOBILE_LT550: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * QMobile QMobile_Noir_A1
-   */
-  public const val QMOBILE_NOIR_A1: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * QMobile QMobile_S4
@@ -306,11 +266,6 @@ public object Qmobile {
    * QMobile QMobile_S8
    */
   public const val QMOBILE_S8: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * QMobile QMobile_X33
-   */
-  public const val QMOBILE_X33: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * QMobile QMobile_X36

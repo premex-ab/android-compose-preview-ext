@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=156
+// Generated manufacturer device catalog. Devices=164
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Teclast (156 models).
+ * Device specifications for Teclast (164 models).
  */
 public object Teclast {
+  /**
+   * Teclast ArtPadAir
+   */
+  public const val ARTPADAIR: String = "spec:width=1280px,height=1840px,dpi=240"
+
+  /**
+   * Teclast ArtPadPro_ROW
+   */
+  public const val ARTPADPRO_ROW: String = "spec:width=1600px,height=2176px,dpi=320"
+
   /**
    * Teclast M20_4G
    */
@@ -388,6 +398,11 @@ public object Teclast {
   public const val P30T_ROW: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
+   * Teclast P33_ROW
+   */
+  public const val P33_ROW: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * Teclast P40HD_EEA
    */
   public const val P40HD_EEA: String = "spec:width=1200px,height=1920px,dpi=280"
@@ -516,6 +531,11 @@ public object Teclast {
    * Teclast P80X
    */
   public const val P80X: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Teclast P85_B_ROW
+   */
+  public const val P85_B_ROW: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * Teclast P85_EEA
@@ -678,6 +698,11 @@ public object Teclast {
   public const val T50MAX_ROW: String = "spec:width=1200px,height=1920px,dpi=260"
 
   /**
+   * Teclast T50Plus_E
+   */
+  public const val T50PLUS_E: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * Teclast T50Pro_W_EEA
    */
   public const val T50PRO_W_EEA: String = "spec:width=1200px,height=2000px,dpi=260"
@@ -730,7 +755,7 @@ public object Teclast {
   /**
    * Teclast T65
    */
-  public const val T65: String = "spec:width=1200px,height=1920px,dpi=280"
+  public const val T65: String = "spec:width=1200px,height=1920px,dpi=480"
 
   /**
    * Teclast T65Max_EEA
@@ -741,6 +766,21 @@ public object Teclast {
    * Teclast T65Max_ROW
    */
   public const val T65MAX_ROW: String = "spec:width=1200px,height=1920px,dpi=260"
+
+  /**
+   * Teclast T65Plus_EEA
+   */
+  public const val T65PLUS_EEA: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * Teclast T70
+   */
+  public const val T70: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * Teclast T70_EEA
+   */
+  public const val T70_EEA: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * Teclast T70_ROW

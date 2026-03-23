@@ -1,6 +1,6 @@
 # Ulefone Devices
 
-Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ulefone`
+Total: **156** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ulefone`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,7 +8,7 @@ Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog
 | Armor_11_5G | ARMOR_11_5G | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ulefone.ARMOR_11_5G)` |
 | Armor_11T_5G | ARMOR_11T_5G | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ulefone.ARMOR_11T_5G)` |
 | Armor_12_5G | ARMOR_12_5G | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.ARMOR_12_5G)` |
-| Armor_12S | ARMOR_12S | 1440x3040 | 560 | `spec:width=1440px,height=3040px,dpi=560` | `@Preview(device = Ulefone.ARMOR_12S)` |
+| Armor_12S | ARMOR_12S | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.ARMOR_12S)` |
 | Armor_15 | ARMOR_15 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.ARMOR_15)` |
 | Armor_17_Pro | ARMOR_17_PRO | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Ulefone.ARMOR_17_PRO)` |
 | Armor_2 | ARMOR_2 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Ulefone.ARMOR_2)` |
@@ -32,7 +32,7 @@ Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog
 | Armor_7E_Q | ARMOR_7E_Q | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Ulefone.ARMOR_7E_Q)` |
 | Armor_8 | ARMOR_8 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ulefone.ARMOR_8)` |
 | Armor_8_Pro | ARMOR_8_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ulefone.ARMOR_8_PRO)` |
-| Armor_8_R | ARMOR_8_R | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Ulefone.ARMOR_8_R)` |
+| Armor_8_R | ARMOR_8_R | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ulefone.ARMOR_8_R)` |
 | Armor_9 | ARMOR_9 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Ulefone.ARMOR_9)` |
 | Armor_9E | ARMOR_9E | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Ulefone.ARMOR_9E)` |
 | Armor_Pad | ARMOR_PAD | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Ulefone.ARMOR_PAD)` |
@@ -54,7 +54,7 @@ Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog
 | Armor_X6_Pro | ARMOR_X6_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X6_PRO)` |
 | Armor_X7_Pro | ARMOR_X7_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X7_PRO)` |
 | Armor_X7_Q | ARMOR_X7_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X7_Q)` |
-| Armor_X8_R | ARMOR_X8_R | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X8_R)` |
+| Armor_X8_R | ARMOR_X8_R | 1080x1920 | 498 | `spec:width=1080px,height=1920px,dpi=498` | `@Preview(device = Ulefone.ARMOR_X8_R)` |
 | Armor_X8i | ARMOR_X8I | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X8I)` |
 | Armor_X9 | ARMOR_X9 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X9)` |
 | Armor_X9_Pro | ARMOR_X9_PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.ARMOR_X9_PRO)` |
@@ -62,11 +62,13 @@ Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog
 | ArmorPadLite | ARMORPADLITE | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Ulefone.ARMORPADLITE)` |
 | ArmorPadPro | ARMORPADPRO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Ulefone.ARMORPADPRO)` |
 | GQ3087 | GQ3087 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.GQ3087)` |
+| GQ3103RH2 | GQ3103RH2 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.GQ3103RH2)` |
 | GQ3106 | GQ3106 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.GQ3106)` |
 | GQ3121AF1 | GQ3121AF1 | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Ulefone.GQ3121AF1)` |
 | GQ3286 | GQ3286 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Ulefone.GQ3286)` |
 | GQ3289SH1 | GQ3289SH1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.GQ3289SH1)` |
 | GQ3290BH1 | GQ3290BH1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ3290BH1)` |
+| GQ3290RH1 | GQ3290RH1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ3290RH1)` |
 | GQ3291SH1 | GQ3291SH1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ3291SH1)` |
 | GQ5007AF2 | GQ5007AF2 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5007AF2)` |
 | GQ5007TF1 | GQ5007TF1 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5007TF1)` |
@@ -80,21 +82,29 @@ Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog
 | GQ5010TH1 | GQ5010TH1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.GQ5010TH1)` |
 | GQ5011AF1 | GQ5011AF1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ulefone.GQ5011AF1)` |
 | GQ5011BF1 | GQ5011BF1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ulefone.GQ5011BF1)` |
+| GQ5012AF1 | GQ5012AF1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ulefone.GQ5012AF1)` |
+| GQ5012BF1 | GQ5012BF1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ulefone.GQ5012BF1)` |
 | GQ5013BF2 | GQ5013BF2 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5013BF2)` |
+| GQ5013TF1 | GQ5013TF1 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5013TF1)` |
 | GQ5015AH1 | GQ5015AH1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ5015AH1)` |
 | GQ5015RH1 | GQ5015RH1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ5015RH1)` |
+| GQ5016BF1 | GQ5016BF1 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5016BF1)` |
+| GQ5016TF1 | GQ5016TF1 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5016TF1)` |
 | GQ5017BF3 | GQ5017BF3 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5017BF3)` |
+| GQ5017BF4 | GQ5017BF4 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Ulefone.GQ5017BF4)` |
 | GQ5020BH1 | GQ5020BH1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ5020BH1)` |
 | GQ5020TH1P19 | GQ5020TH1P19 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ulefone.GQ5020TH1P19)` |
 | GQ5021AH1 | GQ5021AH1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.GQ5021AH1)` |
 | GQ5021RH1 | GQ5021RH1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.GQ5021RH1)` |
+| GQ8000BF1 | GQ8000BF1 | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Ulefone.GQ8000BF1)` |
 | MIX_2 | MIX_2 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ulefone.MIX_2)` |
+| Note_10 | NOTE_10 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.NOTE_10)` |
 | Note_10P | NOTE_10P | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.NOTE_10P)` |
 | Note_11P | NOTE_11P | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.NOTE_11P)` |
 | Note_12 | NOTE_12 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Ulefone.NOTE_12)` |
 | Note_12P | NOTE_12P | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Ulefone.NOTE_12P)` |
 | Note_13P | NOTE_13P | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ulefone.NOTE_13P)` |
-| Note_14 | NOTE_14 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Ulefone.NOTE_14)` |
+| Note_14 | NOTE_14 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.NOTE_14)` |
 | Note_15 | NOTE_15 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Ulefone.NOTE_15)` |
 | Note_16_Pro | NOTE_16_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ulefone.NOTE_16_PRO)` |
 | Note_17_Pro | NOTE_17_PRO | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ulefone.NOTE_17_PRO)` |
@@ -137,8 +147,10 @@ Total: **144** devices. Import: `import se.premex.compose.preview.device.catalog
 | t662_gq_n1616_we | T662_GQ_N1616_WE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.T662_GQ_N1616_WE)` |
 | t662_gq_ulefone | T662_GQ_ULEFONE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.T662_GQ_ULEFONE)` |
 | t816_gq_ulefone | T816_GQ_ULEFONE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ulefone.T816_GQ_ULEFONE)` |
+| UF0901-1 | UF0901_1 | 800x1340 | 280 | `spec:width=800px,height=1340px,dpi=280` | `@Preview(device = Ulefone.UF0901_1)` |
 | UF1001_1 | UF1001_1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ulefone.UF1001_1)` |
 | UF1002 | UF1002 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Ulefone.UF1002)` |
+| UF1002A-1 | UF1002A_1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ulefone.UF1002A_1)` |
 | UF1103 | UF1103 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Ulefone.UF1103)` |
 | UF1103A | UF1103A | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Ulefone.UF1103A)` |
 | Ulefone_Armor_5 | ULEFONE_ARMOR_5 | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Ulefone.ULEFONE_ARMOR_5)` |

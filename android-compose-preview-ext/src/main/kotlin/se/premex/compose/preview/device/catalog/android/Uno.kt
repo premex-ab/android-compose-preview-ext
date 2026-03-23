@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for UNO (7 models).
+ * Device specifications for UNO (6 models).
  */
 public object Uno {
   /**
@@ -31,11 +31,6 @@ public object Uno {
    * UNO Premier_Pro_B
    */
   public const val PREMIER_PRO_B: String = "spec:width=480px,height=960px,dpi=213"
-
-  /**
-   * UNO Premier_ProA
-   */
-  public const val PREMIER_PROA: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
    * UNO UNO_Prime6

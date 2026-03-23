@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for QRIOM (3 models).
+ * Device specifications for Qriom (6 models).
  */
 public object Qriom {
+  /**
+   * QRIOM elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * QRIOM lavender
    */
@@ -21,4 +26,14 @@ public object Qriom {
    * QRIOM mountbaker
    */
   public const val MOUNTBAKER: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Qriom QA15-101
+   */
+  public const val QA15_101: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Qriom QA15-80
+   */
+  public const val QA15_80: String = "spec:width=800px,height=1280px,dpi=213"
 }

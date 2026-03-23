@@ -10,5 +10,5 @@ public object FxTecPro1x {
   /**
    * Fx_tec_Pro1X QX1050
    */
-  public const val QX1050: String = "spec:width=1440px,height=2960px,dpi=440"
+  public const val QX1050: String = "spec:width=1080px,height=2160px,dpi=480"
 }

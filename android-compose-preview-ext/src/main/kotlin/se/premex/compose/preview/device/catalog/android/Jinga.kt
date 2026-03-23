@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Jinga (7 models).
+ * Device specifications for Jinga (6 models).
  */
 public object Jinga {
   /**
@@ -31,11 +31,6 @@ public object Jinga {
    * Jinga PicassoNote
    */
   public const val PICASSONOTE: String = "spec:width=480px,height=996px,dpi=240"
-
-  /**
-   * Jinga Touch4G
-   */
-  public const val TOUCH4G: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Jinga WinPRO

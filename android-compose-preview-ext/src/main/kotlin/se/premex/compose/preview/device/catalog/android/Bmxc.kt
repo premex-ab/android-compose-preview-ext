@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BMXC (7 models).
+ * Device specifications for BMXC (6 models).
  */
 public object Bmxc {
   /**
@@ -13,14 +13,9 @@ public object Bmxc {
   public const val BM108: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * BMXC JR-M802
-   */
-  public const val JR_M802: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * BMXC K107
    */
-  public const val K107: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val K107: String = "spec:width=800px,height=1280px,dpi=210"
 
   /**
    * BMXC K107-EEA

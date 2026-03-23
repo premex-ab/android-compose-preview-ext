@@ -1,6 +1,6 @@
 # Ruggear Devices
 
-Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ruggear`
+Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ruggear`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -15,6 +15,7 @@ Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.
 | RG750_ROW | RG750_ROW | 640x1136 | 320 | `spec:width=640px,height=1136px,dpi=320` | `@Preview(device = Ruggear.RG750_ROW)` |
 | RG850 | RG850 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ruggear.RG850)` |
 | RG880 | RG880 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ruggear.RG880)` |
+| RG880i | RG880I | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ruggear.RG880I)` |
 | RG910 | RG910 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Ruggear.RG910)` |
 | RG930i | RG930I | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Ruggear.RG930I)` |
 | RG935 | RG935 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Ruggear.RG935)` |

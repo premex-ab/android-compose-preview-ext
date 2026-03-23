@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for WOZIFAN (5 models).
+ * Device specifications for WOZIFAN (4 models).
  */
 public object Wozifan {
   /**
@@ -26,9 +26,4 @@ public object Wozifan {
    * WOZIFAN W3_EEA
    */
   public const val W3_EEA: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * WOZIFAN W3_US
-   */
-  public const val W3_US: String = "spec:width=800px,height=1280px,dpi=213"
 }

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=31
+// Generated manufacturer device catalog. Devices=33
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ATOZEE (31 models).
+ * Device specifications for ATOZEE (33 models).
  */
 public object Atozee {
   /**
@@ -43,6 +43,11 @@ public object Atozee {
   public const val AT81K: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
+   * ATOZEE CP10_Pro
+   */
+  public const val CP10_PRO: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * ATOZEE CP10S
    */
   public const val CP10S: String = "spec:width=800px,height=1280px,dpi=160"
@@ -60,7 +65,7 @@ public object Atozee {
   /**
    * ATOZEE CP20_PRO
    */
-  public const val CP20_PRO: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val CP20_PRO: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * ATOZEE CP20S
@@ -123,6 +128,11 @@ public object Atozee {
   public const val Q2S: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * ATOZEE Q2S_Pro
+   */
+  public const val Q2S_PRO: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
    * ATOZEE Q2SK
    */
   public const val Q2SK: String = "spec:width=600px,height=1024px,dpi=160"
@@ -145,7 +155,7 @@ public object Atozee {
   /**
    * ATOZEE YQ10S_MAX
    */
-  public const val YQ10S_MAX: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val YQ10S_MAX: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * ATOZEE YQ10SK

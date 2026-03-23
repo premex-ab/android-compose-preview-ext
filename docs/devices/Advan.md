@@ -1,6 +1,6 @@
 # Advan Devices
 
-Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.android.Advan`
+Total: **58** devices. Import: `import se.premex.compose.preview.device.catalog.android.Advan`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -29,7 +29,6 @@ Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.
 | ADVAN_i55K | ADVAN_I55K | 640x1280 | 320 | `spec:width=640px,height=1280px,dpi=320` | `@Preview(device = Advan.ADVAN_I55K)` |
 | ADVAN_i5C_Plus | ADVAN_I5C_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Advan.ADVAN_I5C_PLUS)` |
 | ADVAN_i5D | ADVAN_I5D | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Advan.ADVAN_I5D)` |
-| ADVAN_I5E | ADVAN_I5E | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Advan.ADVAN_I5E)` |
 | ADVAN_i5G | ADVAN_I5G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Advan.ADVAN_I5G)` |
 | ADVAN_i6C | ADVAN_I6C | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Advan.ADVAN_I6C)` |
 | ADVAN_I7D | ADVAN_I7D | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Advan.ADVAN_I7D)` |
@@ -49,6 +48,7 @@ Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.
 | ADVAN_TAB_10 | ADVAN_TAB_10 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Advan.ADVAN_TAB_10)` |
 | ADVAN_TAB_7 | ADVAN_TAB_7 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Advan.ADVAN_TAB_7)` |
 | ADVAN_TAB_8 | ADVAN_TAB_8 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Advan.ADVAN_TAB_8)` |
+| ADVAN_TAB_A10 | ADVAN_TAB_A10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Advan.ADVAN_TAB_A10)` |
 | ADVAN_TAB_A8 | ADVAN_TAB_A8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Advan.ADVAN_TAB_A8)` |
 | ADVAN_TAB_A8_PLUS | ADVAN_TAB_A8_PLUS | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Advan.ADVAN_TAB_A8_PLUS)` |
 | ADVAN_TAB_Gallilea | ADVAN_TAB_GALLILEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Advan.ADVAN_TAB_GALLILEA)` |
@@ -60,7 +60,6 @@ Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.
 | ADVAN_XTAB | ADVAN_XTAB | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Advan.ADVAN_XTAB)` |
 | ADVANNASAPro | ADVANNASAPRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Advan.ADVANNASAPRO)` |
 | i10 | I10 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Advan.I10)` |
-| i5C | I5C | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Advan.I5C)` |
 | T2J | T2J | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Advan.T2J)` |
 | X7_Max | X7_MAX | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Advan.X7_MAX)` |
 

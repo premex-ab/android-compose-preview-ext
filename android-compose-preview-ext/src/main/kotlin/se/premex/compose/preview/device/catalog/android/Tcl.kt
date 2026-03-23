@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=329
+// Generated manufacturer device catalog. Devices=333
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TCL (329 models).
+ * Device specifications for TCL (333 models).
  */
 public object Tcl {
   /**
@@ -78,11 +78,6 @@ public object Tcl {
   public const val ALTO45: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * TCL ALTO45TMO
-   */
-  public const val ALTO45TMO: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * TCL alto4_8g
    */
   public const val ALTO4_8G: String = "spec:width=480px,height=800px,dpi=240"
@@ -91,11 +86,6 @@ public object Tcl {
    * TCL alto5
    */
   public const val ALTO5: String = "spec:width=480px,height=854px,dpi=213"
-
-  /**
-   * TCL alto5_premium
-   */
-  public const val ALTO5_PREMIUM: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * TCL alto5_sporty
@@ -206,6 +196,11 @@ public object Tcl {
    * TCL Beryl_TMO
    */
   public const val BERYL_TMO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * TCL Beryl_VZW
+   */
+  public const val BERYL_VZW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * TCL BeyondTV4
@@ -381,6 +376,11 @@ public object Tcl {
    * TCL Curie
    */
   public const val CURIE: String = "spec:width=480px,height=960px,dpi=240"
+
+  /**
+   * TCL DahliaS
+   */
+  public const val DAHLIAS: String = "spec:width=576px,height=1280px,dpi=220"
 
   /**
    * TCL Delhi_TF
@@ -608,6 +608,16 @@ public object Tcl {
   public const val G13: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
+   * TCL G15
+   */
+  public const val G15: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * TCL G16
+   */
+  public const val G16: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * TCL Gaia
    */
   public const val GAIA: String = "spec:width=1200px,height=2000px,dpi=320"
@@ -656,6 +666,11 @@ public object Tcl {
    * TCL Hero2C
    */
   public const val HERO2C: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * TCL himalaya
+   */
+  public const val HIMALAYA: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * TCL HONG_KONG
@@ -803,6 +818,11 @@ public object Tcl {
   public const val LOTUS: String = "spec:width=720px,height=1612px,dpi=280"
 
   /**
+   * TCL Lugh_10_4G
+   */
+  public const val LUGH_10_4G: String = "spec:width=800px,height=1280px,dpi=240"
+
+  /**
    * TCL Luna
    */
   public const val LUNA: String = "spec:width=800px,height=1280px,dpi=240"
@@ -848,11 +868,6 @@ public object Tcl {
   public const val MICKEY6: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * TCL Mickey6CC
-   */
-  public const val MICKEY6CC: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * TCL mickey6t
    */
   public const val MICKEY6T: String = "spec:width=720px,height=1280px,dpi=320"
@@ -886,6 +901,11 @@ public object Tcl {
    * TCL Model_3
    */
   public const val MODEL_3: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * TCL MonaLisa
+   */
+  public const val MONALISA: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
    * TCL Morgan_4G
@@ -1121,11 +1141,6 @@ public object Tcl {
    * TCL Pixi4-7_WIFI
    */
   public const val PIXI4_7_WIFI: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * TCL Pixi445
-   */
-  public const val PIXI445: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * TCL Pixi445CAN
@@ -1373,6 +1388,11 @@ public object Tcl {
   public const val SEATTLE_VZW: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
+   * TCL Selene_VZW
+   */
+  public const val SELENE_VZW: String = "spec:width=800px,height=1340px,dpi=240"
+
+  /**
    * TCL Seoul
    */
   public const val SEOUL: String = "spec:width=720px,height=1440px,dpi=320"
@@ -1608,6 +1628,11 @@ public object Tcl {
   public const val VENUS_4G_GL: String = "spec:width=800px,height=1340px,dpi=240"
 
   /**
+   * TCL Venus_4G_NA_OM
+   */
+  public const val VENUS_4G_NA_OM: String = "spec:width=800px,height=1340px,dpi=240"
+
+  /**
    * TCL Venus_WiFi_GL
    */
   public const val VENUS_WIFI_GL: String = "spec:width=800px,height=1340px,dpi=240"
@@ -1626,11 +1651,6 @@ public object Tcl {
    * TCL Wright_Pro
    */
   public const val WRIGHT_PRO: String = "spec:width=720px,height=1560px,dpi=320"
-
-  /**
-   * TCL X1
-   */
-  public const val X1: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * TCL x1_plus

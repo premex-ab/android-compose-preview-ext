@@ -10,5 +10,5 @@ public object Novo {
   /**
    * NOVO t596_dp_n_37m35
    */
-  public const val T596_DP_N_37M35: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val T596_DP_N_37M35: String = "spec:width=640px,height=1280px,dpi=280"
 }

@@ -11,7 +11,7 @@ Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.
 | T50_2023 | T50_2023 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Aauw.T50_2023)` |
 | T60Pro | T60PRO | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Aauw.T60PRO)` |
 | T60Pro_2023 | T60PRO_2023 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Aauw.T60PRO_2023)` |
-| T60PRO_ROW | T60PRO_ROW | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Aauw.T60PRO_ROW)` |
+| T60PRO_ROW | T60PRO_ROW | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Aauw.T60PRO_ROW)` |
 | T90 | T90 | 1200x1920 | 272 | `spec:width=1200px,height=1920px,dpi=272` | `@Preview(device = Aauw.T90)` |
 | T_50 | T_50 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Aauw.T_50)` |
 

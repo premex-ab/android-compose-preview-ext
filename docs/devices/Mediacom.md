@@ -38,7 +38,6 @@ Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.
 | M-SP1EY_EEA | M_SP1EY_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mediacom.M_SP1EY_EEA)` |
 | M-SP1X10 | M_SP1X10 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mediacom.M_SP1X10)` |
 | M-SP7HXAH | M_SP7HXAH | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Mediacom.M_SP7HXAH)` |
-| M-SP7xGO3G | M_SP7XGO3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Mediacom.M_SP7XGO3G)` |
 | M-SP8DY_EEA | M_SP8DY_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mediacom.M_SP8DY_EEA)` |
 | M-SP8EY | M_SP8EY | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mediacom.M_SP8EY)` |
 | M-SP8GY | M_SP8GY | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Mediacom.M_SP8GY)` |
@@ -46,5 +45,6 @@ Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SmartPad | SMARTPAD | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Mediacom.SMARTPAD)` |
 | SP1AZ4_L | SP1AZ4_L | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mediacom.SP1AZ4_L)` |
 | SP1AZ4_P | SP1AZ4_P | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Mediacom.SP1AZ4_P)` |
+| SP1AZ4_PL | SP1AZ4_PL | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Mediacom.SP1AZ4_PL)` |
 
 <!-- Generated automatically. Do not edit manually. -->

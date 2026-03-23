@@ -1,31 +1,29 @@
 # Orange Devices
 
-Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.android.Orange`
+Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.android.Orange`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| 820Mini | _820MINI | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Orange._820MINI)` |
 | Alto45 | ALTO45 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Orange.ALTO45)` |
 | BUZZ6T4G | BUZZ6T4G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Orange.BUZZ6T4G)` |
 | C1905 | C1905 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Orange.C1905)` |
 | C5303 | C5303 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.C5303)` |
-| California | CALIFORNIA | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Orange.CALIFORNIA)` |
-| D2005 | D2005 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Orange.D2005)` |
 | D2303 | D2303 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Orange.D2303)` |
 | Dive_70 | DIVE_70 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.DIVE_70)` |
 | Dive_73 | DIVE_73 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Orange.DIVE_73)` |
 | DSB0010 | DSB0010 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Orange.DSB0010)` |
 | DSB0110 | DSB0110 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.DSB0110)` |
 | DV8555-KPO | DV8555_KPO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Orange.DV8555_KPO)` |
+| DV9651-KPO | DV9651_KPO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.DV9651_KPO)` |
 | HS8937QCs | HS8937QCS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.HS8937QCS)` |
 | hwG535-L11 | HWG535_L11 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Orange.HWG535_L11)` |
 | hwG740-L00 | HWG740_L00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.HWG740_L00)` |
 | hwt1821l | HWT1821L | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Orange.HWT1821L)` |
 | hwt1a21l | HWT1A21L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Orange.HWT1A21L)` |
-| idol3 | IDOL3 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Orange.IDOL3)` |
 | idol4 | IDOL4 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Orange.IDOL4)` |
 | KSTB7259 | KSTB7259 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Orange.KSTB7259)` |
 | Luno | LUNO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Orange.LUNO)` |
+| m377_opl | M377_OPL | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Orange.M377_OPL)` |
 | m393vsb_osp | M393VSB_OSP | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Orange.M393VSB_OSP)` |
 | M812 | M812 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.M812)` |
 | m823_orange | M823_ORANGE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Orange.M823_ORANGE)` |
@@ -44,9 +42,9 @@ Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Nola_play_plus | NOLA_PLAY_PLUS | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Orange.NOLA_PLAY_PLUS)` |
 | Nola_Up | NOLA_UP | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Orange.NOLA_UP)` |
 | Orange-Rise32 | ORANGE_RISE32 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Orange.ORANGE_RISE32)` |
+| Orange-V652L | ORANGE_V652L | 576x1280 | 240 | `spec:width=576px,height=1280px,dpi=240` | `@Preview(device = Orange.ORANGE_V652L)` |
 | Orange_Dive_71 | ORANGE_DIVE_71 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.ORANGE_DIVE_71)` |
 | Orange_Neva_80 | ORANGE_NEVA_80 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Orange.ORANGE_NEVA_80)` |
-| Orange_Sego | ORANGE_SEGO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Orange.ORANGE_SEGO)` |
 | P635E40 | P635E40 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Orange.P635E40)` |
 | Pixi3-4 | PIXI3_4 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Orange.PIXI3_4)` |
 | pixi3_45_4g_orange | PIXI3_45_4G_ORANGE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Orange.PIXI3_45_4G_ORANGE)` |
@@ -61,7 +59,6 @@ Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Sanza_plus | SANZA_PLUS | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Orange.SANZA_PLUS)` |
 | Sanza_touch | SANZA_TOUCH | 480x800 | 213 | `spec:width=480px,height=800px,dpi=213` | `@Preview(device = Orange.SANZA_TOUCH)` |
 | SGP321 | SGP321 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Orange.SGP321)` |
-| Vec4G | VEC4G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Orange.VEC4G)` |
 | Yaris35_GSM | YARIS35_GSM | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Orange.YARIS35_GSM)` |
 
 <!-- Generated automatically. Do not edit manually. -->

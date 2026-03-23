@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for WestgateResorts (2 models).
+ * Device specifications for WestgateResorts (3 models).
  */
 public object Westgateresorts {
+  /**
+   * Westgate_Resorts T802
+   */
+  public const val T802: String = "spec:width=800px,height=1280px,dpi=213"
+
   /**
    * WestgateResorts T803
    */

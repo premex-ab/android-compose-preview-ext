@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Albadeel (4 models).
+ * Device specifications for Albadeel (5 models).
  */
 public object Albadeel {
+  /**
+   * Albadeel alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * ALBADEEL ikebukuro
    */

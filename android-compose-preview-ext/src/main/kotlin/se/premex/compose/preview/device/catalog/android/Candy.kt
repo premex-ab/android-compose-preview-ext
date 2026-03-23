@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CANDY (7 models).
+ * Device specifications for CANDY (8 models).
  */
 public object Candy {
   /**
    * CANDY broadway
    */
   public const val BROADWAY: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * CANDY deto
+   */
+  public const val DETO: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * CANDY dupont

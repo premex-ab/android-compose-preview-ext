@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=1
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DAIKO (1 models).
+ * Device specifications for DAIKO (2 models).
  */
 public object Daiko {
+  /**
+   * Daiko alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * DAIKO OD0M_EA_T32
    */

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=54
+// Generated manufacturer device catalog. Devices=57
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for onn (54 models).
+ * Device specifications for onn (57 models).
  */
 public object Onn {
   /**
@@ -218,14 +218,29 @@ public object Onn {
   public const val PM1042T_W: String = "spec:width=1200px,height=2000px,dpi=280"
 
   /**
+   * onn PM1042TW
+   */
+  public const val PM1042TW: String = "spec:width=1200px,height=2000px,dpi=320"
+
+  /**
    * onn PM106A
    */
   public const val PM106A: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * onn PM116T
+   */
+  public const val PM116T: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * onn PM82T
    */
   public const val PM82T: String = "spec:width=800px,height=1340px,dpi=240"
+
+  /**
+   * onn PM82TW
+   */
+  public const val PM82TW: String = "spec:width=800px,height=1340px,dpi=213"
 
   /**
    * onn PP86A_W
@@ -275,5 +290,5 @@ public object Onn {
   /**
    * onn YOC
    */
-  public const val YOC: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val YOC: String = "spec:width=720px,height=1280px,dpi=320"
 }

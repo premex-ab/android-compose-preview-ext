@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for bush (6 models).
+ * Device specifications for bush (5 models).
  */
 public object Bush {
   /**
@@ -16,11 +16,6 @@ public object Bush {
    * bush ac101boxv3
    */
   public const val AC101BOXV3: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * bush ac80oxv2
-   */
-  public const val AC80OXV2: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * BUSH Bush10Nou

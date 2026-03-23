@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LANDI (3 models).
+ * Device specifications for Landi (4 models).
  */
 public object Landi {
   /**
@@ -21,4 +21,9 @@ public object Landi {
    * LANDI M20SE
    */
   public const val M20SE: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Landi P9
+   */
+  public const val P9: String = "spec:width=800px,height=1280px,dpi=160"
 }

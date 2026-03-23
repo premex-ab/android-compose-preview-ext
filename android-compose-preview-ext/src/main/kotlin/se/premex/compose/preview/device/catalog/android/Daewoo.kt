@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DAEWOO (10 models).
+ * Device specifications for DAEWOO (11 models).
  */
 public object Daewoo {
   /**
@@ -16,6 +16,11 @@ public object Daewoo {
    * Daewoo DW-TN7RK16
    */
   public const val DW_TN7RK16: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * DAEWOO eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * DAEWOO lavender

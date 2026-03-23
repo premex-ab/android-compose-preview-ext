@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=19
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CHUWI (17 models).
+ * Device specifications for CHUWI (19 models).
  */
 public object Chuwi {
+  /**
+   * CHUWI AuPad
+   */
+  public const val AUPAD: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * Chuwi AupadMini
+   */
+  public const val AUPADMINI: String = "spec:width=800px,height=1340px,dpi=213"
+
   /**
    * CHUWI CH108Q
    */
@@ -55,7 +65,7 @@ public object Chuwi {
   /**
    * CHUWI HiPad_Max
    */
-  public const val HIPAD_MAX: String = "spec:width=1200px,height=2000px,dpi=280"
+  public const val HIPAD_MAX: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * CHUWI HiPad_XPro

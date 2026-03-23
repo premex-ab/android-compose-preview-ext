@@ -10,7 +10,7 @@ public object Stylostech {
   /**
    * StylosTech Tab2
    */
-  public const val TAB2: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val TAB2: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * StylosTech TAB4

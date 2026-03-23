@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=48
+// Generated manufacturer device catalog. Devices=46
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PREMIO (48 models).
+ * Device specifications for PREMIO (46 models).
  */
 public object Premio {
   /**
@@ -21,16 +21,6 @@ public object Premio {
    * PREMIO P520
    */
   public const val P520: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Premio Premio
-   */
-  public const val PREMIO: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Premio Premio_P420
-   */
-  public const val PREMIO_P420: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * PREMIO S51
@@ -63,9 +53,14 @@ public object Premio {
   public const val S57: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * PREMIO S73
+   * PREMIO S58
    */
-  public const val S73: String = "spec:width=480px,height=960px,dpi=240"
+  public const val S58: String = "spec:width=480px,height=854px,dpi=213"
+
+  /**
+   * PREMIO S59
+   */
+  public const val S59: String = "spec:width=480px,height=854px,dpi=180"
 
   /**
    * Premio S75
@@ -155,7 +150,7 @@ public object Premio {
   /**
    * Premio X70-2021
    */
-  public const val X70_2021: String = "spec:width=720px,height=1560px,dpi=320"
+  public const val X70_2021: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Premio X75-2021
@@ -186,11 +181,6 @@ public object Premio {
    * PREMIO X82
    */
   public const val X82: String = "spec:width=720px,height=1560px,dpi=320"
-
-  /**
-   * Premio X83
-   */
-  public const val X83: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
    * Premio X84

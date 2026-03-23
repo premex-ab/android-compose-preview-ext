@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=38
+// Generated manufacturer device catalog. Devices=37
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IKU (38 models).
+ * Device specifications for IKU (37 models).
  */
 public object Iku {
   /**
@@ -45,7 +45,7 @@ public object Iku {
   /**
    * iku A25
    */
-  public const val A25: String = "spec:width=480px,height=960px,dpi=220"
+  public const val A25: String = "spec:width=540px,height=1200px,dpi=240"
 
   /**
    * iKU A35
@@ -88,6 +88,11 @@ public object Iku {
   public const val A6_2022: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
+   * iKU A7
+   */
+  public const val A7: String = "spec:width=540px,height=1200px,dpi=220"
+
+  /**
    * iKU A70
    */
   public const val A70: String = "spec:width=720px,height=1600px,dpi=320"
@@ -106,16 +111,6 @@ public object Iku {
    * IKU IKU_T3
    */
   public const val IKU_T3: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * IKU IKU_T_max
-   */
-  public const val IKU_T_MAX: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * iku K5
-   */
-  public const val K5: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * iku Note_10

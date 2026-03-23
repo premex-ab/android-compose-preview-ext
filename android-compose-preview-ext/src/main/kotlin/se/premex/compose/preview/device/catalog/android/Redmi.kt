@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=143
+// Generated manufacturer device catalog. Devices=155
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Redmi (143 models).
+ * Device specifications for Redmi (155 models).
  */
 public object Redmi {
   /**
@@ -36,6 +36,11 @@ public object Redmi {
    * Redmi angelican
    */
   public const val ANGELICAN: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Redmi annibale
+   */
+  public const val ANNIBALE: String = "spec:width=1156px,height=2510px,dpi=480"
 
   /**
    * Redmi apollo
@@ -143,6 +148,11 @@ public object Redmi {
   public const val COROT: String = "spec:width=1220px,height=2712px,dpi=480"
 
   /**
+   * Redmi creek
+   */
+  public const val CREEK: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
    * Redmi curtana
    */
   public const val CURTANA: String = "spec:width=1080px,height=2400px,dpi=440"
@@ -156,6 +166,11 @@ public object Redmi {
    * Redmi dandelion
    */
   public const val DANDELION: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Redmi dew
+   */
+  public const val DEW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Redmi diting
@@ -211,6 +226,16 @@ public object Redmi {
    * Redmi fleur
    */
   public const val FLEUR: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * Redmi flourite
+   */
+  public const val FLOURITE: String = "spec:width=1280px,height=2772px,dpi=520"
+
+  /**
+   * Redmi flute
+   */
+  public const val FLUTE: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * Redmi fog
@@ -288,6 +313,11 @@ public object Redmi {
   public const val KOTO: String = "spec:width=1600px,height=2560px,dpi=360"
 
   /**
+   * Redmi kunzite
+   */
+  public const val KUNZITE: String = "spec:width=1080px,height=2392px,dpi=450"
+
+  /**
    * Redmi lake
    */
   public const val LAKE: String = "spec:width=720px,height=1640px,dpi=320"
@@ -296,6 +326,11 @@ public object Redmi {
    * Redmi lancelot
    */
   public const val LANCELOT: String = "spec:width=1080px,height=2340px,dpi=440"
+
+  /**
+   * Redmi lapis
+   */
+  public const val LAPIS: String = "spec:width=1280px,height=2772px,dpi=520"
 
   /**
    * Redmi lemon
@@ -383,6 +418,11 @@ public object Redmi {
   public const val MUNCH: String = "spec:width=1080px,height=2400px,dpi=440"
 
   /**
+   * Redmi myron
+   */
+  public const val MYRON: String = "spec:width=1200px,height=2608px,dpi=480"
+
+  /**
    * Redmi obsidian
    */
   public const val OBSIDIAN: String = "spec:width=1080px,height=2400px,dpi=450"
@@ -406,6 +446,11 @@ public object Redmi {
    * Redmi opal
    */
   public const val OPAL: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * Redmi organ
+   */
+  public const val ORGAN: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * Redmi pearl
@@ -583,6 +628,11 @@ public object Redmi {
   public const val SPESN: String = "spec:width=1080px,height=2400px,dpi=440"
 
   /**
+   * Redmi spring
+   */
+  public const val SPRING: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
    * Redmi sunny
    */
   public const val SUNNY: String = "spec:width=1080px,height=2400px,dpi=440"
@@ -636,6 +686,16 @@ public object Redmi {
    * Redmi topaz
    */
   public const val TOPAZ: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * Redmi tornado
+   */
+  public const val TORNADO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Redmi turner
+   */
+  public const val TURNER: String = "spec:width=1880px,height=3008px,dpi=450"
 
   /**
    * Redmi vermeer

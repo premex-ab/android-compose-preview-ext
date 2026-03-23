@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BOTECH (5 models).
+ * Device specifications for BOTECH (6 models).
  */
 public object Botech {
+  /**
+   * BOTECH elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * BOTECH HND
    */

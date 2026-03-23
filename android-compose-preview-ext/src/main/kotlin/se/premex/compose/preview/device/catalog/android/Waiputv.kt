@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for waiputv (3 models).
+ * Device specifications for waiputv (4 models).
  */
 public object Waiputv {
   /**
@@ -20,5 +20,10 @@ public object Waiputv {
   /**
    * waiputv SEID00BWP
    */
-  public const val SEID00BWP: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val SEID00BWP: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * waiputv SEID00DWP
+   */
+  public const val SEID00DWP: String = "spec:width=1080px,height=1920px,dpi=320"
 }

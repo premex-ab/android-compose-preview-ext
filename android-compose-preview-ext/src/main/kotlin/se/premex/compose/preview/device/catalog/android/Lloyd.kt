@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LLOYD (5 models).
+ * Device specifications for LLOYD (6 models).
  */
 public object Lloyd {
+  /**
+   * Lloyd landen
+   */
+  public const val LANDEN: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * LLOYD R1
    */

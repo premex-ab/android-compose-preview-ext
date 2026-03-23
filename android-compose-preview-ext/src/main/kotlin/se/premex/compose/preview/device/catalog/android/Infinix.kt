@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=232
+// Generated manufacturer device catalog. Devices=237
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Infinix (232 models).
+ * Device specifications for Infinix (237 models).
  */
 public object Infinix {
   /**
@@ -46,6 +46,16 @@ public object Infinix {
    * Infinix Infinix-X1102
    */
   public const val INFINIX_X1102: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * Infinix Infinix-X1201
+   */
+  public const val INFINIX_X1201: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * Infinix Infinix-X1302
+   */
+  public const val INFINIX_X1302: String = "spec:width=1600px,height=2400px,dpi=240"
 
   /**
    * Infinix Infinix-X5010
@@ -123,11 +133,6 @@ public object Infinix {
   public const val INFINIX_X552: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Infinix INFINIX-X552-95M
-   */
-  public const val INFINIX_X552_95M: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * INFINIX INFINIX-X553
    */
   public const val INFINIX_X553: String = "spec:width=720px,height=1280px,dpi=320"
@@ -171,11 +176,6 @@ public object Infinix {
    * Infinix Infinix-X573B
    */
   public const val INFINIX_X573B: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Infinix INFINIX-X600-5M
-   */
-  public const val INFINIX_X600_5M: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Infinix INFINIX-X600-H533-5M
@@ -673,9 +673,34 @@ public object Infinix {
   public const val INFINIX_X6725D: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
+   * Infinix Infinix-X6726
+   */
+  public const val INFINIX_X6726: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Infinix Infinix-X6726B
+   */
+  public const val INFINIX_X6726B: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * Infinix Infinix-X6728
    */
   public const val INFINIX_X6728: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Infinix Infinix-X6728B
+   */
+  public const val INFINIX_X6728B: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Infinix Infinix-X6730
+   */
+  public const val INFINIX_X6730: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * Infinix Infinix-X6730B
+   */
+  public const val INFINIX_X6730B: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
    * Infinix Infinix-X6731

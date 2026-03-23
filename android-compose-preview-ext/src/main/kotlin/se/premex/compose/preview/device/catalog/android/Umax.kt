@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=21
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Umax (21 models).
+ * Device specifications for UMAX (20 models).
  */
 public object Umax {
   /**
@@ -71,11 +71,6 @@ public object Umax {
    * UMAX 8L_PLUS_EEA
    */
   public const val _8L_PLUS_EEA: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Umax 8Qa_3G
-   */
-  public const val _8QA_3G: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * UMAX kaitak

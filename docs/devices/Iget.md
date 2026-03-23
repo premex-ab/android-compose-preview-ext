@@ -1,12 +1,13 @@
 # Iget Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.Iget`
+Total: **26** devices. Import: `import se.premex.compose.preview.device.catalog.android.Iget`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | iGET_SMART_G101 | IGET_SMART_G101 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.IGET_SMART_G101)` |
 | iGET_SMART_G102 | IGET_SMART_G102 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.IGET_SMART_G102)` |
 | iGET_SMART_L102 | IGET_SMART_L102 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.IGET_SMART_L102)` |
+| iGET_T1 | IGET_T1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Iget.IGET_T1)` |
 | SMART_G81 | SMART_G81 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.SMART_G81)` |
 | SMART_G81H | SMART_G81H | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.SMART_G81H)` |
 | SMART_L103 | SMART_L103 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.SMART_L103)` |
@@ -17,6 +18,7 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SMART_L30 | SMART_L30 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Iget.SMART_L30)` |
 | SMART_L31 | SMART_L31 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Iget.SMART_L31)` |
 | SMART_L32 | SMART_L32 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Iget.SMART_L32)` |
+| SMART_L43 | SMART_L43 | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Iget.SMART_L43)` |
 | SMART_W101 | SMART_W101 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.SMART_W101)` |
 | SMART_W10X_EEA | SMART_W10X_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.SMART_W10X_EEA)` |
 | SMART_W202 | SMART_W202 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iget.SMART_W202)` |

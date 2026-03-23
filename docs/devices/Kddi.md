@@ -1,6 +1,6 @@
 # Kddi Devices
 
-Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog.android.Kddi`
+Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog.android.Kddi`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -102,7 +102,6 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | SOL22 | SOL22 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Kddi.SOL22)` |
 | SOL23 | SOL23 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Kddi.SOL23)` |
 | SOL24 | SOL24 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Kddi.SOL24)` |
-| SOL25 | SOL25 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Kddi.SOL25)` |
 | SOL26 | SOL26 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Kddi.SOL26)` |
 | SOT21 | SOT21 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Kddi.SOT21)` |
 | SOT31 | SOT31 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Kddi.SOT31)` |
@@ -125,9 +124,11 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | WJG | WJG | 1080x2280 | 440 | `spec:width=1080px,height=2280px,dpi=440` | `@Preview(device = Kddi.WJG)` |
 | XIJ | XIJ | 1080x2432 | 440 | `spec:width=1080px,height=2432px,dpi=440` | `@Preview(device = Kddi.XIJ)` |
 | XKH | XKH | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Kddi.XKH)` |
+| XQ-FE | XQ_FE | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Kddi.XQ_FE)` |
 | XQ-FS | XQ_FS | 1080x2340 | 400 | `spec:width=1080px,height=2340px,dpi=400` | `@Preview(device = Kddi.XQ_FS)` |
 | YLI | YLI | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Kddi.YLI)` |
 | zee | ZEE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Kddi.ZEE)` |
 | ZKO | ZKO | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Kddi.ZKO)` |
+| ZMJ | ZMJ | 1080x2432 | 440 | `spec:width=1080px,height=2432px,dpi=440` | `@Preview(device = Kddi.ZMJ)` |
 
 <!-- Generated automatically. Do not edit manually. -->

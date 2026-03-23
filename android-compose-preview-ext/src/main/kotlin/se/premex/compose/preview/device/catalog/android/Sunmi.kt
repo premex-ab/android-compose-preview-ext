@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SUNMI (12 models).
+ * Device specifications for SUNMI (16 models).
  */
 public object Sunmi {
   /**
@@ -18,9 +18,24 @@ public object Sunmi {
   public const val D3MINI: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * SUNMI FLEX3
+   */
+  public const val FLEX3: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
    * SUNMI K2
    */
   public const val K2: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
+   * SUNMI L3
+   */
+  public const val L3: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * SUNMI OrderPAD_3
+   */
+  public const val ORDERPAD_3: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * SUNMI SUNMI-L2HNFC
@@ -36,6 +51,11 @@ public object Sunmi {
    * SUNMI SUNMI-L2s_PRO
    */
   public const val SUNMI_L2S_PRO: String = "spec:width=720px,height=1440px,dpi=280"
+
+  /**
+   * SUNMI T3
+   */
+  public const val T3: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
    * SUNMI T3_PRO

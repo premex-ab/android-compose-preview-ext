@@ -1,6 +1,6 @@
 # Blackview Devices
 
-Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog.android.Blackview`
+Total: **238** devices. Import: `import se.premex.compose.preview.device.catalog.android.Blackview`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -9,7 +9,7 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | A20 | A20 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Blackview.A20)` |
 | A200Pro | A200PRO | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Blackview.A200PRO)` |
 | A20Pro | A20PRO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Blackview.A20PRO)` |
-| A30 | A30 | 540x1132 | 240 | `spec:width=540px,height=1132px,dpi=240` | `@Preview(device = Blackview.A30)` |
+| A30 | A30 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Blackview.A30)` |
 | A50 | A50 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Blackview.A50)` |
 | A52 | A52 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Blackview.A52)` |
 | A52Pro | A52PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Blackview.A52PRO)` |
@@ -39,9 +39,14 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | Active6_RU | ACTIVE6_RU | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blackview.ACTIVE6_RU)` |
 | Active8 | ACTIVE8 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Blackview.ACTIVE8)` |
 | Active8Pro | ACTIVE8PRO | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Blackview.ACTIVE8PRO)` |
+| Active8Pro_A15 | ACTIVE8PRO_A15 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Blackview.ACTIVE8PRO_A15)` |
 | Active_10_Pro | ACTIVE_10_PRO | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Blackview.ACTIVE_10_PRO)` |
+| Active_12_Pro | ACTIVE_12_PRO | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Blackview.ACTIVE_12_PRO)` |
+| Active_5 | ACTIVE_5 | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Blackview.ACTIVE_5)` |
+| Active_7 | ACTIVE_7 | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Blackview.ACTIVE_7)` |
 | BL5000 | BL5000 | 1080x2300 | 480 | `spec:width=1080px,height=2300px,dpi=480` | `@Preview(device = Blackview.BL5000)` |
 | BL6000Pro | BL6000PRO | 1080x2300 | 480 | `spec:width=1080px,height=2300px,dpi=480` | `@Preview(device = Blackview.BL6000PRO)` |
+| BL7000 | BL7000 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Blackview.BL7000)` |
 | BL8000 | BL8000 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Blackview.BL8000)` |
 | BL8800 | BL8800 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Blackview.BL8800)` |
 | BL8800Pro | BL8800PRO | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Blackview.BL8800PRO)` |
@@ -110,7 +115,8 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | BV9200 | BV9200 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Blackview.BV9200)` |
 | BV9300 | BV9300 | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Blackview.BV9300)` |
 | BV9300_Pro | BV9300_PRO | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Blackview.BV9300_PRO)` |
-| BV9500 | BV9500 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Blackview.BV9500)` |
+| BV9300_Pro_A15 | BV9300_PRO_A15 | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Blackview.BV9300_PRO_A15)` |
+| BV9500 | BV9500 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Blackview.BV9500)` |
 | BV9500-RU | BV9500_RU | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Blackview.BV9500_RU)` |
 | BV9500Plus | BV9500PLUS | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Blackview.BV9500PLUS)` |
 | BV9500Pro | BV9500PRO | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Blackview.BV9500PRO)` |
@@ -122,12 +128,19 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | BV9900 | BV9900 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Blackview.BV9900)` |
 | BV9900E | BV9900E | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Blackview.BV9900E)` |
 | BV9900Pro | BV9900PRO | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Blackview.BV9900PRO)` |
+| COLOR_6 | COLOR_6 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Blackview.COLOR_6)` |
 | COLOR_8 | COLOR_8 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Blackview.COLOR_8)` |
 | E7s | E7S | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Blackview.E7S)` |
+| FORT_1 | FORT_1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Blackview.FORT_1)` |
+| FORT_2 | FORT_2 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Blackview.FORT_2)` |
 | HERO10 | HERO10 | 1080x2560 | 480 | `spec:width=1080px,height=2560px,dpi=480` | `@Preview(device = Blackview.HERO10)` |
+| LINK_2 | LINK_2 | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Blackview.LINK_2)` |
+| LINK_8 | LINK_8 | 1600x2176 | 320 | `spec:width=1600px,height=2176px,dpi=320` | `@Preview(device = Blackview.LINK_8)` |
 | MAX1 | MAX1 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Blackview.MAX1)` |
 | MEGA_1 | MEGA_1 | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Blackview.MEGA_1)` |
 | MEGA_2 | MEGA_2 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Blackview.MEGA_2)` |
+| MEGA_2_WIFI | MEGA_2_WIFI | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Blackview.MEGA_2_WIFI)` |
+| MEGA_3 | MEGA_3 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Blackview.MEGA_3)` |
 | MEGA_8 | MEGA_8 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Blackview.MEGA_8)` |
 | N6000 | N6000 | 540x1200 | 240 | `spec:width=540px,height=1200px,dpi=240` | `@Preview(device = Blackview.N6000)` |
 | N6000_SE | N6000_SE | 540x1200 | 240 | `spec:width=540px,height=1200px,dpi=240` | `@Preview(device = Blackview.N6000_SE)` |
@@ -139,6 +152,7 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | S6 | S6 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Blackview.S6)` |
 | S8 | S8 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Blackview.S8)` |
 | Shark8 | SHARK8 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Blackview.SHARK8)` |
+| SHARK_6 | SHARK_6 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Blackview.SHARK_6)` |
 | SHARK_9 | SHARK_9 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Blackview.SHARK_9)` |
 | Tab10WiFi | TAB10WIFI | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Blackview.TAB10WIFI)` |
 | Tab11_EA | TAB11_EA | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Blackview.TAB11_EA)` |
@@ -200,6 +214,8 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | Tab_15_EU | TAB_15_EU | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Blackview.TAB_15_EU)` |
 | Tab_15_NEU | TAB_15_NEU | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Blackview.TAB_15_NEU)` |
 | Tab_15_RU | TAB_15_RU | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Blackview.TAB_15_RU)` |
+| Tab_20_Kids | TAB_20_KIDS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blackview.TAB_20_KIDS)` |
+| Tab_20_WiFi | TAB_20_WIFI | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blackview.TAB_20_WIFI)` |
 | Tab_30_Kids | TAB_30_KIDS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Blackview.TAB_30_KIDS)` |
 | Tab_30_WIFI | TAB_30_WIFI | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Blackview.TAB_30_WIFI)` |
 | Tab_60_Pro | TAB_60_PRO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blackview.TAB_60_PRO)` |
@@ -219,5 +235,12 @@ Total: **215** devices. Import: `import se.premex.compose.preview.device.catalog
 | WAVE6C | WAVE6C | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Blackview.WAVE6C)` |
 | WAVE_8 | WAVE_8 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Blackview.WAVE_8)` |
 | WAVE_8C | WAVE_8C | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Blackview.WAVE_8C)` |
+| WAVE_9C | WAVE_9C | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Blackview.WAVE_9C)` |
+| XPLORE2 | XPLORE2 | 1440x3200 | 640 | `spec:width=1440px,height=3200px,dpi=640` | `@Preview(device = Blackview.XPLORE2)` |
+| XPLORE2_Pro | XPLORE2_PRO | 1440x3200 | 640 | `spec:width=1440px,height=3200px,dpi=640` | `@Preview(device = Blackview.XPLORE2_PRO)` |
+| XPLORE_1 | XPLORE_1 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Blackview.XPLORE_1)` |
+| ZENO_1 | ZENO_1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blackview.ZENO_1)` |
+| ZENO_10 | ZENO_10 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Blackview.ZENO_10)` |
+| ZENO_100 | ZENO_100 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blackview.ZENO_100)` |
 
 <!-- Generated automatically. Do not edit manually. -->

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=38
+// Generated manufacturer device catalog. Devices=36
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ADVANCE (38 models).
+ * Device specifications for ADVANCE (36 models).
  */
 public object Advance {
+  /**
+   * ADVANCE elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * ADVANCE HL9000
    */
@@ -28,19 +33,9 @@ public object Advance {
   public const val PR5650: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * ADVANCE Pr5747
-   */
-  public const val PR5747: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * ADVANCE PR5860
    */
   public const val PR5860: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * ADVANCE Pr6146
-   */
-  public const val PR6146: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * ADVANCE PR6149
@@ -71,16 +66,6 @@ public object Advance {
    * ADVANCE SP4703
    */
   public const val SP4703: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * ADVANCE SP4871
-   */
-  public const val SP4871: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * ADVANCE SP4872
-   */
-  public const val SP4872: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * ADVANCE SP5702
@@ -191,6 +176,11 @@ public object Advance {
    * ADVANCE TR7998
    */
   public const val TR7998: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * ADVANCE TR8050
+   */
+  public const val TR8050: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * ADVANCE TR8990

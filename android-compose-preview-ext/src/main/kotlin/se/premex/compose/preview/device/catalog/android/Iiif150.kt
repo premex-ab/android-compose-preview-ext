@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IIIF150 (14 models).
+ * Device specifications for IIIF150 (15 models).
  */
 public object Iiif150 {
+  /**
+   * IIIF150 Action_A5Pro
+   */
+  public const val ACTION_A5PRO: String = "spec:width=720px,height=1640px,dpi=320"
+
   /**
    * IIIF150 Air1
    */

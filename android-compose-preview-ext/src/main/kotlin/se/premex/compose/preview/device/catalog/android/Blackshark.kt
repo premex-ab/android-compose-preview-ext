@@ -1,12 +1,12 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for blackshark (9 models).
+ * Device specifications for BLACK_SHARK (13 models).
  */
-public object Blackshark {
+public object BlackShark {
   /**
    * blackshark bullhead
    */
@@ -36,6 +36,26 @@ public object Blackshark {
    * blackshark mobius
    */
   public const val MOBIUS: String = "spec:width=1440px,height=3120px,dpi=560"
+
+  /**
+   * BLACK_SHARK Pad6
+   */
+  public const val PAD6: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * BLACK_SHARK Pad7
+   */
+  public const val PAD7: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * BLACK_SHARK Pad7_Pro
+   */
+  public const val PAD7_PRO: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * BLACK_SHARK Pad7_WiFi
+   */
+  public const val PAD7_WIFI: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * blackshark penrose

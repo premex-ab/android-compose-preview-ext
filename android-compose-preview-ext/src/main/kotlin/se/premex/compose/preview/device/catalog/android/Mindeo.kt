@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=1
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MINDEO (1 models).
+ * Device specifications for MINDEO (2 models).
  */
 public object Mindeo {
+  /**
+   * MINDEO M50_EEA
+   */
+  public const val M50_EEA: String = "spec:width=480px,height=800px,dpi=200"
+
   /**
    * MINDEO MS8389
    */

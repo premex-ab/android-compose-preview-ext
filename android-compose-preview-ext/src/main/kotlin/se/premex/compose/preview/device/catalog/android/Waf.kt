@@ -15,5 +15,5 @@ public object Waf {
   /**
    * WAF THMTKAW01216
    */
-  public const val THMTKAW01216: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val THMTKAW01216: String = "spec:width=800px,height=1280px,dpi=160"
 }

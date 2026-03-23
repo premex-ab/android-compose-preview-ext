@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CHIMEI (2 models).
+ * Device specifications for CHIMEI (3 models).
  */
 public object Chimei {
+  /**
+   * CHIMEI elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * CHIMEI hongkong
    */

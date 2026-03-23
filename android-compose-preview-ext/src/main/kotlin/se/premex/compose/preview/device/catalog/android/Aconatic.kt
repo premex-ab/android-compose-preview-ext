@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Aconatic (12 models).
+ * Device specifications for Aconatic (16 models).
  */
 public object Aconatic {
   /**
@@ -18,9 +18,19 @@ public object Aconatic {
   public const val BARKING: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * Aconatic beomil
+   */
+  public const val BEOMIL: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
    * ACONATIC bruno
    */
   public const val BRUNO: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Aconatic eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Aconatic OD0M_EA_T32
@@ -31,6 +41,11 @@ public object Aconatic {
    * ACONATIC R1
    */
   public const val R1: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * ACONATIC R10G
+   */
+  public const val R10G: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * ACONATIC R2
@@ -61,6 +76,11 @@ public object Aconatic {
    * Aconatic takao
    */
   public const val TAKAO: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Aconatic umeda
+   */
+  public const val UMEDA: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * ACONATIC zhongshan

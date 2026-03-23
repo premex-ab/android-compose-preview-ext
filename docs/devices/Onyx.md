@@ -4,6 +4,6 @@ Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.a
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| BOOX | BOOX | 1404x1872 | 240 | `spec:width=1404px,height=1872px,dpi=240` | `@Preview(device = Onyx.BOOX)` |
+| BOOX | BOOX | 1264x1680 | 300 | `spec:width=1264px,height=1680px,dpi=300` | `@Preview(device = Onyx.BOOX)` |
 
 <!-- Generated automatically. Do not edit manually. -->

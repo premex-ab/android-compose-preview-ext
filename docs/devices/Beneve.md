@@ -1,12 +1,11 @@
 # Beneve Devices
 
-Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.android.Beneve`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Beneve`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | M1036 | M1036 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Beneve.M1036)` |
 | M1038_EEA | M1038_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Beneve.M1038_EEA)` |
-| M51S | M51S | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Beneve.M51S)` |
 | M51S_EEA | M51S_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Beneve.M51S_EEA)` |
 | M53 | M53 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Beneve.M53)` |
 | M53_EEA | M53_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Beneve.M53_EEA)` |

@@ -1,16 +1,26 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Unitel (3 models).
+ * Device specifications for Unitel (5 models).
  */
 public object Unitel {
+  /**
+   * UNITEL SMART_4G_II
+   */
+  public const val SMART_4G_II: String = "spec:width=720px,height=1600px,dpi=300"
+
   /**
    * Unitel U903
    */
   public const val U903: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * UNITEL UNITEL_SMART_5G_S25
+   */
+  public const val UNITEL_SMART_5G_S25: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * UNITEL UNITEL_TAB_4G_H101

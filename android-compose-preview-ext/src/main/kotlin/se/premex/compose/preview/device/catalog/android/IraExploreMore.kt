@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IRA_Explore_More (6 models).
+ * Device specifications for IRA_Explore_More (8 models).
  */
 public object IraExploreMore {
   /**
@@ -18,6 +18,11 @@ public object IraExploreMore {
   public const val IRA_BIO: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
+   * IRA_Explore_More IRA_BIOA
+   */
+  public const val IRA_BIOA: String = "spec:width=600px,height=1024px,dpi=213"
+
+  /**
    * IRA_Explore_More IRA_DUO_PRO_5G
    */
   public const val IRA_DUO_PRO_5G: String = "spec:width=1200px,height=2000px,dpi=240"
@@ -26,6 +31,11 @@ public object IraExploreMore {
    * IRA_EXPLORE_MORE IRA_T1029
    */
   public const val IRA_T1029: String = "spec:width=1200px,height=2000px,dpi=320"
+
+  /**
+   * IRA_EXPLORE_MORE IRA_T803M
+   */
+  public const val IRA_T803M: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * IRA_Explore_More IRA_T808

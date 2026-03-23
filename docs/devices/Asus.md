@@ -1,6 +1,6 @@
 # Asus Devices
 
-Total: **229** devices. Import: `import se.premex.compose.preview.device.catalog.android.Asus`
+Total: **227** devices. Import: `import se.premex.compose.preview.device.catalog.android.Asus`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -20,10 +20,10 @@ Total: **229** devices. Import: `import se.premex.compose.preview.device.catalog
 | ASUS_AI2205 | ASUS_AI2205 | 1080x2448 | 420 | `spec:width=1080px,height=2448px,dpi=420` | `@Preview(device = Asus.ASUS_AI2205)` |
 | ASUS_AI2302 | ASUS_AI2302 | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Asus.ASUS_AI2302)` |
 | ASUS_AI2401 | ASUS_AI2401 | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Asus.ASUS_AI2401)` |
-| ASUS_I001_1 | ASUS_I001_1 | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Asus.ASUS_I001_1)` |
+| ASUS_I001_1 | ASUS_I001_1 | 900x1600 | 240 | `spec:width=900px,height=1600px,dpi=240` | `@Preview(device = Asus.ASUS_I001_1)` |
 | ASUS_I002D | ASUS_I002D | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Asus.ASUS_I002D)` |
 | ASUS_I003_1 | ASUS_I003_1 | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Asus.ASUS_I003_1)` |
-| ASUS_I004D | ASUS_I004D | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Asus.ASUS_I004D)` |
+| ASUS_I004D | ASUS_I004D | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Asus.ASUS_I004D)` |
 | ASUS_I005_1 | ASUS_I005_1 | 1080x2448 | 420 | `spec:width=1080px,height=2448px,dpi=420` | `@Preview(device = Asus.ASUS_I005_1)` |
 | ASUS_I006D | ASUS_I006D | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Asus.ASUS_I006D)` |
 | ASUS_I007_1 | ASUS_I007_1 | 1080x2448 | 420 | `spec:width=1080px,height=2448px,dpi=420` | `@Preview(device = Asus.ASUS_I007_1)` |
@@ -132,7 +132,6 @@ Total: **229** devices. Import: `import se.premex.compose.preview.device.catalog
 | ASUS_Z01QD | ASUS_Z01QD | 900x1600 | 240 | `spec:width=900px,height=1600px,dpi=240` | `@Preview(device = Asus.ASUS_Z01QD)` |
 | ASUS_Z01QD_1 | ASUS_Z01QD_1 | 1080x2160 | 420 | `spec:width=1080px,height=2160px,dpi=420` | `@Preview(device = Asus.ASUS_Z01QD_1)` |
 | ASUS_Z01R_1 | ASUS_Z01R_1 | 1080x2246 | 420 | `spec:width=1080px,height=2246px,dpi=420` | `@Preview(device = Asus.ASUS_Z01R_1)` |
-| ASUS_ZENBO | ASUS_ZENBO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Asus.ASUS_ZENBO)` |
 | ASUSAI2501 | ASUSAI2501 | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Asus.ASUSAI2501)` |
 | dahu | DAHU | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Asus.DAHU)` |
 | K007 | K007 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Asus.K007)` |
@@ -164,7 +163,6 @@ Total: **229** devices. Import: `import se.premex.compose.preview.device.catalog
 | K019_1 | K019_1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Asus.K019_1)` |
 | K019_2 | K019_2 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Asus.K019_2)` |
 | K019_3 | K019_3 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Asus.K019_3)` |
-| K019_4 | K019_4 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Asus.K019_4)` |
 | K01A | K01A | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Asus.K01A)` |
 | K01B | K01B | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Asus.K01B)` |
 | K01E_2 | K01E_2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Asus.K01E_2)` |

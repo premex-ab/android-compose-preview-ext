@@ -1,6 +1,6 @@
 # Imuz Devices
 
-Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Imuz`
+Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.android.Imuz`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,8 +8,9 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | EG110 | EG110 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Imuz.EG110)` |
 | EG125 | EG125 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Imuz.EG125)` |
 | G10 | G10 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Imuz.G10)` |
+| IM-B101F | IM_B101F | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Imuz.IM_B101F)` |
 | IM-B101H | IM_B101H | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Imuz.IM_B101H)` |
-| IM-H031 | IM_H031 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Imuz.IM_H031)` |
+| IM-H031 | IM_H031 | 1200x2000 | 213 | `spec:width=1200px,height=2000px,dpi=213` | `@Preview(device = Imuz.IM_H031)` |
 | IM-H092L | IM_H092L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Imuz.IM_H092L)` |
 | IM-H092W | IM_H092W | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Imuz.IM_H092W)` |
 | IM-H261 | IM_H261 | 1600x2560 | 280 | `spec:width=1600px,height=2560px,dpi=280` | `@Preview(device = Imuz.IM_H261)` |

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=215
+// Generated manufacturer device catalog. Devices=238
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Blackview (215 models).
+ * Device specifications for Blackview (238 models).
  */
 public object Blackview {
   /**
@@ -35,7 +35,7 @@ public object Blackview {
   /**
    * Blackview A30
    */
-  public const val A30: String = "spec:width=540px,height=1132px,dpi=240"
+  public const val A30: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Blackview A50
@@ -183,9 +183,29 @@ public object Blackview {
   public const val ACTIVE8PRO: String = "spec:width=1200px,height=2000px,dpi=280"
 
   /**
+   * Blackview Active8Pro_A15
+   */
+  public const val ACTIVE8PRO_A15: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
    * Blackview Active_10_Pro
    */
   public const val ACTIVE_10_PRO: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * Blackview Active_12_Pro
+   */
+  public const val ACTIVE_12_PRO: String = "spec:width=1200px,height=1920px,dpi=260"
+
+  /**
+   * Blackview Active_5
+   */
+  public const val ACTIVE_5: String = "spec:width=800px,height=1340px,dpi=213"
+
+  /**
+   * Blackview Active_7
+   */
+  public const val ACTIVE_7: String = "spec:width=1200px,height=1920px,dpi=260"
 
   /**
    * Blackview BL5000
@@ -196,6 +216,11 @@ public object Blackview {
    * Blackview BL6000Pro
    */
   public const val BL6000PRO: String = "spec:width=1080px,height=2300px,dpi=480"
+
+  /**
+   * Blackview BL7000
+   */
+  public const val BL7000: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
    * Blackview BL8000
@@ -538,9 +563,14 @@ public object Blackview {
   public const val BV9300_PRO: String = "spec:width=1080px,height=2388px,dpi=480"
 
   /**
+   * Blackview BV9300_Pro_A15
+   */
+  public const val BV9300_PRO_A15: String = "spec:width=1080px,height=2388px,dpi=480"
+
+  /**
    * Blackview BV9500
    */
-  public const val BV9500: String = "spec:width=1080px,height=2160px,dpi=480"
+  public const val BV9500: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Blackview BV9500-RU
@@ -598,6 +628,11 @@ public object Blackview {
   public const val BV9900PRO: String = "spec:width=1080px,height=2280px,dpi=480"
 
   /**
+   * Blackview COLOR_6
+   */
+  public const val COLOR_6: String = "spec:width=720px,height=1604px,dpi=320"
+
+  /**
    * Blackview COLOR_8
    */
   public const val COLOR_8: String = "spec:width=720px,height=1600px,dpi=320"
@@ -608,9 +643,29 @@ public object Blackview {
   public const val E7S: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
+   * Blackview FORT_1
+   */
+  public const val FORT_1: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Blackview FORT_2
+   */
+  public const val FORT_2: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * Blackview HERO10
    */
   public const val HERO10: String = "spec:width=1080px,height=2560px,dpi=480"
+
+  /**
+   * Blackview LINK_2
+   */
+  public const val LINK_2: String = "spec:width=800px,height=1340px,dpi=213"
+
+  /**
+   * Blackview LINK_8
+   */
+  public const val LINK_8: String = "spec:width=1600px,height=2176px,dpi=320"
 
   /**
    * Blackview MAX1
@@ -626,6 +681,16 @@ public object Blackview {
    * Blackview MEGA_2
    */
   public const val MEGA_2: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * Blackview MEGA_2_WIFI
+   */
+  public const val MEGA_2_WIFI: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * Blackview MEGA_3
+   */
+  public const val MEGA_3: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * Blackview MEGA_8
@@ -681,6 +746,11 @@ public object Blackview {
    * Blackview Shark8
    */
   public const val SHARK8: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * Blackview SHARK_6
+   */
+  public const val SHARK_6: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * Blackview SHARK_9
@@ -988,6 +1058,16 @@ public object Blackview {
   public const val TAB_15_RU: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
+   * Blackview Tab_20_Kids
+   */
+  public const val TAB_20_KIDS: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Blackview Tab_20_WiFi
+   */
+  public const val TAB_20_WIFI: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * Blackview Tab_30_Kids
    */
   public const val TAB_30_KIDS: String = "spec:width=800px,height=1280px,dpi=160"
@@ -1081,4 +1161,39 @@ public object Blackview {
    * Blackview WAVE_8C
    */
   public const val WAVE_8C: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Blackview WAVE_9C
+   */
+  public const val WAVE_9C: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Blackview XPLORE2
+   */
+  public const val XPLORE2: String = "spec:width=1440px,height=3200px,dpi=640"
+
+  /**
+   * Blackview XPLORE2_Pro
+   */
+  public const val XPLORE2_PRO: String = "spec:width=1440px,height=3200px,dpi=640"
+
+  /**
+   * Blackview XPLORE_1
+   */
+  public const val XPLORE_1: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * Blackview ZENO_1
+   */
+  public const val ZENO_1: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Blackview ZENO_10
+   */
+  public const val ZENO_10: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * Blackview ZENO_100
+   */
+  public const val ZENO_100: String = "spec:width=800px,height=1280px,dpi=213"
 }

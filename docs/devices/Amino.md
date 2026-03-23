@@ -11,6 +11,6 @@ Total: **8** devices. Import: `import se.premex.compose.preview.device.catalog.a
 | Amigo7xESP | AMIGO7XESP | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Amino.AMIGO7XESP)` |
 | Amigo7xGM | AMIGO7XGM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Amino.AMIGO7XGM)` |
 | Amigo7xSCB | AMIGO7XSCB | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Amino.AMIGO7XSCB)` |
-| Amigo7Y | AMIGO7Y | 480x720 | 320 | `spec:width=480px,height=720px,dpi=320` | `@Preview(device = Amino.AMIGO7Y)` |
+| Amigo7Y | AMIGO7Y | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Amino.AMIGO7Y)` |
 
 <!-- Generated automatically. Do not edit manually. -->

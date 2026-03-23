@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=46
+// Generated manufacturer device catalog. Devices=44
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for GHIA (46 models).
+ * Device specifications for GHIA (44 models).
  */
 public object Ghia {
-  /**
-   * GHIA A7_3G
-   */
-  public const val A7_3G: String = "spec:width=600px,height=1024px,dpi=160"
-
   /**
    * GHIA A7_WF
    */
@@ -33,16 +28,6 @@ public object Ghia {
   public const val GA8N2: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * GHIA GHIA_A1
-   */
-  public const val GHIA_A1: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * GHIA GHIA_A7
-   */
-  public const val GHIA_A7: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * GHIA GHIA_AXIS7
    */
   public const val GHIA_AXIS7: String = "spec:width=600px,height=1024px,dpi=160"
@@ -51,11 +36,6 @@ public object Ghia {
    * GHIA GHIA_AXIS7P
    */
   public const val GHIA_AXIS7P: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * GHIA GHIA_L1
-   */
-  public const val GHIA_L1: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * GHIA GHIA_VECTOR_3G
@@ -88,6 +68,11 @@ public object Ghia {
   public const val GK133P24: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * ghia GK133S24
+   */
+  public const val GK133S24: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
    * GHIA GK133S3
    */
   public const val GK133S3: String = "spec:width=600px,height=1024px,dpi=160"
@@ -98,14 +83,34 @@ public object Ghia {
   public const val GK133T3: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * ghia GK133U24
+   */
+  public const val GK133U24: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
    * GHIA GK133V3
    */
   public const val GK133V3: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * ghia GK333P25
+   */
+  public const val GK333P25: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
    * ghia GK523A24
    */
   public const val GK523A24: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ghia GK537
+   */
+  public const val GK537: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ghia GP333
+   */
+  public const val GP333: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * GHIA GPND133
@@ -141,16 +146,6 @@ public object Ghia {
    * GHIA GTAB718
    */
   public const val GTAB718: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * GHIA GTABKIDS
-   */
-  public const val GTABKIDS: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * GHIA GTABPND
-   */
-  public const val GTABPND: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * GHIA GTKIDS7-100
@@ -211,11 +206,6 @@ public object Ghia {
    * GHIA stanford
    */
   public const val STANFORD: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * GHIA TREO_TAB8G
-   */
-  public const val TREO_TAB8G: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * GHIA VECTOR10_1

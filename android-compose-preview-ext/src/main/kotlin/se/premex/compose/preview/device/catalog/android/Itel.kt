@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=221
+// Generated manufacturer device catalog. Devices=224
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Itel (221 models).
+ * Device specifications for Itel (224 models).
  */
 public object Itel {
   /**
@@ -56,11 +56,6 @@ public object Itel {
    * Itel itel-A16S
    */
   public const val ITEL_A16S: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Itel itel-A20
-   */
-  public const val ITEL_A20: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Itel itel-A22
@@ -280,7 +275,7 @@ public object Itel {
   /**
    * Itel itel-A632L
    */
-  public const val ITEL_A632L: String = "spec:width=480px,height=1014px,dpi=200"
+  public const val ITEL_A632L: String = "spec:width=480px,height=1014px,dpi=240"
 
   /**
    * Itel itel-A632W
@@ -296,6 +291,11 @@ public object Itel {
    * Itel itel-A6610L
    */
   public const val ITEL_A6610L: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * itel itel-A6611L
+   */
+  public const val ITEL_A6611L: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Itel itel-A661L
@@ -378,9 +378,24 @@ public object Itel {
   public const val ITEL_A671N: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * itel itel-A673L
+   */
+  public const val ITEL_A673L: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * itel itel-A676L
+   */
+  public const val ITEL_A676L: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * Itel itel-C671L
    */
   public const val ITEL_C671L: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * itel itel-C681L
+   */
+  public const val ITEL_C681L: String = "spec:width=720px,height=1576px,dpi=280"
 
   /**
    * Itel itel-IKP-31
@@ -551,6 +566,11 @@ public object Itel {
    * Itel itel-P13-Plus
    */
   public const val ITEL_P13_PLUS: String = "spec:width=480px,height=960px,dpi=240"
+
+  /**
+   * Itel itel-P13001L
+   */
+  public const val ITEL_P13001L: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * Itel itel-P31
@@ -793,6 +813,11 @@ public object Itel {
   public const val ITEL_S686LN: String = "spec:width=1080px,height=2436px,dpi=480"
 
   /**
+   * itel itel-S688LN
+   */
+  public const val ITEL_S688LN: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * Itel itel-W4001
    */
   public const val ITEL_W4001: String = "spec:width=480px,height=800px,dpi=240"
@@ -1021,16 +1046,6 @@ public object Itel {
    * Itel itel_it1516Plus
    */
   public const val ITEL_IT1516PLUS: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Itel itel_it1518
-   */
-  public const val ITEL_IT1518: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Itel itel_it1556
-   */
-  public const val ITEL_IT1556: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Itel itel_it1556Plus

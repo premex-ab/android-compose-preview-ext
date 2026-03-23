@@ -25,7 +25,7 @@ public object Gol {
   /**
    * GOL F9
    */
-  public const val F9: String = "spec:width=480px,height=960px,dpi=213"
+  public const val F9: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * GOL F9prime

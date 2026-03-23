@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=131
+// Generated manufacturer device catalog. Devices=119
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ARCHOS (131 models).
+ * Device specifications for ARCHOS (119 models).
  */
 public object Archos {
   /**
@@ -16,16 +16,6 @@ public object Archos {
    * archos a101xe
    */
   public const val A101XE: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * archos a70xe
-   */
-  public const val A70XE: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * archos ac101as3g
-   */
-  public const val AC101AS3G: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * archos ac101as3gv2
@@ -98,6 +88,11 @@ public object Archos {
   public const val AC101CPLV2: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * archos ac101cr3g
+   */
+  public const val AC101CR3G: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * archos ac101cr3gv2
    */
   public const val AC101CR3GV2: String = "spec:width=800px,height=1280px,dpi=160"
@@ -136,11 +131,6 @@ public object Archos {
    * Archos ac101dne
    */
   public const val AC101DNE: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * archos ac101dpl
-   */
-  public const val AC101DPL: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * archos ac101dplv2
@@ -196,11 +186,6 @@ public object Archos {
    * archos ac101soxul
    */
   public const val AC101SOXUL: String = "spec:width=1200px,height=1920px,dpi=280"
-
-  /**
-   * archos ac101tr
-   */
-  public const val AC101TR: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Archos ac101xel
@@ -261,11 +246,6 @@ public object Archos {
    * archos ac50as3g
    */
   public const val AC50AS3G: String = "spec:width=480px,height=854px,dpi=213"
-
-  /**
-   * archos ac50as4g
-   */
-  public const val AC50AS4G: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
    * archos ac50ass4g
@@ -353,19 +333,9 @@ public object Archos {
   public const val AC50SEDC: String = "spec:width=720px,height=1280px,dpi=280"
 
   /**
-   * archos ac50ti
-   */
-  public const val AC50TI: String = "spec:width=480px,height=854px,dpi=213"
-
-  /**
    * archos ac50xse
    */
   public const val AC50XSE: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * archos ac55as3g
-   */
-  public const val AC55AS3G: String = "spec:width=540px,height=960px,dpi=213"
 
   /**
    * archos ac55bco
@@ -403,11 +373,6 @@ public object Archos {
   public const val AC55HE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Archos ac55heplus
-   */
-  public const val AC55HEPLUS: String = "spec:width=720px,height=1280px,dpi=280"
-
-  /**
    * archos ac55pl
    */
   public const val AC55PL: String = "spec:width=720px,height=1280px,dpi=280"
@@ -433,24 +398,9 @@ public object Archos {
   public const val AC57AS4G: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * archos ac57crs
-   */
-  public const val AC57CRS: String = "spec:width=720px,height=1440px,dpi=280"
-
-  /**
    * archos ac57ox
    */
   public const val AC57OX: String = "spec:width=720px,height=1520px,dpi=320"
-
-  /**
-   * archos ac60crs
-   */
-  public const val AC60CRS: String = "spec:width=720px,height=1440px,dpi=280"
-
-  /**
-   * archos ac60pl
-   */
-  public const val AC60PL: String = "spec:width=720px,height=1280px,dpi=240"
 
   /**
    * archos ac62crs
@@ -478,11 +428,6 @@ public object Archos {
   public const val AC70ASWF: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
-   * archos ac70cne
-   */
-  public const val AC70CNE: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * archos ac70cr3g
    */
   public const val AC70CR3G: String = "spec:width=720px,height=1280px,dpi=213"
@@ -491,11 +436,6 @@ public object Archos {
    * archos ac70cr3gv2
    */
   public const val AC70CR3GV2: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * archos ac70cxe
-   */
-  public const val AC70CXE: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * archos ac70hello
@@ -521,11 +461,6 @@ public object Archos {
    * archos ac70xec
    */
   public const val AC70XEC: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * archos ac80ox
-   */
-  public const val AC80OX: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * Archos ac94fff
@@ -656,6 +591,11 @@ public object Archos {
    * archos lifb57
    */
   public const val LIFB57: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * archos lifbk80
+   */
+  public const val LIFBK80: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * ARCHOS X18_Ultra

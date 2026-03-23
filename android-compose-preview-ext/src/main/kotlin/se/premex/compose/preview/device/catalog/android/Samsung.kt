@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=1376
+// Generated manufacturer device catalog. Devices=1384
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for samsung (1376 models).
+ * Device specifications for samsung (1384 models).
  */
 public object Samsung {
   /**
@@ -173,6 +173,16 @@ public object Samsung {
   public const val A16XM: String = "spec:width=1080px,height=2340px,dpi=450"
 
   /**
+   * samsung a17
+   */
+  public const val A17: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
+   * samsung a17x
+   */
+  public const val A17X: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
    * samsung a20
    */
   public const val A20: String = "spec:width=720px,height=1560px,dpi=280"
@@ -261,11 +271,6 @@ public object Samsung {
    * samsung a30c
    */
   public const val A30C: String = "spec:width=720px,height=1560px,dpi=280"
-
-  /**
-   * samsung a30s
-   */
-  public const val A30S: String = "spec:width=720px,height=1560px,dpi=280"
 
   /**
    * samsung a31
@@ -883,6 +888,11 @@ public object Samsung {
   public const val B2Q: String = "spec:width=1080px,height=2640px,dpi=480"
 
   /**
+   * samsung b4q
+   */
+  public const val B4Q: String = "spec:width=1080px,height=2640px,dpi=480"
+
+  /**
    * samsung b5q
    */
   public const val B5Q: String = "spec:width=1080px,height=2640px,dpi=480"
@@ -988,9 +998,14 @@ public object Samsung {
   public const val C1KTT: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * samsung c1lgt
+   * samsung c1q
    */
-  public const val C1LGT: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val C1Q: String = "spec:width=1080px,height=2400px,dpi=450"
+
+  /**
+   * samsung c1s
+   */
+  public const val C1S: String = "spec:width=1080px,height=2400px,dpi=450"
 
   /**
    * samsung c1skt
@@ -1178,11 +1193,6 @@ public object Samsung {
   public const val CORSICAVE3G: String = "spec:width=240px,height=320px,dpi=120"
 
   /**
-   * samsung corsicaveds3gvj
-   */
-  public const val CORSICAVEDS3GVJ: String = "spec:width=240px,height=320px,dpi=120"
-
-  /**
    * samsung cprimeltemtr
    */
   public const val CPRIMELTEMTR: String = "spec:width=480px,height=800px,dpi=240"
@@ -1246,11 +1256,6 @@ public object Samsung {
    * samsung cs02
    */
   public const val CS02: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * samsung cs023g
-   */
-  public const val CS023G: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * samsung cs02ve3g
@@ -1448,6 +1453,11 @@ public object Samsung {
   public const val DM2Q: String = "spec:width=1080px,height=2340px,dpi=450"
 
   /**
+   * samsung dm3q
+   */
+  public const val DM3Q: String = "spec:width=1440px,height=3088px,dpi=450"
+
+  /**
    * samsung dream2lteks
    */
   public const val DREAM2LTEKS: String = "spec:width=1440px,height=2960px,dpi=420"
@@ -1461,6 +1471,11 @@ public object Samsung {
    * samsung dream2qltechn
    */
   public const val DREAM2QLTECHN: String = "spec:width=1440px,height=2960px,dpi=420"
+
+  /**
+   * samsung dream2qltesq
+   */
+  public const val DREAM2QLTESQ: String = "spec:width=1440px,height=2960px,dpi=420"
 
   /**
    * samsung dream2qlteue
@@ -1491,6 +1506,11 @@ public object Samsung {
    * samsung dreamqltecmcc
    */
   public const val DREAMQLTECMCC: String = "spec:width=1080px,height=2220px,dpi=480"
+
+  /**
+   * samsung dreamqltesq
+   */
+  public const val DREAMQLTESQ: String = "spec:width=1440px,height=2960px,dpi=480"
 
   /**
    * samsung dreamqlteue
@@ -2018,6 +2038,11 @@ public object Samsung {
   public const val GREATLTEKS: String = "spec:width=1440px,height=2960px,dpi=420"
 
   /**
+   * samsung greatqlte
+   */
+  public const val GREATQLTE: String = "spec:width=1440px,height=2960px,dpi=420"
+
+  /**
    * samsung greatqltechn
    */
   public const val GREATQLTECHN: String = "spec:width=1440px,height=2960px,dpi=420"
@@ -2073,11 +2098,6 @@ public object Samsung {
   public const val GT_N7000: String = "spec:width=800px,height=1280px,dpi=320"
 
   /**
-   * samsung GT-P1000
-   */
-  public const val GT_P1000: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * samsung GT-P6200
    */
   public const val GT_P6200: String = "spec:width=600px,height=976px,dpi=160"
@@ -2086,11 +2106,6 @@ public object Samsung {
    * samsung GT-P6200L
    */
   public const val GT_P6200L: String = "spec:width=600px,height=976px,dpi=160"
-
-  /**
-   * samsung GT-P6210
-   */
-  public const val GT_P6210: String = "spec:width=600px,height=976px,dpi=160"
 
   /**
    * samsung GT-P6800
@@ -2188,6 +2203,26 @@ public object Samsung {
   public const val GT5NOTE8WIFI: String = "spec:width=768px,height=1024px,dpi=160"
 
   /**
+   * samsung gta11
+   */
+  public const val GTA11: String = "spec:width=800px,height=1340px,dpi=213"
+
+  /**
+   * samsung gta11p
+   */
+  public const val GTA11P: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * samsung gta11pwifi
+   */
+  public const val GTA11PWIFI: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * samsung gta11wifi
+   */
+  public const val GTA11WIFI: String = "spec:width=800px,height=1340px,dpi=213"
+
+  /**
    * samsung gta2slte
    */
   public const val GTA2SLTE: String = "spec:width=800px,height=1280px,dpi=213"
@@ -2251,11 +2286,6 @@ public object Samsung {
    * samsung gta2xlwifi
    */
   public const val GTA2XLWIFI: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * samsung gta2xlwifichn
-   */
-  public const val GTA2XLWIFICHN: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * samsung gta3xl
@@ -2598,6 +2628,16 @@ public object Samsung {
   public const val GTS10FEWIFI: String = "spec:width=1440px,height=2304px,dpi=280"
 
   /**
+   * samsung gts10lite
+   */
+  public const val GTS10LITE: String = "spec:width=1320px,height=2112px,dpi=240"
+
+  /**
+   * samsung gts10litewifi
+   */
+  public const val GTS10LITEWIFI: String = "spec:width=1320px,height=2112px,dpi=240"
+
+  /**
    * samsung gts10p
    */
   public const val GTS10P: String = "spec:width=1752px,height=2800px,dpi=320"
@@ -2616,6 +2656,26 @@ public object Samsung {
    * samsung gts10uwifi
    */
   public const val GTS10UWIFI: String = "spec:width=1848px,height=2960px,dpi=280"
+
+  /**
+   * samsung gts11
+   */
+  public const val GTS11: String = "spec:width=1600px,height=2560px,dpi=340"
+
+  /**
+   * samsung gts11u
+   */
+  public const val GTS11U: String = "spec:width=1848px,height=2960px,dpi=280"
+
+  /**
+   * samsung gts11uwifi
+   */
+  public const val GTS11UWIFI: String = "spec:width=1848px,height=2960px,dpi=280"
+
+  /**
+   * samsung gts11wifi
+   */
+  public const val GTS11WIFI: String = "spec:width=1600px,height=2560px,dpi=340"
 
   /**
    * samsung gts210lte
@@ -3070,7 +3130,7 @@ public object Samsung {
   /**
    * samsung hero2qltecctvzw
    */
-  public const val HERO2QLTECCTVZW: String = "spec:width=1440px,height=2960px,dpi=560"
+  public const val HERO2QLTECCTVZW: String = "spec:width=1080px,height=1920px,dpi=640"
 
   /**
    * samsung hero2qltechn
@@ -4798,16 +4858,6 @@ public object Samsung {
   public const val MELIUSLTEATT: String = "spec:width=720px,height=1280px,dpi=240"
 
   /**
-   * samsung meliusltecan
-   */
-  public const val MELIUSLTECAN: String = "spec:width=720px,height=1280px,dpi=240"
-
-  /**
-   * samsung meliuslteMetroPCS
-   */
-  public const val MELIUSLTEMETROPCS: String = "spec:width=720px,height=1280px,dpi=240"
-
-  /**
    * samsung meliuslteskt
    */
   public const val MELIUSLTESKT: String = "spec:width=720px,height=1280px,dpi=240"
@@ -4891,11 +4941,6 @@ public object Samsung {
    * samsung mproject3g
    */
   public const val MPROJECT3G: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * samsung mprojectqlte
-   */
-  public const val MPROJECTQLTE: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * samsung ms013g
@@ -5056,6 +5101,11 @@ public object Samsung {
    * samsung o1q
    */
   public const val O1Q: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * samsung o1s
+   */
+  public const val O1S: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * samsung o5lte
@@ -5263,11 +5313,6 @@ public object Samsung {
   public const val PA3Q: String = "spec:width=1440px,height=3120px,dpi=450"
 
   /**
-   * samsung philippeltechn
-   */
-  public const val PHILIPPELTECHN: String = "spec:width=768px,height=1280px,dpi=320"
-
-  /**
    * samsung Phoenix
    */
   public const val PHOENIX: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -5328,6 +5373,11 @@ public object Samsung {
   public const val Q2Q: String = "spec:width=1768px,height=2208px,dpi=420"
 
   /**
+   * samsung q4q
+   */
+  public const val Q4Q: String = "spec:width=1812px,height=2176px,dpi=420"
+
+  /**
    * samsung q5q
    */
   public const val Q5Q: String = "spec:width=1812px,height=2176px,dpi=420"
@@ -5346,6 +5396,11 @@ public object Samsung {
    * samsung q7lteskt
    */
   public const val Q7LTESKT: String = "spec:width=720px,height=1280px,dpi=240"
+
+  /**
+   * samsung q7mq
+   */
+  public const val Q7MQ: String = "spec:width=1584px,height=2160px,dpi=320"
 
   /**
    * samsung q7q
@@ -5376,6 +5431,11 @@ public object Samsung {
    * samsung r12s
    */
   public const val R12S: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
+   * samsung r13s
+   */
+  public const val R13S: String = "spec:width=1080px,height=2340px,dpi=450"
 
   /**
    * samsung r1q
@@ -5413,14 +5473,9 @@ public object Samsung {
   public const val R9Q: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
-   * samsung raybst
+   * samsung r9s
    */
-  public const val RAYBST: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * samsung rossalte
-   */
-  public const val ROSSALTE: String = "spec:width=480px,height=800px,dpi=240"
+  public const val R9S: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
    * samsung rossaltexsa
@@ -5446,11 +5501,6 @@ public object Samsung {
    * samsung royssnfc
    */
   public const val ROYSSNFC: String = "spec:width=320px,height=480px,dpi=160"
-
-  /**
-   * samsung royssvedtv
-   */
-  public const val ROYSSVEDTV: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
    * samsung royvedtv
@@ -6048,11 +6098,6 @@ public object Samsung {
   public const val SERRANOLTEKTT: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
-   * samsung serranoltespr
-   */
-  public const val SERRANOLTESPR: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * samsung serranove3g
    */
   public const val SERRANOVE3G: String = "spec:width=540px,height=960px,dpi=240"
@@ -6163,6 +6208,11 @@ public object Samsung {
   public const val STAR2QLTECS: String = "spec:width=1440px,height=2960px,dpi=420"
 
   /**
+   * samsung star2qltesq
+   */
+  public const val STAR2QLTESQ: String = "spec:width=1440px,height=2960px,dpi=420"
+
+  /**
    * samsung star2qlteue
    */
   public const val STAR2QLTEUE: String = "spec:width=1440px,height=2960px,dpi=420"
@@ -6211,11 +6261,6 @@ public object Samsung {
    * samsung t03gchn
    */
   public const val T03GCHN: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * samsung t03gchnduos
-   */
-  public const val T03GCHNDUOS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * samsung t0lte
@@ -6415,7 +6460,7 @@ public object Samsung {
   /**
    * samsung v2q
    */
-  public const val V2Q: String = "spec:width=900px,height=1600px,dpi=240"
+  public const val V2Q: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * samsung v2wifi
@@ -6438,11 +6483,6 @@ public object Samsung {
   public const val VASTALTEZH: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * samsung victorlte
-   */
-  public const val VICTORLTE: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * samsung victory
    */
   public const val VICTORY: String = "spec:width=1768px,height=2208px,dpi=420"
@@ -6461,11 +6501,6 @@ public object Samsung {
    * samsung viennaltekx
    */
   public const val VIENNALTEKX: String = "spec:width=1600px,height=2560px,dpi=320"
-
-  /**
-   * samsung vivalto
-   */
-  public const val VIVALTO: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * samsung vivalto3g
@@ -6653,6 +6688,11 @@ public object Samsung {
   public const val XCOVERPRO2: String = "spec:width=1080px,height=2408px,dpi=450"
 
   /**
+   * samsung xrvst2
+   */
+  public const val XRVST2: String = "spec:width=3840px,height=7104px,dpi=240"
+
+  /**
    * samsung y2q
    */
   public const val Y2Q: String = "spec:width=1440px,height=3200px,dpi=450"
@@ -6715,7 +6755,7 @@ public object Samsung {
   /**
    * samsung zenltechn
    */
-  public const val ZENLTECHN: String = "spec:width=1440px,height=2560px,dpi=560"
+  public const val ZENLTECHN: String = "spec:width=1080px,height=1920px,dpi=420"
 
   /**
    * samsung zenltektt

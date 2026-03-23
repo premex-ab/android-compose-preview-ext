@@ -1,27 +1,12 @@
-// Generated manufacturer device catalog. Devices=32
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IPRO (32 models).
+ * Device specifications for IPRO (26 models).
  */
 public object Ipro {
-  /**
-   * IPRO Amber5s_Plus
-   */
-  public const val AMBER5S_PLUS: String = "spec:width=480px,height=960px,dpi=213"
-
-  /**
-   * IPRO Amber5S_Pro
-   */
-  public const val AMBER5S_PRO: String = "spec:width=480px,height=960px,dpi=213"
-
-  /**
-   * IPRO Amber7S
-   */
-  public const val AMBER7S: String = "spec:width=480px,height=960px,dpi=240"
-
   /**
    * IPRO Amber8
    */
@@ -78,16 +63,6 @@ public object Ipro {
   public const val JADE8S: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * IPRO Kylin_5_0S
-   */
-  public const val KYLIN_5_0S: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * IPRO MEGA
-   */
-  public const val MEGA: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * IPRO Mobilephone
    */
   public const val MOBILEPHONE: String = "spec:width=480px,height=960px,dpi=200"
@@ -96,11 +71,6 @@ public object Ipro {
    * IPRO Opal4S
    */
   public const val OPAL4S: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * IPRO Ruby5S
-   */
-  public const val RUBY5S: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * IPRO S100

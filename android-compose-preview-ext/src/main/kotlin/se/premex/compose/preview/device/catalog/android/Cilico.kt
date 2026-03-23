@@ -15,7 +15,7 @@ public object Cilico {
   /**
    * CILICO C7X_R
    */
-  public const val C7X_R: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val C7X_R: String = "spec:width=480px,height=800px,dpi=204"
 
   /**
    * CILICO C80

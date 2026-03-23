@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for digiland (16 models).
+ * Device specifications for digiland (14 models).
  */
 public object Digiland {
   /**
    * Digiland DL1001
    */
   public const val DL1001: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * Digiland DL1036
+   */
+  public const val DL1036: String = "spec:width=800px,height=1280px,dpi=200"
 
   /**
    * Digiland DL1050
@@ -23,11 +28,6 @@ public object Digiland {
   public const val DL7006: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * digiland DL721-RB
-   */
-  public const val DL721_RB: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * digiland DL8006
    */
   public const val DL8006: String = "spec:width=800px,height=1280px,dpi=213"
@@ -38,19 +38,9 @@ public object Digiland {
   public const val DL9002: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * digiland DL9003
-   */
-  public const val DL9003: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * digiland mdt9003
    */
   public const val MDT9003: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Digiland mid1008
-   */
-  public const val MID1008: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * digiland mid1008l_emmc

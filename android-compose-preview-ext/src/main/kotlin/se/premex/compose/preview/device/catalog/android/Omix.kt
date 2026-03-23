@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for OMIX (14 models).
+ * Device specifications for OMIX (16 models).
  */
 public object Omix {
   /**
@@ -26,6 +26,16 @@ public object Omix {
    * OMIX X2032
    */
   public const val X2032: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * OMIX X2033
+   */
+  public const val X2033: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * OMIX X2034
+   */
+  public const val X2034: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * OMIX X3

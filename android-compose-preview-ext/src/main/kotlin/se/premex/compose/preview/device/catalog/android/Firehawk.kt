@@ -8,12 +8,12 @@ import kotlin.String
  */
 public object Firehawk {
   /**
-   * Firehawk FP-600
-   */
-  public const val FP_600: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Firehawk ToughDroid
    */
   public const val TOUGHDROID: String = "spec:width=800px,height=1280px,dpi=240"
+
+  /**
+   * Firehawk ToughDroid_Pro
+   */
+  public const val TOUGHDROID_PRO: String = "spec:width=800px,height=1280px,dpi=240"
 }

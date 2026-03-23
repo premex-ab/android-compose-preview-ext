@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VILLAON (7 models).
+ * Device specifications for VILLAON (9 models).
  */
 public object Villaon {
   /**
@@ -33,9 +33,19 @@ public object Villaon {
   public const val VILLAON_V40S: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * VILLAON VILLAON-V501L
+   */
+  public const val VILLAON_V501L: String = "spec:width=480px,height=854px,dpi=180"
+
+  /**
    * VILLAON VILLAON-V652L
    */
   public const val VILLAON_V652L: String = "spec:width=576px,height=1280px,dpi=240"
+
+  /**
+   * VILLAON VILLAON-V654L
+   */
+  public const val VILLAON_V654L: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * VILLAON VILLAON_V20_SE

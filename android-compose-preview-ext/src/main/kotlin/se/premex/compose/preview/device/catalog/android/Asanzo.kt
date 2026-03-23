@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ASANZO (4 models).
+ * Device specifications for ASANZO (3 models).
  */
 public object Asanzo {
-  /**
-   * ASANZO ASANZO_A2
-   */
-  public const val ASANZO_A2: String = "spec:width=480px,height=960px,dpi=240"
-
   /**
    * ASANZO S6
    */

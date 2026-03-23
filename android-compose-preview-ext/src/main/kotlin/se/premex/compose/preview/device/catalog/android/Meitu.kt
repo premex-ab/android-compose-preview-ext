@@ -20,7 +20,7 @@ public object Meitu {
   /**
    * Meitu MayaS
    */
-  public const val MAYAS: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val MAYAS: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Meitu Melody

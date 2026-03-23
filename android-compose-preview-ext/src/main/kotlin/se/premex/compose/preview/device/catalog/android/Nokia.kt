@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=138
+// Generated manufacturer device catalog. Devices=137
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Nokia (138 models).
+ * Device specifications for Nokia (137 models).
  */
 public object Nokia {
-  /**
-   * Nokia A1N
-   */
-  public const val A1N: String = "spec:width=1080px,height=1920px,dpi=480"
-
   /**
    * Nokia A1N_sprout
    */

@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Mobicell (2 models).
+ * Device specifications for Mobicell (1 models).
  */
 public object Mobicell {
-  /**
-   * Mobicell ICE
-   */
-  public const val ICE: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * Mobicell SHIFT
    */

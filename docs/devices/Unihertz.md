@@ -1,6 +1,6 @@
 # Unihertz Devices
 
-Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.android.Unihertz`
+Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Unihertz`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -17,6 +17,7 @@ Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Ticktock | TICKTOCK | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Unihertz.TICKTOCK)` |
 | TickTock-S | TICKTOCK_S | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Unihertz.TICKTOCK_S)` |
 | Titan | TITAN | 1440x1440 | 400 | `spec:width=1440px,height=1440px,dpi=400` | `@Preview(device = Unihertz.TITAN)` |
+| Titan_2 | TITAN_2 | 1440x1440 | 400 | `spec:width=1440px,height=1440px,dpi=400` | `@Preview(device = Unihertz.TITAN_2)` |
 | Titan_pocket | TITAN_POCKET | 720x720 | 220 | `spec:width=720px,height=720px,dpi=220` | `@Preview(device = Unihertz.TITAN_POCKET)` |
 | Titan_Slim | TITAN_SLIM | 768x1280 | 320 | `spec:width=768px,height=1280px,dpi=320` | `@Preview(device = Unihertz.TITAN_SLIM)` |
 | UNIA62 | UNIA62 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Unihertz.UNIA62)` |

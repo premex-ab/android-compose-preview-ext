@@ -1,10 +1,13 @@
 # Plimpton Devices
 
-Total: **22** devices. Import: `import se.premex.compose.preview.device.catalog.android.Plimpton`
+Total: **26** devices. Import: `import se.premex.compose.preview.device.catalog.android.Plimpton`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| Kids10_A15 | KIDS10_A15 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS10_A15)` |
+| Kids10_A15_EEA | KIDS10_A15_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS10_A15_EEA)` |
 | Kids20 | KIDS20 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS20)` |
+| Kids20_PA15 | KIDS20_PA15 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS20_PA15)` |
 | Kids20A14 | KIDS20A14 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS20A14)` |
 | Kids20A14_EEA | KIDS20A14_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS20A14_EEA)` |
 | Kids20A15 | KIDS20A15 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Plimpton.KIDS20A15)` |
@@ -14,6 +17,7 @@ Total: **22** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Kids_10_ver14 | KIDS_10_VER14 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS_10_VER14)` |
 | Kids_10_ver14_EEA | KIDS_10_VER14_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS_10_VER14_EEA)` |
 | Kids_8 | KIDS_8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.KIDS_8)` |
+| P1A15 | P1A15 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.P1A15)` |
 | P2 | P2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Plimpton.P2)` |
 | P60Plus | P60PLUS | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Plimpton.P60PLUS)` |
 | P60Pro | P60PRO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Plimpton.P60PRO)` |

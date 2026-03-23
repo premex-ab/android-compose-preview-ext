@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DCODE (10 models).
+ * Device specifications for DCODE (13 models).
  */
 public object Dcode {
   /**
@@ -56,4 +56,19 @@ public object Dcode {
    * DCODE DS_CL4_Pro
    */
   public const val DS_CL4_PRO: String = "spec:width=720px,height=1612px,dpi=480"
+
+  /**
+   * DCODE DS_CL_Evo
+   */
+  public const val DS_CL_EVO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * DCODE DS_CL_Prime
+   */
+  public const val DS_CL_PRIME: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
+   * DCODE DS_CL_X
+   */
+  public const val DS_CL_X: String = "spec:width=720px,height=1612px,dpi=320"
 }

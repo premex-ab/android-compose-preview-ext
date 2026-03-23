@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Clementoni (11 models).
+ * Device specifications for Clementoni (10 models).
  */
 public object Clementoni {
   /**
@@ -26,11 +26,6 @@ public object Clementoni {
    * Clementoni Clempad_9
    */
   public const val CLEMPAD_9: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Clementoni ClemPhone_7
-   */
-  public const val CLEMPHONE_7: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Clementoni MFC_2018

@@ -1,6 +1,6 @@
 # Docomo Devices
 
-Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog.android.Docomo`
+Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog.android.Docomo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -21,7 +21,6 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | F03G | F03G | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Docomo.F03G)` |
 | F03H | F03H | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F03H)` |
 | F03K | F03K | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F03K)` |
-| F04E | F04E | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F04E)` |
 | F04G | F04G | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Docomo.F04G)` |
 | F04H | F04H | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Docomo.F04H)` |
 | F04J | F04J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F04J)` |
@@ -30,7 +29,6 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | F05F | F05F | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Docomo.F05F)` |
 | F05J | F05J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F05J)` |
 | F06E | F06E | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Docomo.F06E)` |
-| F07E | F07E | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F07E)` |
 | F09E | F09E | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Docomo.F09E)` |
 | F10D | F10D | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.F10D)` |
 | F41A | F41A | 1080x2220 | 480 | `spec:width=1080px,height=2220px,dpi=480` | `@Preview(device = Docomo.F41A)` |
@@ -38,11 +36,9 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | F51A | F51A | 1440x3120 | 560 | `spec:width=1440px,height=3120px,dpi=560` | `@Preview(device = Docomo.F51A)` |
 | F52A | F52A | 1080x2280 | 420 | `spec:width=1080px,height=2280px,dpi=420` | `@Preview(device = Docomo.F52A)` |
 | Jerid | JERID | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Docomo.JERID)` |
-| N-02E | N_02E | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Docomo.N_02E)` |
 | N-03E | N_03E | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.N_03E)` |
 | N-04E | N_04E | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.N_04E)` |
 | N-06E | N_06E | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.N_06E)` |
-| N-07D | N_07D | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.N_07D)` |
 | P-01K | P_01K | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Docomo.P_01K)` |
 | P-02E | P_02E | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Docomo.P_02E)` |
 | P-03E | P_03E | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Docomo.P_03E)` |
@@ -85,12 +81,12 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | SH-53C | SH_53C | 1080x2432 | 440 | `spec:width=1080px,height=2432px,dpi=440` | `@Preview(device = Docomo.SH_53C)` |
 | SH-53D | SH_53D | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Docomo.SH_53D)` |
 | SH-53E | SH_53E | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Docomo.SH_53E)` |
+| SH-53F | SH_53F | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Docomo.SH_53F)` |
 | SH-54B | SH_54B | 1080x2432 | 440 | `spec:width=1080px,height=2432px,dpi=440` | `@Preview(device = Docomo.SH_54B)` |
 | SH-54D | SH_54D | 1080x2432 | 440 | `spec:width=1080px,height=2432px,dpi=440` | `@Preview(device = Docomo.SH_54D)` |
 | SH-54E | SH_54E | 1440x3120 | 520 | `spec:width=1440px,height=3120px,dpi=520` | `@Preview(device = Docomo.SH_54E)` |
 | SH02E | SH02E | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.SH02E)` |
 | SH04E | SH04E | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.SH04E)` |
-| SH09D | SH09D | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.SH09D)` |
 | SH10D | SH10D | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.SH10D)` |
 | SO-01E | SO_01E | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Docomo.SO_01E)` |
 | SO-01F | SO_01F | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Docomo.SO_01F)` |
@@ -138,6 +134,7 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | SO-52C | SO_52C | 1080x2520 | 420 | `spec:width=1080px,height=2520px,dpi=420` | `@Preview(device = Docomo.SO_52C)` |
 | SO-52D | SO_52D | 1080x2520 | 450 | `spec:width=1080px,height=2520px,dpi=450` | `@Preview(device = Docomo.SO_52D)` |
 | SO-52E | SO_52E | 1080x2520 | 450 | `spec:width=1080px,height=2520px,dpi=450` | `@Preview(device = Docomo.SO_52E)` |
+| SO-52F | SO_52F | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Docomo.SO_52F)` |
 | SO-53B | SO_53B | 1080x2520 | 420 | `spec:width=1080px,height=2520px,dpi=420` | `@Preview(device = Docomo.SO_53B)` |
 | SO-53C | SO_53C | 720x1496 | 300 | `spec:width=720px,height=1496px,dpi=300` | `@Preview(device = Docomo.SO_53C)` |
 | SO-53D | SO_53D | 1080x2520 | 450 | `spec:width=1080px,height=2520px,dpi=450` | `@Preview(device = Docomo.SO_53D)` |

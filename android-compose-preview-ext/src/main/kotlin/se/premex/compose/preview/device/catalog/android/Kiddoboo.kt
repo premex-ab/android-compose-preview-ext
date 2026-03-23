@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Kiddoboo (4 models).
+ * Device specifications for Kiddoboo (5 models).
  */
 public object Kiddoboo {
   /**
@@ -26,4 +26,9 @@ public object Kiddoboo {
    * Kiddoboo KB80P
    */
   public const val KB80P: String = "spec:width=800px,height=1280px,dpi=200"
+
+  /**
+   * Kiddoboo KB82P
+   */
+  public const val KB82P: String = "spec:width=800px,height=1280px,dpi=240"
 }

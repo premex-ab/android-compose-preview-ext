@@ -1,22 +1,12 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Wishtel (10 models).
+ * Device specifications for Wishtel (7 models).
  */
 public object Wishtel {
-  /**
-   * Wishtel IRA
-   */
-  public const val IRA: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
-   * Wishtel IRA07
-   */
-  public const val IRA07: String = "spec:width=600px,height=1024px,dpi=213"
-
   /**
    * Wishtel IRA102017I
    */
@@ -26,11 +16,6 @@ public object Wishtel {
    * Wishtel IRA_DUO
    */
   public const val IRA_DUO: String = "spec:width=1200px,height=1920px,dpi=320"
-
-  /**
-   * WISHTEL IRA_S1
-   */
-  public const val IRA_S1: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Wishtel IRAJ2

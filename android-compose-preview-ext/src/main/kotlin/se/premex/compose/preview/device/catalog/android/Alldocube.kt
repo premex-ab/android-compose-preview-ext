@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=49
+// Generated manufacturer device catalog. Devices=51
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ALLDOCUBE (49 models).
+ * Device specifications for ALLDOCUBE (51 models).
  */
 public object Alldocube {
   /**
@@ -51,6 +51,11 @@ public object Alldocube {
    * Alldocube iPlay_70_S
    */
   public const val IPLAY_70_S: String = "spec:width=1280px,height=1920px,dpi=210"
+
+  /**
+   * ALLDOCUBE iPlay_70_Ultra
+   */
+  public const val IPLAY_70_ULTRA: String = "spec:width=1840px,height=2880px,dpi=480"
 
   /**
    * Alldocube KidzPad_Pro
@@ -166,6 +171,11 @@ public object Alldocube {
    * Alldocube T1201
    */
   public const val T1201: String = "spec:width=1600px,height=2560px,dpi=320"
+
+  /**
+   * Alldocube T1302G
+   */
+  public const val T1302G: String = "spec:width=1600px,height=2560px,dpi=360"
 
   /**
    * ALLDOCUBE T701

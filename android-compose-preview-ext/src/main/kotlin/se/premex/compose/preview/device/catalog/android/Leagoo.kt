@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=27
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LEAGOO (27 models).
+ * Device specifications for LEAGOO (26 models).
  */
 public object Leagoo {
   /**
@@ -40,7 +40,7 @@ public object Leagoo {
   /**
    * LEAGOO M13
    */
-  public const val M13: String = "spec:width=600px,height=1280px,dpi=240"
+  public const val M13: String = "spec:width=1080px,height=2220px,dpi=560"
 
   /**
    * LEAGOO M9
@@ -51,11 +51,6 @@ public object Leagoo {
    * LEAGOO M9_Pro
    */
   public const val M9_PRO: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * LEAGOO P1
-   */
-  public const val P1: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * LEAGOO P1_Pro

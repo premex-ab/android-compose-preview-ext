@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=125
+// Generated manufacturer device catalog. Devices=126
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KDDI (125 models).
+ * Device specifications for KDDI (126 models).
  */
 public object Kddi {
   /**
@@ -498,11 +498,6 @@ public object Kddi {
   public const val SOL24: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * KDDI SOL25
-   */
-  public const val SOL25: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * KDDI SOL26
    */
   public const val SOL26: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -613,6 +608,11 @@ public object Kddi {
   public const val XKH: String = "spec:width=1080px,height=2340px,dpi=420"
 
   /**
+   * KDDI XQ-FE
+   */
+  public const val XQ_FE: String = "spec:width=1080px,height=2340px,dpi=420"
+
+  /**
    * KDDI XQ-FS
    */
   public const val XQ_FS: String = "spec:width=1080px,height=2340px,dpi=400"
@@ -631,4 +631,9 @@ public object Kddi {
    * KDDI ZKO
    */
   public const val ZKO: String = "spec:width=720px,height=1520px,dpi=320"
+
+  /**
+   * KDDI ZMJ
+   */
+  public const val ZMJ: String = "spec:width=1080px,height=2432px,dpi=440"
 }

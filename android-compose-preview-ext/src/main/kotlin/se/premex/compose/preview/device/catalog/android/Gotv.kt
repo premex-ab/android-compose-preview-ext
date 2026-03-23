@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for GOtv (3 models).
+ * Device specifications for GOtv (4 models).
  */
 public object Gotv {
   /**
@@ -21,4 +21,9 @@ public object Gotv {
    * GOTV HP4BA-GOTV
    */
   public const val HP4BA_GOTV: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * GOTV SEID04GM
+   */
+  public const val SEID04GM: String = "spec:width=1080px,height=1920px,dpi=320"
 }

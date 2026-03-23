@@ -45,7 +45,7 @@ public object Aauw {
   /**
    * AAUW T60PRO_ROW
    */
-  public const val T60PRO_ROW: String = "spec:width=1200px,height=1920px,dpi=280"
+  public const val T60PRO_ROW: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * AAUW T90

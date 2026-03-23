@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=34
+// Generated manufacturer device catalog. Devices=32
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KLIPAD (34 models).
+ * Device specifications for KLIPAD (32 models).
  */
 public object Klipad {
-  /**
-   * KLIPAD KL2018R
-   */
-  public const val KL2018R: String = "spec:width=800px,height=1280px,dpi=160"
-
   /**
    * KLIPAD KL2108NBE
    */
@@ -50,7 +45,7 @@ public object Klipad {
   /**
    * KLIPAD KL4891
    */
-  public const val KL4891: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val KL4891: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * KLIPAD KL4898
@@ -63,14 +58,14 @@ public object Klipad {
   public const val KL4898_A50: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * KLIPAD KL4899A
+   */
+  public const val KL4899A: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * KLIPAD KL500
    */
   public const val KL500: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * KLIPAD KL502
-   */
-  public const val KL502: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * KLIPAD KL503
@@ -151,11 +146,6 @@ public object Klipad {
    * KLIPAD KLIPAD_KL600
    */
   public const val KLIPAD_KL600: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * KLIPAD KLIPAD_KL600B
-   */
-  public const val KLIPAD_KL600B: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * KLIPAD KLIPAD_SMART_I746

@@ -1,12 +1,11 @@
 # Winnovo Devices
 
-Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Winnovo`
+Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.android.Winnovo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | H10 | H10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Winnovo.H10)` |
 | H10_US | H10_US | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Winnovo.H10_US)` |
-| H7 | H7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Winnovo.H7)` |
 | H7_US | H7_US | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Winnovo.H7_US)` |
 | H8 | H8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Winnovo.H8)` |
 | H8_US | H8_US | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Winnovo.H8_US)` |

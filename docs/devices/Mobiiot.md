@@ -1,6 +1,6 @@
 # Mobiiot Devices
 
-Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mobiiot`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mobiiot`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,7 +11,8 @@ Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.a
 | MobiGo2PQV | MOBIGO2PQV | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Mobiiot.MOBIGO2PQV)` |
 | MobiPrint4_Plus | MOBIPRINT4_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Mobiiot.MOBIPRINT4_PLUS)` |
 | MP5 | MP5 | 720x1440 | 300 | `spec:width=720px,height=1440px,dpi=300` | `@Preview(device = Mobiiot.MP5)` |
+| WM18PPv2 | WM18PPV2 | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Mobiiot.WM18PPV2)` |
 | WM19 | WM19 | 480x800 | 200 | `spec:width=480px,height=800px,dpi=200` | `@Preview(device = Mobiiot.WM19)` |
-| WM58 | WM58 | 576x1152 | 200 | `spec:width=576px,height=1152px,dpi=200` | `@Preview(device = Mobiiot.WM58)` |
+| WM26 | WM26 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Mobiiot.WM26)` |
 
 <!-- Generated automatically. Do not edit manually. -->

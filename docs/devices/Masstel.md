@@ -1,10 +1,9 @@
 # Masstel Devices
 
-Total: **32** devices. Import: `import se.premex.compose.preview.device.catalog.android.Masstel`
+Total: **31** devices. Import: `import se.premex.compose.preview.device.catalog.android.Masstel`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| 3G_Tablet_PC | _3G_TABLET_PC | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Masstel._3G_TABLET_PC)` |
 | Masstel_Hapi_15 | MASSTEL_HAPI_15 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Masstel.MASSTEL_HAPI_15)` |
 | Masstel_Hapi_20 | MASSTEL_HAPI_20 | 720x1520 | 300 | `spec:width=720px,height=1520px,dpi=300` | `@Preview(device = Masstel.MASSTEL_HAPI_20)` |
 | Masstel_Hapi_30 | MASSTEL_HAPI_30 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Masstel.MASSTEL_HAPI_30)` |
@@ -14,7 +13,6 @@ Total: **32** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Masstel_Tab10_4G | MASSTEL_TAB10_4G | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Masstel.MASSTEL_TAB10_4G)` |
 | Masstel_Tab10_WiFi | MASSTEL_TAB10_WIFI | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Masstel.MASSTEL_TAB10_WIFI)` |
 | Masstel_Tab11_Pro_4G | MASSTEL_TAB11_PRO_4G | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Masstel.MASSTEL_TAB11_PRO_4G)` |
-| Masstel_Tab8 | MASSTEL_TAB8 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Masstel.MASSTEL_TAB8)` |
 | Masstel_Tab8_4G | MASSTEL_TAB8_4G | 800x1280 | 214 | `spec:width=800px,height=1280px,dpi=214` | `@Preview(device = Masstel.MASSTEL_TAB8_4G)` |
 | Masstel_Tab8_Edu | MASSTEL_TAB8_EDU | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Masstel.MASSTEL_TAB8_EDU)` |
 | Masstel_Tab_101 | MASSTEL_TAB_101 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Masstel.MASSTEL_TAB_101)` |
@@ -30,6 +28,7 @@ Total: **32** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Tab10_Edu | TAB10_EDU | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Masstel.TAB10_EDU)` |
 | Tab10_EduV2 | TAB10_EDUV2 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Masstel.TAB10_EDUV2)` |
 | Tab10Ultra | TAB10ULTRA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Masstel.TAB10ULTRA)` |
+| Tab11_Ultra_4G | TAB11_ULTRA_4G | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Masstel.TAB11_ULTRA_4G)` |
 | Tab7Plus | TAB7PLUS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Masstel.TAB7PLUS)` |
 | Tab8Plus | TAB8PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Masstel.TAB8PLUS)` |
 | Tab8Pro | TAB8PRO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Masstel.TAB8PRO)` |

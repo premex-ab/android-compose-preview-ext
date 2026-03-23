@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=45
+// Generated manufacturer device catalog. Devices=46
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for NUU (45 models).
+ * Device specifications for NUU (46 models).
  */
 public object Nuu {
   /**
@@ -58,11 +58,6 @@ public object Nuu {
   public const val N5702L: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * NUU N5L
-   */
-  public const val N5L: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * NUU N6001LA
    */
   public const val N6001LA: String = "spec:width=480px,height=960px,dpi=180"
@@ -71,6 +66,11 @@ public object Nuu {
    * NUU N6501LA
    */
   public const val N6501LA: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * NUU N6504LA
+   */
+  public const val N6504LA: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
    * NUU NUU_A1
@@ -126,6 +126,11 @@ public object Nuu {
    * NUU S6003LA
    */
   public const val S6003LA: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * NUU S6008LA
+   */
+  public const val S6008LA: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
    * NUU S6303LA
@@ -203,6 +208,11 @@ public object Nuu {
   public const val S6707XA: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
+   * NUU S6710XA
+   */
+  public const val S6710XA: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * NUU T0801LAV1
    */
   public const val T0801LAV1: String = "spec:width=800px,height=1280px,dpi=213"
@@ -226,9 +236,4 @@ public object Nuu {
    * NUU T1005LAV1
    */
   public const val T1005LAV1: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * NUU X4
-   */
-  public const val X4: String = "spec:width=720px,height=1280px,dpi=320"
 }

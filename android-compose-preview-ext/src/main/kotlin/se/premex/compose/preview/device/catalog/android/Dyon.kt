@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Dyon (6 models).
+ * Device specifications for DYON (8 models).
  */
 public object Dyon {
   /**
@@ -16,6 +16,16 @@ public object Dyon {
    * DYON capitolhill
    */
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * DYON elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * DYON jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * DYON keoneae

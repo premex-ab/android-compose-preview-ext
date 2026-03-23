@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PIXPEAK (6 models).
+ * Device specifications for PIXPEAK (7 models).
  */
 public object Pixpeak {
   /**
    * PIXPEAK L60-EEA
    */
   public const val L60_EEA: String = "spec:width=800px,height=1280px,dpi=200"
+
+  /**
+   * PIXPEAK M186-EEA
+   */
+  public const val M186_EEA: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * PIXPEAK M258-EEA

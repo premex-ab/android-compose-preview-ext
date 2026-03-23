@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=60
+// Generated manufacturer device catalog. Devices=63
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Casper (60 models).
+ * Device specifications for Casper (63 models).
  */
 public object Casper {
   /**
@@ -61,6 +61,16 @@ public object Casper {
    * Casper L20
    */
   public const val L20: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * Casper Pad_H10_PEN
+   */
+  public const val PAD_H10_PEN: String = "spec:width=1600px,height=2560px,dpi=240"
+
+  /**
+   * Casper Pad_H10_PRO
+   */
+  public const val PAD_H10_PRO: String = "spec:width=1600px,height=2560px,dpi=240"
 
   /**
    * CASPER R1
@@ -231,6 +241,11 @@ public object Casper {
    * Casper VIA_M40
    */
   public const val VIA_M40: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Casper VIA_M45
+   */
+  public const val VIA_M45: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Casper VIA_P2

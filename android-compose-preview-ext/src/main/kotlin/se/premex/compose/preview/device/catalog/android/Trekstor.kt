@@ -1,16 +1,16 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Trekstor (9 models).
+ * Device specifications for Trekstor (8 models).
  */
 public object Trekstor {
   /**
    * TrekStor SurfTab
    */
-  public const val SURFTAB: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val SURFTAB: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
    * Trekstor TFMTKAW01216
@@ -36,11 +36,6 @@ public object Trekstor {
    * TREKSTOR THMTKAW03232
    */
   public const val THMTKAW03232: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * TrekStor tolino7
-   */
-  public const val TOLINO7: String = "spec:width=900px,height=1440px,dpi=240"
 
   /**
    * TrekStor tolino8

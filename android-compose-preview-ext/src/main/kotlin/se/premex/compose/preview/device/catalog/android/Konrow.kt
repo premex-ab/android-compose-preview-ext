@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=26
+// Generated manufacturer device catalog. Devices=24
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KONROW (26 models).
+ * Device specifications for KONROW (24 models).
  */
 public object Konrow {
   /**
@@ -48,11 +48,6 @@ public object Konrow {
   public const val EASY_S55P: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * KONROW EASY_S55P_2021
-   */
-  public const val EASY_S55P_2021: String = "spec:width=480px,height=960px,dpi=213"
-
-  /**
    * KONROW K-TAB1005
    */
   public const val K_TAB1005: String = "spec:width=800px,height=1280px,dpi=213"
@@ -60,17 +55,12 @@ public object Konrow {
   /**
    * KONROW K-TAB703
    */
-  public const val K_TAB703: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val K_TAB703: String = "spec:width=600px,height=1024px,dpi=155"
 
   /**
    * KONROW K-TAB801
    */
   public const val K_TAB801: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * KONROW KONROW_SKY_LITE
-   */
-  public const val KONROW_SKY_LITE: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * KONROW KONROW_SKY_PLUS
@@ -86,11 +76,6 @@ public object Konrow {
    * Konrow KTAB_1003
    */
   public const val KTAB_1003: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Konrow KTAB_1004
-   */
-  public const val KTAB_1004: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * KONROW MUST
@@ -136,4 +121,9 @@ public object Konrow {
    * KONROW SWEET5
    */
   public const val SWEET5: String = "spec:width=480px,height=854px,dpi=240"
+
+  /**
+   * KONROW TOUCH55
+   */
+  public const val TOUCH55: String = "spec:width=480px,height=960px,dpi=200"
 }

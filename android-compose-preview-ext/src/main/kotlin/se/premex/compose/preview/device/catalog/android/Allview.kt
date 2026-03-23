@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=87
+// Generated manufacturer device catalog. Devices=79
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ALLVIEW (87 models).
+ * Device specifications for ALLVIEW (79 models).
  */
 public object Allview {
   /**
@@ -56,16 +56,6 @@ public object Allview {
    * ALLVIEW A5_Ready
    */
   public const val A5_READY: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * ALLVIEW A9_Lite
-   */
-  public const val A9_LITE: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * ALLVIEW A9_Plus
-   */
-  public const val A9_PLUS: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * ALLVIEW AX501Q
@@ -188,11 +178,6 @@ public object Allview {
   public const val P8_PRO: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * ALLVIEW P9_Energy
-   */
-  public const val P9_ENERGY: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * ALLVIEW P9_Energy_Lite_2017
    */
   public const val P9_ENERGY_LITE_2017: String = "spec:width=720px,height=1280px,dpi=320"
@@ -231,11 +216,6 @@ public object Allview {
    * ALLVIEW V2_Viper_S
    */
   public const val V2_VIPER_S: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * ALLVIEW V2_Viper_X_plus
-   */
-  public const val V2_VIPER_X_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * ALLVIEW V3_Viper
@@ -298,11 +278,6 @@ public object Allview {
   public const val VIVA_H1003_LTE: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * ALLVIEW Viva_H701_LTE
-   */
-  public const val VIVA_H701_LTE: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * ALLVIEW Viva_H802_LTE
    */
   public const val VIVA_H802_LTE: String = "spec:width=800px,height=1280px,dpi=213"
@@ -351,21 +326,6 @@ public object Allview {
    * ALLVIEW X4_Soul_Infinity_NV
    */
   public const val X4_SOUL_INFINITY_NV: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * ALLVIEW X4_Soul_Infinity_S
-   */
-  public const val X4_SOUL_INFINITY_S: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * ALLVIEW X4_Soul_Infinity_SV
-   */
-  public const val X4_SOUL_INFINITY_SV: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * ALLVIEW X4_Soul_Infinity_Z
-   */
-  public const val X4_SOUL_INFINITY_Z: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * ALLVIEW X4_Soul_Lite

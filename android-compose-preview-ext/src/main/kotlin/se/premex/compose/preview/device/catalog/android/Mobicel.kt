@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=127
+// Generated manufacturer device catalog. Devices=124
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Mobicel (127 models).
+ * Device specifications for Mobicel (124 models).
  */
 public object Mobicel {
   /**
@@ -273,6 +273,11 @@ public object Mobicel {
   public const val MOBICEL_ICON: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
+   * Mobicel Mobicel_P12_Plus
+   */
+  public const val MOBICEL_P12_PLUS: String = "spec:width=720px,height=1612px,dpi=300"
+
+  /**
    * Mobicel Mobicel_R1
    */
   public const val MOBICEL_R1: String = "spec:width=720px,height=1280px,dpi=320"
@@ -338,11 +343,6 @@ public object Mobicel {
   public const val PULSE_1: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * Mobicel PURE
-   */
-  public const val PURE: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * Mobicel PURE_MINI
    */
   public const val PURE_MINI: String = "spec:width=480px,height=800px,dpi=240"
@@ -403,11 +403,6 @@ public object Mobicel {
   public const val R7_2: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * Mobicel R8
-   */
-  public const val R8: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * Mobicel R9_LITE
    */
   public const val R9_LITE: String = "spec:width=720px,height=1440px,dpi=320"
@@ -446,11 +441,6 @@ public object Mobicel {
    * Mobicel RUBY
    */
   public const val RUBY: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * Mobicel RUSH
-   */
-  public const val RUSH: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Mobicel RX
@@ -531,11 +521,6 @@ public object Mobicel {
    * Mobicel TRENDY_PLUS
    */
   public const val TRENDY_PLUS: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Mobicel U2
-   */
-  public const val U2: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Mobicel ULTRA

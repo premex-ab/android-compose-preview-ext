@@ -1,6 +1,6 @@
 # Lge Devices
 
-Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lge`
+Total: **322** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lge`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -66,7 +66,6 @@ Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog
 | DM-01K | DM_01K | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Lge.DM_01K)` |
 | DM-02H | DM_02H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lge.DM_02H)` |
 | e1q | E1Q | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.E1Q)` |
-| e2 | E2 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.E2)` |
 | e2n | E2N | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.E2N)` |
 | e2nac | E2NAC | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.E2NAC)` |
 | e2nas | E2NAS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.E2NAS)` |
@@ -95,7 +94,6 @@ Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog
 | g3 | G3 | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Lge.G3)` |
 | g4stylus | G4STYLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lge.G4STYLUS)` |
 | g4stylusc | G4STYLUSC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lge.G4STYLUSC)` |
-| g4stylusds | G4STYLUSDS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lge.G4STYLUSDS)` |
 | g4stylusdsn | G4STYLUSDSN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lge.G4STYLUSDSN)` |
 | g4stylusn | G4STYLUSN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lge.G4STYLUSN)` |
 | g4stylusw | G4STYLUSW | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lge.G4STYLUSW)` |
@@ -147,15 +145,12 @@ Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog
 | lucye | LUCYE | 1440x2880 | 640 | `spec:width=1440px,height=2880px,dpi=640` | `@Preview(device = Lge.LUCYE)` |
 | luv20ds | LUV20DS | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Lge.LUV20DS)` |
 | luv20ss | LUV20SS | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Lge.LUV20SS)` |
-| luv20ts | LUV20TS | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Lge.LUV20TS)` |
 | luv30ds | LUV30DS | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Lge.LUV30DS)` |
 | luv30ss | LUV30SS | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Lge.LUV30SS)` |
 | luv50ds | LUV50DS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.LUV50DS)` |
 | luv50ss | LUV50SS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.LUV50SS)` |
-| luv50ssn | LUV50SSN | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.LUV50SSN)` |
 | luv80ds | LUV80DS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.LUV80DS)` |
 | luv80ss | LUV80SS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.LUV80SS)` |
-| luv90ds | LUV90DS | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Lge.LUV90DS)` |
 | luv90ss | LUV90SS | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Lge.LUV90SS)` |
 | lv0 | LV0 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.LV0)` |
 | lv1 | LV1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.LV1)` |
@@ -199,9 +194,9 @@ Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog
 | me1 | ME1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.ME1)` |
 | me1ds | ME1DS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lge.ME1DS)` |
 | meh15lm | MEH15LM | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lge.MEH15LM)` |
-| meh20lm | MEH20LM | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lge.MEH20LM)` |
+| meh20lm | MEH20LM | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lge.MEH20LM)` |
 | meh35lm | MEH35LM | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lge.MEH35LM)` |
-| mfh10lm | MFH10LM | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lge.MFH10LM)` |
+| mfh10lm | MFH10LM | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lge.MFH10LM)` |
 | mh2lm | MH2LM | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Lge.MH2LM)` |
 | mh3 | MH3 | 1080x2310 | 420 | `spec:width=1080px,height=2310px,dpi=420` | `@Preview(device = Lge.MH3)` |
 | mh3-pl | MH3_PL | 1080x2310 | 420 | `spec:width=1080px,height=2310px,dpi=420` | `@Preview(device = Lge.MH3_PL)` |
@@ -254,7 +249,6 @@ Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog
 | Neo4LM | NEO4LM | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Lge.NEO4LM)` |
 | omega | OMEGA | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lge.OMEGA)` |
 | p1 | P1 | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Lge.P1)` |
-| p1bds3g | P1BDS3G | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lge.P1BDS3G)` |
 | p1bdsn | P1BDSN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lge.P1BDSN)` |
 | p1bssn | P1BSSN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lge.P1BSSN)` |
 | p1v | P1V | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lge.P1V)` |
@@ -302,12 +296,9 @@ Total: **331** devices. Import: `import se.premex.compose.preview.device.catalog
 | vfp3g | VFP3G | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lge.VFP3G)` |
 | vfpv | VFPV | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lge.VFPV)` |
 | vu2kt | VU2KT | 768x1024 | 320 | `spec:width=768px,height=1024px,dpi=320` | `@Preview(device = Lge.VU2KT)` |
-| vu2sk | VU2SK | 768x1024 | 320 | `spec:width=768px,height=1024px,dpi=320` | `@Preview(device = Lge.VU2SK)` |
 | vu3 | VU3 | 960x1280 | 320 | `spec:width=960px,height=1280px,dpi=320` | `@Preview(device = Lge.VU3)` |
 | w3 | W3 | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lge.W3)` |
-| w3c | W3C | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lge.W3C)` |
 | w3ds | W3DS | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lge.W3DS)` |
-| w3voip | W3VOIP | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lge.W3VOIP)` |
 | w5 | W5 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.W5)` |
 | w55 | W55 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.W55)` |
 | w55ds | W55DS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lge.W55DS)` |

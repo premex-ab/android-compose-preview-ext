@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Rhino (7 models).
+ * Device specifications for Rhino (9 models).
  */
 public object Rhino {
+  /**
+   * Rhino atom
+   */
+  public const val ATOM: String = "spec:width=720px,height=1280px,dpi=320"
+
   /**
    * RHINO novax
    */
@@ -21,6 +26,11 @@ public object Rhino {
    * Rhino portal
    */
   public const val PORTAL: String = "spec:width=480px,height=960px,dpi=213"
+
+  /**
+   * Rhino Rhino_C10
+   */
+  public const val RHINO_C10: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * Rhino Rhino_M10p

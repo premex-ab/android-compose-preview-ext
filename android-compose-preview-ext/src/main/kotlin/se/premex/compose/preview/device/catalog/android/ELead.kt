@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=1
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for E-LEAD (1 models).
+ * Device specifications for E-LEAD (2 models).
  */
 public object ELead {
+  /**
+   * E-LEAD _712_TAM1A_RSE
+   */
+  public const val _712_TAM1A_RSE: String = "spec:width=800px,height=1280px,dpi=160"
+
   /**
    * E-LEAD RSE
    */

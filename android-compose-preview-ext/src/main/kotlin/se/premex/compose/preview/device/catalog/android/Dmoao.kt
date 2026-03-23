@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DMOAO (11 models).
+ * Device specifications for DMOAO (15 models).
  */
 public object Dmoao {
   /**
@@ -21,6 +21,16 @@ public object Dmoao {
    * DMOAO D3_US
    */
   public const val D3_US: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * DMOAO D3_V_EEA
+   */
+  public const val D3_V_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * DMOAO D3_V_US
+   */
+  public const val D3_V_US: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DMOAO D5-T-EEA
@@ -51,6 +61,16 @@ public object Dmoao {
    * DMOAO D6_US
    */
   public const val D6_US: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * DMOAO D7_EEA
+   */
+  public const val D7_EEA: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * DMOAO D7_US
+   */
+  public const val D7_US: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * DMOAO DMOAO_D2_EEA

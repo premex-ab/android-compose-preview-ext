@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CONTIXO (15 models).
+ * Device specifications for CONTIXO (14 models).
  */
 public object Contixo {
   /**
    * CONTIXO CONTIXO-V8
    */
   public const val CONTIXO_V8: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * CONTIXO CONTIXO-V9
-   */
-  public const val CONTIXO_V9: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * CONTIXO K101A

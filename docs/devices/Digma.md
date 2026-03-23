@@ -1,6 +1,6 @@
 # Digma Devices
 
-Total: **110** devices. Import: `import se.premex.compose.preview.device.catalog.android.Digma`
+Total: **99** devices. Import: `import se.premex.compose.preview.device.catalog.android.Digma`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -18,7 +18,6 @@ Total: **110** devices. Import: `import se.premex.compose.preview.device.catalog
 | CS3242ML | CS3242ML | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Digma.CS3242ML)` |
 | CS6063ML | CS6063ML | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Digma.CS6063ML)` |
 | CS7113PL | CS7113PL | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Digma.CS7113PL)` |
-| CS7193MG | CS7193MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.CS7193MG)` |
 | CS7204MG | CS7204MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.CS7204MG)` |
 | CS7208MG | CS7208MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.CS7208MG)` |
 | CS7216MG | CS7216MG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.CS7216MG)` |
@@ -32,22 +31,19 @@ Total: **110** devices. Import: `import se.premex.compose.preview.device.catalog
 | CS8233MG | CS8233MG | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.CS8233MG)` |
 | CS8268PL | CS8268PL | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Digma.CS8268PL)` |
 | CS8271PL | CS8271PL | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Digma.CS8271PL)` |
+| DA6B8P02 | DA6B8P02 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.DA6B8P02)` |
 | HT4039PG | HT4039PG | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Digma.HT4039PG)` |
 | HT5035PG | HT5035PG | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Digma.HT5035PG)` |
 | LS4051MG | LS4051MG | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Digma.LS4051MG)` |
-| LS5040PL | LS5040PL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Digma.LS5040PL)` |
-| LS5041PL | LS5041PL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Digma.LS5041PL)` |
 | LS5053ML | LS5053ML | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Digma.LS5053ML)` |
 | LT4038PG | LT4038PG | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Digma.LT4038PG)` |
 | LT4049PG | LT4049PG | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Digma.LT4049PG)` |
-| LT4054MG | LT4054MG | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Digma.LT4054MG)` |
 | LT5052ML | LT5052ML | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Digma.LT5052ML)` |
 | NS1800ML | NS1800ML | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Digma.NS1800ML)` |
 | PS1135MG | PS1135MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS1135MG)` |
 | PS1137MG | PS1137MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS1137MG)` |
 | PS1150ML | PS1150ML | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Digma.PS1150ML)` |
 | PS1163MG | PS1163MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS1163MG)` |
-| PS1164ML | PS1164ML | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS1164ML)` |
 | PS1166ML | PS1166ML | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Digma.PS1166ML)` |
 | PS1173PL | PS1173PL | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS1173PL)` |
 | PS1185MG | PS1185MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS1185MG)` |
@@ -57,15 +53,11 @@ Total: **110** devices. Import: `import se.premex.compose.preview.device.catalog
 | PS1213PG | PS1213PG | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS1213PG)` |
 | PS7159PG | PS7159PG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.PS7159PG)` |
 | PS7165MG | PS7165MG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.PS7165MG)` |
-| PS7180PG | PS7180PG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.PS7180PG)` |
-| PS7191PL | PS7191PL | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS7191PL)` |
 | PS7192PL | PS7192PL | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Digma.PS7192PL)` |
 | PS7210PG | PS7210PG | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Digma.PS7210PG)` |
-| PS8156ML | PS8156ML | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS8156ML)` |
 | PS8161PG | PS8161PG | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS8161PG)` |
 | PS8162PL | PS8162PL | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS8162PL)` |
 | PS8163PL | PS8163PL | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Digma.PS8163PL)` |
-| PS8181MG | PS8181MG | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS8181MG)` |
 | PS8199ML | PS8199ML | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS8199ML)` |
 | PS8212PG | PS8212PG | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.PS8212PG)` |
 | PS9146MG | PS9146MG | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Digma.PS9146MG)` |
@@ -90,7 +82,6 @@ Total: **110** devices. Import: `import se.premex.compose.preview.device.catalog
 | TS1269PL | TS1269PL | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Digma.TS1269PL)` |
 | TS1273PL | TS1273PL | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.TS1273PL)` |
 | TS1277ML | TS1277ML | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.TS1277ML)` |
-| TS7175MG | TS7175MG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TS7175MG)` |
 | TS7177MG | TS7177MG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TS7177MG)` |
 | TS7179ML | TS7179ML | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TS7179ML)` |
 | TS7198PG | TS7198PG | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Digma.TS7198PG)` |
@@ -106,13 +97,11 @@ Total: **110** devices. Import: `import se.premex.compose.preview.device.catalog
 | TS8227PL | TS8227PL | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Digma.TS8227PL)` |
 | TS8274AW | TS8274AW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.TS8274AW)` |
 | TS8275ML | TS8275ML | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Digma.TS8275ML)` |
-| TT1188PL | TT1188PL | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TT1188PL)` |
 | TT1192PG | TT1192PG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TT1192PG)` |
 | TT1236PG | TT1236PG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TT1236PG)` |
 | TT7174PG | TT7174PG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TT7174PG)` |
 | TT7223PG | TT7223PG | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Digma.TT7223PG)` |
 | VS5035ML | VS5035ML | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Digma.VS5035ML)` |
-| VS5036PL | VS5036PL | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Digma.VS5036PL)` |
 | WS1250PL | WS1250PL | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Digma.WS1250PL)` |
 
 <!-- Generated automatically. Do not edit manually. -->

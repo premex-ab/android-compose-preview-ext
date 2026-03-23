@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Claro (7 models).
+ * Device specifications for Claro (8 models).
  */
 public object Claro {
   /**
    * Claro B866V2_V1_0_0
    */
   public const val B866V2_V1_0_0: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
+   * Claro B866VH
+   */
+  public const val B866VH: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Claro claro_vsb3918

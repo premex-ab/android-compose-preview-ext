@@ -1,6 +1,6 @@
 # Kenshi Devices
 
-Total: **43** devices. Import: `import se.premex.compose.preview.device.catalog.android.Kenshi`
+Total: **44** devices. Import: `import se.premex.compose.preview.device.catalog.android.Kenshi`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -47,5 +47,6 @@ Total: **43** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Pad_Pro_E110 | PAD_PRO_E110 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Kenshi.PAD_PRO_E110)` |
 | Pad_Pro_E111 | PAD_PRO_E111 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Kenshi.PAD_PRO_E111)` |
 | Pad_Pro_E112 | PAD_PRO_E112 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Kenshi.PAD_PRO_E112)` |
+| Pad_Pro_E90 | PAD_PRO_E90 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Kenshi.PAD_PRO_E90)` |
 
 <!-- Generated automatically. Do not edit manually. -->

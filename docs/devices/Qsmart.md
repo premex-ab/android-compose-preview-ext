@@ -1,6 +1,6 @@
 # Qsmart Devices
 
-Total: **29** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qsmart`
+Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qsmart`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -16,8 +16,6 @@ Total: **29** devices. Import: `import se.premex.compose.preview.device.catalog.
 | i7i_2020 | I7I_2020 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qsmart.I7I_2020)` |
 | LT950 | LT950 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qsmart.LT950)` |
 | MARK_2 | MARK_2 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qsmart.MARK_2)` |
-| Mark_5 | MARK_5 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qsmart.MARK_5)` |
-| QSmart_i5i_2019 | QSMART_I5I_2019 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qsmart.QSMART_I5I_2019)` |
 | QSmart_i6i_2020 | QSMART_I6I_2020 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qsmart.QSMART_I6I_2020)` |
 | QSmart_LT900 | QSMART_LT900 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qsmart.QSMART_LT900)` |
 | Rocket | ROCKET | 600x1280 | 240 | `spec:width=600px,height=1280px,dpi=240` | `@Preview(device = Qsmart.ROCKET)` |

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=26
+// Generated manufacturer device catalog. Devices=28
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Compaq (26 models).
+ * Device specifications for Compaq (28 models).
  */
 public object Compaq {
+  /**
+   * COMPAQ Compaq_Q3
+   */
+  public const val COMPAQ_Q3: String = "spec:width=720px,height=1600px,dpi=480"
+
   /**
    * COMPAQ CT201
    */
@@ -106,6 +111,11 @@ public object Compaq {
    * Compaq QTab8_LTE
    */
   public const val QTAB8_LTE: String = "spec:width=800px,height=1280px,dpi=240"
+
+  /**
+   * Compaq QTab_87
+   */
+  public const val QTAB_87: String = "spec:width=800px,height=1340px,dpi=213"
 
   /**
    * Compaq QTAB_NOTE

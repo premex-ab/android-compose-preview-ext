@@ -1,6 +1,6 @@
 # Krip Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.Krip`
+Total: **23** devices. Import: `import se.premex.compose.preview.device.catalog.android.Krip`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -20,7 +20,6 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | K5m | K5M | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Krip.K5M)` |
 | K6 | K6 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Krip.K6)` |
 | K60 | K60 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Krip.K60)` |
-| K65 | K65 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Krip.K65)` |
 | K66 | K66 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Krip.K66)` |
 | K68 | K68 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Krip.K68)` |
 | K69 | K69 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Krip.K69)` |

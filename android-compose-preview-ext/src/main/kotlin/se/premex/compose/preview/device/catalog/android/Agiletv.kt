@@ -10,7 +10,7 @@ public object Agiletv {
   /**
    * AgileTV DV9157-T2-KIA
    */
-  public const val DV9157_T2_KIA: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val DV9157_T2_KIA: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * AgileTV dwt765mm

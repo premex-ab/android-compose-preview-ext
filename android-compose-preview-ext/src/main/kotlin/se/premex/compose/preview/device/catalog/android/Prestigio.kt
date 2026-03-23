@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=89
+// Generated manufacturer device catalog. Devices=79
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Prestigio (89 models).
+ * Device specifications for Prestigio (79 models).
  */
 public object Prestigio {
   /**
@@ -46,11 +46,6 @@ public object Prestigio {
    * Prestigio CD80A5G
    */
   public const val CD80A5G: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * Prestigio CD80A6L
-   */
-  public const val CD80A6L: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Prestigio CF10A1L
@@ -96,11 +91,6 @@ public object Prestigio {
    * Prestigio DW53B4G
    */
   public const val DW53B4G: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Prestigio DW55B02L
-   */
-  public const val DW55B02L: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Prestigio DW55B8L
@@ -203,11 +193,6 @@ public object Prestigio {
   public const val IN39B3G: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * Prestigio IN50B1L
-   */
-  public const val IN50B1L: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Prestigio JU10A3G
    */
   public const val JU10A3G: String = "spec:width=800px,height=1280px,dpi=160"
@@ -258,11 +243,6 @@ public object Prestigio {
   public const val LS80A1L: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * Prestigio LS80A4L
-   */
-  public const val LS80A4L: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * Prestigio LS96A7G
    */
   public const val LS96A7G: String = "spec:width=800px,height=1280px,dpi=213"
@@ -283,11 +263,6 @@ public object Prestigio {
   public const val PMT3038_3G: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Prestigio PMT3057_3G
-   */
-  public const val PMT3057_3G: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Prestigio PMT3277_3G
    */
   public const val PMT3277_3G: String = "spec:width=600px,height=1024px,dpi=160"
@@ -296,11 +271,6 @@ public object Prestigio {
    * Prestigio PMT3287_3G
    */
   public const val PMT3287_3G: String = "spec:width=770px,height=1024px,dpi=160"
-
-  /**
-   * Prestigio PMT3777_3G
-   */
-  public const val PMT3777_3G: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Prestigio PMT5001_3G
@@ -348,11 +318,6 @@ public object Prestigio {
   public const val PMT7177_3G: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * Prestigio PMT7287_3G
-   */
-  public const val PMT7287_3G: String = "spec:width=768px,height=1024px,dpi=160"
-
-  /**
    * Prestigio PN10A01G
    */
   public const val PN10A01G: String = "spec:width=800px,height=1280px,dpi=160"
@@ -361,11 +326,6 @@ public object Prestigio {
    * Prestigio PN80A03G
    */
   public const val PN80A03G: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Prestigio PSP5504DUO
-   */
-  public const val PSP5504DUO: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * Prestigio TC10A2L
@@ -388,11 +348,6 @@ public object Prestigio {
   public const val TE50B2G: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
-   * Prestigio TE50B4L
-   */
-  public const val TE50B4L: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Prestigio TE52B10G
    */
   public const val TE52B10G: String = "spec:width=720px,height=1280px,dpi=320"
@@ -406,11 +361,6 @@ public object Prestigio {
    * Prestigio TL47B1G
    */
   public const val TL47B1G: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * Prestigio TL49B4L
-   */
-  public const val TL49B4L: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Prestigio TL52B5L

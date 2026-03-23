@@ -1,6 +1,6 @@
 # Redmi Devices
 
-Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog.android.Redmi`
+Total: **155** devices. Import: `import se.premex.compose.preview.device.catalog.android.Redmi`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,6 +10,7 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | amethyst | AMETHYST | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Redmi.AMETHYST)` |
 | angelica | ANGELICA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.ANGELICA)` |
 | angelican | ANGELICAN | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.ANGELICAN)` |
+| annibale | ANNIBALE | 1156x2510 | 480 | `spec:width=1156px,height=2510px,dpi=480` | `@Preview(device = Redmi.ANNIBALE)` |
 | apollo | APOLLO | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.APOLLO)` |
 | ares | ARES | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.ARES)` |
 | atmos | ATMOS | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.ATMOS)` |
@@ -31,9 +32,11 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | citrine | CITRINE | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Redmi.CITRINE)` |
 | cloud | CLOUD | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.CLOUD)` |
 | corot | COROT | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Redmi.COROT)` |
+| creek | CREEK | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Redmi.CREEK)` |
 | curtana | CURTANA | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.CURTANA)` |
 | dali | DALI | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Redmi.DALI)` |
 | dandelion | DANDELION | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.DANDELION)` |
+| dew | DEW | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.DEW)` |
 | diting | DITING | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Redmi.DITING)` |
 | dizi | DIZI | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Redmi.DIZI)` |
 | duchamp | DUCHAMP | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Redmi.DUCHAMP)` |
@@ -45,6 +48,8 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | flame | FLAME | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Redmi.FLAME)` |
 | flare | FLARE | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Redmi.FLARE)` |
 | fleur | FLEUR | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.FLEUR)` |
+| flourite | FLOURITE | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Redmi.FLOURITE)` |
+| flute | FLUTE | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Redmi.FLUTE)` |
 | fog | FOG | 720x1650 | 320 | `spec:width=720px,height=1650px,dpi=320` | `@Preview(device = Redmi.FOG)` |
 | galahad | GALAHAD | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Redmi.GALAHAD)` |
 | gale | GALE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.GALE)` |
@@ -60,8 +65,10 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | joyeuse | JOYEUSE | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.JOYEUSE)` |
 | klein | KLEIN | 720x1650 | 320 | `spec:width=720px,height=1650px,dpi=320` | `@Preview(device = Redmi.KLEIN)` |
 | koto | KOTO | 1600x2560 | 360 | `spec:width=1600px,height=2560px,dpi=360` | `@Preview(device = Redmi.KOTO)` |
+| kunzite | KUNZITE | 1080x2392 | 450 | `spec:width=1080px,height=2392px,dpi=450` | `@Preview(device = Redmi.KUNZITE)` |
 | lake | LAKE | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Redmi.LAKE)` |
 | lancelot | LANCELOT | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Redmi.LANCELOT)` |
+| lapis | LAPIS | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Redmi.LAPIS)` |
 | lemon | LEMON | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Redmi.LEMON)` |
 | light | LIGHT | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Redmi.LIGHT)` |
 | lime | LIME | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Redmi.LIME)` |
@@ -79,11 +86,13 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | mondrian | MONDRIAN | 1440x3200 | 560 | `spec:width=1440px,height=3200px,dpi=560` | `@Preview(device = Redmi.MONDRIAN)` |
 | moon | MOON | 1080x2460 | 440 | `spec:width=1080px,height=2460px,dpi=440` | `@Preview(device = Redmi.MOON)` |
 | munch | MUNCH | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.MUNCH)` |
+| myron | MYRON | 1200x2608 | 480 | `spec:width=1200px,height=2608px,dpi=480` | `@Preview(device = Redmi.MYRON)` |
 | obsidian | OBSIDIAN | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Redmi.OBSIDIAN)` |
 | ocean | OCEAN | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.OCEAN)` |
 | olivewood | OLIVEWOOD | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Redmi.OLIVEWOOD)` |
 | onyx | ONYX | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Redmi.ONYX)` |
 | opal | OPAL | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.OPAL)` |
+| organ | ORGAN | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Redmi.ORGAN)` |
 | pearl | PEARL | 1080x2460 | 440 | `spec:width=1080px,height=2460px,dpi=440` | `@Preview(device = Redmi.PEARL)` |
 | peridot | PERIDOT | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Redmi.PERIDOT)` |
 | peux | PEUX | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.PEUX)` |
@@ -119,6 +128,7 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | spark | SPARK | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Redmi.SPARK)` |
 | spes | SPES | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.SPES)` |
 | spesn | SPESN | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.SPESN)` |
+| spring | SPRING | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Redmi.SPRING)` |
 | sunny | SUNNY | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.SUNNY)` |
 | sunstone | SUNSTONE | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.SUNSTONE)` |
 | sweet | SWEET | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.SWEET)` |
@@ -130,6 +140,8 @@ Total: **143** devices. Import: `import se.premex.compose.preview.device.catalog
 | thunder | THUNDER | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Redmi.THUNDER)` |
 | tides | TIDES | 1080x2460 | 440 | `spec:width=1080px,height=2460px,dpi=440` | `@Preview(device = Redmi.TIDES)` |
 | topaz | TOPAZ | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.TOPAZ)` |
+| tornado | TORNADO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Redmi.TORNADO)` |
+| turner | TURNER | 1880x3008 | 450 | `spec:width=1880px,height=3008px,dpi=450` | `@Preview(device = Redmi.TURNER)` |
 | vermeer | VERMEER | 1440x3200 | 560 | `spec:width=1440px,height=3200px,dpi=560` | `@Preview(device = Redmi.VERMEER)` |
 | veux | VEUX | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.VEUX)` |
 | vida | VIDA | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Redmi.VIDA)` |

@@ -1,6 +1,6 @@
 # Casper Devices
 
-Total: **60** devices. Import: `import se.premex.compose.preview.device.catalog.android.Casper`
+Total: **63** devices. Import: `import se.premex.compose.preview.device.catalog.android.Casper`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -15,6 +15,8 @@ Total: **60** devices. Import: `import se.premex.compose.preview.device.catalog.
 | CASPER_VIA_M3 | CASPER_VIA_M3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Casper.CASPER_VIA_M3)` |
 | elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Casper.ELLINIKO)` |
 | L20 | L20 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Casper.L20)` |
+| Pad_H10_PEN | PAD_H10_PEN | 1600x2560 | 240 | `spec:width=1600px,height=2560px,dpi=240` | `@Preview(device = Casper.PAD_H10_PEN)` |
+| Pad_H10_PRO | PAD_H10_PRO | 1600x2560 | 240 | `spec:width=1600px,height=2560px,dpi=240` | `@Preview(device = Casper.PAD_H10_PRO)` |
 | R1 | R1 | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Casper.R1)` |
 | R2 | R2 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Casper.R2)` |
 | R3 | R3 | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Casper.R3)` |
@@ -49,6 +51,7 @@ Total: **60** devices. Import: `import se.premex.compose.preview.device.catalog.
 | VIA_M35 | VIA_M35 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Casper.VIA_M35)` |
 | VIA_M4 | VIA_M4 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Casper.VIA_M4)` |
 | VIA_M40 | VIA_M40 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Casper.VIA_M40)` |
+| VIA_M45 | VIA_M45 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Casper.VIA_M45)` |
 | VIA_P2 | VIA_P2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Casper.VIA_P2)` |
 | VIA_P3 | VIA_P3 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Casper.VIA_P3)` |
 | VIA_S | VIA_S | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Casper.VIA_S)` |

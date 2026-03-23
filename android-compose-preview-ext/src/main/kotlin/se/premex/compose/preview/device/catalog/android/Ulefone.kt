@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=144
+// Generated manufacturer device catalog. Devices=156
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Ulefone (144 models).
+ * Device specifications for Ulefone (156 models).
  */
 public object Ulefone {
   /**
@@ -30,7 +30,7 @@ public object Ulefone {
   /**
    * Ulefone Armor_12S
    */
-  public const val ARMOR_12S: String = "spec:width=1440px,height=3040px,dpi=560"
+  public const val ARMOR_12S: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Ulefone Armor_15
@@ -150,7 +150,7 @@ public object Ulefone {
   /**
    * Ulefone Armor_8_R
    */
-  public const val ARMOR_8_R: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val ARMOR_8_R: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
    * Ulefone Armor_9
@@ -260,7 +260,7 @@ public object Ulefone {
   /**
    * Ulefone Armor_X8_R
    */
-  public const val ARMOR_X8_R: String = "spec:width=720px,height=1440px,dpi=320"
+  public const val ARMOR_X8_R: String = "spec:width=1080px,height=1920px,dpi=498"
 
   /**
    * Ulefone Armor_X8i
@@ -298,6 +298,11 @@ public object Ulefone {
   public const val GQ3087: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
+   * Ulefone GQ3103RH2
+   */
+  public const val GQ3103RH2: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
    * Ulefone GQ3106
    */
   public const val GQ3106: String = "spec:width=720px,height=1600px,dpi=320"
@@ -321,6 +326,11 @@ public object Ulefone {
    * Ulefone GQ3290BH1
    */
   public const val GQ3290BH1: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Ulefone GQ3290RH1
+   */
+  public const val GQ3290RH1: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Ulefone GQ3291SH1
@@ -388,9 +398,24 @@ public object Ulefone {
   public const val GQ5011BF1: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
+   * Ulefone GQ5012AF1
+   */
+  public const val GQ5012AF1: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * Ulefone GQ5012BF1
+   */
+  public const val GQ5012BF1: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * Ulefone GQ5013BF2
    */
   public const val GQ5013BF2: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * Ulefone GQ5013TF1
+   */
+  public const val GQ5013TF1: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
    * Ulefone GQ5015AH1
@@ -403,9 +428,24 @@ public object Ulefone {
   public const val GQ5015RH1: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * Ulefone GQ5016BF1
+   */
+  public const val GQ5016BF1: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * Ulefone GQ5016TF1
+   */
+  public const val GQ5016TF1: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
    * Ulefone GQ5017BF3
    */
   public const val GQ5017BF3: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * Ulefone GQ5017BF4
+   */
+  public const val GQ5017BF4: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
    * Ulefone GQ5020BH1
@@ -428,9 +468,19 @@ public object Ulefone {
   public const val GQ5021RH1: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
+   * Ulefone GQ8000BF1
+   */
+  public const val GQ8000BF1: String = "spec:width=1200px,height=1920px,dpi=260"
+
+  /**
    * ulefone MIX_2
    */
   public const val MIX_2: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * Ulefone Note_10
+   */
+  public const val NOTE_10: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Ulefone Note_10P
@@ -460,7 +510,7 @@ public object Ulefone {
   /**
    * Ulefone Note_14
    */
-  public const val NOTE_14: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val NOTE_14: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Ulefone Note_15
@@ -673,6 +723,11 @@ public object Ulefone {
   public const val T816_GQ_ULEFONE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
+   * Ulefone UF0901-1
+   */
+  public const val UF0901_1: String = "spec:width=800px,height=1340px,dpi=280"
+
+  /**
    * Ulefone UF1001_1
    */
   public const val UF1001_1: String = "spec:width=800px,height=1280px,dpi=213"
@@ -681,6 +736,11 @@ public object Ulefone {
    * Ulefone UF1002
    */
   public const val UF1002: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
+   * Ulefone UF1002A-1
+   */
+  public const val UF1002A_1: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Ulefone UF1103

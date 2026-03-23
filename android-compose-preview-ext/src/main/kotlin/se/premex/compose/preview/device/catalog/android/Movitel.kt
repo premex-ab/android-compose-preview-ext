@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=20
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Movitel (20 models).
+ * Device specifications for Movitel (17 models).
  */
 public object Movitel {
   /**
@@ -16,16 +16,6 @@ public object Movitel {
    * Movitel M8419
    */
   public const val M8419: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Movitel M8420
-   */
-  public const val M8420: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Movitel M8421
-   */
-  public const val M8421: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Movitel M8422
@@ -51,11 +41,6 @@ public object Movitel {
    * Movitel M8426
    */
   public const val M8426: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Movitel M9106
-   */
-  public const val M9106: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
    * Movitel M9107

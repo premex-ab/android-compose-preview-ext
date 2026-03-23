@@ -1,6 +1,6 @@
 # Jvc Devices
 
-Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.android.Jvc`
+Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.android.Jvc`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,18 +11,22 @@ Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.
 | bangbae | BANGBAE | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.BANGBAE)` |
 | bruno | BRUNO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.BRUNO)` |
 | Cunda | CUNDA | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Jvc.CUNDA)` |
+| dongmae | DONGMAE | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.DONGMAE)` |
+| eleonas | ELEONAS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Jvc.ELEONAS)` |
 | elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Jvc.ELLINIKO)` |
 | expo | EXPO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.EXPO)` |
 | gangbyeon | GANGBYEON | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.GANGBYEON)` |
 | guandu | GUANDU | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.GUANDU)` |
 | hongkong | HONGKONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.HONGKONG)` |
 | ikebukuro | IKEBUKURO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.IKEBUKURO)` |
+| jagalchi | JAGALCHI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Jvc.JAGALCHI)` |
+| kaitak | KAITAK | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.KAITAK)` |
 | komagome | KOMAGOME | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.KOMAGOME)` |
 | lavender | LAVENDER | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.LAVENDER)` |
+| maniatika | MANIATIKA | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Jvc.MANIATIKA)` |
 | martin | MARTIN | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.MARTIN)` |
 | mateo | MATEO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.MATEO)` |
 | mountbaker | MOUNTBAKER | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.MOUNTBAKER)` |
-| mstarnapoli_atsc | MSTARNAPOLI_ATSC | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.MSTARNAPOLI_ATSC)` |
 | osaki | OSAKI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.OSAKI)` |
 | pioneer | PIONEER | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.PIONEER)` |
 | R1 | R1 | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.R1)` |
@@ -31,6 +35,7 @@ Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.
 | sadang | SADANG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.SADANG)` |
 | samseong | SAMSEONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.SAMSEONG)` |
 | seocho | SEOCHO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.SEOCHO)` |
+| sepolia | SEPOLIA | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Jvc.SEPOLIA)` |
 | shilin | SHILIN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.SHILIN)` |
 | sindorim | SINDORIM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Jvc.SINDORIM)` |
 | stanford | STANFORD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Jvc.STANFORD)` |

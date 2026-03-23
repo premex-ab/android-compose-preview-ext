@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=138
+// Generated manufacturer device catalog. Devices=135
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DOCOMO (138 models).
+ * Device specifications for DOCOMO (135 models).
  */
 public object Docomo {
   /**
@@ -93,11 +93,6 @@ public object Docomo {
   public const val F03K: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * DOCOMO F04E
-   */
-  public const val F04E: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * DOCOMO F04G
    */
   public const val F04G: String = "spec:width=1440px,height=2560px,dpi=640"
@@ -138,11 +133,6 @@ public object Docomo {
   public const val F06E: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * DOCOMO F07E
-   */
-  public const val F07E: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * DOCOMO F09E
    */
   public const val F09E: String = "spec:width=540px,height=960px,dpi=240"
@@ -178,11 +168,6 @@ public object Docomo {
   public const val JERID: String = "spec:width=1080px,height=2280px,dpi=480"
 
   /**
-   * DOCOMO N-02E
-   */
-  public const val N_02E: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * DOCOMO N-03E
    */
   public const val N_03E: String = "spec:width=720px,height=1184px,dpi=320"
@@ -196,11 +181,6 @@ public object Docomo {
    * DOCOMO N-06E
    */
   public const val N_06E: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * DOCOMO N-07D
-   */
-  public const val N_07D: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * docomo P-01K
@@ -413,6 +393,11 @@ public object Docomo {
   public const val SH_53E: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
+   * DOCOMO SH-53F
+   */
+  public const val SH_53F: String = "spec:width=1080px,height=2340px,dpi=440"
+
+  /**
    * DOCOMO SH-54B
    */
   public const val SH_54B: String = "spec:width=1080px,height=2432px,dpi=440"
@@ -436,11 +421,6 @@ public object Docomo {
    * DOCOMO SH04E
    */
   public const val SH04E: String = "spec:width=720px,height=1184px,dpi=320"
-
-  /**
-   * DOCOMO SH09D
-   */
-  public const val SH09D: String = "spec:width=720px,height=1184px,dpi=320"
 
   /**
    * DOCOMO SH10D
@@ -676,6 +656,11 @@ public object Docomo {
    * docomo SO-52E
    */
   public const val SO_52E: String = "spec:width=1080px,height=2520px,dpi=450"
+
+  /**
+   * docomo SO-52F
+   */
+  public const val SO_52F: String = "spec:width=1080px,height=2340px,dpi=420"
 
   /**
    * docomo SO-53B

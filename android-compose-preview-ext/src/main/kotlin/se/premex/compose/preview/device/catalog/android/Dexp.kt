@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=121
+// Generated manufacturer device catalog. Devices=116
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DEXP (121 models).
+ * Device specifications for DEXP (116 models).
  */
 public object Dexp {
   /**
@@ -153,11 +153,6 @@ public object Dexp {
   public const val BL350: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * DEXP BS155
-   */
-  public const val BS155: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * DEXP C18
    */
   public const val C18: String = "spec:width=800px,height=1280px,dpi=213"
@@ -175,7 +170,7 @@ public object Dexp {
   /**
    * DEXP D11
    */
-  public const val D11: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val D11: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DEXP D21
@@ -186,11 +181,6 @@ public object Dexp {
    * DEXP E110
    */
   public const val E110: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * DEXP E170
-   */
-  public const val E170: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * DEXP E180
@@ -366,11 +356,6 @@ public object Dexp {
    * DEXP L310i
    */
   public const val L310I: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * DEXP L370i
-   */
-  public const val L370I: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * DEXP L470
@@ -591,16 +576,6 @@ public object Dexp {
    * DEXP VA110
    */
   public const val VA110: String = "spec:width=800px,height=1280px,dpi=240"
-
-  /**
-   * DEXP VA210
-   */
-  public const val VA210: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * DEXP XL150
-   */
-  public const val XL150: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * DEXP Z250

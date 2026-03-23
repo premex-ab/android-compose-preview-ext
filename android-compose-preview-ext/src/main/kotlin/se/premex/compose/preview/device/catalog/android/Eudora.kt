@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Eudora (3 models).
+ * Device specifications for EUDORA (4 models).
  */
 public object Eudora {
   /**
@@ -21,4 +21,9 @@ public object Eudora {
    * Eudora E65Pro
    */
   public const val E65PRO: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * EUDORA EUDORA_E55_PLUS
+   */
+  public const val EUDORA_E55_PLUS: String = "spec:width=480px,height=960px,dpi=240"
 }

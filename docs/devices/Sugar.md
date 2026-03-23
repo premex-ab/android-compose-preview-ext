@@ -5,7 +5,7 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | i9071ae | I9071AE | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Sugar.I9071AE)` |
-| p101bs | P101BS | 1080x2220 | 440 | `spec:width=1080px,height=2220px,dpi=440` | `@Preview(device = Sugar.P101BS)` |
+| p101bs | P101BS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sugar.P101BS)` |
 | p201as | P201AS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Sugar.P201AS)` |
 | p210cn | P210CN | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Sugar.P210CN)` |
 | p312cs_tw | P312CS_TW | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Sugar.P312CS_TW)` |

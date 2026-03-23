@@ -1,6 +1,6 @@
 # Jren Devices
 
-Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.android.Jren`
+Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Jren`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,9 +8,12 @@ Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.
 | J10PLUS | J10PLUS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Jren.J10PLUS)` |
 | J10PRO | J10PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.J10PRO)` |
 | J11 | J11 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.J11)` |
+| J11A | J11A | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.J11A)` |
 | J11PLUS | J11PLUS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Jren.J11PLUS)` |
+| J12NEW | J12NEW | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Jren.J12NEW)` |
 | JR-802 | JR_802 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Jren.JR_802)` |
 | JR-J10A | JR_J10A | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.JR_J10A)` |
+| JR-J10B | JR_J10B | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.JR_J10B)` |
 | JR-J71 | JR_J71 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.JR_J71)` |
 | JR-J8 | JR_J8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Jren.JR_J8)` |
 | JR_J1063 | JR_J1063 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Jren.JR_J1063)` |

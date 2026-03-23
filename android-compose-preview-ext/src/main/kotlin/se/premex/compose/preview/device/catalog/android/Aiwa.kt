@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=44
+// Generated manufacturer device catalog. Devices=53
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for AIWA (44 models).
+ * Device specifications for AIWA (53 models).
  */
 public object Aiwa {
   /**
@@ -13,9 +13,9 @@ public object Aiwa {
   public const val AIWA_A81: String = "spec:width=800px,height=1280px,dpi=300"
 
   /**
-   * aiwa AIWA_Z9_PLUS
+   * AIWA alimos
    */
-  public const val AIWA_Z9_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * AIWA AW-P
@@ -43,14 +43,39 @@ public object Aiwa {
   public const val AWM539: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
+   * AIWA AWM999
+   */
+  public const val AWM999: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * AIWA AWPM106A
+   */
+  public const val AWPM106A: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * AIWA AWPM108T
+   */
+  public const val AWPM108T: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * AIWA AWPP101AW
    */
   public const val AWPP101AW: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * AIWA AWPP86AW
+   */
+  public const val AWPP86AW: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * AIWA AWT10H
    */
   public const val AWT10H: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * AIWA elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * AIWA hongkong
@@ -121,6 +146,21 @@ public object Aiwa {
    * aiwa JA4-TBA1101
    */
   public const val JA4_TBA1101: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * aiwa JA5-TBA1011
+   */
+  public const val JA5_TBA1011: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
+   * aiwa JA5-TBA1012
+   */
+  public const val JA5_TBA1012: String = "spec:width=800px,height=1280px,dpi=200"
+
+  /**
+   * aiwa JA5-TBA1102
+   */
+  public const val JA5_TBA1102: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * AIWA lavender
@@ -221,6 +261,11 @@ public object Aiwa {
    * AIWA TABLETAWTH801
    */
   public const val TABLETAWTH801: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * AIWA umeda
+   */
+  public const val UMEDA: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * AIWA zhongshan

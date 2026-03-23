@@ -1,6 +1,6 @@
 # Honeywell Devices
 
-Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.android.Honeywell`
+Total: **58** devices. Import: `import se.premex.compose.preview.device.catalog.android.Honeywell`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,6 +14,7 @@ Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.
 | CN80-L0-N | CN80_L0_N | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Honeywell.CN80_L0_N)` |
 | CN80-L1-C | CN80_L1_C | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Honeywell.CN80_L1_C)` |
 | CT30P | CT30P | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Honeywell.CT30P)` |
+| CT32 | CT32 | 1080x2160 | 400 | `spec:width=1080px,height=2160px,dpi=400` | `@Preview(device = Honeywell.CT32)` |
 | CT37 | CT37 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Honeywell.CT37)` |
 | CT40-L0-C | CT40_L0_C | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honeywell.CT40_L0_C)` |
 | CT40-L0-CA | CT40_L0_CA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honeywell.CT40_L0_CA)` |
@@ -32,6 +33,7 @@ Total: **56** devices. Import: `import se.premex.compose.preview.device.catalog.
 | CT60-L0-C | CT60_L0_C | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honeywell.CT60_L0_C)` |
 | CT60-L1-C | CT60_L1_C | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honeywell.CT60_L1_C)` |
 | CT70 | CT70 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Honeywell.CT70)` |
+| CW45 | CW45 | 720x1280 | 220 | `spec:width=720px,height=1280px,dpi=220` | `@Preview(device = Honeywell.CW45)` |
 | EDA10A | EDA10A | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Honeywell.EDA10A)` |
 | EDA40-1 | EDA40_1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Honeywell.EDA40_1)` |
 | eda50-011 | EDA50_011 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Honeywell.EDA50_011)` |

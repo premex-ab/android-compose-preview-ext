@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=93
+// Generated manufacturer device catalog. Devices=77
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Micromax (93 models).
+ * Device specifications for Micromax (77 models).
  */
 public object Micromax {
   /**
@@ -78,11 +78,6 @@ public object Micromax {
   public const val E453: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Micromax E455
-   */
-  public const val E455: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Micromax E460
    */
   public const val E460: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -120,7 +115,7 @@ public object Micromax {
   /**
    * Micromax E6746
    */
-  public const val E6746: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val E6746: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * Micromax E7446
@@ -143,11 +138,6 @@ public object Micromax {
   public const val E7746: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
-   * Micromax F666
-   */
-  public const val F666: String = "spec:width=720px,height=1280px,dpi=160"
-
-  /**
    * Micromax HS1
    */
   public const val HS1: String = "spec:width=720px,height=1440px,dpi=320"
@@ -168,11 +158,6 @@ public object Micromax {
   public const val IKEBUKURO: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
-   * Micromax N4120
-   */
-  public const val N4120: String = "spec:width=540px,height=1132px,dpi=240"
-
-  /**
    * Micromax N8301
    */
   public const val N8301: String = "spec:width=720px,height=1500px,dpi=320"
@@ -186,11 +171,6 @@ public object Micromax {
    * Micromax P290
    */
   public const val P290: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Micromax P470
-   */
-  public const val P470: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Micromax P480
@@ -218,19 +198,9 @@ public object Micromax {
   public const val P702: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Micromax P70221
-   */
-  public const val P70221: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Micromax P802
    */
   public const val P802: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * Micromax Q300
-   */
-  public const val Q300: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
    * Micromax Q301
@@ -241,11 +211,6 @@ public object Micromax {
    * Micromax Q326
    */
   public const val Q326: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Micromax Q334
-   */
-  public const val Q334: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Micromax Q338
@@ -266,16 +231,6 @@ public object Micromax {
    * Micromax Q349
    */
   public const val Q349: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Micromax Q350
-   */
-  public const val Q350: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Micromax Q3502
-   */
-  public const val Q3502: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Micromax Q354
@@ -308,11 +263,6 @@ public object Micromax {
   public const val Q385: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Micromax Q386
-   */
-  public const val Q386: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Micromax Q391
    */
   public const val Q391: String = "spec:width=540px,height=960px,dpi=240"
@@ -321,16 +271,6 @@ public object Micromax {
    * Micromax Q392
    */
   public const val Q392: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Micromax Q394
-   */
-  public const val Q394: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Micromax Q4001
-   */
-  public const val Q4001: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Micromax Q4002
@@ -361,11 +301,6 @@ public object Micromax {
    * Micromax Q413
    */
   public const val Q413: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Micromax Q416
-   */
-  public const val Q416: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Micromax Q417
@@ -428,16 +363,6 @@ public object Micromax {
   public const val Q440: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Micromax Q452
-   */
-  public const val Q452: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Micromax Q4601
-   */
-  public const val Q4601: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Micromax Q461
    */
   public const val Q461: String = "spec:width=720px,height=1280px,dpi=320"
@@ -456,11 +381,6 @@ public object Micromax {
    * Micromax Q465
    */
   public const val Q465: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Micromax Q479
-   */
-  public const val Q479: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * MICROMAX R2

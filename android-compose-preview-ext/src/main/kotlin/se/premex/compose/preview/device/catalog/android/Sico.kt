@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Sico (12 models).
+ * Device specifications for sico (8 models).
  */
 public object Sico {
   /**
@@ -13,29 +13,9 @@ public object Sico {
   public const val DIAMOND_2: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Sico Infinity
-   */
-  public const val INFINITY: String = "spec:width=480px,height=996px,dpi=240"
-
-  /**
-   * Sico InfinityMax
-   */
-  public const val INFINITYMAX: String = "spec:width=480px,height=996px,dpi=240"
-
-  /**
    * SICO Mega2
    */
   public const val MEGA2: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * SICO Mega2max
-   */
-  public const val MEGA2MAX: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * SICO More_3
-   */
-  public const val MORE_3: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * SICO Nile_X
@@ -65,5 +45,5 @@ public object Sico {
   /**
    * SICO Topaz
    */
-  public const val TOPAZ: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val TOPAZ: String = "spec:width=720px,height=1280px,dpi=300"
 }

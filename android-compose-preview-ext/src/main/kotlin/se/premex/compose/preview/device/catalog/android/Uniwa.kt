@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for UNIWA (5 models).
+ * Device specifications for UNIWA (6 models).
  */
 public object Uniwa {
   /**
@@ -18,9 +18,14 @@ public object Uniwa {
   public const val M101: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
+   * UNIWA UNIWA_F400
+   */
+  public const val UNIWA_F400: String = "spec:width=480px,height=800px,dpi=220"
+
+  /**
    * UNIWA UNIWA_W888
    */
-  public const val UNIWA_W888: String = "spec:width=1080px,height=2340px,dpi=480"
+  public const val UNIWA_W888: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
    * UNIWA UNIWA_W999

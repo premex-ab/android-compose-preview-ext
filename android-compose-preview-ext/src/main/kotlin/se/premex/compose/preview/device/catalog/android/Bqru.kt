@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=145
+// Generated manufacturer device catalog. Devices=140
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BQru (145 models).
+ * Device specifications for BQru (140 models).
  */
 public object Bqru {
   /**
@@ -158,11 +158,6 @@ public object Bqru {
   public const val BQRU_4501G: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * BQru BQru-4583
-   */
-  public const val BQRU_4583: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * BQru BQru-5000G
    */
   public const val BQRU_5000G: String = "spec:width=480px,height=854px,dpi=240"
@@ -203,11 +198,6 @@ public object Bqru {
   public const val BQRU_5035: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * BQru BQru-5037
-   */
-  public const val BQRU_5037: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * BQru BQru-5044
    */
   public const val BQRU_5044: String = "spec:width=720px,height=1280px,dpi=320"
@@ -231,11 +221,6 @@ public object Bqru {
    * BQru BQru-5058
    */
   public const val BQRU_5058: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * BQru BQru-5060
-   */
-  public const val BQRU_5060: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * BQru BQru-5060L
@@ -676,16 +661,6 @@ public object Bqru {
    * BQru BQru_5012L
    */
   public const val BQRU_5012L: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BQru BQru_5033
-   */
-  public const val BQRU_5033: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * BQru BQru_5057
-   */
-  public const val BQRU_5057: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * BQru BQru_5059

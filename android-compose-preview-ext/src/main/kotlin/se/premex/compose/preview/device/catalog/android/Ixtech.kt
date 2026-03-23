@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for IXTECH (4 models).
+ * Device specifications for ixtech (3 models).
  */
 public object Ixtech {
-  /**
-   * IXTECH IX1011
-   */
-  public const val IX1011: String = "spec:width=800px,height=1280px,dpi=160"
-
   /**
    * IXTECH IX1012
    */

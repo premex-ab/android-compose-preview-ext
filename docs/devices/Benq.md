@@ -1,14 +1,18 @@
 # Benq Devices
 
-Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.android.Benq`
+Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Benq`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| alimos | ALIMOS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Benq.ALIMOS)` |
+| coonoor | COONOOR | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Benq.COONOOR)` |
 | himalaya | HIMALAYA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Benq.HIMALAYA)` |
 | ikebukuro | IKEBUKURO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Benq.IKEBUKURO)` |
+| khandala | KHANDALA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Benq.KHANDALA)` |
 | laoshan | LAOSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Benq.LAOSHAN)` |
 | longshan | LONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Benq.LONGSHAN)` |
 | RE04_series | RE04_SERIES | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Benq.RE04_SERIES)` |
+| RE04A_series | RE04A_SERIES | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Benq.RE04A_SERIES)` |
 | RE04N_series | RE04N_SERIES | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Benq.RE04N_SERIES)` |
 | redwood | REDWOOD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Benq.REDWOOD)` |
 | RM6504 | RM6504 | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Benq.RM6504)` |

@@ -1,6 +1,6 @@
 # Stylo Devices
 
-Total: **66** devices. Import: `import se.premex.compose.preview.device.catalog.android.Stylo`
+Total: **63** devices. Import: `import se.premex.compose.preview.device.catalog.android.Stylo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -18,16 +18,16 @@ Total: **66** devices. Import: `import se.premex.compose.preview.device.catalog.
 | BOLD_PLUS | BOLD_PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Stylo.BOLD_PLUS)` |
 | BRAVE | BRAVE | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Stylo.BRAVE)` |
 | Comet | COMET | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Stylo.COMET)` |
-| CPE91 | CPE91 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.CPE91)` |
 | DQR22 | DQR22 | 480x960 | 220 | `spec:width=480px,height=960px,dpi=220` | `@Preview(device = Stylo.DQR22)` |
 | DVK82_Mercury | DVK82_MERCURY | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Stylo.DVK82_MERCURY)` |
 | DVK83 | DVK83 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Stylo.DVK83)` |
 | DVK87_Orion_8_Tab | DVK87_ORION_8_TAB | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Stylo.DVK87_ORION_8_TAB)` |
 | DVK88 | DVK88 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Stylo.DVK88)` |
 | Energy | ENERGY | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Stylo.ENERGY)` |
+| EOA39_STYLO_AXIS | EOA39_STYLO_AXIS | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Stylo.EOA39_STYLO_AXIS)` |
+| Future | FUTURE | 540x1200 | 240 | `spec:width=540px,height=1200px,dpi=240` | `@Preview(device = Stylo.FUTURE)` |
 | Galaxy | GALAXY | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Stylo.GALAXY)` |
 | INKOSI | INKOSI | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Stylo.INKOSI)` |
-| INKOSI_PRO | INKOSI_PRO | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Stylo.INKOSI_PRO)` |
 | INKOSI_PRO_4G | INKOSI_PRO_4G | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Stylo.INKOSI_PRO_4G)` |
 | INKULU_PRO | INKULU_PRO | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Stylo.INKULU_PRO)` |
 | Ithemba | ITHEMBA | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.ITHEMBA)` |
@@ -44,7 +44,6 @@ Total: **66** devices. Import: `import se.premex.compose.preview.device.catalog.
 | RAIN | RAIN | 480x854 | 180 | `spec:width=480px,height=854px,dpi=180` | `@Preview(device = Stylo.RAIN)` |
 | S40_LIFE | S40_LIFE | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Stylo.S40_LIFE)` |
 | S40_Vida | S40_VIDA | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Stylo.S40_VIDA)` |
-| S40_Vino | S40_VINO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Stylo.S40_VINO)` |
 | S40_VISTA | S40_VISTA | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Stylo.S40_VISTA)` |
 | S49_ECO | S49_ECO | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.S49_ECO)` |
 | S49_MONO | S49_MONO | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.S49_MONO)` |
@@ -52,7 +51,6 @@ Total: **66** devices. Import: `import se.premex.compose.preview.device.catalog.
 | S55_Nova | S55_NOVA | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.S55_NOVA)` |
 | S56_MIST | S56_MIST | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Stylo.S56_MIST)` |
 | S64_ALPHA | S64_ALPHA | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Stylo.S64_ALPHA)` |
-| S9_TOPAZ | S9_TOPAZ | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.S9_TOPAZ)` |
 | SATURN | SATURN | 480x1014 | 180 | `spec:width=480px,height=1014px,dpi=180` | `@Preview(device = Stylo.SATURN)` |
 | Sirius_Plus_Tab_10 | SIRIUS_PLUS_TAB_10 | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Stylo.SIRIUS_PLUS_TAB_10)` |
 | SIRIUS_TAB_8 | SIRIUS_TAB_8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Stylo.SIRIUS_TAB_8)` |
@@ -67,8 +65,7 @@ Total: **66** devices. Import: `import se.premex.compose.preview.device.catalog.
 | UNIVERSE | UNIVERSE | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Stylo.UNIVERSE)` |
 | V | V | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Stylo.V)` |
 | VERTIGO | VERTIGO | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Stylo.VERTIGO)` |
-| VS571 | VS571 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Stylo.VS571)` |
-| X5 | X5 | 540x1200 | 240 | `spec:width=540px,height=1200px,dpi=240` | `@Preview(device = Stylo.X5)` |
+| X5 | X5 | 600x1280 | 280 | `spec:width=600px,height=1280px,dpi=280` | `@Preview(device = Stylo.X5)` |
 | X7 | X7 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Stylo.X7)` |
 
 <!-- Generated automatically. Do not edit manually. -->

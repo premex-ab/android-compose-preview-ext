@@ -1,6 +1,6 @@
 # Veidoo Devices
 
-Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.android.Veidoo`
+Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Veidoo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -15,7 +15,6 @@ Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.
 | T80 | T80 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Veidoo.T80)` |
 | T80_PLUS | T80_PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Veidoo.T80_PLUS)` |
 | V88 | V88 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Veidoo.V88)` |
-| VEIDOO_T30_PLUS | VEIDOO_T30_PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Veidoo.VEIDOO_T30_PLUS)` |
 | VEIDOO_T40 | VEIDOO_T40 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Veidoo.VEIDOO_T40)` |
 | VEIDOO_T40_EEA | VEIDOO_T40_EEA | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Veidoo.VEIDOO_T40_EEA)` |
 | VEIDOO_T50 | VEIDOO_T50 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Veidoo.VEIDOO_T50)` |

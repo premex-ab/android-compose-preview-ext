@@ -1,6 +1,6 @@
 # Ziovo Devices
 
-Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ziovo`
+Total: **18** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ziovo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,6 +14,10 @@ Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Z128_US | Z128_US | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Ziovo.Z128_US)` |
 | Z138_EEA | Z138_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Ziovo.Z138_EEA)` |
 | Z138_US | Z138_US | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Ziovo.Z138_US)` |
+| Z138_V_EEA | Z138_V_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ziovo.Z138_V_EEA)` |
+| Z138_V_US | Z138_V_US | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ziovo.Z138_V_US)` |
+| Z168-EU | Z168_EU | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ziovo.Z168_EU)` |
+| Z168-W | Z168_W | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ziovo.Z168_W)` |
 | Z168_EEA | Z168_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Ziovo.Z168_EEA)` |
 | Z168_U_EEA | Z168_U_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Ziovo.Z168_U_EEA)` |
 | Z168_U_US | Z168_U_US | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Ziovo.Z168_U_US)` |

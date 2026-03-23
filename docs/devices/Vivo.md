@@ -1,6 +1,6 @@
 # Vivo Devices
 
-Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog.android.Vivo`
+Total: **483** devices. Import: `import se.premex.compose.preview.device.catalog.android.Vivo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -16,7 +16,7 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | 1719 | _1719 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo._1719)` |
 | 1723 | _1723 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Vivo._1723)` |
 | 1723CF | _1723CF | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Vivo._1723CF)` |
-| 1724 | _1724 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo._1724)` |
+| 1724 | _1724 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Vivo._1724)` |
 | 1725 | _1725 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Vivo._1725)` |
 | 1726 | _1726 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Vivo._1726)` |
 | 1727 | _1727 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Vivo._1727)` |
@@ -63,6 +63,7 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | 1921 | _1921 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo._1921)` |
 | 1930 | _1930 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Vivo._1930)` |
 | 1933 | _1933 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Vivo._1933)` |
+| 1935 | _1935 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo._1935)` |
 | 1937 | _1937 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo._1937)` |
 | 1938 | _1938 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Vivo._1938)` |
 | 1951 | _1951 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo._1951)` |
@@ -130,11 +131,11 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD1502A | PD1502A | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1502A)` |
 | PD1502L | PD1502L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1502L)` |
 | PD1503 | PD1503 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1503)` |
-| PD1505 | PD1505 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1505)` |
+| PD1505 | PD1505 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Vivo.PD1505)` |
 | PD1510 | PD1510 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Vivo.PD1510)` |
 | PD1515A | PD1515A | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1515A)` |
 | PD1515BA | PD1515BA | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1515BA)` |
-| PD1522A | PD1522A | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Vivo.PD1522A)` |
+| PD1522A | PD1522A | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Vivo.PD1522A)` |
 | PD1523 | PD1523 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1523)` |
 | PD1524 | PD1524 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1524)` |
 | PD1524B | PD1524B | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1524B)` |
@@ -152,13 +153,13 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD1628 | PD1628 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1628)` |
 | PD1635 | PD1635 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1635)` |
 | PD1705 | PD1705 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1705)` |
-| PD1708 | PD1708 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1708)` |
+| PD1708 | PD1708 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Vivo.PD1708)` |
 | PD1708C | PD1708C | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Vivo.PD1708C)` |
 | PD1709 | PD1709 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1709)` |
 | PD1709F_EX | PD1709F_EX | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Vivo.PD1709F_EX)` |
 | PD1710 | PD1710 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1710)` |
 | PD1710F_EX | PD1710F_EX | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Vivo.PD1710F_EX)` |
-| PD1718 | PD1718 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1718)` |
+| PD1718 | PD1718 | 1080x2160 | 428 | `spec:width=1080px,height=2160px,dpi=428` | `@Preview(device = Vivo.PD1718)` |
 | PD1721 | PD1721 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1721)` |
 | PD1728 | PD1728 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1728)` |
 | PD1728UD | PD1728UD | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1728UD)` |
@@ -166,7 +167,7 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD1730C | PD1730C | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1730C)` |
 | PD1730D | PD1730D | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1730D)` |
 | PD1730E | PD1730E | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1730E)` |
-| PD1730G | PD1730G | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Vivo.PD1730G)` |
+| PD1730G | PD1730G | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Vivo.PD1730G)` |
 | PD1731 | PD1731 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1731)` |
 | PD1731C | PD1731C | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1731C)` |
 | PD1731D | PD1731D | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1731D)` |
@@ -185,7 +186,7 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD1814 | PD1814 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1814)` |
 | PD1816 | PD1816 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1816)` |
 | PD1818 | PD1818 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1818)` |
-| PD1818B | PD1818B | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Vivo.PD1818B)` |
+| PD1818B | PD1818B | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Vivo.PD1818B)` |
 | PD1818C | PD1818C | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Vivo.PD1818C)` |
 | PD1818E | PD1818E | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Vivo.PD1818E)` |
 | PD1818G | PD1818G | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Vivo.PD1818G)` |
@@ -205,15 +206,15 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD1922 | PD1922 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo.PD1922)` |
 | PD1923 | PD1923 | 1080x2256 | 440 | `spec:width=1080px,height=2256px,dpi=440` | `@Preview(device = Vivo.PD1923)` |
 | PD1924 | PD1924 | 1080x2256 | 440 | `spec:width=1080px,height=2256px,dpi=440` | `@Preview(device = Vivo.PD1924)` |
-| PD1928 | PD1928 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1928)` |
+| PD1928 | PD1928 | 720x1544 | 320 | `spec:width=720px,height=1544px,dpi=320` | `@Preview(device = Vivo.PD1928)` |
 | PD1930 | PD1930 | 720x1544 | 320 | `spec:width=720px,height=1544px,dpi=320` | `@Preview(device = Vivo.PD1930)` |
 | PD1932 | PD1932 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Vivo.PD1932)` |
-| PD1934 | PD1934 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1934)` |
+| PD1934 | PD1934 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1934)` |
 | PD1936 | PD1936 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo.PD1936)` |
 | PD1936G | PD1936G | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo.PD1936G)` |
 | PD1938 | PD1938 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Vivo.PD1938)` |
 | PD1941 | PD1941 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Vivo.PD1941)` |
-| PD1945 | PD1945 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.PD1945)` |
+| PD1945 | PD1945 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.PD1945)` |
 | PD1950 | PD1950 | 1080x2256 | 440 | `spec:width=1080px,height=2256px,dpi=440` | `@Preview(device = Vivo.PD1950)` |
 | PD1955 | PD1955 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Vivo.PD1955)` |
 | PD1962 | PD1962 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Vivo.PD1962)` |
@@ -370,6 +371,7 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD2435 | PD2435 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Vivo.PD2435)` |
 | PD2436 | PD2436 | 2200x2480 | 520 | `spec:width=2200px,height=2480px,dpi=520` | `@Preview(device = Vivo.PD2436)` |
 | PD2442 | PD2442 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Vivo.PD2442)` |
+| PD2443 | PD2443 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Vivo.PD2443)` |
 | PD2444 | PD2444 | 720x1608 | 320 | `spec:width=720px,height=1608px,dpi=320` | `@Preview(device = Vivo.PD2444)` |
 | PD2445 | PD2445 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Vivo.PD2445)` |
 | PD2452 | PD2452 | 1260x2800 | 560 | `spec:width=1260px,height=2800px,dpi=560` | `@Preview(device = Vivo.PD2452)` |
@@ -379,6 +381,13 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | PD2463 | PD2463 | 1440x3168 | 480 | `spec:width=1440px,height=3168px,dpi=480` | `@Preview(device = Vivo.PD2463)` |
 | PD2464 | PD2464 | 1260x2800 | 480 | `spec:width=1260px,height=2800px,dpi=480` | `@Preview(device = Vivo.PD2464)` |
 | PD2465 | PD2465 | 1216x2640 | 560 | `spec:width=1216px,height=2640px,dpi=560` | `@Preview(device = Vivo.PD2465)` |
+| PD2502 | PD2502 | 1260x2800 | 560 | `spec:width=1260px,height=2800px,dpi=560` | `@Preview(device = Vivo.PD2502)` |
+| PD2505 | PD2505 | 1440x3168 | 480 | `spec:width=1440px,height=3168px,dpi=480` | `@Preview(device = Vivo.PD2505)` |
+| PD2506 | PD2506 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Vivo.PD2506)` |
+| PD2507 | PD2507 | 1260x2800 | 560 | `spec:width=1260px,height=2800px,dpi=560` | `@Preview(device = Vivo.PD2507)` |
+| PD2509 | PD2509 | 1216x2640 | 560 | `spec:width=1216px,height=2640px,dpi=560` | `@Preview(device = Vivo.PD2509)` |
+| PD2516 | PD2516 | 1260x2800 | 560 | `spec:width=1260px,height=2800px,dpi=560` | `@Preview(device = Vivo.PD2516)` |
+| PD2520 | PD2520 | 1440x3168 | 480 | `spec:width=1440px,height=3168px,dpi=480` | `@Preview(device = Vivo.PD2520)` |
 | V1 | V1 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.V1)` |
 | V2144 | V2144 | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Vivo.V2144)` |
 | V2145 | V2145 | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Vivo.V2145)` |
@@ -445,16 +454,26 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | V2429 | V2429 | 2200x2480 | 480 | `spec:width=2200px,height=2480px,dpi=480` | `@Preview(device = Vivo.V2429)` |
 | V2430 | V2430 | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Vivo.V2430)` |
 | V2434 | V2434 | 720x1608 | 300 | `spec:width=720px,height=1608px,dpi=300` | `@Preview(device = Vivo.V2434)` |
+| V2434L | V2434L | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Vivo.V2434L)` |
 | V2436 | V2436 | 720x1608 | 300 | `spec:width=720px,height=1608px,dpi=300` | `@Preview(device = Vivo.V2436)` |
 | V2437 | V2437 | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Vivo.V2437)` |
 | V2439 | V2439 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2439)` |
 | V2440 | V2440 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2440)` |
 | V2441 | V2441 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2441)` |
 | V2446 | V2446 | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Vivo.V2446)` |
+| V2455 | V2455 | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Vivo.V2455)` |
 | V2502 | V2502 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2502)` |
 | V2503 | V2503 | 1216x2640 | 480 | `spec:width=1216px,height=2640px,dpi=480` | `@Preview(device = Vivo.V2503)` |
 | V2504 | V2504 | 1260x2800 | 420 | `spec:width=1260px,height=2800px,dpi=420` | `@Preview(device = Vivo.V2504)` |
 | V2506 | V2506 | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Vivo.V2506)` |
+| V2511 | V2511 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2511)` |
+| V2513 | V2513 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2513)` |
+| V2514 | V2514 | 1260x2800 | 520 | `spec:width=1260px,height=2800px,dpi=520` | `@Preview(device = Vivo.V2514)` |
+| V2515 | V2515 | 1216x2640 | 480 | `spec:width=1216px,height=2640px,dpi=480` | `@Preview(device = Vivo.V2515)` |
+| V2520 | V2520 | 720x1608 | 300 | `spec:width=720px,height=1608px,dpi=300` | `@Preview(device = Vivo.V2520)` |
+| V2521 | V2521 | 1080x2408 | 440 | `spec:width=1080px,height=2408px,dpi=440` | `@Preview(device = Vivo.V2521)` |
+| V2521L | V2521L | 720x1608 | 300 | `spec:width=720px,height=1608px,dpi=300` | `@Preview(device = Vivo.V2521L)` |
+| V2529 | V2529 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Vivo.V2529)` |
 | V3 | V3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.V3)` |
 | V3Max | V3MAX | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.V3MAX)` |
 | X5Pro | X5PRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vivo.X5PRO)` |
@@ -463,7 +482,6 @@ Total: **465** devices. Import: `import se.premex.compose.preview.device.catalog
 | Y15S | Y15S | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Vivo.Y15S)` |
 | Y21 | Y21 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Vivo.Y21)` |
 | Y21L | Y21L | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Vivo.Y21L)` |
-| Y27 | Y27 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.Y27)` |
 | Y31 | Y31 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vivo.Y31)` |
 | Y31i | Y31I | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Vivo.Y31I)` |
 | Y31L | Y31L | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Vivo.Y31L)` |

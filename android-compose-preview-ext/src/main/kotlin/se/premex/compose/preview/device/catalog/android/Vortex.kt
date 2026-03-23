@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=34
+// Generated manufacturer device catalog. Devices=35
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Vortex (34 models).
+ * Device specifications for Vortex (35 models).
  */
 public object Vortex {
   /**
@@ -98,6 +98,11 @@ public object Vortex {
   public const val J24: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * Vortex JK68
+   */
+  public const val JK68: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * Vortex MUV
    */
   public const val MUV: String = "spec:width=480px,height=854px,dpi=240"
@@ -145,7 +150,7 @@ public object Vortex {
   /**
    * VORTEX VORTEX_HD65_Choice
    */
-  public const val VORTEX_HD65_CHOICE: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val VORTEX_HD65_CHOICE: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * VORTEX VortexV20

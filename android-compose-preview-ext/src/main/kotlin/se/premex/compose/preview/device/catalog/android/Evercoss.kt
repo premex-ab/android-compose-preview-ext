@@ -1,31 +1,16 @@
-// Generated manufacturer device catalog. Devices=38
+// Generated manufacturer device catalog. Devices=30
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for EVERCOSS (38 models).
+ * Device specifications for EVERCOSS (30 models).
  */
 public object Evercoss {
-  /**
-   * EVERCOSS AT8B
-   */
-  public const val AT8B: String = "spec:width=768px,height=1024px,dpi=240"
-
-  /**
-   * EVERCOSS EVERCOSS_A75B
-   */
-  public const val EVERCOSS_A75B: String = "spec:width=480px,height=854px,dpi=240"
-
   /**
    * EVERCOSS EVERCOSS_M40A
    */
   public const val EVERCOSS_M40A: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * EVERCOSS EVERCOSS_M50_MAX
-   */
-  public const val EVERCOSS_M50_MAX: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * EVERCOSS EVERCOSS_M50_STAR
@@ -143,39 +128,14 @@ public object Evercoss {
   public const val S6: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
-   * EVERCOSS U50A
-   */
-  public const val U50A: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * EVERCOSS U50A_MAX
    */
   public const val U50A_MAX: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * EVERCOSS U50A_PLUS
-   */
-  public const val U50A_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * EVERCOSS U50C
-   */
-  public const val U50C: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * EVERCOSS U55
-   */
-  public const val U55: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * EVERCOSS U6B
    */
   public const val U6B: String = "spec:width=540px,height=1132px,dpi=240"
-
-  /**
-   * EVERCOSS U6C
-   */
-  public const val U6C: String = "spec:width=600px,height=1280px,dpi=280"
 
   /**
    * EVERCOSS U70B

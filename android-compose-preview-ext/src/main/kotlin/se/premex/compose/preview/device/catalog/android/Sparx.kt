@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=27
+// Generated manufacturer device catalog. Devices=28
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Sparx (27 models).
+ * Device specifications for Sparx (28 models).
  */
 public object Sparx {
+  /**
+   * Sparx Edge_20
+   */
+  public const val EDGE_20: String = "spec:width=1080px,height=2400px,dpi=480"
+
   /**
    * Sparx NEO5
    */

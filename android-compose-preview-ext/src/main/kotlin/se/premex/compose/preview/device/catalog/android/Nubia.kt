@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=97
+// Generated manufacturer device catalog. Devices=109
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for nubia (97 models).
+ * Device specifications for nubia (109 models).
  */
 public object Nubia {
   /**
@@ -16,6 +16,11 @@ public object Nubia {
    * nubia K99J
    */
   public const val K99J: String = "spec:width=1200px,height=1920px,dpi=260"
+
+  /**
+   * nubia K99O
+   */
+  public const val K99O: String = "spec:width=1200px,height=1920px,dpi=260"
 
   /**
    * nubia nubia_NB1001-UN
@@ -95,7 +100,7 @@ public object Nubia {
   /**
    * nubia NX563J
    */
-  public const val NX563J: String = "spec:width=1080px,height=1920px,dpi=440"
+  public const val NX563J: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * nubia NX569J
@@ -225,7 +230,7 @@ public object Nubia {
   /**
    * nubia NX679J
    */
-  public const val NX679J: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val NX679J: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * nubia NX679J-EEA
@@ -245,7 +250,7 @@ public object Nubia {
   /**
    * nubia NX709J
    */
-  public const val NX709J: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val NX709J: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * nubia NX709J-EEA
@@ -265,7 +270,7 @@ public object Nubia {
   /**
    * nubia NX709S-EEA
    */
-  public const val NX709S_EEA: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val NX709S_EEA: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * nubia NX709S-UN
@@ -275,7 +280,7 @@ public object Nubia {
   /**
    * nubia NX729J
    */
-  public const val NX729J: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val NX729J: String = "spec:width=1116px,height=2480px,dpi=480"
 
   /**
    * nubia NX729J-EEA
@@ -328,6 +333,16 @@ public object Nubia {
   public const val P606F20: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * nubia P606F21
+   */
+  public const val P606F21: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * nubia P615F01
+   */
+  public const val P615F01: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * nubia P616F02
    */
   public const val P616F02: String = "spec:width=1080px,height=2400px,dpi=480"
@@ -341,6 +356,16 @@ public object Nubia {
    * nubia P616F05
    */
   public const val P616F05: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * nubia P620F01
+   */
+  public const val P620F01: String = "spec:width=900px,height=1940px,dpi=400"
+
+  /**
+   * nubia P620F02
+   */
+  public const val P620F02: String = "spec:width=900px,height=1940px,dpi=400"
 
   /**
    * nubia P678F01
@@ -371,6 +396,11 @@ public object Nubia {
    * nubia P720F11
    */
   public const val P720F11: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * nubia P720F11UG
+   */
+  public const val P720F11UG: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * nubia P720F12
@@ -463,6 +493,11 @@ public object Nubia {
   public const val PQ83P01: String = "spec:width=1800px,height=2880px,dpi=400"
 
   /**
+   * nubia PQ83P02
+   */
+  public const val PQ83P02: String = "spec:width=1800px,height=2880px,dpi=400"
+
+  /**
    * nubia PQ84A01
    */
   public const val PQ84A01: String = "spec:width=1216px,height=2688px,dpi=520"
@@ -473,9 +508,19 @@ public object Nubia {
   public const val PQ84A02: String = "spec:width=1216px,height=2688px,dpi=520"
 
   /**
+   * nubia PQ84P01
+   */
+  public const val PQ84P01: String = "spec:width=1504px,height=2400px,dpi=360"
+
+  /**
    * nubia Z6255
    */
   public const val Z6255: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * nubia Z6305R
+   */
+  public const val Z6305R: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * nubia Z6657
@@ -488,7 +533,22 @@ public object Nubia {
   public const val Z6701S: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
+   * nubia Z7305O
+   */
+  public const val Z7305O: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * nubia Z8900
+   */
+  public const val Z8900: String = "spec:width=1188px,height=2790px,dpi=520"
+
+  /**
    * nubia Z8900S
    */
   public const val Z8900S: String = "spec:width=1188px,height=2790px,dpi=520"
+
+  /**
+   * nubia Z9900S
+   */
+  public const val Z9900S: String = "spec:width=2200px,height=2480px,dpi=520"
 }

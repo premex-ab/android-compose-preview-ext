@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Arcelik (8 models).
+ * Device specifications for Arcelik (11 models).
  */
 public object Arcelik {
+  /**
+   * ARCELIK aberdeen
+   */
+  public const val ABERDEEN: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * ARCELIK akropoli
    */
@@ -18,6 +23,11 @@ public object Arcelik {
   public const val ARCELIK_EU: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * ARCELIK awaza
+   */
+  public const val AWAZA: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
    * ARCELIK kunyang
    */
   public const val KUNYANG: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -26,6 +36,11 @@ public object Arcelik {
    * Arcelik martin
    */
   public const val MARTIN: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * ARCELIK millbrae
+   */
+  public const val MILLBRAE: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * ARCELIK R4

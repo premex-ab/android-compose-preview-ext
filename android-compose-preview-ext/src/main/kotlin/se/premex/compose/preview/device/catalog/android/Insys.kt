@@ -28,14 +28,14 @@ public object Insys {
   public const val HN2_M16Q: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * INSYS IH8-S559
-   */
-  public const val IH8_S559: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * INSYS IH9-L614
    */
   public const val IH9_L614: String = "spec:width=720px,height=1520px,dpi=280"
+
+  /**
+   * INSYS KP1_S10
+   */
+  public const val KP1_S10: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * INSYS WH2-9832

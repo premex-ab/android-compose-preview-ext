@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for g-mee (6 models).
+ * Device specifications for g-mee (5 models).
  */
 public object GMee {
   /**
@@ -31,9 +31,4 @@ public object GMee {
    * g-mee G-mee_Play_Pro
    */
   public const val G_MEE_PLAY_PRO: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * g-mee play2
-   */
-  public const val PLAY2: String = "spec:width=480px,height=854px,dpi=240"
 }

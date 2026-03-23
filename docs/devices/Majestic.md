@@ -8,7 +8,6 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | JOE | JOE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Majestic.JOE)` |
 | lasalle | LASALLE | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Majestic.LASALLE)` |
 | TAB-714 | TAB_714 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Majestic.TAB_714)` |
-| TAB-746 | TAB_746 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Majestic.TAB_746)` |
 | TAB_611_3G | TAB_611_3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Majestic.TAB_611_3G)` |
 | TAB_711_4G | TAB_711_4G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Majestic.TAB_711_4G)` |
 | TAB_720_PLUS | TAB_720_PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Majestic.TAB_720_PLUS)` |
@@ -24,5 +23,6 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TAB_916_4G | TAB_916_4G | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Majestic.TAB_916_4G)` |
 | TAB_918_PRO_4G | TAB_918_PRO_4G | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Majestic.TAB_918_PRO_4G)` |
 | TAB_920_PLUS_4G | TAB_920_PLUS_4G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Majestic.TAB_920_PLUS_4G)` |
+| TAB_922_MAX | TAB_922_MAX | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Majestic.TAB_922_MAX)` |
 
 <!-- Generated automatically. Do not edit manually. -->

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=74
+// Generated manufacturer device catalog. Devices=68
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for sky (74 models).
+ * Device specifications for sky (68 models).
  */
 public object Sky {
   /**
@@ -36,11 +36,6 @@ public object Sky {
    * sky ELIBI_55
    */
   public const val ELIBI_55: String = "spec:width=720px,height=1440px,dpi=360"
-
-  /**
-   * SKY Elite_4T_GT
-   */
-  public const val ELITE_4T_GT: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * SKY Elite_A6
@@ -78,11 +73,6 @@ public object Sky {
   public const val ELITE_H55: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * sky Elite_H55_HD
-   */
-  public const val ELITE_H55_HD: String = "spec:width=720px,height=1440px,dpi=360"
-
-  /**
    * sky Elite_H5_FW
    */
   public const val ELITE_H5_FW: String = "spec:width=480px,height=854px,dpi=240"
@@ -101,21 +91,6 @@ public object Sky {
    * Sky Elite_L55
    */
   public const val ELITE_L55: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * SKY Elite_M45
-   */
-  public const val ELITE_M45: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * SKY Elite_M5Plus_PA
-   */
-  public const val ELITE_M5PLUS_PA: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * SKY Elite_M5Plus_SAL
-   */
-  public const val ELITE_M5PLUS_SAL: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Sky Elite_N55
@@ -366,11 +341,6 @@ public object Sky {
    * SKY SKY_Prestige
    */
   public const val SKY_PRESTIGE: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * SKY SKY_Prestige2
-   */
-  public const val SKY_PRESTIGE2: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * SKY SKY_VISION2_Plus

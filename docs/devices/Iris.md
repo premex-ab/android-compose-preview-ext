@@ -6,11 +6,11 @@ Total: **28** devices. Import: `import se.premex.compose.preview.device.catalog.
 |------|----------|------------|-----|-------------|---------------|
 | anaheim | ANAHEIM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Iris.ANAHEIM)` |
 | beomil | BEOMIL | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Iris.BEOMIL)` |
+| eleonas | ELEONAS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Iris.ELEONAS)` |
 | G7060 | G7060 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Iris.G7060)` |
 | G7100 | G7100 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Iris.G7100)` |
 | G8060 | G8060 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Iris.G8060)` |
 | IS2PLUS | IS2PLUS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Iris.IS2PLUS)` |
-| IS2S | IS2S | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Iris.IS2S)` |
 | IS6Plus | IS6PLUS | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Iris.IS6PLUS)` |
 | N30 | N30 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Iris.N30)` |
 | NEXT_P | NEXT_P | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Iris.NEXT_P)` |

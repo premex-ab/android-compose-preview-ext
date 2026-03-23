@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MITO (14 models).
+ * Device specifications for MITO (12 models).
  */
 public object Mito {
-  /**
-   * MITO A21
-   */
-  public const val A21: String = "spec:width=480px,height=960px,dpi=240"
-
   /**
    * Mito A67
    */
@@ -21,11 +16,6 @@ public object Mito {
    * MITO mateo
    */
   public const val MATEO: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * MITO MITO_A16
-   */
-  public const val MITO_A16: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * MITO MITO_A17
@@ -75,5 +65,5 @@ public object Mito {
   /**
    * MITO T85
    */
-  public const val T85: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val T85: String = "spec:width=600px,height=1024px,dpi=160"
 }

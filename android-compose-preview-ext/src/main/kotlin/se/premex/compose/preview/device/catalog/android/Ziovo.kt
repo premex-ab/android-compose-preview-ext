@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=18
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ZIOVO (14 models).
+ * Device specifications for ZIOVO (18 models).
  */
 public object Ziovo {
   /**
@@ -56,6 +56,26 @@ public object Ziovo {
    * ZIOVO Z138_US
    */
   public const val Z138_US: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ZIOVO Z138_V_EEA
+   */
+  public const val Z138_V_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * ZIOVO Z138_V_US
+   */
+  public const val Z138_V_US: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * ZIOVO Z168-EU
+   */
+  public const val Z168_EU: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * ZIOVO Z168-W
+   */
+  public const val Z168_W: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * ZIOVO Z168_EEA

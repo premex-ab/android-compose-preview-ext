@@ -1,6 +1,6 @@
 # XView Devices
 
-Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.android.XView`
+Total: **26** devices. Import: `import se.premex.compose.preview.device.catalog.android.XView`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -21,7 +21,6 @@ Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.
 | SAPPHIRE_HDLT | SAPPHIRE_HDLT | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = XView.SAPPHIRE_HDLT)` |
 | Tablet10_X_View | TABLET10_X_VIEW | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = XView.TABLET10_X_VIEW)` |
 | Tablet7_X_View | TABLET7_X_VIEW | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = XView.TABLET7_X_VIEW)` |
-| TitaniumColors | TITANIUMCOLORS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = XView.TITANIUMCOLORS)` |
 | TitaniumHD | TITANIUMHD | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = XView.TITANIUMHD)` |
 | X-ViewGamer10 | X_VIEWGAMER10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = XView.X_VIEWGAMER10)` |
 | X-ViewTablet10 | X_VIEWTABLET10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = XView.X_VIEWTABLET10)` |

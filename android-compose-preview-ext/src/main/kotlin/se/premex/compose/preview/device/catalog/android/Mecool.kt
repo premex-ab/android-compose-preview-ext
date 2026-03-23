@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MECOOL (16 models).
+ * Device specifications for MECOOL (17 models).
  */
 public object Mecool {
   /**
@@ -71,6 +71,11 @@ public object Mecool {
    * MECOOL LAS
    */
   public const val LAS: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * MECOOL ROM
+   */
+  public const val ROM: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * MECOOL YDA

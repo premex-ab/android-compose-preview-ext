@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ALT (4 models).
+ * Device specifications for alt (5 models).
  */
 public object Alt {
+  /**
+   * alt L1
+   */
+  public const val L1: String = "spec:width=720px,height=1640px,dpi=320"
+
   /**
    * ALT odin
    */

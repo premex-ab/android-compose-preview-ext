@@ -1,6 +1,6 @@
 # Bqru Devices
 
-Total: **145** devices. Import: `import se.premex.compose.preview.device.catalog.android.Bqru`
+Total: **140** devices. Import: `import se.premex.compose.preview.device.catalog.android.Bqru`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -34,7 +34,6 @@ Total: **145** devices. Import: `import se.premex.compose.preview.device.catalog
 | BQru-4030G | BQRU_4030G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bqru.BQRU_4030G)` |
 | BQru-4500 | BQRU_4500 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_4500)` |
 | BQru-4501G | BQRU_4501G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_4501G)` |
-| BQru-4583 | BQRU_4583 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_4583)` |
 | BQru-5000G | BQRU_5000G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5000G)` |
 | BQru-5002G | BQRU_5002G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5002G)` |
 | BQru-5007L | BQRU_5007L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5007L)` |
@@ -43,13 +42,11 @@ Total: **145** devices. Import: `import se.premex.compose.preview.device.catalog
 | BQru-5016G | BQRU_5016G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5016G)` |
 | BQru-5031G | BQRU_5031G | 720x1280 | 300 | `spec:width=720px,height=1280px,dpi=300` | `@Preview(device = Bqru.BQRU_5031G)` |
 | BQru-5035 | BQRU_5035 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5035)` |
-| BQru-5037 | BQRU_5037 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5037)` |
 | BQru-5044 | BQRU_5044 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5044)` |
 | BQru-5045L | BQRU_5045L | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bqru.BQRU_5045L)` |
 | BQru-5047L | BQRU_5047L | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5047L)` |
 | BQru-5056 | BQRU_5056 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Bqru.BQRU_5056)` |
 | BQru-5058 | BQRU_5058 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5058)` |
-| BQru-5060 | BQRU_5060 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5060)` |
 | BQru-5060L | BQRU_5060L | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5060L)` |
 | BQru-5060L_9832E | BQRU_5060L_9832E | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bqru.BQRU_5060L_9832E)` |
 | BQru-5201 | BQRU_5201 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5201)` |
@@ -138,8 +135,6 @@ Total: **145** devices. Import: `import se.premex.compose.preview.device.catalog
 | BQru_5005L | BQRU_5005L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5005L)` |
 | BQru_5009L | BQRU_5009L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5009L)` |
 | BQru_5012L | BQRU_5012L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5012L)` |
-| BQru_5033 | BQRU_5033 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5033)` |
-| BQru_5057 | BQRU_5057 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5057)` |
 | BQru_5059 | BQRU_5059 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5059)` |
 | BQru_5504 | BQRU_5504 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5504)` |
 | BQru_5510 | BQRU_5510 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bqru.BQRU_5510)` |

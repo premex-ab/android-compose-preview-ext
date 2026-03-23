@@ -1,6 +1,6 @@
 # Multilaser Devices
 
-Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog.android.Multilaser`
+Total: **137** devices. Import: `import se.premex.compose.preview.device.catalog.android.Multilaser`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -35,7 +35,7 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | ML-SO07-M7S-PLUS | ML_SO07_M7S_PLUS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Multilaser.ML_SO07_M7S_PLUS)` |
 | ML-SO0C_M10_4G_PRO_PLUS | ML_SO0C_M10_4G_PRO_PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Multilaser.ML_SO0C_M10_4G_PRO_PLUS)` |
 | ML-TI-MS40G | ML_TI_MS40G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Multilaser.ML_TI_MS40G)` |
-| ML-TI-MS50G | ML_TI_MS50G | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Multilaser.ML_TI_MS50G)` |
+| ML-TI-MS50G | ML_TI_MS50G | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Multilaser.ML_TI_MS50G)` |
 | ML-TI-MS50X | ML_TI_MS50X | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Multilaser.ML_TI_MS50X)` |
 | ML-TI-MS80 | ML_TI_MS80 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Multilaser.ML_TI_MS80)` |
 | ML-TI0A-MS60X | ML_TI0A_MS60X | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Multilaser.ML_TI0A_MS60X)` |
@@ -111,7 +111,6 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | MS45S_A6 | MS45S_A6 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Multilaser.MS45S_A6)` |
 | MS50L | MS50L | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Multilaser.MS50L)` |
 | MS50L_4G | MS50L_4G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Multilaser.MS50L_4G)` |
-| MS50S | MS50S | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Multilaser.MS50S)` |
 | MS55M | MS55M | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Multilaser.MS55M)` |
 | MS60 | MS60 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Multilaser.MS60)` |
 | MS60F | MS60F | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Multilaser.MS60F)` |

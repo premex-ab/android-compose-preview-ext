@@ -1,11 +1,10 @@
 # Stg Devices
 
-Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Stg`
+Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Stg`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | STG_A1 | STG_A1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Stg.STG_A1)` |
-| STG_A1_Pro | STG_A1_PRO | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Stg.STG_A1_PRO)` |
 | STG_A2_Pro | STG_A2_PRO | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Stg.STG_A2_PRO)` |
 | STG_B10 | STG_B10 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Stg.STG_B10)` |
 | STG_C10 | STG_C10 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Stg.STG_C10)` |

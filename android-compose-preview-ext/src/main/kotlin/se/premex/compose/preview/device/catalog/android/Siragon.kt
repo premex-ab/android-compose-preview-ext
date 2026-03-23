@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SIRAGON (24 models).
+ * Device specifications for SIRAGON (26 models).
  */
 public object Siragon {
   /**
@@ -16,6 +16,11 @@ public object Siragon {
    * SIRAGON hongkong
    */
   public const val HONGKONG: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * SIRAGON jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * SIRAGON lavender
@@ -91,6 +96,11 @@ public object Siragon {
    * Siragon SP-7050
    */
   public const val SP_7050: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * Siragon SP_6300
+   */
+  public const val SP_6300: String = "spec:width=720px,height=1640px,dpi=480"
 
   /**
    * Siragon SP_7250

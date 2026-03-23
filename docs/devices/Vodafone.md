@@ -1,6 +1,6 @@
 # Vodafone Devices
 
-Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.android.Vodafone`
+Total: **49** devices. Import: `import se.premex.compose.preview.device.catalog.android.Vodafone`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,6 +14,8 @@ Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.
 | smart_grand | SMART_GRAND | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Vodafone.SMART_GRAND)` |
 | Tab7 | TAB7 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Vodafone.TAB7)` |
 | uiw4030vha | UIW4030VHA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Vodafone.UIW4030VHA)` |
+| V_Lite_3 | V_LITE_3 | 720x1480 | 280 | `spec:width=720px,height=1480px,dpi=280` | `@Preview(device = Vodafone.V_LITE_3)` |
+| V_Pro_3 | V_PRO_3 | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Vodafone.V_PRO_3)` |
 | VF-895N | VF_895N | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vodafone.VF_895N)` |
 | VF685 | VF685 | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Vodafone.VF685)` |
 | VF695 | VF695 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Vodafone.VF695)` |
@@ -24,7 +26,6 @@ Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.
 | VFD301 | VFD301 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Vodafone.VFD301)` |
 | VFD320 | VFD320 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Vodafone.VFD320)` |
 | VFD500 | VFD500 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Vodafone.VFD500)` |
-| VFD501 | VFD501 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Vodafone.VFD501)` |
 | VFD502 | VFD502 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Vodafone.VFD502)` |
 | VFD510 | VFD510 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Vodafone.VFD510)` |
 | VFD511 | VFD511 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Vodafone.VFD511)` |

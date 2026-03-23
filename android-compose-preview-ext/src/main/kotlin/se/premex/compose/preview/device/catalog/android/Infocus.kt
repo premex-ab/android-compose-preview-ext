@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=25
+// Generated manufacturer device catalog. Devices=22
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for InFocus (25 models).
+ * Device specifications for InFocus (22 models).
  */
 public object Infocus {
   /**
@@ -21,11 +21,6 @@ public object Infocus {
    * InFocus AA2
    */
   public const val AA2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * InFocus AB2
-   */
-  public const val AB2: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * InFocus AB5
@@ -58,9 +53,9 @@ public object Infocus {
   public const val AY2: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * InFocus D77
+   * InFocus D011
    */
-  public const val D77: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val D011: String = "spec:width=2160px,height=3840px,dpi=420"
 
   /**
    * InFocus FAT
@@ -71,16 +66,6 @@ public object Infocus {
    * InFocus FOT
    */
   public const val FOT: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * InFocus G10
-   */
-  public const val G10: String = "spec:width=768px,height=1280px,dpi=320"
-
-  /**
-   * InFocus G40
-   */
-  public const val G40: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * InFocus G42

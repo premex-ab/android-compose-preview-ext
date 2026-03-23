@@ -1,6 +1,6 @@
 # Allview Devices
 
-Total: **87** devices. Import: `import se.premex.compose.preview.device.catalog.android.Allview`
+Total: **79** devices. Import: `import se.premex.compose.preview.device.catalog.android.Allview`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,8 +14,6 @@ Total: **87** devices. Import: `import se.premex.compose.preview.device.catalog.
 | A30_Plus | A30_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.A30_PLUS)` |
 | A5_Easy | A5_EASY | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Allview.A5_EASY)` |
 | A5_Ready | A5_READY | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Allview.A5_READY)` |
-| A9_Lite | A9_LITE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Allview.A9_LITE)` |
-| A9_Plus | A9_PLUS | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Allview.A9_PLUS)` |
 | AX501Q | AX501Q | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Allview.AX501Q)` |
 | AX503 | AX503 | 600x1024 | 240 | `spec:width=600px,height=1024px,dpi=240` | `@Preview(device = Allview.AX503)` |
 | AX503_Q | AX503_Q | 600x1024 | 240 | `spec:width=600px,height=1024px,dpi=240` | `@Preview(device = Allview.AX503_Q)` |
@@ -40,7 +38,6 @@ Total: **87** devices. Import: `import se.premex.compose.preview.device.catalog.
 | P8_Energy_mini | P8_ENERGY_MINI | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Allview.P8_ENERGY_MINI)` |
 | P8_Life | P8_LIFE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Allview.P8_LIFE)` |
 | P8_PRO | P8_PRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Allview.P8_PRO)` |
-| P9_Energy | P9_ENERGY | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Allview.P9_ENERGY)` |
 | P9_Energy_Lite_2017 | P9_ENERGY_LITE_2017 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Allview.P9_ENERGY_LITE_2017)` |
 | P9_Energy_mini | P9_ENERGY_MINI | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Allview.P9_ENERGY_MINI)` |
 | P9_Energy_S | P9_ENERGY_S | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Allview.P9_ENERGY_S)` |
@@ -49,7 +46,6 @@ Total: **87** devices. Import: `import se.premex.compose.preview.device.catalog.
 | V10_Viper | V10_VIPER | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Allview.V10_VIPER)` |
 | V10_Viper_Lite | V10_VIPER_LITE | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Allview.V10_VIPER_LITE)` |
 | V2_Viper_S | V2_VIPER_S | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Allview.V2_VIPER_S)` |
-| V2_Viper_X_plus | V2_VIPER_X_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Allview.V2_VIPER_X_PLUS)` |
 | V3_Viper | V3_VIPER | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.V3_VIPER)` |
 | V4_Viper | V4_VIPER | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Allview.V4_VIPER)` |
 | V4_Viper_PRO | V4_VIPER_PRO | 640x1352 | 240 | `spec:width=640px,height=1352px,dpi=240` | `@Preview(device = Allview.V4_VIPER_PRO)` |
@@ -62,7 +58,6 @@ Total: **87** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Viva_H1001_LTE | VIVA_H1001_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Allview.VIVA_H1001_LTE)` |
 | Viva_H1002_LTE | VIVA_H1002_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Allview.VIVA_H1002_LTE)` |
 | Viva_H1003_LTE | VIVA_H1003_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Allview.VIVA_H1003_LTE)` |
-| Viva_H701_LTE | VIVA_H701_LTE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Allview.VIVA_H701_LTE)` |
 | Viva_H802_LTE | VIVA_H802_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Allview.VIVA_H802_LTE)` |
 | Viva_Play_804 | VIVA_PLAY_804 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Allview.VIVA_PLAY_804)` |
 | X10_Soul | X10_SOUL | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Allview.X10_SOUL)` |
@@ -73,9 +68,6 @@ Total: **87** devices. Import: `import se.premex.compose.preview.device.catalog.
 | X3_Soul_Style | X3_SOUL_STYLE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Allview.X3_SOUL_STYLE)` |
 | X4_Soul_Infinity_N | X4_SOUL_INFINITY_N | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.X4_SOUL_INFINITY_N)` |
 | X4_Soul_Infinity_NV | X4_SOUL_INFINITY_NV | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.X4_SOUL_INFINITY_NV)` |
-| X4_Soul_Infinity_S | X4_SOUL_INFINITY_S | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.X4_SOUL_INFINITY_S)` |
-| X4_Soul_Infinity_SV | X4_SOUL_INFINITY_SV | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.X4_SOUL_INFINITY_SV)` |
-| X4_Soul_Infinity_Z | X4_SOUL_INFINITY_Z | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Allview.X4_SOUL_INFINITY_Z)` |
 | X4_Soul_Lite | X4_SOUL_LITE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Allview.X4_SOUL_LITE)` |
 | X4_Soul_Mini | X4_SOUL_MINI | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Allview.X4_SOUL_MINI)` |
 | X4_Soul_Plus | X4_SOUL_PLUS | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Allview.X4_SOUL_PLUS)` |

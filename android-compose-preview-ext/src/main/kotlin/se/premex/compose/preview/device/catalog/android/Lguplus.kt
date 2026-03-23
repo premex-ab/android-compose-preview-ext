@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LGUplus (3 models).
+ * Device specifications for LGUplus (4 models).
  */
 public object Lguplus {
   /**
@@ -16,6 +16,11 @@ public object Lguplus {
    * LGUplus uie4057lgu
    */
   public const val UIE4057LGU: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * LGUplus uiy7057lgu
+   */
+  public const val UIY7057LGU: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * LGUplus ute7057lgu

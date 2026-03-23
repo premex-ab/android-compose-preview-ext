@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=65
+// Generated manufacturer device catalog. Devices=66
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SPC (65 models).
+ * Device specifications for SPC (66 models).
  */
 public object Spc {
   /**
@@ -163,6 +163,16 @@ public object Spc {
   public const val GRAVITY_6_11: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * SPC GRAVITY_6_PRO_11
+   */
+  public const val GRAVITY_6_PRO_11: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * SPC GRAVITY_6_PRO_12
+   */
+  public const val GRAVITY_6_PRO_12: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
    * SPC Gravity_Max
    */
   public const val GRAVITY_MAX: String = "spec:width=800px,height=1280px,dpi=213"
@@ -188,11 +198,6 @@ public object Spc {
   public const val L52: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * SPC L52_Pro
-   */
-  public const val L52_PRO: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * SPC L53
    */
   public const val L53: String = "spec:width=720px,height=1280px,dpi=320"
@@ -201,11 +206,6 @@ public object Spc {
    * SPC L56
    */
   public const val L56: String = "spec:width=240px,height=282px,dpi=120"
-
-  /**
-   * SPC L60
-   */
-  public const val L60: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * SPC L60_Pro
@@ -303,11 +303,6 @@ public object Spc {
   public const val SPC_L52X: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * SPC SPC_SMART
-   */
-  public const val SPC_SMART: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * SPC SPC_SMART_LITE
    */
   public const val SPC_SMART_LITE: String = "spec:width=480px,height=960px,dpi=240"
@@ -321,6 +316,16 @@ public object Spc {
    * SPC SPC_SMART_PLUS
    */
   public const val SPC_SMART_PLUS: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * SPC ZEUS_2
+   */
+  public const val ZEUS_2: String = "spec:width=480px,height=854px,dpi=200"
+
+  /**
+   * SPC ZEUS_2_PRO
+   */
+  public const val ZEUS_2_PRO: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
    * SPC ZEUS_4G

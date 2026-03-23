@@ -1,6 +1,6 @@
 # Sbm Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sbm`
+Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sbm`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,12 +10,9 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | 404SC | _404SC | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Sbm._404SC)` |
 | 601LV | _601LV | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sbm._601LV)` |
 | 602LV | _602LV | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Sbm._602LV)` |
-| DM016SH | DM016SH | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sbm.DM016SH)` |
 | e2jps | E2JPS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sbm.E2JPS)` |
 | HWCPN-Q | HWCPN_Q | 1200x1920 | 360 | `spec:width=1200px,height=1920px,dpi=360` | `@Preview(device = Sbm.HWCPN_Q)` |
 | hwfdr | HWFDR | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Sbm.HWFDR)` |
-| hws10231l | HWS10231L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Sbm.HWS10231L)` |
-| msm8974 | MSM8974 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sbm.MSM8974)` |
 | P809F10 | P809F10 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Sbm.P809F10)` |
 | SBM200SH | SBM200SH | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Sbm.SBM200SH)` |
 | SBM203SH | SBM203SH | 720x1184 | 320 | `spec:width=720px,height=1184px,dpi=320` | `@Preview(device = Sbm.SBM203SH)` |

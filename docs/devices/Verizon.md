@@ -1,6 +1,6 @@
 # Verizon Devices
 
-Total: **60** devices. Import: `import se.premex.compose.preview.device.catalog.android.Verizon`
+Total: **59** devices. Import: `import se.premex.compose.preview.device.catalog.android.Verizon`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,7 +12,6 @@ Total: **60** devices. Import: `import se.premex.compose.preview.device.catalog.
 | espresso10vzw | ESPRESSO10VZW | 752x1280 | 160 | `spec:width=752px,height=1280px,dpi=160` | `@Preview(device = Verizon.ESPRESSO10VZW)` |
 | espressovzw | ESPRESSOVZW | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Verizon.ESPRESSOVZW)` |
 | f354 | F354 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Verizon.F354)` |
-| goldenltevzw | GOLDENLTEVZW | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Verizon.GOLDENLTEVZW)` |
 | graceqltevzw | GRACEQLTEVZW | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Verizon.GRACEQLTEVZW)` |
 | gta2xlltevzw | GTA2XLLTEVZW | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Verizon.GTA2XLLTEVZW)` |
 | gtasliteltevzw | GTASLITELTEVZW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Verizon.GTASLITELTEVZW)` |

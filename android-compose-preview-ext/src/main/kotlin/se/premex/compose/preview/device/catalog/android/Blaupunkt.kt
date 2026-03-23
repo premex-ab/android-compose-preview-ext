@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=48
+// Generated manufacturer device catalog. Devices=50
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BLAUPUNKT (48 models).
+ * Device specifications for BLAUPUNKT (50 models).
  */
 public object Blaupunkt {
   /**
@@ -43,11 +43,6 @@ public object Blaupunkt {
   public const val BLAUPUNKT_TX60: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
-   * Blaupunkt BP_6108
-   */
-  public const val BP_6108: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
    * Blaupunkt BP_6110
    */
   public const val BP_6110: String = "spec:width=800px,height=1280px,dpi=160"
@@ -71,6 +66,16 @@ public object Blaupunkt {
    * Blaupunkt capitolhill
    */
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Blaupunkt dongmae
+   */
+  public const val DONGMAE: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
+   * BLAUPUNKT elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Blaupunkt ewha
@@ -116,6 +121,11 @@ public object Blaupunkt {
    * BLAUPUNKT ikebukuro
    */
   public const val IKEBUKURO: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * BLAUPUNKT jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * BLAUPUNKT JFK

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=21
+// Generated manufacturer device catalog. Devices=23
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HEADWOLF (21 models).
+ * Device specifications for HEADWOLF (23 models).
  */
 public object Headwolf {
   /**
@@ -31,6 +31,11 @@ public object Headwolf {
    * HEADWOLF F7
    */
   public const val F7: String = "spec:width=1600px,height=2560px,dpi=320"
+
+  /**
+   * HEADWOLF F8
+   */
+  public const val F8: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * HEADWOLF Fpad1
@@ -65,7 +70,7 @@ public object Headwolf {
   /**
    * HEADWOLF Hpad2
    */
-  public const val HPAD2: String = "spec:width=800px,height=1280px,dpi=213"
+  public const val HPAD2: String = "spec:width=1200px,height=2000px,dpi=280"
 
   /**
    * HEADWOLF Hpad3
@@ -96,6 +101,11 @@ public object Headwolf {
    * HEADWOLF W6A
    */
   public const val W6A: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * HEADWOLF W6B
+   */
+  public const val W6B: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * HEADWOLF W7

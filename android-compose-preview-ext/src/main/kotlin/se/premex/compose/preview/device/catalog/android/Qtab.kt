@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for QTab (7 models).
+ * Device specifications for QTab (6 models).
  */
 public object Qtab {
   /**
@@ -26,11 +26,6 @@ public object Qtab {
    * QTab V5_Plus
    */
   public const val V5_PLUS: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
-   * QTab V6_Metal
-   */
-  public const val V6_METAL: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
    * QTab V7_LTE

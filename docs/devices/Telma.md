@@ -1,10 +1,9 @@
 # Telma Devices
 
-Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.Telma`
+Total: **8** devices. Import: `import se.premex.compose.preview.device.catalog.android.Telma`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| EGO_plus | EGO_PLUS | 480x996 | 240 | `spec:width=480px,height=996px,dpi=240` | `@Preview(device = Telma.EGO_PLUS)` |
 | IFeel_Max_4G | IFEEL_MAX_4G | 480x854 | 212 | `spec:width=480px,height=854px,dpi=212` | `@Preview(device = Telma.IFEEL_MAX_4G)` |
 | S_Max | S_MAX | 720x1520 | 300 | `spec:width=720px,height=1520px,dpi=300` | `@Preview(device = Telma.S_MAX)` |
 | Telma_F1_Max_4G | TELMA_F1_MAX_4G | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Telma.TELMA_F1_MAX_4G)` |

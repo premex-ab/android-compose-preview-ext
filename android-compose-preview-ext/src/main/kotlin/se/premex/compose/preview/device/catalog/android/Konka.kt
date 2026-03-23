@@ -8,6 +8,11 @@ import kotlin.String
  */
 public object Konka {
   /**
+   * KONKA aalter
+   */
+  public const val AALTER: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
    * KONKA bandra
    */
   public const val BANDRA: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -16,6 +21,11 @@ public object Konka {
    * KONKA capitolhill
    */
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * KONKA clara
+   */
+  public const val CLARA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * KONKA KC516
@@ -36,11 +46,6 @@ public object Konka {
    * KONKA keoneae
    */
   public const val KEONEAE: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * KONKA KM7012BK
-   */
-  public const val KM7012BK: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * KONKA lasalle
@@ -76,11 +81,6 @@ public object Konka {
    * KONKA RU1
    */
   public const val RU1: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * KONKA SE1
-   */
-  public const val SE1: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * KONKA SE2

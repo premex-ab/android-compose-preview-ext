@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BouyguesTelecom (3 models).
+ * Device specifications for BouyguesTelecom (4 models).
  */
 public object Bouyguestelecom {
+  /**
+   * BouyguesTelecom HMB2013CW22
+   */
+  public const val HMB2013CW22: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * BouyguesTelecom HMB4213H
    */

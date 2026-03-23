@@ -10,5 +10,5 @@ public object Tvt {
   /**
    * TVT TVT-T108
    */
-  public const val TVT_T108: String = "spec:width=1200px,height=1920px,dpi=300"
+  public const val TVT_T108: String = "spec:width=1200px,height=1920px,dpi=320"
 }

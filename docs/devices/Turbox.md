@@ -1,10 +1,17 @@
-# Turbox Devices
+# TurboX Devices
 
-Total: **2** devices. Import: `import se.premex.compose.preview.device.catalog.android.Turbox`
+Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.TurboX`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| Aqua_II | AQUA_II | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Turbox.AQUA_II)` |
-| Mercury | MERCURY | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Turbox.MERCURY)` |
+| A4 | A4 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = TurboX.A4)` |
+| Aqua | AQUA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = TurboX.AQUA)` |
+| Aqua_II | AQUA_II | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = TurboX.AQUA_II)` |
+| Calltab2GB10 | CALLTAB2GB10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = TurboX.CALLTAB2GB10)` |
+| Fire | FIRE | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = TurboX.FIRE)` |
+| Fire_II_WiFi | FIRE_II_WIFI | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = TurboX.FIRE_II_WIFI)` |
+| Mercury | MERCURY | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = TurboX.MERCURY)` |
+| tamachi | TAMACHI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = TurboX.TAMACHI)` |
+| yeongdeungpo | YEONGDEUNGPO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = TurboX.YEONGDEUNGPO)` |
 
 <!-- Generated automatically. Do not edit manually. -->

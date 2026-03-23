@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for F2 (5 models).
+ * Device specifications for F2 (4 models).
  */
 public object F2 {
   /**
@@ -13,19 +13,14 @@ public object F2 {
   public const val C8FINGER: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * F2 F80s_plus
+   * F2 I8_PRO
    */
-  public const val F80S_PLUS: String = "spec:width=480px,height=854px,dpi=240"
+  public const val I8_PRO: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
    * F2 i8_ROKR
    */
   public const val I8_ROKR: String = "spec:width=480px,height=960px,dpi=220"
-
-  /**
-   * F2 LT5216
-   */
-  public const val LT5216: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * F2 Z8POCKET

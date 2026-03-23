@@ -1,6 +1,6 @@
 # Zebra Devices
 
-Total: **76** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zebra`
+Total: **79** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zebra`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,6 +11,7 @@ Total: **76** devices. Import: `import se.premex.compose.preview.device.catalog.
 | EC50 | EC50 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.EC50)` |
 | EC55 | EC55 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.EC55)` |
 | EM45 | EM45 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Zebra.EM45)` |
+| ET401L0 | ET401L0 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Zebra.ET401L0)` |
 | ET40L | ET40L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET40L)` |
 | ET40S | ET40S | 800x1280 | 220 | `spec:width=800px,height=1280px,dpi=220` | `@Preview(device = Zebra.ET40S)` |
 | ET45L | ET45L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Zebra.ET45L)` |
@@ -35,11 +36,13 @@ Total: **76** devices. Import: `import se.premex.compose.preview.device.catalog.
 | MC3300xC | MC3300XC | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC3300XC)` |
 | MC33C | MC33C | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC33C)` |
 | MC3400 | MC3400 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC3400)` |
+| MC3450 | MC3450 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC3450)` |
 | MC93 | MC93 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC93)` |
 | MC93C | MC93C | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC93C)` |
 | MC9400 | MC9400 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC9400)` |
 | MC9450 | MC9450 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.MC9450)` |
 | PS20JP | PS20JP | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.PS20JP)` |
+| PS30Jx | PS30JX | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Zebra.PS30JX)` |
 | TC15 | TC15 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Zebra.TC15)` |
 | TC20KB | TC20KB | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC20KB)` |
 | TC20RD | TC20RD | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Zebra.TC20RD)` |

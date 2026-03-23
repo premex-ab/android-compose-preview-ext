@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Byybuo (12 models).
+ * Device specifications for Byybuo (14 models).
  */
 public object Byybuo {
   /**
@@ -18,6 +18,11 @@ public object Byybuo {
   public const val A10_L: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * Byybuo A10_M_US
+   */
+  public const val A10_M_US: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * BYYBUO BYYBUO_SmartPad_A10
    */
   public const val BYYBUO_SMARTPAD_A10: String = "spec:width=800px,height=1280px,dpi=213"
@@ -26,6 +31,11 @@ public object Byybuo {
    * BYYBUO BYYBUO_SmartPad_T10
    */
   public const val BYYBUO_SMARTPAD_T10: String = "spec:width=1200px,height=1920px,dpi=320"
+
+  /**
+   * Byybuo E220_M_US
+   */
+  public const val E220_M_US: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Byybuo SmartPad_A10_EU

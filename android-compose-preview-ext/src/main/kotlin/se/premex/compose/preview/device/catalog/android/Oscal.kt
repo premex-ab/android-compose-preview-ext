@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=49
+// Generated manufacturer device catalog. Devices=55
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for OSCAL (49 models).
+ * Device specifications for OSCAL (55 models).
  */
 public object Oscal {
   /**
@@ -148,6 +148,11 @@ public object Oscal {
   public const val PAD_10_RU: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
+   * OSCAL Pad_30_WiFi
+   */
+  public const val PAD_30_WIFI: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * OSCAL Pad_5
    */
   public const val PAD_5: String = "spec:width=800px,height=1340px,dpi=213"
@@ -198,6 +203,11 @@ public object Oscal {
   public const val PAD_90: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * OSCAL Pad_90_Pro
+   */
+  public const val PAD_90_PRO: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * OSCAL PILOT_1
    */
   public const val PILOT_1: String = "spec:width=720px,height=1604px,dpi=320"
@@ -206,6 +216,11 @@ public object Oscal {
    * OSCAL PILOT_2
    */
   public const val PILOT_2: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * OSCAL PILOT_3
+   */
+  public const val PILOT_3: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
    * OSCAL S60
@@ -238,6 +253,16 @@ public object Oscal {
   public const val SPIDER8: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
+   * OSCAL SPIDER_10
+   */
+  public const val SPIDER_10: String = "spec:width=1200px,height=1920px,dpi=260"
+
+  /**
+   * OSCAL TANK_1
+   */
+  public const val TANK_1: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
    * OSCAL Tiger10
    */
   public const val TIGER10: String = "spec:width=720px,height=1612px,dpi=320"
@@ -251,4 +276,9 @@ public object Oscal {
    * OSCAL TIGER_13
    */
   public const val TIGER_13: String = "spec:width=720px,height=1604px,dpi=320"
+
+  /**
+   * OSCAL TIGER_8
+   */
+  public const val TIGER_8: String = "spec:width=720px,height=1640px,dpi=320"
 }

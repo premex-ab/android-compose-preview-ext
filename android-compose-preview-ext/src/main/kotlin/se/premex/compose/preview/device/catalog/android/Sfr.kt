@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SFR (5 models).
+ * Device specifications for SFR (4 models).
  */
 public object Sfr {
   /**
@@ -26,9 +26,4 @@ public object Sfr {
    * SFR DV8945-KFS
    */
   public const val DV8945_KFS: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * SFR msm8916_32
-   */
-  public const val MSM8916_32: String = "spec:width=1080px,height=1920px,dpi=480"
 }

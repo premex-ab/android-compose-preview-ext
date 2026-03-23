@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=20
+// Generated manufacturer device catalog. Devices=21
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KRONO (20 models).
+ * Device specifications for KRONO (21 models).
  */
 public object Krono {
   /**
@@ -36,6 +36,11 @@ public object Krono {
    * KRONO NET_ALPHA
    */
   public const val NET_ALPHA: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * KRONO NET_G
+   */
+  public const val NET_G: String = "spec:width=800px,height=1280px,dpi=196"
 
   /**
    * KRONO NET_HIT

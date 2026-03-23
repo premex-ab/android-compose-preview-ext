@@ -10,5 +10,5 @@ public object Aogo {
   /**
    * AoGo AoGo1
    */
-  public const val AOGO1: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val AOGO1: String = "spec:width=600px,height=1024px,dpi=160"
 }

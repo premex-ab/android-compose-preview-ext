@@ -8,6 +8,11 @@ import kotlin.String
  */
 public object Yosatoo {
   /**
+   * YosaToo K15
+   */
+  public const val K15: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * YosaToo Y10
    */
   public const val Y10: String = "spec:width=800px,height=1280px,dpi=213"
@@ -15,10 +20,5 @@ public object Yosatoo {
   /**
    * YosaToo Y101
    */
-  public const val Y101: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * YosaToo Y102
-   */
-  public const val Y102: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val Y101: String = "spec:width=600px,height=1024px,dpi=160"
 }

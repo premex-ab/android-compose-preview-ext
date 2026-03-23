@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Azeyou (13 models).
+ * Device specifications for Azeyou (15 models).
  */
 public object Azeyou {
   /**
@@ -68,7 +68,17 @@ public object Azeyou {
   public const val AT1202J: String = "spec:width=1200px,height=2000px,dpi=280"
 
   /**
+   * Azeyou F8
+   */
+  public const val F8: String = "spec:width=800px,height=1340px,dpi=213"
+
+  /**
    * Azeyou M17QF27A
    */
   public const val M17QF27A: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * Azeyou M17T11
+   */
+  public const val M17T11: String = "spec:width=1200px,height=1920px,dpi=280"
 }

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Odea (6 models).
+ * Device specifications for Odea (7 models).
  */
 public object Odea {
   /**
@@ -26,6 +26,11 @@ public object Odea {
    * Odea A12_ROW
    */
   public const val A12_ROW: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * Odea A13
+   */
+  public const val A13: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * Odea S11_EEA

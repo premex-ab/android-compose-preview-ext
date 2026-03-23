@@ -5,7 +5,6 @@ Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | Model_3 | MODEL_3 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Sunmax.MODEL_3)` |
-| Model_6 | MODEL_6 | 720x1612 | 300 | `spec:width=720px,height=1612px,dpi=300` | `@Preview(device = Sunmax.MODEL_6)` |
 | Model_6_4G | MODEL_6_4G | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Sunmax.MODEL_6_4G)` |
 | Model_6_Pro | MODEL_6_PRO | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Sunmax.MODEL_6_PRO)` |
 | Model_6_pro_4G | MODEL_6_PRO_4G | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Sunmax.MODEL_6_PRO_4G)` |
@@ -17,6 +16,7 @@ Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Model_One | MODEL_ONE | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Sunmax.MODEL_ONE)` |
 | Model_S | MODEL_S | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Sunmax.MODEL_S)` |
 | Model_S_4G | MODEL_S_4G | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Sunmax.MODEL_S_4G)` |
+| Model_S_Ultra_4G | MODEL_S_ULTRA_4G | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Sunmax.MODEL_S_ULTRA_4G)` |
 | Model_T | MODEL_T | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Sunmax.MODEL_T)` |
 | Model_T1 | MODEL_T1 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Sunmax.MODEL_T1)` |
 | Model_T2 | MODEL_T2 | 480x854 | 180 | `spec:width=480px,height=854px,dpi=180` | `@Preview(device = Sunmax.MODEL_T2)` |

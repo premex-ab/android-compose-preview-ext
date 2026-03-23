@@ -15,7 +15,7 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | N601 | N601 | 720x1528 | 280 | `spec:width=720px,height=1528px,dpi=280` | `@Preview(device = Noblex.N601)` |
 | NOBLEX_B30 | NOBLEX_B30 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Noblex.NOBLEX_B30)` |
 | NOBLEX_N52 | NOBLEX_N52 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Noblex.NOBLEX_N52)` |
-| NOBLEX_N62 | NOBLEX_N62 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Noblex.NOBLEX_N62)` |
+| NOBLEX_N62 | NOBLEX_N62 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Noblex.NOBLEX_N62)` |
 | R3 | R3 | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Noblex.R3)` |
 | shinjuku | SHINJUKU | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Noblex.SHINJUKU)` |
 | songshan | SONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Noblex.SONGSHAN)` |

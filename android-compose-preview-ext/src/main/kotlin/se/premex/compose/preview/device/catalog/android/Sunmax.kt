@@ -13,11 +13,6 @@ public object Sunmax {
   public const val MODEL_3: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
-   * SUNMAX Model_6
-   */
-  public const val MODEL_6: String = "spec:width=720px,height=1612px,dpi=300"
-
-  /**
    * SUNMAX Model_6_4G
    */
   public const val MODEL_6_4G: String = "spec:width=720px,height=1600px,dpi=300"
@@ -71,6 +66,11 @@ public object Sunmax {
    * SUNMAX Model_S_4G
    */
   public const val MODEL_S_4G: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * SUNMAX Model_S_Ultra_4G
+   */
+  public const val MODEL_S_ULTRA_4G: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
    * SUNMAX Model_T

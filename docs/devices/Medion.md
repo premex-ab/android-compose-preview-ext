@@ -1,6 +1,6 @@
 # Medion Devices
 
-Total: **51** devices. Import: `import se.premex.compose.preview.device.catalog.android.Medion`
+Total: **50** devices. Import: `import se.premex.compose.preview.device.catalog.android.Medion`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -52,7 +52,6 @@ Total: **51** devices. Import: `import se.premex.compose.preview.device.catalog.
 | S1032X | S1032X | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Medion.S1032X)` |
 | S1035X | S1035X | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Medion.S1035X)` |
 | S5004 | S5004 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Medion.S5004)` |
-| S9714 | S9714 | 752x1280 | 160 | `spec:width=752px,height=1280px,dpi=160` | `@Preview(device = Medion.S9714)` |
 | X1030X | X1030X | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Medion.X1030X)` |
 | X1031X | X1031X | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Medion.X1031X)` |
 

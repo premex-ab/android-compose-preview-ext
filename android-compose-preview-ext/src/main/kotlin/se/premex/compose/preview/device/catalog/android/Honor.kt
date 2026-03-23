@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=128
+// Generated manufacturer device catalog. Devices=136
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HONOR (128 models).
+ * Device specifications for HONOR (136 models).
  */
 public object Honor {
   /**
@@ -63,6 +63,11 @@ public object Honor {
   public const val HNANY_Q1: String = "spec:width=1080px,height=2388px,dpi=480"
 
   /**
+   * HONOR HNBKQ
+   */
+  public const val HNBKQ: String = "spec:width=1256px,height=2808px,dpi=560"
+
+  /**
    * HONOR HNBRC-M
    */
   public const val HNBRC_M: String = "spec:width=1080px,height=2412px,dpi=480"
@@ -98,9 +103,19 @@ public object Honor {
   public const val HNCGA_Q: String = "spec:width=2136px,height=3200px,dpi=420"
 
   /**
+   * HONOR HNCGA-Q1
+   */
+  public const val HNCGA_Q1: String = "spec:width=2136px,height=3200px,dpi=420"
+
+  /**
    * Honor hnCHE-H
    */
   public const val HNCHE_H: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * HONOR HNCHG-Q
+   */
+  public const val HNCHG_Q: String = "spec:width=2032px,height=3048px,dpi=400"
 
   /**
    * HONOR HNCLK-M1
@@ -141,6 +156,11 @@ public object Honor {
    * HONOR HNDVD-Q
    */
   public const val HNDVD_Q: String = "spec:width=1224px,height=2700px,dpi=520"
+
+  /**
+   * HONOR HNELA-M
+   */
+  public const val HNELA_M: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * HONOR HNELI
@@ -228,6 +248,16 @@ public object Honor {
   public const val HNLGE: String = "spec:width=1312px,height=2848px,dpi=560"
 
   /**
+   * HONOR HNLGN-Q1
+   */
+  public const val HNLGN_Q1: String = "spec:width=720px,height=1610px,dpi=320"
+
+  /**
+   * HONOR HNLGN-QL
+   */
+  public const val HNLGN_QL: String = "spec:width=720px,height=1610px,dpi=320"
+
+  /**
    * HONOR HNLLY-M1
    */
   public const val HNLLY_M1: String = "spec:width=1080px,height=2412px,dpi=480"
@@ -263,6 +293,11 @@ public object Honor {
   public const val HNMTN_Q: String = "spec:width=1200px,height=2640px,dpi=520"
 
   /**
+   * HONOR HNMTN-Q1
+   */
+  public const val HNMTN_Q1: String = "spec:width=1200px,height=2640px,dpi=520"
+
+  /**
    * HONOR HNNDL-Q
    */
   public const val HNNDL_Q: String = "spec:width=1200px,height=1920px,dpi=280"
@@ -276,6 +311,11 @@ public object Honor {
    * HONOR HNNIC-M1
    */
   public const val HNNIC_M1: String = "spec:width=720px,height=1604px,dpi=320"
+
+  /**
+   * HONOR HNNLA-M
+   */
+  public const val HNNLA_M: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * HONOR HNNTH
@@ -383,6 +423,11 @@ public object Honor {
   public const val HNWDY_M: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * HONOR HNYLP-Q
+   */
+  public const val HNYLP_Q: String = "spec:width=2136px,height=3200px,dpi=420"
+
+  /**
    * HONOR HWAGS2
    */
   public const val HWAGS2: String = "spec:width=1200px,height=1920px,dpi=320"
@@ -446,11 +491,6 @@ public object Honor {
    * Honor hwCHM-H
    */
   public const val HWCHM_H: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Honor hwCHM-Q
-   */
-  public const val HWCHM_Q: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * HONOR HWCOL
@@ -625,7 +665,7 @@ public object Honor {
   /**
    * HONOR HWTNY
    */
-  public const val HWTNY: String = "spec:width=1344px,height=2772px,dpi=480"
+  public const val HWTNY: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * HONOR HWTRT-Q

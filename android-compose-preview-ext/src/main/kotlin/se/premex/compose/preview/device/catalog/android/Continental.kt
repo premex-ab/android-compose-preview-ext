@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Continental (5 models).
+ * Device specifications for Continental (4 models).
  */
 public object Continental {
   /**
    * Continental bangbae
    */
   public const val BANGBAE: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * Continental CE10412-26
-   */
-  public const val CE10412_26: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Continental komagome

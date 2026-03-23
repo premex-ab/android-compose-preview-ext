@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=74
+// Generated manufacturer device catalog. Devices=71
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for GIONEE (74 models).
+ * Device specifications for GIONEE (71 models).
  */
 public object Gionee {
   /**
@@ -293,11 +293,6 @@ public object Gionee {
   public const val GIONEE_WBL7352: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * GIONEE GIONEE_WBL7361
-   */
-  public const val GIONEE_WBL7361: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * GIONEE GIONEE_WBL7365
    */
   public const val GIONEE_WBL7365: String = "spec:width=720px,height=1280px,dpi=320"
@@ -321,16 +316,6 @@ public object Gionee {
    * GIONEE GIONEE_WBL7519
    */
   public const val GIONEE_WBL7519: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * GiONEE GiONEE_WBW5612
-   */
-  public const val GIONEE_WBW5612: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * GiONEE GiONEE_WBW5613
-   */
-  public const val GIONEE_WBW5613: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * GiONEE GiONEE_WBW5615

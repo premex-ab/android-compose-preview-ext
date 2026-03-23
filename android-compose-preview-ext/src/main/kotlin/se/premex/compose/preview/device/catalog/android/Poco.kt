@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=57
+// Generated manufacturer device catalog. Devices=64
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for POCO (57 models).
+ * Device specifications for POCO (64 models).
  */
 public object Poco {
   /**
@@ -16,6 +16,11 @@ public object Poco {
    * POCO angelicain
    */
   public const val ANGELICAIN: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * POCO annibale
+   */
+  public const val ANNIBALE: String = "spec:width=1156px,height=2510px,dpi=480"
 
   /**
    * POCO aresin
@@ -68,6 +73,16 @@ public object Poco {
   public const val CITRUS: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
+   * POCO creek
+   */
+  public const val CREEK: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
+   * POCO dew
+   */
+  public const val DEW: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * POCO dizi
    */
   public const val DIZI: String = "spec:width=1600px,height=2560px,dpi=320"
@@ -101,6 +116,11 @@ public object Poco {
    * POCO fleur
    */
   public const val FLEUR: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * POCO flute
+   */
+  public const val FLUTE: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * POCO gale
@@ -183,6 +203,11 @@ public object Poco {
   public const val MUNCH: String = "spec:width=1080px,height=2400px,dpi=440"
 
   /**
+   * POCO myron
+   */
+  public const val MYRON: String = "spec:width=1200px,height=2608px,dpi=480"
+
+  /**
    * POCO onyx
    */
   public const val ONYX: String = "spec:width=1280px,height=2772px,dpi=520"
@@ -248,6 +273,11 @@ public object Poco {
   public const val SNOW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * POCO spring
+   */
+  public const val SPRING: String = "spec:width=1080px,height=2340px,dpi=450"
+
+  /**
    * POCO stone
    */
   public const val STONE: String = "spec:width=1080px,height=2408px,dpi=440"
@@ -261,6 +291,11 @@ public object Poco {
    * POCO thunder
    */
   public const val THUNDER: String = "spec:width=1080px,height=2408px,dpi=440"
+
+  /**
+   * POCO tornado
+   */
+  public const val TORNADO: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * POCO vermeer

@@ -1,15 +1,17 @@
 # TMobile Devices
 
-Total: **12** devices. Import: `import se.premex.compose.preview.device.catalog.android.TMobile`
+Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.TMobile`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | Augusta | AUGUSTA | 720x1640 | 280 | `spec:width=720px,height=1640px,dpi=280` | `@Preview(device = TMobile.AUGUSTA)` |
 | Bethpage | BETHPAGE | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = TMobile.BETHPAGE)` |
+| Bremerton | BREMERTON | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = TMobile.BREMERTON)` |
 | CypressPoint | CYPRESSPOINT | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = TMobile.CYPRESSPOINT)` |
 | Newcastle | NEWCASTLE | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = TMobile.NEWCASTLE)` |
 | Pinehurst | PINEHURST | 1080x2436 | 480 | `spec:width=1080px,height=2436px,dpi=480` | `@Preview(device = TMobile.PINEHURST)` |
 | Porto | PORTO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = TMobile.PORTO)` |
+| Prescott | PRESCOTT | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = TMobile.PRESCOTT)` |
 | Seattle_5G | SEATTLE_5G | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = TMobile.SEATTLE_5G)` |
 | SouthernDunes | SOUTHERNDUNES | 720x1640 | 280 | `spec:width=720px,height=1640px,dpi=280` | `@Preview(device = TMobile.SOUTHERNDUNES)` |
 | Sprout | SPROUT | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = TMobile.SPROUT)` |
