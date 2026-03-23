@@ -18,11 +18,6 @@ public object Nec {
   public const val _708T1W: String = "spec:width=1200px,height=1920px,dpi=320"
 
   /**
-   * NEC D000000039
-   */
-  public const val D000000039: String = "spec:width=752px,height=1280px,dpi=160"
-
-  /**
    * NEC LAVIET11112K1
    */
   public const val LAVIET11112K1: String = "spec:width=1200px,height=2000px,dpi=240"
@@ -71,6 +66,11 @@ public object Nec {
    * NEC LAVIETab11QHD2
    */
   public const val LAVIETAB11QHD2: String = "spec:width=1536px,height=2560px,dpi=320"
+
+  /**
+   * NEC LAVIETab11QHD3
+   */
+  public const val LAVIETAB11QHD3: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * NEC LAVIETab143K1

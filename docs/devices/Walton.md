@@ -5,7 +5,10 @@ Total: **115** devices. Import: `import se.premex.compose.preview.device.catalog
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | 10P | _10P | 1200x1920 | 360 | `spec:width=1200px,height=1920px,dpi=360` | `@Preview(device = Walton._10P)` |
+| alimos | ALIMOS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Walton.ALIMOS)` |
 | anaheim | ANAHEIM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Walton.ANAHEIM)` |
+| beomil | BEOMIL | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Walton.BEOMIL)` |
+| eleonas | ELEONAS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Walton.ELEONAS)` |
 | guandu | GUANDU | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Walton.GUANDU)` |
 | IAD | IAD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Walton.IAD)` |
 | martin | MARTIN | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Walton.MARTIN)` |
@@ -13,11 +16,12 @@ Total: **115** devices. Import: `import se.premex.compose.preview.device.catalog
 | NEXG_N25 | NEXG_N25 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Walton.NEXG_N25)` |
 | NEXG_N26 | NEXG_N26 | 720x1612 | 480 | `spec:width=720px,height=1612px,dpi=480` | `@Preview(device = Walton.NEXG_N26)` |
 | NEXG_N27 | NEXG_N27 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Walton.NEXG_N27)` |
-| NEXG_N71 | NEXG_N71 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Walton.NEXG_N71)` |
+| NEXG_N71 | NEXG_N71 | 1080x1920 | 486 | `spec:width=1080px,height=1920px,dpi=486` | `@Preview(device = Walton.NEXG_N71)` |
 | NEXG_N71_Plus | NEXG_N71_PLUS | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Walton.NEXG_N71_PLUS)` |
 | NEXG_N72 | NEXG_N72 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Walton.NEXG_N72)` |
 | NEXG_N73 | NEXG_N73 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.NEXG_N73)` |
 | NEXG_N74 | NEXG_N74 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Walton.NEXG_N74)` |
+| NEXG_N75 | NEXG_N75 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Walton.NEXG_N75)` |
 | NEXG_N8 | NEXG_N8 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Walton.NEXG_N8)` |
 | NEXG_N9 | NEXG_N9 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Walton.NEXG_N9)` |
 | Orbit_Y11 | ORBIT_Y11 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Walton.ORBIT_Y11)` |
@@ -53,7 +57,6 @@ Total: **115** devices. Import: `import se.premex.compose.preview.device.catalog
 | Primo_GH7i | PRIMO_GH7I | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_GH7I)` |
 | Primo_GH8 | PRIMO_GH8 | 720x1498 | 320 | `spec:width=720px,height=1498px,dpi=320` | `@Preview(device = Walton.PRIMO_GH8)` |
 | Primo_GH9 | PRIMO_GH9 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Walton.PRIMO_GH9)` |
-| Primo_GM2 | PRIMO_GM2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_GM2)` |
 | Primo_GM2_Plus | PRIMO_GM2_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_GM2_PLUS)` |
 | Primo_GM3 | PRIMO_GM3 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_GM3)` |
 | Primo_GM3_plus | PRIMO_GM3_PLUS | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_GM3_PLUS)` |
@@ -68,16 +71,14 @@ Total: **115** devices. Import: `import se.premex.compose.preview.device.catalog
 | Primo_HM7 | PRIMO_HM7 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Walton.PRIMO_HM7)` |
 | PRIMO_N4 | PRIMO_N4 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.PRIMO_N4)` |
 | Primo_N5 | PRIMO_N5 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Walton.PRIMO_N5)` |
-| Primo_NF3 | PRIMO_NF3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_NF3)` |
 | Primo_NF4 | PRIMO_NF4 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_NF4)` |
 | Primo_NF4_2GB | PRIMO_NF4_2GB | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_NF4_2GB)` |
 | Primo_NF5 | PRIMO_NF5 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Walton.PRIMO_NF5)` |
 | Primo_NH3 | PRIMO_NH3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_NH3)` |
-| Primo_NH3_Lite | PRIMO_NH3_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_NH3_LITE)` |
 | Primo_NH3i | PRIMO_NH3I | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_NH3I)` |
 | PRIMO_NH4 | PRIMO_NH4 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_NH4)` |
 | PRIMO_NH5 | PRIMO_NH5 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Walton.PRIMO_NH5)` |
-| Primo_NX6 | PRIMO_NX6 | 1440x3040 | 560 | `spec:width=1440px,height=3040px,dpi=560` | `@Preview(device = Walton.PRIMO_NX6)` |
+| Primo_NX6 | PRIMO_NX6 | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Walton.PRIMO_NX6)` |
 | Primo_R4_Plus | PRIMO_R4_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_R4_PLUS)` |
 | Primo_R5 | PRIMO_R5 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Walton.PRIMO_R5)` |
 | Primo_R5_Plus | PRIMO_R5_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Walton.PRIMO_R5_PLUS)` |
@@ -85,14 +86,12 @@ Total: **115** devices. Import: `import se.premex.compose.preview.device.catalog
 | Primo_R6_Max | PRIMO_R6_MAX | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Walton.PRIMO_R6_MAX)` |
 | Primo_R8 | PRIMO_R8 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.PRIMO_R8)` |
 | Primo_R9 | PRIMO_R9 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.PRIMO_R9)` |
-| Primo_RM3 | PRIMO_RM3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_RM3)` |
 | Primo_RM4 | PRIMO_RM4 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.PRIMO_RM4)` |
 | Primo_RX6 | PRIMO_RX6 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Walton.PRIMO_RX6)` |
 | Primo_RX7 | PRIMO_RX7 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Walton.PRIMO_RX7)` |
 | PRIMO_RX8 | PRIMO_RX8 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.PRIMO_RX8)` |
 | Primo_RX8_Mini | PRIMO_RX8_MINI | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Walton.PRIMO_RX8_MINI)` |
 | PRIMO_RX9 | PRIMO_RX9 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Walton.PRIMO_RX9)` |
-| Primo_S6 | PRIMO_S6 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.PRIMO_S6)` |
 | Primo_S6_Dual | PRIMO_S6_DUAL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Walton.PRIMO_S6_DUAL)` |
 | Primo_S6_infinity | PRIMO_S6_INFINITY | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Walton.PRIMO_S6_INFINITY)` |
 | Primo_S7 | PRIMO_S7 | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Walton.PRIMO_S7)` |
@@ -112,6 +111,7 @@ Total: **115** devices. Import: `import se.premex.compose.preview.device.catalog
 | WALPAD_8G | WALPAD_8G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Walton.WALPAD_8G)` |
 | WALPAD_9G | WALPAD_9G | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Walton.WALPAD_9G)` |
 | WBW5616WA | WBW5616WA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Walton.WBW5616WA)` |
+| XANON_X1_ultra | XANON_X1_ULTRA | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Walton.XANON_X1_ULTRA)` |
 | XANON_X20 | XANON_X20 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Walton.XANON_X20)` |
 | XANON_X21 | XANON_X21 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Walton.XANON_X21)` |
 | XANON_X90 | XANON_X90 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Walton.XANON_X90)` |

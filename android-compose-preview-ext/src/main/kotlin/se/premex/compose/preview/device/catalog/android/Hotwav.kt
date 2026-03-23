@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=46
+// Generated manufacturer device catalog. Devices=53
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HOTWAV (46 models).
+ * Device specifications for HOTWAV (53 models).
  */
 public object Hotwav {
   /**
-   * HOTWAV Cosmos_U
+   * HOTWAV A17_Pro_Max
    */
-  public const val COSMOS_U: String = "spec:width=480px,height=996px,dpi=240"
+  public const val A17_PRO_MAX: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * HOTWAV A56
+   */
+  public const val A56: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * HOTWAV Cyber_13
@@ -26,6 +31,11 @@ public object Hotwav {
    * HOTWAV Cyber_15
    */
   public const val CYBER_15: String = "spec:width=1080px,height=2408px,dpi=480"
+
+  /**
+   * HOTWAV Cyber_16_Pro
+   */
+  public const val CYBER_16_PRO: String = "spec:width=1080px,height=2408px,dpi=480"
 
   /**
    * HOTWAV Cyber_7
@@ -73,6 +83,11 @@ public object Hotwav {
   public const val HYPER_7_PRO: String = "spec:width=1080px,height=2408px,dpi=480"
 
   /**
+   * HOTWAV Hyper_7S
+   */
+  public const val HYPER_7S: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * HOTWAV M5
    */
   public const val M5: String = "spec:width=720px,height=1440px,dpi=320"
@@ -91,6 +106,11 @@ public object Hotwav {
    * HOTWAV M6
    */
   public const val M6: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * HOTWAV Note15
+   */
+  public const val NOTE15: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * HOTWAV Note_12_2024
@@ -133,6 +153,16 @@ public object Hotwav {
   public const val NOTE_16: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
+   * HOTWAV Note_18_GT
+   */
+  public const val NOTE_18_GT: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * HOTWAV Note_18_Pro
+   */
+  public const val NOTE_18_PRO: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
    * HOTWAV Pad_11_EEA
    */
   public const val PAD_11_EEA: String = "spec:width=1200px,height=1920px,dpi=320"
@@ -170,7 +200,7 @@ public object Hotwav {
   /**
    * HOTWAV Symbol_Max
    */
-  public const val SYMBOL_MAX: String = "spec:width=720px,height=1520px,dpi=320"
+  public const val SYMBOL_MAX: String = "spec:width=1440px,height=2960px,dpi=560"
 
   /**
    * HOTWAV Symbol_X
@@ -191,6 +221,11 @@ public object Hotwav {
    * HOTWAV T7_Pro
    */
   public const val T7_PRO: String = "spec:width=1080px,height=2408px,dpi=480"
+
+  /**
+   * HOTWAV TAB_R10_Pro
+   */
+  public const val TAB_R10_PRO: String = "spec:width=800px,height=1280px,dpi=280"
 
   /**
    * HOTWAV TAB_R5

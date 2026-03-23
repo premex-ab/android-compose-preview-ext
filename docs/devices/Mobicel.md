@@ -1,6 +1,6 @@
 # Mobicel Devices
 
-Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mobicel`
+Total: **124** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mobicel`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -57,6 +57,7 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | Legend_Pro_LTE | LEGEND_PRO_LTE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Mobicel.LEGEND_PRO_LTE)` |
 | Mercury | MERCURY | 800x1280 | 320 | `spec:width=800px,height=1280px,dpi=320` | `@Preview(device = Mobicel.MERCURY)` |
 | Mobicel_Icon | MOBICEL_ICON | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Mobicel.MOBICEL_ICON)` |
+| Mobicel_P12_Plus | MOBICEL_P12_PLUS | 720x1612 | 300 | `spec:width=720px,height=1612px,dpi=300` | `@Preview(device = Mobicel.MOBICEL_P12_PLUS)` |
 | Mobicel_R1 | MOBICEL_R1 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Mobicel.MOBICEL_R1)` |
 | Mobicel_R6 | MOBICEL_R6 | 540x960 | 213 | `spec:width=540px,height=960px,dpi=213` | `@Preview(device = Mobicel.MOBICEL_R6)` |
 | MX2_PLUS | MX2_PLUS | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Mobicel.MX2_PLUS)` |
@@ -70,7 +71,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | P12 | P12 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Mobicel.P12)` |
 | P5 | P5 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Mobicel.P5)` |
 | PULSE_1 | PULSE_1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.PULSE_1)` |
-| PURE | PURE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Mobicel.PURE)` |
 | PURE_MINI | PURE_MINI | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Mobicel.PURE_MINI)` |
 | PURE_PLUS | PURE_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Mobicel.PURE_PLUS)` |
 | PX12 | PX12 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Mobicel.PX12)` |
@@ -83,7 +83,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | R7 | R7 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.R7)` |
 | R7_1 | R7_1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.R7_1)` |
 | R7_2 | R7_2 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.R7_2)` |
-| R8 | R8 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Mobicel.R8)` |
 | R9_LITE | R9_LITE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Mobicel.R9_LITE)` |
 | R9_Pro | R9_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Mobicel.R9_PRO)` |
 | REBEL | REBEL | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Mobicel.REBEL)` |
@@ -92,7 +91,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | RIO_SS | RIO_SS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Mobicel.RIO_SS)` |
 | RIO_ZAM | RIO_ZAM | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Mobicel.RIO_ZAM)` |
 | RUBY | RUBY | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.RUBY)` |
-| RUSH | RUSH | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Mobicel.RUSH)` |
 | RX | RX | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Mobicel.RX)` |
 | RX17 | RX17 | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Mobicel.RX17)` |
 | RX_Plus | RX_PLUS | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Mobicel.RX_PLUS)` |
@@ -109,7 +107,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | TRENDY_2 | TRENDY_2 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.TRENDY_2)` |
 | TRENDY_LITE | TRENDY_LITE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Mobicel.TRENDY_LITE)` |
 | TRENDY_PLUS | TRENDY_PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Mobicel.TRENDY_PLUS)` |
-| U2 | U2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Mobicel.U2)` |
 | ULTRA | ULTRA | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Mobicel.ULTRA)` |
 | V1 | V1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.V1)` |
 | V2_LTE | V2_LTE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Mobicel.V2_LTE)` |

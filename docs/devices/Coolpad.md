@@ -1,10 +1,9 @@
 # Coolpad Devices
 
-Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.android.Coolpad`
+Total: **75** devices. Import: `import se.premex.compose.preview.device.catalog.android.Coolpad`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| 1821 | _1821 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Coolpad._1821)` |
 | 1825-I01 | _1825_I01 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad._1825_I01)` |
 | 1826-I01 | _1826_I01 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Coolpad._1826_I01)` |
 | 1901 | _1901 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Coolpad._1901)` |
@@ -27,7 +26,6 @@ Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Coolpad5370 | COOLPAD5370 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.COOLPAD5370)` |
 | Coolpad7295A | COOLPAD7295A | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Coolpad.COOLPAD7295A)` |
 | Coolpad8737A | COOLPAD8737A | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.COOLPAD8737A)` |
-| Coolpad_1803 | COOLPAD_1803 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_1803)` |
 | Coolpad_2041 | COOLPAD_2041 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2041)` |
 | Coolpad_2041_S0 | COOLPAD_2041_S0 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2041_S0)` |
 | Coolpad_2041_U0 | COOLPAD_2041_U0 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.COOLPAD_2041_U0)` |
@@ -77,7 +75,6 @@ Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.
 | MOBOK1 | MOBOK1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Coolpad.MOBOK1)` |
 | R108 | R108 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.R108)` |
 | ventura | VENTURA | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Coolpad.VENTURA)` |
-| victor | VICTOR | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Coolpad.VICTOR)` |
 | X20 | X20 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Coolpad.X20)` |
 | Y72_921 | Y72_921 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.Y72_921)` |
 | Y91 | Y91 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Coolpad.Y91)` |

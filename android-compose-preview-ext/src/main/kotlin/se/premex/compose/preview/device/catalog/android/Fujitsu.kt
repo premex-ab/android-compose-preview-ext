@@ -73,9 +73,9 @@ public object Fujitsu {
   public const val MX532: String = "spec:width=752px,height=1280px,dpi=160"
 
   /**
-   * FUJITSU Patio600
+   * FUJITSU rk3588_t
    */
-  public const val PATIO600: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val RK3588_T: String = "spec:width=2160px,height=3840px,dpi=480"
 
   /**
    * FUJITSU TONEm17

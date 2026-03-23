@@ -10,6 +10,6 @@ Total: **7** devices. Import: `import se.premex.compose.preview.device.catalog.a
 | INTEKS22SS | INTEKS22SS | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Skylife.INTEKS22SS)` |
 | KSTB6165 | KSTB6165 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Skylife.KSTB6165)` |
 | MA5000 | MA5000 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Skylife.MA5000)` |
-| ma5100 | MA5100 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Skylife.MA5100)` |
+| ma5100 | MA5100 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Skylife.MA5100)` |
 
 <!-- Generated automatically. Do not edit manually. -->

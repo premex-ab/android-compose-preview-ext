@@ -1,6 +1,6 @@
 # Oneplus Devices
 
-Total: **95** devices. Import: `import se.premex.compose.preview.device.catalog.android.Oneplus`
+Total: **101** devices. Import: `import se.premex.compose.preview.device.catalog.android.Oneplus`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -31,7 +31,7 @@ Total: **95** devices. Import: `import se.premex.compose.preview.device.catalog.
 | OnePlus8Visible | ONEPLUS8VISIBLE | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Oneplus.ONEPLUS8VISIBLE)` |
 | OnePlus8VZW | ONEPLUS8VZW | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Oneplus.ONEPLUS8VZW)` |
 | OnePlus9 | ONEPLUS9 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.ONEPLUS9)` |
-| OnePlus9ProTMO | ONEPLUS9PROTMO | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oneplus.ONEPLUS9PROTMO)` |
+| OnePlus9ProTMO | ONEPLUS9PROTMO | 1440x3216 | 480 | `spec:width=1440px,height=3216px,dpi=480` | `@Preview(device = Oneplus.ONEPLUS9PROTMO)` |
 | OnePlus9R | ONEPLUS9R | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.ONEPLUS9R)` |
 | OnePlus9TMO | ONEPLUS9TMO | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.ONEPLUS9TMO)` |
 | Oneplus_Dosa_IN | ONEPLUS_DOSA_IN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Oneplus.ONEPLUS_DOSA_IN)` |
@@ -43,6 +43,7 @@ Total: **95** devices. Import: `import se.premex.compose.preview.device.catalog.
 | OnePlusN10TMO | ONEPLUSN10TMO | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Oneplus.ONEPLUSN10TMO)` |
 | OnePlusN200 | ONEPLUSN200 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.ONEPLUSN200)` |
 | OnePlusN200TMO | ONEPLUSN200TMO | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.ONEPLUSN200TMO)` |
+| OnePlusNordCE | ONEPLUSNORDCE | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.ONEPLUSNORDCE)` |
 | OP5154L1 | OP5154L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.OP5154L1)` |
 | OP5155L1 | OP5155L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.OP5155L1)` |
 | OP5159L1 | OP5159L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oneplus.OP5159L1)` |
@@ -86,13 +87,18 @@ Total: **95** devices. Import: `import se.premex.compose.preview.device.catalog.
 | OP60EDL1 | OP60EDL1 | 1272x2800 | 560 | `spec:width=1272px,height=2800px,dpi=560` | `@Preview(device = Oneplus.OP60EDL1)` |
 | OP60F5L1 | OP60F5L1 | 1216x2640 | 560 | `spec:width=1216px,height=2640px,dpi=560` | `@Preview(device = Oneplus.OP60F5L1)` |
 | OP60F9L1 | OP60F9L1 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Oneplus.OP60F9L1)` |
+| OP60FFL1 | OP60FFL1 | 1272x2772 | 560 | `spec:width=1272px,height=2772px,dpi=560` | `@Preview(device = Oneplus.OP60FFL1)` |
+| OP6113L1 | OP6113L1 | 1272x2800 | 560 | `spec:width=1272px,height=2800px,dpi=560` | `@Preview(device = Oneplus.OP6113L1)` |
+| OP611FL1 | OP611FL1 | 1272x2772 | 560 | `spec:width=1272px,height=2772px,dpi=560` | `@Preview(device = Oneplus.OP611FL1)` |
 | OP612BL1 | OP612BL1 | 1216x2640 | 560 | `spec:width=1216px,height=2640px,dpi=560` | `@Preview(device = Oneplus.OP612BL1)` |
 | OP6131L1 | OP6131L1 | 1272x2800 | 560 | `spec:width=1272px,height=2800px,dpi=560` | `@Preview(device = Oneplus.OP6131L1)` |
 | OP613BL1 | OP613BL1 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Oneplus.OP613BL1)` |
 | OP615AL1 | OP615AL1 | 2000x2800 | 400 | `spec:width=2000px,height=2800px,dpi=400` | `@Preview(device = Oneplus.OP615AL1)` |
 | OP615EL1 | OP615EL1 | 2400x3392 | 420 | `spec:width=2400px,height=3392px,dpi=420` | `@Preview(device = Oneplus.OP615EL1)` |
 | OP6190L1 | OP6190L1 | 2400x3392 | 420 | `spec:width=2400px,height=3392px,dpi=420` | `@Preview(device = Oneplus.OP6190L1)` |
+| OP6194L1 | OP6194L1 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Oneplus.OP6194L1)` |
 | OP6195L1 | OP6195L1 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Oneplus.OP6195L1)` |
+| OP6543L1 | OP6543L1 | 2120x3000 | 400 | `spec:width=2120px,height=3000px,dpi=400` | `@Preview(device = Oneplus.OP6543L1)` |
 | OP7ProNRSpr | OP7PRONRSPR | 1440x3120 | 560 | `spec:width=1440px,height=3120px,dpi=560` | `@Preview(device = Oneplus.OP7PRONRSPR)` |
 | OPWE242 | OPWE242 | 466x466 | 360 | `spec:width=466px,height=466px,dpi=360` | `@Preview(device = Oneplus.OPWE242)` |
 | OPWWE231 | OPWWE231 | 466x466 | 320 | `spec:width=466px,height=466px,dpi=320` | `@Preview(device = Oneplus.OPWWE231)` |

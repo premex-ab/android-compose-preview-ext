@@ -10,5 +10,5 @@ public object O2 {
   /**
    * O2 O2TV_B866V2
    */
-  public const val O2TV_B866V2: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val O2TV_B866V2: String = "spec:width=1080px,height=1920px,dpi=213"
 }

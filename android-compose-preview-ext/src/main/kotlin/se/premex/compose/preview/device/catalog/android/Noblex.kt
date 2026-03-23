@@ -65,7 +65,7 @@ public object Noblex {
   /**
    * NOBLEX NOBLEX_N62
    */
-  public const val NOBLEX_N62: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val NOBLEX_N62: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * NOBLEX R3

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=37
+// Generated manufacturer device catalog. Devices=40
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iQOO (37 models).
+ * Device specifications for iQOO (40 models).
  */
 public object Iqoo {
   /**
@@ -191,4 +191,19 @@ public object Iqoo {
    * iQOO I2410
    */
   public const val I2410: String = "spec:width=1080px,height=2392px,dpi=440"
+
+  /**
+   * iQOO I2501
+   */
+  public const val I2501: String = "spec:width=1440px,height=3168px,dpi=440"
+
+  /**
+   * iQOO I2502
+   */
+  public const val I2502: String = "spec:width=1080px,height=2400px,dpi=440"
+
+  /**
+   * iQOO I2505
+   */
+  public const val I2505: String = "spec:width=1080px,height=2392px,dpi=440"
 }

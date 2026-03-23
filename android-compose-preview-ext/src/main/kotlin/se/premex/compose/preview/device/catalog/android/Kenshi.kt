@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=43
+// Generated manufacturer device catalog. Devices=44
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KENSHI (43 models).
+ * Device specifications for KENSHI (44 models).
  */
 public object Kenshi {
   /**
@@ -221,4 +221,9 @@ public object Kenshi {
    * KENSHI Pad_Pro_E112
    */
   public const val PAD_PRO_E112: String = "spec:width=1600px,height=2560px,dpi=320"
+
+  /**
+   * KENSHI Pad_Pro_E90
+   */
+  public const val PAD_PRO_E90: String = "spec:width=1200px,height=1920px,dpi=240"
 }

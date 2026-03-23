@@ -1,6 +1,6 @@
 # Omix Devices
 
-Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Omix`
+Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.android.Omix`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,6 +8,8 @@ Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.
 | MixTab_Pro_2 | MIXTAB_PRO_2 | 1200x2000 | 360 | `spec:width=1200px,height=2000px,dpi=360` | `@Preview(device = Omix.MIXTAB_PRO_2)` |
 | OMIX_X4 | OMIX_X4 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Omix.OMIX_X4)` |
 | X2032 | X2032 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Omix.X2032)` |
+| X2033 | X2033 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Omix.X2033)` |
+| X2034 | X2034 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Omix.X2034)` |
 | X3 | X3 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Omix.X3)` |
 | X300 | X300 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Omix.X300)` |
 | X400 | X400 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Omix.X400)` |

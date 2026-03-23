@@ -1,6 +1,6 @@
 # Google Devices
 
-Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog.android.Google`
+Total: **177** devices. Import: `import se.premex.compose.preview.device.catalog.android.Google`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,6 +14,7 @@ Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog
 | automotive_1024p_landscape | AUTOMOTIVE_1024P_LANDSCAPE | (Google ID) | 160 | `id:automotive_1024p_landscape` | `@Preview(device = Google.AUTOMOTIVE_1024P_LANDSCAPE)` |
 | banon_cheets | BANON_CHEETS | (Google ID) | 160 | `id:banon_cheets` | `@Preview(device = Google.BANON_CHEETS)` |
 | barbet | BARBET | (Google ID) | 420 | `id:barbet` | `@Preview(device = Google.BARBET)` |
+| blazer | BLAZER | (Google ID) | 480 | `id:blazer` | `@Preview(device = Google.BLAZER)` |
 | bluejay | BLUEJAY | (Google ID) | 420 | `id:bluejay` | `@Preview(device = Google.BLUEJAY)` |
 | bob_cheets | BOB_CHEETS | (Google ID) | 160 | `id:bob_cheets` | `@Preview(device = Google.BOB_CHEETS)` |
 | bonito | BONITO | (Google ID) | 400 | `id:bonito` | `@Preview(device = Google.BONITO)` |
@@ -52,6 +53,7 @@ Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog
 | flo | FLO | (Google ID) | 320 | `id:flo` | `@Preview(device = Google.FLO)` |
 | flounder | FLOUNDER | (Google ID) | 320 | `id:flounder` | `@Preview(device = Google.FLOUNDER)` |
 | flounder_lte | FLOUNDER_LTE | (Google ID) | 320 | `id:flounder_lte` | `@Preview(device = Google.FLOUNDER_LTE)` |
+| frankel | FRANKEL | (Google ID) | 420 | `id:frankel` | `@Preview(device = Google.FRANKEL)` |
 | fugu | FUGU | (Google ID) | 320 | `id:fugu` | `@Preview(device = Google.FUGU)` |
 | gandof_cheets | GANDOF_CHEETS | (Google ID) | 160 | `id:gandof_cheets` | `@Preview(device = Google.GANDOF_CHEETS)` |
 | generic_x86 | GENERIC_X86 | (Google ID) | 440 | `id:generic_x86` | `@Preview(device = Google.GENERIC_X86)` |
@@ -72,6 +74,8 @@ Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog
 | jerry_cheets | JERRY_CHEETS | (Google ID) | 160 | `id:jerry_cheets` | `@Preview(device = Google.JERRY_CHEETS)` |
 | kalista_cheets | KALISTA_CHEETS | (Google ID) | 160 | `id:kalista_cheets` | `@Preview(device = Google.KALISTA_CHEETS)` |
 | kefka_cheets | KEFKA_CHEETS | (Google ID) | 160 | `id:kefka_cheets` | `@Preview(device = Google.KEFKA_CHEETS)` |
+| kenari_btwifi | KENARI_BTWIFI | (Google ID) | 320 | `id:kenari_btwifi` | `@Preview(device = Google.KENARI_BTWIFI)` |
+| kenari_lte | KENARI_LTE | (Google ID) | 320 | `id:kenari_lte` | `@Preview(device = Google.KENARI_LTE)` |
 | kevin_cheets | KEVIN_CHEETS | (Google ID) | 240 | `id:kevin_cheets` | `@Preview(device = Google.KEVIN_CHEETS)` |
 | kirkwood | KIRKWOOD | (Google ID) | 320 | `id:kirkwood` | `@Preview(device = Google.KIRKWOOD)` |
 | komodo | KOMODO | (Google ID) | 480 | `id:komodo` | `@Preview(device = Google.KOMODO)` |
@@ -84,8 +88,11 @@ Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog
 | mako | MAKO | (Google ID) | 320 | `id:mako` | `@Preview(device = Google.MAKO)` |
 | manta | MANTA | (Google ID) | 320 | `id:manta` | `@Preview(device = Google.MANTA)` |
 | marlin | MARLIN | (Google ID) | 560 | `id:marlin` | `@Preview(device = Google.MARLIN)` |
+| meridian_btwifi | MERIDIAN_BTWIFI | (Google ID) | 320 | `id:meridian_btwifi` | `@Preview(device = Google.MERIDIAN_BTWIFI)` |
+| meridian_lte | MERIDIAN_LTE | (Google ID) | 320 | `id:meridian_lte` | `@Preview(device = Google.MERIDIAN_LTE)` |
 | mighty_cheets | MIGHTY_CHEETS | (Google ID) | 160 | `id:mighty_cheets` | `@Preview(device = Google.MIGHTY_CHEETS)` |
 | minnie_cheets | MINNIE_CHEETS | (Google ID) | 160 | `id:minnie_cheets` | `@Preview(device = Google.MINNIE_CHEETS)` |
+| mustang | MUSTANG | (Google ID) | 480 | `id:mustang` | `@Preview(device = Google.MUSTANG)` |
 | nami_cheets | NAMI_CHEETS | (Google ID) | 160 | `id:nami_cheets` | `@Preview(device = Google.NAMI_CHEETS)` |
 | nautilus_cheets | NAUTILUS_CHEETS | (Google ID) | 213 | `id:nautilus_cheets` | `@Preview(device = Google.NAUTILUS_CHEETS)` |
 | Nexus 10 | NEXUS_10 | (Google ID) | 300 | `id:Nexus 10` | `@Preview(device = Google.NEXUS_10)` |
@@ -136,6 +143,7 @@ Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog
 | r11 | R11 | (Google ID) | 320 | `id:r11` | `@Preview(device = Google.R11)` |
 | r11btwifi | R11BTWIFI | (Google ID) | 320 | `id:r11btwifi` | `@Preview(device = Google.R11BTWIFI)` |
 | rammus_cheets | RAMMUS_CHEETS | (Google ID) | 160 | `id:rammus_cheets` | `@Preview(device = Google.RAMMUS_CHEETS)` |
+| rango | RANGO | (Google ID) | 390 | `id:rango` | `@Preview(device = Google.RANGO)` |
 | rauru_cheets | RAURU_CHEETS | (Google ID) | 160 | `id:rauru_cheets` | `@Preview(device = Google.RAURU_CHEETS)` |
 | raven | RAVEN | (Google ID) | 560 | `id:raven` | `@Preview(device = Google.RAVEN)` |
 | redfin | REDFIN | (Google ID) | 440 | `id:redfin` | `@Preview(device = Google.REDFIN)` |
@@ -168,11 +176,9 @@ Total: **171** devices. Import: `import se.premex.compose.preview.device.catalog
 | tilapia | TILAPIA | (Google ID) | 213 | `id:tilapia` | `@Preview(device = Google.TILAPIA)` |
 | titan-p1 | TITAN_P1 | (Google ID) | 160 | `id:titan-p1` | `@Preview(device = Google.TITAN_P1)` |
 | tokay | TOKAY | (Google ID) | 420 | `id:tokay` | `@Preview(device = Google.TOKAY)` |
-| toro | TORO | (Google ID) | 320 | `id:toro` | `@Preview(device = Google.TORO)` |
 | trogdor_cheets | TROGDOR_CHEETS | (Google ID) | 160 | `id:trogdor_cheets` | `@Preview(device = Google.TROGDOR_CHEETS)` |
 | ultima_cheets | ULTIMA_CHEETS | (Google ID) | 160 | `id:ultima_cheets` | `@Preview(device = Google.ULTIMA_CHEETS)` |
 | volteer_cheets | VOLTEER_CHEETS | (Google ID) | 160 | `id:volteer_cheets` | `@Preview(device = Google.VOLTEER_CHEETS)` |
-| vsoc_x86_64 | VSOC_X86_64 | (Google ID) | 390 | `id:vsoc_x86_64` | `@Preview(device = Google.VSOC_X86_64)` |
 | wizpig_cheets | WIZPIG_CHEETS | (Google ID) | 160 | `id:wizpig_cheets` | `@Preview(device = Google.WIZPIG_CHEETS)` |
 | yuna_cheets | YUNA_CHEETS | (Google ID) | 160 | `id:yuna_cheets` | `@Preview(device = Google.YUNA_CHEETS)` |
 

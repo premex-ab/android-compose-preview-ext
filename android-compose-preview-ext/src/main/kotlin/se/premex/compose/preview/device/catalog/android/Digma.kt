@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=110
+// Generated manufacturer device catalog. Devices=99
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DIGMA (110 models).
+ * Device specifications for DIGMA (99 models).
  */
 public object Digma {
   /**
@@ -78,11 +78,6 @@ public object Digma {
   public const val CS7113PL: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
-   * DIGMA CS7193MG
-   */
-  public const val CS7193MG: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * DIGMA CS7204MG
    */
   public const val CS7204MG: String = "spec:width=800px,height=1280px,dpi=160"
@@ -148,6 +143,11 @@ public object Digma {
   public const val CS8271PL: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
+   * DIGMA DA6B8P02
+   */
+  public const val DA6B8P02: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * DIGMA HT4039PG
    */
   public const val HT4039PG: String = "spec:width=480px,height=800px,dpi=240"
@@ -163,16 +163,6 @@ public object Digma {
   public const val LS4051MG: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * DIGMA LS5040PL
-   */
-  public const val LS5040PL: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * DIGMA LS5041PL
-   */
-  public const val LS5041PL: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * DIGMA LS5053ML
    */
   public const val LS5053ML: String = "spec:width=720px,height=1440px,dpi=320"
@@ -186,11 +176,6 @@ public object Digma {
    * DIGMA LT4049PG
    */
   public const val LT4049PG: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * DIGMA LT4054MG
-   */
-  public const val LT4054MG: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * DIGMA LT5052ML
@@ -221,11 +206,6 @@ public object Digma {
    * DIGMA PS1163MG
    */
   public const val PS1163MG: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * DIGMA PS1164ML
-   */
-  public const val PS1164ML: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DIGMA PS1166ML
@@ -273,16 +253,6 @@ public object Digma {
   public const val PS7165MG: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * DIGMA PS7180PG
-   */
-  public const val PS7180PG: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * DIGMA PS7191PL
-   */
-  public const val PS7191PL: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
    * DIGMA PS7192PL
    */
   public const val PS7192PL: String = "spec:width=600px,height=1024px,dpi=213"
@@ -291,11 +261,6 @@ public object Digma {
    * DIGMA PS7210PG
    */
   public const val PS7210PG: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
-   * DIGMA PS8156ML
-   */
-  public const val PS8156ML: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DIGMA PS8161PG
@@ -311,11 +276,6 @@ public object Digma {
    * DIGMA PS8163PL
    */
   public const val PS8163PL: String = "spec:width=800px,height=1280px,dpi=240"
-
-  /**
-   * DIGMA PS8181MG
-   */
-  public const val PS8181MG: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DIGMA PS8199ML
@@ -438,11 +398,6 @@ public object Digma {
   public const val TS1277ML: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * DIGMA TS7175MG
-   */
-  public const val TS7175MG: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * DIGMA TS7177MG
    */
   public const val TS7177MG: String = "spec:width=600px,height=1024px,dpi=160"
@@ -518,11 +473,6 @@ public object Digma {
   public const val TS8275ML: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * DIGMA TT1188PL
-   */
-  public const val TT1188PL: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * DIGMA TT1192PG
    */
   public const val TT1192PG: String = "spec:width=600px,height=1024px,dpi=160"
@@ -546,11 +496,6 @@ public object Digma {
    * DIGMA VS5035ML
    */
   public const val VS5035ML: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * DIGMA VS5036PL
-   */
-  public const val VS5036PL: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * DIGMA WS1250PL

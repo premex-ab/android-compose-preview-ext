@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for NGM (3 models).
+ * Device specifications for NGM (2 models).
  */
 public object Ngm {
-  /**
-   * NGM E506
-   */
-  public const val E506: String = "spec:width=480px,height=854px,dpi=240"
-
   /**
    * NGM R1
    */

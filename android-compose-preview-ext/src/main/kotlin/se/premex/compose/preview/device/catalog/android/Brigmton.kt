@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Brigmton (2 models).
+ * Device specifications for BRIGMTON (1 models).
  */
 public object Brigmton {
-  /**
-   * Brigmton BTPC-1023OC4G
-   */
-  public const val BTPC_1023OC4G: String = "spec:width=1200px,height=1920px,dpi=280"
-
   /**
    * BRIGMTON BTPC-1025OC
    */

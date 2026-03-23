@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Vonino (12 models).
+ * Device specifications for Vonino (13 models).
  */
 public object Vonino {
   /**
@@ -61,6 +61,11 @@ public object Vonino {
    * Vonino Pluri_M8_2020_A10
    */
   public const val PLURI_M8_2020_A10: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Vonino Xavy_G7
+   */
+  public const val XAVY_G7: String = "spec:width=720px,height=1280px,dpi=160"
 
   /**
    * Vonino Xavy_T7

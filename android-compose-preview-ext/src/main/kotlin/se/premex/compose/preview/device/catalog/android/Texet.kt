@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Texet (7 models).
+ * Device specifications for Texet (6 models).
  */
 public object Texet {
   /**
@@ -36,9 +36,4 @@ public object Texet {
    * Texet TM-5583
    */
   public const val TM_5583: String = "spec:width=480px,height=960px,dpi=213"
-
-  /**
-   * Texet TM-5703
-   */
-  public const val TM_5703: String = "spec:width=720px,height=1520px,dpi=320"
 }

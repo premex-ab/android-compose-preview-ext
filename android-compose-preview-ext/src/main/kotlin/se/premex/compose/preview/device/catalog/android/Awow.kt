@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=22
+// Generated manufacturer device catalog. Devices=23
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for AWOW (22 models).
+ * Device specifications for AWOW (23 models).
  */
 public object Awow {
   /**
@@ -48,11 +48,6 @@ public object Awow {
   public const val CREAPAD_1009S: String = "spec:width=1200px,height=1920px,dpi=320"
 
   /**
-   * AWOW CUBTAB_1001
-   */
-  public const val CUBTAB_1001: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * AWOW Funtab_1001
    */
   public const val FUNTAB_1001: String = "spec:width=800px,height=1280px,dpi=213"
@@ -76,11 +71,6 @@ public object Awow {
    * AWOW Funtab_801_I_EEA
    */
   public const val FUNTAB_801_I_EEA: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * AWOW Funtab_801_K_EEA
-   */
-  public const val FUNTAB_801_K_EEA: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * AWOW MID_1085_EEA
@@ -111,6 +101,21 @@ public object Awow {
    * AWOW UTBook_14
    */
   public const val UTBOOK_14: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * AWOW UTBook_15
+   */
+  public const val UTBOOK_15: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * AWOW UTBook_15_EEA
+   */
+  public const val UTBOOK_15_EEA: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * AWOW UTBook_16
+   */
+  public const val UTBOOK_16: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * AWOW UTBook_EEA

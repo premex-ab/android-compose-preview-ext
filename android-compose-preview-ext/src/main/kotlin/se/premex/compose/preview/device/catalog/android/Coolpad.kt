@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=78
+// Generated manufacturer device catalog. Devices=75
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for coolpad (78 models).
+ * Device specifications for coolpad (75 models).
  */
 public object Coolpad {
-  /**
-   * Coolpad 1821
-   */
-  public const val _1821: String = "spec:width=720px,height=1440px,dpi=320"
-
   /**
    * coolpad 1825-I01
    */
@@ -121,11 +116,6 @@ public object Coolpad {
    * Coolpad Coolpad8737A
    */
   public const val COOLPAD8737A: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Coolpad Coolpad_1803
-   */
-  public const val COOLPAD_1803: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Coolpad Coolpad_2041
@@ -371,11 +361,6 @@ public object Coolpad {
    * Coolpad ventura
    */
   public const val VENTURA: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Coolpad victor
-   */
-  public const val VICTOR: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * coolpad X20

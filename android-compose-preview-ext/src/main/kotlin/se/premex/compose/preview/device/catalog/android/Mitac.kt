@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MiTAC (3 models).
+ * Device specifications for MiTAC (4 models).
  */
 public object Mitac {
   /**
@@ -16,6 +16,11 @@ public object Mitac {
    * MiTAC hera_pro
    */
   public const val HERA_PRO: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * MiTAC phaeton
+   */
+  public const val PHAETON: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * MiTAC surfing_pro

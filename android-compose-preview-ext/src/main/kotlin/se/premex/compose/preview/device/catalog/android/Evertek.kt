@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=25
+// Generated manufacturer device catalog. Devices=22
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for EVERTEK (25 models).
+ * Device specifications for EVERTEK (22 models).
  */
 public object Evertek {
   /**
@@ -98,11 +98,6 @@ public object Evertek {
   public const val P18_PRO: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
-   * EVERTEK V4
-   */
-  public const val V4: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * EVERTEK V4_Nano
    */
   public const val V4_NANO: String = "spec:width=480px,height=800px,dpi=240"
@@ -118,17 +113,7 @@ public object Evertek {
   public const val V5_NANO: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * EVERTEK V5_Plus
-   */
-  public const val V5_PLUS: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * EVERTEK V8
    */
   public const val V8: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * EVERTEK V9_Plus
-   */
-  public const val V9_PLUS: String = "spec:width=720px,height=1440px,dpi=320"
 }

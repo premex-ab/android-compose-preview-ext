@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Orbic (12 models).
+ * Device specifications for Orbic (13 models).
  */
 public object Orbic {
   /**
    * Orbic JOY2
    */
   public const val JOY2: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Orbic R10L5TR
+   */
+  public const val R10L5TR: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * Orbic R678EL

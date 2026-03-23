@@ -178,11 +178,6 @@ public object Mediacom {
   public const val M_SP7HXAH: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * Mediacom M-SP7xGO3G
-   */
-  public const val M_SP7XGO3G: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * MEDIACOM M-SP8DY_EEA
    */
   public const val M_SP8DY_EEA: String = "spec:width=800px,height=1280px,dpi=213"
@@ -216,4 +211,9 @@ public object Mediacom {
    * MEDIACOM SP1AZ4_P
    */
   public const val SP1AZ4_P: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * MEDIACOM SP1AZ4_PL
+   */
+  public const val SP1AZ4_PL: String = "spec:width=1200px,height=1920px,dpi=280"
 }

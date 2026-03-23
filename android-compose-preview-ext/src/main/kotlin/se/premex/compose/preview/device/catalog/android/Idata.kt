@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iData (13 models).
+ * Device specifications for iData (14 models).
  */
 public object Idata {
   /**
@@ -28,14 +28,19 @@ public object Idata {
   public const val IDATA_K1_EEA: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * iData iData_P1_mini
+   * iData iData_P1
    */
-  public const val IDATA_P1_MINI: String = "spec:width=800px,height=1280px,dpi=220"
+  public const val IDATA_P1: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * iData iData_T1_UHF
    */
   public const val IDATA_T1_UHF: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * iData iData_T1S
+   */
+  public const val IDATA_T1S: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * iData iData_T2

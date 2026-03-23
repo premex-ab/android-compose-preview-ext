@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VALIFONE (4 models).
+ * Device specifications for VALIFONE (5 models).
  */
 public object Valifone {
   /**
@@ -26,4 +26,9 @@ public object Valifone {
    * VALIFONE W888
    */
   public const val W888: String = "spec:width=1080px,height=2340px,dpi=480"
+
+  /**
+   * VALIFONE W999
+   */
+  public const val W999: String = "spec:width=1080px,height=2340px,dpi=480"
 }

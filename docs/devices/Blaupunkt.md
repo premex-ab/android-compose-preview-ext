@@ -1,6 +1,6 @@
 # Blaupunkt Devices
 
-Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.android.Blaupunkt`
+Total: **50** devices. Import: `import se.premex.compose.preview.device.catalog.android.Blaupunkt`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,12 +11,13 @@ Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Blaupunkt_SM_02 | BLAUPUNKT_SM_02 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Blaupunkt.BLAUPUNKT_SM_02)` |
 | Blaupunkt_SM_05 | BLAUPUNKT_SM_05 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Blaupunkt.BLAUPUNKT_SM_05)` |
 | Blaupunkt_TX60 | BLAUPUNKT_TX60 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Blaupunkt.BLAUPUNKT_TX60)` |
-| BP_6108 | BP_6108 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.BP_6108)` |
 | BP_6110 | BP_6110 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Blaupunkt.BP_6110)` |
 | BP_T6108X | BP_T6108X | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.BP_T6108X)` |
 | BP_T6110X | BP_T6110X | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.BP_T6110X)` |
 | bruno | BRUNO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.BRUNO)` |
 | capitolhill | CAPITOLHILL | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.CAPITOLHILL)` |
+| dongmae | DONGMAE | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Blaupunkt.DONGMAE)` |
+| elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Blaupunkt.ELLINIKO)` |
 | ewha | EWHA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.EWHA)` |
 | expo | EXPO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.EXPO)` |
 | GMP | GMP | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.GMP)` |
@@ -26,6 +27,7 @@ Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.
 | hongkong | HONGKONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.HONGKONG)` |
 | ICN | ICN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.ICN)` |
 | ikebukuro | IKEBUKURO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Blaupunkt.IKEBUKURO)` |
+| jagalchi | JAGALCHI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Blaupunkt.JAGALCHI)` |
 | JFK | JFK | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.JFK)` |
 | kaitak | KAITAK | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.KAITAK)` |
 | keoneae | KEONEAE | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Blaupunkt.KEONEAE)` |

@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=23
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Nomi (23 models).
+ * Device specifications for Nomi (20 models).
  */
 public object Nomi {
   /**
    * Nomi i5012
    */
   public const val I5012: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Nomi i5013
-   */
-  public const val I5013: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Nomi i5014
@@ -106,16 +101,6 @@ public object Nomi {
    * Nomi Nomi_C101044
    */
   public const val NOMI_C101044: String = "spec:width=800px,height=1280px,dpi=240"
-
-  /**
-   * Nomi Nomi_i5001
-   */
-  public const val NOMI_I5001: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Nomi Nomi_i5510
-   */
-  public const val NOMI_I5510: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * NOMI Nomi_i5532

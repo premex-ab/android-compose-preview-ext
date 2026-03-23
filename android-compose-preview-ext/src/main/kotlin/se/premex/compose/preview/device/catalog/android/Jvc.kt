@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=37
+// Generated manufacturer device catalog. Devices=42
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for JVC (37 models).
+ * Device specifications for JVC (42 models).
  */
 public object Jvc {
   /**
@@ -43,6 +43,16 @@ public object Jvc {
   public const val CUNDA: String = "spec:width=1080px,height=2160px,dpi=480"
 
   /**
+   * JVC dongmae
+   */
+  public const val DONGMAE: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * JVC eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * JVC elliniko
    */
   public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
@@ -73,6 +83,16 @@ public object Jvc {
   public const val IKEBUKURO: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
+   * JVC jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
+   * JVC kaitak
+   */
+  public const val KAITAK: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
    * JVC komagome
    */
   public const val KOMAGOME: String = "spec:width=720px,height=1280px,dpi=213"
@@ -81,6 +101,11 @@ public object Jvc {
    * JVC lavender
    */
   public const val LAVENDER: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * JVC maniatika
+   */
+  public const val MANIATIKA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * JVC martin
@@ -96,11 +121,6 @@ public object Jvc {
    * JVC mountbaker
    */
   public const val MOUNTBAKER: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * JVC mstarnapoli_atsc
-   */
-  public const val MSTARNAPOLI_ATSC: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * JVC osaki
@@ -141,6 +161,11 @@ public object Jvc {
    * JVC seocho
    */
   public const val SEOCHO: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * JVC sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * JVC shilin

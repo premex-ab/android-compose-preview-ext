@@ -40,7 +40,7 @@ public object Prismplus {
   /**
    * PrismPlus SW6H
    */
-  public const val SW6H: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val SW6H: String = "spec:width=1080px,height=1920px,dpi=160"
 
   /**
    * PrismPlus umeda

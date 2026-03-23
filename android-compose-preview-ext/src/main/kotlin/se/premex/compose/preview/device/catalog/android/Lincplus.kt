@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Lincplus (3 models).
+ * Device specifications for Lincplus (4 models).
  */
 public object Lincplus {
+  /**
+   * LincPlus M8_US
+   */
+  public const val M8_US: String = "spec:width=1200px,height=1920px,dpi=280"
+
   /**
    * Lincplus T3_US
    */

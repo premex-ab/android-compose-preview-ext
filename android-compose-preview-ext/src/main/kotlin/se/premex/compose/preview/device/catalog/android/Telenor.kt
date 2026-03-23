@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Telenor (5 models).
+ * Device specifications for Telenor (4 models).
  */
 public object Telenor {
-  /**
-   * Telenor b3680
-   */
-  public const val B3680: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * Telenor DV6113Z-KST
    */
@@ -23,9 +18,9 @@ public object Telenor {
   public const val HIPERNET_TV_BOX_B866V2: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Telenor i6379
+   * Telenor KSTB7277
    */
-  public const val I6379: String = "spec:width=480px,height=854px,dpi=240"
+  public const val KSTB7277: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * Telenor MediaBox_B866V2

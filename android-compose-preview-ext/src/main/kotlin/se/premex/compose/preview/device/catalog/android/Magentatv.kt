@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MagentaTV (4 models).
+ * Device specifications for MagentaTV (5 models).
  */
 public object Magentatv {
   /**
@@ -13,7 +13,12 @@ public object Magentatv {
   public const val DV6067Y: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * MagentaTV HY44G
+   * Magenta-TV DV6067Y_TVStick
+   */
+  public const val DV6067Y_TVSTICK: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Magenta-TV HY44G
    */
   public const val HY44G: String = "spec:width=1080px,height=1920px,dpi=320"
 

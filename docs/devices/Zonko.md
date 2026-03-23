@@ -1,10 +1,11 @@
 # Zonko Devices
 
-Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zonko`
+Total: **18** devices. Import: `import se.premex.compose.preview.device.catalog.android.Zonko`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | D105 | D105 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Zonko.D105)` |
+| D105_EEA | D105_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Zonko.D105_EEA)` |
 | D106 | D106 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Zonko.D106)` |
 | D110 | D110 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Zonko.D110)` |
 | D115 | D115 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Zonko.D115)` |

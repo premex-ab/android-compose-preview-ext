@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Caixun (7 models).
+ * Device specifications for Caixun (8 models).
  */
 public object Caixun {
   /**
@@ -31,6 +31,11 @@ public object Caixun {
    * Caixun patrick
    */
   public const val PATRICK: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Caixun sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Caixun tamachi

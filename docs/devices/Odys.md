@@ -1,11 +1,10 @@
 # Odys Devices
 
-Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Odys`
+Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.Odys`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | FALCON_10_PLUS_3G | FALCON_10_PLUS_3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Odys.FALCON_10_PLUS_3G)` |
-| GOAL_10_PLUS_3G | GOAL_10_PLUS_3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Odys.GOAL_10_PLUS_3G)` |
 | JUNIOR_8_PRO | JUNIOR_8_PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Odys.JUNIOR_8_PRO)` |
 | Maven_T10_pro | MAVEN_T10_PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Odys.MAVEN_T10_PRO)` |
 | NoteTab_Pro | NOTETAB_PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Odys.NOTETAB_PRO)` |

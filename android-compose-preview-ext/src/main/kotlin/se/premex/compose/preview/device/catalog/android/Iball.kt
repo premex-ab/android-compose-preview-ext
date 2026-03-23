@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=22
+// Generated manufacturer device catalog. Devices=19
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iBall (22 models).
+ * Device specifications for iBall (19 models).
  */
 public object Iball {
   /**
@@ -38,11 +38,6 @@ public object Iball {
   public const val IBALL_SLIDE_DAZZLE_I7: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * iBall Imprint_4G
-   */
-  public const val IMPRINT_4G: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
    * iBall iT-KSA0003
    */
   public const val IT_KSA0003: String = "spec:width=1200px,height=1920px,dpi=280"
@@ -61,11 +56,6 @@ public object Iball {
    * iBall Nova_4G
    */
   public const val NOVA_4G: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * iBall Perfect_10
-   */
-  public const val PERFECT_10: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * iBall Slide_Dazzle_3500
@@ -106,11 +96,6 @@ public object Iball {
    * iBall Snap_4G2
    */
   public const val SNAP_4G2: String = "spec:width=600px,height=1024px,dpi=213"
-
-  /**
-   * iBall Spirit_X2
-   */
-  public const val SPIRIT_X2: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * iBall Twinkle_i5

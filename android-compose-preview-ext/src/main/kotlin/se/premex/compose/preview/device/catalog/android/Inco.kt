@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Inco (3 models).
+ * Device specifications for Inco (2 models).
  */
 public object Inco {
   /**
    * Inco eco_s
    */
   public const val ECO_S: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * INCO Horizon
-   */
-  public const val HORIZON: String = "spec:width=480px,height=996px,dpi=240"
 
   /**
    * Inco Horizon_S

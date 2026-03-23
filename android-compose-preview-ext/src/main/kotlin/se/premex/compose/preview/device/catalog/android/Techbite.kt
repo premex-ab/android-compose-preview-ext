@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for techbite (3 models).
+ * Device specifications for techbite (4 models).
  */
 public object Techbite {
   /**
@@ -21,4 +21,9 @@ public object Techbite {
    * techbite smartboard_2
    */
   public const val SMARTBOARD_2: String = "spec:width=1200px,height=1920px,dpi=286"
+
+  /**
+   * Techbite TT2401x
+   */
+  public const val TT2401X: String = "spec:width=1600px,height=2560px,dpi=320"
 }

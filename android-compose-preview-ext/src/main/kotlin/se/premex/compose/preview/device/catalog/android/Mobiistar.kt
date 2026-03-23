@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for mobiistar (13 models).
+ * Device specifications for mobiistar (10 models).
  */
 public object Mobiistar {
   /**
@@ -56,19 +56,4 @@ public object Mobiistar {
    * mobiistar X1_Notch
    */
   public const val X1_NOTCH: String = "spec:width=720px,height=1498px,dpi=320"
-
-  /**
-   * mobiistar X1_Selfie
-   */
-  public const val X1_SELFIE: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * mobiistar XQ_Dual
-   */
-  public const val XQ_DUAL: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * mobiistar Zumbo_S_2017_Lite
-   */
-  public const val ZUMBO_S_2017_LITE: String = "spec:width=720px,height=1280px,dpi=320"
 }

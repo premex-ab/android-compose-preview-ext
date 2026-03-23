@@ -1,10 +1,9 @@
 # El Devices
 
-Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.android.El`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.El`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| 6AT | _6AT | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = El._6AT)` |
 | 6CS | _6CS | 240x296 | 120 | `spec:width=240px,height=296px,dpi=120` | `@Preview(device = El._6CS)` |
 | D60_Pro | D60_PRO | 600x1280 | 315 | `spec:width=600px,height=1280px,dpi=315` | `@Preview(device = El.D60_PRO)` |
 | D68 | D68 | 720x1560 | 380 | `spec:width=720px,height=1560px,dpi=380` | `@Preview(device = El.D68)` |

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=107
+// Generated manufacturer device catalog. Devices=105
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for RCA (107 models).
+ * Device specifications for RCA (105 models).
  */
 public object Rca {
   /**
@@ -23,11 +23,6 @@ public object Rca {
   public const val DRP2091Q: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * RCA DRP29101QD
-   */
-  public const val DRP29101QD: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * RCA elliniko
    */
   public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
@@ -41,6 +36,11 @@ public object Rca {
    * RCA hongkong
    */
   public const val HONGKONG: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * RCA jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * RCA kanda
@@ -113,6 +113,11 @@ public object Rca {
   public const val RATM31046: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
+   * RCA RATM31249
+   */
+  public const val RATM31249: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
    * RCA RATM3144B
    */
   public const val RATM3144B: String = "spec:width=1200px,height=1920px,dpi=240"
@@ -151,6 +156,11 @@ public object Rca {
    * RCA RCA_G2
    */
   public const val RCA_G2: String = "spec:width=480px,height=960px,dpi=240"
+
+  /**
+   * RCA RCA_Prime
+   */
+  public const val RCA_PRIME: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * RCA RCA_Reno_Max
@@ -203,11 +213,6 @@ public object Rca {
   public const val RCT6213W87DK: String = "spec:width=768px,height=1368px,dpi=160"
 
   /**
-   * RCA RCT6223W87
-   */
-  public const val RCT6223W87: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
    * RCA RCT6223W97
    */
   public const val RCT6223W97: String = "spec:width=1200px,height=1920px,dpi=240"
@@ -221,11 +226,6 @@ public object Rca {
    * RCA RCT6303W87DK
    */
   public const val RCT6303W87DK: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * RCA RCT6303W87M
-   */
-  public const val RCT6303W87M: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * RCA RCT6303W87M7
@@ -256,11 +256,6 @@ public object Rca {
    * RCA RCT6513W87DK5eQe
    */
   public const val RCT6513W87DK5EQE: String = "spec:width=768px,height=1368px,dpi=160"
-
-  /**
-   * RCA RCT6513W87DK5eQm
-   */
-  public const val RCT6513W87DK5EQM: String = "spec:width=768px,height=1368px,dpi=160"
 
   /**
    * RCA RCT6573W23
@@ -436,11 +431,6 @@ public object Rca {
    * RCA RCT6A03W13M
    */
   public const val RCT6A03W13M: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * RCA RCT6A06E12
-   */
-  public const val RCT6A06E12: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * RCA RCT6A06Q22

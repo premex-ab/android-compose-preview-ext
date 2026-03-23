@@ -14,9 +14,9 @@ Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.
 | M20 | M20 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Smart.M20)` |
 | M30 | M30 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Smart.M30)` |
 | M50 | M50 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Smart.M50)` |
-| Max | MAX | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Smart.MAX)` |
+| sherbet | SHERBET | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Smart.SHERBET)` |
 | Slide_Lite | SLIDE_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Smart.SLIDE_LITE)` |
 | Smart_Hero_II | SMART_HERO_II | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Smart.SMART_HERO_II)` |
-| Smart_PRIME_II | SMART_PRIME_II | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Smart.SMART_PRIME_II)` |
+| sorbet | SORBET | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Smart.SORBET)` |
 
 <!-- Generated automatically. Do not edit manually. -->

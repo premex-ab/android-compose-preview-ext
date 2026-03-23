@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=56
+// Generated manufacturer device catalog. Devices=58
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Honeywell (56 models).
+ * Device specifications for Honeywell (58 models).
  */
 public object Honeywell {
   /**
@@ -56,6 +56,11 @@ public object Honeywell {
    * Honeywell CT30P
    */
   public const val CT30P: String = "spec:width=1080px,height=2160px,dpi=480"
+
+  /**
+   * Honeywell CT32
+   */
+  public const val CT32: String = "spec:width=1080px,height=2160px,dpi=400"
 
   /**
    * Honeywell CT37
@@ -146,6 +151,11 @@ public object Honeywell {
    * Honeywell CT70
    */
   public const val CT70: String = "spec:width=1080px,height=2280px,dpi=480"
+
+  /**
+   * Honeywell CW45
+   */
+  public const val CW45: String = "spec:width=720px,height=1280px,dpi=220"
 
   /**
    * Honeywell EDA10A

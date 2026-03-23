@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MEFERI (4 models).
+ * Device specifications for MEFERI (5 models).
  */
 public object Meferi {
   /**
@@ -16,6 +16,11 @@ public object Meferi {
    * MEFERI ME40K
    */
   public const val ME40K: String = "spec:width=480px,height=800px,dpi=200"
+
+  /**
+   * MEFERI ME40K_M
+   */
+  public const val ME40K_M: String = "spec:width=480px,height=800px,dpi=220"
 
   /**
    * MEFERI ME61

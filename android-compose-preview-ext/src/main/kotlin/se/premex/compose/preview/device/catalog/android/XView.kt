@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=27
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for X-View (27 models).
+ * Device specifications for X-View (26 models).
  */
 public object XView {
   /**
@@ -91,11 +91,6 @@ public object XView {
    * X-View Tablet7_X_View
    */
   public const val TABLET7_X_VIEW: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * X-View TitaniumColors
-   */
-  public const val TITANIUMCOLORS: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * X-View TitaniumHD

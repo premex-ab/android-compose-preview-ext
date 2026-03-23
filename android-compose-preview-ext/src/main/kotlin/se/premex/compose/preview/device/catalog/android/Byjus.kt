@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BYJUS (2 models).
+ * Device specifications for BYJUS (3 models).
  */
 public object Byjus {
   /**
@@ -16,4 +16,9 @@ public object Byjus {
    * BYJUS LRNS10GIL0
    */
   public const val LRNS10GIL0: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * BYJUS LRNS10WIFI
+   */
+  public const val LRNS10WIFI: String = "spec:width=800px,height=1280px,dpi=160"
 }

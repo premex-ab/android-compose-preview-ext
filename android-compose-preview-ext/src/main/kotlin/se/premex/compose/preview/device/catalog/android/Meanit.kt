@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for meanIT (15 models).
+ * Device specifications for meanIT (12 models).
  */
 public object Meanit {
   /**
@@ -26,11 +26,6 @@ public object Meanit {
    * meanit meanit_K28_EEA
    */
   public const val MEANIT_K28_EEA: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * meanIT meanIT_X1
-   */
-  public const val MEANIT_X1: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * meanIT meanIT_X2
@@ -56,16 +51,6 @@ public object Meanit {
    * meanit meanit_X50_EEA
    */
   public const val MEANIT_X50_EEA: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * meanIT meanIT_X6
-   */
-  public const val MEANIT_X6: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * meanIT MTAB32_EEA
-   */
-  public const val MTAB32_EEA: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * meanIT Smartphone_X5

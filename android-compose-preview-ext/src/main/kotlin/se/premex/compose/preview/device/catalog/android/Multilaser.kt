@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=138
+// Generated manufacturer device catalog. Devices=137
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Multilaser (138 models).
+ * Device specifications for Multilaser (137 models).
  */
 public object Multilaser {
   /**
@@ -165,7 +165,7 @@ public object Multilaser {
   /**
    * Multilaser ML-TI-MS50G
    */
-  public const val ML_TI_MS50G: String = "spec:width=480px,height=960px,dpi=240"
+  public const val ML_TI_MS50G: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Multilaser ML-TI-MS50X
@@ -541,11 +541,6 @@ public object Multilaser {
    * Multilaser MS50L_4G
    */
   public const val MS50L_4G: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Multilaser MS50S
-   */
-  public const val MS50S: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Multilaser MS55M

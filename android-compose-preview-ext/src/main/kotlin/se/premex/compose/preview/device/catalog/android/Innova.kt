@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for INNOVA (12 models).
+ * Device specifications for INNOVA (13 models).
  */
 public object Innova {
   /**
@@ -26,6 +26,11 @@ public object Innova {
    * INNOVA hongkong
    */
   public const val HONGKONG: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * INNOVA jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * INNOVA kenton

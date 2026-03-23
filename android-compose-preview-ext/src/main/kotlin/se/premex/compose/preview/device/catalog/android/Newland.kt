@@ -60,7 +60,7 @@ public object Newland {
   /**
    * Newland NLS-N7
    */
-  public const val NLS_N7: String = "spec:width=480px,height=800px,dpi=160"
+  public const val NLS_N7: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Newland NLS-N7-GL

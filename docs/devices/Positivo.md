@@ -1,6 +1,6 @@
 # Positivo Devices
 
-Total: **61** devices. Import: `import se.premex.compose.preview.device.catalog.android.Positivo`
+Total: **58** devices. Import: `import se.premex.compose.preview.device.catalog.android.Positivo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,7 +14,6 @@ Total: **61** devices. Import: `import se.premex.compose.preview.device.catalog.
 | MJA1031 | MJA1031 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Positivo.MJA1031)` |
 | Q20 | Q20 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Positivo.Q20)` |
 | QF74 | QF74 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Positivo.QF74)` |
-| S430B | S430B | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Positivo.S430B)` |
 | S431 | S431 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Positivo.S431)` |
 | S432 | S432 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Positivo.S432)` |
 | S455 | S455 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Positivo.S455)` |
@@ -44,9 +43,9 @@ Total: **61** devices. Import: `import se.premex.compose.preview.device.catalog.
 | T2040B | T2040B | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Positivo.T2040B)` |
 | T2050C | T2050C | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Positivo.T2050C)` |
 | T2050M | T2050M | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Positivo.T2050M)` |
+| T2070D | T2070D | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Positivo.T2070D)` |
 | T3010D | T3010D | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Positivo.T3010D)` |
 | T307F | T307F | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.T307F)` |
-| T701 | T701 | 480x800 | 120 | `spec:width=480px,height=800px,dpi=120` | `@Preview(device = Positivo.T701)` |
 | T770 | T770 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.T770)` |
 | T770E | T770E | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.T770E)` |
 | T770G | T770G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.T770G)` |
@@ -55,15 +54,13 @@ Total: **61** devices. Import: `import se.premex.compose.preview.device.catalog.
 | T810 | T810 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Positivo.T810)` |
 | T810C | T810C | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Positivo.T810C)` |
 | TL10 | TL10 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Positivo.TL10)` |
+| TL12 | TL12 | 1600x2560 | 360 | `spec:width=1600px,height=2560px,dpi=360` | `@Preview(device = Positivo.TL12)` |
 | US2070 | US2070 | 768x1366 | 160 | `spec:width=768px,height=1366px,dpi=160` | `@Preview(device = Positivo.US2070)` |
-| W750 | W750 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.W750)` |
 | Y1000 | Y1000 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Positivo.Y1000)` |
-| Y1010 | Y1010 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Positivo.Y1010)` |
 | Y210 | Y210 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.Y210)` |
 | Y400 | Y400 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Positivo.Y400)` |
 | Y700 | Y700 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Positivo.Y700)` |
 | YPY_AB10H | YPY_AB10H | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Positivo.YPY_AB10H)` |
-| YPY_AB7 | YPY_AB7 | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Positivo.YPY_AB7)` |
 | YPY_L1050 | YPY_L1050 | 752x1280 | 160 | `spec:width=752px,height=1280px,dpi=160` | `@Preview(device = Positivo.YPY_L1050)` |
 
 <!-- Generated automatically. Do not edit manually. -->

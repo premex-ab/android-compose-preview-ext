@@ -20,7 +20,7 @@ public object Ace {
   /**
    * ACE AS0618
    */
-  public const val AS0618: String = "spec:width=1080px,height=2340px,dpi=420"
+  public const val AS0618: String = "spec:width=720px,height=1500px,dpi=320"
 
   /**
    * ACE BUZZ_1_Lite
@@ -158,6 +158,11 @@ public object Ace {
   public const val BUZZ_6_ULTRA: String = "spec:width=720px,height=1604px,dpi=320"
 
   /**
+   * ACE BUZZ_7_GT
+   */
+  public const val BUZZ_7_GT: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * ACE BUZZ_7_Lite
    */
   public const val BUZZ_7_LITE: String = "spec:width=720px,height=1612px,dpi=320"
@@ -196,11 +201,6 @@ public object Ace {
    * ACE URBAN_1
    */
   public const val URBAN_1: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * ACE URBAN_2
-   */
-  public const val URBAN_2: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
    * ACE URBAN_3

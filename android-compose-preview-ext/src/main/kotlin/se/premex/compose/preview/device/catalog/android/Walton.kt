@@ -13,9 +13,24 @@ public object Walton {
   public const val _10P: String = "spec:width=1200px,height=1920px,dpi=360"
 
   /**
+   * WALTON alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * WALTON anaheim
    */
   public const val ANAHEIM: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * WALTON beomil
+   */
+  public const val BEOMIL: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * WALTON eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * WALTON guandu
@@ -55,7 +70,7 @@ public object Walton {
   /**
    * WALTON NEXG_N71
    */
-  public const val NEXG_N71: String = "spec:width=720px,height=1612px,dpi=320"
+  public const val NEXG_N71: String = "spec:width=1080px,height=1920px,dpi=486"
 
   /**
    * WALTON NEXG_N71_Plus
@@ -76,6 +91,11 @@ public object Walton {
    * WALTON NEXG_N74
    */
   public const val NEXG_N74: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
+   * WALTON NEXG_N75
+   */
+  public const val NEXG_N75: String = "spec:width=720px,height=1600px,dpi=480"
 
   /**
    * WALTON NEXG_N8
@@ -253,11 +273,6 @@ public object Walton {
   public const val PRIMO_GH9: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
-   * Walton Primo_GM2
-   */
-  public const val PRIMO_GM2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Walton Primo_GM2_Plus
    */
   public const val PRIMO_GM2_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
@@ -328,11 +343,6 @@ public object Walton {
   public const val PRIMO_N5: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
-   * Walton Primo_NF3
-   */
-  public const val PRIMO_NF3: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * WALTON Primo_NF4
    */
   public const val PRIMO_NF4: String = "spec:width=480px,height=960px,dpi=240"
@@ -353,11 +363,6 @@ public object Walton {
   public const val PRIMO_NH3: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Walton Primo_NH3_Lite
-   */
-  public const val PRIMO_NH3_LITE: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * WALTON Primo_NH3i
    */
   public const val PRIMO_NH3I: String = "spec:width=720px,height=1280px,dpi=320"
@@ -375,7 +380,7 @@ public object Walton {
   /**
    * WALTON Primo_NX6
    */
-  public const val PRIMO_NX6: String = "spec:width=1440px,height=3040px,dpi=560"
+  public const val PRIMO_NX6: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * WALTON Primo_R4_Plus
@@ -413,11 +418,6 @@ public object Walton {
   public const val PRIMO_R9: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
-   * WALTON Primo_RM3
-   */
-  public const val PRIMO_RM3: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * WALTON Primo_RM4
    */
   public const val PRIMO_RM4: String = "spec:width=720px,height=1600px,dpi=320"
@@ -446,11 +446,6 @@ public object Walton {
    * WALTON PRIMO_RX9
    */
   public const val PRIMO_RX9: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
-   * WALTON Primo_S6
-   */
-  public const val PRIMO_S6: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * WALTON Primo_S6_Dual
@@ -546,6 +541,11 @@ public object Walton {
    * WALTON WBW5616WA
    */
   public const val WBW5616WA: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * WALTON XANON_X1_ultra
+   */
+  public const val XANON_X1_ULTRA: String = "spec:width=720px,height=1612px,dpi=280"
 
   /**
    * WALTON XANON_X20

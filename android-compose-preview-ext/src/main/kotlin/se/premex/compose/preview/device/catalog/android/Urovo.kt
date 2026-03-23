@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Urovo (12 models).
+ * Device specifications for Urovo (13 models).
  */
 public object Urovo {
+  /**
+   * UROVO CT58S
+   */
+  public const val CT58S: String = "spec:width=720px,height=1440px,dpi=320"
+
   /**
    * Urovo DT40
    */
@@ -40,7 +45,7 @@ public object Urovo {
   /**
    * Urovo P8100
    */
-  public const val P8100: String = "spec:width=1200px,height=1920px,dpi=320"
+  public const val P8100: String = "spec:width=800px,height=1280px,dpi=210"
 
   /**
    * Urovo P8100P

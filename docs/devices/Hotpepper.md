@@ -1,6 +1,6 @@
 # Hotpepper Devices
 
-Total: **19** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hotpepper`
+Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hotpepper`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,6 +12,7 @@ Total: **19** devices. Import: `import se.premex.compose.preview.device.catalog.
 | HPP-GS1 | HPP_GS1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hotpepper.HPP_GS1)` |
 | HPP-L55B | HPP_L55B | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hotpepper.HPP_L55B)` |
 | HPPAP16 | HPPAP16 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Hotpepper.HPPAP16)` |
+| HPPH88L | HPPH88L | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hotpepper.HPPH88L)` |
 | HPPL60A | HPPL60A | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Hotpepper.HPPL60A)` |
 | HPPL63A | HPPL63A | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Hotpepper.HPPL63A)` |
 | HPPL67A | HPPL67A | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Hotpepper.HPPL67A)` |

@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=41
+// Generated manufacturer device catalog. Devices=37
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Haier (41 models).
+ * Device specifications for Haier (37 models).
  */
 public object Haier {
   /**
    * Haier A1
    */
   public const val A1: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Haier A3
-   */
-  public const val A3: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Haier A4_Lite
@@ -48,19 +43,9 @@ public object Haier {
   public const val DUPONT: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Haier E13
-   */
-  public const val E13: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * Haier E7
    */
   public const val E7: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Haier E9
-   */
-  public const val E9: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Haier Haier_L52
@@ -78,9 +63,9 @@ public object Haier {
   public const val HANYANG: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Haier HM-G553-FL
+   * Haier holargos
    */
-  public const val HM_G553_FL: String = "spec:width=480px,height=854px,dpi=240"
+  public const val HOLARGOS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Haier hongik
@@ -138,6 +123,11 @@ public object Haier {
   public const val M5352401: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * Haier nanaimo
+   */
+  public const val NANAIMO: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * Haier nippori
    */
   public const val NIPPORI: String = "spec:width=720px,height=1280px,dpi=213"
@@ -153,11 +143,6 @@ public object Haier {
   public const val P10: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * Haier P11
-   */
-  public const val P11: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * Haier P20
    */
   public const val P20: String = "spec:width=1200px,height=1920px,dpi=280"
@@ -165,7 +150,7 @@ public object Haier {
   /**
    * Haier P20_Tablet_PC
    */
-  public const val P20_TABLET_PC: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val P20_TABLET_PC: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * Haier PAD1042
@@ -196,11 +181,6 @@ public object Haier {
    * Haier Titan_T5
    */
   public const val TITAN_T5: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Haier uguisudani
-   */
-  public const val UGUISUDANI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * Haier yongchun

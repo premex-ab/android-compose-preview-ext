@@ -1,6 +1,6 @@
 # Xiaomi Devices
 
-Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog.android.Xiaomi`
+Total: **204** devices. Import: `import se.premex.compose.preview.device.catalog.android.Xiaomi`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -63,6 +63,7 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | ginkgo | GINKGO | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.GINKGO)` |
 | ginkgo | GINKGO_1080X2388 | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Xiaomi.GINKGO_1080X2388)` |
 | goku | GOKU | 2224x2488 | 480 | `spec:width=2224px,height=2488px,dpi=480` | `@Preview(device = Xiaomi.GOKU)` |
+| goya | GOYA | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Xiaomi.GOYA)` |
 | grus | GRUS | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Xiaomi.GRUS)` |
 | gucci | GUCCI | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.GUCCI)` |
 | haotian | HAOTIAN | 1080x2400 | 600 | `spec:width=1080px,height=2400px,dpi=600` | `@Preview(device = Xiaomi.HAOTIAN)` |
@@ -91,12 +92,13 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | jinghu | JINGHU | 2136x3200 | 360 | `spec:width=2136px,height=3200px,dpi=360` | `@Preview(device = Xiaomi.JINGHU)` |
 | kate | KATE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Xiaomi.KATE)` |
 | kenzo | KENZO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Xiaomi.KENZO)` |
+| klimt | KLIMT | 1280x2772 | 520 | `spec:width=1280px,height=2772px,dpi=520` | `@Preview(device = Xiaomi.KLIMT)` |
 | kungfupanda | KUNGFUPANDA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Xiaomi.KUNGFUPANDA)` |
 | ladybird | LADYBIRD | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Xiaomi.LADYBIRD)` |
 | lalaland | LALALAND | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Xiaomi.LALALAND)` |
 | land | LAND | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.LAND)` |
 | latte | LATTE | 1536x2048 | 320 | `spec:width=1536px,height=2048px,dpi=320` | `@Preview(device = Xiaomi.LATTE)` |
-| laurus | LAURUS | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Xiaomi.LAURUS)` |
+| laurus | LAURUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.LAURUS)` |
 | lavender | LAVENDER | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.LAVENDER)` |
 | lcsh92_wet_jb9 | LCSH92_WET_JB9 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.LCSH92_WET_JB9)` |
 | leo | LEO | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Xiaomi.LEO)` |
@@ -105,6 +107,7 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | lithium | LITHIUM | 1080x2040 | 480 | `spec:width=1080px,height=2040px,dpi=480` | `@Preview(device = Xiaomi.LITHIUM)` |
 | liuqin | LIUQIN | 1800x2880 | 400 | `spec:width=1800px,height=2880px,dpi=400` | `@Preview(device = Xiaomi.LIUQIN)` |
 | lotus | LOTUS | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Xiaomi.LOTUS)` |
+| luming | LUMING | 1236x2750 | 520 | `spec:width=1236px,height=2750px,dpi=520` | `@Preview(device = Xiaomi.LUMING)` |
 | machuca | MACHUCA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Xiaomi.MACHUCA)` |
 | magnolia | MAGNOLIA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Xiaomi.MAGNOLIA)` |
 | markw | MARKW | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Xiaomi.MARKW)` |
@@ -130,7 +133,9 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | once | ONCE | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Xiaomi.ONCE)` |
 | oneday | ONEDAY | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Xiaomi.ONEDAY)` |
 | oxygen | OXYGEN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Xiaomi.OXYGEN)` |
+| pandora | PANDORA | 1220x2656 | 520 | `spec:width=1220px,height=2656px,dpi=520` | `@Preview(device = Xiaomi.PANDORA)` |
 | perseus | PERSEUS | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.PERSEUS)` |
+| piano | PIANO | 2136x3200 | 440 | `spec:width=2136px,height=3200px,dpi=440` | `@Preview(device = Xiaomi.PIANO)` |
 | pine | PINE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Xiaomi.PINE)` |
 | pipa | PIPA | 1800x2880 | 400 | `spec:width=1800px,height=2880px,dpi=400` | `@Preview(device = Xiaomi.PIPA)` |
 | pisces | PISCES | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Xiaomi.PISCES)` |
@@ -139,8 +144,10 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | platina | PLATINA | 1080x2280 | 440 | `spec:width=1080px,height=2280px,dpi=440` | `@Preview(device = Xiaomi.PLATINA)` |
 | plato | PLATO | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Xiaomi.PLATO)` |
 | polaris | POLARIS | 1080x2160 | 440 | `spec:width=1080px,height=2160px,dpi=440` | `@Preview(device = Xiaomi.POLARIS)` |
+| popsicle | POPSICLE | 1200x2608 | 480 | `spec:width=1200px,height=2608px,dpi=480` | `@Preview(device = Xiaomi.POPSICLE)` |
 | prada | PRADA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.PRADA)` |
 | psyche | PSYCHE | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Xiaomi.PSYCHE)` |
+| pudding | PUDDING | 1220x2656 | 520 | `spec:width=1220px,height=2656px,dpi=520` | `@Preview(device = Xiaomi.PUDDING)` |
 | pyxis | PYXIS | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.PYXIS)` |
 | rango | RANGO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Xiaomi.RANGO)` |
 | raphaelin | RAPHAELIN | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.RAPHAELIN)` |
@@ -170,6 +177,7 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | tissot_sprout | TISSOT_SPROUT | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Xiaomi.TISSOT_SPROUT)` |
 | toco | TOCO | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.TOCO)` |
 | tucana | TUCANA | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.TUCANA)` |
+| turner | TURNER | 1880x3008 | 450 | `spec:width=1880px,height=3008px,dpi=450` | `@Preview(device = Xiaomi.TURNER)` |
 | twilight | TWILIGHT | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Xiaomi.TWILIGHT)` |
 | ugg | UGG | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.UGG)` |
 | ugglite | UGGLITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Xiaomi.UGGLITE)` |
@@ -180,8 +188,10 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | vangogh | VANGOGH | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Xiaomi.VANGOGH)` |
 | vayu | VAYU | 1080x2388 | 480 | `spec:width=1080px,height=2388px,dpi=480` | `@Preview(device = Xiaomi.VAYU)` |
 | venom | VENOM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Xiaomi.VENOM)` |
+| vili | VILI | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Xiaomi.VILI)` |
 | vince | VINCE | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Xiaomi.VINCE)` |
 | violet | VIOLET | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Xiaomi.VIOLET)` |
+| violin | VIOLIN | 2136x3200 | 400 | `spec:width=2136px,height=3200px,dpi=400` | `@Preview(device = Xiaomi.VIOLIN)` |
 | virgo | VIRGO | 1080x1920 | 440 | `spec:width=1080px,height=1920px,dpi=440` | `@Preview(device = Xiaomi.VIRGO)` |
 | volver | VOLVER | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Xiaomi.VOLVER)` |
 | watchmen | WATCHMEN | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Xiaomi.WATCHMEN)` |
@@ -193,6 +203,7 @@ Total: **193** devices. Import: `import se.premex.compose.preview.device.catalog
 | ysl | YSL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Xiaomi.YSL)` |
 | yudi | YUDI | 1800x2880 | 360 | `spec:width=1800px,height=2880px,dpi=360` | `@Preview(device = Xiaomi.YUDI)` |
 | yuechu | YUECHU | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Xiaomi.YUECHU)` |
+| yupei | YUPEI | 2136x3200 | 440 | `spec:width=2136px,height=3200px,dpi=440` | `@Preview(device = Xiaomi.YUPEI)` |
 | zeus | ZEUS | 1440x3200 | 560 | `spec:width=1440px,height=3200px,dpi=560` | `@Preview(device = Xiaomi.ZEUS)` |
 | zijin | ZIJIN | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Xiaomi.ZIJIN)` |
 | ziyi | ZIYI | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Xiaomi.ZIYI)` |

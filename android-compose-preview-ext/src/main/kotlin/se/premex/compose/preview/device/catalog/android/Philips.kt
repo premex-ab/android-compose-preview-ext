@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=68
+// Generated manufacturer device catalog. Devices=72
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Philips (68 models).
+ * Device specifications for Philips (72 models).
  */
 public object Philips {
+  /**
+   * Philips 65BDL4152E
+   */
+  public const val _65BDL4152E: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * Philips anaheim
    */
@@ -21,6 +26,11 @@ public object Philips {
    * Philips eleonas
    */
   public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * PHILIPS elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * PHILIPS GMP
@@ -48,6 +58,11 @@ public object Philips {
   public const val HONGKONG: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * PHILIPS jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
    * PHILIPS khardi
    */
   public const val KHARDI: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -63,11 +78,6 @@ public object Philips {
   public const val LAVENDER: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Philips Marathon
-   */
-  public const val MARATHON: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * PHILIPS mountbaker
    */
   public const val MOUNTBAKER: String = "spec:width=720px,height=1280px,dpi=213"
@@ -76,6 +86,11 @@ public object Philips {
    * PHILIPS MT5593Uplus
    */
   public const val MT5593UPLUS: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Philips PH0M_EA_T32
+   */
+  public const val PH0M_EA_T32: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * Philips PH1M_EA_9970A
@@ -193,11 +208,6 @@ public object Philips {
   public const val PHILIPS_XENIUM_V787: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * PHILIPS PI3100_98
-   */
-  public const val PI3100_98: String = "spec:width=600px,height=976px,dpi=160"
-
-  /**
    * PHILIPS QM16XE_F
    */
   public const val QM16XE_F: String = "spec:width=720px,height=1280px,dpi=213"
@@ -298,6 +308,11 @@ public object Philips {
   public const val SINDAP: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * Philips T7315
+   */
+  public const val T7315: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * Philips T8010
    */
   public const val T8010: String = "spec:width=1200px,height=1920px,dpi=320"
@@ -313,14 +328,19 @@ public object Philips {
   public const val TAKAO: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
+   * PHILIPS templeton
+   */
+  public const val TEMPLETON: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * PHILIPS TLE722G
    */
   public const val TLE722G: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Philips V387
+   * Philips umeda
    */
-  public const val V387: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val UMEDA: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * PHILIPS whitefield

@@ -1,31 +1,16 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VEGA (14 models).
+ * Device specifications for VEGA (11 models).
  */
 public object Vega {
-  /**
-   * VEGA ef49k
-   */
-  public const val EF49K: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * VEGA ef51k
    */
   public const val EF51K: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * VEGA ef52k
-   */
-  public const val EF52K: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * VEGA ef52s
-   */
-  public const val EF52S: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * VEGA EF56S

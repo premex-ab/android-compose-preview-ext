@@ -10,5 +10,5 @@ public object Jide {
   /**
    * Jide rm1g
    */
-  public const val RM1G: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val RM1G: String = "spec:width=720px,height=1280px,dpi=160"
 }

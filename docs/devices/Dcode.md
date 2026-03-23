@@ -1,6 +1,6 @@
 # Dcode Devices
 
-Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dcode`
+Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dcode`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,5 +14,8 @@ Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.
 | DS_CL4 | DS_CL4 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Dcode.DS_CL4)` |
 | DS_CL4_Lite | DS_CL4_LITE | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Dcode.DS_CL4_LITE)` |
 | DS_CL4_Pro | DS_CL4_PRO | 720x1612 | 480 | `spec:width=720px,height=1612px,dpi=480` | `@Preview(device = Dcode.DS_CL4_PRO)` |
+| DS_CL_Evo | DS_CL_EVO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dcode.DS_CL_EVO)` |
+| DS_CL_Prime | DS_CL_PRIME | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Dcode.DS_CL_PRIME)` |
+| DS_CL_X | DS_CL_X | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Dcode.DS_CL_X)` |
 
 <!-- Generated automatically. Do not edit manually. -->

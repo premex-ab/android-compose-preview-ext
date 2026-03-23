@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Redfox (5 models).
+ * Device specifications for Redfox (4 models).
  */
 public object Redfox {
   /**
@@ -16,11 +16,6 @@ public object Redfox {
    * Redfox R10S
    */
   public const val R10S: String = "spec:width=720px,height=1560px,dpi=320"
-
-  /**
-   * Redfox Valuer_V8
-   */
-  public const val VALUER_V8: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Redfox Wizpad_Valuer_R10X

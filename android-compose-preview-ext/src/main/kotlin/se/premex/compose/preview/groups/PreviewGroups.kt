@@ -1,4 +1,4 @@
-// Generated Preview Groups utility. Manufacturers=2668
+// Generated Preview Groups utility. Manufacturers=2691
 package se.premex.compose.preview.groups
 
 import kotlin.String
@@ -47,6 +47,9 @@ import se.premex.compose.preview.device.catalog.android.Ahlo
 import se.premex.compose.preview.device.catalog.android.Ai
 import se.premex.compose.preview.device.catalog.android.Aidata
 import se.premex.compose.preview.device.catalog.android.Aigo
+import se.premex.compose.preview.device.catalog.android.Ainmel
+import se.premex.compose.preview.device.catalog.android.Ainuevo
+import se.premex.compose.preview.device.catalog.android.Aiplus
 import se.premex.compose.preview.device.catalog.android.Airpha
 import se.premex.compose.preview.device.catalog.android.Airtel
 import se.premex.compose.preview.device.catalog.android.AirtelXstream
@@ -64,8 +67,6 @@ import se.premex.compose.preview.device.catalog.android.Akuvox
 import se.premex.compose.preview.device.catalog.android.Alba
 import se.premex.compose.preview.device.catalog.android.Albadeel
 import se.premex.compose.preview.device.catalog.android.Alcatel
-import se.premex.compose.preview.device.catalog.android.Alco
-import se.premex.compose.preview.device.catalog.android.Alcor
 import se.premex.compose.preview.device.catalog.android.Aldo
 import se.premex.compose.preview.device.catalog.android.Algar
 import se.premex.compose.preview.device.catalog.android.Alhafidh
@@ -79,7 +80,6 @@ import se.premex.compose.preview.device.catalog.android.Allnet
 import se.premex.compose.preview.device.catalog.android.Allview
 import se.premex.compose.preview.device.catalog.android.Allwinner
 import se.premex.compose.preview.device.catalog.android.Alpha
-import se.premex.compose.preview.device.catalog.android.AlphaLing
 import se.premex.compose.preview.device.catalog.android.Alphaling
 import se.premex.compose.preview.device.catalog.android.Alphatel
 import se.premex.compose.preview.device.catalog.android.Alphawolf
@@ -92,6 +92,7 @@ import se.premex.compose.preview.device.catalog.android.Altron
 import se.premex.compose.preview.device.catalog.android.Altus
 import se.premex.compose.preview.device.catalog.android.AmaMobile
 import se.premex.compose.preview.device.catalog.android.Amazon
+import se.premex.compose.preview.device.catalog.android.Amg
 import se.premex.compose.preview.device.catalog.android.Amgoo
 import se.premex.compose.preview.device.catalog.android.Amgx13e
 import se.premex.compose.preview.device.catalog.android.Amino
@@ -112,6 +113,7 @@ import se.premex.compose.preview.device.catalog.android.AnsNks
 import se.premex.compose.preview.device.catalog.android.AnsNksa
 import se.premex.compose.preview.device.catalog.android.Antel
 import se.premex.compose.preview.device.catalog.android.Antempe
+import se.premex.compose.preview.device.catalog.android.Antemper
 import se.premex.compose.preview.device.catalog.android.Anxonit
 import se.premex.compose.preview.device.catalog.android.Anya
 import se.premex.compose.preview.device.catalog.android.AnywayGo
@@ -120,6 +122,7 @@ import se.premex.compose.preview.device.catalog.android.Aocwei
 import se.premex.compose.preview.device.catalog.android.Aogo
 import se.premex.compose.preview.device.catalog.android.Aoskey
 import se.premex.compose.preview.device.catalog.android.Aoyodkg
+import se.premex.compose.preview.device.catalog.android.Apd
 import se.premex.compose.preview.device.catalog.android.Apex
 import se.premex.compose.preview.device.catalog.android.Apolosign
 import se.premex.compose.preview.device.catalog.android.Aprix
@@ -141,6 +144,7 @@ import se.premex.compose.preview.device.catalog.android.Arris
 import se.premex.compose.preview.device.catalog.android.Arrow
 import se.premex.compose.preview.device.catalog.android.Arrqw
 import se.premex.compose.preview.device.catalog.android.Artel
+import se.premex.compose.preview.device.catalog.android.Artia
 import se.premex.compose.preview.device.catalog.android.Artran
 import se.premex.compose.preview.device.catalog.android.Arvand
 import se.premex.compose.preview.device.catalog.android.AsElectronics
@@ -166,6 +170,7 @@ import se.premex.compose.preview.device.catalog.android.Atec
 import se.premex.compose.preview.device.catalog.android.Athenastellar
 import se.premex.compose.preview.device.catalog.android.Athesi
 import se.premex.compose.preview.device.catalog.android.AthesiProfessional
+import se.premex.compose.preview.device.catalog.android.Atid
 import se.premex.compose.preview.device.catalog.android.AtilimMpad
 import se.premex.compose.preview.device.catalog.android.Atm
 import se.premex.compose.preview.device.catalog.android.Atmpc
@@ -173,13 +178,14 @@ import se.premex.compose.preview.device.catalog.android.Atol
 import se.premex.compose.preview.device.catalog.android.Atoto
 import se.premex.compose.preview.device.catalog.android.Atozee
 import se.premex.compose.preview.device.catalog.android.Att
+import se.premex.compose.preview.device.catalog.android.Attila
 import se.premex.compose.preview.device.catalog.android.Atvio
 import se.premex.compose.preview.device.catalog.android.Audi
 import se.premex.compose.preview.device.catalog.android.Aupo
 import se.premex.compose.preview.device.catalog.android.Aura
 import se.premex.compose.preview.device.catalog.android.Aurzen
+import se.premex.compose.preview.device.catalog.android.Austrostream
 import se.premex.compose.preview.device.catalog.android.Ava
-import se.premex.compose.preview.device.catalog.android.Avacom
 import se.premex.compose.preview.device.catalog.android.Avangard
 import se.premex.compose.preview.device.catalog.android.Avatel
 import se.premex.compose.preview.device.catalog.android.Avaya
@@ -197,8 +203,8 @@ import se.premex.compose.preview.device.catalog.android.Axioo
 import se.premex.compose.preview.device.catalog.android.Axon
 import se.premex.compose.preview.device.catalog.android.Axs
 import se.premex.compose.preview.device.catalog.android.Axstv
-import se.premex.compose.preview.device.catalog.android.Axxa
 import se.premex.compose.preview.device.catalog.android.AxxaMobile
+import se.premex.compose.preview.device.catalog.android.Axzy
 import se.premex.compose.preview.device.catalog.android.Ayat
 import se.premex.compose.preview.device.catalog.android.Ayonz
 import se.premex.compose.preview.device.catalog.android.Ayya
@@ -207,8 +213,8 @@ import se.premex.compose.preview.device.catalog.android.Azeyou
 import se.premex.compose.preview.device.catalog.android.Azom
 import se.premex.compose.preview.device.catalog.android.Azpen
 import se.premex.compose.preview.device.catalog.android.Azumi
-import se.premex.compose.preview.device.catalog.android.BBox
 import se.premex.compose.preview.device.catalog.android.Babal
+import se.premex.compose.preview.device.catalog.android.Baiwoyer
 import se.premex.compose.preview.device.catalog.android.Baken
 import se.premex.compose.preview.device.catalog.android.Balmuda
 import se.premex.compose.preview.device.catalog.android.Banana
@@ -220,7 +226,6 @@ import se.premex.compose.preview.device.catalog.android.Bauhn
 import se.premex.compose.preview.device.catalog.android.Baykus
 import se.premex.compose.preview.device.catalog.android.Bbox
 import se.premex.compose.preview.device.catalog.android.Bdq
-import se.premex.compose.preview.device.catalog.android.BeaFon
 import se.premex.compose.preview.device.catalog.android.Beafon
 import se.premex.compose.preview.device.catalog.android.Bec
 import se.premex.compose.preview.device.catalog.android.Beeline
@@ -231,16 +236,18 @@ import se.premex.compose.preview.device.catalog.android.Beleno
 import se.premex.compose.preview.device.catalog.android.Bell
 import se.premex.compose.preview.device.catalog.android.BellCanada
 import se.premex.compose.preview.device.catalog.android.Benco
+import se.premex.compose.preview.device.catalog.android.Benesse
 import se.premex.compose.preview.device.catalog.android.Beneve
 import se.premex.compose.preview.device.catalog.android.Benq
 import se.premex.compose.preview.device.catalog.android.Benten
 import se.premex.compose.preview.device.catalog.android.Bentley
 import se.premex.compose.preview.device.catalog.android.Benzo
 import se.premex.compose.preview.device.catalog.android.Bergstrom
+import se.premex.compose.preview.device.catalog.android.Besdw
 import se.premex.compose.preview.device.catalog.android.Bestbuy
 import se.premex.compose.preview.device.catalog.android.Bestreha
 import se.premex.compose.preview.device.catalog.android.Besttab
-import se.premex.compose.preview.device.catalog.android.BeyondPte
+import se.premex.compose.preview.device.catalog.android.Beyodfu
 import se.premex.compose.preview.device.catalog.android.Bfelix
 import se.premex.compose.preview.device.catalog.android.Bgh
 import se.premex.compose.preview.device.catalog.android.Bh
@@ -249,25 +256,23 @@ import se.premex.compose.preview.device.catalog.android.Biegedy
 import se.premex.compose.preview.device.catalog.android.Bigme
 import se.premex.compose.preview.device.catalog.android.Bigtech
 import se.premex.compose.preview.device.catalog.android.Bilimbook
+import se.premex.compose.preview.device.catalog.android.Bilimli
 import se.premex.compose.preview.device.catalog.android.Billion
 import se.premex.compose.preview.device.catalog.android.Billow
 import se.premex.compose.preview.device.catalog.android.Binge
 import se.premex.compose.preview.device.catalog.android.Biolux
 import se.premex.compose.preview.device.catalog.android.Biorugged
-import se.premex.compose.preview.device.catalog.android.Biosfone
 import se.premex.compose.preview.device.catalog.android.BitaInternational
 import se.premex.compose.preview.device.catalog.android.Bitel
 import se.premex.compose.preview.device.catalog.android.Bitmore
 import se.premex.compose.preview.device.catalog.android.Bittium
 import se.premex.compose.preview.device.catalog.android.Bizringer
 import se.premex.compose.preview.device.catalog.android.Blabloo
-import se.premex.compose.preview.device.catalog.android.BlackFox
 import se.premex.compose.preview.device.catalog.android.BlackShark
 import se.premex.compose.preview.device.catalog.android.Blackanddecker
 import se.premex.compose.preview.device.catalog.android.Blackberry
 import se.premex.compose.preview.device.catalog.android.Blackfox
 import se.premex.compose.preview.device.catalog.android.Blackline
-import se.premex.compose.preview.device.catalog.android.Blackshark
 import se.premex.compose.preview.device.catalog.android.Blackview
 import se.premex.compose.preview.device.catalog.android.Blaupunkt
 import se.premex.compose.preview.device.catalog.android.Bleck
@@ -279,6 +284,7 @@ import se.premex.compose.preview.device.catalog.android.Blue
 import se.premex.compose.preview.device.catalog.android.Bluebird
 import se.premex.compose.preview.device.catalog.android.Bluedigit
 import se.premex.compose.preview.device.catalog.android.Bluedot
+import se.premex.compose.preview.device.catalog.android.Bluefox
 import se.premex.compose.preview.device.catalog.android.Blueworld
 import se.premex.compose.preview.device.catalog.android.Bluslate
 import se.premex.compose.preview.device.catalog.android.Bmax
@@ -286,6 +292,7 @@ import se.premex.compose.preview.device.catalog.android.Bmobile
 import se.premex.compose.preview.device.catalog.android.Bmpro
 import se.premex.compose.preview.device.catalog.android.Bmxc
 import se.premex.compose.preview.device.catalog.android.Bncf
+import se.premex.compose.preview.device.catalog.android.Bne
 import se.premex.compose.preview.device.catalog.android.Bno
 import se.premex.compose.preview.device.catalog.android.Bolva
 import se.premex.compose.preview.device.catalog.android.Boreal
@@ -299,6 +306,7 @@ import se.premex.compose.preview.device.catalog.android.Bq
 import se.premex.compose.preview.device.catalog.android.Bqmobile
 import se.premex.compose.preview.device.catalog.android.Bqru
 import se.premex.compose.preview.device.catalog.android.Braillenote
+import se.premex.compose.preview.device.catalog.android.Brain
 import se.premex.compose.preview.device.catalog.android.Brand
 import se.premex.compose.preview.device.catalog.android.Brando
 import se.premex.compose.preview.device.catalog.android.Brandt
@@ -319,26 +327,26 @@ import se.premex.compose.preview.device.catalog.android.Brown
 import se.premex.compose.preview.device.catalog.android.Bruhm
 import se.premex.compose.preview.device.catalog.android.Btc
 import se.premex.compose.preview.device.catalog.android.Bubblegum
+import se.premex.compose.preview.device.catalog.android.Bubblegumb1
 import se.premex.compose.preview.device.catalog.android.BuddyPhone
-import se.premex.compose.preview.device.catalog.android.Buff
 import se.premex.compose.preview.device.catalog.android.Bulsatcom
 import se.premex.compose.preview.device.catalog.android.Bundy
 import se.premex.compose.preview.device.catalog.android.Bush
 import se.premex.compose.preview.device.catalog.android.Bvs
-import se.premex.compose.preview.device.catalog.android.Bwjbsw
+import se.premex.compose.preview.device.catalog.android.Byd
 import se.premex.compose.preview.device.catalog.android.Byjus
 import se.premex.compose.preview.device.catalog.android.Byybuo
 import se.premex.compose.preview.device.catalog.android.C5Mobile
 import se.premex.compose.preview.device.catalog.android.Cablecolor
 import se.premex.compose.preview.device.catalog.android.Caixun
 import se.premex.compose.preview.device.catalog.android.Callsky
+import se.premex.compose.preview.device.catalog.android.CallskyTab
 import se.premex.compose.preview.device.catalog.android.Caltta
 import se.premex.compose.preview.device.catalog.android.Calus
 import se.premex.compose.preview.device.catalog.android.Camfone
 import se.premex.compose.preview.device.catalog.android.Canal
 import se.premex.compose.preview.device.catalog.android.CanalPlus
 import se.premex.compose.preview.device.catalog.android.Canaldigital
-import se.premex.compose.preview.device.catalog.android.Candi
 import se.premex.compose.preview.device.catalog.android.Candy
 import se.premex.compose.preview.device.catalog.android.Captiva
 import se.premex.compose.preview.device.catalog.android.Carbonmobile
@@ -362,12 +370,13 @@ import se.premex.compose.preview.device.catalog.android.Cellcomtv
 import se.premex.compose.preview.device.catalog.android.Cellecor
 import se.premex.compose.preview.device.catalog.android.Cello
 import se.premex.compose.preview.device.catalog.android.Cellution
+import se.premex.compose.preview.device.catalog.android.Celtiis
+import se.premex.compose.preview.device.catalog.android.Centerm
 import se.premex.compose.preview.device.catalog.android.Centric
 import se.premex.compose.preview.device.catalog.android.Cepter
 import se.premex.compose.preview.device.catalog.android.Cg
 import se.premex.compose.preview.device.catalog.android.Chainway
 import se.premex.compose.preview.device.catalog.android.Challenger
-import se.premex.compose.preview.device.catalog.android.Chanbly
 import se.premex.compose.preview.device.catalog.android.Changhong
 import se.premex.compose.preview.device.catalog.android.ChannelMaster
 import se.premex.compose.preview.device.catalog.android.Chcnav
@@ -375,7 +384,6 @@ import se.premex.compose.preview.device.catalog.android.Cheetah
 import se.premex.compose.preview.device.catalog.android.ChemistWarehouse
 import se.premex.compose.preview.device.catalog.android.Cherry
 import se.premex.compose.preview.device.catalog.android.CherryMobile
-import se.premex.compose.preview.device.catalog.android.Cherrymobile
 import se.premex.compose.preview.device.catalog.android.ChgTvHub
 import se.premex.compose.preview.device.catalog.android.Chieko
 import se.premex.compose.preview.device.catalog.android.Chimei
@@ -389,6 +397,7 @@ import se.premex.compose.preview.device.catalog.android.Cidea
 import se.premex.compose.preview.device.catalog.android.Cignalplaytv
 import se.premex.compose.preview.device.catalog.android.Cik
 import se.premex.compose.preview.device.catalog.android.Cilico
+import se.premex.compose.preview.device.catalog.android.Cimi
 import se.premex.compose.preview.device.catalog.android.Ciontek
 import se.premex.compose.preview.device.catalog.android.Cipherlab
 import se.premex.compose.preview.device.catalog.android.Cisco
@@ -397,7 +406,6 @@ import se.premex.compose.preview.device.catalog.android.CiuseSrl
 import se.premex.compose.preview.device.catalog.android.Cjhv
 import se.premex.compose.preview.device.catalog.android.Ckypad
 import se.premex.compose.preview.device.catalog.android.Claresta
-import se.premex.compose.preview.device.catalog.android.Clarmin
 import se.premex.compose.preview.device.catalog.android.Claro
 import se.premex.compose.preview.device.catalog.android.Classpro
 import se.premex.compose.preview.device.catalog.android.Clearsounds
@@ -405,14 +413,13 @@ import se.premex.compose.preview.device.catalog.android.Cleartouch
 import se.premex.compose.preview.device.catalog.android.Clementoni
 import se.premex.compose.preview.device.catalog.android.Clever
 import se.premex.compose.preview.device.catalog.android.Clevertouch
-import se.premex.compose.preview.device.catalog.android.ClickonicaExclusive
 import se.premex.compose.preview.device.catalog.android.Clicktabds
 import se.premex.compose.preview.device.catalog.android.Clide
-import se.premex.compose.preview.device.catalog.android.Clio
 import se.premex.compose.preview.device.catalog.android.Cloud
 import se.premex.compose.preview.device.catalog.android.CloudAirWifi
 import se.premex.compose.preview.device.catalog.android.CloudMobile
 import se.premex.compose.preview.device.catalog.android.Cloudfone
+import se.premex.compose.preview.device.catalog.android.Cloudminds
 import se.premex.compose.preview.device.catalog.android.Clover
 import se.premex.compose.preview.device.catalog.android.Clovertek
 import se.premex.compose.preview.device.catalog.android.Cmcc
@@ -430,6 +437,7 @@ import se.premex.compose.preview.device.catalog.android.Colorview
 import se.premex.compose.preview.device.catalog.android.Combustech
 import se.premex.compose.preview.device.catalog.android.Comio
 import se.premex.compose.preview.device.catalog.android.Commbox
+import se.premex.compose.preview.device.catalog.android.Commodore
 import se.premex.compose.preview.device.catalog.android.Compaq
 import se.premex.compose.preview.device.catalog.android.Compartir
 import se.premex.compose.preview.device.catalog.android.Compumax
@@ -470,6 +478,7 @@ import se.premex.compose.preview.device.catalog.android.Crelander
 import se.premex.compose.preview.device.catalog.android.Crema
 import se.premex.compose.preview.device.catalog.android.Cricket
 import se.premex.compose.preview.device.catalog.android.Cristor
+import se.premex.compose.preview.device.catalog.android.Cronic
 import se.premex.compose.preview.device.catalog.android.Crony
 import se.premex.compose.preview.device.catalog.android.Crosscall
 import se.premex.compose.preview.device.catalog.android.Crownmustang
@@ -485,10 +494,12 @@ import se.premex.compose.preview.device.catalog.android.Cvte
 import se.premex.compose.preview.device.catalog.android.Cwell
 import se.premex.compose.preview.device.catalog.android.Cwowdefu
 import se.premex.compose.preview.device.catalog.android.Cx
+import se.premex.compose.preview.device.catalog.android.Cypher
 import se.premex.compose.preview.device.catalog.android.Cyrus
 import se.premex.compose.preview.device.catalog.android.DLight
 import se.premex.compose.preview.device.catalog.android.DTech
 import se.premex.compose.preview.device.catalog.android.Dabliu
+import se.premex.compose.preview.device.catalog.android.DadaBroadbrand
 import se.premex.compose.preview.device.catalog.android.Daewoo
 import se.premex.compose.preview.device.catalog.android.Dahl
 import se.premex.compose.preview.device.catalog.android.Dahua
@@ -506,7 +517,7 @@ import se.premex.compose.preview.device.catalog.android.Daria
 import se.premex.compose.preview.device.catalog.android.Datalogic
 import se.premex.compose.preview.device.catalog.android.Datamini
 import se.premex.compose.preview.device.catalog.android.DataminiTwg10
-import se.premex.compose.preview.device.catalog.android.Datsun
+import se.premex.compose.preview.device.catalog.android.Datecs
 import se.premex.compose.preview.device.catalog.android.Dawlance
 import se.premex.compose.preview.device.catalog.android.Daymark
 import se.premex.compose.preview.device.catalog.android.Dazn
@@ -519,6 +530,7 @@ import se.premex.compose.preview.device.catalog.android.Deephub
 import se.premex.compose.preview.device.catalog.android.Deertime
 import se.premex.compose.preview.device.catalog.android.Delephas
 import se.premex.compose.preview.device.catalog.android.Dell
+import se.premex.compose.preview.device.catalog.android.Dengo
 import se.premex.compose.preview.device.catalog.android.Denka
 import se.premex.compose.preview.device.catalog.android.DensTv
 import se.premex.compose.preview.device.catalog.android.Densowave
@@ -535,7 +547,6 @@ import se.premex.compose.preview.device.catalog.android.Dgo
 import se.premex.compose.preview.device.catalog.android.Dgtec
 import se.premex.compose.preview.device.catalog.android.Dialn
 import se.premex.compose.preview.device.catalog.android.Dialog
-import se.premex.compose.preview.device.catalog.android.DialogBlaze
 import se.premex.compose.preview.device.catalog.android.DialogTv
 import se.premex.compose.preview.device.catalog.android.Dicle
 import se.premex.compose.preview.device.catalog.android.DicleTab
@@ -547,6 +558,7 @@ import se.premex.compose.preview.device.catalog.android.Digi
 import se.premex.compose.preview.device.catalog.android.DigiC2
 import se.premex.compose.preview.device.catalog.android.DigiR2
 import se.premex.compose.preview.device.catalog.android.Digicel
+import se.premex.compose.preview.device.catalog.android.Digicom
 import se.premex.compose.preview.device.catalog.android.Digidragon
 import se.premex.compose.preview.device.catalog.android.Digiking
 import se.premex.compose.preview.device.catalog.android.Digiland
@@ -554,6 +566,7 @@ import se.premex.compose.preview.device.catalog.android.Digiquest
 import se.premex.compose.preview.device.catalog.android.Digit
 import se.premex.compose.preview.device.catalog.android.Digits
 import se.premex.compose.preview.device.catalog.android.Digma
+import se.premex.compose.preview.device.catalog.android.DigmaPro
 import se.premex.compose.preview.device.catalog.android.Dijitsu
 import se.premex.compose.preview.device.catalog.android.Dingdong
 import se.premex.compose.preview.device.catalog.android.Directv
@@ -575,20 +588,20 @@ import se.premex.compose.preview.device.catalog.android.Doel
 import se.premex.compose.preview.device.catalog.android.DomRuMovix
 import se.premex.compose.preview.device.catalog.android.Domaton
 import se.premex.compose.preview.device.catalog.android.Doogee
-import se.premex.compose.preview.device.catalog.android.Doppio
 import se.premex.compose.preview.device.catalog.android.Dora
 import se.premex.compose.preview.device.catalog.android.Doro
 import se.premex.compose.preview.device.catalog.android.DragonTouch
-import se.premex.compose.preview.device.catalog.android.Dragontouch
+import se.premex.compose.preview.device.catalog.android.Dreame
 import se.premex.compose.preview.device.catalog.android.Dreammaker
 import se.premex.compose.preview.device.catalog.android.Dreamstar
 import se.premex.compose.preview.device.catalog.android.Dreamtech
 import se.premex.compose.preview.device.catalog.android.Dreamview
+import se.premex.compose.preview.device.catalog.android.Drei
 import se.premex.compose.preview.device.catalog.android.Droidlogic
 import se.premex.compose.preview.device.catalog.android.Dsic
 import se.premex.compose.preview.device.catalog.android.Dtab
 import se.premex.compose.preview.device.catalog.android.Dtac
-import se.premex.compose.preview.device.catalog.android.Dtv
+import se.premex.compose.preview.device.catalog.android.Dtresearch
 import se.premex.compose.preview.device.catalog.android.Dual
 import se.premex.compose.preview.device.catalog.android.Dunhoo
 import se.premex.compose.preview.device.catalog.android.DunnsMobile
@@ -601,7 +614,6 @@ import se.premex.compose.preview.device.catalog.android.Dynalink
 import se.premex.compose.preview.device.catalog.android.Dyon
 import se.premex.compose.preview.device.catalog.android.E10
 import se.premex.compose.preview.device.catalog.android.E4u
-import se.premex.compose.preview.device.catalog.android.EBoda
 import se.premex.compose.preview.device.catalog.android.ELead
 import se.premex.compose.preview.device.catalog.android.ETel
 import se.premex.compose.preview.device.catalog.android.EWealthMobile
@@ -611,6 +623,7 @@ import se.premex.compose.preview.device.catalog.android.Eagiesoar
 import se.premex.compose.preview.device.catalog.android.Eaglesoar
 import se.premex.compose.preview.device.catalog.android.Eancom
 import se.premex.compose.preview.device.catalog.android.EasElectric
+import se.premex.compose.preview.device.catalog.android.Easyphone
 import se.premex.compose.preview.device.catalog.android.Easyteck
 import se.premex.compose.preview.device.catalog.android.Ebox
 import se.premex.compose.preview.device.catalog.android.Echo
@@ -618,11 +631,13 @@ import se.premex.compose.preview.device.catalog.android.Echolink
 import se.premex.compose.preview.device.catalog.android.Echosonic
 import se.premex.compose.preview.device.catalog.android.Ecom
 import se.premex.compose.preview.device.catalog.android.Econnect
+import se.premex.compose.preview.device.catalog.android.Ecopad
 import se.premex.compose.preview.device.catalog.android.Ecopower
 import se.premex.compose.preview.device.catalog.android.Ecostar
 import se.premex.compose.preview.device.catalog.android.Ecs
 import se.premex.compose.preview.device.catalog.android.Edenwood
 import se.premex.compose.preview.device.catalog.android.Edstar
+import se.premex.compose.preview.device.catalog.android.Edutab
 import se.premex.compose.preview.device.catalog.android.Ee
 import se.premex.compose.preview.device.catalog.android.Efioo
 import se.premex.compose.preview.device.catalog.android.Egbok
@@ -634,6 +649,7 @@ import se.premex.compose.preview.device.catalog.android.Einstein
 import se.premex.compose.preview.device.catalog.android.Ejboard
 import se.premex.compose.preview.device.catalog.android.Ekinox
 import se.premex.compose.preview.device.catalog.android.Eko
+import se.premex.compose.preview.device.catalog.android.Ekron
 import se.premex.compose.preview.device.catalog.android.Eks
 import se.premex.compose.preview.device.catalog.android.Eksx
 import se.premex.compose.preview.device.catalog.android.El
@@ -644,11 +660,11 @@ import se.premex.compose.preview.device.catalog.android.Electra
 import se.premex.compose.preview.device.catalog.android.Electroman
 import se.premex.compose.preview.device.catalog.android.Electroneum
 import se.premex.compose.preview.device.catalog.android.Element
+import se.premex.compose.preview.device.catalog.android.Elephas
 import se.premex.compose.preview.device.catalog.android.Elephone
 import se.premex.compose.preview.device.catalog.android.Elevate
 import se.premex.compose.preview.device.catalog.android.Elevn
 import se.premex.compose.preview.device.catalog.android.Elexia
-import se.premex.compose.preview.device.catalog.android.Elexus
 import se.premex.compose.preview.device.catalog.android.Elink
 import se.premex.compose.preview.device.catalog.android.Elisa
 import se.premex.compose.preview.device.catalog.android.Elisaelamus
@@ -660,7 +676,6 @@ import se.premex.compose.preview.device.catalog.android.Elsys
 import se.premex.compose.preview.device.catalog.android.Ematic
 import se.premex.compose.preview.device.catalog.android.Emerson
 import se.premex.compose.preview.device.catalog.android.Emporia
-import se.premex.compose.preview.device.catalog.android.Endo
 import se.premex.compose.preview.device.catalog.android.Energizer
 import se.premex.compose.preview.device.catalog.android.Energysistem
 import se.premex.compose.preview.device.catalog.android.Engel
@@ -670,15 +685,14 @@ import se.premex.compose.preview.device.catalog.android.Enova
 import se.premex.compose.preview.device.catalog.android.Entel
 import se.premex.compose.preview.device.catalog.android.Entity
 import se.premex.compose.preview.device.catalog.android.Entv
+import se.premex.compose.preview.device.catalog.android.Env
 import se.premex.compose.preview.device.catalog.android.Eon
 import se.premex.compose.preview.device.catalog.android.EonSmartBox
-import se.premex.compose.preview.device.catalog.android.Eonsmartbox
 import se.premex.compose.preview.device.catalog.android.Epi
 import se.premex.compose.preview.device.catalog.android.Epic
 import se.premex.compose.preview.device.catalog.android.EpikLearningTab
 import se.premex.compose.preview.device.catalog.android.Epikone
 import se.premex.compose.preview.device.catalog.android.Epson
-import se.premex.compose.preview.device.catalog.android.Equator
 import se.premex.compose.preview.device.catalog.android.Equinoxe
 import se.premex.compose.preview.device.catalog.android.Ergo
 import se.premex.compose.preview.device.catalog.android.Erito
@@ -703,13 +717,13 @@ import se.premex.compose.preview.device.catalog.android.Eudora
 import se.premex.compose.preview.device.catalog.android.Euskaltel
 import se.premex.compose.preview.device.catalog.android.Evercoss
 import se.premex.compose.preview.device.catalog.android.EverestEverpad
-import se.premex.compose.preview.device.catalog.android.Everex
 import se.premex.compose.preview.device.catalog.android.Everis
 import se.premex.compose.preview.device.catalog.android.Everpad
 import se.premex.compose.preview.device.catalog.android.Evertek
 import se.premex.compose.preview.device.catalog.android.Everyphone
 import se.premex.compose.preview.device.catalog.android.Evocatv
 import se.premex.compose.preview.device.catalog.android.Evoforce1
+import se.premex.compose.preview.device.catalog.android.Evolute
 import se.premex.compose.preview.device.catalog.android.Evolveo
 import se.premex.compose.preview.device.catalog.android.Evoo
 import se.premex.compose.preview.device.catalog.android.Evopro
@@ -726,18 +740,18 @@ import se.premex.compose.preview.device.catalog.android.Extreme
 import se.premex.compose.preview.device.catalog.android.Eyepay
 import se.premex.compose.preview.device.catalog.android.F150
 import se.premex.compose.preview.device.catalog.android.F2
-import se.premex.compose.preview.device.catalog.android.F2mobile
 import se.premex.compose.preview.device.catalog.android.FPlus
 import se.premex.compose.preview.device.catalog.android.Facetel
 import se.premex.compose.preview.device.catalog.android.Facilotab
 import se.premex.compose.preview.device.catalog.android.Faiba
 import se.premex.compose.preview.device.catalog.android.Fairphone
+import se.premex.compose.preview.device.catalog.android.Falcon
 import se.premex.compose.preview.device.catalog.android.Famix
 import se.premex.compose.preview.device.catalog.android.FamousFones
+import se.premex.compose.preview.device.catalog.android.Fanconn
 import se.premex.compose.preview.device.catalog.android.Fancyday
 import se.premex.compose.preview.device.catalog.android.Fandu
 import se.premex.compose.preview.device.catalog.android.Fangor
-import se.premex.compose.preview.device.catalog.android.Fareastone
 import se.premex.compose.preview.device.catalog.android.Fastlife
 import se.premex.compose.preview.device.catalog.android.Fastway
 import se.premex.compose.preview.device.catalog.android.Fastwd
@@ -769,13 +783,14 @@ import se.premex.compose.preview.device.catalog.android.Flow
 import se.premex.compose.preview.device.catalog.android.Fluo
 import se.premex.compose.preview.device.catalog.android.Fly
 import se.premex.compose.preview.device.catalog.android.FlyTech
-import se.premex.compose.preview.device.catalog.android.Fmc
+import se.premex.compose.preview.device.catalog.android.Flycoay
 import se.premex.compose.preview.device.catalog.android.Fnb
 import se.premex.compose.preview.device.catalog.android.Fobem
 import se.premex.compose.preview.device.catalog.android.Fol
 import se.premex.compose.preview.device.catalog.android.Folg
 import se.premex.compose.preview.device.catalog.android.Fonos
 import se.premex.compose.preview.device.catalog.android.FonosSmartElectronics
+import se.premex.compose.preview.device.catalog.android.Forcepro
 import se.premex.compose.preview.device.catalog.android.Forco
 import se.premex.compose.preview.device.catalog.android.Formovie
 import se.premex.compose.preview.device.catalog.android.Formuler
@@ -789,7 +804,6 @@ import se.premex.compose.preview.device.catalog.android.Foxtel
 import se.premex.compose.preview.device.catalog.android.Foxx
 import se.premex.compose.preview.device.catalog.android.Foxxd
 import se.premex.compose.preview.device.catalog.android.Fpd
-import se.premex.compose.preview.device.catalog.android.Fplus
 import se.premex.compose.preview.device.catalog.android.Fps
 import se.premex.compose.preview.device.catalog.android.Fpt
 import se.premex.compose.preview.device.catalog.android.FptTelecom
@@ -838,6 +852,7 @@ import se.premex.compose.preview.device.catalog.android.Geniora
 import se.premex.compose.preview.device.catalog.android.Geoelectron
 import se.premex.compose.preview.device.catalog.android.Geomax
 import se.premex.compose.preview.device.catalog.android.Geotm
+import se.premex.compose.preview.device.catalog.android.Gertec
 import se.premex.compose.preview.device.catalog.android.Geshem
 import se.premex.compose.preview.device.catalog.android.Get
 import se.premex.compose.preview.device.catalog.android.Getac
@@ -845,7 +860,6 @@ import se.premex.compose.preview.device.catalog.android.Getnord
 import se.premex.compose.preview.device.catalog.android.Gevo
 import se.premex.compose.preview.device.catalog.android.Gfast
 import se.premex.compose.preview.device.catalog.android.Gfive
-import se.premex.compose.preview.device.catalog.android.Gguard
 import se.premex.compose.preview.device.catalog.android.Ghia
 import se.premex.compose.preview.device.catalog.android.GhiaKids
 import se.premex.compose.preview.device.catalog.android.Gigabyte
@@ -853,6 +867,7 @@ import se.premex.compose.preview.device.catalog.android.Gigaset
 import se.premex.compose.preview.device.catalog.android.Gini
 import se.premex.compose.preview.device.catalog.android.Ginzzu
 import se.premex.compose.preview.device.catalog.android.Gionee
+import se.premex.compose.preview.device.catalog.android.Gladwin
 import se.premex.compose.preview.device.catalog.android.Global
 import se.premex.compose.preview.device.catalog.android.Global3
 import se.premex.compose.preview.device.catalog.android.Globalsec
@@ -862,16 +877,15 @@ import se.premex.compose.preview.device.catalog.android.Globestreamwatch
 import se.premex.compose.preview.device.catalog.android.GlobusInfocomLimited
 import se.premex.compose.preview.device.catalog.android.Glocalme
 import se.premex.compose.preview.device.catalog.android.Glofiish
+import se.premex.compose.preview.device.catalog.android.Gloria
 import se.premex.compose.preview.device.catalog.android.Glx
 import se.premex.compose.preview.device.catalog.android.Gm
 import se.premex.compose.preview.device.catalog.android.Gmmz
 import se.premex.compose.preview.device.catalog.android.Go3
-import se.premex.compose.preview.device.catalog.android.GoMdUsa
 import se.premex.compose.preview.device.catalog.android.Goally
 import se.premex.compose.preview.device.catalog.android.Gobox
 import se.premex.compose.preview.device.catalog.android.Gol
 import se.premex.compose.preview.device.catalog.android.Goldentec
-import se.premex.compose.preview.device.catalog.android.Goldtech
 import se.premex.compose.preview.device.catalog.android.Gomdusa
 import se.premex.compose.preview.device.catalog.android.Gome
 import se.premex.compose.preview.device.catalog.android.Gomobile
@@ -885,6 +899,7 @@ import se.premex.compose.preview.device.catalog.android.Gowin
 import se.premex.compose.preview.device.catalog.android.Gpelectronic
 import se.premex.compose.preview.device.catalog.android.Gplus
 import se.premex.compose.preview.device.catalog.android.Gpx
+import se.premex.compose.preview.device.catalog.android.Gracecompany
 import se.premex.compose.preview.device.catalog.android.Gradiente
 import se.premex.compose.preview.device.catalog.android.Greatasia
 import se.premex.compose.preview.device.catalog.android.Greatwall
@@ -902,6 +917,7 @@ import se.premex.compose.preview.device.catalog.android.Gto
 import se.premex.compose.preview.device.catalog.android.Gtx
 import se.premex.compose.preview.device.catalog.android.Guophone
 import se.premex.compose.preview.device.catalog.android.H133
+import se.premex.compose.preview.device.catalog.android.H3cmagic
 import se.premex.compose.preview.device.catalog.android.H800b
 import se.premex.compose.preview.device.catalog.android.H819e
 import se.premex.compose.preview.device.catalog.android.Haam
@@ -913,7 +929,6 @@ import se.premex.compose.preview.device.catalog.android.Hako
 import se.premex.compose.preview.device.catalog.android.Hamic
 import se.premex.compose.preview.device.catalog.android.Hamlet
 import se.premex.compose.preview.device.catalog.android.Hammer
-import se.premex.compose.preview.device.catalog.android.Hanasis
 import se.premex.compose.preview.device.catalog.android.Handheld
 import se.premex.compose.preview.device.catalog.android.HandheldWireless
 import se.premex.compose.preview.device.catalog.android.Handtop
@@ -921,6 +936,7 @@ import se.premex.compose.preview.device.catalog.android.Hanet
 import se.premex.compose.preview.device.catalog.android.HankookCrea
 import se.premex.compose.preview.device.catalog.android.Hannspree
 import se.premex.compose.preview.device.catalog.android.Hansung
+import se.premex.compose.preview.device.catalog.android.Hansungcomputer
 import se.premex.compose.preview.device.catalog.android.Hanyeal
 import se.premex.compose.preview.device.catalog.android.Haoqin
 import se.premex.compose.preview.device.catalog.android.Haovm
@@ -928,6 +944,7 @@ import se.premex.compose.preview.device.catalog.android.HarmonTec
 import se.premex.compose.preview.device.catalog.android.Hatch
 import se.premex.compose.preview.device.catalog.android.Hathway
 import se.premex.compose.preview.device.catalog.android.Haus
+import se.premex.compose.preview.device.catalog.android.Havit
 import se.premex.compose.preview.device.catalog.android.Hbestore
 import se.premex.compose.preview.device.catalog.android.Hcn
 import se.premex.compose.preview.device.catalog.android.HdPlus
@@ -935,12 +952,14 @@ import se.premex.compose.preview.device.catalog.android.Hdc
 import se.premex.compose.preview.device.catalog.android.Headwolf
 import se.premex.compose.preview.device.catalog.android.Heatz
 import se.premex.compose.preview.device.catalog.android.Hec
+import se.premex.compose.preview.device.catalog.android.Heinekingmedia
 import se.premex.compose.preview.device.catalog.android.Helgi
 import se.premex.compose.preview.device.catalog.android.Helio
 import se.premex.compose.preview.device.catalog.android.HelixInc
 import se.premex.compose.preview.device.catalog.android.Hellcat
 import se.premex.compose.preview.device.catalog.android.Hellopro
 import se.premex.compose.preview.device.catalog.android.Hemiltonpro
+import se.premex.compose.preview.device.catalog.android.Heran
 import se.premex.compose.preview.device.catalog.android.Hercls
 import se.premex.compose.preview.device.catalog.android.Hero
 import se.premex.compose.preview.device.catalog.android.Hexabyte
@@ -996,9 +1015,11 @@ import se.premex.compose.preview.device.catalog.android.Hotwire
 import se.premex.compose.preview.device.catalog.android.How
 import se.premex.compose.preview.device.catalog.android.Hp
 import se.premex.compose.preview.device.catalog.android.Hpadia10
+import se.premex.compose.preview.device.catalog.android.Hphewlettpackard
 import se.premex.compose.preview.device.catalog.android.Hq
 import se.premex.compose.preview.device.catalog.android.Htc
 import se.premex.compose.preview.device.catalog.android.HtccnChs
+import se.premex.compose.preview.device.catalog.android.Htstyle
 import se.premex.compose.preview.device.catalog.android.Huavi
 import se.premex.compose.preview.device.catalog.android.Huawei
 import se.premex.compose.preview.device.catalog.android.Hublot
@@ -1025,7 +1046,6 @@ import se.premex.compose.preview.device.catalog.android.IBridge
 import se.premex.compose.preview.device.catalog.android.IBuddie
 import se.premex.compose.preview.device.catalog.android.IKall
 import se.premex.compose.preview.device.catalog.android.ILife
-import se.premex.compose.preview.device.catalog.android.IPlus
 import se.premex.compose.preview.device.catalog.android.IScream
 import se.premex.compose.preview.device.catalog.android.Iball
 import se.premex.compose.preview.device.catalog.android.Ibao
@@ -1047,7 +1067,6 @@ import se.premex.compose.preview.device.catalog.android.Ihome
 import se.premex.compose.preview.device.catalog.android.Ihunt
 import se.premex.compose.preview.device.catalog.android.Iiif150
 import se.premex.compose.preview.device.catalog.android.Iiyama
-import se.premex.compose.preview.device.catalog.android.Ikall
 import se.premex.compose.preview.device.catalog.android.Ikimobile
 import se.premex.compose.preview.device.catalog.android.Ikon
 import se.premex.compose.preview.device.catalog.android.Iku
@@ -1078,6 +1097,7 @@ import se.premex.compose.preview.device.catalog.android.Infiniton
 import se.premex.compose.preview.device.catalog.android.Infinix
 import se.premex.compose.preview.device.catalog.android.Infocus
 import se.premex.compose.preview.device.catalog.android.Infone
+import se.premex.compose.preview.device.catalog.android.Inmo
 import se.premex.compose.preview.device.catalog.android.Innex
 import se.premex.compose.preview.device.catalog.android.Innjoo
 import se.premex.compose.preview.device.catalog.android.InnoHit
@@ -1089,12 +1109,12 @@ import se.premex.compose.preview.device.catalog.android.Inoi
 import se.premex.compose.preview.device.catalog.android.Inovio
 import se.premex.compose.preview.device.catalog.android.Inrico
 import se.premex.compose.preview.device.catalog.android.Insane
+import se.premex.compose.preview.device.catalog.android.InsgrafDigital
 import se.premex.compose.preview.device.catalog.android.Insignia
 import se.premex.compose.preview.device.catalog.android.Inspur
 import se.premex.compose.preview.device.catalog.android.Insys
 import se.premex.compose.preview.device.catalog.android.Intel
 import se.premex.compose.preview.device.catalog.android.Intelbras
-import se.premex.compose.preview.device.catalog.android.Intelkom
 import se.premex.compose.preview.device.catalog.android.Intelligen
 import se.premex.compose.preview.device.catalog.android.Intex
 import se.premex.compose.preview.device.catalog.android.Intigral
@@ -1135,21 +1155,22 @@ import se.premex.compose.preview.device.catalog.android.Itos
 import se.premex.compose.preview.device.catalog.android.Iusa
 import se.premex.compose.preview.device.catalog.android.Iva
 import se.premex.compose.preview.device.catalog.android.Iview
-import se.premex.compose.preview.device.catalog.android.Ivoomi
 import se.premex.compose.preview.device.catalog.android.Iwaylink
 import se.premex.compose.preview.device.catalog.android.Ixtech
 import se.premex.compose.preview.device.catalog.android.Iyou
 import se.premex.compose.preview.device.catalog.android.Izzi
 import se.premex.compose.preview.device.catalog.android.IzziTelecom
-import se.premex.compose.preview.device.catalog.android.JCom
 import se.premex.compose.preview.device.catalog.android.Jac
 import se.premex.compose.preview.device.catalog.android.Jam
 import se.premex.compose.preview.device.catalog.android.JamboTechnology
 import se.premex.compose.preview.device.catalog.android.Janam
-import se.premex.compose.preview.device.catalog.android.Japantaxi
+import se.premex.compose.preview.device.catalog.android.Janus
+import se.premex.compose.preview.device.catalog.android.Jav
 import se.premex.compose.preview.device.catalog.android.JayTech
 import se.premex.compose.preview.device.catalog.android.Jcb
+import se.premex.compose.preview.device.catalog.android.JcbPhone
 import se.premex.compose.preview.device.catalog.android.JciJp
+import se.premex.compose.preview.device.catalog.android.Jckkcfug
 import se.premex.compose.preview.device.catalog.android.Jcom
 import se.premex.compose.preview.device.catalog.android.Jds
 import se.premex.compose.preview.device.catalog.android.Jeazans
@@ -1175,6 +1196,7 @@ import se.premex.compose.preview.device.catalog.android.Jp
 import se.premex.compose.preview.device.catalog.android.JpIk
 import se.premex.compose.preview.device.catalog.android.Jren
 import se.premex.compose.preview.device.catalog.android.Jsw
+import se.premex.compose.preview.device.catalog.android.Jtv
 import se.premex.compose.preview.device.catalog.android.Juedur
 import se.premex.compose.preview.device.catalog.android.Jumper
 import se.premex.compose.preview.device.catalog.android.Juniper
@@ -1192,6 +1214,7 @@ import se.premex.compose.preview.device.catalog.android.Kaicom
 import se.premex.compose.preview.device.catalog.android.Kaliho
 import se.premex.compose.preview.device.catalog.android.Kalley
 import se.premex.compose.preview.device.catalog.android.Kammunica
+import se.premex.compose.preview.device.catalog.android.Kamon
 import se.premex.compose.preview.device.catalog.android.Kandao
 import se.premex.compose.preview.device.catalog.android.Kanji
 import se.premex.compose.preview.device.catalog.android.Kanselir
@@ -1203,22 +1226,24 @@ import se.premex.compose.preview.device.catalog.android.Kat
 import se.premex.compose.preview.device.catalog.android.Kazam
 import se.premex.compose.preview.device.catalog.android.Kbro
 import se.premex.compose.preview.device.catalog.android.Kccl
+import se.premex.compose.preview.device.catalog.android.Kctv
 import se.premex.compose.preview.device.catalog.android.KdInteractive
 import se.premex.compose.preview.device.catalog.android.Kddi
 import se.premex.compose.preview.device.catalog.android.KddiU
 import se.premex.compose.preview.device.catalog.android.Kefeya
 import se.premex.compose.preview.device.catalog.android.Keian
-import se.premex.compose.preview.device.catalog.android.KelyxKl783
 import se.premex.compose.preview.device.catalog.android.KemplerStrauss
 import se.premex.compose.preview.device.catalog.android.Kemplerstruss
 import se.premex.compose.preview.device.catalog.android.Kenbo
 import se.premex.compose.preview.device.catalog.android.Kenshi
 import se.premex.compose.preview.device.catalog.android.Kenwood
+import se.premex.compose.preview.device.catalog.android.Kep
 import se.premex.compose.preview.device.catalog.android.Keyence
 import se.premex.compose.preview.device.catalog.android.Kgtel
 import se.premex.compose.preview.device.catalog.android.Kiano
 import se.premex.compose.preview.device.catalog.android.Kickpi
 import se.premex.compose.preview.device.catalog.android.Kiddoboo
+import se.premex.compose.preview.device.catalog.android.Kidspad
 import se.premex.compose.preview.device.catalog.android.Kinetictv
 import se.premex.compose.preview.device.catalog.android.Kingcomm
 import se.premex.compose.preview.device.catalog.android.Kinhank
@@ -1245,29 +1270,29 @@ import se.premex.compose.preview.device.catalog.android.Kpn
 import se.premex.compose.preview.device.catalog.android.Krip
 import se.premex.compose.preview.device.catalog.android.Krono
 import se.premex.compose.preview.device.catalog.android.KrossElegance
-import se.premex.compose.preview.device.catalog.android.Krosselegance
 import se.premex.compose.preview.device.catalog.android.KrugerMatz
 import se.premex.compose.preview.device.catalog.android.Krugerandmatz
 import se.premex.compose.preview.device.catalog.android.Kt
 import se.premex.compose.preview.device.catalog.android.Ktc
 import se.premex.compose.preview.device.catalog.android.Ktv
 import se.premex.compose.preview.device.catalog.android.Kubik
-import se.premex.compose.preview.device.catalog.android.Kult
 import se.premex.compose.preview.device.catalog.android.Kunfabo
 import se.premex.compose.preview.device.catalog.android.Kunft
 import se.premex.compose.preview.device.catalog.android.Kuori
+import se.premex.compose.preview.device.catalog.android.Kuraemon
 import se.premex.compose.preview.device.catalog.android.Kurio
 import se.premex.compose.preview.device.catalog.android.Kuu
 import se.premex.compose.preview.device.catalog.android.Kuva
 import se.premex.compose.preview.device.catalog.android.Kxd
 import se.premex.compose.preview.device.catalog.android.Kyaster
+import se.premex.compose.preview.device.catalog.android.Kydos
 import se.premex.compose.preview.device.catalog.android.Kyocera
 import se.premex.compose.preview.device.catalog.android.KyodoTv
 import se.premex.compose.preview.device.catalog.android.Kzen
+import se.premex.compose.preview.device.catalog.android.Lagenio
 import se.premex.compose.preview.device.catalog.android.Laiq
 import se.premex.compose.preview.device.catalog.android.Lamborghini
 import se.premex.compose.preview.device.catalog.android.Lamzien
-import se.premex.compose.preview.device.catalog.android.Landbyte
 import se.premex.compose.preview.device.catalog.android.Landi
 import se.premex.compose.preview.device.catalog.android.Landrover
 import se.premex.compose.preview.device.catalog.android.Lango
@@ -1278,7 +1303,7 @@ import se.premex.compose.preview.device.catalog.android.Launch
 import se.premex.compose.preview.device.catalog.android.Lava
 import se.premex.compose.preview.device.catalog.android.Lavietab
 import se.premex.compose.preview.device.catalog.android.Lavietabe
-import se.premex.compose.preview.device.catalog.android.Lazer
+import se.premex.compose.preview.device.catalog.android.Laxton
 import se.premex.compose.preview.device.catalog.android.Lazor
 import se.premex.compose.preview.device.catalog.android.Lbq
 import se.premex.compose.preview.device.catalog.android.Leader
@@ -1291,12 +1316,14 @@ import se.premex.compose.preview.device.catalog.android.Legend
 import se.premex.compose.preview.device.catalog.android.Legendcomfortable
 import se.premex.compose.preview.device.catalog.android.Leiainc
 import se.premex.compose.preview.device.catalog.android.Leica
+import se.premex.compose.preview.device.catalog.android.Lenco
 import se.premex.compose.preview.device.catalog.android.Lenovo
 import se.premex.compose.preview.device.catalog.android.Leomo
 import se.premex.compose.preview.device.catalog.android.Leotec
 import se.premex.compose.preview.device.catalog.android.Lepan
 import se.premex.compose.preview.device.catalog.android.Lesia
 import se.premex.compose.preview.device.catalog.android.Letv
+import se.premex.compose.preview.device.catalog.android.Levirtu
 import se.premex.compose.preview.device.catalog.android.Lexa
 import se.premex.compose.preview.device.catalog.android.Lexibook
 import se.premex.compose.preview.device.catalog.android.LgCns
@@ -1307,11 +1334,9 @@ import se.premex.compose.preview.device.catalog.android.Lguplus
 import se.premex.compose.preview.device.catalog.android.Liberton
 import se.premex.compose.preview.device.catalog.android.Libre
 import se.premex.compose.preview.device.catalog.android.LifeDigital
-import se.premex.compose.preview.device.catalog.android.LifeMobile
 import se.premex.compose.preview.device.catalog.android.Lifephone
 import se.premex.compose.preview.device.catalog.android.Lincplus
 import se.premex.compose.preview.device.catalog.android.Linknet
-import se.premex.compose.preview.device.catalog.android.Linnex
 import se.premex.compose.preview.device.catalog.android.Linsar
 import se.premex.compose.preview.device.catalog.android.Linsay
 import se.premex.compose.preview.device.catalog.android.Listo
@@ -1325,14 +1350,18 @@ import se.premex.compose.preview.device.catalog.android.Logicom
 import se.premex.compose.preview.device.catalog.android.Logik
 import se.premex.compose.preview.device.catalog.android.Logitec
 import se.premex.compose.preview.device.catalog.android.Logitech
+import se.premex.compose.preview.device.catalog.android.Looqs
 import se.premex.compose.preview.device.catalog.android.Louisvuitton
+import se.premex.compose.preview.device.catalog.android.Lowi
 import se.premex.compose.preview.device.catalog.android.Lp
+import se.premex.compose.preview.device.catalog.android.Lpe
 import se.premex.compose.preview.device.catalog.android.Lt
 import se.premex.compose.preview.device.catalog.android.LtMobile
 import se.premex.compose.preview.device.catalog.android.Lucoms
 import se.premex.compose.preview.device.catalog.android.Lumigon
 import se.premex.compose.preview.device.catalog.android.Lumio
 import se.premex.compose.preview.device.catalog.android.Lumitel
+import se.premex.compose.preview.device.catalog.android.Lumos
 import se.premex.compose.preview.device.catalog.android.Lumus
 import se.premex.compose.preview.device.catalog.android.Luna
 import se.premex.compose.preview.device.catalog.android.Lunar
@@ -1342,8 +1371,10 @@ import se.premex.compose.preview.device.catalog.android.LushMint
 import se.premex.compose.preview.device.catalog.android.Lville
 import se.premex.compose.preview.device.catalog.android.Lw
 import se.premex.compose.preview.device.catalog.android.Lyf
+import se.premex.compose.preview.device.catalog.android.Lykonda
 import se.premex.compose.preview.device.catalog.android.Lynknex
 import se.premex.compose.preview.device.catalog.android.LyotechLabs
+import se.premex.compose.preview.device.catalog.android.Lzf
 import se.premex.compose.preview.device.catalog.android.Lzu
 import se.premex.compose.preview.device.catalog.android.M3
 import se.premex.compose.preview.device.catalog.android.M4tel
@@ -1352,7 +1383,6 @@ import se.premex.compose.preview.device.catalog.android.MKopa
 import se.premex.compose.preview.device.catalog.android.Mafe
 import se.premex.compose.preview.device.catalog.android.Mag
 import se.premex.compose.preview.device.catalog.android.Magch
-import se.premex.compose.preview.device.catalog.android.MagentaTv
 import se.premex.compose.preview.device.catalog.android.Magentatv
 import se.premex.compose.preview.device.catalog.android.Magicworld
 import se.premex.compose.preview.device.catalog.android.Magnavox
@@ -1363,7 +1393,6 @@ import se.premex.compose.preview.device.catalog.android.Malata
 import se.premex.compose.preview.device.catalog.android.Mango
 import se.premex.compose.preview.device.catalog.android.Mantra
 import se.premex.compose.preview.device.catalog.android.Mara
-import se.premex.compose.preview.device.catalog.android.MaraPhones
 import se.premex.compose.preview.device.catalog.android.Maraphones
 import se.premex.compose.preview.device.catalog.android.Marcel
 import se.premex.compose.preview.device.catalog.android.Markatab
@@ -1375,7 +1404,6 @@ import se.premex.compose.preview.device.catalog.android.Mascom
 import se.premex.compose.preview.device.catalog.android.Masscom
 import se.premex.compose.preview.device.catalog.android.Masstel
 import se.premex.compose.preview.device.catalog.android.MasterG
-import se.premex.compose.preview.device.catalog.android.Masterg
 import se.premex.compose.preview.device.catalog.android.Mastertech
 import se.premex.compose.preview.device.catalog.android.Mauritiustelcom
 import se.premex.compose.preview.device.catalog.android.Mauritiustelecom
@@ -1386,7 +1414,6 @@ import se.premex.compose.preview.device.catalog.android.Maximus
 import se.premex.compose.preview.device.catalog.android.Maxis
 import se.premex.compose.preview.device.catalog.android.Maxlegen
 import se.premex.compose.preview.device.catalog.android.Maxon
-import se.premex.compose.preview.device.catalog.android.Maxpac
 import se.premex.compose.preview.device.catalog.android.Maxron
 import se.premex.compose.preview.device.catalog.android.MaxsonicElite
 import se.premex.compose.preview.device.catalog.android.Maxtron
@@ -1410,15 +1437,14 @@ import se.premex.compose.preview.device.catalog.android.Medion
 import se.premex.compose.preview.device.catalog.android.Meferi
 import se.premex.compose.preview.device.catalog.android.Megacable
 import se.premex.compose.preview.device.catalog.android.Megafon
-import se.premex.compose.preview.device.catalog.android.Meiigoo
 import se.premex.compose.preview.device.catalog.android.Meitu
 import se.premex.compose.preview.device.catalog.android.Meize
 import se.premex.compose.preview.device.catalog.android.Meizu
 import se.premex.compose.preview.device.catalog.android.Melefon
 import se.premex.compose.preview.device.catalog.android.Melita
+import se.premex.compose.preview.device.catalog.android.Memetech
 import se.premex.compose.preview.device.catalog.android.Memorex
 import se.premex.compose.preview.device.catalog.android.Menfop
-import se.premex.compose.preview.device.catalog.android.Mengaltab
 import se.premex.compose.preview.device.catalog.android.Mengdash
 import se.premex.compose.preview.device.catalog.android.Meo
 import se.premex.compose.preview.device.catalog.android.Meswao
@@ -1427,12 +1453,14 @@ import se.premex.compose.preview.device.catalog.android.Metropcs
 import se.premex.compose.preview.device.catalog.android.Metz
 import se.premex.compose.preview.device.catalog.android.Mgears
 import se.premex.compose.preview.device.catalog.android.Mgs
+import se.premex.compose.preview.device.catalog.android.Mgt
 import se.premex.compose.preview.device.catalog.android.Mhl
 import se.premex.compose.preview.device.catalog.android.Mi
 import se.premex.compose.preview.device.catalog.android.Micromax
 import se.premex.compose.preview.device.catalog.android.Microtech
 import se.premex.compose.preview.device.catalog.android.Microtouch
 import se.premex.compose.preview.device.catalog.android.Mightier
+import se.premex.compose.preview.device.catalog.android.Mikitech
 import se.premex.compose.preview.device.catalog.android.Miku
 import se.premex.compose.preview.device.catalog.android.Mimio
 import se.premex.compose.preview.device.catalog.android.Mindeo
@@ -1447,7 +1475,7 @@ import se.premex.compose.preview.device.catalog.android.Miotab
 import se.premex.compose.preview.device.catalog.android.Mipo
 import se.premex.compose.preview.device.catalog.android.Mira
 import se.premex.compose.preview.device.catalog.android.MiracleTap
-import se.premex.compose.preview.device.catalog.android.Mirage
+import se.premex.compose.preview.device.catalog.android.MiraiTouch
 import se.premex.compose.preview.device.catalog.android.Miramage
 import se.premex.compose.preview.device.catalog.android.Mirarel
 import se.premex.compose.preview.device.catalog.android.Miray
@@ -1456,7 +1484,6 @@ import se.premex.compose.preview.device.catalog.android.Mitac
 import se.premex.compose.preview.device.catalog.android.Mito
 import se.premex.compose.preview.device.catalog.android.Mitsubishi
 import se.premex.compose.preview.device.catalog.android.Mitsui
-import se.premex.compose.preview.device.catalog.android.Mitsushiba
 import se.premex.compose.preview.device.catalog.android.Mlab
 import se.premex.compose.preview.device.catalog.android.Mlink
 import se.premex.compose.preview.device.catalog.android.Mlogix
@@ -1471,7 +1498,7 @@ import se.premex.compose.preview.device.catalog.android.Mobicell
 import se.premex.compose.preview.device.catalog.android.Mobiiot
 import se.premex.compose.preview.device.catalog.android.Mobiistar
 import se.premex.compose.preview.device.catalog.android.Mobiledemand
-import se.premex.compose.preview.device.catalog.android.Mobily
+import se.premex.compose.preview.device.catalog.android.Mobiocean
 import se.premex.compose.preview.device.catalog.android.Mobistel
 import se.premex.compose.preview.device.catalog.android.Mobivista
 import se.premex.compose.preview.device.catalog.android.Mobiwire
@@ -1493,7 +1520,6 @@ import se.premex.compose.preview.device.catalog.android.MoolahMobile
 import se.premex.compose.preview.device.catalog.android.Morep
 import se.premex.compose.preview.device.catalog.android.Mosambee
 import se.premex.compose.preview.device.catalog.android.Moshimore
-import se.premex.compose.preview.device.catalog.android.Mot
 import se.premex.compose.preview.device.catalog.android.Motorola
 import se.premex.compose.preview.device.catalog.android.Motorolasolutions
 import se.premex.compose.preview.device.catalog.android.Motsol
@@ -1512,7 +1538,6 @@ import se.premex.compose.preview.device.catalog.android.Mpgio
 import se.premex.compose.preview.device.catalog.android.Mport
 import se.premex.compose.preview.device.catalog.android.Msi
 import se.premex.compose.preview.device.catalog.android.Msota
-import se.premex.compose.preview.device.catalog.android.Mstar
 import se.premex.compose.preview.device.catalog.android.Mswipe
 import se.premex.compose.preview.device.catalog.android.Mtc
 import se.premex.compose.preview.device.catalog.android.Mtek
@@ -1523,9 +1548,11 @@ import se.premex.compose.preview.device.catalog.android.Mts
 import se.premex.compose.preview.device.catalog.android.Mtt
 import se.premex.compose.preview.device.catalog.android.Mu
 import se.premex.compose.preview.device.catalog.android.Mujenyz
+import se.premex.compose.preview.device.catalog.android.Multi
 import se.premex.compose.preview.device.catalog.android.Multilaser
 import se.premex.compose.preview.device.catalog.android.Multismart
 import se.premex.compose.preview.device.catalog.android.Multynet
+import se.premex.compose.preview.device.catalog.android.Munbyn
 import se.premex.compose.preview.device.catalog.android.Mundopacifico
 import se.premex.compose.preview.device.catalog.android.Mwalimuplus
 import se.premex.compose.preview.device.catalog.android.My
@@ -1566,23 +1593,22 @@ import se.premex.compose.preview.device.catalog.android.Netmak
 import se.premex.compose.preview.device.catalog.android.Netogy
 import se.premex.compose.preview.device.catalog.android.Nettv
 import se.premex.compose.preview.device.catalog.android.Newal
-import se.premex.compose.preview.device.catalog.android.Newbalance
 import se.premex.compose.preview.device.catalog.android.Newbridge
 import se.premex.compose.preview.device.catalog.android.Newbrige
 import se.premex.compose.preview.device.catalog.android.Newland
 import se.premex.compose.preview.device.catalog.android.Newline
+import se.premex.compose.preview.device.catalog.android.Nework
 import se.premex.compose.preview.device.catalog.android.Newspice
 import se.premex.compose.preview.device.catalog.android.Newsun
 import se.premex.compose.preview.device.catalog.android.Newton
-import se.premex.compose.preview.device.catalog.android.Nexa
 import se.premex.compose.preview.device.catalog.android.Next
 import se.premex.compose.preview.device.catalog.android.NextG
 import se.premex.compose.preview.device.catalog.android.NextTechnologies
 import se.premex.compose.preview.device.catalog.android.Nexta
 import se.premex.compose.preview.device.catalog.android.Nextbit
 import se.premex.compose.preview.device.catalog.android.Nextbook
-import se.premex.compose.preview.device.catalog.android.NextbymaxisM1
 import se.premex.compose.preview.device.catalog.android.Nextgear
+import se.premex.compose.preview.device.catalog.android.Nextstar
 import se.premex.compose.preview.device.catalog.android.Nexus
 import se.premex.compose.preview.device.catalog.android.Nexwin
 import se.premex.compose.preview.device.catalog.android.Ngm
@@ -1605,7 +1631,6 @@ import se.premex.compose.preview.device.catalog.android.Nokia
 import se.premex.compose.preview.device.catalog.android.Nomi
 import se.premex.compose.preview.device.catalog.android.Nomu
 import se.premex.compose.preview.device.catalog.android.Nook
-import se.premex.compose.preview.device.catalog.android.NorthTech
 import se.premex.compose.preview.device.catalog.android.Noryox
 import se.premex.compose.preview.device.catalog.android.Nos
 import se.premex.compose.preview.device.catalog.android.Nothing
@@ -1625,18 +1650,17 @@ import se.premex.compose.preview.device.catalog.android.Nuribom
 import se.premex.compose.preview.device.catalog.android.Nuu
 import se.premex.compose.preview.device.catalog.android.Nuvision
 import se.premex.compose.preview.device.catalog.android.Nvidia
-import se.premex.compose.preview.device.catalog.android.Nw
 import se.premex.compose.preview.device.catalog.android.NyxMobile
 import se.premex.compose.preview.device.catalog.android.O2
 import se.premex.compose.preview.device.catalog.android.Oale
 import se.premex.compose.preview.device.catalog.android.Oangcc
 import se.premex.compose.preview.device.catalog.android.Oase
 import se.premex.compose.preview.device.catalog.android.Oasys
+import se.premex.compose.preview.device.catalog.android.Oboni
+import se.premex.compose.preview.device.catalog.android.OcilionWl
 import se.premex.compose.preview.device.catalog.android.Octopus
 import se.premex.compose.preview.device.catalog.android.Odea
 import se.premex.compose.preview.device.catalog.android.Odido
-import se.premex.compose.preview.device.catalog.android.Odo
-import se.premex.compose.preview.device.catalog.android.Odotpad
 import se.premex.compose.preview.device.catalog.android.Ods
 import se.premex.compose.preview.device.catalog.android.Odys
 import se.premex.compose.preview.device.catalog.android.Ofd
@@ -1652,24 +1676,27 @@ import se.premex.compose.preview.device.catalog.android.Olike
 import se.premex.compose.preview.device.catalog.android.Olimpo
 import se.premex.compose.preview.device.catalog.android.Olive
 import se.premex.compose.preview.device.catalog.android.Olla
+import se.premex.compose.preview.device.catalog.android.Olvy
 import se.premex.compose.preview.device.catalog.android.Olympia
 import se.premex.compose.preview.device.catalog.android.Omax
 import se.premex.compose.preview.device.catalog.android.Omix
 import se.premex.compose.preview.device.catalog.android.Onda
 import se.premex.compose.preview.device.catalog.android.OndaTlc
 import se.premex.compose.preview.device.catalog.android.Onelern
+import se.premex.compose.preview.device.catalog.android.Onenz
 import se.premex.compose.preview.device.catalog.android.Oneplus
 import se.premex.compose.preview.device.catalog.android.Onerugged
 import se.premex.compose.preview.device.catalog.android.Onescreen
 import se.premex.compose.preview.device.catalog.android.Onida
 import se.premex.compose.preview.device.catalog.android.Onkyo
 import se.premex.compose.preview.device.catalog.android.Onn
+import se.premex.compose.preview.device.catalog.android.Onvo
 import se.premex.compose.preview.device.catalog.android.Onyx
 import se.premex.compose.preview.device.catalog.android.Ooredoo
 import se.premex.compose.preview.device.catalog.android.Opay
 import se.premex.compose.preview.device.catalog.android.Opel
-import se.premex.compose.preview.device.catalog.android.OpelMobile
 import se.premex.compose.preview.device.catalog.android.Opelmobile
+import se.premex.compose.preview.device.catalog.android.Open
 import se.premex.compose.preview.device.catalog.android.OpenFhdAtv
 import se.premex.compose.preview.device.catalog.android.OpenUhdAtv
 import se.premex.compose.preview.device.catalog.android.Oppo
@@ -1698,8 +1725,8 @@ import se.premex.compose.preview.device.catalog.android.Own
 import se.premex.compose.preview.device.catalog.android.Owxmobile
 import se.premex.compose.preview.device.catalog.android.OxTab
 import se.premex.compose.preview.device.catalog.android.Oxygen
-import se.premex.compose.preview.device.catalog.android.OxygenId
 import se.premex.compose.preview.device.catalog.android.Oxygenid
+import se.premex.compose.preview.device.catalog.android.Oyefit
 import se.premex.compose.preview.device.catalog.android.OysterLabs
 import se.premex.compose.preview.device.catalog.android.Oysters
 import se.premex.compose.preview.device.catalog.android.Ozon
@@ -1711,7 +1738,6 @@ import se.premex.compose.preview.device.catalog.android.Panasonic
 import se.premex.compose.preview.device.catalog.android.Panavox
 import se.premex.compose.preview.device.catalog.android.Panodic
 import se.premex.compose.preview.device.catalog.android.Panorama
-import se.premex.compose.preview.device.catalog.android.Pantech
 import se.premex.compose.preview.device.catalog.android.PantechSmart
 import se.premex.compose.preview.device.catalog.android.ParrotMobile
 import se.premex.compose.preview.device.catalog.android.Partner
@@ -1724,7 +1750,6 @@ import se.premex.compose.preview.device.catalog.android.PbsKids
 import se.premex.compose.preview.device.catalog.android.PcSmart
 import se.premex.compose.preview.device.catalog.android.Pcbox
 import se.premex.compose.preview.device.catalog.android.Pcd
-import se.premex.compose.preview.device.catalog.android.Pcsmart
 import se.premex.compose.preview.device.catalog.android.Peaq
 import se.premex.compose.preview.device.catalog.android.Peicheng
 import se.premex.compose.preview.device.catalog.android.Pel
@@ -1745,12 +1770,12 @@ import se.premex.compose.preview.device.catalog.android.Pilot
 import se.premex.compose.preview.device.catalog.android.Pinocchio
 import se.premex.compose.preview.device.catalog.android.Pioneer
 import se.premex.compose.preview.device.catalog.android.PioneerDigitalTv
-import se.premex.compose.preview.device.catalog.android.Pipo
 import se.premex.compose.preview.device.catalog.android.Piranha
 import se.premex.compose.preview.device.catalog.android.Pitneybowes
 import se.premex.compose.preview.device.catalog.android.Pivot
 import se.premex.compose.preview.device.catalog.android.Pixart
 import se.premex.compose.preview.device.catalog.android.Pixela
+import se.premex.compose.preview.device.catalog.android.Pixgood
 import se.premex.compose.preview.device.catalog.android.Pixpeak
 import se.premex.compose.preview.device.catalog.android.Pixpro
 import se.premex.compose.preview.device.catalog.android.Pixus
@@ -1764,12 +1789,12 @@ import se.premex.compose.preview.device.catalog.android.Plimpton
 import se.premex.compose.preview.device.catalog.android.Ployer
 import se.premex.compose.preview.device.catalog.android.Plum
 import se.premex.compose.preview.device.catalog.android.Plusstyle
+import se.premex.compose.preview.device.catalog.android.Plux
 import se.premex.compose.preview.device.catalog.android.Pluzz
 import se.premex.compose.preview.device.catalog.android.PnRavec
 import se.premex.compose.preview.device.catalog.android.Poco
 import se.premex.compose.preview.device.catalog.android.PointOfView
 import se.premex.compose.preview.device.catalog.android.Pointmobile
-import se.premex.compose.preview.device.catalog.android.Pokini
 import se.premex.compose.preview.device.catalog.android.Polar
 import se.premex.compose.preview.device.catalog.android.Polaroid
 import se.premex.compose.preview.device.catalog.android.Polestar
@@ -1777,6 +1802,7 @@ import se.premex.compose.preview.device.catalog.android.Polsat
 import se.premex.compose.preview.device.catalog.android.Polytron
 import se.premex.compose.preview.device.catalog.android.Pontistech
 import se.premex.compose.preview.device.catalog.android.Pools
+import se.premex.compose.preview.device.catalog.android.PopTv
 import se.premex.compose.preview.device.catalog.android.Poptel
 import se.premex.compose.preview.device.catalog.android.Porodo
 import se.premex.compose.preview.device.catalog.android.Porsche
@@ -1789,6 +1815,7 @@ import se.premex.compose.preview.device.catalog.android.Positivo
 import se.premex.compose.preview.device.catalog.android.Possafe
 import se.premex.compose.preview.device.catalog.android.Postef
 import se.premex.compose.preview.device.catalog.android.PowerGreen
+import se.premex.compose.preview.device.catalog.android.PowerPad
 import se.premex.compose.preview.device.catalog.android.Powerology
 import se.premex.compose.preview.device.catalog.android.Powmus
 import se.premex.compose.preview.device.catalog.android.Pozzi
@@ -1839,8 +1866,8 @@ import se.premex.compose.preview.device.catalog.android.Qsmart
 import se.premex.compose.preview.device.catalog.android.Qtab
 import se.premex.compose.preview.device.catalog.android.Qti
 import se.premex.compose.preview.device.catalog.android.Qtouch
+import se.premex.compose.preview.device.catalog.android.Quantic
 import se.premex.compose.preview.device.catalog.android.Quantum
-import se.premex.compose.preview.device.catalog.android.Quatro
 import se.premex.compose.preview.device.catalog.android.Quber
 import se.premex.compose.preview.device.catalog.android.Qubo
 import se.premex.compose.preview.device.catalog.android.Quest
@@ -1864,12 +1891,12 @@ import se.premex.compose.preview.device.catalog.android.RayoMovil
 import se.premex.compose.preview.device.catalog.android.Razer
 import se.premex.compose.preview.device.catalog.android.Rca
 import se.premex.compose.preview.device.catalog.android.Rct
-import se.premex.compose.preview.device.catalog.android.Rdp
 import se.premex.compose.preview.device.catalog.android.Readly
 import se.premex.compose.preview.device.catalog.android.Realix
 import se.premex.compose.preview.device.catalog.android.Realme
 import se.premex.compose.preview.device.catalog.android.Realtime
 import se.premex.compose.preview.device.catalog.android.Rebecco
+import se.premex.compose.preview.device.catalog.android.Rebotai
 import se.premex.compose.preview.device.catalog.android.Recco
 import se.premex.compose.preview.device.catalog.android.Red
 import se.premex.compose.preview.device.catalog.android.RedMobile
@@ -1878,7 +1905,6 @@ import se.premex.compose.preview.device.catalog.android.Redbeat
 import se.premex.compose.preview.device.catalog.android.Redfox
 import se.premex.compose.preview.device.catalog.android.Redline
 import se.premex.compose.preview.device.catalog.android.Redmi
-import se.premex.compose.preview.device.catalog.android.Redmobile
 import se.premex.compose.preview.device.catalog.android.Redtone
 import se.premex.compose.preview.device.catalog.android.Redway
 import se.premex.compose.preview.device.catalog.android.Reeder
@@ -1886,7 +1912,6 @@ import se.premex.compose.preview.device.catalog.android.Reekoo
 import se.premex.compose.preview.device.catalog.android.Reeva
 import se.premex.compose.preview.device.catalog.android.Regal
 import se.premex.compose.preview.device.catalog.android.Regza
-import se.premex.compose.preview.device.catalog.android.Reliance
 import se.premex.compose.preview.device.catalog.android.Relndoo
 import se.premex.compose.preview.device.catalog.android.Remdun
 import se.premex.compose.preview.device.catalog.android.Renault
@@ -1894,7 +1919,6 @@ import se.premex.compose.preview.device.catalog.android.RenaultTrucks
 import se.premex.compose.preview.device.catalog.android.Renso
 import se.premex.compose.preview.device.catalog.android.Rephone
 import se.premex.compose.preview.device.catalog.android.Reveal16i
-import se.premex.compose.preview.device.catalog.android.Revomovil
 import se.premex.compose.preview.device.catalog.android.Revox
 import se.premex.compose.preview.device.catalog.android.Revrica
 import se.premex.compose.preview.device.catalog.android.Revvl
@@ -1908,8 +1932,8 @@ import se.premex.compose.preview.device.catalog.android.Riviera
 import se.premex.compose.preview.device.catalog.android.Rixun
 import se.premex.compose.preview.device.catalog.android.Rizzen
 import se.premex.compose.preview.device.catalog.android.Rlg
+import se.premex.compose.preview.device.catalog.android.Rnruo
 import se.premex.compose.preview.device.catalog.android.Roadquest
-import se.premex.compose.preview.device.catalog.android.Rockcel
 import se.premex.compose.preview.device.catalog.android.Rocktek
 import se.premex.compose.preview.device.catalog.android.Rokid
 import se.premex.compose.preview.device.catalog.android.Rokit
@@ -1923,17 +1947,19 @@ import se.premex.compose.preview.device.catalog.android.Royalrahmani
 import se.premex.compose.preview.device.catalog.android.Royqueen
 import se.premex.compose.preview.device.catalog.android.Ruggear
 import se.premex.compose.preview.device.catalog.android.Ruggon
+import se.premex.compose.preview.device.catalog.android.Rugone
 import se.premex.compose.preview.device.catalog.android.Rugstorm
 import se.premex.compose.preview.device.catalog.android.Ruio
+import se.premex.compose.preview.device.catalog.android.Rushar
 import se.premex.compose.preview.device.catalog.android.Russound
 import se.premex.compose.preview.device.catalog.android.Ruufuuxy
-import se.premex.compose.preview.device.catalog.android.Rvp
 import se.premex.compose.preview.device.catalog.android.Rwc
 import se.premex.compose.preview.device.catalog.android.S
 import se.premex.compose.preview.device.catalog.android.STell
 import se.premex.compose.preview.device.catalog.android.Saba
 import se.premex.compose.preview.device.catalog.android.Saelite
 import se.premex.compose.preview.device.catalog.android.Safaricom
+import se.premex.compose.preview.device.catalog.android.SafexInstruments
 import se.premex.compose.preview.device.catalog.android.Sagi
 import se.premex.compose.preview.device.catalog.android.Saiet
 import se.premex.compose.preview.device.catalog.android.Sampo
@@ -1995,11 +2021,14 @@ import se.premex.compose.preview.device.catalog.android.Sgp
 import se.premex.compose.preview.device.catalog.android.Shaks
 import se.premex.compose.preview.device.catalog.android.Sharp
 import se.premex.compose.preview.device.catalog.android.Shelby
+import se.premex.compose.preview.device.catalog.android.Shiarffe
 import se.premex.compose.preview.device.catalog.android.Shift
 import se.premex.compose.preview.device.catalog.android.Shinon
 import se.premex.compose.preview.device.catalog.android.Shivaki
 import se.premex.compose.preview.device.catalog.android.Shortcut
 import se.premex.compose.preview.device.catalog.android.Shoudum
+import se.premex.compose.preview.device.catalog.android.Shownic
+import se.premex.compose.preview.device.catalog.android.Shuodum
 import se.premex.compose.preview.device.catalog.android.Shuttle
 import se.premex.compose.preview.device.catalog.android.Sico
 import se.premex.compose.preview.device.catalog.android.Sicon
@@ -2008,7 +2037,6 @@ import se.premex.compose.preview.device.catalog.android.SigmaMobile
 import se.premex.compose.preview.device.catalog.android.Silo
 import se.premex.compose.preview.device.catalog.android.SilverLine
 import se.premex.compose.preview.device.catalog.android.SilverMax
-import se.premex.compose.preview.device.catalog.android.Silverline
 import se.premex.compose.preview.device.catalog.android.Simbans
 import se.premex.compose.preview.device.catalog.android.Simfer
 import se.premex.compose.preview.device.catalog.android.Simi
@@ -2025,7 +2053,6 @@ import se.premex.compose.preview.device.catalog.android.Sky
 import se.premex.compose.preview.device.catalog.android.SkyBrasil
 import se.premex.compose.preview.device.catalog.android.SkyDevices
 import se.premex.compose.preview.device.catalog.android.SkyOne
-import se.premex.compose.preview.device.catalog.android.Skydevices
 import se.premex.compose.preview.device.catalog.android.Skyegg
 import se.premex.compose.preview.device.catalog.android.Skyhcn
 import se.premex.compose.preview.device.catalog.android.Skylife
@@ -2037,7 +2064,6 @@ import se.premex.compose.preview.device.catalog.android.Smadl
 import se.premex.compose.preview.device.catalog.android.Smart
 import se.premex.compose.preview.device.catalog.android.SmartKassel
 import se.premex.compose.preview.device.catalog.android.SmartTechnology
-import se.premex.compose.preview.device.catalog.android.SmartTek
 import se.premex.compose.preview.device.catalog.android.SmartTouch
 import se.premex.compose.preview.device.catalog.android.Smartab
 import se.premex.compose.preview.device.catalog.android.Smartbook
@@ -2053,13 +2079,14 @@ import se.premex.compose.preview.device.catalog.android.Smarttech
 import se.premex.compose.preview.device.catalog.android.Smarttv
 import se.premex.compose.preview.device.catalog.android.Smartvu
 import se.premex.compose.preview.device.catalog.android.Smaty
-import se.premex.compose.preview.device.catalog.android.Smile
 import se.premex.compose.preview.device.catalog.android.Smooth
+import se.premex.compose.preview.device.catalog.android.Snowa
 import se.premex.compose.preview.device.catalog.android.Snt
 import se.premex.compose.preview.device.catalog.android.Socialphone700
 import se.premex.compose.preview.device.catalog.android.Soda
 import se.premex.compose.preview.device.catalog.android.Softbank
 import se.premex.compose.preview.device.catalog.android.SohoStyle
+import se.premex.compose.preview.device.catalog.android.Solanamobile
 import se.premex.compose.preview.device.catalog.android.Solone
 import se.premex.compose.preview.device.catalog.android.Soneview
 import se.premex.compose.preview.device.catalog.android.Sonim
@@ -2067,7 +2094,6 @@ import se.premex.compose.preview.device.catalog.android.Soniq
 import se.premex.compose.preview.device.catalog.android.Sony
 import se.premex.compose.preview.device.catalog.android.Sonyaudio
 import se.premex.compose.preview.device.catalog.android.Sooka
-import se.premex.compose.preview.device.catalog.android.Soriana
 import se.premex.compose.preview.device.catalog.android.Sosh
 import se.premex.compose.preview.device.catalog.android.Soultech
 import se.premex.compose.preview.device.catalog.android.South
@@ -2080,10 +2106,10 @@ import se.premex.compose.preview.device.catalog.android.Spc
 import se.premex.compose.preview.device.catalog.android.Specktron
 import se.premex.compose.preview.device.catalog.android.Spectra
 import se.premex.compose.preview.device.catalog.android.SpectraGeospatial
-import se.premex.compose.preview.device.catalog.android.Spectrageospatial
 import se.premex.compose.preview.device.catalog.android.Spectralink
 import se.premex.compose.preview.device.catalog.android.Spectramobile
 import se.premex.compose.preview.device.catalog.android.Spectraprecision
+import se.premex.compose.preview.device.catalog.android.Speechi
 import se.premex.compose.preview.device.catalog.android.Speedata
 import se.premex.compose.preview.device.catalog.android.Speedstar
 import se.premex.compose.preview.device.catalog.android.Spider
@@ -2096,15 +2122,14 @@ import se.premex.compose.preview.device.catalog.android.Sqool
 import se.premex.compose.preview.device.catalog.android.Srilankatelecom
 import se.premex.compose.preview.device.catalog.android.Ssa
 import se.premex.compose.preview.device.catalog.android.Ssmooth
-import se.premex.compose.preview.device.catalog.android.Star
 import se.premex.compose.preview.device.catalog.android.StarTrack
 import se.premex.compose.preview.device.catalog.android.StarX
 import se.premex.compose.preview.device.catalog.android.Starboard
 import se.premex.compose.preview.device.catalog.android.Starhub
-import se.premex.compose.preview.device.catalog.android.StarkFuture
 import se.premex.compose.preview.device.catalog.android.Starkfuture
 import se.premex.compose.preview.device.catalog.android.Starlight
 import se.premex.compose.preview.device.catalog.android.Starmobile
+import se.premex.compose.preview.device.catalog.android.Starsat
 import se.premex.compose.preview.device.catalog.android.Starshine
 import se.premex.compose.preview.device.catalog.android.Stboard
 import se.premex.compose.preview.device.catalog.android.Stc
@@ -2133,6 +2158,7 @@ import se.premex.compose.preview.device.catalog.android.SunKing
 import se.premex.compose.preview.device.catalog.android.Sunbio
 import se.premex.compose.preview.device.catalog.android.Sunbrite
 import se.premex.compose.preview.device.catalog.android.Sunconnection
+import se.premex.compose.preview.device.catalog.android.Sundirectmax
 import se.premex.compose.preview.device.catalog.android.Sunelan
 import se.premex.compose.preview.device.catalog.android.Sunmax
 import se.premex.compose.preview.device.catalog.android.Sunmi
@@ -2155,7 +2181,6 @@ import se.premex.compose.preview.device.catalog.android.Sw
 import se.premex.compose.preview.device.catalog.android.Swaconnect
 import se.premex.compose.preview.device.catalog.android.Swipe
 import se.premex.compose.preview.device.catalog.android.Swisscom
-import se.premex.compose.preview.device.catalog.android.Swissmobility
 import se.premex.compose.preview.device.catalog.android.Swisstone
 import se.premex.compose.preview.device.catalog.android.Swissvoice
 import se.premex.compose.preview.device.catalog.android.Swosh
@@ -2165,6 +2190,7 @@ import se.premex.compose.preview.device.catalog.android.Sylvania
 import se.premex.compose.preview.device.catalog.android.Sylvox
 import se.premex.compose.preview.device.catalog.android.Symphony
 import se.premex.compose.preview.device.catalog.android.Synetech
+import se.premex.compose.preview.device.catalog.android.Szanfu
 import se.premex.compose.preview.device.catalog.android.TGo
 import se.premex.compose.preview.device.catalog.android.TMobile
 import se.premex.compose.preview.device.catalog.android.TMobileCzTelekomSk
@@ -2172,20 +2198,18 @@ import se.premex.compose.preview.device.catalog.android.TabiByTGo
 import se.premex.compose.preview.device.catalog.android.TabletPc
 import se.premex.compose.preview.device.catalog.android.Tabphone710Pro
 import se.premex.compose.preview.device.catalog.android.Tabwee
+import se.premex.compose.preview.device.catalog.android.Tadi
 import se.premex.compose.preview.device.catalog.android.TagDc
-import se.premex.compose.preview.device.catalog.android.TagTech
 import se.premex.compose.preview.device.catalog.android.Tagheuer
 import se.premex.compose.preview.device.catalog.android.Tagital
 import se.premex.compose.preview.device.catalog.android.Tagtech
 import se.premex.compose.preview.device.catalog.android.Taifa
 import se.premex.compose.preview.device.catalog.android.Taipeinet
 import se.premex.compose.preview.device.catalog.android.Taiwanmobile
-import se.premex.compose.preview.device.catalog.android.Takara
 import se.premex.compose.preview.device.catalog.android.Talius
 import se.premex.compose.preview.device.catalog.android.Talktalk
 import se.premex.compose.preview.device.catalog.android.Tambo
 import se.premex.compose.preview.device.catalog.android.Tamboard
-import se.premex.compose.preview.device.catalog.android.Tanoshi
 import se.premex.compose.preview.device.catalog.android.Tanoshischolar
 import se.premex.compose.preview.device.catalog.android.Taskphone
 import se.premex.compose.preview.device.catalog.android.TataskyBingeplus
@@ -2194,12 +2218,13 @@ import se.premex.compose.preview.device.catalog.android.Taztag
 import se.premex.compose.preview.device.catalog.android.Tbc
 import se.premex.compose.preview.device.catalog.android.Tbltaca
 import se.premex.compose.preview.device.catalog.android.Tbroad
+import se.premex.compose.preview.device.catalog.android.Tch
 import se.premex.compose.preview.device.catalog.android.Tcl
 import se.premex.compose.preview.device.catalog.android.TclMetropcs
 import se.premex.compose.preview.device.catalog.android.Tcst
 import se.premex.compose.preview.device.catalog.android.Tct
-import se.premex.compose.preview.device.catalog.android.TdSystems
 import se.premex.compose.preview.device.catalog.android.Tdsystems
+import se.premex.compose.preview.device.catalog.android.Tdtech
 import se.premex.compose.preview.device.catalog.android.Teachmintx
 import se.premex.compose.preview.device.catalog.android.Teamgee
 import se.premex.compose.preview.device.catalog.android.TechPad
@@ -2210,7 +2235,7 @@ import se.premex.compose.preview.device.catalog.android.Technicolor
 import se.premex.compose.preview.device.catalog.android.Technika
 import se.premex.compose.preview.device.catalog.android.Technocrat
 import se.premex.compose.preview.device.catalog.android.Technopc
-import se.premex.compose.preview.device.catalog.android.Techpad
+import se.premex.compose.preview.device.catalog.android.Techview
 import se.premex.compose.preview.device.catalog.android.Teclast
 import se.premex.compose.preview.device.catalog.android.Teclastkorea
 import se.premex.compose.preview.device.catalog.android.Tecno
@@ -2221,7 +2246,6 @@ import se.premex.compose.preview.device.catalog.android.Tectoy
 import se.premex.compose.preview.device.catalog.android.Teeno
 import se.premex.compose.preview.device.catalog.android.Teeview
 import se.premex.compose.preview.device.catalog.android.Teklio
-import se.premex.compose.preview.device.catalog.android.Teknosa
 import se.premex.compose.preview.device.catalog.android.Teksavvytv
 import se.premex.compose.preview.device.catalog.android.Telcel
 import se.premex.compose.preview.device.catalog.android.Tele2
@@ -2256,9 +2280,10 @@ import se.premex.compose.preview.device.catalog.android.Tespro
 import se.premex.compose.preview.device.catalog.android.Texet
 import se.premex.compose.preview.device.catalog.android.Tgnco
 import se.premex.compose.preview.device.catalog.android.ThanhhungTechnology
-import se.premex.compose.preview.device.catalog.android.TheUhd
 import se.premex.compose.preview.device.catalog.android.Thehaam
 import se.premex.compose.preview.device.catalog.android.Theham
+import se.premex.compose.preview.device.catalog.android.Thenudge
+import se.premex.compose.preview.device.catalog.android.Theuhd
 import se.premex.compose.preview.device.catalog.android.Thinkacademy
 import se.premex.compose.preview.device.catalog.android.Thomson
 import se.premex.compose.preview.device.catalog.android.ThomsonKodak
@@ -2270,7 +2295,6 @@ import se.premex.compose.preview.device.catalog.android.Tigers
 import se.premex.compose.preview.device.catalog.android.Tigo
 import se.premex.compose.preview.device.catalog.android.Tigorr
 import se.premex.compose.preview.device.catalog.android.Tim
-import se.premex.compose.preview.device.catalog.android.Time2
 import se.premex.compose.preview.device.catalog.android.Timovi
 import se.premex.compose.preview.device.catalog.android.Tinp
 import se.premex.compose.preview.device.catalog.android.Tinsik
@@ -2278,7 +2302,6 @@ import se.premex.compose.preview.device.catalog.android.Tiok
 import se.premex.compose.preview.device.catalog.android.Tit
 import se.premex.compose.preview.device.catalog.android.Tiwell
 import se.premex.compose.preview.device.catalog.android.Tjd
-import se.premex.compose.preview.device.catalog.android.Tkds
 import se.premex.compose.preview.device.catalog.android.TmCell
 import se.premex.compose.preview.device.catalog.android.Tnt
 import se.premex.compose.preview.device.catalog.android.TochMobile
@@ -2289,15 +2312,18 @@ import se.premex.compose.preview.device.catalog.android.Tokyo
 import se.premex.compose.preview.device.catalog.android.Tomstar
 import se.premex.compose.preview.device.catalog.android.Tone
 import se.premex.compose.preview.device.catalog.android.Topelotek
+import se.premex.compose.preview.device.catalog.android.Topicon
 import se.premex.compose.preview.device.catalog.android.Topjoy
 import se.premex.compose.preview.device.catalog.android.Topsand
 import se.premex.compose.preview.device.catalog.android.Torex
 import se.premex.compose.preview.device.catalog.android.Tornado
 import se.premex.compose.preview.device.catalog.android.Toscido
 import se.premex.compose.preview.device.catalog.android.Toshiba
+import se.premex.compose.preview.device.catalog.android.TouchDynamic
 import se.premex.compose.preview.device.catalog.android.TouchPlus
 import se.premex.compose.preview.device.catalog.android.Touchmate
 import se.premex.compose.preview.device.catalog.android.TouchviewInteractive
+import se.premex.compose.preview.device.catalog.android.Toxiik
 import se.premex.compose.preview.device.catalog.android.Toya
 import se.premex.compose.preview.device.catalog.android.Toyin
 import se.premex.compose.preview.device.catalog.android.Toyota
@@ -2315,7 +2341,6 @@ import se.premex.compose.preview.device.catalog.android.Trident
 import se.premex.compose.preview.device.catalog.android.Trimble
 import se.premex.compose.preview.device.catalog.android.TrimbleNavigation
 import se.premex.compose.preview.device.catalog.android.True
-import se.premex.compose.preview.device.catalog.android.TrueSlim
 import se.premex.compose.preview.device.catalog.android.Trueidtv
 import se.premex.compose.preview.device.catalog.android.Trueslim
 import se.premex.compose.preview.device.catalog.android.Truevision
@@ -2325,13 +2350,10 @@ import se.premex.compose.preview.device.catalog.android.Truvii
 import se.premex.compose.preview.device.catalog.android.Tsutaya
 import se.premex.compose.preview.device.catalog.android.Ttfone
 import se.premex.compose.preview.device.catalog.android.Tts
-import se.premex.compose.preview.device.catalog.android.Tucel
 import se.premex.compose.preview.device.catalog.android.Tufen
-import se.premex.compose.preview.device.catalog.android.Tuff
-import se.premex.compose.preview.device.catalog.android.Turbo
 import se.premex.compose.preview.device.catalog.android.TurboX
+import se.premex.compose.preview.device.catalog.android.Turbokids
 import se.premex.compose.preview.device.catalog.android.Turbopad
-import se.premex.compose.preview.device.catalog.android.Turbox
 import se.premex.compose.preview.device.catalog.android.TurkTelekom
 import se.premex.compose.preview.device.catalog.android.Turkcell
 import se.premex.compose.preview.device.catalog.android.Tutu
@@ -2345,6 +2367,7 @@ import se.premex.compose.preview.device.catalog.android.Tvsmart
 import se.premex.compose.preview.device.catalog.android.Tvstar
 import se.premex.compose.preview.device.catalog.android.Tvt
 import se.premex.compose.preview.device.catalog.android.Tvup
+import se.premex.compose.preview.device.catalog.android.Twinbox4k
 import se.premex.compose.preview.device.catalog.android.Twinmos
 import se.premex.compose.preview.device.catalog.android.Twm
 import se.premex.compose.preview.device.catalog.android.Twz
@@ -2359,7 +2382,6 @@ import se.premex.compose.preview.device.catalog.android.Ujj
 import se.premex.compose.preview.device.catalog.android.Ujoyfeel
 import se.premex.compose.preview.device.catalog.android.Ulefone
 import se.premex.compose.preview.device.catalog.android.Ulesson
-import se.premex.compose.preview.device.catalog.android.Ultimate
 import se.premex.compose.preview.device.catalog.android.Ultra
 import se.premex.compose.preview.device.catalog.android.Ultrapad
 import se.premex.compose.preview.device.catalog.android.Ultym5
@@ -2370,6 +2392,8 @@ import se.premex.compose.preview.device.catalog.android.Unbluable
 import se.premex.compose.preview.device.catalog.android.Unico
 import se.premex.compose.preview.device.catalog.android.UnifiTv
 import se.premex.compose.preview.device.catalog.android.Unihertz
+import se.premex.compose.preview.device.catalog.android.Union99
+import se.premex.compose.preview.device.catalog.android.Uniontek
 import se.premex.compose.preview.device.catalog.android.Uniq
 import se.premex.compose.preview.device.catalog.android.Uniqcell
 import se.premex.compose.preview.device.catalog.android.Unisced
@@ -2386,6 +2410,7 @@ import se.premex.compose.preview.device.catalog.android.Uno
 import se.premex.compose.preview.device.catalog.android.Unonu
 import se.premex.compose.preview.device.catalog.android.Unowhy
 import se.premex.compose.preview.device.catalog.android.UpMobile
+import se.premex.compose.preview.device.catalog.android.Urao
 import se.premex.compose.preview.device.catalog.android.Urovo
 import se.premex.compose.preview.device.catalog.android.Usconnect
 import se.premex.compose.preview.device.catalog.android.Utime
@@ -2393,6 +2418,7 @@ import se.premex.compose.preview.device.catalog.android.Utopia
 import se.premex.compose.preview.device.catalog.android.Utvbox
 import se.premex.compose.preview.device.catalog.android.V2com
 import se.premex.compose.preview.device.catalog.android.V7
+import se.premex.compose.preview.device.catalog.android.VMoccs
 import se.premex.compose.preview.device.catalog.android.Vaio
 import se.premex.compose.preview.device.catalog.android.Vale
 import se.premex.compose.preview.device.catalog.android.Valerion
@@ -2420,8 +2446,6 @@ import se.premex.compose.preview.device.catalog.android.Vestel
 import se.premex.compose.preview.device.catalog.android.Vetoo
 import se.premex.compose.preview.device.catalog.android.Vexia
 import se.premex.compose.preview.device.catalog.android.Vezzer
-import se.premex.compose.preview.device.catalog.android.Vfonx
-import se.premex.compose.preview.device.catalog.android.VgoTel
 import se.premex.compose.preview.device.catalog.android.Vgotel
 import se.premex.compose.preview.device.catalog.android.Victurio
 import se.premex.compose.preview.device.catalog.android.Vid
@@ -2432,6 +2456,7 @@ import se.premex.compose.preview.device.catalog.android.Viewsonic
 import se.premex.compose.preview.device.catalog.android.Vikusha
 import se.premex.compose.preview.device.catalog.android.Villaon
 import se.premex.compose.preview.device.catalog.android.VimaTek
+import se.premex.compose.preview.device.catalog.android.Vimass
 import se.premex.compose.preview.device.catalog.android.Vimeel
 import se.premex.compose.preview.device.catalog.android.Vimoq
 import se.premex.compose.preview.device.catalog.android.Vincent
@@ -2444,12 +2469,14 @@ import se.premex.compose.preview.device.catalog.android.Visible
 import se.premex.compose.preview.device.catalog.android.Visio
 import se.premex.compose.preview.device.catalog.android.Vision
 import se.premex.compose.preview.device.catalog.android.VisionTechnology
+import se.premex.compose.preview.device.catalog.android.Visionplus
 import se.premex.compose.preview.device.catalog.android.Visiontek
 import se.premex.compose.preview.device.catalog.android.Vista
 import se.premex.compose.preview.device.catalog.android.VisualLand
 import se.premex.compose.preview.device.catalog.android.Vitumi
 import se.premex.compose.preview.device.catalog.android.Viumee
 import se.premex.compose.preview.device.catalog.android.Vivax
+import se.premex.compose.preview.device.catalog.android.Vivensis
 import se.premex.compose.preview.device.catalog.android.Vivimage
 import se.premex.compose.preview.device.catalog.android.Vivitek
 import se.premex.compose.preview.device.catalog.android.Vivo
@@ -2457,6 +2484,7 @@ import se.premex.compose.preview.device.catalog.android.Viwa
 import se.premex.compose.preview.device.catalog.android.Vizio
 import se.premex.compose.preview.device.catalog.android.Vizualogic
 import se.premex.compose.preview.device.catalog.android.Vizzion
+import se.premex.compose.preview.device.catalog.android.VkDigital
 import se.premex.compose.preview.device.catalog.android.Vkworld
 import se.premex.compose.preview.device.catalog.android.Vnpttechnology
 import se.premex.compose.preview.device.catalog.android.Vocal
@@ -2474,6 +2502,7 @@ import se.premex.compose.preview.device.catalog.android.Von
 import se.premex.compose.preview.device.catalog.android.Vonino
 import se.premex.compose.preview.device.catalog.android.Voo
 import se.premex.compose.preview.device.catalog.android.Voobox
+import se.premex.compose.preview.device.catalog.android.Voplls
 import se.premex.compose.preview.device.catalog.android.Vorago
 import se.premex.compose.preview.device.catalog.android.Vorcom
 import se.premex.compose.preview.device.catalog.android.Vortex
@@ -2503,8 +2532,8 @@ import se.premex.compose.preview.device.catalog.android.WebfleetSolutions
 import se.premex.compose.preview.device.catalog.android.Weelikeit
 import se.premex.compose.preview.device.catalog.android.Welio
 import se.premex.compose.preview.device.catalog.android.Wemax
+import se.premex.compose.preview.device.catalog.android.Weonex
 import se.premex.compose.preview.device.catalog.android.Westgate
-import se.premex.compose.preview.device.catalog.android.WestgateResorts
 import se.premex.compose.preview.device.catalog.android.Westgateresorts
 import se.premex.compose.preview.device.catalog.android.Westinghouse
 import se.premex.compose.preview.device.catalog.android.Westway
@@ -2514,15 +2543,14 @@ import se.premex.compose.preview.device.catalog.android.Whitedeer
 import se.premex.compose.preview.device.catalog.android.Whoop
 import se.premex.compose.preview.device.catalog.android.WiboxTv
 import se.premex.compose.preview.device.catalog.android.Widevu
-import se.premex.compose.preview.device.catalog.android.Wieppo
 import se.premex.compose.preview.device.catalog.android.Wigor
 import se.premex.compose.preview.device.catalog.android.Wiko
 import se.premex.compose.preview.device.catalog.android.Wileyfox
 import se.premex.compose.preview.device.catalog.android.Willett
 import se.premex.compose.preview.device.catalog.android.Willkotech
+import se.premex.compose.preview.device.catalog.android.Wimius
 import se.premex.compose.preview.device.catalog.android.Win
 import se.premex.compose.preview.device.catalog.android.Wind
-import se.premex.compose.preview.device.catalog.android.Winds
 import se.premex.compose.preview.device.catalog.android.Wings
 import se.premex.compose.preview.device.catalog.android.WingsMobile
 import se.premex.compose.preview.device.catalog.android.Winmax
@@ -2533,7 +2561,6 @@ import se.premex.compose.preview.device.catalog.android.Wintouch
 import se.premex.compose.preview.device.catalog.android.Wirelessgate
 import se.premex.compose.preview.device.catalog.android.WiseTech
 import se.premex.compose.preview.device.catalog.android.Wiseasy
-import se.premex.compose.preview.device.catalog.android.Wisetech
 import se.premex.compose.preview.device.catalog.android.Wishtel
 import se.premex.compose.preview.device.catalog.android.Wismann
 import se.premex.compose.preview.device.catalog.android.Witooth
@@ -2552,7 +2579,6 @@ import se.premex.compose.preview.device.catalog.android.Ws
 import se.premex.compose.preview.device.catalog.android.Wxunja
 import se.premex.compose.preview.device.catalog.android.Wybor
 import se.premex.compose.preview.device.catalog.android.XAge
-import se.premex.compose.preview.device.catalog.android.XMobile
 import se.premex.compose.preview.device.catalog.android.XPremium
 import se.premex.compose.preview.device.catalog.android.XTigi
 import se.premex.compose.preview.device.catalog.android.XView
@@ -2568,6 +2594,7 @@ import se.premex.compose.preview.device.catalog.android.Xiaomi
 import se.premex.compose.preview.device.catalog.android.Xitrix
 import se.premex.compose.preview.device.catalog.android.Xl
 import se.premex.compose.preview.device.catalog.android.Xlaxiata
+import se.premex.compose.preview.device.catalog.android.Xmart
 import se.premex.compose.preview.device.catalog.android.Xming
 import se.premex.compose.preview.device.catalog.android.Xmobile
 import se.premex.compose.preview.device.catalog.android.Xolo
@@ -2578,18 +2605,15 @@ import se.premex.compose.preview.device.catalog.android.XploreTechnologies
 import se.premex.compose.preview.device.catalog.android.Xppen
 import se.premex.compose.preview.device.catalog.android.Xreal
 import se.premex.compose.preview.device.catalog.android.Xsmart
-import se.premex.compose.preview.device.catalog.android.Xtigi
 import se.premex.compose.preview.device.catalog.android.Xtouch
 import se.premex.compose.preview.device.catalog.android.Xtr
 import se.premex.compose.preview.device.catalog.android.Xtratech
 import se.premex.compose.preview.device.catalog.android.XtratechIguanapad
 import se.premex.compose.preview.device.catalog.android.Xtreme
-import se.premex.compose.preview.device.catalog.android.Xwave
 import se.premex.compose.preview.device.catalog.android.Yandex
 import se.premex.compose.preview.device.catalog.android.Yara
 import se.premex.compose.preview.device.catalog.android.Yasin
 import se.premex.compose.preview.device.catalog.android.Yay
-import se.premex.compose.preview.device.catalog.android.Yellyouth
 import se.premex.compose.preview.device.catalog.android.Yes
 import se.premex.compose.preview.device.catalog.android.Yestel
 import se.premex.compose.preview.device.catalog.android.Yettel
@@ -2609,7 +2633,6 @@ import se.premex.compose.preview.device.catalog.android.Youin
 import se.premex.compose.preview.device.catalog.android.Youtab
 import se.premex.compose.preview.device.catalog.android.Yqsavior
 import se.premex.compose.preview.device.catalog.android.Yqsvaior
-import se.premex.compose.preview.device.catalog.android.Ysf
 import se.premex.compose.preview.device.catalog.android.Ysfen
 import se.premex.compose.preview.device.catalog.android.Yu
 import se.premex.compose.preview.device.catalog.android.Yuho
@@ -2617,16 +2640,16 @@ import se.premex.compose.preview.device.catalog.android.Yumkem
 import se.premex.compose.preview.device.catalog.android.Yuntab
 import se.premex.compose.preview.device.catalog.android.Yyswie
 import se.premex.compose.preview.device.catalog.android.Zaikai
-import se.premex.compose.preview.device.catalog.android.Zaith
 import se.premex.compose.preview.device.catalog.android.Zamolxe
 import se.premex.compose.preview.device.catalog.android.Zapitv
 import se.premex.compose.preview.device.catalog.android.Zatec
+import se.premex.compose.preview.device.catalog.android.Zcobro
 import se.premex.compose.preview.device.catalog.android.Zcs
 import se.premex.compose.preview.device.catalog.android.Zdk
 import se.premex.compose.preview.device.catalog.android.Zebra
 import se.premex.compose.preview.device.catalog.android.Zeeker
 import se.premex.compose.preview.device.catalog.android.Zeki
-import se.premex.compose.preview.device.catalog.android.Zelu
+import se.premex.compose.preview.device.catalog.android.Zenet
 import se.premex.compose.preview.device.catalog.android.Zenijust
 import se.premex.compose.preview.device.catalog.android.Zenos
 import se.premex.compose.preview.device.catalog.android.Zentec
@@ -2667,10 +2690,10 @@ import se.premex.compose.preview.device.catalog.android.Zzb
 import se.premex.compose.preview.device.catalog.android._10or
 import se.premex.compose.preview.device.catalog.android._1u1
 import se.premex.compose.preview.device.catalog.android._2e
-import se.premex.compose.preview.device.catalog.android._3222222satelital
 import se.premex.compose.preview.device.catalog.android._3bbtv
+import se.premex.compose.preview.device.catalog.android._3nstar
 import se.premex.compose.preview.device.catalog.android._3rtablet
-import se.premex.compose.preview.device.catalog.android._7mobile
+import se.premex.compose.preview.device.catalog.android._4ig
 import se.premex.compose.preview.device.catalog.android._8849
 
 /**
@@ -2724,6 +2747,9 @@ public object PreviewGroups {
           "ai" to ::getAiDevices,
           "aidata" to ::getAidataDevices,
           "aigo" to ::getAigoDevices,
+          "ainmel" to ::getAinmelDevices,
+          "ainuevo" to ::getAinuevoDevices,
+          "aiplus" to ::getAiplusDevices,
           "airpha" to ::getAirphaDevices,
           "airtel" to ::getAirtelDevices,
           "airtelxstream" to ::getAirtelXstreamDevices,
@@ -2741,8 +2767,6 @@ public object PreviewGroups {
           "alba" to ::getAlbaDevices,
           "albadeel" to ::getAlbadeelDevices,
           "alcatel" to ::getAlcatelDevices,
-          "alco" to ::getAlcoDevices,
-          "alcor" to ::getAlcorDevices,
           "aldo" to ::getAldoDevices,
           "algar" to ::getAlgarDevices,
           "alhafidh" to ::getAlhafidhDevices,
@@ -2756,7 +2780,6 @@ public object PreviewGroups {
           "allview" to ::getAllviewDevices,
           "allwinner" to ::getAllwinnerDevices,
           "alpha" to ::getAlphaDevices,
-          "alphaling" to ::getAlphaLingDevices,
           "alphaling" to ::getAlphalingDevices,
           "alphatel" to ::getAlphatelDevices,
           "alphawolf" to ::getAlphawolfDevices,
@@ -2769,6 +2792,7 @@ public object PreviewGroups {
           "altus" to ::getAltusDevices,
           "amamobile" to ::getAmaMobileDevices,
           "amazon" to ::getAmazonDevices,
+          "amg" to ::getAmgDevices,
           "amgoo" to ::getAmgooDevices,
           "amgx13e" to ::getAmgx13eDevices,
           "amino" to ::getAminoDevices,
@@ -2789,6 +2813,7 @@ public object PreviewGroups {
           "ansnksa" to ::getAnsNksaDevices,
           "antel" to ::getAntelDevices,
           "antempe" to ::getAntempeDevices,
+          "antemper" to ::getAntemperDevices,
           "anxonit" to ::getAnxonitDevices,
           "anya" to ::getAnyaDevices,
           "anywaygo" to ::getAnywayGoDevices,
@@ -2797,6 +2822,7 @@ public object PreviewGroups {
           "aogo" to ::getAogoDevices,
           "aoskey" to ::getAoskeyDevices,
           "aoyodkg" to ::getAoyodkgDevices,
+          "apd" to ::getApdDevices,
           "apex" to ::getApexDevices,
           "apolosign" to ::getApolosignDevices,
           "aprix" to ::getAprixDevices,
@@ -2818,6 +2844,7 @@ public object PreviewGroups {
           "arrow" to ::getArrowDevices,
           "arrqw" to ::getArrqwDevices,
           "artel" to ::getArtelDevices,
+          "artia" to ::getArtiaDevices,
           "artran" to ::getArtranDevices,
           "arvand" to ::getArvandDevices,
           "aselectronics" to ::getAsElectronicsDevices,
@@ -2843,6 +2870,7 @@ public object PreviewGroups {
           "athenastellar" to ::getAthenastellarDevices,
           "athesi" to ::getAthesiDevices,
           "athesiprofessional" to ::getAthesiProfessionalDevices,
+          "atid" to ::getAtidDevices,
           "atilimmpad" to ::getAtilimMpadDevices,
           "atm" to ::getAtmDevices,
           "atmpc" to ::getAtmpcDevices,
@@ -2850,13 +2878,14 @@ public object PreviewGroups {
           "atoto" to ::getAtotoDevices,
           "atozee" to ::getAtozeeDevices,
           "att" to ::getAttDevices,
+          "attila" to ::getAttilaDevices,
           "atvio" to ::getAtvioDevices,
           "audi" to ::getAudiDevices,
           "aupo" to ::getAupoDevices,
           "aura" to ::getAuraDevices,
           "aurzen" to ::getAurzenDevices,
+          "austrostream" to ::getAustrostreamDevices,
           "ava" to ::getAvaDevices,
-          "avacom" to ::getAvacomDevices,
           "avangard" to ::getAvangardDevices,
           "avatel" to ::getAvatelDevices,
           "avaya" to ::getAvayaDevices,
@@ -2874,8 +2903,8 @@ public object PreviewGroups {
           "axon" to ::getAxonDevices,
           "axs" to ::getAxsDevices,
           "axstv" to ::getAxstvDevices,
-          "axxa" to ::getAxxaDevices,
           "axxamobile" to ::getAxxaMobileDevices,
+          "axzy" to ::getAxzyDevices,
           "ayat" to ::getAyatDevices,
           "ayonz" to ::getAyonzDevices,
           "ayya" to ::getAyyaDevices,
@@ -2884,8 +2913,8 @@ public object PreviewGroups {
           "azom" to ::getAzomDevices,
           "azpen" to ::getAzpenDevices,
           "azumi" to ::getAzumiDevices,
-          "bbox" to ::getBBoxDevices,
           "babal" to ::getBabalDevices,
+          "baiwoyer" to ::getBaiwoyerDevices,
           "baken" to ::getBakenDevices,
           "balmuda" to ::getBalmudaDevices,
           "banana" to ::getBananaDevices,
@@ -2897,7 +2926,6 @@ public object PreviewGroups {
           "baykus" to ::getBaykusDevices,
           "bbox" to ::getBboxDevices,
           "bdq" to ::getBdqDevices,
-          "beafon" to ::getBeaFonDevices,
           "beafon" to ::getBeafonDevices,
           "bec" to ::getBecDevices,
           "beeline" to ::getBeelineDevices,
@@ -2908,16 +2936,18 @@ public object PreviewGroups {
           "bell" to ::getBellDevices,
           "bellcanada" to ::getBellCanadaDevices,
           "benco" to ::getBencoDevices,
+          "benesse" to ::getBenesseDevices,
           "beneve" to ::getBeneveDevices,
           "benq" to ::getBenqDevices,
           "benten" to ::getBentenDevices,
           "bentley" to ::getBentleyDevices,
           "benzo" to ::getBenzoDevices,
           "bergstrom" to ::getBergstromDevices,
+          "besdw" to ::getBesdwDevices,
           "bestbuy" to ::getBestbuyDevices,
           "bestreha" to ::getBestrehaDevices,
           "besttab" to ::getBesttabDevices,
-          "beyondpte" to ::getBeyondPteDevices,
+          "beyodfu" to ::getBeyodfuDevices,
           "bfelix" to ::getBfelixDevices,
           "bgh" to ::getBghDevices,
           "bh" to ::getBhDevices,
@@ -2926,25 +2956,23 @@ public object PreviewGroups {
           "bigme" to ::getBigmeDevices,
           "bigtech" to ::getBigtechDevices,
           "bilimbook" to ::getBilimbookDevices,
+          "bilimli" to ::getBilimliDevices,
           "billion" to ::getBillionDevices,
           "billow" to ::getBillowDevices,
           "binge" to ::getBingeDevices,
           "biolux" to ::getBioluxDevices,
           "biorugged" to ::getBioruggedDevices,
-          "biosfone" to ::getBiosfoneDevices,
           "bitainternational" to ::getBitaInternationalDevices,
           "bitel" to ::getBitelDevices,
           "bitmore" to ::getBitmoreDevices,
           "bittium" to ::getBittiumDevices,
           "bizringer" to ::getBizringerDevices,
           "blabloo" to ::getBlablooDevices,
-          "blackfox" to ::getBlackFoxDevices,
           "blackshark" to ::getBlackSharkDevices,
           "blackanddecker" to ::getBlackanddeckerDevices,
           "blackberry" to ::getBlackberryDevices,
           "blackfox" to ::getBlackfoxDevices,
           "blackline" to ::getBlacklineDevices,
-          "blackshark" to ::getBlacksharkDevices,
           "blackview" to ::getBlackviewDevices,
           "blaupunkt" to ::getBlaupunktDevices,
           "bleck" to ::getBleckDevices,
@@ -2956,6 +2984,7 @@ public object PreviewGroups {
           "bluebird" to ::getBluebirdDevices,
           "bluedigit" to ::getBluedigitDevices,
           "bluedot" to ::getBluedotDevices,
+          "bluefox" to ::getBluefoxDevices,
           "blueworld" to ::getBlueworldDevices,
           "bluslate" to ::getBluslateDevices,
           "bmax" to ::getBmaxDevices,
@@ -2963,6 +2992,7 @@ public object PreviewGroups {
           "bmpro" to ::getBmproDevices,
           "bmxc" to ::getBmxcDevices,
           "bncf" to ::getBncfDevices,
+          "bne" to ::getBneDevices,
           "bno" to ::getBnoDevices,
           "bolva" to ::getBolvaDevices,
           "boreal" to ::getBorealDevices,
@@ -2976,6 +3006,7 @@ public object PreviewGroups {
           "bqmobile" to ::getBqmobileDevices,
           "bqru" to ::getBqruDevices,
           "braillenote" to ::getBraillenoteDevices,
+          "brain" to ::getBrainDevices,
           "brand" to ::getBrandDevices,
           "brando" to ::getBrandoDevices,
           "brandt" to ::getBrandtDevices,
@@ -2996,26 +3027,26 @@ public object PreviewGroups {
           "bruhm" to ::getBruhmDevices,
           "btc" to ::getBtcDevices,
           "bubblegum" to ::getBubblegumDevices,
+          "bubblegumb1" to ::getBubblegumb1Devices,
           "buddyphone" to ::getBuddyPhoneDevices,
-          "buff" to ::getBuffDevices,
           "bulsatcom" to ::getBulsatcomDevices,
           "bundy" to ::getBundyDevices,
           "bush" to ::getBushDevices,
           "bvs" to ::getBvsDevices,
-          "bwjbsw" to ::getBwjbswDevices,
+          "byd" to ::getBydDevices,
           "byjus" to ::getByjusDevices,
           "byybuo" to ::getByybuoDevices,
           "c5mobile" to ::getC5MobileDevices,
           "cablecolor" to ::getCablecolorDevices,
           "caixun" to ::getCaixunDevices,
           "callsky" to ::getCallskyDevices,
+          "callskytab" to ::getCallskyTabDevices,
           "caltta" to ::getCalttaDevices,
           "calus" to ::getCalusDevices,
           "camfone" to ::getCamfoneDevices,
           "canal" to ::getCanalDevices,
           "canalplus" to ::getCanalPlusDevices,
           "canaldigital" to ::getCanaldigitalDevices,
-          "candi" to ::getCandiDevices,
           "candy" to ::getCandyDevices,
           "captiva" to ::getCaptivaDevices,
           "carbonmobile" to ::getCarbonmobileDevices,
@@ -3039,12 +3070,13 @@ public object PreviewGroups {
           "cellecor" to ::getCellecorDevices,
           "cello" to ::getCelloDevices,
           "cellution" to ::getCellutionDevices,
+          "celtiis" to ::getCeltiisDevices,
+          "centerm" to ::getCentermDevices,
           "centric" to ::getCentricDevices,
           "cepter" to ::getCepterDevices,
           "cg" to ::getCgDevices,
           "chainway" to ::getChainwayDevices,
           "challenger" to ::getChallengerDevices,
-          "chanbly" to ::getChanblyDevices,
           "changhong" to ::getChanghongDevices,
           "channelmaster" to ::getChannelMasterDevices,
           "chcnav" to ::getChcnavDevices,
@@ -3052,7 +3084,6 @@ public object PreviewGroups {
           "chemistwarehouse" to ::getChemistWarehouseDevices,
           "cherry" to ::getCherryDevices,
           "cherrymobile" to ::getCherryMobileDevices,
-          "cherrymobile" to ::getCherrymobileDevices,
           "chgtvhub" to ::getChgTvHubDevices,
           "chieko" to ::getChiekoDevices,
           "chimei" to ::getChimeiDevices,
@@ -3066,6 +3097,7 @@ public object PreviewGroups {
           "cignalplaytv" to ::getCignalplaytvDevices,
           "cik" to ::getCikDevices,
           "cilico" to ::getCilicoDevices,
+          "cimi" to ::getCimiDevices,
           "ciontek" to ::getCiontekDevices,
           "cipherlab" to ::getCipherlabDevices,
           "cisco" to ::getCiscoDevices,
@@ -3074,7 +3106,6 @@ public object PreviewGroups {
           "cjhv" to ::getCjhvDevices,
           "ckypad" to ::getCkypadDevices,
           "claresta" to ::getClarestaDevices,
-          "clarmin" to ::getClarminDevices,
           "claro" to ::getClaroDevices,
           "classpro" to ::getClassproDevices,
           "clearsounds" to ::getClearsoundsDevices,
@@ -3082,14 +3113,13 @@ public object PreviewGroups {
           "clementoni" to ::getClementoniDevices,
           "clever" to ::getCleverDevices,
           "clevertouch" to ::getClevertouchDevices,
-          "clickonicaexclusive" to ::getClickonicaExclusiveDevices,
           "clicktabds" to ::getClicktabdsDevices,
           "clide" to ::getClideDevices,
-          "clio" to ::getClioDevices,
           "cloud" to ::getCloudDevices,
           "cloudairwifi" to ::getCloudAirWifiDevices,
           "cloudmobile" to ::getCloudMobileDevices,
           "cloudfone" to ::getCloudfoneDevices,
+          "cloudminds" to ::getCloudmindsDevices,
           "clover" to ::getCloverDevices,
           "clovertek" to ::getClovertekDevices,
           "cmcc" to ::getCmccDevices,
@@ -3107,6 +3137,7 @@ public object PreviewGroups {
           "combustech" to ::getCombustechDevices,
           "comio" to ::getComioDevices,
           "commbox" to ::getCommboxDevices,
+          "commodore" to ::getCommodoreDevices,
           "compaq" to ::getCompaqDevices,
           "compartir" to ::getCompartirDevices,
           "compumax" to ::getCompumaxDevices,
@@ -3147,6 +3178,7 @@ public object PreviewGroups {
           "crema" to ::getCremaDevices,
           "cricket" to ::getCricketDevices,
           "cristor" to ::getCristorDevices,
+          "cronic" to ::getCronicDevices,
           "crony" to ::getCronyDevices,
           "crosscall" to ::getCrosscallDevices,
           "crownmustang" to ::getCrownmustangDevices,
@@ -3162,10 +3194,12 @@ public object PreviewGroups {
           "cwell" to ::getCwellDevices,
           "cwowdefu" to ::getCwowdefuDevices,
           "cx" to ::getCxDevices,
+          "cypher" to ::getCypherDevices,
           "cyrus" to ::getCyrusDevices,
           "dlight" to ::getDLightDevices,
           "dtech" to ::getDTechDevices,
           "dabliu" to ::getDabliuDevices,
+          "dadabroadbrand" to ::getDadaBroadbrandDevices,
           "daewoo" to ::getDaewooDevices,
           "dahl" to ::getDahlDevices,
           "dahua" to ::getDahuaDevices,
@@ -3183,7 +3217,7 @@ public object PreviewGroups {
           "datalogic" to ::getDatalogicDevices,
           "datamini" to ::getDataminiDevices,
           "dataminitwg10" to ::getDataminiTwg10Devices,
-          "datsun" to ::getDatsunDevices,
+          "datecs" to ::getDatecsDevices,
           "dawlance" to ::getDawlanceDevices,
           "daymark" to ::getDaymarkDevices,
           "dazn" to ::getDaznDevices,
@@ -3196,6 +3230,7 @@ public object PreviewGroups {
           "deertime" to ::getDeertimeDevices,
           "delephas" to ::getDelephasDevices,
           "dell" to ::getDellDevices,
+          "dengo" to ::getDengoDevices,
           "denka" to ::getDenkaDevices,
           "denstv" to ::getDensTvDevices,
           "densowave" to ::getDensowaveDevices,
@@ -3212,7 +3247,6 @@ public object PreviewGroups {
           "dgtec" to ::getDgtecDevices,
           "dialn" to ::getDialnDevices,
           "dialog" to ::getDialogDevices,
-          "dialogblaze" to ::getDialogBlazeDevices,
           "dialogtv" to ::getDialogTvDevices,
           "dicle" to ::getDicleDevices,
           "dicletab" to ::getDicleTabDevices,
@@ -3224,6 +3258,7 @@ public object PreviewGroups {
           "digic2" to ::getDigiC2Devices,
           "digir2" to ::getDigiR2Devices,
           "digicel" to ::getDigicelDevices,
+          "digicom" to ::getDigicomDevices,
           "digidragon" to ::getDigidragonDevices,
           "digiking" to ::getDigikingDevices,
           "digiland" to ::getDigilandDevices,
@@ -3231,6 +3266,7 @@ public object PreviewGroups {
           "digit" to ::getDigitDevices,
           "digits" to ::getDigitsDevices,
           "digma" to ::getDigmaDevices,
+          "digmapro" to ::getDigmaProDevices,
           "dijitsu" to ::getDijitsuDevices,
           "dingdong" to ::getDingdongDevices,
           "directv" to ::getDirectvDevices,
@@ -3252,20 +3288,20 @@ public object PreviewGroups {
           "domrumovix" to ::getDomRuMovixDevices,
           "domaton" to ::getDomatonDevices,
           "doogee" to ::getDoogeeDevices,
-          "doppio" to ::getDoppioDevices,
           "dora" to ::getDoraDevices,
           "doro" to ::getDoroDevices,
           "dragontouch" to ::getDragonTouchDevices,
-          "dragontouch" to ::getDragontouchDevices,
+          "dreame" to ::getDreameDevices,
           "dreammaker" to ::getDreammakerDevices,
           "dreamstar" to ::getDreamstarDevices,
           "dreamtech" to ::getDreamtechDevices,
           "dreamview" to ::getDreamviewDevices,
+          "drei" to ::getDreiDevices,
           "droidlogic" to ::getDroidlogicDevices,
           "dsic" to ::getDsicDevices,
           "dtab" to ::getDtabDevices,
           "dtac" to ::getDtacDevices,
-          "dtv" to ::getDtvDevices,
+          "dtresearch" to ::getDtresearchDevices,
           "dual" to ::getDualDevices,
           "dunhoo" to ::getDunhooDevices,
           "dunnsmobile" to ::getDunnsMobileDevices,
@@ -3278,7 +3314,6 @@ public object PreviewGroups {
           "dyon" to ::getDyonDevices,
           "e10" to ::getE10Devices,
           "e4u" to ::getE4uDevices,
-          "eboda" to ::getEBodaDevices,
           "elead" to ::getELeadDevices,
           "etel" to ::getETelDevices,
           "ewealthmobile" to ::getEWealthMobileDevices,
@@ -3288,6 +3323,7 @@ public object PreviewGroups {
           "eaglesoar" to ::getEaglesoarDevices,
           "eancom" to ::getEancomDevices,
           "easelectric" to ::getEasElectricDevices,
+          "easyphone" to ::getEasyphoneDevices,
           "easyteck" to ::getEasyteckDevices,
           "ebox" to ::getEboxDevices,
           "echo" to ::getEchoDevices,
@@ -3295,11 +3331,13 @@ public object PreviewGroups {
           "echosonic" to ::getEchosonicDevices,
           "ecom" to ::getEcomDevices,
           "econnect" to ::getEconnectDevices,
+          "ecopad" to ::getEcopadDevices,
           "ecopower" to ::getEcopowerDevices,
           "ecostar" to ::getEcostarDevices,
           "ecs" to ::getEcsDevices,
           "edenwood" to ::getEdenwoodDevices,
           "edstar" to ::getEdstarDevices,
+          "edutab" to ::getEdutabDevices,
           "ee" to ::getEeDevices,
           "efioo" to ::getEfiooDevices,
           "egbok" to ::getEgbokDevices,
@@ -3311,6 +3349,7 @@ public object PreviewGroups {
           "ejboard" to ::getEjboardDevices,
           "ekinox" to ::getEkinoxDevices,
           "eko" to ::getEkoDevices,
+          "ekron" to ::getEkronDevices,
           "eks" to ::getEksDevices,
           "eksx" to ::getEksxDevices,
           "el" to ::getElDevices,
@@ -3321,11 +3360,11 @@ public object PreviewGroups {
           "electroman" to ::getElectromanDevices,
           "electroneum" to ::getElectroneumDevices,
           "element" to ::getElementDevices,
+          "elephas" to ::getElephasDevices,
           "elephone" to ::getElephoneDevices,
           "elevate" to ::getElevateDevices,
           "elevn" to ::getElevnDevices,
           "elexia" to ::getElexiaDevices,
-          "elexus" to ::getElexusDevices,
           "elink" to ::getElinkDevices,
           "elisa" to ::getElisaDevices,
           "elisaelamus" to ::getElisaelamusDevices,
@@ -3337,7 +3376,6 @@ public object PreviewGroups {
           "ematic" to ::getEmaticDevices,
           "emerson" to ::getEmersonDevices,
           "emporia" to ::getEmporiaDevices,
-          "endo" to ::getEndoDevices,
           "energizer" to ::getEnergizerDevices,
           "energysistem" to ::getEnergysistemDevices,
           "engel" to ::getEngelDevices,
@@ -3347,15 +3385,14 @@ public object PreviewGroups {
           "entel" to ::getEntelDevices,
           "entity" to ::getEntityDevices,
           "entv" to ::getEntvDevices,
+          "env" to ::getEnvDevices,
           "eon" to ::getEonDevices,
           "eonsmartbox" to ::getEonSmartBoxDevices,
-          "eonsmartbox" to ::getEonsmartboxDevices,
           "epi" to ::getEpiDevices,
           "epic" to ::getEpicDevices,
           "epiklearningtab" to ::getEpikLearningTabDevices,
           "epikone" to ::getEpikoneDevices,
           "epson" to ::getEpsonDevices,
-          "equator" to ::getEquatorDevices,
           "equinoxe" to ::getEquinoxeDevices,
           "ergo" to ::getErgoDevices,
           "erito" to ::getEritoDevices,
@@ -3380,13 +3417,13 @@ public object PreviewGroups {
           "euskaltel" to ::getEuskaltelDevices,
           "evercoss" to ::getEvercossDevices,
           "everesteverpad" to ::getEverestEverpadDevices,
-          "everex" to ::getEverexDevices,
           "everis" to ::getEverisDevices,
           "everpad" to ::getEverpadDevices,
           "evertek" to ::getEvertekDevices,
           "everyphone" to ::getEveryphoneDevices,
           "evocatv" to ::getEvocatvDevices,
           "evoforce1" to ::getEvoforce1Devices,
+          "evolute" to ::getEvoluteDevices,
           "evolveo" to ::getEvolveoDevices,
           "evoo" to ::getEvooDevices,
           "evopro" to ::getEvoproDevices,
@@ -3403,18 +3440,18 @@ public object PreviewGroups {
           "eyepay" to ::getEyepayDevices,
           "f150" to ::getF150Devices,
           "f2" to ::getF2Devices,
-          "f2mobile" to ::getF2mobileDevices,
           "fplus" to ::getFPlusDevices,
           "facetel" to ::getFacetelDevices,
           "facilotab" to ::getFacilotabDevices,
           "faiba" to ::getFaibaDevices,
           "fairphone" to ::getFairphoneDevices,
+          "falcon" to ::getFalconDevices,
           "famix" to ::getFamixDevices,
           "famousfones" to ::getFamousFonesDevices,
+          "fanconn" to ::getFanconnDevices,
           "fancyday" to ::getFancydayDevices,
           "fandu" to ::getFanduDevices,
           "fangor" to ::getFangorDevices,
-          "fareastone" to ::getFareastoneDevices,
           "fastlife" to ::getFastlifeDevices,
           "fastway" to ::getFastwayDevices,
           "fastwd" to ::getFastwdDevices,
@@ -3446,13 +3483,14 @@ public object PreviewGroups {
           "fluo" to ::getFluoDevices,
           "fly" to ::getFlyDevices,
           "flytech" to ::getFlyTechDevices,
-          "fmc" to ::getFmcDevices,
+          "flycoay" to ::getFlycoayDevices,
           "fnb" to ::getFnbDevices,
           "fobem" to ::getFobemDevices,
           "fol" to ::getFolDevices,
           "folg" to ::getFolgDevices,
           "fonos" to ::getFonosDevices,
           "fonossmartelectronics" to ::getFonosSmartElectronicsDevices,
+          "forcepro" to ::getForceproDevices,
           "forco" to ::getForcoDevices,
           "formovie" to ::getFormovieDevices,
           "formuler" to ::getFormulerDevices,
@@ -3466,7 +3504,6 @@ public object PreviewGroups {
           "foxx" to ::getFoxxDevices,
           "foxxd" to ::getFoxxdDevices,
           "fpd" to ::getFpdDevices,
-          "fplus" to ::getFplusDevices,
           "fps" to ::getFpsDevices,
           "fpt" to ::getFptDevices,
           "fpttelecom" to ::getFptTelecomDevices,
@@ -3515,6 +3552,7 @@ public object PreviewGroups {
           "geoelectron" to ::getGeoelectronDevices,
           "geomax" to ::getGeomaxDevices,
           "geotm" to ::getGeotmDevices,
+          "gertec" to ::getGertecDevices,
           "geshem" to ::getGeshemDevices,
           "get" to ::getGetDevices,
           "getac" to ::getGetacDevices,
@@ -3522,7 +3560,6 @@ public object PreviewGroups {
           "gevo" to ::getGevoDevices,
           "gfast" to ::getGfastDevices,
           "gfive" to ::getGfiveDevices,
-          "gguard" to ::getGguardDevices,
           "ghia" to ::getGhiaDevices,
           "ghiakids" to ::getGhiaKidsDevices,
           "gigabyte" to ::getGigabyteDevices,
@@ -3530,6 +3567,7 @@ public object PreviewGroups {
           "gini" to ::getGiniDevices,
           "ginzzu" to ::getGinzzuDevices,
           "gionee" to ::getGioneeDevices,
+          "gladwin" to ::getGladwinDevices,
           "global" to ::getGlobalDevices,
           "global3" to ::getGlobal3Devices,
           "globalsec" to ::getGlobalsecDevices,
@@ -3539,16 +3577,15 @@ public object PreviewGroups {
           "globusinfocomlimited" to ::getGlobusInfocomLimitedDevices,
           "glocalme" to ::getGlocalmeDevices,
           "glofiish" to ::getGlofiishDevices,
+          "gloria" to ::getGloriaDevices,
           "glx" to ::getGlxDevices,
           "gm" to ::getGmDevices,
           "gmmz" to ::getGmmzDevices,
           "go3" to ::getGo3Devices,
-          "gomdusa" to ::getGoMdUsaDevices,
           "goally" to ::getGoallyDevices,
           "gobox" to ::getGoboxDevices,
           "gol" to ::getGolDevices,
           "goldentec" to ::getGoldentecDevices,
-          "goldtech" to ::getGoldtechDevices,
           "gomdusa" to ::getGomdusaDevices,
           "gome" to ::getGomeDevices,
           "gomobile" to ::getGomobileDevices,
@@ -3562,6 +3599,7 @@ public object PreviewGroups {
           "gpelectronic" to ::getGpelectronicDevices,
           "gplus" to ::getGplusDevices,
           "gpx" to ::getGpxDevices,
+          "gracecompany" to ::getGracecompanyDevices,
           "gradiente" to ::getGradienteDevices,
           "greatasia" to ::getGreatasiaDevices,
           "greatwall" to ::getGreatwallDevices,
@@ -3579,6 +3617,7 @@ public object PreviewGroups {
           "gtx" to ::getGtxDevices,
           "guophone" to ::getGuophoneDevices,
           "h133" to ::getH133Devices,
+          "h3cmagic" to ::getH3cmagicDevices,
           "h800b" to ::getH800bDevices,
           "h819e" to ::getH819eDevices,
           "haam" to ::getHaamDevices,
@@ -3590,7 +3629,6 @@ public object PreviewGroups {
           "hamic" to ::getHamicDevices,
           "hamlet" to ::getHamletDevices,
           "hammer" to ::getHammerDevices,
-          "hanasis" to ::getHanasisDevices,
           "handheld" to ::getHandheldDevices,
           "handheldwireless" to ::getHandheldWirelessDevices,
           "handtop" to ::getHandtopDevices,
@@ -3598,6 +3636,7 @@ public object PreviewGroups {
           "hankookcrea" to ::getHankookCreaDevices,
           "hannspree" to ::getHannspreeDevices,
           "hansung" to ::getHansungDevices,
+          "hansungcomputer" to ::getHansungcomputerDevices,
           "hanyeal" to ::getHanyealDevices,
           "haoqin" to ::getHaoqinDevices,
           "haovm" to ::getHaovmDevices,
@@ -3605,6 +3644,7 @@ public object PreviewGroups {
           "hatch" to ::getHatchDevices,
           "hathway" to ::getHathwayDevices,
           "haus" to ::getHausDevices,
+          "havit" to ::getHavitDevices,
           "hbestore" to ::getHbestoreDevices,
           "hcn" to ::getHcnDevices,
           "hdplus" to ::getHdPlusDevices,
@@ -3612,12 +3652,14 @@ public object PreviewGroups {
           "headwolf" to ::getHeadwolfDevices,
           "heatz" to ::getHeatzDevices,
           "hec" to ::getHecDevices,
+          "heinekingmedia" to ::getHeinekingmediaDevices,
           "helgi" to ::getHelgiDevices,
           "helio" to ::getHelioDevices,
           "helixinc" to ::getHelixIncDevices,
           "hellcat" to ::getHellcatDevices,
           "hellopro" to ::getHelloproDevices,
           "hemiltonpro" to ::getHemiltonproDevices,
+          "heran" to ::getHeranDevices,
           "hercls" to ::getHerclsDevices,
           "hero" to ::getHeroDevices,
           "hexabyte" to ::getHexabyteDevices,
@@ -3673,9 +3715,11 @@ public object PreviewGroups {
           "how" to ::getHowDevices,
           "hp" to ::getHpDevices,
           "hpadia10" to ::getHpadia10Devices,
+          "hphewlettpackard" to ::getHphewlettpackardDevices,
           "hq" to ::getHqDevices,
           "htc" to ::getHtcDevices,
           "htccnchs" to ::getHtccnChsDevices,
+          "htstyle" to ::getHtstyleDevices,
           "huavi" to ::getHuaviDevices,
           "huawei" to ::getHuaweiDevices,
           "hublot" to ::getHublotDevices,
@@ -3702,7 +3746,6 @@ public object PreviewGroups {
           "ibuddie" to ::getIBuddieDevices,
           "ikall" to ::getIKallDevices,
           "ilife" to ::getILifeDevices,
-          "iplus" to ::getIPlusDevices,
           "iscream" to ::getIScreamDevices,
           "iball" to ::getIballDevices,
           "ibao" to ::getIbaoDevices,
@@ -3724,7 +3767,6 @@ public object PreviewGroups {
           "ihunt" to ::getIhuntDevices,
           "iiif150" to ::getIiif150Devices,
           "iiyama" to ::getIiyamaDevices,
-          "ikall" to ::getIkallDevices,
           "ikimobile" to ::getIkimobileDevices,
           "ikon" to ::getIkonDevices,
           "iku" to ::getIkuDevices,
@@ -3755,6 +3797,7 @@ public object PreviewGroups {
           "infinix" to ::getInfinixDevices,
           "infocus" to ::getInfocusDevices,
           "infone" to ::getInfoneDevices,
+          "inmo" to ::getInmoDevices,
           "innex" to ::getInnexDevices,
           "innjoo" to ::getInnjooDevices,
           "innohit" to ::getInnoHitDevices,
@@ -3766,12 +3809,12 @@ public object PreviewGroups {
           "inovio" to ::getInovioDevices,
           "inrico" to ::getInricoDevices,
           "insane" to ::getInsaneDevices,
+          "insgrafdigital" to ::getInsgrafDigitalDevices,
           "insignia" to ::getInsigniaDevices,
           "inspur" to ::getInspurDevices,
           "insys" to ::getInsysDevices,
           "intel" to ::getIntelDevices,
           "intelbras" to ::getIntelbrasDevices,
-          "intelkom" to ::getIntelkomDevices,
           "intelligen" to ::getIntelligenDevices,
           "intex" to ::getIntexDevices,
           "intigral" to ::getIntigralDevices,
@@ -3812,21 +3855,22 @@ public object PreviewGroups {
           "iusa" to ::getIusaDevices,
           "iva" to ::getIvaDevices,
           "iview" to ::getIviewDevices,
-          "ivoomi" to ::getIvoomiDevices,
           "iwaylink" to ::getIwaylinkDevices,
           "ixtech" to ::getIxtechDevices,
           "iyou" to ::getIyouDevices,
           "izzi" to ::getIzziDevices,
           "izzitelecom" to ::getIzziTelecomDevices,
-          "jcom" to ::getJComDevices,
           "jac" to ::getJacDevices,
           "jam" to ::getJamDevices,
           "jambotechnology" to ::getJamboTechnologyDevices,
           "janam" to ::getJanamDevices,
-          "japantaxi" to ::getJapantaxiDevices,
+          "janus" to ::getJanusDevices,
+          "jav" to ::getJavDevices,
           "jaytech" to ::getJayTechDevices,
           "jcb" to ::getJcbDevices,
+          "jcbphone" to ::getJcbPhoneDevices,
           "jcijp" to ::getJciJpDevices,
+          "jckkcfug" to ::getJckkcfugDevices,
           "jcom" to ::getJcomDevices,
           "jds" to ::getJdsDevices,
           "jeazans" to ::getJeazansDevices,
@@ -3852,6 +3896,7 @@ public object PreviewGroups {
           "jpik" to ::getJpIkDevices,
           "jren" to ::getJrenDevices,
           "jsw" to ::getJswDevices,
+          "jtv" to ::getJtvDevices,
           "juedur" to ::getJuedurDevices,
           "jumper" to ::getJumperDevices,
           "juniper" to ::getJuniperDevices,
@@ -3869,6 +3914,7 @@ public object PreviewGroups {
           "kaliho" to ::getKalihoDevices,
           "kalley" to ::getKalleyDevices,
           "kammunica" to ::getKammunicaDevices,
+          "kamon" to ::getKamonDevices,
           "kandao" to ::getKandaoDevices,
           "kanji" to ::getKanjiDevices,
           "kanselir" to ::getKanselirDevices,
@@ -3880,22 +3926,24 @@ public object PreviewGroups {
           "kazam" to ::getKazamDevices,
           "kbro" to ::getKbroDevices,
           "kccl" to ::getKcclDevices,
+          "kctv" to ::getKctvDevices,
           "kdinteractive" to ::getKdInteractiveDevices,
           "kddi" to ::getKddiDevices,
           "kddiu" to ::getKddiUDevices,
           "kefeya" to ::getKefeyaDevices,
           "keian" to ::getKeianDevices,
-          "kelyxkl783" to ::getKelyxKl783Devices,
           "kemplerstrauss" to ::getKemplerStraussDevices,
           "kemplerstruss" to ::getKemplerstrussDevices,
           "kenbo" to ::getKenboDevices,
           "kenshi" to ::getKenshiDevices,
           "kenwood" to ::getKenwoodDevices,
+          "kep" to ::getKepDevices,
           "keyence" to ::getKeyenceDevices,
           "kgtel" to ::getKgtelDevices,
           "kiano" to ::getKianoDevices,
           "kickpi" to ::getKickpiDevices,
           "kiddoboo" to ::getKiddobooDevices,
+          "kidspad" to ::getKidspadDevices,
           "kinetictv" to ::getKinetictvDevices,
           "kingcomm" to ::getKingcommDevices,
           "kinhank" to ::getKinhankDevices,
@@ -3922,29 +3970,29 @@ public object PreviewGroups {
           "krip" to ::getKripDevices,
           "krono" to ::getKronoDevices,
           "krosselegance" to ::getKrossEleganceDevices,
-          "krosselegance" to ::getKrosseleganceDevices,
           "krugermatz" to ::getKrugerMatzDevices,
           "krugerandmatz" to ::getKrugerandmatzDevices,
           "kt" to ::getKtDevices,
           "ktc" to ::getKtcDevices,
           "ktv" to ::getKtvDevices,
           "kubik" to ::getKubikDevices,
-          "kult" to ::getKultDevices,
           "kunfabo" to ::getKunfaboDevices,
           "kunft" to ::getKunftDevices,
           "kuori" to ::getKuoriDevices,
+          "kuraemon" to ::getKuraemonDevices,
           "kurio" to ::getKurioDevices,
           "kuu" to ::getKuuDevices,
           "kuva" to ::getKuvaDevices,
           "kxd" to ::getKxdDevices,
           "kyaster" to ::getKyasterDevices,
+          "kydos" to ::getKydosDevices,
           "kyocera" to ::getKyoceraDevices,
           "kyodotv" to ::getKyodoTvDevices,
           "kzen" to ::getKzenDevices,
+          "lagenio" to ::getLagenioDevices,
           "laiq" to ::getLaiqDevices,
           "lamborghini" to ::getLamborghiniDevices,
           "lamzien" to ::getLamzienDevices,
-          "landbyte" to ::getLandbyteDevices,
           "landi" to ::getLandiDevices,
           "landrover" to ::getLandroverDevices,
           "lango" to ::getLangoDevices,
@@ -3955,7 +4003,7 @@ public object PreviewGroups {
           "lava" to ::getLavaDevices,
           "lavietab" to ::getLavietabDevices,
           "lavietabe" to ::getLavietabeDevices,
-          "lazer" to ::getLazerDevices,
+          "laxton" to ::getLaxtonDevices,
           "lazor" to ::getLazorDevices,
           "lbq" to ::getLbqDevices,
           "leader" to ::getLeaderDevices,
@@ -3968,12 +4016,14 @@ public object PreviewGroups {
           "legendcomfortable" to ::getLegendcomfortableDevices,
           "leiainc" to ::getLeiaincDevices,
           "leica" to ::getLeicaDevices,
+          "lenco" to ::getLencoDevices,
           "lenovo" to ::getLenovoDevices,
           "leomo" to ::getLeomoDevices,
           "leotec" to ::getLeotecDevices,
           "lepan" to ::getLepanDevices,
           "lesia" to ::getLesiaDevices,
           "letv" to ::getLetvDevices,
+          "levirtu" to ::getLevirtuDevices,
           "lexa" to ::getLexaDevices,
           "lexibook" to ::getLexibookDevices,
           "lgcns" to ::getLgCnsDevices,
@@ -3984,11 +4034,9 @@ public object PreviewGroups {
           "liberton" to ::getLibertonDevices,
           "libre" to ::getLibreDevices,
           "lifedigital" to ::getLifeDigitalDevices,
-          "lifemobile" to ::getLifeMobileDevices,
           "lifephone" to ::getLifephoneDevices,
           "lincplus" to ::getLincplusDevices,
           "linknet" to ::getLinknetDevices,
-          "linnex" to ::getLinnexDevices,
           "linsar" to ::getLinsarDevices,
           "linsay" to ::getLinsayDevices,
           "listo" to ::getListoDevices,
@@ -4002,14 +4050,18 @@ public object PreviewGroups {
           "logik" to ::getLogikDevices,
           "logitec" to ::getLogitecDevices,
           "logitech" to ::getLogitechDevices,
+          "looqs" to ::getLooqsDevices,
           "louisvuitton" to ::getLouisvuittonDevices,
+          "lowi" to ::getLowiDevices,
           "lp" to ::getLpDevices,
+          "lpe" to ::getLpeDevices,
           "lt" to ::getLtDevices,
           "ltmobile" to ::getLtMobileDevices,
           "lucoms" to ::getLucomsDevices,
           "lumigon" to ::getLumigonDevices,
           "lumio" to ::getLumioDevices,
           "lumitel" to ::getLumitelDevices,
+          "lumos" to ::getLumosDevices,
           "lumus" to ::getLumusDevices,
           "luna" to ::getLunaDevices,
           "lunar" to ::getLunarDevices,
@@ -4019,8 +4071,10 @@ public object PreviewGroups {
           "lville" to ::getLvilleDevices,
           "lw" to ::getLwDevices,
           "lyf" to ::getLyfDevices,
+          "lykonda" to ::getLykondaDevices,
           "lynknex" to ::getLynknexDevices,
           "lyotechlabs" to ::getLyotechLabsDevices,
+          "lzf" to ::getLzfDevices,
           "lzu" to ::getLzuDevices,
           "m3" to ::getM3Devices,
           "m4tel" to ::getM4telDevices,
@@ -4029,7 +4083,6 @@ public object PreviewGroups {
           "mafe" to ::getMafeDevices,
           "mag" to ::getMagDevices,
           "magch" to ::getMagchDevices,
-          "magentatv" to ::getMagentaTvDevices,
           "magentatv" to ::getMagentatvDevices,
           "magicworld" to ::getMagicworldDevices,
           "magnavox" to ::getMagnavoxDevices,
@@ -4040,7 +4093,6 @@ public object PreviewGroups {
           "mango" to ::getMangoDevices,
           "mantra" to ::getMantraDevices,
           "mara" to ::getMaraDevices,
-          "maraphones" to ::getMaraPhonesDevices,
           "maraphones" to ::getMaraphonesDevices,
           "marcel" to ::getMarcelDevices,
           "markatab" to ::getMarkatabDevices,
@@ -4052,7 +4104,6 @@ public object PreviewGroups {
           "masscom" to ::getMasscomDevices,
           "masstel" to ::getMasstelDevices,
           "masterg" to ::getMasterGDevices,
-          "masterg" to ::getMastergDevices,
           "mastertech" to ::getMastertechDevices,
           "mauritiustelcom" to ::getMauritiustelcomDevices,
           "mauritiustelecom" to ::getMauritiustelecomDevices,
@@ -4063,7 +4114,6 @@ public object PreviewGroups {
           "maxis" to ::getMaxisDevices,
           "maxlegen" to ::getMaxlegenDevices,
           "maxon" to ::getMaxonDevices,
-          "maxpac" to ::getMaxpacDevices,
           "maxron" to ::getMaxronDevices,
           "maxsonicelite" to ::getMaxsonicEliteDevices,
           "maxtron" to ::getMaxtronDevices,
@@ -4087,15 +4137,14 @@ public object PreviewGroups {
           "meferi" to ::getMeferiDevices,
           "megacable" to ::getMegacableDevices,
           "megafon" to ::getMegafonDevices,
-          "meiigoo" to ::getMeiigooDevices,
           "meitu" to ::getMeituDevices,
           "meize" to ::getMeizeDevices,
           "meizu" to ::getMeizuDevices,
           "melefon" to ::getMelefonDevices,
           "melita" to ::getMelitaDevices,
+          "memetech" to ::getMemetechDevices,
           "memorex" to ::getMemorexDevices,
           "menfop" to ::getMenfopDevices,
-          "mengaltab" to ::getMengaltabDevices,
           "mengdash" to ::getMengdashDevices,
           "meo" to ::getMeoDevices,
           "meswao" to ::getMeswaoDevices,
@@ -4104,12 +4153,14 @@ public object PreviewGroups {
           "metz" to ::getMetzDevices,
           "mgears" to ::getMgearsDevices,
           "mgs" to ::getMgsDevices,
+          "mgt" to ::getMgtDevices,
           "mhl" to ::getMhlDevices,
           "mi" to ::getMiDevices,
           "micromax" to ::getMicromaxDevices,
           "microtech" to ::getMicrotechDevices,
           "microtouch" to ::getMicrotouchDevices,
           "mightier" to ::getMightierDevices,
+          "mikitech" to ::getMikitechDevices,
           "miku" to ::getMikuDevices,
           "mimio" to ::getMimioDevices,
           "mindeo" to ::getMindeoDevices,
@@ -4124,7 +4175,7 @@ public object PreviewGroups {
           "mipo" to ::getMipoDevices,
           "mira" to ::getMiraDevices,
           "miracletap" to ::getMiracleTapDevices,
-          "mirage" to ::getMirageDevices,
+          "miraitouch" to ::getMiraiTouchDevices,
           "miramage" to ::getMiramageDevices,
           "mirarel" to ::getMirarelDevices,
           "miray" to ::getMirayDevices,
@@ -4133,7 +4184,6 @@ public object PreviewGroups {
           "mito" to ::getMitoDevices,
           "mitsubishi" to ::getMitsubishiDevices,
           "mitsui" to ::getMitsuiDevices,
-          "mitsushiba" to ::getMitsushibaDevices,
           "mlab" to ::getMlabDevices,
           "mlink" to ::getMlinkDevices,
           "mlogix" to ::getMlogixDevices,
@@ -4148,7 +4198,7 @@ public object PreviewGroups {
           "mobiiot" to ::getMobiiotDevices,
           "mobiistar" to ::getMobiistarDevices,
           "mobiledemand" to ::getMobiledemandDevices,
-          "mobily" to ::getMobilyDevices,
+          "mobiocean" to ::getMobioceanDevices,
           "mobistel" to ::getMobistelDevices,
           "mobivista" to ::getMobivistaDevices,
           "mobiwire" to ::getMobiwireDevices,
@@ -4170,7 +4220,6 @@ public object PreviewGroups {
           "morep" to ::getMorepDevices,
           "mosambee" to ::getMosambeeDevices,
           "moshimore" to ::getMoshimoreDevices,
-          "mot" to ::getMotDevices,
           "motorola" to ::getMotorolaDevices,
           "motorolasolutions" to ::getMotorolasolutionsDevices,
           "motsol" to ::getMotsolDevices,
@@ -4189,7 +4238,6 @@ public object PreviewGroups {
           "mport" to ::getMportDevices,
           "msi" to ::getMsiDevices,
           "msota" to ::getMsotaDevices,
-          "mstar" to ::getMstarDevices,
           "mswipe" to ::getMswipeDevices,
           "mtc" to ::getMtcDevices,
           "mtek" to ::getMtekDevices,
@@ -4200,9 +4248,11 @@ public object PreviewGroups {
           "mtt" to ::getMttDevices,
           "mu" to ::getMuDevices,
           "mujenyz" to ::getMujenyzDevices,
+          "multi" to ::getMultiDevices,
           "multilaser" to ::getMultilaserDevices,
           "multismart" to ::getMultismartDevices,
           "multynet" to ::getMultynetDevices,
+          "munbyn" to ::getMunbynDevices,
           "mundopacifico" to ::getMundopacificoDevices,
           "mwalimuplus" to ::getMwalimuplusDevices,
           "my" to ::getMyDevices,
@@ -4243,23 +4293,22 @@ public object PreviewGroups {
           "netogy" to ::getNetogyDevices,
           "nettv" to ::getNettvDevices,
           "newal" to ::getNewalDevices,
-          "newbalance" to ::getNewbalanceDevices,
           "newbridge" to ::getNewbridgeDevices,
           "newbrige" to ::getNewbrigeDevices,
           "newland" to ::getNewlandDevices,
           "newline" to ::getNewlineDevices,
+          "nework" to ::getNeworkDevices,
           "newspice" to ::getNewspiceDevices,
           "newsun" to ::getNewsunDevices,
           "newton" to ::getNewtonDevices,
-          "nexa" to ::getNexaDevices,
           "next" to ::getNextDevices,
           "nextg" to ::getNextGDevices,
           "nexttechnologies" to ::getNextTechnologiesDevices,
           "nexta" to ::getNextaDevices,
           "nextbit" to ::getNextbitDevices,
           "nextbook" to ::getNextbookDevices,
-          "nextbymaxism1" to ::getNextbymaxisM1Devices,
           "nextgear" to ::getNextgearDevices,
+          "nextstar" to ::getNextstarDevices,
           "nexus" to ::getNexusDevices,
           "nexwin" to ::getNexwinDevices,
           "ngm" to ::getNgmDevices,
@@ -4282,7 +4331,6 @@ public object PreviewGroups {
           "nomi" to ::getNomiDevices,
           "nomu" to ::getNomuDevices,
           "nook" to ::getNookDevices,
-          "northtech" to ::getNorthTechDevices,
           "noryox" to ::getNoryoxDevices,
           "nos" to ::getNosDevices,
           "nothing" to ::getNothingDevices,
@@ -4302,18 +4350,17 @@ public object PreviewGroups {
           "nuu" to ::getNuuDevices,
           "nuvision" to ::getNuvisionDevices,
           "nvidia" to ::getNvidiaDevices,
-          "nw" to ::getNwDevices,
           "nyxmobile" to ::getNyxMobileDevices,
           "o2" to ::getO2Devices,
           "oale" to ::getOaleDevices,
           "oangcc" to ::getOangccDevices,
           "oase" to ::getOaseDevices,
           "oasys" to ::getOasysDevices,
+          "oboni" to ::getOboniDevices,
+          "ocilionwl" to ::getOcilionWlDevices,
           "octopus" to ::getOctopusDevices,
           "odea" to ::getOdeaDevices,
           "odido" to ::getOdidoDevices,
-          "odo" to ::getOdoDevices,
-          "odotpad" to ::getOdotpadDevices,
           "ods" to ::getOdsDevices,
           "odys" to ::getOdysDevices,
           "ofd" to ::getOfdDevices,
@@ -4329,24 +4376,27 @@ public object PreviewGroups {
           "olimpo" to ::getOlimpoDevices,
           "olive" to ::getOliveDevices,
           "olla" to ::getOllaDevices,
+          "olvy" to ::getOlvyDevices,
           "olympia" to ::getOlympiaDevices,
           "omax" to ::getOmaxDevices,
           "omix" to ::getOmixDevices,
           "onda" to ::getOndaDevices,
           "ondatlc" to ::getOndaTlcDevices,
           "onelern" to ::getOnelernDevices,
+          "onenz" to ::getOnenzDevices,
           "oneplus" to ::getOneplusDevices,
           "onerugged" to ::getOneruggedDevices,
           "onescreen" to ::getOnescreenDevices,
           "onida" to ::getOnidaDevices,
           "onkyo" to ::getOnkyoDevices,
           "onn" to ::getOnnDevices,
+          "onvo" to ::getOnvoDevices,
           "onyx" to ::getOnyxDevices,
           "ooredoo" to ::getOoredooDevices,
           "opay" to ::getOpayDevices,
           "opel" to ::getOpelDevices,
-          "opelmobile" to ::getOpelMobileDevices,
           "opelmobile" to ::getOpelmobileDevices,
+          "open" to ::getOpenDevices,
           "openfhdatv" to ::getOpenFhdAtvDevices,
           "openuhdatv" to ::getOpenUhdAtvDevices,
           "oppo" to ::getOppoDevices,
@@ -4375,8 +4425,8 @@ public object PreviewGroups {
           "owxmobile" to ::getOwxmobileDevices,
           "oxtab" to ::getOxTabDevices,
           "oxygen" to ::getOxygenDevices,
-          "oxygenid" to ::getOxygenIdDevices,
           "oxygenid" to ::getOxygenidDevices,
+          "oyefit" to ::getOyefitDevices,
           "oysterlabs" to ::getOysterLabsDevices,
           "oysters" to ::getOystersDevices,
           "ozon" to ::getOzonDevices,
@@ -4388,7 +4438,6 @@ public object PreviewGroups {
           "panavox" to ::getPanavoxDevices,
           "panodic" to ::getPanodicDevices,
           "panorama" to ::getPanoramaDevices,
-          "pantech" to ::getPantechDevices,
           "pantechsmart" to ::getPantechSmartDevices,
           "parrotmobile" to ::getParrotMobileDevices,
           "partner" to ::getPartnerDevices,
@@ -4401,7 +4450,6 @@ public object PreviewGroups {
           "pcsmart" to ::getPcSmartDevices,
           "pcbox" to ::getPcboxDevices,
           "pcd" to ::getPcdDevices,
-          "pcsmart" to ::getPcsmartDevices,
           "peaq" to ::getPeaqDevices,
           "peicheng" to ::getPeichengDevices,
           "pel" to ::getPelDevices,
@@ -4422,12 +4470,12 @@ public object PreviewGroups {
           "pinocchio" to ::getPinocchioDevices,
           "pioneer" to ::getPioneerDevices,
           "pioneerdigitaltv" to ::getPioneerDigitalTvDevices,
-          "pipo" to ::getPipoDevices,
           "piranha" to ::getPiranhaDevices,
           "pitneybowes" to ::getPitneybowesDevices,
           "pivot" to ::getPivotDevices,
           "pixart" to ::getPixartDevices,
           "pixela" to ::getPixelaDevices,
+          "pixgood" to ::getPixgoodDevices,
           "pixpeak" to ::getPixpeakDevices,
           "pixpro" to ::getPixproDevices,
           "pixus" to ::getPixusDevices,
@@ -4441,12 +4489,12 @@ public object PreviewGroups {
           "ployer" to ::getPloyerDevices,
           "plum" to ::getPlumDevices,
           "plusstyle" to ::getPlusstyleDevices,
+          "plux" to ::getPluxDevices,
           "pluzz" to ::getPluzzDevices,
           "pnravec" to ::getPnRavecDevices,
           "poco" to ::getPocoDevices,
           "pointofview" to ::getPointOfViewDevices,
           "pointmobile" to ::getPointmobileDevices,
-          "pokini" to ::getPokiniDevices,
           "polar" to ::getPolarDevices,
           "polaroid" to ::getPolaroidDevices,
           "polestar" to ::getPolestarDevices,
@@ -4454,6 +4502,7 @@ public object PreviewGroups {
           "polytron" to ::getPolytronDevices,
           "pontistech" to ::getPontistechDevices,
           "pools" to ::getPoolsDevices,
+          "poptv" to ::getPopTvDevices,
           "poptel" to ::getPoptelDevices,
           "porodo" to ::getPorodoDevices,
           "porsche" to ::getPorscheDevices,
@@ -4466,6 +4515,7 @@ public object PreviewGroups {
           "possafe" to ::getPossafeDevices,
           "postef" to ::getPostefDevices,
           "powergreen" to ::getPowerGreenDevices,
+          "powerpad" to ::getPowerPadDevices,
           "powerology" to ::getPowerologyDevices,
           "powmus" to ::getPowmusDevices,
           "pozzi" to ::getPozziDevices,
@@ -4516,8 +4566,8 @@ public object PreviewGroups {
           "qtab" to ::getQtabDevices,
           "qti" to ::getQtiDevices,
           "qtouch" to ::getQtouchDevices,
+          "quantic" to ::getQuanticDevices,
           "quantum" to ::getQuantumDevices,
-          "quatro" to ::getQuatroDevices,
           "quber" to ::getQuberDevices,
           "qubo" to ::getQuboDevices,
           "quest" to ::getQuestDevices,
@@ -4541,12 +4591,12 @@ public object PreviewGroups {
           "razer" to ::getRazerDevices,
           "rca" to ::getRcaDevices,
           "rct" to ::getRctDevices,
-          "rdp" to ::getRdpDevices,
           "readly" to ::getReadlyDevices,
           "realix" to ::getRealixDevices,
           "realme" to ::getRealmeDevices,
           "realtime" to ::getRealtimeDevices,
           "rebecco" to ::getRebeccoDevices,
+          "rebotai" to ::getRebotaiDevices,
           "recco" to ::getReccoDevices,
           "red" to ::getRedDevices,
           "redmobile" to ::getRedMobileDevices,
@@ -4555,7 +4605,6 @@ public object PreviewGroups {
           "redfox" to ::getRedfoxDevices,
           "redline" to ::getRedlineDevices,
           "redmi" to ::getRedmiDevices,
-          "redmobile" to ::getRedmobileDevices,
           "redtone" to ::getRedtoneDevices,
           "redway" to ::getRedwayDevices,
           "reeder" to ::getReederDevices,
@@ -4563,7 +4612,6 @@ public object PreviewGroups {
           "reeva" to ::getReevaDevices,
           "regal" to ::getRegalDevices,
           "regza" to ::getRegzaDevices,
-          "reliance" to ::getRelianceDevices,
           "relndoo" to ::getRelndooDevices,
           "remdun" to ::getRemdunDevices,
           "renault" to ::getRenaultDevices,
@@ -4571,7 +4619,6 @@ public object PreviewGroups {
           "renso" to ::getRensoDevices,
           "rephone" to ::getRephoneDevices,
           "reveal16i" to ::getReveal16iDevices,
-          "revomovil" to ::getRevomovilDevices,
           "revox" to ::getRevoxDevices,
           "revrica" to ::getRevricaDevices,
           "revvl" to ::getRevvlDevices,
@@ -4585,8 +4632,8 @@ public object PreviewGroups {
           "rixun" to ::getRixunDevices,
           "rizzen" to ::getRizzenDevices,
           "rlg" to ::getRlgDevices,
+          "rnruo" to ::getRnruoDevices,
           "roadquest" to ::getRoadquestDevices,
-          "rockcel" to ::getRockcelDevices,
           "rocktek" to ::getRocktekDevices,
           "rokid" to ::getRokidDevices,
           "rokit" to ::getRokitDevices,
@@ -4600,17 +4647,19 @@ public object PreviewGroups {
           "royqueen" to ::getRoyqueenDevices,
           "ruggear" to ::getRuggearDevices,
           "ruggon" to ::getRuggonDevices,
+          "rugone" to ::getRugoneDevices,
           "rugstorm" to ::getRugstormDevices,
           "ruio" to ::getRuioDevices,
+          "rushar" to ::getRusharDevices,
           "russound" to ::getRussoundDevices,
           "ruufuuxy" to ::getRuufuuxyDevices,
-          "rvp" to ::getRvpDevices,
           "rwc" to ::getRwcDevices,
           "s" to ::getSDevices,
           "stell" to ::getSTellDevices,
           "saba" to ::getSabaDevices,
           "saelite" to ::getSaeliteDevices,
           "safaricom" to ::getSafaricomDevices,
+          "safexinstruments" to ::getSafexInstrumentsDevices,
           "sagi" to ::getSagiDevices,
           "saiet" to ::getSaietDevices,
           "sampo" to ::getSampoDevices,
@@ -4672,11 +4721,14 @@ public object PreviewGroups {
           "shaks" to ::getShaksDevices,
           "sharp" to ::getSharpDevices,
           "shelby" to ::getShelbyDevices,
+          "shiarffe" to ::getShiarffeDevices,
           "shift" to ::getShiftDevices,
           "shinon" to ::getShinonDevices,
           "shivaki" to ::getShivakiDevices,
           "shortcut" to ::getShortcutDevices,
           "shoudum" to ::getShoudumDevices,
+          "shownic" to ::getShownicDevices,
+          "shuodum" to ::getShuodumDevices,
           "shuttle" to ::getShuttleDevices,
           "sico" to ::getSicoDevices,
           "sicon" to ::getSiconDevices,
@@ -4685,7 +4737,6 @@ public object PreviewGroups {
           "silo" to ::getSiloDevices,
           "silverline" to ::getSilverLineDevices,
           "silvermax" to ::getSilverMaxDevices,
-          "silverline" to ::getSilverlineDevices,
           "simbans" to ::getSimbansDevices,
           "simfer" to ::getSimferDevices,
           "simi" to ::getSimiDevices,
@@ -4702,7 +4753,6 @@ public object PreviewGroups {
           "skybrasil" to ::getSkyBrasilDevices,
           "skydevices" to ::getSkyDevicesDevices,
           "skyone" to ::getSkyOneDevices,
-          "skydevices" to ::getSkydevicesDevices,
           "skyegg" to ::getSkyeggDevices,
           "skyhcn" to ::getSkyhcnDevices,
           "skylife" to ::getSkylifeDevices,
@@ -4714,7 +4764,6 @@ public object PreviewGroups {
           "smart" to ::getSmartDevices,
           "smartkassel" to ::getSmartKasselDevices,
           "smarttechnology" to ::getSmartTechnologyDevices,
-          "smarttek" to ::getSmartTekDevices,
           "smarttouch" to ::getSmartTouchDevices,
           "smartab" to ::getSmartabDevices,
           "smartbook" to ::getSmartbookDevices,
@@ -4730,13 +4779,14 @@ public object PreviewGroups {
           "smarttv" to ::getSmarttvDevices,
           "smartvu" to ::getSmartvuDevices,
           "smaty" to ::getSmatyDevices,
-          "smile" to ::getSmileDevices,
           "smooth" to ::getSmoothDevices,
+          "snowa" to ::getSnowaDevices,
           "snt" to ::getSntDevices,
           "socialphone700" to ::getSocialphone700Devices,
           "soda" to ::getSodaDevices,
           "softbank" to ::getSoftbankDevices,
           "sohostyle" to ::getSohoStyleDevices,
+          "solanamobile" to ::getSolanamobileDevices,
           "solone" to ::getSoloneDevices,
           "soneview" to ::getSoneviewDevices,
           "sonim" to ::getSonimDevices,
@@ -4744,7 +4794,6 @@ public object PreviewGroups {
           "sony" to ::getSonyDevices,
           "sonyaudio" to ::getSonyaudioDevices,
           "sooka" to ::getSookaDevices,
-          "soriana" to ::getSorianaDevices,
           "sosh" to ::getSoshDevices,
           "soultech" to ::getSoultechDevices,
           "south" to ::getSouthDevices,
@@ -4757,10 +4806,10 @@ public object PreviewGroups {
           "specktron" to ::getSpecktronDevices,
           "spectra" to ::getSpectraDevices,
           "spectrageospatial" to ::getSpectraGeospatialDevices,
-          "spectrageospatial" to ::getSpectrageospatialDevices,
           "spectralink" to ::getSpectralinkDevices,
           "spectramobile" to ::getSpectramobileDevices,
           "spectraprecision" to ::getSpectraprecisionDevices,
+          "speechi" to ::getSpeechiDevices,
           "speedata" to ::getSpeedataDevices,
           "speedstar" to ::getSpeedstarDevices,
           "spider" to ::getSpiderDevices,
@@ -4773,15 +4822,14 @@ public object PreviewGroups {
           "srilankatelecom" to ::getSrilankatelecomDevices,
           "ssa" to ::getSsaDevices,
           "ssmooth" to ::getSsmoothDevices,
-          "star" to ::getStarDevices,
           "startrack" to ::getStarTrackDevices,
           "starx" to ::getStarXDevices,
           "starboard" to ::getStarboardDevices,
           "starhub" to ::getStarhubDevices,
-          "starkfuture" to ::getStarkFutureDevices,
           "starkfuture" to ::getStarkfutureDevices,
           "starlight" to ::getStarlightDevices,
           "starmobile" to ::getStarmobileDevices,
+          "starsat" to ::getStarsatDevices,
           "starshine" to ::getStarshineDevices,
           "stboard" to ::getStboardDevices,
           "stc" to ::getStcDevices,
@@ -4810,6 +4858,7 @@ public object PreviewGroups {
           "sunbio" to ::getSunbioDevices,
           "sunbrite" to ::getSunbriteDevices,
           "sunconnection" to ::getSunconnectionDevices,
+          "sundirectmax" to ::getSundirectmaxDevices,
           "sunelan" to ::getSunelanDevices,
           "sunmax" to ::getSunmaxDevices,
           "sunmi" to ::getSunmiDevices,
@@ -4832,7 +4881,6 @@ public object PreviewGroups {
           "swaconnect" to ::getSwaconnectDevices,
           "swipe" to ::getSwipeDevices,
           "swisscom" to ::getSwisscomDevices,
-          "swissmobility" to ::getSwissmobilityDevices,
           "swisstone" to ::getSwisstoneDevices,
           "swissvoice" to ::getSwissvoiceDevices,
           "swosh" to ::getSwoshDevices,
@@ -4842,6 +4890,7 @@ public object PreviewGroups {
           "sylvox" to ::getSylvoxDevices,
           "symphony" to ::getSymphonyDevices,
           "synetech" to ::getSynetechDevices,
+          "szanfu" to ::getSzanfuDevices,
           "tgo" to ::getTGoDevices,
           "tmobile" to ::getTMobileDevices,
           "tmobilecztelekomsk" to ::getTMobileCzTelekomSkDevices,
@@ -4849,20 +4898,18 @@ public object PreviewGroups {
           "tabletpc" to ::getTabletPcDevices,
           "tabphone710pro" to ::getTabphone710ProDevices,
           "tabwee" to ::getTabweeDevices,
+          "tadi" to ::getTadiDevices,
           "tagdc" to ::getTagDcDevices,
-          "tagtech" to ::getTagTechDevices,
           "tagheuer" to ::getTagheuerDevices,
           "tagital" to ::getTagitalDevices,
           "tagtech" to ::getTagtechDevices,
           "taifa" to ::getTaifaDevices,
           "taipeinet" to ::getTaipeinetDevices,
           "taiwanmobile" to ::getTaiwanmobileDevices,
-          "takara" to ::getTakaraDevices,
           "talius" to ::getTaliusDevices,
           "talktalk" to ::getTalktalkDevices,
           "tambo" to ::getTamboDevices,
           "tamboard" to ::getTamboardDevices,
-          "tanoshi" to ::getTanoshiDevices,
           "tanoshischolar" to ::getTanoshischolarDevices,
           "taskphone" to ::getTaskphoneDevices,
           "tataskybingeplus" to ::getTataskyBingeplusDevices,
@@ -4871,12 +4918,13 @@ public object PreviewGroups {
           "tbc" to ::getTbcDevices,
           "tbltaca" to ::getTbltacaDevices,
           "tbroad" to ::getTbroadDevices,
+          "tch" to ::getTchDevices,
           "tcl" to ::getTclDevices,
           "tclmetropcs" to ::getTclMetropcsDevices,
           "tcst" to ::getTcstDevices,
           "tct" to ::getTctDevices,
-          "tdsystems" to ::getTdSystemsDevices,
           "tdsystems" to ::getTdsystemsDevices,
+          "tdtech" to ::getTdtechDevices,
           "teachmintx" to ::getTeachmintxDevices,
           "teamgee" to ::getTeamgeeDevices,
           "techpad" to ::getTechPadDevices,
@@ -4887,7 +4935,7 @@ public object PreviewGroups {
           "technika" to ::getTechnikaDevices,
           "technocrat" to ::getTechnocratDevices,
           "technopc" to ::getTechnopcDevices,
-          "techpad" to ::getTechpadDevices,
+          "techview" to ::getTechviewDevices,
           "teclast" to ::getTeclastDevices,
           "teclastkorea" to ::getTeclastkoreaDevices,
           "tecno" to ::getTecnoDevices,
@@ -4898,7 +4946,6 @@ public object PreviewGroups {
           "teeno" to ::getTeenoDevices,
           "teeview" to ::getTeeviewDevices,
           "teklio" to ::getTeklioDevices,
-          "teknosa" to ::getTeknosaDevices,
           "teksavvytv" to ::getTeksavvytvDevices,
           "telcel" to ::getTelcelDevices,
           "tele2" to ::getTele2Devices,
@@ -4933,9 +4980,10 @@ public object PreviewGroups {
           "texet" to ::getTexetDevices,
           "tgnco" to ::getTgncoDevices,
           "thanhhungtechnology" to ::getThanhhungTechnologyDevices,
-          "theuhd" to ::getTheUhdDevices,
           "thehaam" to ::getThehaamDevices,
           "theham" to ::getThehamDevices,
+          "thenudge" to ::getThenudgeDevices,
+          "theuhd" to ::getTheuhdDevices,
           "thinkacademy" to ::getThinkacademyDevices,
           "thomson" to ::getThomsonDevices,
           "thomsonkodak" to ::getThomsonKodakDevices,
@@ -4947,7 +4995,6 @@ public object PreviewGroups {
           "tigo" to ::getTigoDevices,
           "tigorr" to ::getTigorrDevices,
           "tim" to ::getTimDevices,
-          "time2" to ::getTime2Devices,
           "timovi" to ::getTimoviDevices,
           "tinp" to ::getTinpDevices,
           "tinsik" to ::getTinsikDevices,
@@ -4955,7 +5002,6 @@ public object PreviewGroups {
           "tit" to ::getTitDevices,
           "tiwell" to ::getTiwellDevices,
           "tjd" to ::getTjdDevices,
-          "tkds" to ::getTkdsDevices,
           "tmcell" to ::getTmCellDevices,
           "tnt" to ::getTntDevices,
           "tochmobile" to ::getTochMobileDevices,
@@ -4966,15 +5012,18 @@ public object PreviewGroups {
           "tomstar" to ::getTomstarDevices,
           "tone" to ::getToneDevices,
           "topelotek" to ::getTopelotekDevices,
+          "topicon" to ::getTopiconDevices,
           "topjoy" to ::getTopjoyDevices,
           "topsand" to ::getTopsandDevices,
           "torex" to ::getTorexDevices,
           "tornado" to ::getTornadoDevices,
           "toscido" to ::getToscidoDevices,
           "toshiba" to ::getToshibaDevices,
+          "touchdynamic" to ::getTouchDynamicDevices,
           "touchplus" to ::getTouchPlusDevices,
           "touchmate" to ::getTouchmateDevices,
           "touchviewinteractive" to ::getTouchviewInteractiveDevices,
+          "toxiik" to ::getToxiikDevices,
           "toya" to ::getToyaDevices,
           "toyin" to ::getToyinDevices,
           "toyota" to ::getToyotaDevices,
@@ -4992,7 +5041,6 @@ public object PreviewGroups {
           "trimble" to ::getTrimbleDevices,
           "trimblenavigation" to ::getTrimbleNavigationDevices,
           "true" to ::getTrueDevices,
-          "trueslim" to ::getTrueSlimDevices,
           "trueidtv" to ::getTrueidtvDevices,
           "trueslim" to ::getTrueslimDevices,
           "truevision" to ::getTruevisionDevices,
@@ -5002,13 +5050,10 @@ public object PreviewGroups {
           "tsutaya" to ::getTsutayaDevices,
           "ttfone" to ::getTtfoneDevices,
           "tts" to ::getTtsDevices,
-          "tucel" to ::getTucelDevices,
           "tufen" to ::getTufenDevices,
-          "tuff" to ::getTuffDevices,
-          "turbo" to ::getTurboDevices,
           "turbox" to ::getTurboXDevices,
+          "turbokids" to ::getTurbokidsDevices,
           "turbopad" to ::getTurbopadDevices,
-          "turbox" to ::getTurboxDevices,
           "turktelekom" to ::getTurkTelekomDevices,
           "turkcell" to ::getTurkcellDevices,
           "tutu" to ::getTutuDevices,
@@ -5022,6 +5067,7 @@ public object PreviewGroups {
           "tvstar" to ::getTvstarDevices,
           "tvt" to ::getTvtDevices,
           "tvup" to ::getTvupDevices,
+          "twinbox4k" to ::getTwinbox4kDevices,
           "twinmos" to ::getTwinmosDevices,
           "twm" to ::getTwmDevices,
           "twz" to ::getTwzDevices,
@@ -5036,7 +5082,6 @@ public object PreviewGroups {
           "ujoyfeel" to ::getUjoyfeelDevices,
           "ulefone" to ::getUlefoneDevices,
           "ulesson" to ::getUlessonDevices,
-          "ultimate" to ::getUltimateDevices,
           "ultra" to ::getUltraDevices,
           "ultrapad" to ::getUltrapadDevices,
           "ultym5" to ::getUltym5Devices,
@@ -5047,6 +5092,8 @@ public object PreviewGroups {
           "unico" to ::getUnicoDevices,
           "unifitv" to ::getUnifiTvDevices,
           "unihertz" to ::getUnihertzDevices,
+          "union99" to ::getUnion99Devices,
+          "uniontek" to ::getUniontekDevices,
           "uniq" to ::getUniqDevices,
           "uniqcell" to ::getUniqcellDevices,
           "unisced" to ::getUniscedDevices,
@@ -5063,6 +5110,7 @@ public object PreviewGroups {
           "unonu" to ::getUnonuDevices,
           "unowhy" to ::getUnowhyDevices,
           "upmobile" to ::getUpMobileDevices,
+          "urao" to ::getUraoDevices,
           "urovo" to ::getUrovoDevices,
           "usconnect" to ::getUsconnectDevices,
           "utime" to ::getUtimeDevices,
@@ -5070,6 +5118,7 @@ public object PreviewGroups {
           "utvbox" to ::getUtvboxDevices,
           "v2com" to ::getV2comDevices,
           "v7" to ::getV7Devices,
+          "vmoccs" to ::getVMoccsDevices,
           "vaio" to ::getVaioDevices,
           "vale" to ::getValeDevices,
           "valerion" to ::getValerionDevices,
@@ -5097,8 +5146,6 @@ public object PreviewGroups {
           "vetoo" to ::getVetooDevices,
           "vexia" to ::getVexiaDevices,
           "vezzer" to ::getVezzerDevices,
-          "vfonx" to ::getVfonxDevices,
-          "vgotel" to ::getVgoTelDevices,
           "vgotel" to ::getVgotelDevices,
           "victurio" to ::getVicturioDevices,
           "vid" to ::getVidDevices,
@@ -5109,6 +5156,7 @@ public object PreviewGroups {
           "vikusha" to ::getVikushaDevices,
           "villaon" to ::getVillaonDevices,
           "vimatek" to ::getVimaTekDevices,
+          "vimass" to ::getVimassDevices,
           "vimeel" to ::getVimeelDevices,
           "vimoq" to ::getVimoqDevices,
           "vincent" to ::getVincentDevices,
@@ -5121,12 +5169,14 @@ public object PreviewGroups {
           "visio" to ::getVisioDevices,
           "vision" to ::getVisionDevices,
           "visiontechnology" to ::getVisionTechnologyDevices,
+          "visionplus" to ::getVisionplusDevices,
           "visiontek" to ::getVisiontekDevices,
           "vista" to ::getVistaDevices,
           "visualland" to ::getVisualLandDevices,
           "vitumi" to ::getVitumiDevices,
           "viumee" to ::getViumeeDevices,
           "vivax" to ::getVivaxDevices,
+          "vivensis" to ::getVivensisDevices,
           "vivimage" to ::getVivimageDevices,
           "vivitek" to ::getVivitekDevices,
           "vivo" to ::getVivoDevices,
@@ -5134,6 +5184,7 @@ public object PreviewGroups {
           "vizio" to ::getVizioDevices,
           "vizualogic" to ::getVizualogicDevices,
           "vizzion" to ::getVizzionDevices,
+          "vkdigital" to ::getVkDigitalDevices,
           "vkworld" to ::getVkworldDevices,
           "vnpttechnology" to ::getVnpttechnologyDevices,
           "vocal" to ::getVocalDevices,
@@ -5151,6 +5202,7 @@ public object PreviewGroups {
           "vonino" to ::getVoninoDevices,
           "voo" to ::getVooDevices,
           "voobox" to ::getVooboxDevices,
+          "voplls" to ::getVopllsDevices,
           "vorago" to ::getVoragoDevices,
           "vorcom" to ::getVorcomDevices,
           "vortex" to ::getVortexDevices,
@@ -5180,8 +5232,8 @@ public object PreviewGroups {
           "weelikeit" to ::getWeelikeitDevices,
           "welio" to ::getWelioDevices,
           "wemax" to ::getWemaxDevices,
+          "weonex" to ::getWeonexDevices,
           "westgate" to ::getWestgateDevices,
-          "westgateresorts" to ::getWestgateResortsDevices,
           "westgateresorts" to ::getWestgateresortsDevices,
           "westinghouse" to ::getWestinghouseDevices,
           "westway" to ::getWestwayDevices,
@@ -5191,15 +5243,14 @@ public object PreviewGroups {
           "whoop" to ::getWhoopDevices,
           "wiboxtv" to ::getWiboxTvDevices,
           "widevu" to ::getWidevuDevices,
-          "wieppo" to ::getWieppoDevices,
           "wigor" to ::getWigorDevices,
           "wiko" to ::getWikoDevices,
           "wileyfox" to ::getWileyfoxDevices,
           "willett" to ::getWillettDevices,
           "willkotech" to ::getWillkotechDevices,
+          "wimius" to ::getWimiusDevices,
           "win" to ::getWinDevices,
           "wind" to ::getWindDevices,
-          "winds" to ::getWindsDevices,
           "wings" to ::getWingsDevices,
           "wingsmobile" to ::getWingsMobileDevices,
           "winmax" to ::getWinmaxDevices,
@@ -5210,7 +5261,6 @@ public object PreviewGroups {
           "wirelessgate" to ::getWirelessgateDevices,
           "wisetech" to ::getWiseTechDevices,
           "wiseasy" to ::getWiseasyDevices,
-          "wisetech" to ::getWisetechDevices,
           "wishtel" to ::getWishtelDevices,
           "wismann" to ::getWismannDevices,
           "witooth" to ::getWitoothDevices,
@@ -5229,7 +5279,6 @@ public object PreviewGroups {
           "wxunja" to ::getWxunjaDevices,
           "wybor" to ::getWyborDevices,
           "xage" to ::getXAgeDevices,
-          "xmobile" to ::getXMobileDevices,
           "xpremium" to ::getXPremiumDevices,
           "xtigi" to ::getXTigiDevices,
           "xview" to ::getXViewDevices,
@@ -5245,6 +5294,7 @@ public object PreviewGroups {
           "xitrix" to ::getXitrixDevices,
           "xl" to ::getXlDevices,
           "xlaxiata" to ::getXlaxiataDevices,
+          "xmart" to ::getXmartDevices,
           "xming" to ::getXmingDevices,
           "xmobile" to ::getXmobileDevices,
           "xolo" to ::getXoloDevices,
@@ -5255,18 +5305,15 @@ public object PreviewGroups {
           "xppen" to ::getXppenDevices,
           "xreal" to ::getXrealDevices,
           "xsmart" to ::getXsmartDevices,
-          "xtigi" to ::getXtigiDevices,
           "xtouch" to ::getXtouchDevices,
           "xtr" to ::getXtrDevices,
           "xtratech" to ::getXtratechDevices,
           "xtratechiguanapad" to ::getXtratechIguanapadDevices,
           "xtreme" to ::getXtremeDevices,
-          "xwave" to ::getXwaveDevices,
           "yandex" to ::getYandexDevices,
           "yara" to ::getYaraDevices,
           "yasin" to ::getYasinDevices,
           "yay" to ::getYayDevices,
-          "yellyouth" to ::getYellyouthDevices,
           "yes" to ::getYesDevices,
           "yestel" to ::getYestelDevices,
           "yettel" to ::getYettelDevices,
@@ -5286,7 +5333,6 @@ public object PreviewGroups {
           "youtab" to ::getYoutabDevices,
           "yqsavior" to ::getYqsaviorDevices,
           "yqsvaior" to ::getYqsvaiorDevices,
-          "ysf" to ::getYsfDevices,
           "ysfen" to ::getYsfenDevices,
           "yu" to ::getYuDevices,
           "yuho" to ::getYuhoDevices,
@@ -5294,16 +5340,16 @@ public object PreviewGroups {
           "yuntab" to ::getYuntabDevices,
           "yyswie" to ::getYyswieDevices,
           "zaikai" to ::getZaikaiDevices,
-          "zaith" to ::getZaithDevices,
           "zamolxe" to ::getZamolxeDevices,
           "zapitv" to ::getZapitvDevices,
           "zatec" to ::getZatecDevices,
+          "zcobro" to ::getZcobroDevices,
           "zcs" to ::getZcsDevices,
           "zdk" to ::getZdkDevices,
           "zebra" to ::getZebraDevices,
           "zeeker" to ::getZeekerDevices,
           "zeki" to ::getZekiDevices,
-          "zelu" to ::getZeluDevices,
+          "zenet" to ::getZenetDevices,
           "zenijust" to ::getZenijustDevices,
           "zenos" to ::getZenosDevices,
           "zentec" to ::getZentecDevices,
@@ -5344,10 +5390,10 @@ public object PreviewGroups {
           "_10or" to ::get_10orDevices,
           "_1u1" to ::get_1u1Devices,
           "_2e" to ::get_2eDevices,
-          "_3222222satelital" to ::get_3222222satelitalDevices,
           "_3bbtv" to ::get_3bbtvDevices,
+          "_3nstar" to ::get_3nstarDevices,
           "_3rtablet" to ::get_3rtabletDevices,
-          "_7mobile" to ::get_7mobileDevices,
+          "_4ig" to ::get_4igDevices,
           "_8849" to ::get_8849Devices
       )
 
@@ -5427,20 +5473,17 @@ public object PreviewGroups {
    */
   public fun getAccentDevices(): List<String> = listOf(
       Accent.C5_PLUS,
-      Accent.CAMELEON_C5,
-      Accent.CAMELEON_C6,
       Accent.FAST10,
-      Accent.FAST10,
+      Accent.FAST10_800X1280,
       Accent.FAST17,
       Accent.FAST7,
       Accent.FAST73G,
       Accent.FAST7_3G,
-      Accent.KIDZY70,
       Accent.PEARL_A4,
       Accent.PEARL_A4_LITE,
       Accent.PEARL_A4_PLUS,
       Accent.PEARL_A6,
-      Accent.PEARL_A6,
+      Accent.PEARL_A6_720X1600,
       Accent.SPEED_X2,
       Accent.SPEED_Y3,
       Accent.TANK_P55
@@ -5489,6 +5532,7 @@ public object PreviewGroups {
       Ace.BUZZ_6_PRO,
       Ace.BUZZ_6_PRO_PLUS,
       Ace.BUZZ_6_ULTRA,
+      Ace.BUZZ_7_GT,
       Ace.BUZZ_7_LITE,
       Ace.BUZZ_7_NOTE,
       Ace.BUZZ_7_PRIME,
@@ -5497,7 +5541,6 @@ public object PreviewGroups {
       Ace.BUZZ_7_ULTRA,
       Ace.CLEVER_3,
       Ace.URBAN_1,
-      Ace.URBAN_2,
       Ace.URBAN_3,
       Ace.URBAN_3_PLUSE,
       Ace.URBAN_3E
@@ -5527,8 +5570,14 @@ public object PreviewGroups {
    * Useful for acer testing.
    */
   public fun getAcerDevices(): List<String> = listOf(
+      Acer.A10P2,
       Acer.ACER_A10M1,
+      Acer.ACER_A10M2,
+      Acer.ACER_A10P2,
       Acer.ACER_A11M1,
+      Acer.ACER_A11M2,
+      Acer.ACER_A11P2,
+      Acer.ACER_A12M1N,
       Acer.ACER_A60,
       Acer.ACER_A60L,
       Acer.ACER_A61LX,
@@ -5549,7 +5598,6 @@ public object PreviewGroups {
       Acer.ACER_BARRICADE,
       Acer.ACER_BARRICADE_3G,
       Acer.ACER_BARRICADEWIFI,
-      Acer.ACER_C01,
       Acer.ACER_COLNAGO,
       Acer.ACER_COLNAGOFHD,
       Acer.ACER_E39,
@@ -5577,10 +5625,10 @@ public object PreviewGroups {
       Acer.ACER_TITAN,
       Acer.ACER_V10M2,
       Acer.ACER_V11M1,
+      Acer.ACER_V12M1,
       Acer.ACER_VULCAN,
       Acer.ACER_X12M1,
       Acer.ACER_Z410,
-      Acer.ACER_Z500,
       Acer.ACER_Z520,
       Acer.ACER_ZIPP,
       Acer.ACERO10T412LI,
@@ -5598,13 +5646,18 @@ public object PreviewGroups {
       Acer.ACTAB723,
       Acer.ACTAB821_A,
       Acer.ACTABKID,
+      Acer.AITIM10_22,
+      Acer.AITIM9_12M,
       Acer.AKMEI14,
       Acer.ANGLELAKE,
       Acer.AOT10_22L,
+      Acer.AOT11_22L,
       Acer.ARSP25MTA14A1,
+      Acer.AS10L,
       Acer.AS10LXPRO,
       Acer.AS10W,
       Acer.AS10WF,
+      Acer.AS20WF,
       Acer.AS8W,
       Acer.ATAB1021E,
       Acer.ATAB1024E,
@@ -5624,7 +5677,6 @@ public object PreviewGroups {
       Acer.BATTLEZONE,
       Acer.BATTLEZONE_LTE,
       Acer.BAYMAX,
-      Acer.C11,
       Acer.CHESTER,
       Acer.CITIZEN,
       Acer.CORONA,
@@ -5636,6 +5688,7 @@ public object PreviewGroups {
       Acer.DUCATI2HD3G,
       Acer.FRENZY,
       Acer.FRONTIER,
+      Acer.IM11_12M,
       Acer.MANGO,
       Acer.OBAN,
       Acer.OMEGA,
@@ -5701,15 +5754,19 @@ public object PreviewGroups {
   public fun getAconaticDevices(): List<String> = listOf(
       Aconatic.BANGBAE,
       Aconatic.BARKING,
+      Aconatic.BEOMIL,
       Aconatic.BRUNO,
+      Aconatic.ELEONAS,
       Aconatic.OD0M_EA_T32,
       Aconatic.R1,
+      Aconatic.R10G,
       Aconatic.R2,
       Aconatic.R3_GTV,
       Aconatic.R4_GTV,
       Aconatic.SHILIN,
       Aconatic.STANFORD,
       Aconatic.TAKAO,
+      Aconatic.UMEDA,
       Aconatic.ZHONGSHAN
   )
 
@@ -5775,6 +5832,7 @@ public object PreviewGroups {
    */
   public fun getAdreamerDevices(): List<String> = listOf(
       Adreamer.KIDSPAD10X,
+      Adreamer.KIDSPAD_7,
       Adreamer.LEOPAD20,
       Adreamer.LEOPAD_10X
   )
@@ -5825,7 +5883,6 @@ public object PreviewGroups {
       Advan.ADVAN_I55K,
       Advan.ADVAN_I5C_PLUS,
       Advan.ADVAN_I5D,
-      Advan.ADVAN_I5E,
       Advan.ADVAN_I5G,
       Advan.ADVAN_I6C,
       Advan.ADVAN_I7D,
@@ -5845,6 +5902,7 @@ public object PreviewGroups {
       Advan.ADVAN_TAB_10,
       Advan.ADVAN_TAB_7,
       Advan.ADVAN_TAB_8,
+      Advan.ADVAN_TAB_A10,
       Advan.ADVAN_TAB_A8,
       Advan.ADVAN_TAB_A8_PLUS,
       Advan.ADVAN_TAB_GALLILEA,
@@ -5856,7 +5914,6 @@ public object PreviewGroups {
       Advan.ADVAN_XTAB,
       Advan.ADVANNASAPRO,
       Advan.I10,
-      Advan.I5C,
       Advan.T2J,
       Advan.X7_MAX
   )
@@ -5866,21 +5923,18 @@ public object PreviewGroups {
    * Useful for advance testing.
    */
   public fun getAdvanceDevices(): List<String> = listOf(
+      Advance.ELLINIKO,
       Advance.HL9000,
       Advance.NP6050,
       Advance.NP6070,
       Advance.PR5650,
-      Advance.PR5747,
       Advance.PR5860,
-      Advance.PR6146,
       Advance.PR6149,
       Advance.PR6152,
       Advance.PR6152_ADV,
       Advance.PR7547,
       Advance.SP4702,
       Advance.SP4703,
-      Advance.SP4871,
-      Advance.SP4872,
       Advance.SP5702,
       Advance.SP5705,
       Advance.SP5712,
@@ -5903,6 +5957,7 @@ public object PreviewGroups {
       Advance.TR7989,
       Advance.TR7990,
       Advance.TR7998,
+      Advance.TR8050,
       Advance.TR8990
   )
 
@@ -5985,6 +6040,7 @@ public object PreviewGroups {
    * Useful for age testing.
    */
   public fun getAgeDevices(): List<String> = listOf(
+      Age.ELLINIKO,
       Age.STANFORD,
       Age.ZHONGSHAN
   )
@@ -6085,6 +6141,33 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Ainmel devices.
+   * Useful for ainmel testing.
+   */
+  public fun getAinmelDevices(): List<String> = listOf(
+      Ainmel.A10S,
+      Ainmel.KB1001,
+      Ainmel.KB1004
+  )
+
+  /**
+   * Get all device specifications for Ainuevo devices.
+   * Useful for ainuevo testing.
+   */
+  public fun getAinuevoDevices(): List<String> = listOf(
+      Ainuevo.AINUEVO_NEO_S25_PRO
+  )
+
+  /**
+   * Get all device specifications for AIPLUS devices.
+   * Useful for aiplus testing.
+   */
+  public fun getAiplusDevices(): List<String> = listOf(
+      Aiplus.NOVA_1_5G,
+      Aiplus.PULSE_1
+  )
+
+  /**
    * Get all device specifications for Airpha devices.
    * Useful for airpha testing.
    */
@@ -6102,7 +6185,10 @@ public object PreviewGroups {
       Airtel.AIRTELOTTBOX,
       Airtel.DV9108_KNA,
       Airtel.GANESA,
-      Airtel.HSW4026ATL
+      Airtel.H6682,
+      Airtel.HSW4026ATL,
+      Airtel.SEI700ATLN,
+      Airtel.SEI740DEM
   )
 
   /**
@@ -6110,6 +6196,7 @@ public object PreviewGroups {
    * Useful for airtel-xstream testing.
    */
   public fun getAirtelXstreamDevices(): List<String> = listOf(
+      AirtelXstream.ASD6101SR,
       AirtelXstream.UIW4078ATL,
       AirtelXstream.VIP7220SIAI
   )
@@ -6119,7 +6206,8 @@ public object PreviewGroups {
    * Useful for airtouch testing.
    */
   public fun getAirtouchDevices(): List<String> = listOf(
-      Airtouch.AIRTOUCH5
+      Airtouch.AIRTOUCH5,
+      Airtouch.AIRTOUCH5N
   )
 
   /**
@@ -6156,14 +6244,19 @@ public object PreviewGroups {
    */
   public fun getAiwaDevices(): List<String> = listOf(
       Aiwa.AIWA_A81,
-      Aiwa.AIWA_Z9_PLUS,
+      Aiwa.ALIMOS,
       Aiwa.AW_P,
       Aiwa.AW790,
       Aiwa.AW_TAB10_14,
       Aiwa.AWM501,
       Aiwa.AWM539,
+      Aiwa.AWM999,
+      Aiwa.AWPM106A,
+      Aiwa.AWPM108T,
       Aiwa.AWPP101AW,
+      Aiwa.AWPP86AW,
       Aiwa.AWT10H,
+      Aiwa.ELLINIKO,
       Aiwa.HONGKONG,
       Aiwa.IKEBUKURO,
       Aiwa.JA2_SMP0601,
@@ -6178,6 +6271,9 @@ public object PreviewGroups {
       Aiwa.JA3_TBA1007,
       Aiwa.JA4_TBA1008,
       Aiwa.JA4_TBA1101,
+      Aiwa.JA5_TBA1011,
+      Aiwa.JA5_TBA1012,
+      Aiwa.JA5_TBA1102,
       Aiwa.LAVENDER,
       Aiwa.LONGSHAN,
       Aiwa.MOUNTBAKER,
@@ -6198,6 +6294,7 @@ public object PreviewGroups {
       Aiwa.TAB_1103,
       Aiwa.TAB_1003G,
       Aiwa.TABLETAWTH801,
+      Aiwa.UMEDA,
       Aiwa.ZHONGSHAN
   )
 
@@ -6257,7 +6354,8 @@ public object PreviewGroups {
    * Useful for akuvox testing.
    */
   public fun getAkuvoxDevices(): List<String> = listOf(
-      Akuvox.S567
+      Akuvox.S567,
+      Akuvox.X937
   )
 
   /**
@@ -6267,7 +6365,6 @@ public object PreviewGroups {
   public fun getAlbaDevices(): List<String> = listOf(
       Alba.AC101CPLV3,
       Alba.AC40AS3G,
-      Alba.AC60CRS,
       Alba.ALBA10NOU,
       Alba.ALBA10PIE,
       Alba.ALBA10Q,
@@ -6282,6 +6379,7 @@ public object PreviewGroups {
    * Useful for albadeel testing.
    */
   public fun getAlbadeelDevices(): List<String> = listOf(
+      Albadeel.ALIMOS,
       Albadeel.IKEBUKURO,
       Albadeel.LONGSHAN,
       Albadeel.REDWOOD,
@@ -6294,6 +6392,7 @@ public object PreviewGroups {
    */
   public fun getAlcatelDevices(): List<String> = listOf(
       Alcatel._5006,
+      Alcatel.A01,
       Alcatel.APOLLO_8_4G,
       Alcatel.APOLLO_8_4G_TMO,
       Alcatel.AQUAMAN_10_4G,
@@ -6307,6 +6406,7 @@ public object PreviewGroups {
       Alcatel.CRUZE_LITE,
       Alcatel.CRUZE_PRO,
       Alcatel.DAHLIA,
+      Alcatel.DAHLIAMAX,
       Alcatel.DAHLIAPRO,
       Alcatel.GOLDFINCH_NP_PRO,
       Alcatel.HONG_KONG,
@@ -6331,23 +6431,8 @@ public object PreviewGroups {
       Alcatel.U3A_10_WIFI_P,
       Alcatel.U3A_7_3G_REFRESH,
       Alcatel.U3A_7_WIFI_REFRESH,
+      Alcatel.VANILLA,
       Alcatel.WRIGHT_PRO
-  )
-
-  /**
-   * Get all device specifications for Alco devices.
-   * Useful for alco testing.
-   */
-  public fun getAlcoDevices(): List<String> = listOf(
-      Alco.ALCO_S9
-  )
-
-  /**
-   * Get all device specifications for Alcor devices.
-   * Useful for alcor testing.
-   */
-  public fun getAlcorDevices(): List<String> = listOf(
-      Alcor.COMET_O118LR
   )
 
   /**
@@ -6400,6 +6485,7 @@ public object PreviewGroups {
       Aligator.ALIGATOR_S6500,
       Aligator.ALIGATOR_S6550,
       Aligator.ALIGATOR_S6600,
+      Aligator.ALIGATOR_S6700,
       Aligator.RX600,
       Aligator.RX700,
       Aligator.RX850,
@@ -6439,6 +6525,7 @@ public object PreviewGroups {
       Alldocube.IPLAY_70_MINI_ULTRA,
       Alldocube.IPLAY_70_PRO,
       Alldocube.IPLAY_70_S,
+      Alldocube.IPLAY_70_ULTRA,
       Alldocube.KIDZPAD_PRO,
       Alldocube.SMILE_1,
       Alldocube.T1001,
@@ -6462,6 +6549,7 @@ public object PreviewGroups {
       Alldocube.T1102T,
       Alldocube.T1103T,
       Alldocube.T1201,
+      Alldocube.T1302G,
       Alldocube.T701,
       Alldocube.T701_X,
       Alldocube.T802,
@@ -6520,8 +6608,6 @@ public object PreviewGroups {
       Allview.A30_PLUS,
       Allview.A5_EASY,
       Allview.A5_READY,
-      Allview.A9_LITE,
-      Allview.A9_PLUS,
       Allview.AX501Q,
       Allview.AX503,
       Allview.AX503_Q,
@@ -6546,7 +6632,6 @@ public object PreviewGroups {
       Allview.P8_ENERGY_MINI,
       Allview.P8_LIFE,
       Allview.P8_PRO,
-      Allview.P9_ENERGY,
       Allview.P9_ENERGY_LITE_2017,
       Allview.P9_ENERGY_MINI,
       Allview.P9_ENERGY_S,
@@ -6555,7 +6640,6 @@ public object PreviewGroups {
       Allview.V10_VIPER,
       Allview.V10_VIPER_LITE,
       Allview.V2_VIPER_S,
-      Allview.V2_VIPER_X_PLUS,
       Allview.V3_VIPER,
       Allview.V4_VIPER,
       Allview.V4_VIPER_PRO,
@@ -6568,7 +6652,6 @@ public object PreviewGroups {
       Allview.VIVA_H1001_LTE,
       Allview.VIVA_H1002_LTE,
       Allview.VIVA_H1003_LTE,
-      Allview.VIVA_H701_LTE,
       Allview.VIVA_H802_LTE,
       Allview.VIVA_PLAY_804,
       Allview.X10_SOUL,
@@ -6579,9 +6662,6 @@ public object PreviewGroups {
       Allview.X3_SOUL_STYLE,
       Allview.X4_SOUL_INFINITY_N,
       Allview.X4_SOUL_INFINITY_NV,
-      Allview.X4_SOUL_INFINITY_S,
-      Allview.X4_SOUL_INFINITY_SV,
-      Allview.X4_SOUL_INFINITY_Z,
       Allview.X4_SOUL_LITE,
       Allview.X4_SOUL_MINI,
       Allview.X4_SOUL_PLUS,
@@ -6605,6 +6685,7 @@ public object PreviewGroups {
    */
   public fun getAllwinnerDevices(): List<String> = listOf(
       Allwinner.APOLLO_P7,
+      Allwinner.CERES_B3,
       Allwinner.T3_K2001_NWD,
       Allwinner.T3_P1
   )
@@ -6621,20 +6702,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for ALPHA_LING devices.
-   * Useful for alpha_ling testing.
-   */
-  public fun getAlphaLingDevices(): List<String> = listOf(
-      AlphaLing.A97GT
-  )
-
-  /**
    * Get all device specifications for ALPHALING devices.
    * Useful for alphaling testing.
    */
   public fun getAlphalingDevices(): List<String> = listOf(
       Alphaling.A94GT_PLUS,
       Alphaling.A97GT,
+      Alphaling.A97GT_800X1280,
       Alphaling.A97GT_PRO
   )
 
@@ -6653,9 +6727,13 @@ public object PreviewGroups {
    */
   public fun getAlphawolfDevices(): List<String> = listOf(
       Alphawolf.A1,
+      Alphawolf.A2,
       Alphawolf.L1,
       Alphawolf.L2,
-      Alphawolf.L3
+      Alphawolf.L2S,
+      Alphawolf.L3,
+      Alphawolf.L3A,
+      Alphawolf.P2
   )
 
   /**
@@ -6673,15 +6751,15 @@ public object PreviewGroups {
    * Useful for alps testing.
    */
   public fun getAlpsDevices(): List<String> = listOf(
-      Alps._8227L_DEMO,
       Alps.HCT77_JB
   )
 
   /**
-   * Get all device specifications for ALT devices.
+   * Get all device specifications for alt devices.
    * Useful for alt testing.
    */
   public fun getAltDevices(): List<String> = listOf(
+      Alt.L1,
       Alt.ODIN,
       Alt.ODIN2,
       Alt.THOR,
@@ -6724,7 +6802,7 @@ public object PreviewGroups {
       Altice.S61,
       Altice.S64,
       Altice.S70,
-      Altice.STARACTIVE,
+      Altice.SEI740ATC,
       Altice.STARNAUTE4,
       Altice.STARTRAIL7,
       Altice.STARXTREM5
@@ -6765,7 +6843,6 @@ public object PreviewGroups {
    * Useful for amazon testing.
    */
   public fun getAmazonDevices(): List<String> = listOf(
-      Amazon.DOUGLAS,
       Amazon.KARNAK,
       Amazon.MAVERICK,
       Amazon.MUSTANG,
@@ -6775,12 +6852,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for AMG devices.
+   * Useful for amg testing.
+   */
+  public fun getAmgDevices(): List<String> = listOf(
+      Amg.ASPWR24
+  )
+
+  /**
    * Get all device specifications for AMGOO devices.
    * Useful for amgoo testing.
    */
   public fun getAmgooDevices(): List<String> = listOf(
       Amgoo.AM515,
-      Amgoo.AM518,
       Amgoo.AM530
   )
 
@@ -6813,7 +6897,8 @@ public object PreviewGroups {
    */
   public fun getAmlogicDevices(): List<String> = listOf(
       Amlogic.AMPERE,
-      Amlogic.P212
+      Amlogic.P212,
+      Amlogic.P281
   )
 
   /**
@@ -6850,7 +6935,7 @@ public object PreviewGroups {
    */
   public fun getAmulet7Devices(): List<String> = listOf(
       Amulet7.P10SU_PLUS,
-      Amulet7.P10SU_PLUS,
+      Amulet7.P10SU_PLUS_800X1280,
       Amulet7.P10SU_PRO
   )
 
@@ -6894,7 +6979,7 @@ public object PreviewGroups {
    * Useful for android testing.
    */
   public fun getAndroidDevices(): List<String> = listOf(
-      Android.NANOPC_T4,
+      Android.M201,
       Android.RK322X_BOX,
       Android.RK3328_BOX
   )
@@ -6904,6 +6989,8 @@ public object PreviewGroups {
    * Useful for anexa testing.
    */
   public fun getAnexaDevices(): List<String> = listOf(
+      Anexa.ALIMOS,
+      Anexa.DANGNI,
       Anexa.REDWOOD
   )
 
@@ -6912,6 +6999,7 @@ public object PreviewGroups {
    * Useful for angeltech testing.
    */
   public fun getAngeltechDevices(): List<String> = listOf(
+      Angeltech.ATKSLIM,
       Angeltech.E109GCM,
       Angeltech.P80
   )
@@ -6957,6 +7045,14 @@ public object PreviewGroups {
    */
   public fun getAntempeDevices(): List<String> = listOf(
       Antempe.D115_EEA
+  )
+
+  /**
+   * Get all device specifications for ANTEMPER devices.
+   * Useful for antemper testing.
+   */
+  public fun getAntemperDevices(): List<String> = listOf(
+      Antemper.D136_EEA
   )
 
   /**
@@ -7018,7 +7114,7 @@ public object PreviewGroups {
       Aocwei.X800_US,
       Aocwei.X900_US,
       Aocwei.X900_EEA,
-      Aocwei.X900_US
+      Aocwei.X900_US_1200X1920
   )
 
   /**
@@ -7048,6 +7144,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for APD devices.
+   * Useful for apd testing.
+   */
+  public fun getApdDevices(): List<String> = listOf(
+      Apd.REGGIO
+  )
+
+  /**
    * Get all device specifications for APEX devices.
    * Useful for apex testing.
    */
@@ -7072,12 +7176,21 @@ public object PreviewGroups {
       Apolosign.EM101C,
       Apolosign.EM103A,
       Apolosign.EP103B,
+      Apolosign.EP1095_T,
       Apolosign.EP1095T,
+      Apolosign.FA1569T,
       Apolosign.FA158AT,
+      Apolosign.FA2169T,
+      Apolosign.FA2769T,
+      Apolosign.K103_A,
+      Apolosign.K106A,
       Apolosign.K109_PRO,
       Apolosign.K109A,
       Apolosign.K709A,
       Apolosign.NW1495T,
+      Apolosign.SW3299T,
+      Apolosign.SW3299TFHD,
+      Apolosign.WF1589T,
       Apolosign.WF2189T,
       Apolosign.WF2489T,
       Apolosign.WF3289T
@@ -7139,10 +7252,13 @@ public object PreviewGroups {
    * Useful for arcelik testing.
    */
   public fun getArcelikDevices(): List<String> = listOf(
+      Arcelik.ABERDEEN,
       Arcelik.AKROPOLI,
       Arcelik.ARCELIK_EU,
+      Arcelik.AWAZA,
       Arcelik.KUNYANG,
       Arcelik.MARTIN,
+      Arcelik.MILLBRAE,
       Arcelik.R4,
       Arcelik.SHINAGAWA,
       Arcelik.SINCHON,
@@ -7156,8 +7272,6 @@ public object PreviewGroups {
   public fun getArchosDevices(): List<String> = listOf(
       Archos.A101NE,
       Archos.A101XE,
-      Archos.A70XE,
-      Archos.AC101AS3G,
       Archos.AC101AS3GV2,
       Archos.AC101AS3GV3,
       Archos.AC101ASWF,
@@ -7172,6 +7286,7 @@ public object PreviewGroups {
       Archos.AC101CNE,
       Archos.AC101CPL,
       Archos.AC101CPLV2,
+      Archos.AC101CR3G,
       Archos.AC101CR3GV2,
       Archos.AC101CR3GV3,
       Archos.AC101CR3GV4,
@@ -7180,7 +7295,6 @@ public object PreviewGroups {
       Archos.AC101CV,
       Archos.AC101CXEV2,
       Archos.AC101DNE,
-      Archos.AC101DPL,
       Archos.AC101DPLV2,
       Archos.AC101ENE,
       Archos.AC101ENEV2,
@@ -7192,7 +7306,6 @@ public object PreviewGroups {
       Archos.AC101SOX,
       Archos.AC101SOXAZ,
       Archos.AC101SOXUL,
-      Archos.AC101TR,
       Archos.AC101XEL,
       Archos.AC101XPRO4G,
       Archos.AC101XS2,
@@ -7205,7 +7318,6 @@ public object PreviewGroups {
       Archos.AC45AS4G,
       Archos.AC45DPL,
       Archos.AC50AS3G,
-      Archos.AC50AS4G,
       Archos.AC50ASS4G,
       Archos.AC50BCO,
       Archos.AC50CO,
@@ -7223,9 +7335,7 @@ public object PreviewGroups {
       Archos.AC50SA,
       Archos.AC50SAX,
       Archos.AC50SEDC,
-      Archos.AC50TI,
       Archos.AC50XSE,
-      Archos.AC55AS3G,
       Archos.AC55BCO,
       Archos.AC55BPL,
       Archos.AC55COP,
@@ -7233,31 +7343,24 @@ public object PreviewGroups {
       Archos.AC55DIPLUS,
       Archos.AC55DISELFIE,
       Archos.AC55HE,
-      Archos.AC55HEPLUS,
       Archos.AC55PL,
       Archos.AC55SEDC,
       Archos.AC55SES,
       Archos.AC57AS3G,
       Archos.AC57AS4G,
-      Archos.AC57CRS,
       Archos.AC57OX,
-      Archos.AC60CRS,
-      Archos.AC60PL,
       Archos.AC62CRS,
       Archos.AC63OX,
       Archos.AC68OXXL,
       Archos.AC70AS3G,
       Archos.AC70ASWF,
-      Archos.AC70CNE,
       Archos.AC70CR3G,
       Archos.AC70CR3GV2,
-      Archos.AC70CXE,
       Archos.AC70HELLO,
       Archos.AC70OX,
       Archos.AC70PLV3,
       Archos.AC70PLV4,
       Archos.AC70XEC,
-      Archos.AC80OX,
       Archos.AC94FFF,
       Archos.AC97CPL,
       Archos.AC97CPLV2,
@@ -7284,6 +7387,7 @@ public object PreviewGroups {
       Archos.AZA101SOXUL,
       Archos.HOMETABLET,
       Archos.LIFB57,
+      Archos.LIFBK80,
       Archos.X18_ULTRA
   )
 
@@ -7342,7 +7446,6 @@ public object PreviewGroups {
   public fun getArknikkoDevices(): List<String> = listOf(
       Arknikko.MEMOPAD_T3_EEA,
       Arknikko.MEMOPAD_T4,
-      Arknikko.SOPHPAD_X11,
       Arknikko.SOPHPAD_X22_EEA
   )
 
@@ -7421,6 +7524,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Artia devices.
+   * Useful for artia testing.
+   */
+  public fun getArtiaDevices(): List<String> = listOf(
+      Artia.SP545C
+  )
+
+  /**
    * Get all device specifications for ARTRAN devices.
    * Useful for artran testing.
    */
@@ -7460,7 +7571,6 @@ public object PreviewGroups {
    * Useful for asanzo testing.
    */
   public fun getAsanzoDevices(): List<String> = listOf(
-      Asanzo.ASANZO_A2,
       Asanzo.S6,
       Asanzo.SHIBUYA,
       Asanzo.SW6H
@@ -7548,10 +7658,12 @@ public object PreviewGroups {
    * Useful for astech testing.
    */
   public fun getAstechDevices(): List<String> = listOf(
+      Astech.ALIMOS,
       Astech.ASTECH_IRIS,
       Astech.ASTECH_S7,
       Astech.ASTECH_S8,
       Astech.ASTECH_S9,
+      Astech.DANGNI,
       Astech.R10G,
       Astech.R3,
       Astech.R3_GTV,
@@ -7744,7 +7856,6 @@ public object PreviewGroups {
       Asus.ASUS_Z01QD,
       Asus.ASUS_Z01QD_1,
       Asus.ASUS_Z01R_1,
-      Asus.ASUS_ZENBO,
       Asus.ASUSAI2501,
       Asus.DAHU,
       Asus.K007,
@@ -7776,7 +7887,6 @@ public object PreviewGroups {
       Asus.K019_1,
       Asus.K019_2,
       Asus.K019_3,
-      Asus.K019_4,
       Asus.K01A,
       Asus.K01B,
       Asus.K01E_2,
@@ -7882,7 +7992,6 @@ public object PreviewGroups {
       Athesi.AP5701,
       Athesi.AP5801,
       Athesi.AT_E8T,
-      Athesi.E55,
       Athesi.E65,
       Athesi.E6A,
       Athesi.RT4500
@@ -7895,6 +8004,14 @@ public object PreviewGroups {
   public fun getAthesiProfessionalDevices(): List<String> = listOf(
       AthesiProfessional.AP5702,
       AthesiProfessional.AP5705S
+  )
+
+  /**
+   * Get all device specifications for ATID devices.
+   * Useful for atid testing.
+   */
+  public fun getAtidDevices(): List<String> = listOf(
+      Atid.AT908
   )
 
   /**
@@ -7923,10 +8040,14 @@ public object PreviewGroups {
       Atmpc.IT_1001A,
       Atmpc.IT_701A,
       Atmpc.IT_801B,
+      Atmpc.IT_801BA1_EEA,
       Atmpc.IT_801BA3,
-      Atmpc.IT_701A,
+      Atmpc.IT_801BA5_EEA,
+      Atmpc.IT_801BA6,
+      Atmpc.IT_701A_600X1024,
       Atmpc.IT_701A1,
-      Atmpc.IT_801B
+      Atmpc.IT_801B_800X1280,
+      Atmpc.IT_801BA4_EEA
   )
 
   /**
@@ -7958,6 +8079,7 @@ public object PreviewGroups {
       Atozee.AT70K,
       Atozee.AT71K,
       Atozee.AT81K,
+      Atozee.CP10_PRO,
       Atozee.CP10S,
       Atozee.CP20_GOLD,
       Atozee.CP20_MAX,
@@ -7974,6 +8096,7 @@ public object PreviewGroups {
       Atozee.P80W,
       Atozee.P81W,
       Atozee.Q2S,
+      Atozee.Q2S_PRO,
       Atozee.Q2SK,
       Atozee.T30MAX,
       Atozee.T30MAX_EEA,
@@ -7998,7 +8121,9 @@ public object PreviewGroups {
       Att.EA211005,
       Att.QS5509QL,
       Att.SL219A,
+      Att.SN333A,
       Att.SN509A,
+      Att.SN512A,
       Att.TINT8_ATT,
       Att.U202AA,
       Att.U304AA,
@@ -8012,6 +8137,14 @@ public object PreviewGroups {
       Att.V341U,
       Att.V350U,
       Att.WTATTRW2
+  )
+
+  /**
+   * Get all device specifications for Attila devices.
+   * Useful for attila testing.
+   */
+  public fun getAttilaDevices(): List<String> = listOf(
+      Attila.S25
   )
 
   /**
@@ -8055,9 +8188,19 @@ public object PreviewGroups {
    * Useful for aurzen testing.
    */
   public fun getAurzenDevices(): List<String> = listOf(
+      Aurzen.COORG,
+      Aurzen.HIMALAYA,
       Aurzen.TB_AS100A,
       Aurzen.TB_AS110A,
       Aurzen.YANDANGSHAN
+  )
+
+  /**
+   * Get all device specifications for Austrostream devices.
+   * Useful for austrostream testing.
+   */
+  public fun getAustrostreamDevices(): List<String> = listOf(
+      Austrostream.SEID00ORS
   )
 
   /**
@@ -8067,14 +8210,6 @@ public object PreviewGroups {
   public fun getAvaDevices(): List<String> = listOf(
       Ava.AVA_RM_RX1,
       Ava.AVA_RM_RX2_US
-  )
-
-  /**
-   * Get all device specifications for AVACOM devices.
-   * Useful for avacom testing.
-   */
-  public fun getAvacomDevices(): List<String> = listOf(
-      Avacom.AVT015
   )
 
   /**
@@ -8118,6 +8253,8 @@ public object PreviewGroups {
       Avidpad.A30,
       Avidpad.A30PRO,
       Avidpad.A60,
+      Avidpad.A90PRO,
+      Avidpad.A90S_1,
       Avidpad.S30,
       Avidpad.S60,
       Avidpad.S80
@@ -8144,7 +8281,8 @@ public object PreviewGroups {
    * Useful for avtek testing.
    */
   public fun getAvtekDevices(): List<String> = listOf(
-      Avtek.MTK9679
+      Avtek.MTK9679,
+      Avtek.RK3576_U
   )
 
   /**
@@ -8153,7 +8291,6 @@ public object PreviewGroups {
    */
   public fun getAvvioDevices(): List<String> = listOf(
       Avvio.AVVIO_4GO,
-      Avvio.AVVIO_A400,
       Avvio.AVVIO_Q503
   )
 
@@ -8170,19 +8307,20 @@ public object PreviewGroups {
       Awow.CREAPAD_1009,
       Awow.CREAPAD_1009_EEA,
       Awow.CREAPAD_1009S,
-      Awow.CUBTAB_1001,
       Awow.FUNTAB_1001,
       Awow.FUNTAB_1001_EEA,
       Awow.FUNTAB_1003_EEA,
       Awow.FUNTAB_1003_US,
       Awow.FUNTAB_801_I_EEA,
-      Awow.FUNTAB_801_K_EEA,
       Awow.MID_1085_EEA,
       Awow.MID_1089IPS_EEA,
       Awow.MID_789A100_EEA,
       Awow.P11_EEA,
       Awow.UTBOOK,
       Awow.UTBOOK_14,
+      Awow.UTBOOK_15,
+      Awow.UTBOOK_15_EEA,
+      Awow.UTBOOK_16,
       Awow.UTBOOK_EEA
   )
 
@@ -8225,6 +8363,7 @@ public object PreviewGroups {
    * Useful for axon testing.
    */
   public fun getAxonDevices(): List<String> = listOf(
+      Axon.AXON_RADIANCE_1,
       Axon.EVOLUTION
   )
 
@@ -8246,19 +8385,20 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for AXXA devices.
-   * Useful for axxa testing.
-   */
-  public fun getAxxaDevices(): List<String> = listOf(
-      Axxa.AXXA_S45_PLUS
-  )
-
-  /**
    * Get all device specifications for AXXA_MOBILE devices.
    * Useful for axxa_mobile testing.
    */
   public fun getAxxaMobileDevices(): List<String> = listOf(
       AxxaMobile.GEM
+  )
+
+  /**
+   * Get all device specifications for AXZY devices.
+   * Useful for axzy testing.
+   */
+  public fun getAxzyDevices(): List<String> = listOf(
+      Axzy.AXZY_PAD,
+      Axzy.AXZY_PAD_PRO
   )
 
   /**
@@ -8312,7 +8452,9 @@ public object PreviewGroups {
       Azeyou.AT1016U,
       Azeyou.AT1101,
       Azeyou.AT1202J,
-      Azeyou.M17QF27A
+      Azeyou.F8,
+      Azeyou.M17QF27A,
+      Azeyou.M17T11
   )
 
   /**
@@ -8332,6 +8474,7 @@ public object PreviewGroups {
       Azpen.A1046G,
       Azpen.A1080G,
       Azpen.A1083,
+      Azpen.A780G,
       Azpen.C_603,
       Azpen.G800,
       Azpen.MID1032_MK_32
@@ -8348,7 +8491,6 @@ public object PreviewGroups {
       Azumi.AZUMI_A4_AC27B,
       Azumi.AZUMI_A4_B,
       Azumi.AZUMI_A4PLUS_AC11,
-      Azumi.AZUMI_A57B,
       Azumi.AZUMI_A5_P,
       Azumi.AZUMI_A5_P1,
       Azumi.AZUMI_A5B_BD,
@@ -8359,34 +8501,23 @@ public object PreviewGroups {
       Azumi.AZUMI_M5S,
       Azumi.AZUMI_SPEED_5B,
       Azumi.AZUMI_V4_AC04,
-      Azumi.AZUMI_V4_AC23,
       Azumi.AZUMI_V54_AC04,
       Azumi.AZUMI_V55_AC04,
       Azumi.AZUMI_V5_AC01,
-      Azumi.AZUMI_V5_AC01,
+      Azumi.AZUMI_V5_AC01_480X854,
       Azumi.AZUMI_V5_AC04,
-      Azumi.AZUMI_V5_AC25,
+      Azumi.AZUMI_V5_AC25B,
+      Azumi.AZUMI_V5_AC25S,
       Azumi.AZUMI_V5PLUS_AC24,
-      Azumi.AZUMI_V5PLUS_AC25,
       Azumi.AZUMI_V5PLUS_AC27,
       Azumi.AZUMI_V60,
       Azumi.AZUMI_V60F,
-      Azumi.IRO_A4_Q,
       Azumi.IRO_A55_Q,
       Azumi.IRO_A5_Q,
       Azumi.IRO_A5_Q_AF,
       Azumi.IRO_A5_QL,
-      Azumi.KIREI_A45_D,
       Azumi.NOBU_A55,
       Azumi.NOBU_A55_PRO
-  )
-
-  /**
-   * Get all device specifications for b-box devices.
-   * Useful for b-box testing.
-   */
-  public fun getBBoxDevices(): List<String> = listOf(
-      BBox.HP44H
   )
 
   /**
@@ -8395,6 +8526,14 @@ public object PreviewGroups {
    */
   public fun getBabalDevices(): List<String> = listOf(
       Babal.BABAL_1008
+  )
+
+  /**
+   * Get all device specifications for BAIWOYER devices.
+   * Useful for baiwoyer testing.
+   */
+  public fun getBaiwoyerDevices(): List<String> = listOf(
+      Baiwoyer.E10
   )
 
   /**
@@ -8484,7 +8623,8 @@ public object PreviewGroups {
    * Useful for bbox testing.
    */
   public fun getBboxDevices(): List<String> = listOf(
-      Bbox.BBOX_M752A
+      Bbox.BBOX_M752A,
+      Bbox.HP44H
   )
 
   /**
@@ -8498,14 +8638,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Bea-fon devices.
-   * Useful for bea-fon testing.
-   */
-  public fun getBeaFonDevices(): List<String> = listOf(
-      BeaFon.MX1
-  )
-
-  /**
    * Get all device specifications for Beafon devices.
    * Useful for beafon testing.
    */
@@ -8514,6 +8646,7 @@ public object PreviewGroups {
       Beafon.M6S,
       Beafon.M7,
       Beafon.M7_LITE,
+      Beafon.MX1,
       Beafon.TL20,
       Beafon.TW10_EEA,
       Beafon.TW20_EEA
@@ -8532,7 +8665,6 @@ public object PreviewGroups {
    * Useful for beeline testing.
    */
   public fun getBeelineDevices(): List<String> = listOf(
-      Beeline.BEELINE_PRO_6,
       Beeline.SWG2001A,
       Beeline.Z701
   )
@@ -8559,13 +8691,17 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for BEKO devices.
+   * Get all device specifications for Beko devices.
    * Useful for beko testing.
    */
   public fun getBekoDevices(): List<String> = listOf(
+      Beko.ABERDEEN,
       Beko.AKROPOLI,
+      Beko.AWAZA,
+      Beko.COTTONGREEN,
       Beko.KUNYANG,
       Beko.MARTIN,
+      Beko.MILLBRAE,
       Beko.R4,
       Beko.SHINAGAWA,
       Beko.SINCHON,
@@ -8630,13 +8766,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Benesse devices.
+   * Useful for benesse testing.
+   */
+  public fun getBenesseDevices(): List<String> = listOf(
+      Benesse._50S904
+  )
+
+  /**
    * Get all device specifications for BENEVE devices.
    * Useful for beneve testing.
    */
   public fun getBeneveDevices(): List<String> = listOf(
       Beneve.M1036,
       Beneve.M1038_EEA,
-      Beneve.M51S,
       Beneve.M51S_EEA,
       Beneve.M53,
       Beneve.M53_EEA,
@@ -8652,11 +8795,15 @@ public object PreviewGroups {
    * Useful for benq testing.
    */
   public fun getBenqDevices(): List<String> = listOf(
+      Benq.ALIMOS,
+      Benq.COONOOR,
       Benq.HIMALAYA,
       Benq.IKEBUKURO,
+      Benq.KHANDALA,
       Benq.LAOSHAN,
       Benq.LONGSHAN,
       Benq.RE04_SERIES,
+      Benq.RE04A_SERIES,
       Benq.RE04N_SERIES,
       Benq.REDWOOD,
       Benq.RM6504,
@@ -8708,6 +8855,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for BesDW devices.
+   * Useful for besdw testing.
+   */
+  public fun getBesdwDevices(): List<String> = listOf(
+      Besdw.X10_ROW
+  )
+
+  /**
    * Get all device specifications for bestbuy devices.
    * Useful for bestbuy testing.
    */
@@ -8733,11 +8888,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Beyond_PTE devices.
-   * Useful for beyond_pte testing.
+   * Get all device specifications for BEYODFU devices.
+   * Useful for beyodfu testing.
    */
-  public fun getBeyondPteDevices(): List<String> = listOf(
-      BeyondPte.MAX4
+  public fun getBeyodfuDevices(): List<String> = listOf(
+      Beyodfu.M148,
+      Beyodfu.M901
   )
 
   /**
@@ -8754,6 +8910,7 @@ public object PreviewGroups {
    */
   public fun getBghDevices(): List<String> = listOf(
       Bgh.BGH_JOY_303,
+      Bgh.ELEONAS,
       Bgh.HAMAMATSUCHO,
       Bgh.KENTON,
       Bgh.LASALLE,
@@ -8787,9 +8944,11 @@ public object PreviewGroups {
    */
   public fun getBiegedyDevices(): List<String> = listOf(
       Biegedy.B21_EEA,
+      Biegedy.B22_U_EEA,
       Biegedy.B22_EEA,
       Biegedy.B22_US,
       Biegedy.B23_U_EEA,
+      Biegedy.B25_EEA,
       Biegedy.B29_EEA,
       Biegedy.B29_US
   )
@@ -8803,12 +8962,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Bigtech devices.
+   * Get all device specifications for BigTech devices.
    * Useful for bigtech testing.
    */
   public fun getBigtechDevices(): List<String> = listOf(
       Bigtech.BIGTECH_A_RU,
-      Bigtech.BIGTECH_B_RU
+      Bigtech.BIGTECH_B_RU,
+      Bigtech.BIGTECH_D2
   )
 
   /**
@@ -8817,6 +8977,14 @@ public object PreviewGroups {
    */
   public fun getBilimbookDevices(): List<String> = listOf(
       Bilimbook.BILIMBOOK_MINI
+  )
+
+  /**
+   * Get all device specifications for BILIMLI devices.
+   * Useful for bilimli testing.
+   */
+  public fun getBilimliDevices(): List<String> = listOf(
+      Bilimli.BILIMLI2025
   )
 
   /**
@@ -8860,14 +9028,6 @@ public object PreviewGroups {
   public fun getBioruggedDevices(): List<String> = listOf(
       Biorugged.BIOWOLF8F30,
       Biorugged.BIOWOLF_C
-  )
-
-  /**
-   * Get all device specifications for BIOSfone devices.
-   * Useful for biosfone testing.
-   */
-  public fun getBiosfoneDevices(): List<String> = listOf(
-      Biosfone.T11
   )
 
   /**
@@ -8923,27 +9083,23 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for BLACK_FOX devices.
-   * Useful for black_fox testing.
-   */
-  public fun getBlackFoxDevices(): List<String> = listOf(
-      BlackFox.BMM431B,
-      BlackFox.BMM431S,
-      BlackFox.BMM441A,
-      BlackFox.BMM441S,
-      BlackFox.BMM531D,
-      BlackFox.BMM531S,
-      BlackFox.BMM532D,
-      BlackFox.BMM541W,
-      BlackFox.BMM543S
-  )
-
-  /**
    * Get all device specifications for BLACK_SHARK devices.
    * Useful for black_shark testing.
    */
   public fun getBlackSharkDevices(): List<String> = listOf(
-      BlackShark.PAD6
+      BlackShark.BULLHEAD,
+      BlackShark.DARKLIGHTER,
+      BlackShark.KAISER,
+      BlackShark.KAISER_OS,
+      BlackShark.KLEIN,
+      BlackShark.MOBIUS,
+      BlackShark.PAD6,
+      BlackShark.PAD7,
+      BlackShark.PAD7_PRO,
+      BlackShark.PAD7_WIFI,
+      BlackShark.PENROSE,
+      BlackShark.SHARK,
+      BlackShark.SKYWALKER
   )
 
   /**
@@ -8976,8 +9132,15 @@ public object PreviewGroups {
    * Useful for blackfox testing.
    */
   public fun getBlackfoxDevices(): List<String> = listOf(
+      Blackfox.BMM431B,
+      Blackfox.BMM441A,
       Blackfox.BMM441B,
-      Blackfox.BMM531A
+      Blackfox.BMM441S,
+      Blackfox.BMM531A,
+      Blackfox.BMM531S,
+      Blackfox.BMM532D,
+      Blackfox.BMM541W,
+      Blackfox.BMM543S
   )
 
   /**
@@ -8990,22 +9153,6 @@ public object PreviewGroups {
       Blackline.R3_GTV,
       Blackline.R4,
       Blackline.R4_GTV
-  )
-
-  /**
-   * Get all device specifications for blackshark devices.
-   * Useful for blackshark testing.
-   */
-  public fun getBlacksharkDevices(): List<String> = listOf(
-      Blackshark.BULLHEAD,
-      Blackshark.DARKLIGHTER,
-      Blackshark.KAISER,
-      Blackshark.KAISER_OS,
-      Blackshark.KLEIN,
-      Blackshark.MOBIUS,
-      Blackshark.PENROSE,
-      Blackshark.SHARK,
-      Blackshark.SKYWALKER
   )
 
   /**
@@ -9048,9 +9195,14 @@ public object PreviewGroups {
       Blackview.ACTIVE6_RU,
       Blackview.ACTIVE8,
       Blackview.ACTIVE8PRO,
+      Blackview.ACTIVE8PRO_A15,
       Blackview.ACTIVE_10_PRO,
+      Blackview.ACTIVE_12_PRO,
+      Blackview.ACTIVE_5,
+      Blackview.ACTIVE_7,
       Blackview.BL5000,
       Blackview.BL6000PRO,
+      Blackview.BL7000,
       Blackview.BL8000,
       Blackview.BL8800,
       Blackview.BL8800PRO,
@@ -9119,6 +9271,7 @@ public object PreviewGroups {
       Blackview.BV9200,
       Blackview.BV9300,
       Blackview.BV9300_PRO,
+      Blackview.BV9300_PRO_A15,
       Blackview.BV9500,
       Blackview.BV9500_RU,
       Blackview.BV9500PLUS,
@@ -9131,12 +9284,19 @@ public object PreviewGroups {
       Blackview.BV9900,
       Blackview.BV9900E,
       Blackview.BV9900PRO,
+      Blackview.COLOR_6,
       Blackview.COLOR_8,
       Blackview.E7S,
+      Blackview.FORT_1,
+      Blackview.FORT_2,
       Blackview.HERO10,
+      Blackview.LINK_2,
+      Blackview.LINK_8,
       Blackview.MAX1,
       Blackview.MEGA_1,
       Blackview.MEGA_2,
+      Blackview.MEGA_2_WIFI,
+      Blackview.MEGA_3,
       Blackview.MEGA_8,
       Blackview.N6000,
       Blackview.N6000_SE,
@@ -9148,6 +9308,7 @@ public object PreviewGroups {
       Blackview.S6,
       Blackview.S8,
       Blackview.SHARK8,
+      Blackview.SHARK_6,
       Blackview.SHARK_9,
       Blackview.TAB10WIFI,
       Blackview.TAB11_EA,
@@ -9209,6 +9370,8 @@ public object PreviewGroups {
       Blackview.TAB_15_EU,
       Blackview.TAB_15_NEU,
       Blackview.TAB_15_RU,
+      Blackview.TAB_20_KIDS,
+      Blackview.TAB_20_WIFI,
       Blackview.TAB_30_KIDS,
       Blackview.TAB_30_WIFI,
       Blackview.TAB_60_PRO,
@@ -9227,7 +9390,14 @@ public object PreviewGroups {
       Blackview.TAB_A6_KIDS,
       Blackview.WAVE6C,
       Blackview.WAVE_8,
-      Blackview.WAVE_8C
+      Blackview.WAVE_8C,
+      Blackview.WAVE_9C,
+      Blackview.XPLORE2,
+      Blackview.XPLORE2_PRO,
+      Blackview.XPLORE_1,
+      Blackview.ZENO_1,
+      Blackview.ZENO_10,
+      Blackview.ZENO_100
   )
 
   /**
@@ -9242,12 +9412,13 @@ public object PreviewGroups {
       Blaupunkt.BLAUPUNKT_SM_02,
       Blaupunkt.BLAUPUNKT_SM_05,
       Blaupunkt.BLAUPUNKT_TX60,
-      Blaupunkt.BP_6108,
       Blaupunkt.BP_6110,
       Blaupunkt.BP_T6108X,
       Blaupunkt.BP_T6110X,
       Blaupunkt.BRUNO,
       Blaupunkt.CAPITOLHILL,
+      Blaupunkt.DONGMAE,
+      Blaupunkt.ELLINIKO,
       Blaupunkt.EWHA,
       Blaupunkt.EXPO,
       Blaupunkt.GMP,
@@ -9257,6 +9428,7 @@ public object PreviewGroups {
       Blaupunkt.HONGKONG,
       Blaupunkt.ICN,
       Blaupunkt.IKEBUKURO,
+      Blaupunkt.JAGALCHI,
       Blaupunkt.JFK,
       Blaupunkt.KAITAK,
       Blaupunkt.KEONEAE,
@@ -9291,7 +9463,6 @@ public object PreviewGroups {
    */
   public fun getBleckDevices(): List<String> = listOf(
       Bleck.BE_DG,
-      Bleck.BE_ET,
       Bleck.BE_O2,
       Bleck.BE_SE,
       Bleck.BE_XL
@@ -9315,7 +9486,7 @@ public object PreviewGroups {
       Blow.BLACKTAB8_4G,
       Blow.GPSTAB7_4G,
       Blow.KIDSTAB10_4G_EEA,
-      Blow.KIDSTAB7_EEA,
+      Blow.KIDSTAB7_V2_EEA,
       Blow.LASERTAB10,
       Blow.PLATINUMTAB10,
       Blow.PLATINUMTAB10_4G_V1,
@@ -9335,13 +9506,10 @@ public object PreviewGroups {
       Blu.A0050LL,
       Blu.A230Q,
       Blu.A290Q,
-      Blu.A30,
       Blu.A350,
-      Blu.A350A,
       Blu.A390,
       Blu.A390T,
       Blu.ADVANCE_4_0_L3,
-      Blu.ADVANCE_5_0_HD,
       Blu.B100DL,
       Blu.B110DL,
       Blu.B130DL,
@@ -9352,24 +9520,17 @@ public object PreviewGroups {
       Blu.BLU_ADVANCE_4_0_L2,
       Blu.BLU_DASH_L2,
       Blu.BLU_DASH_M2,
-      Blu.BLU_DASH_X,
       Blu.BLU_DASH_X2,
-      Blu.BLU_DIAMOND_M,
       Blu.BLU_ENERGY_DIAMOND,
       Blu.BLU_ENERGY_X_2,
       Blu.BLU_ENERGY_X_PLUS_2,
       Blu.BLU_ENERGY_XL,
       Blu.BLU_GRAND_5_5_HD,
-      Blu.BLU_GRAND_X_LTE,
       Blu.BLU_LIFE_XL,
       Blu.BLU_PURE_XL,
       Blu.BLU_PURE_XR,
       Blu.BLU_R1_HD,
-      Blu.BLU_STUDIO_C_HD,
-      Blu.BLU_STUDIO_ENERGY_2,
-      Blu.BLU_STUDIO_G,
       Blu.BLU_STUDIO_G2,
-      Blu.BLU_STUDIO_M_HD,
       Blu.BLU_STUDIO_ONE,
       Blu.BLU_STUDIO_SELFIE_2,
       Blu.BLU_STUDIO_TOUCH,
@@ -9378,7 +9539,6 @@ public object PreviewGroups {
       Blu.BLU_VIVO_6,
       Blu.BLU_VIVO_XL,
       Blu.BLU_VIVO_XL2,
-      Blu.C0010LL,
       Blu.C0010TT,
       Blu.C0010UU,
       Blu.C0030,
@@ -9424,18 +9584,14 @@ public object PreviewGroups {
       Blu.C290EQ,
       Blu.D0070WW,
       Blu.D10,
-      Blu.D600,
       Blu.D701,
       Blu.DASH_G,
-      Blu.DASH_X2,
       Blu.DASH_XL,
       Blu.E0010,
       Blu.E20,
-      Blu.ENERGY_DIAMOND_MINI,
       Blu.F0030UU,
       Blu.F0090,
       Blu.G0030,
-      Blu.G0050,
       Blu.G0070WW,
       Blu.G0090,
       Blu.G0130WW,
@@ -9498,7 +9654,9 @@ public object PreviewGroups {
       Blu.G1050,
       Blu.G1070,
       Blu.G1110,
-      Blu.G170Q,
+      Blu.G1130,
+      Blu.G1150,
+      Blu.G1170,
       Blu.G190,
       Blu.G210Q,
       Blu.GRAND_ENERGY,
@@ -9513,6 +9671,7 @@ public object PreviewGroups {
       Blu.J0092WW,
       Blu.J0100,
       Blu.J0110,
+      Blu.J0120,
       Blu.J0140,
       Blu.J0150,
       Blu.J0170,
@@ -9560,7 +9719,6 @@ public object PreviewGroups {
       Blu.M0222_IMT,
       Blu.M0223_ND,
       Blu.M0224,
-      Blu.M030P,
       Blu.N0030WW,
       Blu.N0050UU,
       Blu.N0070,
@@ -9595,7 +9753,6 @@ public object PreviewGroups {
       Blu.S970EQ,
       Blu.S990EQ,
       Blu.STUDIO_G2_HD,
-      Blu.STUDIO_G_HD_LTE,
       Blu.STUDIO_J1,
       Blu.STUDIO_J2,
       Blu.STUDIO_J5,
@@ -9629,7 +9786,9 @@ public object PreviewGroups {
       Blu.V0390WW,
       Blu.VIVO_5_MINI,
       Blu.X0010WW,
-      Blu.X0020
+      Blu.X0020,
+      Blu.X0050,
+      Blu.X0060
   )
 
   /**
@@ -9662,11 +9821,12 @@ public object PreviewGroups {
       Bluebird.EF501,
       Bluebird.EF550,
       Bluebird.EF550R,
-      Bluebird.EF551,
+      Bluebird.EK430,
       Bluebird.HF550,
       Bluebird.RP350,
       Bluebird.RT080,
       Bluebird.RT103,
+      Bluebird.S10,
       Bluebird.S20,
       Bluebird.SF550,
       Bluebird.SF650,
@@ -9681,8 +9841,6 @@ public object PreviewGroups {
    */
   public fun getBluedigitDevices(): List<String> = listOf(
       Bluedigit.RAVOZ_R4,
-      Bluedigit.RAVOZ_R7,
-      Bluedigit.RAVOZ_R8,
       Bluedigit.RAVOZ_R9
   )
 
@@ -9695,6 +9853,14 @@ public object PreviewGroups {
       Bluedot.BNT_802,
       Bluedot.BNT_1012W,
       Bluedot.BNT_801W
+  )
+
+  /**
+   * Get all device specifications for BLUEFOX devices.
+   * Useful for bluefox testing.
+   */
+  public fun getBluefoxDevices(): List<String> = listOf(
+      Bluefox.BLUEFOX
   )
 
   /**
@@ -9730,6 +9896,7 @@ public object PreviewGroups {
       Bmax.I10_PRO_LTE,
       Bmax.I10_PRO_LTE_EEA,
       Bmax.I10_PRO_ROW,
+      Bmax.I10_S,
       Bmax.I10_S_PRO,
       Bmax.I10PRO_LTE,
       Bmax.I10PRO_LTE_EEA,
@@ -9764,17 +9931,12 @@ public object PreviewGroups {
       Bmobile.AX1073PLUSMV18,
       Bmobile.B55,
       Bmobile.B60PRO_MV03,
-      Bmobile.BMOBILE_AX1016,
       Bmobile.BMOBILE_AX1017_MV12,
       Bmobile.BMOBILE_AX1017_TG05,
-      Bmobile.BMOBILE_AX1035,
       Bmobile.BMOBILE_AX1065E,
-      Bmobile.BMOBILE_AX1070,
-      Bmobile.BMOBILE_AX1073,
       Bmobile.BMOBILE_AX1073PLUS,
       Bmobile.BMOBILE_AX1073PLUSW,
       Bmobile.BMOBILE_AX1074,
-      Bmobile.BMOBILE_AX1075,
       Bmobile.BMOBILE_AX1076P_MV03,
       Bmobile.BMOBILE_AX1076P_MV05,
       Bmobile.BMOBILE_AX1076P_MV12,
@@ -9789,32 +9951,24 @@ public object PreviewGroups {
       Bmobile.BMOBILE_AX1078_TG07,
       Bmobile.BMOBILE_AX1078_TG07B,
       Bmobile.BMOBILE_AX1082,
-      Bmobile.BMOBILE_AX1082_MV15,
       Bmobile.BMOBILE_AX680,
       Bmobile.BMOBILE_AX681,
-      Bmobile.BMOBILE_AX683,
-      Bmobile.BMOBILE_AX685,
       Bmobile.BMOBILE_AX687,
       Bmobile.BMOBILE_AX687_MV03,
       Bmobile.BMOBILE_AX688,
-      Bmobile.BMOBILE_AX715,
       Bmobile.BMOBILE_AX751,
       Bmobile.BMOBILE_AX751_PLUS,
       Bmobile.BMOBILE_AX754,
       Bmobile.BMOBILE_AX754PLUS,
       Bmobile.BMOBILE_AX820,
       Bmobile.BMOBILE_AX821,
-      Bmobile.BMOBILE_AX823,
       Bmobile.BMOBILE_AX824_MV03,
-      Bmobile.BMOBILE_AX824A,
       Bmobile.BMOBILE_AX824PLUS_MV03,
       Bmobile.BMOBILE_AX824PLUS_MV15,
-      Bmobile.BMOBILE_AX825,
       Bmobile.BMOBILE_AX830,
       Bmobile.BMOBILE_AX905,
       Bmobile.BMOBILE_AX920,
       Bmobile.BMOBILE_AX921,
-      Bmobile.BMOBILE_AX951,
       Bmobile.BMOBILE_AX960_MV03,
       Bmobile.BMOBILE_AX960_MV15,
       Bmobile.BMOBILE_B50,
@@ -9863,9 +10017,12 @@ public object PreviewGroups {
       Bmobile.BMOBILE_NOVUS65_TG07,
       Bmobile.BMOBILE_NOVUS_65,
       Bmobile.BMOBILE_NOVUS_65_MV03,
+      Bmobile.BMOBILE_ORION_TG05,
+      Bmobile.BMOBILE_ORION_TG07,
       Bmobile.BMOBILE_T70,
       Bmobile.BMOBILE_ULTRA,
       Bmobile.BMOBILE_ULTRA_S_MV03,
+      Bmobile.BMOBILE_VENUS_TG05,
       Bmobile.ULTRA_S
   )
 
@@ -9883,7 +10040,6 @@ public object PreviewGroups {
    */
   public fun getBmxcDevices(): List<String> = listOf(
       Bmxc.BM108,
-      Bmxc.JR_M802,
       Bmxc.K107,
       Bmxc.K107_EEA,
       Bmxc.M107,
@@ -9897,7 +10053,19 @@ public object PreviewGroups {
    */
   public fun getBncfDevices(): List<String> = listOf(
       Bncf.BPAD,
-      Bncf.BPAD_10_4G
+      Bncf.BPAD_1200X1920,
+      Bncf.BPAD_10_4G,
+      Bncf.BPAD_10_SE,
+      Bncf.BPAD_13,
+      Bncf.BPAD_MINI_ULTRA
+  )
+
+  /**
+   * Get all device specifications for BNE devices.
+   * Useful for bne testing.
+   */
+  public fun getBneDevices(): List<String> = listOf(
+      Bne.GCU5AC0D
   )
 
   /**
@@ -9930,6 +10098,7 @@ public object PreviewGroups {
    * Useful for botech testing.
    */
   public fun getBotechDevices(): List<String> = listOf(
+      Botech.ELLINIKO,
       Botech.HND,
       Botech.R1,
       Botech.R2,
@@ -9950,6 +10119,7 @@ public object PreviewGroups {
    * Useful for bouyguestelecom testing.
    */
   public fun getBouyguestelecomDevices(): List<String> = listOf(
+      Bouyguestelecom.HMB2013CW22,
       Bouyguestelecom.HMB4213H,
       Bouyguestelecom.HMB9213NW,
       Bouyguestelecom.UZW4020BYT
@@ -9979,6 +10149,7 @@ public object PreviewGroups {
    * Useful for bpl testing.
    */
   public fun getBplDevices(): List<String> = listOf(
+      Bpl.ALIMOS,
       Bpl.IKEBUKURO,
       Bpl.OD0M_EA_T32,
       Bpl.R4_GTV,
@@ -10073,7 +10244,6 @@ public object PreviewGroups {
       Bqru.BQRU_4030G,
       Bqru.BQRU_4500,
       Bqru.BQRU_4501G,
-      Bqru.BQRU_4583,
       Bqru.BQRU_5000G,
       Bqru.BQRU_5002G,
       Bqru.BQRU_5007L,
@@ -10082,13 +10252,11 @@ public object PreviewGroups {
       Bqru.BQRU_5016G,
       Bqru.BQRU_5031G,
       Bqru.BQRU_5035,
-      Bqru.BQRU_5037,
       Bqru.BQRU_5044,
       Bqru.BQRU_5045L,
       Bqru.BQRU_5047L,
       Bqru.BQRU_5056,
       Bqru.BQRU_5058,
-      Bqru.BQRU_5060,
       Bqru.BQRU_5060L,
       Bqru.BQRU_5060L_9832E,
       Bqru.BQRU_5201,
@@ -10177,8 +10345,6 @@ public object PreviewGroups {
       Bqru.BQRU_5005L,
       Bqru.BQRU_5009L,
       Bqru.BQRU_5012L,
-      Bqru.BQRU_5033,
-      Bqru.BQRU_5057,
       Bqru.BQRU_5059,
       Bqru.BQRU_5504,
       Bqru.BQRU_5510,
@@ -10186,7 +10352,7 @@ public object PreviewGroups {
       Bqru.BQRU_5594,
       Bqru.BQRU_5702,
       Bqru.BQRU_6010G,
-      Bqru.BQRU_6022G,
+      Bqru.BQRU_6022G_480X960,
       Bqru.BQRU_6430L
   )
 
@@ -10196,6 +10362,14 @@ public object PreviewGroups {
    */
   public fun getBraillenoteDevices(): List<String> = listOf(
       Braillenote.GRYPHON
+  )
+
+  /**
+   * Get all device specifications for Brain devices.
+   * Useful for brain testing.
+   */
+  public fun getBrainDevices(): List<String> = listOf(
+      Brain.NATURALAIPHONE
   )
 
   /**
@@ -10222,7 +10396,6 @@ public object PreviewGroups {
       Brandt.B_ONE,
       Brandt.BPRIME,
       Brandt.BPRIMES,
-      Brandt.BSTAR,
       Brandt.BSTAR_PLUS,
       Brandt.OD0M_EA_T32,
       Brandt.R3,
@@ -10261,21 +10434,19 @@ public object PreviewGroups {
    * Useful for bravetechs testing.
    */
   public fun getBravetechsDevices(): List<String> = listOf(
-      Bravetechs.T3_PRO
+      Bravetechs.T3_PRO,
+      Bravetechs.T3MAX,
+      Bravetechs.T3ULTRA
   )
 
   /**
-   * Get all device specifications for BRAVIS devices.
+   * Get all device specifications for bravis devices.
    * Useful for bravis testing.
    */
   public fun getBravisDevices(): List<String> = listOf(
       Bravis.A511_HARMONY,
       Bravis.A512_HARMONY_PRO,
-      Bravis.BRAVIS_A506,
-      Bravis.BRAVIS_X500,
       Bravis.IKEBUKURO,
-      Bravis.N1_570_SPACE,
-      Bravis.N1_550_CRUISER,
       Bravis.NB108,
       Bravis.NB753,
       Bravis.NB76,
@@ -10310,11 +10481,10 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Brigmton devices.
+   * Get all device specifications for BRIGMTON devices.
    * Useful for brigmton testing.
    */
   public fun getBrigmtonDevices(): List<String> = listOf(
-      Brigmton.BTPC_1023OC4G,
       Brigmton.BTPC_1025OC
   )
 
@@ -10397,20 +10567,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for BubblegumB1 devices.
+   * Useful for bubblegumb1 testing.
+   */
+  public fun getBubblegumb1Devices(): List<String> = listOf(
+      Bubblegumb1.B1TEEN
+  )
+
+  /**
    * Get all device specifications for BUDDY_PHONE devices.
    * Useful for buddy_phone testing.
    */
   public fun getBuddyPhoneDevices(): List<String> = listOf(
-      BuddyPhone.BP,
       BuddyPhone.P2
-  )
-
-  /**
-   * Get all device specifications for BUFF devices.
-   * Useful for buff testing.
-   */
-  public fun getBuffDevices(): List<String> = listOf(
-      Buff.X_9_LTEVII_PRO
   )
 
   /**
@@ -10423,10 +10592,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Bundy devices.
+   * Get all device specifications for bundy devices.
    * Useful for bundy testing.
    */
   public fun getBundyDevices(): List<String> = listOf(
+      Bundy.BT7_PRO,
       Bundy.BTOUCH7_PLUS
   )
 
@@ -10437,7 +10607,6 @@ public object PreviewGroups {
   public fun getBushDevices(): List<String> = listOf(
       Bush.AC101BOXV2,
       Bush.AC101BOXV3,
-      Bush.AC80OXV2,
       Bush.BUSH10NOU,
       Bush.EWHA,
       Bush.SINDANG
@@ -10452,11 +10621,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for BWJBSW devices.
-   * Useful for bwjbsw testing.
+   * Get all device specifications for BYD devices.
+   * Useful for byd testing.
    */
-  public fun getBwjbswDevices(): List<String> = listOf(
-      Bwjbsw.KT802_US
+  public fun getBydDevices(): List<String> = listOf(
+      Byd.BYD100F
   )
 
   /**
@@ -10465,7 +10634,8 @@ public object PreviewGroups {
    */
   public fun getByjusDevices(): List<String> = listOf(
       Byjus.LRN10,
-      Byjus.LRNS10GIL0
+      Byjus.LRNS10GIL0,
+      Byjus.LRNS10WIFI
   )
 
   /**
@@ -10475,8 +10645,10 @@ public object PreviewGroups {
   public fun getByybuoDevices(): List<String> = listOf(
       Byybuo.A10_EU,
       Byybuo.A10_L,
+      Byybuo.A10_M_US,
       Byybuo.BYYBUO_SMARTPAD_A10,
       Byybuo.BYYBUO_SMARTPAD_T10,
+      Byybuo.E220_M_US,
       Byybuo.SMARTPAD_A10_EU,
       Byybuo.SMARTPAD_A10_L,
       Byybuo.SMARTPAD_A70W,
@@ -10513,6 +10685,7 @@ public object PreviewGroups {
       Caixun.MARTIN,
       Caixun.NAGATA,
       Caixun.PATRICK,
+      Caixun.SEPOLIA,
       Caixun.TAMACHI,
       Caixun.YEONGDEUNGPO
   )
@@ -10523,6 +10696,14 @@ public object PreviewGroups {
    */
   public fun getCallskyDevices(): List<String> = listOf(
       Callsky.CPAD10
+  )
+
+  /**
+   * Get all device specifications for Callsky-tab devices.
+   * Useful for callsky-tab testing.
+   */
+  public fun getCallskyTabDevices(): List<String> = listOf(
+      CallskyTab.CPAD10
   )
 
   /**
@@ -10575,19 +10756,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Candi devices.
-   * Useful for candi testing.
-   */
-  public fun getCandiDevices(): List<String> = listOf(
-      Candi.BLAZE
-  )
-
-  /**
    * Get all device specifications for CANDY devices.
    * Useful for candy testing.
    */
   public fun getCandyDevices(): List<String> = listOf(
       Candy.BROADWAY,
+      Candy.DETO,
       Candy.DUPONT,
       Candy.HANYANG,
       Candy.JORDAN,
@@ -10673,6 +10847,8 @@ public object PreviewGroups {
       Casper.CASPER_VIA_M3,
       Casper.ELLINIKO,
       Casper.L20,
+      Casper.PAD_H10_PEN,
+      Casper.PAD_H10_PRO,
       Casper.R1,
       Casper.R2,
       Casper.R3,
@@ -10707,6 +10883,7 @@ public object PreviewGroups {
       Casper.VIA_M35,
       Casper.VIA_M4,
       Casper.VIA_M40,
+      Casper.VIA_M45,
       Casper.VIA_P2,
       Casper.VIA_P3,
       Casper.VIA_S,
@@ -10736,7 +10913,7 @@ public object PreviewGroups {
       Cat.CATS40,
       Cat.CATS41,
       Cat.CATS48C,
-      Cat.CATS50,
+      Cat.CATS50C,
       Cat.CATS52,
       Cat.CATS60,
       Cat.CATS61,
@@ -10744,8 +10921,7 @@ public object PreviewGroups {
       Cat.S42,
       Cat.S42G,
       Cat.S62,
-      Cat.S62PRO,
-      Cat.TOUGH
+      Cat.S62PRO
   )
 
   /**
@@ -10860,7 +11036,6 @@ public object PreviewGroups {
    * Useful for cellecor testing.
    */
   public fun getCellecorDevices(): List<String> = listOf(
-      Cellecor.S2,
       Cellecor.S3PRO
   )
 
@@ -10870,8 +11045,6 @@ public object PreviewGroups {
    */
   public fun getCelloDevices(): List<String> = listOf(
       Cello.SADANG,
-      Cello.T1045PC,
-      Cello.T1045PN,
       Cello.TABATA,
       Cello.UENO
   )
@@ -10889,6 +11062,22 @@ public object PreviewGroups {
       Cellution.IRIS,
       Cellution.PADUA,
       Cellution.PADUA_1
+  )
+
+  /**
+   * Get all device specifications for Celtiis devices.
+   * Useful for celtiis testing.
+   */
+  public fun getCeltiisDevices(): List<String> = listOf(
+      Celtiis.H6032
+  )
+
+  /**
+   * Get all device specifications for Centerm devices.
+   * Useful for centerm testing.
+   */
+  public fun getCentermDevices(): List<String> = listOf(
+      Centerm.SMARTPOS
   )
 
   /**
@@ -10914,6 +11103,7 @@ public object PreviewGroups {
       Cepter.CTABERA101,
       Cepter.CTABEVOP12,
       Cepter.CTABNEXUS,
+      Cepter.CTABNEXUS8128,
       Cepter.CTABTERRA128,
       Cepter.CTABTERRA256,
       Cepter.CTABTITAN12,
@@ -10938,6 +11128,7 @@ public object PreviewGroups {
    * Useful for chainway testing.
    */
   public fun getChainwayDevices(): List<String> = listOf(
+      Chainway.C5,
       Chainway.C6000,
       Chainway.C61P,
       Chainway.C66,
@@ -10959,6 +11150,7 @@ public object PreviewGroups {
       Challenger.BARKING,
       Challenger.ELLINIKO,
       Challenger.GANGBYEON,
+      Challenger.JAGALCHI,
       Challenger.LAVENDER,
       Challenger.MOUNTBAKER,
       Challenger.OSAKI,
@@ -10969,14 +11161,6 @@ public object PreviewGroups {
       Challenger.R4_GTV,
       Challenger.STANFORD,
       Challenger.ZHONGSHAN
-  )
-
-  /**
-   * Get all device specifications for Chanbly devices.
-   * Useful for chanbly testing.
-   */
-  public fun getChanblyDevices(): List<String> = listOf(
-      Chanbly.Q7
   )
 
   /**
@@ -11051,65 +11235,48 @@ public object PreviewGroups {
       CherryMobile.A950,
       CherryMobile.AQUA_INFINITY,
       CherryMobile.AQUA_S10,
+      CherryMobile.AQUA_S10_PRO,
+      CherryMobile.AQUA_S10_PRO_5G,
       CherryMobile.AQUA_S9,
+      CherryMobile.AQUA_S9_MAX,
+      CherryMobile.AQUA_SV,
       CherryMobile.AQUA_TAB_ULTRA,
-      CherryMobile.CHERRY_FLARE_S6,
-      CherryMobile.FLARE_A1_ROAM,
       CherryMobile.FLARE_HD_4,
       CherryMobile.FLARE_HD_5,
       CherryMobile.FLARE_J1_LITE,
       CherryMobile.FLARE_J2_MAX,
       CherryMobile.FLARE_J3_LITE,
-      CherryMobile.FLARE_J3_MINI,
       CherryMobile.FLARE_J3S,
-      CherryMobile.FLARE_J5_MINI,
       CherryMobile.FLARE_J6_PLUS,
       CherryMobile.FLARE_J7,
-      CherryMobile.FLARE_J8_LTE,
-      CherryMobile.FLARE_P1_MINI,
       CherryMobile.FLARE_P3_LITE,
-      CherryMobile.FLARE_P3_PLUS,
-      CherryMobile.FLARE_S5,
-      CherryMobile.FLARE_S5_PLUS,
       CherryMobile.FLARE_S7,
+      CherryMobile.FLARE_S7_DELUXE,
       CherryMobile.FLARE_S7_LITE,
       CherryMobile.FLARE_S7_MAX,
       CherryMobile.FLARE_S7_MINI,
       CherryMobile.FLARE_S7_POWER,
       CherryMobile.FLARE_S7_PRIME,
       CherryMobile.FLARE_S8_DELUXE,
+      CherryMobile.FLARE_S8_PRIME,
+      CherryMobile.FLARE_S8_PRO,
       CherryMobile.FLARE_X,
       CherryMobile.FLARE_Y3_MINI,
+      CherryMobile.FLARE_Y6_PRO,
       CherryMobile.FLARE_Y7,
       CherryMobile.FLARE_Y7_LTE,
+      CherryMobile.FLARE_Y7_PRO,
       CherryMobile.H1950,
       CherryMobile.H2050,
       CherryMobile.OMEGA_HD_DUO,
-      CherryMobile.OMEGA_ICON_LITE_2,
       CherryMobile.OMEGA_LITE_3S,
-      CherryMobile.OMEGA_LITE_4,
+      CherryMobile.PULSE,
       CherryMobile.SUPERION_S2,
       CherryMobile.SUPERION_S2_PLUS,
+      CherryMobile.SUPERION_TAB_PRO,
       CherryMobile.X930,
       CherryMobile.X960,
       CherryMobile.X970
-  )
-
-  /**
-   * Get all device specifications for Cherrymobile devices.
-   * Useful for cherrymobile testing.
-   */
-  public fun getCherrymobileDevices(): List<String> = listOf(
-      Cherrymobile.AQUA_S10_PRO,
-      Cherrymobile.AQUA_S10_PRO_5G,
-      Cherrymobile.AQUA_S9_MAX,
-      Cherrymobile.AQUA_SV,
-      Cherrymobile.FLARE_S8_PRIME,
-      Cherrymobile.FLARE_S8_PRO,
-      Cherrymobile.FLARE_Y6_PRO,
-      Cherrymobile.FLARE_Y7_PRO,
-      Cherrymobile.PULSE,
-      Cherrymobile.SUPERION_TAB_PRO
   )
 
   /**
@@ -11133,6 +11300,7 @@ public object PreviewGroups {
    * Useful for chimei testing.
    */
   public fun getChimeiDevices(): List<String> = listOf(
+      Chimei.ELLINIKO,
       Chimei.HONGKONG,
       Chimei.ZHONGSHAN
   )
@@ -11142,6 +11310,9 @@ public object PreviewGroups {
    * Useful for chiq testing.
    */
   public fun getChiqDevices(): List<String> = listOf(
+      Chiq.ALIMOS,
+      Chiq.BRIDGEPORT,
+      Chiq.DANGNI,
       Chiq.DUNDAS,
       Chiq.LONGSHAN,
       Chiq.REDWOOD,
@@ -11178,6 +11349,8 @@ public object PreviewGroups {
    * Useful for chuwi testing.
    */
   public fun getChuwiDevices(): List<String> = listOf(
+      Chuwi.AUPAD,
+      Chuwi.AUPADMINI,
       Chuwi.CH108Q,
       Chuwi.HI10_XPRO,
       Chuwi.HI10_XPRO_PAD,
@@ -11193,7 +11366,7 @@ public object PreviewGroups {
       Chuwi.HIPADPLUS,
       Chuwi.HIPADPRO,
       Chuwi.HIPADX,
-      Chuwi.HIPADX,
+      Chuwi.HIPADX_1200X1920,
       Chuwi.SURPAD
   )
 
@@ -11223,7 +11396,8 @@ public object PreviewGroups {
       Cidea.CM92_EEA,
       Cidea.CM93,
       Cidea.P1100,
-      Cidea.P1150
+      Cidea.P1150,
+      Cidea.R1036
   )
 
   /**
@@ -11253,6 +11427,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for CIMI devices.
+   * Useful for cimi testing.
+   */
+  public fun getCimiDevices(): List<String> = listOf(
+      Cimi.A8
+  )
+
+  /**
    * Get all device specifications for Ciontek devices.
    * Useful for ciontek testing.
    */
@@ -11276,6 +11458,7 @@ public object PreviewGroups {
       Cipherlab.RS31,
       Cipherlab.RS35,
       Cipherlab.RS36,
+      Cipherlab.RS36PLUS,
       Cipherlab.RS38,
       Cipherlab.RS51_HS
   )
@@ -11285,8 +11468,7 @@ public object PreviewGroups {
    * Useful for cisco testing.
    */
   public fun getCiscoDevices(): List<String> = listOf(
-      Cisco._860,
-      Cisco.CP_DX80
+      Cisco._860
   )
 
   /**
@@ -11318,7 +11500,8 @@ public object PreviewGroups {
    * Useful for ckypad testing.
    */
   public fun getCkypadDevices(): List<String> = listOf(
-      Ckypad.CPAD10EEA
+      Ckypad.CPAD10EEA,
+      Ckypad.CTAB14EEA
   )
 
   /**
@@ -11330,19 +11513,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for CLARMIN devices.
-   * Useful for clarmin testing.
-   */
-  public fun getClarminDevices(): List<String> = listOf(
-      Clarmin.CLARMIN_C1
-  )
-
-  /**
    * Get all device specifications for Claro devices.
    * Useful for claro testing.
    */
   public fun getClaroDevices(): List<String> = listOf(
       Claro.B866V2_V1_0_0,
+      Claro.B866VH,
       Claro.CLARO_VSB3918,
       Claro.SEI700CPR,
       Claro.SEI800CCOA,
@@ -11387,7 +11563,6 @@ public object PreviewGroups {
       Clementoni.CLEMPAD_2018,
       Clementoni.CLEMPAD_8,
       Clementoni.CLEMPAD_9,
-      Clementoni.CLEMPHONE_7,
       Clementoni.MFC_2018,
       Clementoni.MFC_7,
       Clementoni.MFC_8,
@@ -11410,15 +11585,8 @@ public object PreviewGroups {
    */
   public fun getClevertouchDevices(): List<String> = listOf(
       Clevertouch.MT9679,
+      Clevertouch.RK3576_U,
       Clevertouch.RK3588_T
-  )
-
-  /**
-   * Get all device specifications for Clickonica_Exclusive devices.
-   * Useful for clickonica_exclusive testing.
-   */
-  public fun getClickonicaExclusiveDevices(): List<String> = listOf(
-      ClickonicaExclusive.ITABX
   )
 
   /**
@@ -11436,14 +11604,6 @@ public object PreviewGroups {
   public fun getClideDevices(): List<String> = listOf(
       Clide.A10A,
       Clide.A10B
-  )
-
-  /**
-   * Get all device specifications for CLIO devices.
-   * Useful for clio testing.
-   */
-  public fun getClioDevices(): List<String> = listOf(
-      Clio.NEO_4_PLUS
   )
 
   /**
@@ -11473,6 +11633,7 @@ public object PreviewGroups {
    * Useful for cloud_mobile testing.
    */
   public fun getCloudMobileDevices(): List<String> = listOf(
+      CloudMobile.MC8B654B,
       CloudMobile.STRATUS_C7,
       CloudMobile.STRATUS_C8,
       CloudMobile.SUNSHINE_T2_ELITE
@@ -11485,10 +11646,16 @@ public object PreviewGroups {
   public fun getCloudfoneDevices(): List<String> = listOf(
       Cloudfone.EXCITE_PRIME_2,
       Cloudfone.GO_SP_2,
-      Cloudfone.NEXT_INFINITY_PLUS,
       Cloudfone.NEXT_INFINITY_PRO,
-      Cloudfone.THRILL_BOOST_2,
-      Cloudfone.THRILL_BOOST_3
+      Cloudfone.THRILL_BOOST_2
+  )
+
+  /**
+   * Get all device specifications for CloudMinds devices.
+   * Useful for cloudminds testing.
+   */
+  public fun getCloudmindsDevices(): List<String> = listOf(
+      Cloudminds.A1_901
   )
 
   /**
@@ -11604,6 +11771,7 @@ public object PreviewGroups {
       Colorroom.C2,
       Colorroom.C20,
       Colorroom.C30_PRO,
+      Colorroom.C30D,
       Colorroom.C3_PRO_EEA,
       Colorroom.C3_PRO_ROW,
       Colorroom.C3_ROW,
@@ -11615,6 +11783,7 @@ public object PreviewGroups {
       Colorroom.E20_ROW,
       Colorroom.E30_PRO,
       Colorroom.E5,
+      Colorroom.E5_EEA,
       Colorroom.K07_PRO_EEA,
       Colorroom.K10,
       Colorroom.K10C,
@@ -11631,10 +11800,7 @@ public object PreviewGroups {
    * Useful for colors testing.
    */
   public fun getColorsDevices(): List<String> = listOf(
-      Colors.P52_PRIDE5C,
-      Colors.P77_PRIDE_1E,
-      Colors.P88_PRIDE_1X,
-      Colors.P95_PRIDE_7S
+      Colors.P52_PRIDE5C
   )
 
   /**
@@ -11659,14 +11825,11 @@ public object PreviewGroups {
    * Useful for comio testing.
    */
   public fun getComioDevices(): List<String> = listOf(
-      Comio.COMIOC1,
-      Comio.COMIOC1PRO,
       Comio.COMIOC2,
       Comio.COMIOC2LITE,
       Comio.COMIOP1,
       Comio.COMIOS1,
-      Comio.COMIOS1LITE,
-      Comio.COMIOX1
+      Comio.COMIOS1LITE
   )
 
   /**
@@ -11678,10 +11841,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Commodore devices.
+   * Useful for commodore testing.
+   */
+  public fun getCommodoreDevices(): List<String> = listOf(
+      Commodore.CTABMAX
+  )
+
+  /**
    * Get all device specifications for Compaq devices.
    * Useful for compaq testing.
    */
   public fun getCompaqDevices(): List<String> = listOf(
+      Compaq.COMPAQ_Q3,
       Compaq.CT201,
       Compaq.CT211,
       Compaq.FIREBALL,
@@ -11693,15 +11865,16 @@ public object PreviewGroups {
       Compaq.Q6,
       Compaq.QT10,
       Compaq.QTAB,
-      Compaq.QTAB,
+      Compaq.QTAB_1200X2000,
       Compaq.QTAB10,
       Compaq.QTAB10_1,
       Compaq.QTAB10_LTE,
       Compaq.QTAB10_PLUS,
       Compaq.QTAB10PLUS,
       Compaq.QTAB8,
-      Compaq.QTAB8,
+      Compaq.QTAB8_800X1280,
       Compaq.QTAB8_LTE,
+      Compaq.QTAB_87,
       Compaq.QTAB_NOTE,
       Compaq.QTABPRO,
       Compaq.R1,
@@ -11724,8 +11897,7 @@ public object PreviewGroups {
    */
   public fun getCompumaxDevices(): List<String> = listOf(
       Compumax.BLUEPAD10,
-      Compumax.COMPUMAX,
-      Compumax.MID1016_MK_64
+      Compumax.COMPUMAX
   )
 
   /**
@@ -11756,6 +11928,7 @@ public object PreviewGroups {
    * Useful for condor testing.
    */
   public fun getCondorDevices(): List<String> = listOf(
+      Condor.ALIMOS,
       Condor.ALLURE_A8_PRO,
       Condor.ALLURE_M1,
       Condor.ALLURE_M1_PLUS,
@@ -11763,6 +11936,7 @@ public object PreviewGroups {
       Condor.ALLURE_M3,
       Condor.ALLURE_M3_LITE,
       Condor.ALLURE_X,
+      Condor.DANGNI,
       Condor.GRIFFE_T1,
       Condor.GRIFFE_T5,
       Condor.GRIFFE_T6,
@@ -11783,10 +11957,13 @@ public object PreviewGroups {
       Condor.NOVA60_I,
       Condor.NOVA_70,
       Condor.NOVA_70I,
+      Condor.NOVA_70PRO,
+      Condor.NOVA_70S,
       Condor.NOVA_70SE,
+      Condor.NOVA_80A,
+      Condor.NOVA_80I,
       Condor.PAM524,
       Condor.PGN409,
-      Condor.PGN511,
       Condor.PGN513,
       Condor.PGN514,
       Condor.PGN515,
@@ -11802,13 +11979,11 @@ public object PreviewGroups {
       Condor.PGN606,
       Condor.PGN607,
       Condor.PGN608,
-      Condor.PGN609,
       Condor.PGN610,
       Condor.PGN611,
       Condor.PGN612,
       Condor.PGN613,
       Condor.PHQ520,
-      Condor.PHQ526,
       Condor.PHS601,
       Condor.PLUME_L1_PLUS,
       Condor.PLUME_L2,
@@ -11836,7 +12011,6 @@ public object PreviewGroups {
       Condor.TB105L,
       Condor.TB108W,
       Condor.TB109L,
-      Condor.TB716,
       Condor.TB717G,
       Condor.TB717L,
       Condor.TB718,
@@ -11865,7 +12039,6 @@ public object PreviewGroups {
    * Useful for conker testing.
    */
   public fun getConkerDevices(): List<String> = listOf(
-      Conker.ST_60,
       Conker.SX50
   )
 
@@ -11887,8 +12060,7 @@ public object PreviewGroups {
       Conquest.CONQUEST_S20,
       Conquest.CONQUEST_S23,
       Conquest.CONQUEST_S16,
-      Conquest.CONQUEST_S20,
-      Conquest.F5,
+      Conquest.CONQUEST_S20_1080X2340,
       Conquest.S12PRO,
       Conquest.S21
   )
@@ -11926,7 +12098,6 @@ public object PreviewGroups {
    */
   public fun getContinentalDevices(): List<String> = listOf(
       Continental.BANGBAE,
-      Continental.CE10412_26,
       Continental.KOMAGOME,
       Continental.TAMACHI,
       Continental.YEONGDEUNGPO
@@ -11960,7 +12131,6 @@ public object PreviewGroups {
    */
   public fun getContixoDevices(): List<String> = listOf(
       Contixo.CONTIXO_V8,
-      Contixo.CONTIXO_V9,
       Contixo.K101A,
       Contixo.K103,
       Contixo.K103A,
@@ -12006,8 +12176,7 @@ public object PreviewGroups {
    */
   public fun getCoolfanDevices(): List<String> = listOf(
       Coolfan.C107,
-      Coolfan.OC106,
-      Coolfan.OC106_EEA
+      Coolfan.OC106
   )
 
   /**
@@ -12015,7 +12184,6 @@ public object PreviewGroups {
    * Useful for coolpad testing.
    */
   public fun getCoolpadDevices(): List<String> = listOf(
-      Coolpad._1821,
       Coolpad._1825_I01,
       Coolpad._1826_I01,
       Coolpad._1901,
@@ -12038,7 +12206,6 @@ public object PreviewGroups {
       Coolpad.COOLPAD5370,
       Coolpad.COOLPAD7295A,
       Coolpad.COOLPAD8737A,
-      Coolpad.COOLPAD_1803,
       Coolpad.COOLPAD_2041,
       Coolpad.COOLPAD_2041_S0,
       Coolpad.COOLPAD_2041_U0,
@@ -12088,7 +12255,6 @@ public object PreviewGroups {
       Coolpad.MOBOK1,
       Coolpad.R108,
       Coolpad.VENTURA,
-      Coolpad.VICTOR,
       Coolpad.X20,
       Coolpad.Y72_921,
       Coolpad.Y91,
@@ -12151,6 +12317,7 @@ public object PreviewGroups {
       Corn.C60,
       Corn.C60_ULTRA,
       Corn.COCO10_ULTRA_4G,
+      Corn.COCO20_ULTRA_4G,
       Corn.CORN_R10,
       Corn.CORN_STAR8,
       Corn.CORN_X5,
@@ -12161,12 +12328,13 @@ public object PreviewGroups {
       Corn.PLAY25_PRO_4G,
       Corn.R10E,
       Corn.R10S,
-      Corn.R20,
       Corn.R40,
       Corn.STAR10_3G,
       Corn.STAR10_PRO,
       Corn.STAR8,
       Corn.STAR8_3G,
+      Corn.STAR9_MAX,
+      Corn.STAR9_PRO,
       Corn.TRONIK_12,
       Corn.TRONIK_12S,
       Corn.TRONIK_13S,
@@ -12216,7 +12384,10 @@ public object PreviewGroups {
    * Useful for cozyla testing.
    */
   public fun getCozylaDevices(): List<String> = listOf(
-      Cozyla.CALENDAR
+      Cozyla.CALENDAR,
+      Cozyla.CALENDAR2_16,
+      Cozyla.CALENDAR2_24,
+      Cozyla.CALENDAR2_32
   )
 
   /**
@@ -12275,6 +12446,7 @@ public object PreviewGroups {
       Cricket.SL101AE,
       Cricket.SL219C,
       Cricket.SN304AE,
+      Cricket.SN333C,
       Cricket.SN509C,
       Cricket.U304AC,
       Cricket.U325AC,
@@ -12292,6 +12464,14 @@ public object PreviewGroups {
    */
   public fun getCristorDevices(): List<String> = listOf(
       Cristor.REDWOOD
+  )
+
+  /**
+   * Get all device specifications for CRONIC devices.
+   * Useful for cronic testing.
+   */
+  public fun getCronicDevices(): List<String> = listOf(
+      Cronic.CT_M11
   )
 
   /**
@@ -12377,7 +12557,6 @@ public object PreviewGroups {
       Ctroniq.CTRONIQ_SNOOK_X10,
       Ctroniq.CTRONIQ_SNOOK_X10L,
       Ctroniq.SNOOK_X10,
-      Ctroniq.SNOOK_X75,
       Ctroniq.SNOOK_X80
   )
 
@@ -12398,6 +12577,7 @@ public object PreviewGroups {
       Cubot.A10,
       Cubot.A20,
       Cubot.A30,
+      Cubot.A40,
       Cubot.C20,
       Cubot.C30,
       Cubot.CUBOT_A5,
@@ -12423,6 +12603,7 @@ public object PreviewGroups {
       Cubot.J8,
       Cubot.KING_KONG_3,
       Cubot.KING_KONG_CS,
+      Cubot.KINGKONG_11,
       Cubot.KINGKONG_5,
       Cubot.KINGKONG_5_PRO,
       Cubot.KINGKONG_6,
@@ -12432,9 +12613,11 @@ public object PreviewGroups {
       Cubot.KINGKONG_ACE_2,
       Cubot.KINGKONG_ACE_3,
       Cubot.KINGKONG_ES,
+      Cubot.KINGKONG_ES_3,
       Cubot.KINGKONG_MINI,
       Cubot.KINGKONG_MINI2,
       Cubot.KINGKONG_MINI2_PRO,
+      Cubot.KINGKONG_MINI_4,
       Cubot.KINGKONG_POWER_3,
       Cubot.KINGKONG_POWER_5,
       Cubot.KINGKONG_STAR,
@@ -12449,6 +12632,7 @@ public object PreviewGroups {
       Cubot.NOTE_30,
       Cubot.NOTE_40,
       Cubot.NOTE_50,
+      Cubot.NOTE_60,
       Cubot.NOTE_7,
       Cubot.NOTE_8,
       Cubot.NOTE_9,
@@ -12457,6 +12641,7 @@ public object PreviewGroups {
       Cubot.P50,
       Cubot.P60,
       Cubot.P80,
+      Cubot.P90,
       Cubot.POCKET,
       Cubot.POCKET_3,
       Cubot.QUEST,
@@ -12471,9 +12656,11 @@ public object PreviewGroups {
       Cubot.TAB_40,
       Cubot.TAB_50,
       Cubot.TAB_60,
+      Cubot.TAB_65,
       Cubot.TAB_70,
       Cubot.TAB_KINGKONG,
       Cubot.TAB_KINGKONG_2,
+      Cubot.X100,
       Cubot.X19,
       Cubot.X19_S,
       Cubot.X20,
@@ -12495,7 +12682,7 @@ public object PreviewGroups {
       Custom.ARES,
       Custom.K_RANGER,
       Custom.P_RANGER,
-      Custom.P_RANGER
+      Custom.P_RANGER_720X1280
   )
 
   /**
@@ -12523,11 +12710,11 @@ public object PreviewGroups {
       Cwowdefu.C18W,
       Cwowdefu.C18W_EEA,
       Cwowdefu.C28,
+      Cwowdefu.C29,
       Cwowdefu.C6,
       Cwowdefu.C73W,
       Cwowdefu.C77W,
       Cwowdefu.C77W_EEA,
-      Cwowdefu.C80W,
       Cwowdefu.C82W,
       Cwowdefu.C82W_EEA,
       Cwowdefu.C84W,
@@ -12553,6 +12740,7 @@ public object PreviewGroups {
       Cwowdefu.P38W_EEA,
       Cwowdefu.P50L_EEA,
       Cwowdefu.P80L,
+      Cwowdefu.P81L,
       Cwowdefu.S18,
       Cwowdefu.S28
   )
@@ -12563,6 +12751,15 @@ public object PreviewGroups {
    */
   public fun getCxDevices(): List<String> = listOf(
       Cx.CX9011
+  )
+
+  /**
+   * Get all device specifications for Cypher devices.
+   * Useful for cypher testing.
+   */
+  public fun getCypherDevices(): List<String> = listOf(
+      Cypher.CYPHER_C10,
+      Cypher.CYPHER_C50
   )
 
   /**
@@ -12609,7 +12806,17 @@ public object PreviewGroups {
    * Useful for dabliu testing.
    */
   public fun getDabliuDevices(): List<String> = listOf(
+      Dabliu.E13R_B75G,
+      Dabliu.E13R_B86G,
       Dabliu.RK3588_E13R
+  )
+
+  /**
+   * Get all device specifications for DADA_BROADBRAND devices.
+   * Useful for dada_broadbrand testing.
+   */
+  public fun getDadaBroadbrandDevices(): List<String> = listOf(
+      DadaBroadbrand.DADA_1319D
   )
 
   /**
@@ -12619,6 +12826,7 @@ public object PreviewGroups {
   public fun getDaewooDevices(): List<String> = listOf(
       Daewoo.BEOMIL,
       Daewoo.DW_TN7RK16,
+      Daewoo.ELEONAS,
       Daewoo.LAVENDER,
       Daewoo.MOUNTBAKER,
       Daewoo.NEON,
@@ -12662,6 +12870,7 @@ public object PreviewGroups {
    * Useful for daiko testing.
    */
   public fun getDaikoDevices(): List<String> = listOf(
+      Daiko.ALIMOS,
       Daiko.OD0M_EA_T32
   )
 
@@ -12672,7 +12881,8 @@ public object PreviewGroups {
   public fun getDaiwaDevices(): List<String> = listOf(
       Daiwa.CAPITOLHILL,
       Daiwa.KEONEAE,
-      Daiwa.LAVENDER
+      Daiwa.LAVENDER,
+      Daiwa.MOUNTBAKER
   )
 
   /**
@@ -12689,12 +12899,20 @@ public object PreviewGroups {
    */
   public fun getDamascoDevices(): List<String> = listOf(
       Damasco.ELLINIKO,
+      Damasco.JAGALCHI,
       Damasco.LAKESIDE,
       Damasco.LAVENDER,
       Damasco.MATEO,
       Damasco.MOUNTBAKER,
       Damasco.NAGAI,
-      Damasco.PIONEER
+      Damasco.PIONEER,
+      Damasco.SERIE_M_100,
+      Damasco.SERIE_M_200,
+      Damasco.SERIE_M_300,
+      Damasco.TAB_T101_4,
+      Damasco.TAB_T104_6,
+      Damasco.TAB_T126_8,
+      Damasco.TAB_T863_3
   )
 
   /**
@@ -12727,7 +12945,6 @@ public object PreviewGroups {
       Danew.DSLIDE_1020M,
       Danew.DSLIDE_1020PRO,
       Danew.DSLIDE_1021,
-      Danew.DSLIDE_1021C,
       Danew.DSLIDE_1095,
       Danew.DSLIDE_113,
       Danew.DSLIDE_114,
@@ -12736,14 +12953,12 @@ public object PreviewGroups {
       Danew.DSLIDE_809PRO,
       Danew.G27,
       Danew.KONNECT402,
-      Danew.KONNECT602,
       Danew.KONNECT_508,
       Danew.KONNECT_509,
       Danew.KONNECT_557,
       Danew.KONNECT_601,
       Danew.KONNECT_607,
-      Danew.KONNECT_608,
-      Danew.T_ONE
+      Danew.KONNECT_608
   )
 
   /**
@@ -12788,8 +13003,10 @@ public object PreviewGroups {
    */
   public fun getDatalogicDevices(): List<String> = listOf(
       Datalogic.DL35,
+      Datalogic.JTA11,
       Datalogic.M11,
       Datalogic.M1_HANDHELD,
+      Datalogic.MK2,
       Datalogic.NEBULA_PDA,
       Datalogic.Q10,
       Datalogic.Q10A,
@@ -12806,6 +13023,7 @@ public object PreviewGroups {
       Datamini.T104G_T610,
       Datamini.T8004G,
       Datamini.T84G,
+      Datamini.T84G_OC,
       Datamini.T84G_T310,
       Datamini.T84G_T310_332,
       Datamini.TPOS74G_IGF720
@@ -12820,11 +13038,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for DATSUN devices.
-   * Useful for datsun testing.
+   * Get all device specifications for Datecs devices.
+   * Useful for datecs testing.
    */
-  public fun getDatsunDevices(): List<String> = listOf(
-      Datsun.DATSUN_D5001
+  public fun getDatecsDevices(): List<String> = listOf(
+      Datecs.BLUECASH_05S
   )
 
   /**
@@ -12875,7 +13093,10 @@ public object PreviewGroups {
       Dcode.DS_CL2_PRO,
       Dcode.DS_CL4,
       Dcode.DS_CL4_LITE,
-      Dcode.DS_CL4_PRO
+      Dcode.DS_CL4_PRO,
+      Dcode.DS_CL_EVO,
+      Dcode.DS_CL_PRIME,
+      Dcode.DS_CL_X
   )
 
   /**
@@ -12918,10 +13139,15 @@ public object PreviewGroups {
    */
   public fun getDeertimeDevices(): List<String> = listOf(
       Deertime.E10_EEA,
+      Deertime.E11_EEA,
       Deertime.E15_EEA,
       Deertime.E15_US,
+      Deertime.E15_V_EEA,
+      Deertime.E15_V_US,
       Deertime.E6_EEA,
       Deertime.E6_US,
+      Deertime.E9_EU,
+      Deertime.E9_W,
       Deertime.E9_EEA,
       Deertime.E9_US
   )
@@ -12940,12 +13166,19 @@ public object PreviewGroups {
    */
   public fun getDellDevices(): List<String> = listOf(
       Dell.BB,
-      Dell.EP,
       Dell.SO,
       Dell.THUNDERBIRD,
       Dell.VENUE7,
       Dell.VENUE8,
       Dell.YELLOWTAIL
+  )
+
+  /**
+   * Get all device specifications for Dengo devices.
+   * Useful for dengo testing.
+   */
+  public fun getDengoDevices(): List<String> = listOf(
+      Dengo.DENGO_D25
   )
 
   /**
@@ -12979,7 +13212,6 @@ public object PreviewGroups {
       Densowave.BHT_1800QWB_1_A7,
       Densowave.BHT_1800QWBG_1_A7,
       Densowave.BHT_M60_QW_A10,
-      Densowave.BHT_M60_QWG_A10,
       Densowave.BHT_M70_QW_A10,
       Densowave.BHT_M70_QWG_A10,
       Densowave.BHT_M80_QW_A10,
@@ -13036,11 +13268,13 @@ public object PreviewGroups {
    * Useful for deutschetelekom testing.
    */
   public fun getDeutschetelekomDevices(): List<String> = listOf(
+      Deutschetelekom.BELUGA,
       Deutschetelekom.CHEETAH,
       Deutschetelekom.HUBBS,
       Deutschetelekom.JAGUAR,
       Deutschetelekom.LEOPARD,
       Deutschetelekom.LION,
+      Deutschetelekom.LYNX,
       Deutschetelekom.PUMA,
       Deutschetelekom.TIGER
   )
@@ -13087,14 +13321,12 @@ public object PreviewGroups {
       Dexp.BL160,
       Dexp.BL250,
       Dexp.BL350,
-      Dexp.BS155,
       Dexp.C18,
       Dexp.C37,
       Dexp.C38,
       Dexp.D11,
       Dexp.D21,
       Dexp.E110,
-      Dexp.E170,
       Dexp.E180,
       Dexp.E210,
       Dexp.EX111,
@@ -13116,12 +13348,12 @@ public object PreviewGroups {
       Dexp.K18,
       Dexp.K21,
       Dexp.K28,
-      Dexp.K28,
+      Dexp.K28_800X1280,
       Dexp.K31,
-      Dexp.K31,
+      Dexp.K31_800X1280,
       Dexp.K38,
       Dexp.K41,
-      Dexp.K41,
+      Dexp.K41_1200X1920,
       Dexp.K48,
       Dexp.K51,
       Dexp.K61,
@@ -13130,7 +13362,6 @@ public object PreviewGroups {
       Dexp.L210,
       Dexp.L270,
       Dexp.L310I,
-      Dexp.L370I,
       Dexp.L470,
       Dexp.M110,
       Dexp.M170,
@@ -13175,8 +13406,6 @@ public object PreviewGroups {
       Dexp.T155,
       Dexp.T21,
       Dexp.VA110,
-      Dexp.VA210,
-      Dexp.XL150,
       Dexp.Z250,
       Dexp.Z455
   )
@@ -13186,8 +13415,7 @@ public object PreviewGroups {
    * Useful for deyi testing.
    */
   public fun getDeyiDevices(): List<String> = listOf(
-      Deyi.DEYI_10M18,
-      Deyi.DEYI10M18A53
+      Deyi.DEYI_10M18
   )
 
   /**
@@ -13205,6 +13433,8 @@ public object PreviewGroups {
   public fun getDghrtiDevices(): List<String> = listOf(
       Dghrti.TAB20_EEA,
       Dghrti.TAB20_US,
+      Dghrti.TAB30_EU,
+      Dghrti.TAB30_W,
       Dghrti.TAB30_EEA,
       Dghrti.TAB30_US,
       Dghrti.TAB50_EEA,
@@ -13224,6 +13454,7 @@ public object PreviewGroups {
    * Useful for dgtec testing.
    */
   public fun getDgtecDevices(): List<String> = listOf(
+      Dgtec._11_INCH_TABLET,
       Dgtec.DG101HSTB,
       Dgtec.DG101SVCB,
       Dgtec.DG101TBLS,
@@ -13251,11 +13482,9 @@ public object PreviewGroups {
       Dialn.X62A,
       Dialn.X62B,
       Dialn.X62C,
-      Dialn.X62S,
       Dialn.X65A,
       Dialn.X65B,
       Dialn.X65C,
-      Dialn.X68B,
       Dialn.X8G,
       Dialn.X8ULTRA
   )
@@ -13265,18 +13494,9 @@ public object PreviewGroups {
    * Useful for dialog testing.
    */
   public fun getDialogDevices(): List<String> = listOf(
-      Dialog.DIALOG_BLAZE_MINI,
       Dialog.DV8829_DIALOG,
       Dialog.N9106H_B_DIALOG,
       Dialog.SEI103
-  )
-
-  /**
-   * Get all device specifications for Dialog-Blaze devices.
-   * Useful for dialog-blaze testing.
-   */
-  public fun getDialogBlazeDevices(): List<String> = listOf(
-      DialogBlaze.M50E_1A
   )
 
   /**
@@ -13389,12 +13609,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Digicom devices.
+   * Useful for digicom testing.
+   */
+  public fun getDigicomDevices(): List<String> = listOf(
+      Digicom.BOLT
+  )
+
+  /**
    * Get all device specifications for DigiDragon devices.
    * Useful for digidragon testing.
    */
   public fun getDigidragonDevices(): List<String> = listOf(
       Digidragon._708Z,
-      Digidragon.DS502,
       Digidragon.DS571,
       Digidragon.DS6018,
       Digidragon.DS6261
@@ -13405,7 +13632,9 @@ public object PreviewGroups {
    * Useful for digiking testing.
    */
   public fun getDigikingDevices(): List<String> = listOf(
+      Digiking.ALIMOS,
       Digiking.CAPITOLHILL,
+      Digiking.DANGNI,
       Digiking.KENTON,
       Digiking.KEONEAE,
       Digiking.LASALLE
@@ -13417,14 +13646,12 @@ public object PreviewGroups {
    */
   public fun getDigilandDevices(): List<String> = listOf(
       Digiland.DL1001,
+      Digiland.DL1036,
       Digiland.DL1050,
       Digiland.DL7006,
-      Digiland.DL721_RB,
       Digiland.DL8006,
       Digiland.DL9002,
-      Digiland.DL9003,
       Digiland.MDT9003,
-      Digiland.MID1008,
       Digiland.MID1008L_EMMC,
       Digiland.MID1016,
       Digiland.MID1016_MA,
@@ -13482,7 +13709,6 @@ public object PreviewGroups {
       Digma.CS3242ML,
       Digma.CS6063ML,
       Digma.CS7113PL,
-      Digma.CS7193MG,
       Digma.CS7204MG,
       Digma.CS7208MG,
       Digma.CS7216MG,
@@ -13496,22 +13722,19 @@ public object PreviewGroups {
       Digma.CS8233MG,
       Digma.CS8268PL,
       Digma.CS8271PL,
+      Digma.DA6B8P02,
       Digma.HT4039PG,
       Digma.HT5035PG,
       Digma.LS4051MG,
-      Digma.LS5040PL,
-      Digma.LS5041PL,
       Digma.LS5053ML,
       Digma.LT4038PG,
       Digma.LT4049PG,
-      Digma.LT4054MG,
       Digma.LT5052ML,
       Digma.NS1800ML,
       Digma.PS1135MG,
       Digma.PS1137MG,
       Digma.PS1150ML,
       Digma.PS1163MG,
-      Digma.PS1164ML,
       Digma.PS1166ML,
       Digma.PS1173PL,
       Digma.PS1185MG,
@@ -13521,15 +13744,11 @@ public object PreviewGroups {
       Digma.PS1213PG,
       Digma.PS7159PG,
       Digma.PS7165MG,
-      Digma.PS7180PG,
-      Digma.PS7191PL,
       Digma.PS7192PL,
       Digma.PS7210PG,
-      Digma.PS8156ML,
       Digma.PS8161PG,
       Digma.PS8162PL,
       Digma.PS8163PL,
-      Digma.PS8181MG,
       Digma.PS8199ML,
       Digma.PS8212PG,
       Digma.PS9146MG,
@@ -13554,7 +13773,6 @@ public object PreviewGroups {
       Digma.TS1269PL,
       Digma.TS1273PL,
       Digma.TS1277ML,
-      Digma.TS7175MG,
       Digma.TS7177MG,
       Digma.TS7179ML,
       Digma.TS7198PG,
@@ -13570,14 +13788,25 @@ public object PreviewGroups {
       Digma.TS8227PL,
       Digma.TS8274AW,
       Digma.TS8275ML,
-      Digma.TT1188PL,
       Digma.TT1192PG,
       Digma.TT1236PG,
       Digma.TT7174PG,
       Digma.TT7223PG,
       Digma.VS5035ML,
-      Digma.VS5036PL,
       Digma.WS1250PL
+  )
+
+  /**
+   * Get all device specifications for DIGMA_PRO devices.
+   * Useful for digma_pro testing.
+   */
+  public fun getDigmaProDevices(): List<String> = listOf(
+      DigmaPro.TA2D1M01,
+      DigmaPro.TA3D1M01,
+      DigmaPro.TA3E1M01,
+      DigmaPro.TA3E2M03,
+      DigmaPro.TA4E1M01,
+      DigmaPro.WAVE_TA2D5P02
   )
 
   /**
@@ -13634,6 +13863,7 @@ public object PreviewGroups {
    */
   public fun getDishtvDevices(): List<String> = listOf(
       Dishtv.SEI110,
+      Dishtv.SMART4K,
       Dishtv.STB
   )
 
@@ -13697,7 +13927,6 @@ public object PreviewGroups {
       Dixon.DN6015,
       Dixon.DN6023D,
       Dixon.DN6901,
-      Dixon.KT5512,
       Dixon.L_5,
       Dixon.L1,
       Dixon.S5790,
@@ -13716,7 +13945,6 @@ public object PreviewGroups {
    */
   public fun getDlDevices(): List<String> = listOf(
       Dl.TABKIDS_PLUS,
-      Dl.TABLET_DL_2810,
       Dl.TABLET_DL_2811,
       Dl.TABLET_DL_2820,
       Dl.TABLET_DL_3721,
@@ -13736,12 +13964,16 @@ public object PreviewGroups {
       Dmoao.D11_EEA,
       Dmoao.D3_EEA,
       Dmoao.D3_US,
+      Dmoao.D3_V_EEA,
+      Dmoao.D3_V_US,
       Dmoao.D5_T_EEA,
       Dmoao.D5_T_US,
       Dmoao.D5_EEA,
       Dmoao.D5_US,
       Dmoao.D6_EEA,
       Dmoao.D6_US,
+      Dmoao.D7_EEA,
+      Dmoao.D7_US,
       Dmoao.DMOAO_D2_EEA,
       Dmoao.DMOAO_D2_US
   )
@@ -13786,7 +14018,6 @@ public object PreviewGroups {
       Docomo.F03G,
       Docomo.F03H,
       Docomo.F03K,
-      Docomo.F04E,
       Docomo.F04G,
       Docomo.F04H,
       Docomo.F04J,
@@ -13795,7 +14026,6 @@ public object PreviewGroups {
       Docomo.F05F,
       Docomo.F05J,
       Docomo.F06E,
-      Docomo.F07E,
       Docomo.F09E,
       Docomo.F10D,
       Docomo.F41A,
@@ -13803,11 +14033,9 @@ public object PreviewGroups {
       Docomo.F51A,
       Docomo.F52A,
       Docomo.JERID,
-      Docomo.N_02E,
       Docomo.N_03E,
       Docomo.N_04E,
       Docomo.N_06E,
-      Docomo.N_07D,
       Docomo.P_01K,
       Docomo.P_02E,
       Docomo.P_03E,
@@ -13850,12 +14078,12 @@ public object PreviewGroups {
       Docomo.SH_53C,
       Docomo.SH_53D,
       Docomo.SH_53E,
+      Docomo.SH_53F,
       Docomo.SH_54B,
       Docomo.SH_54D,
       Docomo.SH_54E,
       Docomo.SH02E,
       Docomo.SH04E,
-      Docomo.SH09D,
       Docomo.SH10D,
       Docomo.SO_01E,
       Docomo.SO_01F,
@@ -13903,6 +14131,7 @@ public object PreviewGroups {
       Docomo.SO_52C,
       Docomo.SO_52D,
       Docomo.SO_52E,
+      Docomo.SO_52F,
       Docomo.SO_53B,
       Docomo.SO_53C,
       Docomo.SO_53D,
@@ -13947,28 +14176,51 @@ public object PreviewGroups {
       Doogee._1918T,
       Doogee._1918Y,
       Doogee._1928,
+      Doogee._1928C,
+      Doogee._1928CT,
+      Doogee._1928CV,
       Doogee._1928P,
       Doogee._1928S,
+      Doogee._1928SC,
+      Doogee._1928SE,
       Doogee._1928Y,
       Doogee._1929C,
       Doogee._1929H,
       Doogee._1929SC,
+      Doogee._1929SH,
       Doogee._1929ST,
       Doogee.BL5000,
       Doogee.BL5500_LITE,
       Doogee.BL7000,
       Doogee.DOOGEE_X10,
+      Doogee.F1_PLUS,
       Doogee.F1C,
+      Doogee.F1C_PRO,
       Doogee.F1CK,
+      Doogee.F1CK_PRO,
       Doogee.F1CT,
+      Doogee.F1CT_PRO,
       Doogee.F1G,
+      Doogee.F1GC,
+      Doogee.F1GT,
       Doogee.F1P,
       Doogee.F1PS,
       Doogee.F1S,
       Doogee.F1SE,
+      Doogee.F1T,
+      Doogee.F1TK,
       Doogee.F2PS,
+      Doogee.G1,
+      Doogee.G1C,
+      Doogee.G1E,
+      Doogee.G1T,
+      Doogee.G1TS,
       Doogee.M19H,
       Doogee.M21,
+      Doogee.M21SC,
+      Doogee.M21SE,
+      Doogee.M21ST,
+      Doogee.M21SU,
       Doogee.M21T,
       Doogee.M21TE,
       Doogee.M21TP,
@@ -13994,7 +14246,10 @@ public object PreviewGroups {
       Doogee.M24CT,
       Doogee.M24P,
       Doogee.M24PS,
+      Doogee.M24PST,
       Doogee.M24PT,
+      Doogee.M24PX,
+      Doogee.M24S,
       Doogee.M24SE,
       Doogee.MIX,
       Doogee.N100,
@@ -14011,6 +14266,7 @@ public object PreviewGroups {
       Doogee.P2D,
       Doogee.P2T,
       Doogee.P2TH,
+      Doogee.P2TU,
       Doogee.P3,
       Doogee.P3_PLUS,
       Doogee.P3C,
@@ -14022,8 +14278,14 @@ public object PreviewGroups {
       Doogee.P3PRO,
       Doogee.P3T,
       Doogee.P4,
+      Doogee.P4S,
+      Doogee.P5C,
       Doogee.P5S,
+      Doogee.P6,
       Doogee.P7,
+      Doogee.P7C,
+      Doogee.P7S,
+      Doogee.P8,
       Doogee.PT1,
       Doogee.PT2,
       Doogee.PT3,
@@ -14032,6 +14294,8 @@ public object PreviewGroups {
       Doogee.RK1S,
       Doogee.RK2,
       Doogee.RK2KID,
+      Doogee.RK5,
+      Doogee.RK5S,
       Doogee.S30,
       Doogee.S35,
       Doogee.S35H,
@@ -14072,7 +14336,11 @@ public object PreviewGroups {
       Doogee.SHOOT_1,
       Doogee.T1,
       Doogee.T2,
+      Doogee.T2C,
+      Doogee.T2CS,
       Doogee.T2U,
+      Doogee.T3,
+      Doogee.T4,
       Doogee.T530_DG_A54,
       Doogee.T591_DGA57_WE,
       Doogee.T596_DG_D5506_X60L,
@@ -14125,17 +14393,9 @@ public object PreviewGroups {
       Doogee.ZN138,
       Doogee.ZN138P,
       Doogee.ZN138PE,
+      Doogee.ZN139T,
       Doogee.ZN140,
       Doogee.ZN140S
-  )
-
-  /**
-   * Get all device specifications for Doppio devices.
-   * Useful for doppio testing.
-   */
-  public fun getDoppioDevices(): List<String> = listOf(
-      Doppio.DOPPIO_SL558,
-      Doppio.U500
   )
 
   /**
@@ -14179,6 +14439,7 @@ public object PreviewGroups {
       DragonTouch.KIDZPAD_Y88X_8,
       DragonTouch.M7,
       DragonTouch.MAX_10,
+      DragonTouch.MAX_10_1200X1920,
       DragonTouch.MAX_10_EEA,
       DragonTouch.NOTEPAD_K10,
       DragonTouch.NOTEPAD102,
@@ -14191,6 +14452,7 @@ public object PreviewGroups {
       DragonTouch.T10M,
       DragonTouch.T12M,
       DragonTouch.T12M_EEA,
+      DragonTouch.TULIP_D210,
       DragonTouch.X10A,
       DragonTouch.X7,
       DragonTouch.Y80,
@@ -14199,13 +14461,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for DragonTouch devices.
-   * Useful for dragontouch testing.
+   * Get all device specifications for Dreame devices.
+   * Useful for dreame testing.
    */
-  public fun getDragontouchDevices(): List<String> = listOf(
-      Dragontouch.MAX_10,
-      Dragontouch.TULIP_D210,
-      Dragontouch.V10
+  public fun getDreameDevices(): List<String> = listOf(
+      Dreame.ANAHEIM,
+      Dreame.BEOMIL,
+      Dreame.ELEONAS
   )
 
   /**
@@ -14223,6 +14485,7 @@ public object PreviewGroups {
   public fun getDreamstarDevices(): List<String> = listOf(
       Dreamstar.MARINA,
       Dreamstar.NAGATA,
+      Dreamstar.SEPOLIA,
       Dreamstar.YYZ
   )
 
@@ -14233,6 +14496,7 @@ public object PreviewGroups {
   public fun getDreamtechDevices(): List<String> = listOf(
       Dreamtech.DTECH10,
       Dreamtech.KIDDOTAB10,
+      Dreamtech.KIDDOTAB8,
       Dreamtech.STARPAD,
       Dreamtech.STARPAD_PLUS,
       Dreamtech.VOLTA_X
@@ -14247,12 +14511,21 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Drei devices.
+   * Useful for drei testing.
+   */
+  public fun getDreiDevices(): List<String> = listOf(
+      Drei.B866VH_HUTCHISON
+  )
+
+  /**
    * Get all device specifications for Droidlogic devices.
    * Useful for droidlogic testing.
    */
   public fun getDroidlogicDevices(): List<String> = listOf(
       Droidlogic.AMPERE,
       Droidlogic.FRANKLIN,
+      Droidlogic.OHM,
       Droidlogic.OPPEN
   )
 
@@ -14287,17 +14560,15 @@ public object PreviewGroups {
    * Useful for dtac testing.
    */
   public fun getDtacDevices(): List<String> = listOf(
-      Dtac.DTACPHONES3,
-      Dtac.DTACPHONET3,
       Dtac.DTACPHONEX3
   )
 
   /**
-   * Get all device specifications for DTV devices.
-   * Useful for dtv testing.
+   * Get all device specifications for DTResearch devices.
+   * Useful for dtresearch testing.
    */
-  public fun getDtvDevices(): List<String> = listOf(
-      Dtv.DIGITAL_LIFE_P3
+  public fun getDtresearchDevices(): List<String> = listOf(
+      Dtresearch.DA300EX
   )
 
   /**
@@ -14335,7 +14606,6 @@ public object PreviewGroups {
       Duoduogo.S7_EEA,
       Duoduogo.S8,
       Duoduogo.TAB_A7,
-      Duoduogo.TAB_S2,
       Duoduogo.TAB_S2_EEA
   )
 
@@ -14365,7 +14635,8 @@ public object PreviewGroups {
    */
   public fun getDwsummusDevices(): List<String> = listOf(
       Dwsummus.MARINA,
-      Dwsummus.SEOCHO
+      Dwsummus.SEOCHO,
+      Dwsummus.SEPOLIA
   )
 
   /**
@@ -14388,12 +14659,14 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Dyon devices.
+   * Get all device specifications for DYON devices.
    * Useful for dyon testing.
    */
   public fun getDyonDevices(): List<String> = listOf(
       Dyon.BANGBAE,
       Dyon.CAPITOLHILL,
+      Dyon.ELLINIKO,
+      Dyon.JAGALCHI,
       Dyon.KEONEAE,
       Dyon.KOMAGOME,
       Dyon.STANFORD,
@@ -14417,18 +14690,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for E-BODA devices.
-   * Useful for e-boda testing.
-   */
-  public fun getEBodaDevices(): List<String> = listOf(
-      EBoda.ECLIPSE_G400M
-  )
-
-  /**
    * Get all device specifications for E-LEAD devices.
    * Useful for e-lead testing.
    */
   public fun getELeadDevices(): List<String> = listOf(
+      ELead._712_TAM1A_RSE,
       ELead.RSE
   )
 
@@ -14437,7 +14703,6 @@ public object PreviewGroups {
    * Useful for e-tel testing.
    */
   public fun getETelDevices(): List<String> = listOf(
-      ETel.E_TEL_I10,
       ETel.E_TEL_I20,
       ETel.E_TEL_Q7,
       ETel.M4
@@ -14510,6 +14775,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for EasyPhone devices.
+   * Useful for easyphone testing.
+   */
+  public fun getEasyphoneDevices(): List<String> = listOf(
+      Easyphone._100
+  )
+
+  /**
    * Get all device specifications for EASYTECK devices.
    * Useful for easyteck testing.
    */
@@ -14534,9 +14807,7 @@ public object PreviewGroups {
   public fun getEchoDevices(): List<String> = listOf(
       Echo.ECHO_FUSION,
       Echo.ECHO_HORIZON_LITE,
-      Echo.ECHO_LOLLY,
       Echo.FEELING,
-      Echo.HOLI,
       Echo.HORIZON_LITE_PLUS,
       Echo.HORIZON_M,
       Echo.LOOK,
@@ -14576,6 +14847,15 @@ public object PreviewGroups {
    */
   public fun getEconnectDevices(): List<String> = listOf(
       Econnect.SQ126G
+  )
+
+  /**
+   * Get all device specifications for ECOPAD devices.
+   * Useful for ecopad testing.
+   */
+  public fun getEcopadDevices(): List<String> = listOf(
+      Ecopad.A30L1,
+      Ecopad.K90
   )
 
   /**
@@ -14626,11 +14906,19 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for EE devices.
+   * Get all device specifications for EDUTAB devices.
+   * Useful for edutab testing.
+   */
+  public fun getEdutabDevices(): List<String> = listOf(
+      Edutab.ELITE_10,
+      Edutab.ELITE_10_PRO
+  )
+
+  /**
+   * Get all device specifications for ee devices.
    * Useful for ee testing.
    */
   public fun getEeDevices(): List<String> = listOf(
-      Ee.HARRIER_MINI,
       Ee.HARRIER_TAB,
       Ee.HAWK_FROM_EE
   )
@@ -14657,7 +14945,6 @@ public object PreviewGroups {
    */
   public fun getEglDevices(): List<String> = listOf(
       Egl.EGL11QF6,
-      Egl.EGL1529I,
       Egl.EGL15QF6,
       Egl.EGLMW1528I
   )
@@ -14711,7 +14998,6 @@ public object PreviewGroups {
    */
   public fun getEkinoxDevices(): List<String> = listOf(
       Ekinox.E6,
-      Ekinox.E8_ULTRA,
       Ekinox.K5
   )
 
@@ -14723,6 +15009,7 @@ public object PreviewGroups {
       Eko.BANGBAE,
       Eko.BRUNO,
       Eko.CAPITOLHILL,
+      Eko.DONGMAE,
       Eko.EXPO,
       Eko.GUANDU,
       Eko.ICN,
@@ -14739,6 +15026,14 @@ public object PreviewGroups {
       Eko.TENNOJI,
       Eko.YEONGDEUNGPO,
       Eko.ZHONGSHAN
+  )
+
+  /**
+   * Get all device specifications for Ekron devices.
+   * Useful for ekron testing.
+   */
+  public fun getEkronDevices(): List<String> = listOf(
+      Ekron.DE_T414
   )
 
   /**
@@ -14763,7 +15058,6 @@ public object PreviewGroups {
    * Useful for el testing.
    */
   public fun getElDevices(): List<String> = listOf(
-      El._6AT,
       El._6CS,
       El.D60_PRO,
       El.D68,
@@ -14840,11 +15134,18 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for elephas devices.
+   * Useful for elephas testing.
+   */
+  public fun getElephasDevices(): List<String> = listOf(
+      Elephas.HIMALAYA
+  )
+
+  /**
    * Get all device specifications for Elephone devices.
    * Useful for elephone testing.
    */
   public fun getElephoneDevices(): List<String> = listOf(
-      Elephone.A3_PRO,
       Elephone.A4,
       Elephone.A4_PRO,
       Elephone.A5,
@@ -14855,7 +15156,6 @@ public object PreviewGroups {
       Elephone.E10_PRO,
       Elephone.ELEPHONE_U,
       Elephone.P11,
-      Elephone.P8_3D,
       Elephone.P8_MAX,
       Elephone.PX,
       Elephone.PX_PRO,
@@ -14901,14 +15201,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Elexus devices.
-   * Useful for elexus testing.
-   */
-  public fun getElexusDevices(): List<String> = listOf(
-      Elexus.G6_PRO
-  )
-
-  /**
    * Get all device specifications for ELINK devices.
    * Useful for elink testing.
    */
@@ -14921,6 +15213,7 @@ public object PreviewGroups {
    * Useful for elisa testing.
    */
   public fun getElisaDevices(): List<String> = listOf(
+      Elisa.HP4AD_ELISA,
       Elisa.STB_ELISA_B866V2F01
   )
 
@@ -14959,8 +15252,10 @@ public object PreviewGroups {
       Elo._15IN_I_SERIES_4_USB_C,
       Elo._15IN_I_SERIES_4_USBC_V,
       Elo._15IN_I_SERIES_4_VALUE,
+      Elo._15IN_I_SERIES_5,
       Elo._22IN_I_SERIES_4,
       Elo._22IN_I_SERIES_4_VALUE,
+      Elo._22IN_I_SERIES_5,
       Elo.BACKPACK_4,
       Elo.BACKPACK_4_VALUE,
       Elo.ELO_I3_10STD,
@@ -14994,10 +15289,7 @@ public object PreviewGroups {
   public fun getEmaticDevices(): List<String> = listOf(
       Ematic.DV8235,
       Ematic.EGQ101,
-      Ematic.EGQ235SK,
-      Ematic.EGQ236BD,
       Ematic.EGQ238BD,
-      Ematic.EGQ239BD,
       Ematic.JETSTREAM,
       Ematic.PBSKD12,
       Ematic.PBSKD7001,
@@ -15005,13 +15297,15 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Emerson devices.
+   * Get all device specifications for EMERSON devices.
    * Useful for emerson testing.
    */
   public fun getEmersonDevices(): List<String> = listOf(
       Emerson.EID_1400,
+      Emerson.EID_1001,
       Emerson.EID_1050,
       Emerson.EID_1061,
+      Emerson.EID_1062,
       Emerson.EID_9000
   )
 
@@ -15033,14 +15327,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for ENDO devices.
-   * Useful for endo testing.
-   */
-  public fun getEndoDevices(): List<String> = listOf(
-      Endo.FX438NA
-  )
-
-  /**
    * Get all device specifications for Energizer devices.
    * Useful for energizer testing.
    */
@@ -15055,11 +15341,12 @@ public object PreviewGroups {
       Energizer.POWERMAXP490S_EU,
       Energizer.POWERMAXP550S,
       Energizer.POWERMAXP600S,
-      Energizer.S550,
       Energizer.U505S,
       Energizer.U506S,
       Energizer.U608S,
       Energizer.U652S,
+      Energizer.U652S_PLUS,
+      Energizer.U683S,
       Energizer.ULTIMATE_U710S
   )
 
@@ -15085,6 +15372,7 @@ public object PreviewGroups {
    * Useful for englaon testing.
    */
   public fun getEnglaonDevices(): List<String> = listOf(
+      Englaon.ELLINIKO,
       Englaon.MOUNTBAKER,
       Englaon.STANFORD
   )
@@ -15107,7 +15395,9 @@ public object PreviewGroups {
    * Useful for enova testing.
    */
   public fun getEnovaDevices(): List<String> = listOf(
+      Enova.E10_VIEW_MAX,
       Enova.ELLINIKO,
+      Enova.JAGALCHI,
       Enova.N10,
       Enova.N50,
       Enova.N51,
@@ -15131,8 +15421,6 @@ public object PreviewGroups {
    * Useful for entity testing.
    */
   public fun getEntityDevices(): List<String> = listOf(
-      Entity.ENT11QF12,
-      Entity.ENT15QF220,
       Entity.ENT75QF620,
       Entity.ENTG1011,
       Entity.ENTITY_G102IN1HARDKB,
@@ -15152,6 +15440,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for ENV devices.
+   * Useful for env testing.
+   */
+  public fun getEnvDevices(): List<String> = listOf(
+      Env.A18,
+      Env.A20,
+      Env.ENV_KIDZ_8,
+      Env.ENV_NOTE_X,
+      Env.ENV_TAB_GO,
+      Env.NOTE_16
+  )
+
+  /**
    * Get all device specifications for EON devices.
    * Useful for eon testing.
    */
@@ -15164,17 +15465,10 @@ public object PreviewGroups {
    * Useful for eon_smart_box testing.
    */
   public fun getEonSmartBoxDevices(): List<String> = listOf(
-      EonSmartBox.DV8519
-  )
-
-  /**
-   * Get all device specifications for EONSmartBox devices.
-   * Useful for eonsmartbox testing.
-   */
-  public fun getEonsmartboxDevices(): List<String> = listOf(
-      Eonsmartbox.CHOTT0102,
-      Eonsmartbox.CHSTB02,
-      Eonsmartbox.KNSTB02
+      EonSmartBox.CHOTT0102,
+      EonSmartBox.CHSTB02,
+      EonSmartBox.DV8519,
+      EonSmartBox.KNSTB02
   )
 
   /**
@@ -15208,16 +15502,11 @@ public object PreviewGroups {
    */
   public fun getEpikoneDevices(): List<String> = listOf(
       Epikone.K406,
-      Epikone.K501,
-      Epikone.K501_PLUS,
       Epikone.K503,
       Epikone.K503HD,
       Epikone.K503S,
       Epikone.K503T,
-      Epikone.K504,
       Epikone.K506,
-      Epikone.K511,
-      Epikone.K536,
       Epikone.K545,
       Epikone.K546,
       Epikone.K600,
@@ -15231,7 +15520,6 @@ public object PreviewGroups {
       Epikone.X515,
       Epikone.X516,
       Epikone.X547,
-      Epikone.X572,
       Epikone.X610,
       Epikone.X618,
       Epikone.X620,
@@ -15247,17 +15535,12 @@ public object PreviewGroups {
       Epson.BUSHI,
       Epson.EMBT4,
       Epson.HIMALAYA,
+      Epson.KASAULI,
+      Epson.KODAIKANAL,
+      Epson.OOTY,
       Epson.STI6200D101,
       Epson.STI6202D101,
       Epson.STI6290D101
-  )
-
-  /**
-   * Get all device specifications for Equator devices.
-   * Useful for equator testing.
-   */
-  public fun getEquatorDevices(): List<String> = listOf(
-      Equator.AXIS
   )
 
   /**
@@ -15275,11 +15558,12 @@ public object PreviewGroups {
   public fun getErgoDevices(): List<String> = listOf(
       Ergo.B501,
       Ergo.B502_BASIC,
+      Ergo.BEOMIL,
       Ergo.BYCULLA,
+      Ergo.ELEONAS,
       Ergo.LONGSHAN,
       Ergo.REDWOOD,
       Ergo.SW6H,
-      Ergo.V540_LEVEL,
       Ergo.V550_VISION,
       Ergo.V551_AURA
   )
@@ -15305,6 +15589,7 @@ public object PreviewGroups {
    * Useful for esley testing.
    */
   public fun getEsleyDevices(): List<String> = listOf(
+      Esley.ELLINIKO,
       Esley.LAVENDER,
       Esley.MOUNTBAKER
   )
@@ -15339,9 +15624,7 @@ public object PreviewGroups {
       Essentielb.R4,
       Essentielb.SMARTTAB1007,
       Essentielb.SMARTTAB1008,
-      Essentielb.SMARTTAB_1004_XS,
-      Essentielb.WOOZE_L,
-      Essentielb.WOOZE_XL
+      Essentielb.WOOZE_L
   )
 
   /**
@@ -15380,6 +15663,8 @@ public object PreviewGroups {
    * Useful for estla testing.
    */
   public fun getEstlaDevices(): List<String> = listOf(
+      Estla.ALIMOS,
+      Estla.DANGNI,
       Estla.LONGSHAN,
       Estla.SINDORIM
   )
@@ -15420,6 +15705,8 @@ public object PreviewGroups {
   public fun getEtelpremiumDevices(): List<String> = listOf(
       Etelpremium.E26,
       Etelpremium.E65,
+      Etelpremium.ETEL_E27,
+      Etelpremium.ETEL_P68,
       Etelpremium.NOTE_25_ULTRA
   )
 
@@ -15461,18 +15748,20 @@ public object PreviewGroups {
    * Useful for etoe testing.
    */
   public fun getEtoeDevices(): List<String> = listOf(
+      Etoe.HIMALAYA,
       Etoe.XNA,
       Etoe.YUL
   )
 
   /**
-   * Get all device specifications for Eudora devices.
+   * Get all device specifications for EUDORA devices.
    * Useful for eudora testing.
    */
   public fun getEudoraDevices(): List<String> = listOf(
       Eudora.E10PRO,
       Eudora.E62PLUS,
-      Eudora.E65PRO
+      Eudora.E65PRO,
+      Eudora.EUDORA_E55_PLUS
   )
 
   /**
@@ -15491,10 +15780,7 @@ public object PreviewGroups {
    * Useful for evercoss testing.
    */
   public fun getEvercossDevices(): List<String> = listOf(
-      Evercoss.AT8B,
-      Evercoss.EVERCOSS_A75B,
       Evercoss.EVERCOSS_M40A,
-      Evercoss.EVERCOSS_M50_MAX,
       Evercoss.EVERCOSS_M50_STAR,
       Evercoss.EVERCOSS_M80,
       Evercoss.EVERCOSS_S45,
@@ -15518,13 +15804,8 @@ public object PreviewGroups {
       Evercoss.S55A,
       Evercoss.S55B,
       Evercoss.S6,
-      Evercoss.U50A,
       Evercoss.U50A_MAX,
-      Evercoss.U50A_PLUS,
-      Evercoss.U50C,
-      Evercoss.U55,
       Evercoss.U6B,
-      Evercoss.U6C,
       Evercoss.U70B,
       Evercoss.U70C,
       Evercoss.X7,
@@ -15540,14 +15821,6 @@ public object PreviewGroups {
       EverestEverpad.MID1032_MK,
       EverestEverpad.MID7015_MK,
       EverestEverpad.MID7015A_MK
-  )
-
-  /**
-   * Get all device specifications for Everex devices.
-   * Useful for everex testing.
-   */
-  public fun getEverexDevices(): List<String> = listOf(
-      Everex.FINE_7B
   )
 
   /**
@@ -15572,7 +15845,6 @@ public object PreviewGroups {
   public fun getEverpadDevices(): List<String> = listOf(
       Everpad.EVERPAD_EW2021,
       Everpad.EW2010,
-      Everpad.EW2020,
       Everpad.EW2022,
       Everpad.VORTEX_V10
   )
@@ -15595,18 +15867,15 @@ public object PreviewGroups {
       Evertek.M20_MINI,
       Evertek.M20_NANO,
       Evertek.M20_PRO,
-      Evertek.M20_PRO,
+      Evertek.M20_PRO_720X1560,
       Evertek.M20_S,
       Evertek.P17,
       Evertek.P17_PRO,
       Evertek.P18_PRO,
-      Evertek.V4,
       Evertek.V4_NANO,
       Evertek.V5,
       Evertek.V5_NANO,
-      Evertek.V5_PLUS,
-      Evertek.V8,
-      Evertek.V9_PLUS
+      Evertek.V8
   )
 
   /**
@@ -15614,8 +15883,7 @@ public object PreviewGroups {
    * Useful for everyphone testing.
    */
   public fun getEveryphoneDevices(): List<String> = listOf(
-      Everyphone.EP172BZ,
-      Everyphone.EP172PR
+      Everyphone.EP172BZ
   )
 
   /**
@@ -15647,6 +15915,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Evolute devices.
+   * Useful for evolute testing.
+   */
+  public fun getEvoluteDevices(): List<String> = listOf(
+      Evolute.EM61
+  )
+
+  /**
    * Get all device specifications for EVOLVEO devices.
    * Useful for evolveo testing.
    */
@@ -15667,8 +15943,7 @@ public object PreviewGroups {
       Evoo.EV_A_101_3,
       Evoo.EV_A_116_1,
       Evoo.EV_A_133_1,
-      Evoo.EV_A_156_1,
-      Evoo.EVMFV2
+      Evoo.EV_A_156_1
   )
 
   /**
@@ -15722,11 +15997,11 @@ public object PreviewGroups {
    * Useful for exceed testing.
    */
   public fun getExceedDevices(): List<String> = listOf(
+      Exceed.E10G21,
       Exceed.E10G22,
       Exceed.E10W10,
       Exceed.EX10S10,
       Exceed.EX10S4,
-      Exceed.EX7S4,
       Exceed.EX7SL4,
       Exceed.EX7W1S,
       Exceed.EX7W4,
@@ -15766,8 +16041,8 @@ public object PreviewGroups {
   public fun getExoDevices(): List<String> = listOf(
       Exo.EXO_WAVE_I716,
       Exo.EXO_WAVE_I726,
+      Exo.I101GMC,
       Exo.WAVE_I007KIDS,
-      Exo.WAVE_I007T,
       Exo.WAVE_I101G,
       Exo.WAVE_I101MC,
       Exo.WAVE_I101T4,
@@ -15811,18 +16086,9 @@ public object PreviewGroups {
    */
   public fun getF2Devices(): List<String> = listOf(
       F2.C8FINGER,
-      F2.F80S_PLUS,
+      F2.I8_PRO,
       F2.I8_ROKR,
-      F2.LT5216,
       F2.Z8POCKET
-  )
-
-  /**
-   * Get all device specifications for F2Mobile devices.
-   * Useful for f2mobile testing.
-   */
-  public fun getF2mobileDevices(): List<String> = listOf(
-      F2mobile.LT18
   )
 
   /**
@@ -15830,9 +16096,14 @@ public object PreviewGroups {
    * Useful for f-plus testing.
    */
   public fun getFPlusDevices(): List<String> = listOf(
+      FPlus.H166,
+      FPlus.LIFETABPLUS,
+      FPlus.P670,
       FPlus.R570E,
+      FPlus.RT800,
       FPlus.SA50_21620,
       FPlus.SA55_21624,
+      FPlus.SA70,
       FPlus.SH60_23230,
       FPlus.SH65_23248,
       FPlus.SP65_66440,
@@ -15889,6 +16160,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for FALCON devices.
+   * Useful for falcon testing.
+   */
+  public fun getFalconDevices(): List<String> = listOf(
+      Falcon.AT16RT4F_FALCON
+  )
+
+  /**
    * Get all device specifications for FAMIX devices.
    * Useful for famix testing.
    */
@@ -15904,9 +16183,15 @@ public object PreviewGroups {
   public fun getFamousFonesDevices(): List<String> = listOf(
       FamousFones.FAMOUS_5,
       FamousFones.FAMOUS_5PLUS,
-      FamousFones.FAMOUS_RED_5PLUS,
-      FamousFones.FAMOUS_TAB_10,
-      FamousFones.RED_ROYAL_EDITION
+      FamousFones.FAMOUS_TAB_10
+  )
+
+  /**
+   * Get all device specifications for Fanconn devices.
+   * Useful for fanconn testing.
+   */
+  public fun getFanconnDevices(): List<String> = listOf(
+      Fanconn.GMJ
   )
 
   /**
@@ -15939,15 +16224,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for FAREASTONE devices.
-   * Useful for fareastone testing.
-   */
-  public fun getFareastoneDevices(): List<String> = listOf(
-      Fareastone.SMART509,
-      Fareastone.SMART550
-  )
-
-  /**
    * Get all device specifications for FASTLIFE devices.
    * Useful for fastlife testing.
    */
@@ -15960,7 +16236,8 @@ public object PreviewGroups {
    * Useful for fastway testing.
    */
   public fun getFastwayDevices(): List<String> = listOf(
-      Fastway.DV8545_C_KIF
+      Fastway.DV8545_C_KIF,
+      Fastway.FW_SMART_4K_BOX
   )
 
   /**
@@ -15972,8 +16249,10 @@ public object PreviewGroups {
       Fastwd.L231_EEA,
       Fastwd.L251_EEA,
       Fastwd.M109_EEA,
+      Fastwd.M193_EEA,
       Fastwd.M20L,
-      Fastwd.M518_EEA
+      Fastwd.M518_EEA,
+      Fastwd.M986_EEA
   )
 
   /**
@@ -16033,7 +16312,8 @@ public object PreviewGroups {
    * Useful for feitian testing.
    */
   public fun getFeitianDevices(): List<String> = listOf(
-      Feitian.F100
+      Feitian.F100,
+      Feitian.F310P
   )
 
   /**
@@ -16070,7 +16350,6 @@ public object PreviewGroups {
    * Useful for fero testing.
    */
   public fun getFeroDevices(): List<String> = listOf(
-      Fero.A4001_PLUS_2019,
       Fero.A5003_512,
       Fero.ROYALE_X2
   )
@@ -16083,7 +16362,11 @@ public object PreviewGroups {
       Fezawio.F10_EEA,
       Fezawio.F10_US,
       Fezawio.F11_EEA,
-      Fezawio.F11_US
+      Fezawio.F11_US,
+      Fezawio.F11_V_EEA,
+      Fezawio.F11_V_US,
+      Fezawio.F12_EEA,
+      Fezawio.F12_US
   )
 
   /**
@@ -16137,10 +16420,8 @@ public object PreviewGroups {
    * Useful for figi testing.
    */
   public fun getFigiDevices(): List<String> = listOf(
-      Figi.FJ,
       Figi.FX,
       Figi.G6,
-      Figi.MTWO,
       Figi.NOTE_11_PRO,
       Figi.NOTE_1_LITE,
       Figi.NOTE_1C,
@@ -16154,7 +16435,6 @@ public object PreviewGroups {
    * Useful for figo testing.
    */
   public fun getFigoDevices(): List<String> = listOf(
-      Figo.ORBIT_LL,
       Figo.TELECELL
   )
 
@@ -16163,7 +16443,8 @@ public object PreviewGroups {
    * Useful for firefly_mobile testing.
    */
   public fun getFireflyMobileDevices(): List<String> = listOf(
-      FireflyMobile.INTENSE_XT
+      FireflyMobile.INTENSE_XT,
+      FireflyMobile.VIVID_PRO
   )
 
   /**
@@ -16171,8 +16452,8 @@ public object PreviewGroups {
    * Useful for firehawk testing.
    */
   public fun getFirehawkDevices(): List<String> = listOf(
-      Firehawk.FP_600,
-      Firehawk.TOUGHDROID
+      Firehawk.TOUGHDROID,
+      Firehawk.TOUGHDROID_PRO
   )
 
   /**
@@ -16238,6 +16519,7 @@ public object PreviewGroups {
    */
   public fun getFlowDevices(): List<String> = listOf(
       Flow.B866V2F_FLOW,
+      Flow.B866V6N_FLOW,
       Flow.HP40A2,
       Flow.HP44H,
       Flow.M250_T,
@@ -16260,16 +16542,11 @@ public object PreviewGroups {
   public fun getFlyDevices(): List<String> = listOf(
       Fly.CIRRUS_13,
       Fly.CIRRUS_2,
-      Fly.CIRRUS_3,
       Fly.CIRRUS_4,
       Fly.COMPACT_4G,
       Fly.FLYLIFE_CONNECT_101_3G_2,
-      Fly.IQ4514_QUAD,
-      Fly.IQ456,
-      Fly.NIMBUS_16,
       Fly.NIMBUS_8,
       Fly.NIMBUS_9,
-      Fly.SLIMLINE,
       Fly.STRATUS_6,
       Fly.VIEWMAX
   )
@@ -16283,11 +16560,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for FMC devices.
-   * Useful for fmc testing.
+   * Get all device specifications for FLYCOAY devices.
+   * Useful for flycoay testing.
    */
-  public fun getFmcDevices(): List<String> = listOf(
-      Fmc.BELFORD
+  public fun getFlycoayDevices(): List<String> = listOf(
+      Flycoay.M602_EEA
   )
 
   /**
@@ -16350,11 +16627,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for ForcePro devices.
+   * Useful for forcepro testing.
+   */
+  public fun getForceproDevices(): List<String> = listOf(
+      Forcepro.SEI800EV
+  )
+
+  /**
    * Get all device specifications for FORCO devices.
    * Useful for forco testing.
    */
   public fun getForcoDevices(): List<String> = listOf(
-      Forco.K1028G
+      Forco.K1028G,
+      Forco.K8T
   )
 
   /**
@@ -16388,15 +16674,20 @@ public object PreviewGroups {
   public fun getFossibotDevices(): List<String> = listOf(
       Fossibot.DT1_LITE,
       Fossibot.DT2,
+      Fossibot.DT3,
       Fossibot.F101,
       Fossibot.F101_P,
       Fossibot.F101_PRO,
       Fossibot.F102,
       Fossibot.F105,
       Fossibot.F106_PRO,
+      Fossibot.F107_PRO,
       Fossibot.F109,
       Fossibot.F109_S,
+      Fossibot.F110L,
       Fossibot.F112_PRO,
+      Fossibot.F113,
+      Fossibot.F114,
       Fossibot.FOSSIBOT_S2,
       Fossibot.S1,
       Fossibot.S3_PRO,
@@ -16427,7 +16718,6 @@ public object PreviewGroups {
    * Useful for four testing.
    */
   public fun getFourDevices(): List<String> = listOf(
-      Four.S186_SKY_3,
       Four.S750
   )
 
@@ -16462,6 +16752,8 @@ public object PreviewGroups {
    */
   public fun getFoxxDevices(): List<String> = listOf(
       Foxx.A55AM,
+      Foxx.A65S,
+      Foxx.A67M,
       Foxx.V8
   )
 
@@ -16475,13 +16767,17 @@ public object PreviewGroups {
       Foxxd.A551,
       Foxxd.A56,
       Foxxd.A5PRO,
-      Foxxd.A62,
       Foxxd.A65,
       Foxxd.A65L,
       Foxxd.A65PLUS,
+      Foxxd.A65U,
       Foxxd.A67L,
+      Foxxd.A67U,
+      Foxxd.A67W,
+      Foxxd.A67W_LITE,
       Foxxd.AS65U,
       Foxxd.C10,
+      Foxxd.C10_PRO,
       Foxxd.FOXXD_C65,
       Foxxd.HTH_C67,
       Foxxd.HTH_S67,
@@ -16499,23 +16795,15 @@ public object PreviewGroups {
    * Useful for fpd testing.
    */
   public fun getFpdDevices(): List<String> = listOf(
+      Fpd.CP08_J1,
+      Fpd.CP11_J1,
       Fpd.ELLINIKO,
       Fpd.HONGKONG,
       Fpd.KAPELLEN,
       Fpd.KHARDI,
       Fpd.LAVENDER,
+      Fpd.MINAMI,
       Fpd.MOUNTBAKER
-  )
-
-  /**
-   * Get all device specifications for Fplus devices.
-   * Useful for fplus testing.
-   */
-  public fun getFplusDevices(): List<String> = listOf(
-      Fplus.H166,
-      Fplus.LIFETABPLUS,
-      Fplus.P670,
-      Fplus.SA70
   )
 
   /**
@@ -16523,6 +16811,7 @@ public object PreviewGroups {
    * Useful for fps testing.
    */
   public fun getFpsDevices(): List<String> = listOf(
+      Fps.ELLINIKO,
       Fps.HONGKONG
   )
 
@@ -16575,6 +16864,7 @@ public object PreviewGroups {
    * Useful for freeski testing.
    */
   public fun getFreeskiDevices(): List<String> = listOf(
+      Freeski.C109,
       Freeski.C12
   )
 
@@ -16590,13 +16880,10 @@ public object PreviewGroups {
       Freetel.FTJ152D,
       Freetel.FTJ161A,
       Freetel.FTJ161B,
-      Freetel.FTU161G,
-      Freetel.ICE2,
       Freetel.PRIORI4,
       Freetel.PRIORI5,
       Freetel.RAIJIN,
       Freetel.SAKURA_FTE1,
-      Freetel.SAMURAI_KIWAMI2,
       Freetel.SAMURAI_REI2
   )
 
@@ -16620,6 +16907,7 @@ public object PreviewGroups {
    * Useful for fresh testing.
    */
   public fun getFreshDevices(): List<String> = listOf(
+      Fresh.DANGNI,
       Fresh.R3_GTV,
       Fresh.SHINAGAWA,
       Fresh.SW4H
@@ -16641,7 +16929,8 @@ public object PreviewGroups {
    */
   public fun getFuegoDevices(): List<String> = listOf(
       Fuego.MARINA,
-      Fuego.NAGATA
+      Fuego.NAGATA,
+      Fuego.SEPOLIA
   )
 
   /**
@@ -16662,7 +16951,7 @@ public object PreviewGroups {
       Fujitsu.M357,
       Fujitsu.M555,
       Fujitsu.MX532,
-      Fujitsu.PATIO600,
+      Fujitsu.RK3588_T,
       Fujitsu.TONEM17,
       Fujitsu.YM901FJ
   )
@@ -16701,7 +16990,6 @@ public object PreviewGroups {
    * Useful for fusion5 testing.
    */
   public fun getFusion5Devices(): List<String> = listOf(
-      Fusion5.F104BV2_EEA,
       Fusion5.F104BV2_PRO,
       Fusion5.F104BVII_PRO,
       Fusion5.F104EV2,
@@ -16717,7 +17005,6 @@ public object PreviewGroups {
       Fusion5.F202_UK,
       Fusion5.F202_US,
       Fusion5.F202_V2_EEA,
-      Fusion5.F704BV2,
       Fusion5.FUSION5_F104BV2,
       Fusion5.FUSION5_F104E,
       Fusion5.FUSION5_F105D
@@ -16760,9 +17047,13 @@ public object PreviewGroups {
    * Useful for g-guard testing.
    */
   public fun getGGuardDevices(): List<String> = listOf(
+      GGuard.ALIMOS,
+      GGuard.DANGNI,
       GGuard.HAMAMATSUCHO,
       GGuard.R3_GTV,
       GGuard.R4_GTV,
+      GGuard.SHIBUYA,
+      GGuard.SW4H,
       GGuard.VILEPARLE,
       GGuard.XIAOYUSHAN
   )
@@ -16776,8 +17067,7 @@ public object PreviewGroups {
       GMee.CONNECTPRO,
       GMee.CONNECTPRO_L,
       GMee.G_MEE1,
-      GMee.G_MEE_PLAY_PRO,
-      GMee.PLAY2
+      GMee.G_MEE_PLAY_PRO
   )
 
   /**
@@ -16804,6 +17094,7 @@ public object PreviewGroups {
       GTab.F8X,
       GTab.G5,
       GTab.G9,
+      GTab.G9_1,
       GTab.N271,
       GTab.N28,
       GTab.N281,
@@ -16811,16 +17102,14 @@ public object PreviewGroups {
       GTab.P733,
       GTab.PAD10,
       GTab.PAD10_PRO,
+      GTab.PAD11,
       GTab.Q2,
-      GTab.Q2S,
-      GTab.Q3,
       GTab.Q4,
       GTab.Q5,
       GTab.Q6,
       GTab.S10,
       GTab.S12,
       GTab.S20,
-      GTab.S3,
       GTab.S30,
       GTab.S30_1,
       GTab.S40,
@@ -16837,7 +17126,8 @@ public object PreviewGroups {
       GTab.T8_1,
       GTab.T8S_1,
       GTab.T9_1,
-      GTab.TABLET
+      GTab.TABLET,
+      GTab.X
   )
 
   /**
@@ -16872,10 +17162,7 @@ public object PreviewGroups {
    */
   public fun getGTouchDevices(): List<String> = listOf(
       GTouch.SPEED_2021,
-      GTouch.STELLA_OMEGA,
-      GTouch.STELLA_OMEGA_PLUS,
-      GTouch.STELLA_X_PLUS,
-      GTouch.STELLA_XS
+      GTouch.STELLA_OMEGA
   )
 
   /**
@@ -16934,7 +17221,9 @@ public object PreviewGroups {
    */
   public fun getGdlDevices(): List<String> = listOf(
       Gdl.G200,
+      Gdl.GIGAX_Y10,
       Gdl.GIGAX_Y21,
+      Gdl.Y11,
       Gdl.Y30
   )
 
@@ -17012,6 +17301,7 @@ public object PreviewGroups {
    * Useful for general_luxe testing.
    */
   public fun getGeneralLuxeDevices(): List<String> = listOf(
+      GeneralLuxe.F35,
       GeneralLuxe.SHAHIN_III
   )
 
@@ -17075,6 +17365,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Gertec devices.
+   * Useful for gertec testing.
+   */
+  public fun getGertecDevices(): List<String> = listOf(
+      Gertec.SK_210
+  )
+
+  /**
    * Get all device specifications for Geshem devices.
    * Useful for geshem testing.
    */
@@ -17101,6 +17399,7 @@ public object PreviewGroups {
    */
   public fun getGetacDevices(): List<String> = listOf(
       Getac.ZX10,
+      Getac.ZX10G2,
       Getac.ZX70,
       Getac.ZX70G2,
       Getac.ZX80
@@ -17119,6 +17418,7 @@ public object PreviewGroups {
    * Useful for gevo testing.
    */
   public fun getGevoDevices(): List<String> = listOf(
+      Gevo.E10,
       Gevo.GEVO_V10,
       Gevo.V20
   )
@@ -17137,19 +17437,12 @@ public object PreviewGroups {
    */
   public fun getGfiveDevices(): List<String> = listOf(
       Gfive.GPAD702,
+      Gfive.NOTE_25,
+      Gfive.NOTE_25_ULTRA,
       Gfive.PRESIDENT_GOLD_10,
       Gfive.PRESIDENT_GOLD_9,
-      Gfive.SPEEDO_1,
+      Gfive.PRO_16,
       Gfive.STARK
-  )
-
-  /**
-   * Get all device specifications for GGuard devices.
-   * Useful for gguard testing.
-   */
-  public fun getGguardDevices(): List<String> = listOf(
-      Gguard.SHIBUYA,
-      Gguard.SW4H
   )
 
   /**
@@ -17157,26 +17450,27 @@ public object PreviewGroups {
    * Useful for ghia testing.
    */
   public fun getGhiaDevices(): List<String> = listOf(
-      Ghia.A7_3G,
       Ghia.A7_WF,
       Ghia.GA7133,
       Ghia.GA8N,
       Ghia.GA8N2,
-      Ghia.GHIA_A1,
-      Ghia.GHIA_A7,
       Ghia.GHIA_AXIS7,
       Ghia.GHIA_AXIS7P,
-      Ghia.GHIA_L1,
       Ghia.GHIA_VECTOR_3G,
       Ghia.GK133,
       Ghia.GK133M24,
       Ghia.GK133M3,
       Ghia.GK133N3,
       Ghia.GK133P24,
+      Ghia.GK133S24,
       Ghia.GK133S3,
       Ghia.GK133T3,
+      Ghia.GK133U24,
       Ghia.GK133V3,
+      Ghia.GK333P25,
       Ghia.GK523A24,
+      Ghia.GK537,
+      Ghia.GP333,
       Ghia.GPND133,
       Ghia.GPND133V4,
       Ghia.GRINV1,
@@ -17184,8 +17478,6 @@ public object PreviewGroups {
       Ghia.GTA7PLUS,
       Ghia.GTA7WF,
       Ghia.GTAB718,
-      Ghia.GTABKIDS,
-      Ghia.GTABPND,
       Ghia.GTKIDS7_100,
       Ghia.GTKIDS7A,
       Ghia.GTKIDS7B,
@@ -17198,7 +17490,6 @@ public object PreviewGroups {
       Ghia.GVPNT,
       Ghia.N2,
       Ghia.STANFORD,
-      Ghia.TREO_TAB8G,
       Ghia.VECTOR10_1,
       Ghia.VECTOR_3G,
       Ghia.VECTOR_SLIM,
@@ -17230,6 +17521,7 @@ public object PreviewGroups {
       Gigaset.GIGASET_GS270,
       Gigaset.GIGASET_GS270_PLUS,
       Gigaset.GIGASET_GS4,
+      Gigaset.GP20,
       Gigaset.GS100,
       Gigaset.GS110,
       Gigaset.GS160,
@@ -17246,6 +17538,7 @@ public object PreviewGroups {
       Gigaset.GS5,
       Gigaset.GS5_LITE,
       Gigaset.GS5_SENIOR,
+      Gigaset.GS6_VENUS,
       Gigaset.GS80,
       Gigaset.GX290,
       Gigaset.GX4,
@@ -17273,8 +17566,7 @@ public object PreviewGroups {
    * Useful for ginzzu testing.
    */
   public fun getGinzzuDevices(): List<String> = listOf(
-      Ginzzu.RS8502,
-      Ginzzu.RS9602
+      Ginzzu.RS8502
   )
 
   /**
@@ -17339,14 +17631,11 @@ public object PreviewGroups {
       Gionee.GIONEE_SWW1631,
       Gionee.GIONEE_WBL5708,
       Gionee.GIONEE_WBL7352,
-      Gionee.GIONEE_WBL7361,
       Gionee.GIONEE_WBL7365,
       Gionee.GIONEE_WBL7372,
       Gionee.GIONEE_WBL7511,
       Gionee.GIONEE_WBL7517,
       Gionee.GIONEE_WBL7519,
-      Gionee.GIONEE_WBW5612,
-      Gionee.GIONEE_WBW5613,
       Gionee.GIONEE_WBW5615,
       Gionee.GIONEE_WBW5616,
       Gionee.GIONEE_WBW5617,
@@ -17359,10 +17648,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for GLADWIN devices.
+   * Useful for gladwin testing.
+   */
+  public fun getGladwinDevices(): List<String> = listOf(
+      Gladwin.GLADWIN101,
+      Gladwin.MENSA_AN64
+  )
+
+  /**
    * Get all device specifications for GLOBAL devices.
    * Useful for global testing.
    */
   public fun getGlobalDevices(): List<String> = listOf(
+      Global.ELLINIKO,
       Global.LAVENDER,
       Global.MOUNTBAKER,
       Global.STANFORD,
@@ -17440,6 +17739,15 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for gloria devices.
+   * Useful for gloria testing.
+   */
+  public fun getGloriaDevices(): List<String> = listOf(
+      Gloria.A30,
+      Gloria.A50
+  )
+
+  /**
    * Get all device specifications for GLX devices.
    * Useful for glx testing.
    */
@@ -17453,7 +17761,6 @@ public object PreviewGroups {
    */
   public fun getGmDevices(): List<String> = listOf(
       Gm.AEGEAN,
-      Gm.BURMESE,
       Gm.E_TAB20,
       Gm.E_TAB20_VARIANT,
       Gm.G008,
@@ -17485,7 +17792,8 @@ public object PreviewGroups {
       Gm.GM8_SPROUT,
       Gm.GM9PLUS_S,
       Gm.GM9PRO_D_SPROUT,
-      Gm.GM9PRO_SPROUT
+      Gm.GM9PRO_SPROUT,
+      Gm.GMINFO37
   )
 
   /**
@@ -17502,14 +17810,6 @@ public object PreviewGroups {
    */
   public fun getGo3Devices(): List<String> = listOf(
       Go3.HP44H
-  )
-
-  /**
-   * Get all device specifications for GO_MD_USA devices.
-   * Useful for go_md_usa testing.
-   */
-  public fun getGoMdUsaDevices(): List<String> = listOf(
-      GoMdUsa.X23_PRO
   )
 
   /**
@@ -17547,18 +17847,9 @@ public object PreviewGroups {
    */
   public fun getGoldentecDevices(): List<String> = listOf(
       Goldentec.GT_METAL_TAB10,
+      Goldentec.GT_TAB,
       Goldentec.GT_TAB10,
       Goldentec.GT_TAB7
-  )
-
-  /**
-   * Get all device specifications for GOLDTECH devices.
-   * Useful for goldtech testing.
-   */
-  public fun getGoldtechDevices(): List<String> = listOf(
-      Goldtech.GT10_B16,
-      Goldtech.GT7_B16,
-      Goldtech.JTTAB035
   )
 
   /**
@@ -17566,6 +17857,7 @@ public object PreviewGroups {
    * Useful for gomdusa testing.
    */
   public fun getGomdusaDevices(): List<String> = listOf(
+      Gomdusa.X23_PRO,
       Gomdusa.X23_TAB
   )
 
@@ -17611,6 +17903,7 @@ public object PreviewGroups {
    * Useful for goodtel testing.
    */
   public fun getGoodtelDevices(): List<String> = listOf(
+      Goodtel.G10,
       Goodtel.G10_EEA,
       Goodtel.G10_T_EEA,
       Goodtel.G10_T_US,
@@ -17624,6 +17917,7 @@ public object PreviewGroups {
       Goodtel.G7_EEA,
       Goodtel.G7_EEA_T,
       Goodtel.G7_T,
+      Goodtel.G9,
       Goodtel.G9_EEA,
       Goodtel.G9_US
   )
@@ -17643,6 +17937,7 @@ public object PreviewGroups {
       Google.AUTOMOTIVE_1024P_LANDSCAPE,
       Google.BANON_CHEETS,
       Google.BARBET,
+      Google.BLAZER,
       Google.BLUEJAY,
       Google.BOB_CHEETS,
       Google.BONITO,
@@ -17681,6 +17976,7 @@ public object PreviewGroups {
       Google.FLO,
       Google.FLOUNDER,
       Google.FLOUNDER_LTE,
+      Google.FRANKEL,
       Google.FUGU,
       Google.GANDOF_CHEETS,
       Google.GENERIC_X86,
@@ -17701,6 +17997,8 @@ public object PreviewGroups {
       Google.JERRY_CHEETS,
       Google.KALISTA_CHEETS,
       Google.KEFKA_CHEETS,
+      Google.KENARI_BTWIFI,
+      Google.KENARI_LTE,
       Google.KEVIN_CHEETS,
       Google.KIRKWOOD,
       Google.KOMODO,
@@ -17713,8 +18011,11 @@ public object PreviewGroups {
       Google.MAKO,
       Google.MANTA,
       Google.MARLIN,
+      Google.MERIDIAN_BTWIFI,
+      Google.MERIDIAN_LTE,
       Google.MIGHTY_CHEETS,
       Google.MINNIE_CHEETS,
+      Google.MUSTANG,
       Google.NAMI_CHEETS,
       Google.NAUTILUS_CHEETS,
       Google.NEXUS_10,
@@ -17765,6 +18066,7 @@ public object PreviewGroups {
       Google.R11,
       Google.R11BTWIFI,
       Google.RAMMUS_CHEETS,
+      Google.RANGO,
       Google.RAURU_CHEETS,
       Google.RAVEN,
       Google.REDFIN,
@@ -17797,11 +18099,9 @@ public object PreviewGroups {
       Google.TILAPIA,
       Google.TITAN_P1,
       Google.TOKAY,
-      Google.TORO,
       Google.TROGDOR_CHEETS,
       Google.ULTIMA_CHEETS,
       Google.VOLTEER_CHEETS,
-      Google.VSOC_X86_64,
       Google.WIZPIG_CHEETS,
       Google.YUNA_CHEETS
   )
@@ -17821,7 +18121,8 @@ public object PreviewGroups {
   public fun getGotvDevices(): List<String> = listOf(
       Gotv.GOFREETV,
       Gotv.HND,
-      Gotv.HP4BA_GOTV
+      Gotv.HP4BA_GOTV,
+      Gotv.SEID04GM
   )
 
   /**
@@ -17837,6 +18138,7 @@ public object PreviewGroups {
    * Useful for gpelectronic testing.
    */
   public fun getGpelectronicDevices(): List<String> = listOf(
+      Gpelectronic.YC_08P,
       Gpelectronic.YC_3135D,
       Gpelectronic.YC_83P,
       Gpelectronic.YC_83T
@@ -17849,8 +18151,6 @@ public object PreviewGroups {
   public fun getGplusDevices(): List<String> = listOf(
       Gplus.GNE_N001S,
       Gplus.GNE_N003S,
-      Gplus.GPLUS_A2_PLUS,
-      Gplus.GPLUS_FW6950,
       Gplus.P10,
       Gplus.P10_2022,
       Gplus.P10_PLUS,
@@ -17868,6 +18168,14 @@ public object PreviewGroups {
    */
   public fun getGpxDevices(): List<String> = listOf(
       Gpx.TBDV1093
+  )
+
+  /**
+   * Get all device specifications for GraceCompany devices.
+   * Useful for gracecompany testing.
+   */
+  public fun getGracecompanyDevices(): List<String> = listOf(
+      Gracecompany.TABLET_8
   )
 
   /**
@@ -17903,6 +18211,7 @@ public object PreviewGroups {
   public fun getGreatwallDevices(): List<String> = listOf(
       Greatwall.GWPAD_S11,
       Greatwall.GWPAD_S11_1,
+      Greatwall.LM1105S_D,
       Greatwall.TABLET
   )
 
@@ -17971,13 +18280,16 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Grundig devices.
+   * Get all device specifications for GRUNDIG devices.
    * Useful for grundig testing.
    */
   public fun getGrundigDevices(): List<String> = listOf(
+      Grundig.ABERDEEN,
       Grundig.AKROPOLI,
+      Grundig.AWAZA,
       Grundig.KUNYANG,
       Grundig.MARTIN,
+      Grundig.MILLBRAE,
       Grundig.R4,
       Grundig.SHINAGAWA,
       Grundig.SINCHON,
@@ -18010,22 +18322,17 @@ public object PreviewGroups {
    * Useful for gtel testing.
    */
   public fun getGtelDevices(): List<String> = listOf(
-      Gtel.A737_XPLORAZ,
+      Gtel._17X,
       Gtel.DELTA_14,
       Gtel.GTEL_DELTA_16,
       Gtel.GTEL_INFINITY_8S,
       Gtel.GTEL_INFINITY_9,
       Gtel.GTEL_INFINITY_X,
       Gtel.GTEL_X5,
-      Gtel.GTEL_X5PLUS,
-      Gtel.GTEL_X6MINI,
-      Gtel.GTEL_X6PLUS,
-      Gtel.GTEL_X6PRO,
       Gtel.GTEL_X6S,
       Gtel.GTEL_X7PLUS,
       Gtel.GTEL_X7PRO,
       Gtel.GTEL_X7S,
-      Gtel.INFINITY7PLUS,
       Gtel.INFINITY7PRO,
       Gtel.INFINITY_13,
       Gtel.MX6
@@ -18063,6 +18370,14 @@ public object PreviewGroups {
    */
   public fun getH133Devices(): List<String> = listOf(
       H133.BETACRUX
+  )
+
+  /**
+   * Get all device specifications for H3Cmagic devices.
+   * Useful for h3cmagic testing.
+   */
+  public fun getH3cmagicDevices(): List<String> = listOf(
+      H3cmagic.M8781
   )
 
   /**
@@ -18124,20 +18439,17 @@ public object PreviewGroups {
    */
   public fun getHaierDevices(): List<String> = listOf(
       Haier.A1,
-      Haier.A3,
       Haier.A4_LITE,
       Haier.BROADWAY,
       Haier.BURRARD,
       Haier.DAAN,
       Haier.DETO,
       Haier.DUPONT,
-      Haier.E13,
       Haier.E7,
-      Haier.E9,
       Haier.HAIER_L52,
       Haier.HAIER_LEISURE_L7,
       Haier.HANYANG,
-      Haier.HM_G553_FL,
+      Haier.HOLARGOS,
       Haier.HONGIK,
       Haier.I4,
       Haier.I6_INFINITY,
@@ -18149,10 +18461,10 @@ public object PreviewGroups {
       Haier.LE49U5000A,
       Haier.M53_52401,
       Haier.M5352401,
+      Haier.NANAIMO,
       Haier.NIPPORI,
       Haier.OMONIA,
       Haier.P10,
-      Haier.P11,
       Haier.P20,
       Haier.P20_TABLET_PC,
       Haier.PAD1042,
@@ -18161,7 +18473,6 @@ public object PreviewGroups {
       Haier.TABLET_P20,
       Haier.TITAN_T3,
       Haier.TITAN_T5,
-      Haier.UGUISUDANI,
       Haier.YONGCHUN,
       Haier.YQB
   )
@@ -18174,8 +18485,8 @@ public object PreviewGroups {
       Haitech.A81G,
       Haitech.HIP_T66,
       Haitech.HPAD_M2,
-      Haitech.HPAD_IP8045,
-      Haitech.HPAD_IP8045_1
+      Haitech.HPAD_IA65,
+      Haitech.HPAD_IP8045
   )
 
   /**
@@ -18218,21 +18529,15 @@ public object PreviewGroups {
       Hammer.HAMMER_BLADE_4,
       Hammer.HAMMER_BLADE_5G,
       Hammer.HAMMER_CONSTRUCTION,
+      Hammer.HAMMER_ENERGY_X2,
       Hammer.HAMMER_EXPL_PRO,
+      Hammer.HAMMER_IRON_6_5G,
       Hammer.HS2302X,
       Hammer.HS2401X,
       Hammer.HS2402,
       Hammer.HS2403X,
       Hammer.HS2404X,
       Hammer.HS2512
-  )
-
-  /**
-   * Get all device specifications for HANASIS devices.
-   * Useful for hanasis testing.
-   */
-  public fun getHanasisDevices(): List<String> = listOf(
-      Hanasis.BLAZE
   )
 
   /**
@@ -18247,6 +18552,7 @@ public object PreviewGroups {
       Handheld.ALGIZRT7,
       Handheld.ALTA_EEA,
       Handheld.ALTA_GL,
+      Handheld.CONDOR,
       Handheld.NAUTIZ_X2,
       Handheld.NAUTIZ_X6,
       Handheld.NAUTIZ_X6P,
@@ -18312,6 +18618,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for HANSUNGCOMPUTER devices.
+   * Useful for hansungcomputer testing.
+   */
+  public fun getHansungcomputerDevices(): List<String> = listOf(
+      Hansungcomputer.RK3588_T
+  )
+
+  /**
    * Get all device specifications for HANYEAL devices.
    * Useful for hanyeal testing.
    */
@@ -18343,7 +18657,10 @@ public object PreviewGroups {
       Haovm.P9,
       Haovm.P9_EEA,
       Haovm.PS30,
-      Haovm.T2000
+      Haovm.Q16W,
+      Haovm.T2000,
+      Haovm.T30W,
+      Haovm.V5
   )
 
   /**
@@ -18383,6 +18700,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for HAVIT devices.
+   * Useful for havit testing.
+   */
+  public fun getHavitDevices(): List<String> = listOf(
+      Havit.HIMALAYA
+  )
+
+  /**
    * Get all device specifications for HBESTORE devices.
    * Useful for hbestore testing.
    */
@@ -18395,7 +18720,8 @@ public object PreviewGroups {
    * Useful for hcn testing.
    */
   public fun getHcnDevices(): List<String> = listOf(
-      Hcn.IMT_H6300
+      Hcn.IMT_H6300,
+      Hcn.KSTB4200
   )
 
   /**
@@ -18428,6 +18754,7 @@ public object PreviewGroups {
       Headwolf.F5A,
       Headwolf.F6,
       Headwolf.F7,
+      Headwolf.F8,
       Headwolf.FPAD1,
       Headwolf.FPAD2,
       Headwolf.FPAD3,
@@ -18441,6 +18768,7 @@ public object PreviewGroups {
       Headwolf.W5,
       Headwolf.W5A,
       Headwolf.W6A,
+      Headwolf.W6B,
       Headwolf.W7,
       Headwolf.WPAD1,
       Headwolf.WPAD2
@@ -18466,6 +18794,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for heinekingmedia devices.
+   * Useful for heinekingmedia testing.
+   */
+  public fun getHeinekingmediaDevices(): List<String> = listOf(
+      Heinekingmedia.RK3588_T
+  )
+
+  /**
    * Get all device specifications for Helgi devices.
    * Useful for helgi testing.
    */
@@ -18474,11 +18810,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Helio devices.
+   * Get all device specifications for helio devices.
    * Useful for helio testing.
    */
   public fun getHelioDevices(): List<String> = listOf(
+      Helio.HELIO_15,
       Helio.HELIO_40,
+      Helio.HELIO_45,
       Helio.HELIO_50,
       Helio.HELIO_S5,
       Helio.HELIOS25,
@@ -18500,6 +18838,7 @@ public object PreviewGroups {
    */
   public fun getHellcatDevices(): List<String> = listOf(
       Hellcat.TAB10_1,
+      Hellcat.TAB11GT,
       Hellcat.TAB8_1
   )
 
@@ -18517,6 +18856,15 @@ public object PreviewGroups {
    */
   public fun getHemiltonproDevices(): List<String> = listOf(
       Hemiltonpro.TAB1000
+  )
+
+  /**
+   * Get all device specifications for HERAN devices.
+   * Useful for heran testing.
+   */
+  public fun getHeranDevices(): List<String> = listOf(
+      Heran.ALIMOS,
+      Heran.DANGNI
   )
 
   /**
@@ -18585,8 +18933,6 @@ public object PreviewGroups {
    * Useful for high_q testing.
    */
   public fun getHighQDevices(): List<String> = listOf(
-      HighQ.ELT0704H,
-      HighQ.ELT0706H,
       HighQ.ELT0802H
   )
 
@@ -18595,11 +18941,8 @@ public object PreviewGroups {
    * Useful for highscreen testing.
    */
   public fun getHighscreenDevices(): List<String> = listOf(
-      Highscreen.BAY,
       Highscreen.BBL7353RV,
       Highscreen.EXPANSE,
-      Highscreen.FESTXL,
-      Highscreen.FESTXL_PRO,
       Highscreen.MAX3,
       Highscreen.POWERFIVE,
       Highscreen.POWERFIVEMAX2,
@@ -18608,8 +18951,7 @@ public object PreviewGroups {
       Highscreen.POWERICEEVO,
       Highscreen.POWERICEMAX,
       Highscreen.POWERRAGE,
-      Highscreen.POWERRAGEEVO,
-      Highscreen.PRIMEL
+      Highscreen.POWERRAGEEVO
   )
 
   /**
@@ -18660,6 +19002,7 @@ public object PreviewGroups {
       Hiking.A44,
       Hiking.A45,
       Hiking.A46,
+      Hiking.A49,
       Hiking.A51,
       Hiking.A55,
       Hiking.KIDS_1,
@@ -18673,7 +19016,9 @@ public object PreviewGroups {
    */
   public fun getHikvisionDevices(): List<String> = listOf(
       Hikvision.DS_MDT202,
-      Hikvision.DS_D5C65RB_A
+      Hikvision.DS_D5C65RB_A,
+      Hikvision.HIK_3588,
+      Hikvision.HIK_9679
   )
 
   /**
@@ -18723,7 +19068,6 @@ public object PreviewGroups {
    * Useful for hipstreet-lyf testing.
    */
   public fun getHipstreetLyfDevices(): List<String> = listOf(
-      HipstreetLyf.LS_4004,
       HipstreetLyf.LS_5017
   )
 
@@ -18808,6 +19152,9 @@ public object PreviewGroups {
       Hisense.HLTE262E,
       Hisense.HLTE262E_01,
       Hisense.HLTE263E,
+      Hisense.HLTE268E_10,
+      Hisense.HLTE271E,
+      Hisense.HLTE272E,
       Hisense.HLTE315E,
       Hisense.HLTE321E,
       Hisense.HLTE322E,
@@ -18829,7 +19176,7 @@ public object PreviewGroups {
       Hisense.HS8917QC,
       Hisense.HS8929QC,
       Hisense.HS8937QC,
-      Hisense.HS8953QC,
+      Hisense.HS8952QC,
       Hisense.HSSC9850,
       Hisense.HSSDM450QC,
       Hisense.HUAIHE,
@@ -18840,7 +19187,7 @@ public object PreviewGroups {
       Hisense.LUSHAN,
       Hisense.M470,
       Hisense.MOERAKI,
-      Hisense.RK3028A,
+      Hisense.MT9679_U,
       Hisense.RK3288,
       Hisense.SC9832E,
       Hisense.SC9863A,
@@ -18947,7 +19294,8 @@ public object PreviewGroups {
       Hoco.HOCO_HI10,
       Hoco.HOCO_HI11,
       Hoco.HOCO_HI12,
-      Hoco.HOCO_HI14
+      Hoco.HOCO_HI14,
+      Hoco.HOCO_HI15
   )
 
   /**
@@ -18955,7 +19303,6 @@ public object PreviewGroups {
    * Useful for hoffmann testing.
    */
   public fun getHoffmannDevices(): List<String> = listOf(
-      Hoffmann.X_GO,
       Hoffmann.X_MAX
   )
 
@@ -18983,6 +19330,7 @@ public object PreviewGroups {
       Homatics.IAD,
       Homatics.ICN,
       Homatics.MIA,
+      Homatics.SEI700GHMG,
       Homatics.SEI700HMG,
       Homatics.YQB,
       Homatics.YQX,
@@ -19060,6 +19408,7 @@ public object PreviewGroups {
       Homii.M6,
       Homii.XBOOK,
       Homii.XBOOK_12,
+      Homii.XBOOK_8M,
       Homii.XBOOK_PLUS,
       Homii.XBOOK_PRO,
       Homii.XBOOKKIDS
@@ -19070,10 +19419,8 @@ public object PreviewGroups {
    * Useful for homtom testing.
    */
   public fun getHomtomDevices(): List<String> = listOf(
-      Homtom.C1,
       Homtom.C2,
       Homtom.H10,
-      Homtom.H5,
       Homtom.HT70,
       Homtom.HT80,
       Homtom.P30_PRO,
@@ -19106,6 +19453,7 @@ public object PreviewGroups {
       Honeywell.CN80_L0_N,
       Honeywell.CN80_L1_C,
       Honeywell.CT30P,
+      Honeywell.CT32,
       Honeywell.CT37,
       Honeywell.CT40_L0_C,
       Honeywell.CT40_L0_CA,
@@ -19124,6 +19472,7 @@ public object PreviewGroups {
       Honeywell.CT60_L0_C,
       Honeywell.CT60_L1_C,
       Honeywell.CT70,
+      Honeywell.CW45,
       Honeywell.EDA10A,
       Honeywell.EDA40_1,
       Honeywell.EDA50_011,
@@ -19178,6 +19527,7 @@ public object PreviewGroups {
       Honor.HNALT_QL,
       Honor.HNANY_Q,
       Honor.HNANY_Q1,
+      Honor.HNBKQ,
       Honor.HNBRC_M,
       Honor.HNBRC_M1,
       Honor.HNBRP_Q,
@@ -19185,7 +19535,9 @@ public object PreviewGroups {
       Honor.HNBVL,
       Honor.HNBVL_AN00,
       Honor.HNCGA_Q,
+      Honor.HNCGA_Q1,
       Honor.HNCHE_H,
+      Honor.HNCHG_Q,
       Honor.HNCLK_M1,
       Honor.HNCLK_Q,
       Honor.HNCMA_Q,
@@ -19194,6 +19546,7 @@ public object PreviewGroups {
       Honor.HNDNPX,
       Honor.HNDNYX,
       Honor.HNDVD_Q,
+      Honor.HNELA_M,
       Honor.HNELI,
       Honor.HNELIX,
       Honor.HNELN_Q,
@@ -19211,6 +19564,8 @@ public object PreviewGroups {
       Honor.HNJDY_M1,
       Honor.HNKIW_Q,
       Honor.HNLGE,
+      Honor.HNLGN_Q1,
+      Honor.HNLGN_QL,
       Honor.HNLLY_M1,
       Honor.HNLLY_Q,
       Honor.HNMAA,
@@ -19218,9 +19573,11 @@ public object PreviewGroups {
       Honor.HNMAP,
       Honor.HNMBHX,
       Honor.HNMTN_Q,
+      Honor.HNMTN_Q1,
       Honor.HNNDL_Q,
       Honor.HNNEM_H,
       Honor.HNNIC_M1,
+      Honor.HNNLA_M,
       Honor.HNNTH,
       Honor.HNNTN,
       Honor.HNPGT,
@@ -19242,6 +19599,7 @@ public object PreviewGroups {
       Honor.HNVNE_M,
       Honor.HNVNE_Q,
       Honor.HNWDY_M,
+      Honor.HNYLP_Q,
       Honor.HWAGS2,
       Honor.HWARE_Q,
       Honor.HWARE_QC,
@@ -19255,7 +19613,6 @@ public object PreviewGroups {
       Honor.HWCAM_Q,
       Honor.HWCHE2,
       Honor.HWCHM_H,
-      Honor.HWCHM_Q,
       Honor.HWCOL,
       Honor.HWCOR,
       Honor.HWDLI_Q,
@@ -19311,6 +19668,7 @@ public object PreviewGroups {
    * Useful for hoozo testing.
    */
   public fun getHoozoDevices(): List<String> = listOf(
+      Hoozo.AL_13,
       Hoozo.F13,
       Hoozo.F13_EEA,
       Hoozo.HZ0010,
@@ -19322,7 +19680,6 @@ public object PreviewGroups {
       Hoozo.MBR05,
       Hoozo.MBR05_EEA,
       Hoozo.MID,
-      Hoozo.MR768,
       Hoozo.MZ10863W,
       Hoozo.MZS10,
       Hoozo.T10A,
@@ -19343,7 +19700,9 @@ public object PreviewGroups {
    * Useful for horion testing.
    */
   public fun getHorionDevices(): List<String> = listOf(
-      Horion.M6APRO
+      Horion.K7A,
+      Horion.M6APRO,
+      Horion.M6APROV2
   )
 
   /**
@@ -19372,6 +19731,7 @@ public object PreviewGroups {
    */
   public fun getHotlightDevices(): List<String> = listOf(
       Hotlight.C108,
+      Hotlight.G9A,
       Hotlight.TP1003
   )
 
@@ -19388,6 +19748,7 @@ public object PreviewGroups {
       Hotpepper.HPP_GS1,
       Hotpepper.HPP_L55B,
       Hotpepper.HPPAP16,
+      Hotpepper.HPPH88L,
       Hotpepper.HPPL60A,
       Hotpepper.HPPL63A,
       Hotpepper.HPPL67A,
@@ -19406,10 +19767,12 @@ public object PreviewGroups {
    * Useful for hotwav testing.
    */
   public fun getHotwavDevices(): List<String> = listOf(
-      Hotwav.COSMOS_U,
+      Hotwav.A17_PRO_MAX,
+      Hotwav.A56,
       Hotwav.CYBER_13,
       Hotwav.CYBER_13_PRO,
       Hotwav.CYBER_15,
+      Hotwav.CYBER_16_PRO,
       Hotwav.CYBER_7,
       Hotwav.CYBER_8,
       Hotwav.CYBER_9_PRO,
@@ -19419,10 +19782,12 @@ public object PreviewGroups {
       Hotwav.HOT_6,
       Hotwav.HYPER_7,
       Hotwav.HYPER_7_PRO,
+      Hotwav.HYPER_7S,
       Hotwav.M5,
       Hotwav.M5_PLUS,
       Hotwav.M5I,
       Hotwav.M6,
+      Hotwav.NOTE15,
       Hotwav.NOTE_12_2024,
       Hotwav.NOTE_12_EF,
       Hotwav.NOTE_13,
@@ -19431,6 +19796,8 @@ public object PreviewGroups {
       Hotwav.NOTE_15,
       Hotwav.NOTE_15_PRO,
       Hotwav.NOTE_16,
+      Hotwav.NOTE_18_GT,
+      Hotwav.NOTE_18_PRO,
       Hotwav.PAD_11_EEA,
       Hotwav.PAD_8,
       Hotwav.PEARL_K1,
@@ -19443,6 +19810,7 @@ public object PreviewGroups {
       Hotwav.T5_PRO,
       Hotwav.T7,
       Hotwav.T7_PRO,
+      Hotwav.TAB_R10_PRO,
       Hotwav.TAB_R5,
       Hotwav.TAB_R6_PRO,
       Hotwav.TAB_R6_ULTRA,
@@ -19483,8 +19851,6 @@ public object PreviewGroups {
    */
   public fun getHpDevices(): List<String> = listOf(
       Hp._3645,
-      Hp.ALMOND,
-      Hp.ANDERSON_GW,
       Hp.BIRCH,
       Hp.BONSAI10,
       Hp.BULLDOG,
@@ -19495,14 +19861,12 @@ public object PreviewGroups {
       Hp.ILEX,
       Hp.KLONDIKE,
       Hp.MALAMUTE,
-      Hp.MAPLE,
       Hp.MESQUITE,
       Hp.NAPA_GW,
       Hp.NEETU,
       Hp.PANGYO,
       Hp.PHOBOS,
       Hp.PINE,
-      Hp.POODLE,
       Hp.RANGER,
       Hp.REDWOOD,
       Hp.SPRUCE,
@@ -19515,6 +19879,14 @@ public object PreviewGroups {
    */
   public fun getHpadia10Devices(): List<String> = listOf(
       Hpadia10.GACRUX
+  )
+
+  /**
+   * Get all device specifications for HPHewlettPackard devices.
+   * Useful for hphewlettpackard testing.
+   */
+  public fun getHphewlettpackardDevices(): List<String> = listOf(
+      Hphewlettpackard.SEPOLIA
   )
 
   /**
@@ -19590,13 +19962,10 @@ public object PreviewGroups {
       Htc.HTC_A51TUHL,
       Htc.HTC_A51UL,
       Htc.HTC_A52DTUL,
-      Htc.HTC_A52DWGL,
-      Htc.HTC_A52TUHL,
       Htc.HTC_A53ML_DTUL,
       Htc.HTC_A55ML_DTUL,
       Htc.HTC_A56DJ_PRO_DTWL,
       Htc.HTC_A56DJ_PRO_DUGL,
-      Htc.HTC_A56DJ_PRO_UHL,
       Htc.HTC_A56DJDUGL,
       Htc.HTC_A56DJUHL,
       Htc.HTC_A56DJUL,
@@ -19606,13 +19975,13 @@ public object PreviewGroups {
       Htc.HTC_A5DUG,
       Htc.HTC_A5DWG,
       Htc.HTC_A5MGP_DUG,
-      Htc.HTC_A5MGP_U,
       Htc.HTC_A5UL,
       Htc.HTC_ACAUHL,
       Htc.HTC_ACAWHL,
       Htc.HTC_ALPINE_DUGL,
       Htc.HTC_ALPINE_UHL,
       Htc.HTC_AT01,
+      Htc.HTC_AT01_PLUS,
       Htc.HTC_B2UL,
       Htc.HTC_B2WLJ,
       Htc.HTC_B3UHL,
@@ -19627,7 +19996,6 @@ public object PreviewGroups {
       Htc.HTC_E36_ML_UHL,
       Htc.HTC_E36_ML_UL,
       Htc.HTC_E56ML_DTUL,
-      Htc.HTC_E56ML_TUHL,
       Htc.HTC_E66_DTWL,
       Htc.HTC_E66_DUGL,
       Htc.HTC_E66_UHL,
@@ -19643,7 +20011,6 @@ public object PreviewGroups {
       Htc.HTC_HIAEUL,
       Htc.HTC_HIAEWHL,
       Htc.HTC_HIAU_ML_TUHL,
-      Htc.HTC_HIAUR2_ML_TUHL,
       Htc.HTC_HIAUR_ML_TUHL,
       Htc.HTC_HIMA_ACE_ML_DTUL,
       Htc.HTC_HIMAR2UHL,
@@ -19678,7 +20045,6 @@ public object PreviewGroups {
       Htc.HTC_OCLA1_SPROUT,
       Htc.HTC_OCLUHLJAPAN,
       Htc.HTC_OCLUL,
-      Htc.HTC_OCMDTWL,
       Htc.HTC_OCMDUGL,
       Htc.HTC_OCNDTWL,
       Htc.HTC_OCNDUGL,
@@ -19708,7 +20074,6 @@ public object PreviewGroups {
       Htc.HTC_V36BML_UHL,
       Htc.HTC_ZDDUGL,
       Htc.JEWEL,
-      Htc.K2U,
       Htc.M7,
       Htc.M7CDTU,
       Htc.M7CDUG,
@@ -19718,11 +20083,11 @@ public object PreviewGroups {
       Htc.M7WLV,
       Htc.PROTOU,
       Htc.T6DUG,
+      Htc.T6DWG,
       Htc.T6TL,
       Htc.T6UL,
       Htc.T6WHL,
       Htc.VILLE,
-      Htc.VILLEC2,
       Htc.WILDFIRE_E1,
       Htc.WILDFIRE_E,
       Htc.WILDFIRE_E1_PLUS,
@@ -19734,6 +20099,7 @@ public object PreviewGroups {
       Htc.WILDFIRE_E4,
       Htc.WILDFIRE_E4_PLUS,
       Htc.WILDFIRE_E5,
+      Htc.WILDFIRE_E5_LIFE,
       Htc.WILDFIRE_E5_PLUS,
       Htc.WILDFIRE_E6,
       Htc.WILDFIRE_E6_PLUS,
@@ -19757,12 +20123,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for HTStyle devices.
+   * Useful for htstyle testing.
+   */
+  public fun getHtstyleDevices(): List<String> = listOf(
+      Htstyle.T5
+  )
+
+  /**
    * Get all device specifications for HUAVI devices.
    * Useful for huavi testing.
    */
   public fun getHuaviDevices(): List<String> = listOf(
-      Huavi.GOLD_77,
-      Huavi.KHATARH20PRO
+      Huavi.GOLD_77
   )
 
   /**
@@ -19776,6 +20149,7 @@ public object PreviewGroups {
       Huawei.HW7D501L,
       Huawei.HWAGS_Q,
       Huawei.HWAGS2,
+      Huawei.HWAGS6_A,
       Huawei.HWALE_H,
       Huawei.HWALE_Q,
       Huawei.HWALP,
@@ -19790,13 +20164,13 @@ public object PreviewGroups {
       Huawei.HWBAH2,
       Huawei.HWBEETHOVEN,
       Huawei.HWBG2,
-      Huawei.HWBG2,
+      Huawei.HWBG2_600X1024,
       Huawei.HWBGO,
       Huawei.HWBLA,
       Huawei.HWBLN_H,
       Huawei.HWBND_H,
+      Huawei.HWBTKR,
       Huawei.HWBZT,
-      Huawei.HWC199,
       Huawei.HWCAG_L6737M,
       Huawei.HWCAM_H,
       Huawei.HWCAM_Q,
@@ -19824,32 +20198,25 @@ public object PreviewGroups {
       Huawei.HWEVA,
       Huawei.HWEVR,
       Huawei.HWFDR,
-      Huawei.HWFDR,
+      Huawei.HWFDR_1200X1920,
       Huawei.HWFDRA04L,
       Huawei.HWFIG_H,
       Huawei.HWFLA_H,
       Huawei.HWG510_0100,
-      Huawei.HWG510_0200,
       Huawei.HWG525_U00,
-      Huawei.HWG526_L11,
-      Huawei.HWG526_L33,
       Huawei.HWG527_U081,
       Huawei.HWG535_L11,
       Huawei.HWG6_L11,
       Huawei.HWG6_L22,
-      Huawei.HWG6_L33,
       Huawei.HWG6_U10,
-      Huawei.HWG610_U00,
       Huawei.HWG610_U15,
       Huawei.HWG610_U20,
-      Huawei.HWG615_U10,
       Huawei.HWG620_A2,
       Huawei.HWG620_L72,
       Huawei.HWG620S_L01,
       Huawei.HWG620S_L02,
       Huawei.HWG620S_L03,
       Huawei.HWG620S_UL00,
-      Huawei.HWG629_UL,
       Huawei.HWG630_U10,
       Huawei.HWG630_U20,
       Huawei.HWG630_U251,
@@ -19914,9 +20281,7 @@ public object PreviewGroups {
       Huawei.HWNMO_H,
       Huawei.HWNXT,
       Huawei.HWP6_U06,
-      Huawei.HWP6S_L04,
       Huawei.HWP7,
-      Huawei.HWP7MINI,
       Huawei.HWP8MAX,
       Huawei.HWPAR,
       Huawei.HWPE,
@@ -19960,6 +20325,7 @@ public object PreviewGroups {
       Huawei.HWTIT_L6735,
       Huawei.HWTIT_U6582,
       Huawei.HWTRT_Q,
+      Huawei.HWTXZ,
       Huawei.HWU9700L,
       Huawei.HWVCE,
       Huawei.HWVIE,
@@ -19972,7 +20338,6 @@ public object PreviewGroups {
       Huawei.HWY300_0100,
       Huawei.HWY300_0151,
       Huawei.HWY320_U,
-      Huawei.HWY321_U,
       Huawei.HWY330_U01,
       Huawei.HWY330_U05,
       Huawei.HWY330_U11,
@@ -19987,7 +20352,6 @@ public object PreviewGroups {
       Huawei.HWY530_U051,
       Huawei.HWY536A1,
       Huawei.HWY538,
-      Huawei.HWY540_U,
       Huawei.HWY541_U,
       Huawei.HWY550_L01,
       Huawei.HWY550_L03,
@@ -20080,21 +20444,16 @@ public object PreviewGroups {
    * Useful for hurricane testing.
    */
   public fun getHurricaneDevices(): List<String> = listOf(
-      Hurricane.CURVE,
       Hurricane.DZIRE,
       Hurricane.EXCITE,
       Hurricane.FLAME_PLUS,
-      Hurricane.FUEL,
-      Hurricane.ICON,
       Hurricane.IRIS,
       Hurricane.IRIS_PLUS,
       Hurricane.LINK,
-      Hurricane.PULSE,
       Hurricane.RIDGE_PLUS,
-      Hurricane.RUSH_PLUS,
       Hurricane.STORM,
-      Hurricane.VORTEXPLUS,
-      Hurricane.VULCAN
+      Hurricane.T10,
+      Hurricane.VORTEXPLUS
   )
 
   /**
@@ -20114,6 +20473,7 @@ public object PreviewGroups {
       Hy.HT10LA3MSGNA01,
       Hy.HT10LB4MSGNA01,
       Hy.HT10WB3MSG01,
+      Hy.HT10WB4MSG01,
       Hy.HT8WB3RBK01
   )
 
@@ -20172,21 +20532,21 @@ public object PreviewGroups {
   public fun getHyundaiDevices(): List<String> = listOf(
       Hyundai._10LA2,
       Hyundai._10LB1,
+      Hyundai._10LB4,
       Hyundai._10LC1,
       Hyundai._7LB1,
       Hyundai._7WA1,
       Hyundai._8LAB1,
+      Hyundai.ALIMOS,
       Hyundai.BANGBAE,
       Hyundai.BRUNO,
       Hyundai.CAPITOLHILL,
-      Hyundai.E435_PLUS,
+      Hyundai.DANGNI,
       Hyundai.E465GO,
       Hyundai.E475,
       Hyundai.E485,
       Hyundai.E501,
-      Hyundai.E502,
       Hyundai.E506,
-      Hyundai.E551_LITE,
       Hyundai.E553,
       Hyundai.E554,
       Hyundai.E601F,
@@ -20202,9 +20562,7 @@ public object PreviewGroups {
       Hyundai.HT0703K,
       Hyundai.HT0703W08,
       Hyundai.HT0704K08,
-      Hyundai.HT0705W08,
       Hyundai.HT0802W16,
-      Hyundai.HT1003X16,
       Hyundai.HT1004L16,
       Hyundai.HT1004X16,
       Hyundai.HT10LA1MSGNA02,
@@ -20223,7 +20581,6 @@ public object PreviewGroups {
       Hyundai.HT3G60L,
       Hyundai.HT7GB1MBK,
       Hyundai.HT7WB1RBK,
-      Hyundai.HT7WC1PBK,
       Hyundai.HT8LA1RBKNA01,
       Hyundai.HT8LAB1PBKLTM,
       Hyundai.HT8LB1PBK01,
@@ -20234,7 +20591,6 @@ public object PreviewGroups {
       Hyundai.HY65PA1401NA,
       Hyundai.HY65PA1402NA,
       Hyundai.HY65PB1401NA,
-      Hyundai.HY_BDL163G_001_EEA,
       Hyundai.HYTAB_PLUS_10LC2,
       Hyundai.HYUNDAI_ULTRA_LIVE_II,
       Hyundai.IKEBUKURO,
@@ -20246,11 +20602,9 @@ public object PreviewGroups {
       Hyundai.KORAL_10XL,
       Hyundai.KORAL_7W4X,
       Hyundai.KORAL_7WB1,
-      Hyundai.KORAL_7WC1,
       Hyundai.KORAL_7WD1,
       Hyundai.KORAL_8WC1,
       Hyundai.L465,
-      Hyundai.L503F,
       Hyundai.L503F_PLUS,
       Hyundai.L506,
       Hyundai.L553,
@@ -20274,7 +20628,6 @@ public object PreviewGroups {
       Hyundai.R4,
       Hyundai.REDWOOD,
       Hyundai.SAMSEONG,
-      Hyundai.SEOUL_9,
       Hyundai.SEOUL_S8,
       Hyundai.SHINJUKU,
       Hyundai.SINDORIM,
@@ -20284,16 +20637,12 @@ public object PreviewGroups {
       Hyundai.SW6H,
       Hyundai.TAMACHI,
       Hyundai.ULTRA_ACTIVE,
-      Hyundai.ULTRA_DREAM,
-      Hyundai.ULTRA_ENERGY_LITE,
-      Hyundai.ULTRA_ENERGY_PLUS,
       Hyundai.ULTRA_LATITUDE,
       Hyundai.ULTRA_SHADOW,
       Hyundai.ULTRA_SHINE,
       Hyundai.ULTRA_STORM,
       Hyundai.ULTRA_STYLE,
       Hyundai.ULTRA_SYNC,
-      Hyundai.ULTRA_TREND,
       Hyundai.ULTRA_VISION,
       Hyundai.ULTRA_VISION_PLUS,
       Hyundai.YEONGDEUNGPO
@@ -20317,7 +20666,8 @@ public object PreviewGroups {
    * Useful for i3-technologies testing.
    */
   public fun getI3TechnologiesDevices(): List<String> = listOf(
-      I3Technologies.I3TOUCH_X3
+      I3Technologies.I3TOUCH_X3,
+      I3Technologies.RK3576
   )
 
   /**
@@ -20334,8 +20684,7 @@ public object PreviewGroups {
    * Useful for i-bridge testing.
    */
   public fun getIBridgeDevices(): List<String> = listOf(
-      IBridge.IBT01H_BDS,
-      IBridge.IBT02H
+      IBridge.IBT01H_BDS
   )
 
   /**
@@ -20343,11 +20692,9 @@ public object PreviewGroups {
    * Useful for i-buddie testing.
    */
   public fun getIBuddieDevices(): List<String> = listOf(
-      IBuddie.REALPAD_MA7BX2_1,
       IBuddie.TF10EA2_P8_1,
       IBuddie.TG08RK,
       IBuddie.TG08RK1,
-      IBuddie.TP10RA1_1,
       IBuddie.TR10CS1_12,
       IBuddie.TU10MK1_1,
       IBuddie.TU11MK1_1,
@@ -20377,18 +20724,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for i-PLUS devices.
-   * Useful for i-plus testing.
-   */
-  public fun getIPlusDevices(): List<String> = listOf(
-      IPlus.NU60,
-      IPlus.NU65,
-      IPlus.NU70,
-      IPlus.OMEGA7,
-      IPlus.OMEGA8
-  )
-
-  /**
    * Get all device specifications for i-Scream devices.
    * Useful for i-scream testing.
    */
@@ -20407,12 +20742,10 @@ public object PreviewGroups {
       Iball.IBALL_SLIDE_BRACE_XJ,
       Iball.IBALL_SLIDE_CLEO_S9,
       Iball.IBALL_SLIDE_DAZZLE_I7,
-      Iball.IMPRINT_4G,
       Iball.IT_KSA0003,
       Iball.IT_KSA0012,
       Iball.IT_KSA0066,
       Iball.NOVA_4G,
-      Iball.PERFECT_10,
       Iball.SLIDE_DAZZLE_3500,
       Iball.SLIDE_ELAN_3X32,
       Iball.SLIDE_ELAN_4G2_PLUS,
@@ -20421,7 +20754,6 @@ public object PreviewGroups {
       Iball.SLIDE_SKYE_03,
       Iball.SLIDE_WINGS_4GP,
       Iball.SNAP_4G2,
-      Iball.SPIRIT_X2,
       Iball.TWINKLE_I5
   )
 
@@ -20465,17 +20797,12 @@ public object PreviewGroups {
   public fun getIbritDevices(): List<String> = listOf(
       Ibrit.AF51,
       Ibrit.DIAMOND_PRO_MAX,
-      Ibrit.I5,
       Ibrit.I5PLUS,
       Ibrit.IB6001,
-      Ibrit.IBRIT_POWER6,
-      Ibrit.MAX10,
-      Ibrit.MAX10_1,
       Ibrit.MAX12,
       Ibrit.MAX12PRO,
       Ibrit.MAX15,
       Ibrit.POWER_X,
-      Ibrit.SPEEDX,
       Ibrit.Z2
   )
 
@@ -20509,6 +20836,7 @@ public object PreviewGroups {
    * Useful for icraig testing.
    */
   public fun getIcraigDevices(): List<String> = listOf(
+      Icraig.CMP834,
       Icraig.CMP838,
       Icraig.CMP840
   )
@@ -20522,8 +20850,9 @@ public object PreviewGroups {
       Idata.IDATA_50,
       Idata.IDATA_K1,
       Idata.IDATA_K1_EEA,
-      Idata.IDATA_P1_MINI,
+      Idata.IDATA_P1,
       Idata.IDATA_T1_UHF,
+      Idata.IDATA_T1S,
       Idata.IDATA_T2,
       Idata.K3PRO,
       Idata.K3S,
@@ -20573,6 +20902,7 @@ public object PreviewGroups {
       Iget.IGET_SMART_G101,
       Iget.IGET_SMART_G102,
       Iget.IGET_SMART_L102,
+      Iget.IGET_T1,
       Iget.SMART_G81,
       Iget.SMART_G81H,
       Iget.SMART_L103,
@@ -20583,6 +20913,7 @@ public object PreviewGroups {
       Iget.SMART_L30,
       Iget.SMART_L31,
       Iget.SMART_L32,
+      Iget.SMART_L43,
       Iget.SMART_W101,
       Iget.SMART_W10X_EEA,
       Iget.SMART_W202,
@@ -20633,16 +20964,15 @@ public object PreviewGroups {
       Ihunt.IHUNTS22ULTRA,
       Ihunt.LIKE_8,
       Ihunt.LIKE_HI10_2021,
-      Ihunt.LIKE_HI5,
       Ihunt.P10000_PRO,
       Ihunt.P11000_PRO,
+      Ihunt.P11001_ULTRA,
       Ihunt.P15000_ULTRA,
       Ihunt.P15000PRO_5G,
       Ihunt.P22000_ULTRA,
       Ihunt.P25000_PRO,
       Ihunt.P32000_ULTRA,
       Ihunt.P8000_ULTRA,
-      Ihunt.S10_TANK_2019,
       Ihunt.S10_TANK_2020,
       Ihunt.S10_TANK_PRO_2020,
       Ihunt.S21_PLUS_2021_EEA,
@@ -20659,8 +20989,7 @@ public object PreviewGroups {
       Ihunt.TITAN_P4000_PRO,
       Ihunt.TITAN_P6000_PRO,
       Ihunt.TITAN_P8000_PRO_2021,
-      Ihunt.TITAN_X_EEA,
-      Ihunt.TITANP6000
+      Ihunt.TITAN_X_EEA
   )
 
   /**
@@ -20668,6 +20997,7 @@ public object PreviewGroups {
    * Useful for iiif150 testing.
    */
   public fun getIiif150Devices(): List<String> = listOf(
+      Iiif150.ACTION_A5PRO,
       Iiif150.AIR1,
       Iiif150.AIR1_PRO,
       Iiif150.AIR1_ULTRA,
@@ -20689,16 +21019,10 @@ public object PreviewGroups {
    * Useful for iiyama testing.
    */
   public fun getIiyamaDevices(): List<String> = listOf(
+      Iiyama.RK3576,
       Iiyama.RK3588_T,
-      Iiyama.TEXX13A
-  )
-
-  /**
-   * Get all device specifications for IKALL devices.
-   * Useful for ikall testing.
-   */
-  public fun getIkallDevices(): List<String> = listOf(
-      Ikall.IKALL
+      Iiyama.TEXX13A,
+      Iiyama.TEXX15A
   )
 
   /**
@@ -20719,7 +21043,6 @@ public object PreviewGroups {
       Ikon.IK_1025,
       Ikon.IK_1028,
       Ikon.IK_1106,
-      Ikon.IK_7108,
       Ikon.IK_869,
       Ikon.IK_T808,
       Ikon.IK_WT028I,
@@ -20750,12 +21073,11 @@ public object PreviewGroups {
       Iku.A50,
       Iku.A6,
       Iku.A6_2022,
+      Iku.A7,
       Iku.A70,
       Iku.A7_PLUS,
       Iku.IKU_A22,
       Iku.IKU_T3,
-      Iku.IKU_T_MAX,
-      Iku.K5,
       Iku.NOTE_10,
       Iku.T1,
       Iku.T4,
@@ -20780,7 +21102,6 @@ public object PreviewGroups {
    */
   public fun getIlaDevices(): List<String> = listOf(
       Ila.C3,
-      Ila.E1_PLUS,
       Ila.E3,
       Ila.ILA_C1,
       Ila.ILA_E1,
@@ -20877,6 +21198,7 @@ public object PreviewGroups {
       Imose.BAM_III,
       Imose.OMOTAB2,
       Imose.OMOTAB_2S,
+      Imose.OPOR,
       Imose.SEMPE
   )
 
@@ -20906,13 +21228,16 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for IMPEX devices.
+   * Get all device specifications for Impex devices.
    * Useful for impex testing.
    */
   public fun getImpexDevices(): List<String> = listOf(
+      Impex.ALIMOS,
+      Impex.DANGNI,
       Impex.MARINA,
       Impex.NAGATA,
       Impex.OD0M_EA_T32,
+      Impex.SEPOLIA,
       Impex.TAKAO
   )
 
@@ -20941,6 +21266,7 @@ public object PreviewGroups {
       Imuz.EG110,
       Imuz.EG125,
       Imuz.G10,
+      Imuz.IM_B101F,
       Imuz.IM_B101H,
       Imuz.IM_H031,
       Imuz.IM_H092L,
@@ -20974,7 +21300,6 @@ public object PreviewGroups {
    */
   public fun getIncoDevices(): List<String> = listOf(
       Inco.ECO_S,
-      Inco.HORIZON,
       Inco.HORIZON_S
   )
 
@@ -20999,6 +21324,7 @@ public object PreviewGroups {
    * Useful for indihome testing.
    */
   public fun getIndihomeDevices(): List<String> = listOf(
+      Indihome.B860HV5_TELKOM,
       Indihome.B866FV1_1,
       Indihome.HG680
   )
@@ -21010,6 +21336,7 @@ public object PreviewGroups {
   public fun getInduramaDevices(): List<String> = listOf(
       Indurama.ELLINIKO,
       Indurama.HONGKONG,
+      Indurama.JAGALCHI,
       Indurama.MOUNTBAKER,
       Indurama.SHINJUKU,
       Indurama.STANFORD,
@@ -21053,6 +21380,8 @@ public object PreviewGroups {
       Infinix.INFINIX_X1101,
       Infinix.INFINIX_X1101B,
       Infinix.INFINIX_X1102,
+      Infinix.INFINIX_X1201,
+      Infinix.INFINIX_X1302,
       Infinix.INFINIX_X5010,
       Infinix.INFINIX_X521,
       Infinix.INFINIX_X521_PRO,
@@ -21068,7 +21397,6 @@ public object PreviewGroups {
       Infinix.INFINIX_X5516B,
       Infinix.INFINIX_X5516C,
       Infinix.INFINIX_X552,
-      Infinix.INFINIX_X552_95M,
       Infinix.INFINIX_X553,
       Infinix.INFINIX_X553_A1,
       Infinix.INFINIX_X554,
@@ -21078,7 +21406,6 @@ public object PreviewGroups {
       Infinix.INFINIX_X572,
       Infinix.INFINIX_X573,
       Infinix.INFINIX_X573B,
-      Infinix.INFINIX_X600_5M,
       Infinix.INFINIX_X600_H533_5M,
       Infinix.INFINIX_X603,
       Infinix.INFINIX_X604_SPROUT,
@@ -21178,7 +21505,12 @@ public object PreviewGroups {
       Infinix.INFINIX_X6725B,
       Infinix.INFINIX_X6725C,
       Infinix.INFINIX_X6725D,
+      Infinix.INFINIX_X6726,
+      Infinix.INFINIX_X6726B,
       Infinix.INFINIX_X6728,
+      Infinix.INFINIX_X6728B,
+      Infinix.INFINIX_X6730,
+      Infinix.INFINIX_X6730B,
       Infinix.INFINIX_X6731,
       Infinix.INFINIX_X6731B,
       Infinix.INFINIX_X6739,
@@ -21287,18 +21619,15 @@ public object PreviewGroups {
       Infocus.A02,
       Infocus.A08,
       Infocus.AA2,
-      Infocus.AB2,
       Infocus.AB5,
       Infocus.AG2,
       Infocus.AG5,
       Infocus.AH2,
       Infocus.AU8,
       Infocus.AY2,
-      Infocus.D77,
+      Infocus.D011,
       Infocus.FAT,
       Infocus.FOT,
-      Infocus.G10,
-      Infocus.G40,
       Infocus.G42,
       Infocus.HGO,
       Infocus.IF195A,
@@ -21317,6 +21646,14 @@ public object PreviewGroups {
    */
   public fun getInfoneDevices(): List<String> = listOf(
       Infone.INFONE_XE
+  )
+
+  /**
+   * Get all device specifications for INMO devices.
+   * Useful for inmo testing.
+   */
+  public fun getInmoDevices(): List<String> = listOf(
+      Inmo.IMA301
   )
 
   /**
@@ -21386,6 +21723,7 @@ public object PreviewGroups {
       Innova.ELLINIKO,
       Innova.HANYANG,
       Innova.HONGKONG,
+      Innova.JAGALCHI,
       Innova.KENTON,
       Innova.KEONEAE,
       Innova.LASALLE,
@@ -21424,18 +21762,18 @@ public object PreviewGroups {
       Inoi.INOI_3_POWER,
       Inoi.INOI_5_2021,
       Inoi.INOI_5_LITE_2021,
-      Inoi.INOI_5_PRO,
       Inoi.INOI_5I,
       Inoi.INOI_5I_LITE,
       Inoi.INOI_6I,
       Inoi.INOI_6I_LITE,
       Inoi.INOI_7_2020,
       Inoi.INOI_7_4_64_2021,
-      Inoi.INOI_7I,
       Inoi.INOI_A14,
       Inoi.INOI_A34,
       Inoi.INOI_A35_ADVENTURE,
+      Inoi.INOI_A55_SPECTRE_5G,
       Inoi.INOI_A75_ELEGANCE,
+      Inoi.INOI_NOTE_15,
       Inoi.INOIPAD,
       Inoi.INOIPAD_MINI_3G,
       Inoi.INOIPAD_MINI_WI_FI,
@@ -21474,6 +21812,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for InsGraf_Digital devices.
+   * Useful for insgraf_digital testing.
+   */
+  public fun getInsgrafDigitalDevices(): List<String> = listOf(
+      InsgrafDigital.TWBXXX24A
+  )
+
+  /**
    * Get all device specifications for Insignia devices.
    * Useful for insignia testing.
    */
@@ -21502,8 +21848,8 @@ public object PreviewGroups {
       Insys.HK9_4010,
       Insys.HN2_M16P,
       Insys.HN2_M16Q,
-      Insys.IH8_S559,
       Insys.IH9_L614,
+      Insys.KP1_S10,
       Insys.WH2_9832
   )
 
@@ -21524,14 +21870,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Intelkom devices.
-   * Useful for intelkom testing.
-   */
-  public fun getIntelkomDevices(): List<String> = listOf(
-      Intelkom.MEANIT_C10C11
-  )
-
-  /**
    * Get all device specifications for Intelligen devices.
    * Useful for intelligen testing.
    */
@@ -21544,15 +21882,10 @@ public object PreviewGroups {
    * Useful for intex testing.
    */
   public fun getIntexDevices(): List<String> = listOf(
-      Intex.AQUA_RING,
       Intex.AQUA_SUPREME_PLUS,
-      Intex.INTEX_AQUA_A4_PLUS,
       Intex.INTEX_AQUA_LIONS_2,
       Intex.INTEX_AQUA_LIONS_3,
-      Intex.INTEX_AQUA_LIONS_4G,
       Intex.INTEX_AQUA_S3,
-      Intex.INTEX_AQUA_SELFIE,
-      Intex.INTEX_AQUA_STYLE_3,
       Intex.INTEX_ELYT_DUAL,
       Intex.R1
   )
@@ -21566,14 +21899,14 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Invens devices.
+   * Get all device specifications for invens devices.
    * Useful for invens testing.
    */
   public fun getInvensDevices(): List<String> = listOf(
       Invens.K1,
       Invens.MAX5,
-      Invens.MAX8,
-      Invens.MAX9
+      Invens.MAX9,
+      Invens.ULTRA_13P
   )
 
   /**
@@ -21581,6 +21914,7 @@ public object PreviewGroups {
    * Useful for inventus testing.
    */
   public fun getInventusDevices(): List<String> = listOf(
+      Inventus.AQUA,
       Inventus.BEIGE
   )
 
@@ -21608,7 +21942,12 @@ public object PreviewGroups {
    */
   public fun getIplusDevices(): List<String> = listOf(
       Iplus.IPLUS_P1,
-      Iplus.IPLUS_P3
+      Iplus.IPLUS_P3,
+      Iplus.NU60,
+      Iplus.NU65,
+      Iplus.NU70,
+      Iplus.OMEGA7,
+      Iplus.OMEGA8
   )
 
   /**
@@ -21616,9 +21955,6 @@ public object PreviewGroups {
    * Useful for ipro testing.
    */
   public fun getIproDevices(): List<String> = listOf(
-      Ipro.AMBER5S_PLUS,
-      Ipro.AMBER5S_PRO,
-      Ipro.AMBER7S,
       Ipro.AMBER8,
       Ipro.AMBER8S,
       Ipro.AMBER8S_MATE,
@@ -21630,11 +21966,8 @@ public object PreviewGroups {
       Ipro.BEQUE7S,
       Ipro.IPRO_X1,
       Ipro.JADE8S,
-      Ipro.KYLIN_5_0S,
-      Ipro.MEGA,
       Ipro.MOBILEPHONE,
       Ipro.OPAL4S,
-      Ipro.RUBY5S,
       Ipro.S100,
       Ipro.S100E,
       Ipro.S200M,
@@ -21716,7 +22049,10 @@ public object PreviewGroups {
       Iqoo.I2405,
       Iqoo.I2407,
       Iqoo.I2409,
-      Iqoo.I2410
+      Iqoo.I2410,
+      Iqoo.I2501,
+      Iqoo.I2502,
+      Iqoo.I2505
   )
 
   /**
@@ -21774,8 +22110,10 @@ public object PreviewGroups {
   public fun getIraExploreMoreDevices(): List<String> = listOf(
       IraExploreMore.IRA_BHARATAB_1021,
       IraExploreMore.IRA_BIO,
+      IraExploreMore.IRA_BIOA,
       IraExploreMore.IRA_DUO_PRO_5G,
       IraExploreMore.IRA_T1029,
+      IraExploreMore.IRA_T803M,
       IraExploreMore.IRA_T808,
       IraExploreMore.IRAT803
   )
@@ -21794,8 +22132,6 @@ public object PreviewGroups {
    */
   public fun getIrbisDevices(): List<String> = listOf(
       Irbis.SP514,
-      Irbis.SP542,
-      Irbis.SP554,
       Irbis.TZ151,
       Irbis.TZ165,
       Irbis.TZ170,
@@ -21812,13 +22148,10 @@ public object PreviewGroups {
       Irbis.TZ720,
       Irbis.TZ722,
       Irbis.TZ725,
-      Irbis.TZ727,
       Irbis.TZ728,
       Irbis.TZ737,
-      Irbis.TZ754,
       Irbis.TZ772,
       Irbis.TZ773,
-      Irbis.TZ777,
       Irbis.TZ797,
       Irbis.TZ832,
       Irbis.TZ855,
@@ -21846,11 +22179,11 @@ public object PreviewGroups {
   public fun getIrisDevices(): List<String> = listOf(
       Iris.ANAHEIM,
       Iris.BEOMIL,
+      Iris.ELEONAS,
       Iris.G7060,
       Iris.G7100,
       Iris.G8060,
       Iris.IS2PLUS,
-      Iris.IS2S,
       Iris.IS6PLUS,
       Iris.N30,
       Iris.NEXT_P,
@@ -21898,8 +22231,11 @@ public object PreviewGroups {
       IrisOhyama.TE10D2M64,
       IrisOhyama.TM082,
       IrisOhyama.TM083,
+      IrisOhyama.TM08E2W74,
       IrisOhyama.TM102,
       IrisOhyama.TM103,
+      IrisOhyama.TM12E2W74,
+      IrisOhyama.TM12E3W74,
       IrisOhyama.TM152M4,
       IrisOhyama.TM152M8,
       IrisOhyama.TM153M6
@@ -21983,7 +22319,6 @@ public object PreviewGroups {
    * Useful for iswag testing.
    */
   public fun getIswagDevices(): List<String> = listOf(
-      Iswag.ALPHA,
       Iswag.BLINK,
       Iswag.ISWAG_ACTIV,
       Iswag.ISWAG_KRONOSX,
@@ -22026,7 +22361,6 @@ public object PreviewGroups {
       Itel.ITEL_A16,
       Itel.ITEL_A16_PLUS,
       Itel.ITEL_A16S,
-      Itel.ITEL_A20,
       Itel.ITEL_A22,
       Itel.ITEL_A22_PRO,
       Itel.ITEL_A23,
@@ -22074,6 +22408,7 @@ public object PreviewGroups {
       Itel.ITEL_A632W,
       Itel.ITEL_A632WM,
       Itel.ITEL_A6610L,
+      Itel.ITEL_A6611L,
       Itel.ITEL_A661L,
       Itel.ITEL_A661W,
       Itel.ITEL_A661WP,
@@ -22090,7 +22425,10 @@ public object PreviewGroups {
       Itel.ITEL_A671L,
       Itel.ITEL_A671LC,
       Itel.ITEL_A671N,
+      Itel.ITEL_A673L,
+      Itel.ITEL_A676L,
       Itel.ITEL_C671L,
+      Itel.ITEL_C681L,
       Itel.ITEL_IKP_31,
       Itel.ITEL_IT1460_PRO,
       Itel.ITEL_IT1520,
@@ -22125,6 +22463,7 @@ public object PreviewGroups {
       Itel.ITEL_P1102GT,
       Itel.ITEL_P13,
       Itel.ITEL_P13_PLUS,
+      Itel.ITEL_P13001L,
       Itel.ITEL_P31,
       Itel.ITEL_P32,
       Itel.ITEL_P551W,
@@ -22173,6 +22512,7 @@ public object PreviewGroups {
       Itel.ITEL_S681LN,
       Itel.ITEL_S685LN,
       Itel.ITEL_S686LN,
+      Itel.ITEL_S688LN,
       Itel.ITEL_W4001,
       Itel.ITEL_W4001O,
       Itel.ITEL_W4001P,
@@ -22219,8 +22559,6 @@ public object PreviewGroups {
       Itel.ITEL_IT1508PLUS,
       Itel.ITEL_IT1513,
       Itel.ITEL_IT1516PLUS,
-      Itel.ITEL_IT1518,
-      Itel.ITEL_IT1556,
       Itel.ITEL_IT1556PLUS,
       Itel.ITEL_IT1702,
       Itel.ITEL_IT1703,
@@ -22279,16 +22617,7 @@ public object PreviewGroups {
    */
   public fun getIviewDevices(): List<String> = listOf(
       Iview._1016TPC,
-      Iview._816TPC,
-      Iview.IVIEW_1170TPC
-  )
-
-  /**
-   * Get all device specifications for iVOOMi devices.
-   * Useful for ivoomi testing.
-   */
-  public fun getIvoomiDevices(): List<String> = listOf(
-      Ivoomi.I2
+      Iview._816TPC
   )
 
   /**
@@ -22302,11 +22631,10 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for IXTECH devices.
+   * Get all device specifications for ixtech devices.
    * Useful for ixtech testing.
    */
   public fun getIxtechDevices(): List<String> = listOf(
-      Ixtech.IX1011,
       Ixtech.IX1012,
       Ixtech.IX1013,
       Ixtech.IX701
@@ -22318,7 +22646,8 @@ public object PreviewGroups {
    */
   public fun getIyouDevices(): List<String> = listOf(
       Iyou.A10,
-      Iyou.A30
+      Iyou.A30,
+      Iyou.IYOU_M1
   )
 
   /**
@@ -22340,14 +22669,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for J-COM devices.
-   * Useful for j-com testing.
-   */
-  public fun getJComDevices(): List<String> = listOf(
-      JCom.SC40
-  )
-
-  /**
    * Get all device specifications for jAC devices.
    * Useful for jac testing.
    */
@@ -22361,7 +22682,9 @@ public object PreviewGroups {
    * Useful for jam testing.
    */
   public fun getJamDevices(): List<String> = listOf(
+      Jam.ELLINIKO,
       Jam.HONGKONG,
+      Jam.JAGALCHI,
       Jam.MOUNTBAKER
   )
 
@@ -22389,11 +22712,19 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for JapanTaxi devices.
-   * Useful for japantaxi testing.
+   * Get all device specifications for JANUS devices.
+   * Useful for janus testing.
    */
-  public fun getJapantaxiDevices(): List<String> = listOf(
-      Japantaxi.IRIS_ITAB05
+  public fun getJanusDevices(): List<String> = listOf(
+      Janus.ELLINIKO
+  )
+
+  /**
+   * Get all device specifications for JAV devices.
+   * Useful for jav testing.
+   */
+  public fun getJavDevices(): List<String> = listOf(
+      Jav.MT9679_U
   )
 
   /**
@@ -22415,6 +22746,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for JCB_Phone devices.
+   * Useful for jcb_phone testing.
+   */
+  public fun getJcbPhoneDevices(): List<String> = listOf(
+      JcbPhone.TOUGHPHONE_E10
+  )
+
+  /**
    * Get all device specifications for JCI_JP devices.
    * Useful for jci_jp testing.
    */
@@ -22423,10 +22762,22 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Jckkcfug devices.
+   * Useful for jckkcfug testing.
+   */
+  public fun getJckkcfugDevices(): List<String> = listOf(
+      Jckkcfug.A10PRO_EEA,
+      Jckkcfug.A10PRO_ROW,
+      Jckkcfug.A20PRO_EEA,
+      Jckkcfug.A20PRO_ROW
+  )
+
+  /**
    * Get all device specifications for JCOM devices.
    * Useful for jcom testing.
    */
   public fun getJcomDevices(): List<String> = listOf(
+      Jcom.SC40,
       Jcom.STI6260D195,
       Jcom.XA401,
       Jcom.XA402
@@ -22517,7 +22868,6 @@ public object PreviewGroups {
       Jinga.JI55AG_189ID,
       Jinga.NEON,
       Jinga.PICASSONOTE,
-      Jinga.TOUCH4G,
       Jinga.WINPRO
   )
 
@@ -22551,6 +22901,8 @@ public object PreviewGroups {
    * Useful for jmgo testing.
    */
   public fun getJmgoDevices(): List<String> = listOf(
+      Jmgo.HOLAN,
+      Jmgo.LONAVLA,
       Jmgo.SONGNI
   )
 
@@ -22559,7 +22911,6 @@ public object PreviewGroups {
    * Useful for jooyon testing.
    */
   public fun getJooyonDevices(): List<String> = listOf(
-      Jooyon.J110A,
       Jooyon.SINDORIM
   )
 
@@ -22579,7 +22930,8 @@ public object PreviewGroups {
       Jovi.V2419B,
       Jovi.V2427B,
       Jovi.V2434B,
-      Jovi.V2440B
+      Jovi.V2440B,
+      Jovi.V2446B
   )
 
   /**
@@ -22596,7 +22948,8 @@ public object PreviewGroups {
    */
   public fun getJoystarDevices(): List<String> = listOf(
       Joystar.J6,
-      Joystar.JOYSTAR_J10
+      Joystar.JOYSTAR_J10,
+      Joystar.JOYSTAR_J16
   )
 
   /**
@@ -22633,9 +22986,12 @@ public object PreviewGroups {
       Jren.J10PLUS,
       Jren.J10PRO,
       Jren.J11,
+      Jren.J11A,
       Jren.J11PLUS,
+      Jren.J12NEW,
       Jren.JR_802,
       Jren.JR_J10A,
+      Jren.JR_J10B,
       Jren.JR_J71,
       Jren.JR_J8,
       Jren.JR_J1063,
@@ -22651,12 +23007,22 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for JTV devices.
+   * Useful for jtv testing.
+   */
+  public fun getJtvDevices(): List<String> = listOf(
+      Jtv.DANGNI
+  )
+
+  /**
    * Get all device specifications for JUEDUR devices.
    * Useful for juedur testing.
    */
   public fun getJuedurDevices(): List<String> = listOf(
       Juedur.R500_EEA,
       Juedur.R500_US,
+      Juedur.R500_V_EEA,
+      Juedur.R500_V_US,
       Juedur.R700_EEA,
       Juedur.R700_US,
       Juedur.R800_U_EEA,
@@ -22697,8 +23063,7 @@ public object PreviewGroups {
    */
   public fun getJust5Devices(): List<String> = listOf(
       Just5.KONROW,
-      Just5.M503,
-      Just5.MD_02P
+      Just5.M503
   )
 
   /**
@@ -22720,7 +23085,6 @@ public object PreviewGroups {
       Jusyea.J10_US,
       Jusyea.J5_EEA,
       Jusyea.J6_EEA,
-      Jusyea.J8,
       Jusyea.J8_EEA,
       Jusyea.J8_EEA_T,
       Jusyea.J8_T,
@@ -22739,18 +23103,22 @@ public object PreviewGroups {
       Jvc.BANGBAE,
       Jvc.BRUNO,
       Jvc.CUNDA,
+      Jvc.DONGMAE,
+      Jvc.ELEONAS,
       Jvc.ELLINIKO,
       Jvc.EXPO,
       Jvc.GANGBYEON,
       Jvc.GUANDU,
       Jvc.HONGKONG,
       Jvc.IKEBUKURO,
+      Jvc.JAGALCHI,
+      Jvc.KAITAK,
       Jvc.KOMAGOME,
       Jvc.LAVENDER,
+      Jvc.MANIATIKA,
       Jvc.MARTIN,
       Jvc.MATEO,
       Jvc.MOUNTBAKER,
-      Jvc.MSTARNAPOLI_ATSC,
       Jvc.OSAKI,
       Jvc.PIONEER,
       Jvc.R1,
@@ -22759,6 +23127,7 @@ public object PreviewGroups {
       Jvc.SADANG,
       Jvc.SAMSEONG,
       Jvc.SEOCHO,
+      Jvc.SEPOLIA,
       Jvc.SHILIN,
       Jvc.SINDORIM,
       Jvc.STANFORD,
@@ -22842,14 +23211,18 @@ public object PreviewGroups {
       Kalley.BLACK_1,
       Kalley.BLACK_3,
       Kalley.BLACK_5,
+      Kalley.BLACK_6C,
       Kalley.BLACK_C_PLUS,
       Kalley.BLACK_E,
+      Kalley.BLACK_E2,
       Kalley.BLACK_G,
       Kalley.BLACK_G3,
+      Kalley.BLACK_G4,
       Kalley.BLACK_G_2,
       Kalley.BLACK_PRO,
       Kalley.BLACK_X,
       Kalley.BLACK_Z,
+      Kalley.BLACK_Z2,
       Kalley.ELEMENT_5,
       Kalley.ELEMENT_MAX,
       Kalley.ELEMENT_PLAY,
@@ -22879,6 +23252,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for KAMON devices.
+   * Useful for kamon testing.
+   */
+  public fun getKamonDevices(): List<String> = listOf(
+      Kamon.K101_PRO
+  )
+
+  /**
    * Get all device specifications for KanDao devices.
    * Useful for kandao testing.
    */
@@ -22897,7 +23278,7 @@ public object PreviewGroups {
       Kanji.KJ_AC05,
       Kanji.KJ_ALFARK,
       Kanji.KJ_ARIZONA,
-      Kanji.KJ_OB02,
+      Kanji.KJ_OB02_600X1024,
       Kanji.KJ_YUBI,
       Kanji.MARTIN,
       Kanji.PATRICK
@@ -22918,7 +23299,6 @@ public object PreviewGroups {
   public fun getKaonmediaDevices(): List<String> = listOf(
       Kaonmedia.BKO_AT800,
       Kaonmedia.IC1110,
-      Kaonmedia.KM_SH368AT,
       Kaonmedia.KSTB2019,
       Kaonmedia.KSTB2020,
       Kaonmedia.KSTB2100,
@@ -22946,22 +23326,13 @@ public object PreviewGroups {
    * Useful for karbonn testing.
    */
   public fun getKarbonnDevices(): List<String> = listOf(
-      Karbonn.A1_INDIAN,
-      Karbonn.A40_INDIAN,
-      Karbonn.A40_INDIAN_PLUS,
-      Karbonn.A41_POWER,
       Karbonn.AURA_POWER_4G_PLUS,
-      Karbonn.AURANOTE4G,
-      Karbonn.AURAPOWER4G,
-      Karbonn.K9_SMART_PLUS,
-      Karbonn.K9_SMART_YUVA,
       Karbonn.K9_VIRAAT_PLUS,
       Karbonn.K9SMART4G,
       Karbonn.PLATINUM_P9,
       Karbonn.PLATINUM_P9_PRO,
       Karbonn.STANFORD,
       Karbonn.TITANIUM_JUMBO,
-      Karbonn.TITANIUM_JUMBO_2,
       Karbonn.TITANIUM_S9PLUS,
       Karbonn.X21
   )
@@ -22971,8 +23342,7 @@ public object PreviewGroups {
    * Useful for karma testing.
    */
   public fun getKarmaDevices(): List<String> = listOf(
-      Karma.KG555_PRO,
-      Karma.KG777PRO
+      Karma.KG555_PRO
   )
 
   /**
@@ -22990,7 +23360,6 @@ public object PreviewGroups {
    */
   public fun getKazamDevices(): List<String> = listOf(
       Kazam.KAZAM,
-      Kazam.TORNADO_348,
       Kazam.TR6L5035
   )
 
@@ -22999,10 +23368,12 @@ public object PreviewGroups {
    * Useful for kbro testing.
    */
   public fun getKbroDevices(): List<String> = listOf(
+      Kbro.A0B_RTD1325,
       Kbro.A1_3796,
       Kbro.A1B_72115,
       Kbro.A2_5751P,
       Kbro.A2_S905X4,
+      Kbro.A2_X4_N,
       Kbro.STI6160D19
   )
 
@@ -23012,6 +23383,14 @@ public object PreviewGroups {
    */
   public fun getKcclDevices(): List<String> = listOf(
       Kccl.N9109M
+  )
+
+  /**
+   * Get all device specifications for KCTV devices.
+   * Useful for kctv testing.
+   */
+  public fun getKctvDevices(): List<String> = listOf(
+      Kctv.MAU9000D
   )
 
   /**
@@ -23125,7 +23504,6 @@ public object PreviewGroups {
       Kddi.SOL22,
       Kddi.SOL23,
       Kddi.SOL24,
-      Kddi.SOL25,
       Kddi.SOL26,
       Kddi.SOT21,
       Kddi.SOT31,
@@ -23148,10 +23526,12 @@ public object PreviewGroups {
       Kddi.WJG,
       Kddi.XIJ,
       Kddi.XKH,
+      Kddi.XQ_FE,
       Kddi.XQ_FS,
       Kddi.YLI,
       Kddi.ZEE,
-      Kddi.ZKO
+      Kddi.ZKO,
+      Kddi.ZMJ
   )
 
   /**
@@ -23183,19 +23563,10 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Kelyx_KL783 devices.
-   * Useful for kelyx_kl783 testing.
-   */
-  public fun getKelyxKl783Devices(): List<String> = listOf(
-      KelyxKl783.AKS01_KL783
-  )
-
-  /**
    * Get all device specifications for KEMPLER_STRAUSS devices.
    * Useful for kempler_strauss testing.
    */
   public fun getKemplerStraussDevices(): List<String> = listOf(
-      KemplerStrauss.ALUMINI_3_PLUS,
       KemplerStrauss.KEMPLER_9,
       KemplerStrauss.KEMPLER_P1,
       KemplerStrauss.KEMPLER_P1_AMATEUR_PLUS,
@@ -23228,10 +23599,7 @@ public object PreviewGroups {
   public fun getKenboDevices(): List<String> = listOf(
       Kenbo.B19,
       Kenbo.K6,
-      Kenbo.K7,
-      Kenbo.O51,
-      Kenbo.O61,
-      Kenbo.O71
+      Kenbo.K7
   )
 
   /**
@@ -23281,7 +23649,8 @@ public object PreviewGroups {
       Kenshi.PAD_LITE_E58,
       Kenshi.PAD_PRO_E110,
       Kenshi.PAD_PRO_E111,
-      Kenshi.PAD_PRO_E112
+      Kenshi.PAD_PRO_E112,
+      Kenshi.PAD_PRO_E90
   )
 
   /**
@@ -23289,10 +23658,19 @@ public object PreviewGroups {
    * Useful for kenwood testing.
    */
   public fun getKenwoodDevices(): List<String> = listOf(
+      Kenwood.ELLINIKO,
       Kenwood.HONGKONG,
       Kenwood.LAVENDER,
       Kenwood.MOUNTBAKER,
       Kenwood.XP8800
+  )
+
+  /**
+   * Get all device specifications for KEP devices.
+   * Useful for kep testing.
+   */
+  public fun getKepDevices(): List<String> = listOf(
+      Kep.M1513
   )
 
   /**
@@ -23347,7 +23725,16 @@ public object PreviewGroups {
       Kiddoboo.KB101,
       Kiddoboo.KB101B,
       Kiddoboo.KB102,
-      Kiddoboo.KB80P
+      Kiddoboo.KB80P,
+      Kiddoboo.KB82P
+  )
+
+  /**
+   * Get all device specifications for Kidspad devices.
+   * Useful for kidspad testing.
+   */
+  public fun getKidspadDevices(): List<String> = listOf(
+      Kidspad.KIDSPAD_V2
   )
 
   /**
@@ -23399,7 +23786,6 @@ public object PreviewGroups {
       Kiowa.LAVENDER,
       Kiowa.MOUNTBAKER,
       Kiowa.S5_CRISTAL,
-      Kiowa.X4_CRISTAL,
       Kiowa.ZHONGSHAN
   )
 
@@ -23427,6 +23813,7 @@ public object PreviewGroups {
   public fun getKiviDevices(): List<String> = listOf(
       Kivi.BANGBAE,
       Kivi.BRUNO,
+      Kivi.ELLINIKO,
       Kivi.KOMAGOME,
       Kivi.SHILIN,
       Kivi.STANFORD,
@@ -23438,7 +23825,6 @@ public object PreviewGroups {
    * Useful for klipad testing.
    */
   public fun getKlipadDevices(): List<String> = listOf(
-      Klipad.KL2018R,
       Klipad.KL2108NBE,
       Klipad.KL2109NB_EEA,
       Klipad.KL3669_EEA,
@@ -23449,8 +23835,8 @@ public object PreviewGroups {
       Klipad.KL4891,
       Klipad.KL4898,
       Klipad.KL4898_A50,
+      Klipad.KL4899A,
       Klipad.KL500,
-      Klipad.KL502,
       Klipad.KL503,
       Klipad.KL505,
       Klipad.KL601,
@@ -23467,7 +23853,6 @@ public object PreviewGroups {
       Klipad.KL9878AE,
       Klipad.KLIPAD,
       Klipad.KLIPAD_KL600,
-      Klipad.KLIPAD_KL600B,
       Klipad.KLIPAD_SMART_I746,
       Klipad.V355,
       Klipad.V355B,
@@ -23506,7 +23891,6 @@ public object PreviewGroups {
       Kodak.KODAK_D65LX,
       Kodak.KODAK_KD50,
       Kodak.KODAK_SMARTWAY_L1,
-      Kodak.KODAK_SMARTWAY_T2,
       Kodak.KODAKEKTRA,
       Kodak.L1_PRO,
       Kodak.MARINA,
@@ -23526,7 +23910,9 @@ public object PreviewGroups {
   public fun getKoganDevices(): List<String> = listOf(
       Kogan.AGORA_GO,
       Kogan.AGORA_XI,
+      Kogan.ALIMOS,
       Kogan.COTTONGREEN,
+      Kogan.DANGNI,
       Kogan.HANYANG,
       Kogan.IKEBUKURO,
       Kogan.KAKT10164SA,
@@ -23535,14 +23921,13 @@ public object PreviewGroups {
       Kogan.KATB1064WGRY,
       Kogan.KATB21064CPA,
       Kogan.KATB2P1064WPA,
-      Kogan.KOGAN_AGORA_9,
-      Kogan.KOGAN_AGORA_XS,
       Kogan.LONGSHAN,
       Kogan.MARINA,
       Kogan.NAGATA,
       Kogan.NIPPORI,
       Kogan.REDWOOD,
       Kogan.SAMSEONG,
+      Kogan.SEPOLIA,
       Kogan.SHIBUYA,
       Kogan.SW4H,
       Kogan.SW4H_FF,
@@ -23555,6 +23940,7 @@ public object PreviewGroups {
    * Useful for kolin testing.
    */
   public fun getKolinDevices(): List<String> = listOf(
+      Kolin.ELLINIKO,
       Kolin.HONGKONG,
       Kolin.LONGSHAN,
       Kolin.REDWOOD
@@ -23581,13 +23967,14 @@ public object PreviewGroups {
    * Useful for konka testing.
    */
   public fun getKonkaDevices(): List<String> = listOf(
+      Konka.AALTER,
       Konka.BANDRA,
       Konka.CAPITOLHILL,
+      Konka.CLARA,
       Konka.KC516,
       Konka.KC516_PRO,
       Konka.KENTON,
       Konka.KEONEAE,
-      Konka.KM7012BK,
       Konka.LASALLE,
       Konka.M27S,
       Konka.N15,
@@ -23595,7 +23982,6 @@ public object PreviewGroups {
       Konka.N7,
       Konka.RE1,
       Konka.RU1,
-      Konka.SE1,
       Konka.SE2,
       Konka.SEOCHO,
       Konka.SP10,
@@ -23618,15 +24004,12 @@ public object PreviewGroups {
       Konrow.EASY_5,
       Konrow.EASY_K55,
       Konrow.EASY_S55P,
-      Konrow.EASY_S55P_2021,
       Konrow.K_TAB1005,
       Konrow.K_TAB703,
       Konrow.K_TAB801,
-      Konrow.KONROW_SKY_LITE,
       Konrow.KONROW_SKY_PLUS,
       Konrow.KTAB704,
       Konrow.KTAB_1003,
-      Konrow.KTAB_1004,
       Konrow.MUST,
       Konrow.NEOW,
       Konrow.SKY,
@@ -23635,7 +24018,8 @@ public object PreviewGroups {
       Konrow.SKY_55,
       Konrow.SOFT5,
       Konrow.SOFT5P,
-      Konrow.SWEET5
+      Konrow.SWEET5,
+      Konrow.TOUCH55
   )
 
   /**
@@ -23676,6 +24060,7 @@ public object PreviewGroups {
    */
   public fun getKozenDevices(): List<String> = listOf(
       Kozen.D1,
+      Kozen.P18,
       Kozen.T05
   )
 
@@ -23709,7 +24094,6 @@ public object PreviewGroups {
       Krip.K5M,
       Krip.K6,
       Krip.K60,
-      Krip.K65,
       Krip.K66,
       Krip.K68,
       Krip.K69,
@@ -23730,6 +24114,7 @@ public object PreviewGroups {
       Krono.MATRIX_PRO,
       Krono.NET_ADVANCE,
       Krono.NET_ALPHA,
+      Krono.NET_G,
       Krono.NET_HIT,
       Krono.NET_K7,
       Krono.NET_K7_PLUS,
@@ -23751,16 +24136,9 @@ public object PreviewGroups {
    * Useful for kross_elegance testing.
    */
   public fun getKrossEleganceDevices(): List<String> = listOf(
-      KrossElegance.KE_TB815
-  )
-
-  /**
-   * Get all device specifications for KrossElegance devices.
-   * Useful for krosselegance testing.
-   */
-  public fun getKrosseleganceDevices(): List<String> = listOf(
-      Krosselegance.KE_TB1032OF,
-      Krosselegance.KE_TB816OF
+      KrossElegance.KE_TB1032OF,
+      KrossElegance.KE_TB815,
+      KrossElegance.KE_TB816OF
   )
 
   /**
@@ -23773,7 +24151,6 @@ public object PreviewGroups {
       KrugerMatz.DRIVE_6S,
       KrugerMatz.DRIVE_8,
       KrugerMatz.EAGLE_1066,
-      KrugerMatz.EAGLE_1067,
       KrugerMatz.EAGLE_1068,
       KrugerMatz.EAGLE_1069,
       KrugerMatz.EAGLE_1072,
@@ -23782,7 +24159,6 @@ public object PreviewGroups {
       KrugerMatz.EAGLE_806,
       KrugerMatz.EAGLE_961,
       KrugerMatz.FLOW5PLUS,
-      KrugerMatz.FLOW6LITE,
       KrugerMatz.FLOW7,
       KrugerMatz.FLOW_11,
       KrugerMatz.FLOW_5,
@@ -23797,6 +24173,10 @@ public object PreviewGroups {
       KrugerMatz.KM1074,
       KrugerMatz.KM1075,
       KrugerMatz.KM1076,
+      KrugerMatz.KM1077,
+      KrugerMatz.KM1077S,
+      KrugerMatz.KM1078,
+      KrugerMatz.KM1078S,
       KrugerMatz.LIVE_11,
       KrugerMatz.LIVE_12,
       KrugerMatz.LIVE_6PLUS,
@@ -23842,7 +24222,10 @@ public object PreviewGroups {
   public fun getKtcDevices(): List<String> = listOf(
       Ktc.BLISS503,
       Ktc.CAPRICORN,
+      Ktc.ELLINIKO,
       Ktc.HONGKONG,
+      Ktc.JAGALCHI,
+      Ktc.KAISYUAN,
       Ktc.LAVENDER,
       Ktc.LEO,
       Ktc.MOUNTBAKER,
@@ -23869,14 +24252,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for KULT devices.
-   * Useful for kult testing.
-   */
-  public fun getKultDevices(): List<String> = listOf(
-      Kult.KT05
-  )
-
-  /**
    * Get all device specifications for Kunfabo devices.
    * Useful for kunfabo testing.
    */
@@ -23889,6 +24264,7 @@ public object PreviewGroups {
    * Useful for kunft testing.
    */
   public fun getKunftDevices(): List<String> = listOf(
+      Kunft.DANGNI,
       Kunft.IKEBUKURO,
       Kunft.REDWOOD,
       Kunft.SAMSEONG
@@ -23899,7 +24275,16 @@ public object PreviewGroups {
    * Useful for kuori testing.
    */
   public fun getKuoriDevices(): List<String> = listOf(
+      Kuori.GRANIITTI,
       Kuori.KIVI
+  )
+
+  /**
+   * Get all device specifications for KURAEMON devices.
+   * Useful for kuraemon testing.
+   */
+  public fun getKuraemonDevices(): List<String> = listOf(
+      Kuraemon.KURAEMON_PAD_MINI_TOUGH
   )
 
   /**
@@ -23951,7 +24336,6 @@ public object PreviewGroups {
       Kxd.D58,
       Kxd.D68S,
       Kxd.D70,
-      Kxd.K30M,
       Kxd.T50,
       Kxd.T50Y,
       Kxd.T55,
@@ -23969,10 +24353,17 @@ public object PreviewGroups {
    * Useful for kyaster testing.
    */
   public fun getKyasterDevices(): List<String> = listOf(
-      Kyaster.KPAD_U2,
       Kyaster.KPAD_U2_P,
       Kyaster.KPAD_U4,
       Kyaster.KPAD_U4_EEA
+  )
+
+  /**
+   * Get all device specifications for KYDOS devices.
+   * Useful for kydos testing.
+   */
+  public fun getKydosDevices(): List<String> = listOf(
+      Kydos.SEPOLIA
   )
 
   /**
@@ -23989,7 +24380,6 @@ public object PreviewGroups {
       Kyocera.A001KC,
       Kyocera.A201KC,
       Kyocera.C6530N,
-      Kyocera.C6725,
       Kyocera.C6730,
       Kyocera.C6740,
       Kyocera.C6740N,
@@ -24003,6 +24393,7 @@ public object PreviewGroups {
       Kyocera.E6560T,
       Kyocera.E6762,
       Kyocera.E6782,
+      Kyocera.E6782L,
       Kyocera.E6790,
       Kyocera.E6790TM,
       Kyocera.E6810_3GB,
@@ -24083,6 +24474,17 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for LAGENIO devices.
+   * Useful for lagenio testing.
+   */
+  public fun getLagenioDevices(): List<String> = listOf(
+      Lagenio.A11_PRO,
+      Lagenio.A12_PRO,
+      Lagenio.PANTHER2,
+      Lagenio.PANTHER2_PRO
+  )
+
+  /**
    * Get all device specifications for LAIQ devices.
    * Useful for laiq testing.
    */
@@ -24108,21 +24510,14 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Landbyte devices.
-   * Useful for landbyte testing.
-   */
-  public fun getLandbyteDevices(): List<String> = listOf(
-      Landbyte.LT6248
-  )
-
-  /**
-   * Get all device specifications for LANDI devices.
+   * Get all device specifications for Landi devices.
    * Useful for landi testing.
    */
   public fun getLandiDevices(): List<String> = listOf(
       Landi.AN_LFC,
       Landi.M20,
-      Landi.M20SE
+      Landi.M20SE,
+      Landi.P9
   )
 
   /**
@@ -24147,13 +24542,13 @@ public object PreviewGroups {
    * Useful for lanix testing.
    */
   public fun getLanixDevices(): List<String> = listOf(
+      Lanix.ALPHA2,
       Lanix.ALPHA_1R,
       Lanix.ALPHA_1V,
       Lanix.ALPHA_3R,
       Lanix.ALPHA_3V,
       Lanix.ALPHA_5V,
       Lanix.ALPHA_950,
-      Lanix.ALPHA_950XL,
       Lanix.ALPHA_9V,
       Lanix.ILIUM_ALPHA7,
       Lanix.ILIUM_ALPHA_1S,
@@ -24165,7 +24560,6 @@ public object PreviewGroups {
       Lanix.ILIUM_L1100,
       Lanix.ILIUM_L1120,
       Lanix.ILIUM_L1400,
-      Lanix.ILIUM_L200,
       Lanix.ILIUM_L610,
       Lanix.ILIUM_L620,
       Lanix.ILIUM_L910,
@@ -24189,10 +24583,8 @@ public object PreviewGroups {
       Lanix.ILIUM_PADE10,
       Lanix.ILIUM_PADE8,
       Lanix.ILIUM_X110,
-      Lanix.ILIUM_X200,
       Lanix.ILIUM_X210,
       Lanix.ILIUM_X220,
-      Lanix.ILIUM_X500B,
       Lanix.ILIUM_X510,
       Lanix.ILIUM_X520,
       Lanix.ILIUM_X710,
@@ -24213,6 +24605,7 @@ public object PreviewGroups {
       Lanix.STANFORD,
       Lanix.X120C,
       Lanix.X1S,
+      Lanix.X2,
       Lanix.X230,
       Lanix.X240,
       Lanix.X5,
@@ -24245,13 +24638,13 @@ public object PreviewGroups {
       Laser.MID_1087,
       Laser.MID_1090IPS,
       Laser.MID_785A100,
+      Laser.MID_7A15,
       Laser.MID_1087V9,
       Laser.MID_1089IPS,
       Laser.MID_1089IPSA100,
       Laser.MID_1090IPSV9,
       Laser.MID_1099IPS,
       Laser.MID_1099IPS_V13,
-      Laser.MID_787V9,
       Laser.MID_789A100,
       Laser.MID_799IPS,
       Laser.MID_799IPS_V13,
@@ -24275,7 +24668,6 @@ public object PreviewGroups {
   public fun getLavaDevices(): List<String> = listOf(
       Lava.A3_MINI,
       Lava.A52,
-      Lava.A76PLUS,
       Lava.A77,
       Lava.A97,
       Lava.A97_2GB_PLUS,
@@ -24287,7 +24679,6 @@ public object PreviewGroups {
       Lava.IRIS50,
       Lava.IRIS50C,
       Lava.IRIS51,
-      Lava.IRIS53,
       Lava.IRIS60,
       Lava.IRIS60C,
       Lava.IRIS65,
@@ -24297,7 +24688,6 @@ public object PreviewGroups {
       Lava.IRIS821,
       Lava.IRIS870,
       Lava.IRIS88,
-      Lava.IRIS880,
       Lava.IRIS88_GO,
       Lava.IRIS88_LITE,
       Lava.IRIS88S,
@@ -24350,7 +24740,11 @@ public object PreviewGroups {
       Lava.LXX516,
       Lava.LXX517,
       Lava.LXX518,
+      Lava.LXX519,
+      Lava.LXX521,
       Lava.LXX522,
+      Lava.LXX523,
+      Lava.LXX525,
       Lava.LZG01,
       Lava.LZG401,
       Lava.LZG402_1,
@@ -24360,6 +24754,7 @@ public object PreviewGroups {
       Lava.LZG403_25,
       Lava.LZG409,
       Lava.LZG410,
+      Lava.LZG411,
       Lava.LZX403,
       Lava.LZX406,
       Lava.LZX408,
@@ -24367,22 +24762,19 @@ public object PreviewGroups {
       Lava.LZX415,
       Lava.LZX417,
       Lava.LZX419,
+      Lava.LZX421,
       Lava.MAGNUM_PRO,
-      Lava.P7,
       Lava.R1_LITE,
       Lava.R3,
       Lava.T101,
       Lava.T101N,
       Lava.T71_W,
-      Lava.T71N,
       Lava.T71N_M,
       Lava.T81,
       Lava.T81_PB,
       Lava.T81N,
-      Lava.V23GB,
       Lava.X10,
       Lava.X41_PLUS,
-      Lava.X50_PLUS,
       Lava.X81,
       Lava.Z1,
       Lava.Z100,
@@ -24429,11 +24821,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for LAZER devices.
-   * Useful for lazer testing.
+   * Get all device specifications for Laxton devices.
+   * Useful for laxton testing.
    */
-  public fun getLazerDevices(): List<String> = listOf(
-      Lazer.LZ_890
+  public fun getLaxtonDevices(): List<String> = listOf(
+      Laxton.LAXTON_CHAMELEON_8_A13
   )
 
   /**
@@ -24483,7 +24875,6 @@ public object PreviewGroups {
       Leagoo.M13,
       Leagoo.M9,
       Leagoo.M9_PRO,
-      Leagoo.P1,
       Leagoo.P1_PRO,
       Leagoo.POWER_2,
       Leagoo.POWER_2_PRO,
@@ -24530,7 +24921,8 @@ public object PreviewGroups {
    * Useful for legamaster testing.
    */
   public fun getLegamasterDevices(): List<String> = listOf(
-      Legamaster.ETX
+      Legamaster.ETX,
+      Legamaster.NAV_RK
   )
 
   /**
@@ -24565,6 +24957,14 @@ public object PreviewGroups {
    */
   public fun getLeicaDevices(): List<String> = listOf(
       Leica.CSX8
+  )
+
+  /**
+   * Get all device specifications for LENCO devices.
+   * Useful for lenco testing.
+   */
+  public fun getLencoDevices(): List<String> = listOf(
+      Lenco.SEPOLIA
   )
 
   /**
@@ -24616,10 +25016,11 @@ public object PreviewGroups {
       Lenovo.A3500H,
       Lenovo.A3500HV,
       Lenovo.A369I,
+      Lenovo.A3860,
+      Lenovo.A401LV,
       Lenovo.A5000,
       Lenovo.A5000E,
       Lenovo.A516_ROW,
-      Lenovo.A526,
       Lenovo.A536,
       Lenovo.A5500_F,
       Lenovo.A5500_H,
@@ -24652,13 +25053,10 @@ public object PreviewGroups {
       Lenovo.A8_50L,
       Lenovo.A8_50LC,
       Lenovo.A806,
-      Lenovo.A850,
       Lenovo.A850P,
       Lenovo.A859_ROW,
       Lenovo.A889,
       Lenovo.A916,
-      Lenovo.A936,
-      Lenovo.A938T,
       Lenovo.AIO_3M_OTFP_M,
       Lenovo.AIO_OTFP,
       Lenovo.AIO_OTFP_M,
@@ -24705,7 +25103,6 @@ public object PreviewGroups {
       Lenovo.K33A42,
       Lenovo.K33A48,
       Lenovo.K33B36,
-      Lenovo.K33B37,
       Lenovo.K350T,
       Lenovo.K5,
       Lenovo.K50_T5,
@@ -24715,11 +25112,9 @@ public object PreviewGroups {
       Lenovo.K53B36,
       Lenovo.K5FP,
       Lenovo.K5FP_M,
-      Lenovo.K5S,
       Lenovo.K606F,
       Lenovo.K80M,
       Lenovo.K9,
-      Lenovo.K900_ROW,
       Lenovo.KINGDOM_ROW,
       Lenovo.KITON,
       Lenovo.KITONW,
@@ -24755,7 +25150,6 @@ public object PreviewGroups {
       Lenovo.PB2_670N,
       Lenovo.PB2_670Y,
       Lenovo.PB2PRO,
-      Lenovo.PXA1L88H2,
       Lenovo.Q706F,
       Lenovo.Q706Z,
       Lenovo.S1A40,
@@ -24775,7 +25169,6 @@ public object PreviewGroups {
       Lenovo.S860,
       Lenovo.S898TP,
       Lenovo.S920_ROW,
-      Lenovo.S930_ROW,
       Lenovo.S960,
       Lenovo.S960_ROW,
       Lenovo.S968T,
@@ -24845,6 +25238,7 @@ public object PreviewGroups {
       Lenovo.TB301FU,
       Lenovo.TB301XU,
       Lenovo.TB305FU,
+      Lenovo.TB305XU,
       Lenovo.TB310FU,
       Lenovo.TB310XU,
       Lenovo.TB311FU,
@@ -24864,12 +25258,14 @@ public object PreviewGroups {
       Lenovo.TB351FU,
       Lenovo.TB352FU,
       Lenovo.TB360ZU,
+      Lenovo.TB361FU,
       Lenovo.TB370FU,
       Lenovo.TB371FC,
       Lenovo.TB372FC,
       Lenovo.TB373FU,
       Lenovo.TB520FU,
       Lenovo.TB570FU,
+      Lenovo.TB571FU,
       Lenovo.TB7104F,
       Lenovo.TB7104I,
       Lenovo.VEGA,
@@ -24909,7 +25305,6 @@ public object PreviewGroups {
       Lenovo.X704F,
       Lenovo.X704L,
       Lenovo.X704V,
-      Lenovo.X704Y,
       Lenovo.X705F,
       Lenovo.X705L,
       Lenovo.YETI,
@@ -24989,6 +25384,15 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for LEVIRTU devices.
+   * Useful for levirtu testing.
+   */
+  public fun getLevirtuDevices(): List<String> = listOf(
+      Levirtu.M128_EEA,
+      Levirtu.M309_EEA
+  )
+
+  /**
    * Get all device specifications for LEXA devices.
    * Useful for lexa testing.
    */
@@ -25005,8 +25409,8 @@ public object PreviewGroups {
       Lexibook.LT10_01_EEA,
       Lexibook.LT10EN_09,
       Lexibook.MFC149,
-      Lexibook.MFS100,
       Lexibook.TL70,
+      Lexibook.TL70_04_EEA,
       Lexibook.TLN10FR
   )
 
@@ -25095,7 +25499,6 @@ public object PreviewGroups {
       Lge.DM_01K,
       Lge.DM_02H,
       Lge.E1Q,
-      Lge.E2,
       Lge.E2N,
       Lge.E2NAC,
       Lge.E2NAS,
@@ -25124,7 +25527,6 @@ public object PreviewGroups {
       Lge.G3,
       Lge.G4STYLUS,
       Lge.G4STYLUSC,
-      Lge.G4STYLUSDS,
       Lge.G4STYLUSDSN,
       Lge.G4STYLUSN,
       Lge.G4STYLUSW,
@@ -25176,15 +25578,12 @@ public object PreviewGroups {
       Lge.LUCYE,
       Lge.LUV20DS,
       Lge.LUV20SS,
-      Lge.LUV20TS,
       Lge.LUV30DS,
       Lge.LUV30SS,
       Lge.LUV50DS,
       Lge.LUV50SS,
-      Lge.LUV50SSN,
       Lge.LUV80DS,
       Lge.LUV80SS,
-      Lge.LUV90DS,
       Lge.LUV90SS,
       Lge.LV0,
       Lge.LV1,
@@ -25283,7 +25682,6 @@ public object PreviewGroups {
       Lge.NEO4LM,
       Lge.OMEGA,
       Lge.P1,
-      Lge.P1BDS3G,
       Lge.P1BDSN,
       Lge.P1BSSN,
       Lge.P1V,
@@ -25331,12 +25729,9 @@ public object PreviewGroups {
       Lge.VFP3G,
       Lge.VFPV,
       Lge.VU2KT,
-      Lge.VU2SK,
       Lge.VU3,
       Lge.W3,
-      Lge.W3C,
       Lge.W3DS,
-      Lge.W3VOIP,
       Lge.W5,
       Lge.W55,
       Lge.W55DS,
@@ -25383,6 +25778,7 @@ public object PreviewGroups {
   public fun getLguplusDevices(): List<String> = listOf(
       Lguplus.UHD4K,
       Lguplus.UIE4057LGU,
+      Lguplus.UIY7057LGU,
       Lguplus.UTE7057LGU
   )
 
@@ -25414,20 +25810,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Life_mobile devices.
-   * Useful for life_mobile testing.
-   */
-  public fun getLifeMobileDevices(): List<String> = listOf(
-      LifeMobile.LM1
-  )
-
-  /**
    * Get all device specifications for LIFEPHONE devices.
    * Useful for lifephone testing.
    */
   public fun getLifephoneDevices(): List<String> = listOf(
       Lifephone.LIFEPHONE_HERO,
       Lifephone.LIFEPHONE_IDOL,
+      Lifephone.LIFEPHONE_SIMPLE,
       Lifephone.LIFEPHONE_STAR,
       Lifephone.LIFEPHONE_VISION
   )
@@ -25437,6 +25826,7 @@ public object PreviewGroups {
    * Useful for lincplus testing.
    */
   public fun getLincplusDevices(): List<String> = listOf(
+      Lincplus.M8_US,
       Lincplus.T3_US,
       Lincplus.T4,
       Lincplus.T4_EU
@@ -25457,14 +25847,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for LINNEX devices.
-   * Useful for linnex testing.
-   */
-  public fun getLinnexDevices(): List<String> = listOf(
-      Linnex.LX50
-  )
-
-  /**
    * Get all device specifications for Linsar devices.
    * Useful for linsar testing.
    */
@@ -25481,11 +25863,11 @@ public object PreviewGroups {
    */
   public fun getLinsayDevices(): List<String> = listOf(
       Linsay.F10XIPG,
+      Linsay.F10XIPGPLUS,
       Linsay.F10XIPS,
       Linsay.F10XIPSQ,
       Linsay.F7UHD,
-      Linsay.F_10XIPS,
-      Linsay.LINSAY_F7HD4CORE
+      Linsay.F_10XIPS
   )
 
   /**
@@ -25518,6 +25900,7 @@ public object PreviewGroups {
    * Useful for lloyd testing.
    */
   public fun getLloydDevices(): List<String> = listOf(
+      Lloyd.LANDEN,
       Lloyd.R1,
       Lloyd.R2,
       Lloyd.R3,
@@ -25553,15 +25936,18 @@ public object PreviewGroups {
       Logic.L55A,
       Logic.L55B,
       Logic.L63A,
+      Logic.L65E,
       Logic.L66,
       Logic.L66_LITE,
       Logic.L66_PRO,
+      Logic.L66F,
       Logic.L68_ULTRA,
       Logic.LOGIC_G1L,
       Logic.LOGIC_L4T,
       Logic.LOGIC_L50,
       Logic.LOGIC_L50T,
       Logic.LOGIC_L55S,
+      Logic.LOGIC_L55V,
       Logic.LOGIC_L55V_PLUS,
       Logic.LOGIC_L57,
       Logic.LOGIC_L5D,
@@ -25572,7 +25958,6 @@ public object PreviewGroups {
       Logic.LOGIC_L65_LITE,
       Logic.LOGIC_L65T,
       Logic.LOGIC_L66M,
-      Logic.LOGIC_L68,
       Logic.LOGIC_MV01,
       Logic.LOGIC_MV02,
       Logic.LOGIC_T10L_PLUS,
@@ -25589,8 +25974,7 @@ public object PreviewGroups {
       Logic.T3GPLUS,
       Logic.T4G,
       Logic.X4,
-      Logic.X4G,
-      Logic.X50A
+      Logic.X4G
   )
 
   /**
@@ -25608,7 +25992,6 @@ public object PreviewGroups {
   public fun getLogicomDevices(): List<String> = listOf(
       Logicom.AERO_EEA,
       Logicom.COMET_EEA,
-      Logicom.CT1080,
       Logicom.ELIO,
       Logicom.EZY,
       Logicom.EZY_2,
@@ -25617,9 +26000,6 @@ public object PreviewGroups {
       Logicom.FIVE_PRO_32,
       Logicom.FLOW_EEA,
       Logicom.GENERIC,
-      Logicom.IDBOT53PLUS,
-      Logicom.IDBOT553,
-      Logicom.IDBOT553PLUS,
       Logicom.L_EMENT505,
       Logicom.L_EMENT551,
       Logicom.L_EMENT553,
@@ -25631,13 +26011,10 @@ public object PreviewGroups {
       Logicom.LA_TAB_114_REV2,
       Logicom.LA_TAB_115,
       Logicom.LA_TAB_124_HD,
-      Logicom.LA_TAB_124_HD_PLUS,
       Logicom.LA_TAB_127_HD_EEA,
       Logicom.LA_TAB_128,
-      Logicom.LA_TAB_292,
       Logicom.LA_TAB_72,
       Logicom.LA_TAB_74,
-      Logicom.LA_TAB_74_REV2_AF,
       Logicom.LA_TAB_74_REV2_EEA,
       Logicom.LA_TAB_75,
       Logicom.LA_TAB_90,
@@ -25657,14 +26034,11 @@ public object PreviewGroups {
       Logicom.LE_OMEGA,
       Logicom.LE_PRIME,
       Logicom.LE_PULSE,
-      Logicom.LE_SMOOTH,
       Logicom.LE_SPARK,
       Logicom.LE_WAVE,
       Logicom.LEFIT,
       Logicom.LEFITFR,
       Logicom.LELIFT,
-      Logicom.LEMENTTAB1042,
-      Logicom.LEMENTTAB1043,
       Logicom.LEMOOV,
       Logicom.LEMOOV2,
       Logicom.LEMUST,
@@ -25676,13 +26050,12 @@ public object PreviewGroups {
       Logicom.LOGIKIDS7,
       Logicom.LOGIKIDS_10,
       Logicom.LOGIKIDS_11P,
-      Logicom.LOGIKIDS_5_REV2,
-      Logicom.LOGIKIDS_5_REV2_AF,
+      Logicom.LOGIKIDS_STAR,
       Logicom.LS0591121F,
-      Logicom.LT1012211F,
       Logicom.LUMA,
       Logicom.LUNAR_EEA,
       Logicom.LUNAR_PRO,
+      Logicom.LYRA,
       Logicom.LYRA_PLUS_EEA,
       Logicom.M_BOT_TAB_10,
       Logicom.M_BOT_TAB_1150,
@@ -25695,6 +26068,7 @@ public object PreviewGroups {
       Logicom.TAB134,
       Logicom.TAB76,
       Logicom.TAB_80,
+      Logicom.TAB_FOLD_12,
       Logicom.TAB_LINK_104,
       Logicom.TAB_STAND_PRO,
       Logicom.TAB_STAND_PRO_2,
@@ -25702,6 +26076,7 @@ public object PreviewGroups {
       Logicom.TABXL_14,
       Logicom.WAVE_2,
       Logicom.WAVE_2S,
+      Logicom.XTREM650,
       Logicom.YUNO
   )
 
@@ -25732,12 +26107,28 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for LOOQS devices.
+   * Useful for looqs testing.
+   */
+  public fun getLooqsDevices(): List<String> = listOf(
+      Looqs.F102_EEA
+  )
+
+  /**
    * Get all device specifications for louisvuitton devices.
    * Useful for louisvuitton testing.
    */
   public fun getLouisvuittonDevices(): List<String> = listOf(
       Louisvuitton.LING,
       Louisvuitton.SUNDIAL
+  )
+
+  /**
+   * Get all device specifications for LOWI devices.
+   * Useful for lowi testing.
+   */
+  public fun getLowiDevices(): List<String> = listOf(
+      Lowi.M252_LOWI
   )
 
   /**
@@ -25757,9 +26148,15 @@ public object PreviewGroups {
       Lp.N_57_PLUS,
       Lp.N_60,
       Lp.N60,
-      Lp.T100,
-      Lp.VYPER_PRO,
-      Lp.W55
+      Lp.VYPER_PRO
+  )
+
+  /**
+   * Get all device specifications for LPE devices.
+   * Useful for lpe testing.
+   */
+  public fun getLpeDevices(): List<String> = listOf(
+      Lpe.LISA_PRO
   )
 
   /**
@@ -25775,10 +26172,12 @@ public object PreviewGroups {
       Lt.LT971,
       Lt.LT_6217,
       Lt.LT_6509,
+      Lt.LT_8102,
       Lt.LT_8103,
       Lt.LT_8501,
       Lt.LT_9701,
       Lt.LT_9902,
+      Lt.LT_9904,
       Lt.LT_9906,
       Lt.LT_C1500,
       Lt.LT_C2100,
@@ -25786,8 +26185,7 @@ public object PreviewGroups {
       Lt.LT_C3300,
       Lt.LT_C3500,
       Lt.LT_S10_LITE,
-      Lt.LT_S9_NOTE,
-      Lt.NOTE_30
+      Lt.LT_S9_NOTE
   )
 
   /**
@@ -25797,12 +26195,15 @@ public object PreviewGroups {
   public fun getLtMobileDevices(): List<String> = listOf(
       LtMobile.LT_2003,
       LtMobile.LT_MOBILE_C26,
+      LtMobile.LT_MOBILE_C27,
       LtMobile.LT_MOBILE_C60,
       LtMobile.LT_MOBILE_E16,
       LtMobile.LT_MOBILE_E18,
       LtMobile.LT_MOBILE_E6707,
+      LtMobile.LT_MOBILE_K80,
       LtMobile.LT_MOBILE_S22,
-      LtMobile.LT_MOBILE_S33
+      LtMobile.LT_MOBILE_S33,
+      LtMobile.LT_MOBILE_S40
   )
 
   /**
@@ -25810,6 +26211,7 @@ public object PreviewGroups {
    * Useful for lucoms testing.
    */
   public fun getLucomsDevices(): List<String> = listOf(
+      Lucoms.ALIMOS,
       Lucoms.HONGKONG,
       Lucoms.MOUNTBAKER,
       Lucoms.R1,
@@ -25832,6 +26234,7 @@ public object PreviewGroups {
    * Useful for lumio testing.
    */
   public fun getLumioDevices(): List<String> = listOf(
+      Lumio.HIMALAYA,
       Lumio.KHARDI
   )
 
@@ -25845,11 +26248,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for LUMOS devices.
+   * Useful for lumos testing.
+   */
+  public fun getLumosDevices(): List<String> = listOf(
+      Lumos.LUMOS_TABLET,
+      Lumos.LUMOS_TABLET_PRO
+  )
+
+  /**
    * Get all device specifications for LUMUS devices.
    * Useful for lumus testing.
    */
   public fun getLumusDevices(): List<String> = listOf(
-      Lumus.INNOSR545,
       Lumus.NEOSR620
   )
 
@@ -25956,6 +26367,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for LYKONDA devices.
+   * Useful for lykonda testing.
+   */
+  public fun getLykondaDevices(): List<String> = listOf(
+      Lykonda.LY523
+  )
+
+  /**
    * Get all device specifications for LYNKNEX devices.
    * Useful for lynknex testing.
    */
@@ -25969,6 +26388,14 @@ public object PreviewGroups {
    */
   public fun getLyotechLabsDevices(): List<String> = listOf(
       LyotechLabs.LFI_ONE
+  )
+
+  /**
+   * Get all device specifications for LZF devices.
+   * Useful for lzf testing.
+   */
+  public fun getLzfDevices(): List<String> = listOf(
+      Lzf.Z3
   )
 
   /**
@@ -26007,7 +26434,6 @@ public object PreviewGroups {
       M4tel.DREAMPLUS02A_S10A,
       M4tel.DREAMPLUS03A_S14A,
       M4tel.NOVA03A_S22A,
-      M4tel.R2,
       M4tel.R2_PLUS
   )
 
@@ -26019,8 +26445,7 @@ public object PreviewGroups {
       MHorse.A9,
       MHorse.C67,
       MHorse.C68,
-      MHorse.M2S,
-      MHorse.PURE_3
+      MHorse.M2S
   )
 
   /**
@@ -26045,6 +26470,7 @@ public object PreviewGroups {
    * Useful for mag testing.
    */
   public fun getMagDevices(): List<String> = listOf(
+      Mag.ELLINIKO,
       Mag.LAVENDER,
       Mag.MAG425A,
       Mag.MAG500A,
@@ -26059,7 +26485,6 @@ public object PreviewGroups {
       Magch.M210,
       Magch.M321,
       Magch.M321_EEA,
-      Magch.M610,
       Magch.M610_EEA,
       Magch.M820,
       Magch.M820_EEA,
@@ -26069,20 +26494,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Magenta-TV devices.
-   * Useful for magenta-tv testing.
-   */
-  public fun getMagentaTvDevices(): List<String> = listOf(
-      MagentaTv.DV6067Y_TVSTICK,
-      MagentaTv.HY44G
-  )
-
-  /**
    * Get all device specifications for MagentaTV devices.
    * Useful for magentatv testing.
    */
   public fun getMagentatvDevices(): List<String> = listOf(
       Magentatv.DV6067Y,
+      Magentatv.DV6067Y_TVSTICK,
       Magentatv.HY44G,
       Magentatv.IMTM840A,
       Magentatv.SEI804DT
@@ -26129,7 +26546,6 @@ public object PreviewGroups {
       Majestic.JOE,
       Majestic.LASALLE,
       Majestic.TAB_714,
-      Majestic.TAB_746,
       Majestic.TAB_611_3G,
       Majestic.TAB_711_4G,
       Majestic.TAB_720_PLUS,
@@ -26144,7 +26560,8 @@ public object PreviewGroups {
       Majestic.TAB_915_4G,
       Majestic.TAB_916_4G,
       Majestic.TAB_918_PRO_4G,
-      Majestic.TAB_920_PLUS_4G
+      Majestic.TAB_920_PLUS_4G,
+      Majestic.TAB_922_MAX
   )
 
   /**
@@ -26160,7 +26577,9 @@ public object PreviewGroups {
    * Useful for mango testing.
    */
   public fun getMangoDevices(): List<String> = listOf(
+      Mango.ELLINIKO,
       Mango.HONGKONG,
+      Mango.JAGALCHI,
       Mango.MOUNTBAKER
   )
 
@@ -26170,7 +26589,6 @@ public object PreviewGroups {
    */
   public fun getMantraDevices(): List<String> = listOf(
       Mantra.MFSTAB,
-      Mantra.MFSTAB_74G,
       Mantra.MFSTABII,
       Mantra.MFSTABIV,
       Mantra.MOXA7,
@@ -26189,22 +26607,15 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Mara_Phones devices.
-   * Useful for mara_phones testing.
-   */
-  public fun getMaraPhonesDevices(): List<String> = listOf(
-      MaraPhones.MARA_X1,
-      MaraPhones.MARA_X1_D,
-      MaraPhones.MARA_Z1,
-      MaraPhones.MARA_Z1_D
-  )
-
-  /**
    * Get all device specifications for MaraPhones devices.
    * Useful for maraphones testing.
    */
   public fun getMaraphonesDevices(): List<String> = listOf(
       Maraphones.MARA_S,
+      Maraphones.MARA_X1,
+      Maraphones.MARA_X1_D,
+      Maraphones.MARA_Z1,
+      Maraphones.MARA_Z1_D,
       Maraphones.MARAPHONES_R
   )
 
@@ -26217,6 +26628,7 @@ public object PreviewGroups {
       Marcel.MARTIN,
       Marcel.ORBITM20,
       Marcel.TAMACHI,
+      Marcel.UMEDA,
       Marcel.YEONGDEUNGPO
   )
 
@@ -26265,7 +26677,6 @@ public object PreviewGroups {
       Marvue.M11,
       Marvue.M12,
       Marvue.M15,
-      Marvue.M8,
       Marvue.M81,
       Marvue.M8_PRO,
       Marvue.PAD_M10,
@@ -26287,7 +26698,6 @@ public object PreviewGroups {
    */
   public fun getMasscomDevices(): List<String> = listOf(
       Masscom.MASSTEL_X1,
-      Masscom.MASSTEL_X3,
       Masscom.MASSTEL_X5
   )
 
@@ -26296,7 +26706,6 @@ public object PreviewGroups {
    * Useful for masstel testing.
    */
   public fun getMasstelDevices(): List<String> = listOf(
-      Masstel._3G_TABLET_PC,
       Masstel.MASSTEL_HAPI_15,
       Masstel.MASSTEL_HAPI_20,
       Masstel.MASSTEL_HAPI_30,
@@ -26306,7 +26715,6 @@ public object PreviewGroups {
       Masstel.MASSTEL_TAB10_4G,
       Masstel.MASSTEL_TAB10_WIFI,
       Masstel.MASSTEL_TAB11_PRO_4G,
-      Masstel.MASSTEL_TAB8,
       Masstel.MASSTEL_TAB8_4G,
       Masstel.MASSTEL_TAB8_EDU,
       Masstel.MASSTEL_TAB_101,
@@ -26322,6 +26730,7 @@ public object PreviewGroups {
       Masstel.TAB10_EDU,
       Masstel.TAB10_EDUV2,
       Masstel.TAB10ULTRA,
+      Masstel.TAB11_ULTRA_4G,
       Masstel.TAB7PLUS,
       Masstel.TAB8PLUS,
       Masstel.TAB8PRO,
@@ -26335,26 +26744,19 @@ public object PreviewGroups {
    * Useful for master-g testing.
    */
   public fun getMasterGDevices(): List<String> = listOf(
+      MasterG.ELLINIKO,
       MasterG.HONGKONG,
       MasterG.LAVENDER,
       MasterG.MARTIN,
+      MasterG.MATEO,
       MasterG.MOUNTBAKER,
       MasterG.PATRICK,
+      MasterG.PIONEER,
       MasterG.R1,
       MasterG.R10G,
       MasterG.R2,
       MasterG.R3_GTV,
-      MasterG.R4_GTV,
-      MasterG.SENSE701
-  )
-
-  /**
-   * Get all device specifications for MasterG devices.
-   * Useful for masterg testing.
-   */
-  public fun getMastergDevices(): List<String> = listOf(
-      Masterg.MATEO,
-      Masterg.PIONEER
+      MasterG.R4_GTV
   )
 
   /**
@@ -26363,8 +26765,10 @@ public object PreviewGroups {
    */
   public fun getMastertechDevices(): List<String> = listOf(
       Mastertech._77_EV,
+      Mastertech.ALIMOS,
+      Mastertech.ELLINIKO,
+      Mastertech.JAGALCHI,
       Mastertech.LAVENDER,
-      Mastertech.M2M_3T,
       Mastertech.MOUNTBAKER,
       Mastertech.R3,
       Mastertech.R4
@@ -26400,6 +26804,7 @@ public object PreviewGroups {
       Maxcom.MS571,
       Maxcom.MS571_PLUS,
       Maxcom.MS572,
+      Maxcom.MS601,
       Maxcom.MS651
   )
 
@@ -26417,6 +26822,7 @@ public object PreviewGroups {
    */
   public fun getMaxhubDevices(): List<String> = listOf(
       Maxhub.E3,
+      Maxhub.OVERSEA_V,
       Maxhub.RK3588_T
   )
 
@@ -26428,9 +26834,7 @@ public object PreviewGroups {
       Maximus.D1,
       Maximus.D7,
       Maximus.G10_MAX,
-      Maximus.NOIR_X,
       Maximus.P2,
-      Maximus.P3,
       Maximus.P7,
       Maximus.P7_PLUS,
       Maximus.R1_PRO
@@ -26450,7 +26854,8 @@ public object PreviewGroups {
    */
   public fun getMaxlegenDevices(): List<String> = listOf(
       Maxlegen.M621,
-      Maxlegen.M621_EEA
+      Maxlegen.M621_EEA,
+      Maxlegen.M708_EEA
   )
 
   /**
@@ -26461,14 +26866,6 @@ public object PreviewGroups {
       Maxon.ACER_AC50,
       Maxon.MAXON_MX50,
       Maxon.SENWA_S40
-  )
-
-  /**
-   * Get all device specifications for Maxpac devices.
-   * Useful for maxpac testing.
-   */
-  public fun getMaxpacDevices(): List<String> = listOf(
-      Maxpac.PARROT_3G
   )
 
   /**
@@ -26520,7 +26917,6 @@ public object PreviewGroups {
    * Useful for maxwest testing.
    */
   public fun getMaxwestDevices(): List<String> = listOf(
-      Maxwest.ASTRO_4_PRO,
       Maxwest.ASTRO_55R,
       Maxwest.ASTRO_55T,
       Maxwest.ASTRO_5_PRO,
@@ -26542,20 +26938,21 @@ public object PreviewGroups {
       Maxwest.MX_A64,
       Maxwest.MX_A65,
       Maxwest.MX_A66WW,
+      Maxwest.MX_A67WW,
       Maxwest.MX_A6T,
+      Maxwest.MX_AA8WW01,
       Maxwest.MX_G55,
       Maxwest.MX_GG128WW,
       Maxwest.MX_GG64WW,
       Maxwest.MX_GG65,
+      Maxwest.MX_GG68WW,
       Maxwest.MX_NA65,
       Maxwest.MX_NG56,
       Maxwest.MX_NN62WW01,
-      Maxwest.NITRO_4X,
       Maxwest.NITRO_55A,
       Maxwest.NITRO_55C,
       Maxwest.NITRO_55E,
       Maxwest.NITRO_55Q,
-      Maxwest.NITRO_55R,
       Maxwest.NITRO_5C,
       Maxwest.NITRO_5P,
       Maxwest.NITRO_7Q,
@@ -26585,11 +26982,11 @@ public object PreviewGroups {
       MazeSpeed.M1586K,
       MazeSpeed.MP5184G,
       MazeSpeed.MS5314G,
-      MazeSpeed.MS5414G,
       MazeSpeed.MS5424G,
       MazeSpeed.MS5514G,
       MazeSpeed.MS5539G,
       MazeSpeed.MS5614G,
+      MazeSpeed.SM4T,
       MazeSpeed.SSB10T323,
       MazeSpeed.SSB504R,
       MazeSpeed.SSB8C223,
@@ -26642,14 +27039,11 @@ public object PreviewGroups {
       Meanit.MEANIT_X10,
       Meanit.MEANIT_K20,
       Meanit.MEANIT_K28_EEA,
-      Meanit.MEANIT_X1,
       Meanit.MEANIT_X2,
       Meanit.MEANIT_X20,
       Meanit.MEANIT_X4,
       Meanit.MEANIT_X40_EEA,
       Meanit.MEANIT_X50_EEA,
-      Meanit.MEANIT_X6,
-      Meanit.MTAB32_EEA,
       Meanit.SMARTPHONE_X5,
       Meanit.START_S5,
       Meanit.X3
@@ -26679,14 +27073,12 @@ public object PreviewGroups {
       Mecer.M17QF6_3G,
       Mecer.M17QF6_4G,
       Mecer.M17QF7_4G,
-      Mecer.M76QF6,
+      Mecer.M17QF8_4G,
       Mecer.M77QF6,
       Mecer.M86Q9_3G,
-      Mecer.MF716,
       Mecer.MF716_PLUS,
       Mecer.MW16Q9_3G,
-      Mecer.TF10EA2_11,
-      Mecer.TF10MK1_3
+      Mecer.TF10EA2_11
   )
 
   /**
@@ -26707,6 +27099,7 @@ public object PreviewGroups {
       Mecool.KM9PRO,
       Mecool.KT1,
       Mecool.LAS,
+      Mecool.ROM,
       Mecool.YDA,
       Mecool.YYC,
       Mecool.YYT
@@ -26760,14 +27153,14 @@ public object PreviewGroups {
       Mediacom.M_SP1EY_EEA,
       Mediacom.M_SP1X10,
       Mediacom.M_SP7HXAH,
-      Mediacom.M_SP7XGO3G,
       Mediacom.M_SP8DY_EEA,
       Mediacom.M_SP8EY,
       Mediacom.M_SP8GY,
       Mediacom.M_SP8KID,
       Mediacom.SMARTPAD,
       Mediacom.SP1AZ4_L,
-      Mediacom.SP1AZ4_P
+      Mediacom.SP1AZ4_P,
+      Mediacom.SP1AZ4_PL
   )
 
   /**
@@ -26775,6 +27168,7 @@ public object PreviewGroups {
    * Useful for mediatek testing.
    */
   public fun getMediatekDevices(): List<String> = listOf(
+      Mediatek.M7332,
       Mediatek.M7332_EU,
       Mediatek.MT5862_512M
   )
@@ -26832,7 +27226,6 @@ public object PreviewGroups {
       Medion.S1032X,
       Medion.S1035X,
       Medion.S5004,
-      Medion.S9714,
       Medion.X1030X,
       Medion.X1031X
   )
@@ -26844,6 +27237,7 @@ public object PreviewGroups {
   public fun getMeferiDevices(): List<String> = listOf(
       Meferi.ME10,
       Meferi.ME40K,
+      Meferi.ME40K_M,
       Meferi.ME61,
       Meferi.ME74
   )
@@ -26868,14 +27262,6 @@ public object PreviewGroups {
   public fun getMegafonDevices(): List<String> = listOf(
       Megafon.MF8_ATV,
       Megafon.MFLOGIN3T
-  )
-
-  /**
-   * Get all device specifications for MEIIGOO devices.
-   * Useful for meiigoo testing.
-   */
-  public fun getMeiigooDevices(): List<String> = listOf(
-      Meiigoo.MEIIGOO_S8
   )
 
   /**
@@ -26942,6 +27328,7 @@ public object PreviewGroups {
       Meizu.MEIZU21,
       Meizu.MEIZU21NOTE,
       Meizu.MEIZU21PRO,
+      Meizu.MEIZU22,
       Meizu.MEIZU6T,
       Meizu.MEIZU_M6,
       Meizu.MEIZU_MBLU,
@@ -26960,6 +27347,7 @@ public object PreviewGroups {
       Meizu.MEIZUNOTE8,
       Meizu.MEIZUNOTE9,
       Meizu.MEIZUS6,
+      Meizu.MEIZUVENUS,
       Meizu.NOTE9,
       Meizu.POLESTARPHONE,
       Meizu.PRO7H,
@@ -26985,6 +27373,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for memetech devices.
+   * Useful for memetech testing.
+   */
+  public fun getMemetechDevices(): List<String> = listOf(
+      Memetech.P30
+  )
+
+  /**
    * Get all device specifications for MEMOREX devices.
    * Useful for memorex testing.
    */
@@ -26998,14 +27394,6 @@ public object PreviewGroups {
    */
   public fun getMenfopDevices(): List<String> = listOf(
       Menfop.HAIERP8B
-  )
-
-  /**
-   * Get all device specifications for MengalTab devices.
-   * Useful for mengaltab testing.
-   */
-  public fun getMengaltabDevices(): List<String> = listOf(
-      Mengaltab.MENGALTAB_ECHAGUE_ANZATECH
   )
 
   /**
@@ -27024,7 +27412,9 @@ public object PreviewGroups {
       Meo.DIW377_MEO,
       Meo.DIW3930_MEO,
       Meo.DV8555_MEO,
-      Meo.DV8985_MEO
+      Meo.DV8985_MEO,
+      Meo.HP4C02_MEO,
+      Meo.VSB3918_MEO
   )
 
   /**
@@ -27051,7 +27441,6 @@ public object PreviewGroups {
       Metropcs.C50,
       Metropcs.E2NAM,
       Metropcs.G4STYLUSN,
-      Metropcs.HWY301A1,
       Metropcs.LV3,
       Metropcs.LV517,
       Metropcs.M1,
@@ -27086,6 +27475,14 @@ public object PreviewGroups {
       Mgs.BANGBAE,
       Mgs.BRUNO,
       Mgs.KOMAGOME
+  )
+
+  /**
+   * Get all device specifications for MGT devices.
+   * Useful for mgt testing.
+   */
+  public fun getMgtDevices(): List<String> = listOf(
+      Mgt.M2
   )
 
   /**
@@ -27125,7 +27522,6 @@ public object PreviewGroups {
       Micromax.E313,
       Micromax.E352,
       Micromax.E453,
-      Micromax.E455,
       Micromax.E460,
       Micromax.E481,
       Micromax.E4816,
@@ -27138,51 +27534,39 @@ public object PreviewGroups {
       Micromax.E7533,
       Micromax.E7544,
       Micromax.E7746,
-      Micromax.F666,
       Micromax.HS1,
       Micromax.HS2,
       Micromax.HS3,
       Micromax.IKEBUKURO,
-      Micromax.N4120,
       Micromax.N8301,
       Micromax.N8305,
       Micromax.P290,
-      Micromax.P470,
       Micromax.P480,
       Micromax.P680,
       Micromax.P681,
       Micromax.P701,
       Micromax.P702,
-      Micromax.P70221,
       Micromax.P802,
-      Micromax.Q300,
       Micromax.Q301,
       Micromax.Q326,
-      Micromax.Q334,
       Micromax.Q338,
       Micromax.Q340,
       Micromax.Q346,
       Micromax.Q349,
-      Micromax.Q350,
-      Micromax.Q3502,
       Micromax.Q354,
       Micromax.Q3551,
       Micromax.Q372,
       Micromax.Q380,
       Micromax.Q381,
       Micromax.Q385,
-      Micromax.Q386,
       Micromax.Q391,
       Micromax.Q392,
-      Micromax.Q394,
-      Micromax.Q4001,
       Micromax.Q4002,
       Micromax.Q402,
       Micromax.Q402PLUS,
       Micromax.Q409,
       Micromax.Q409A,
       Micromax.Q413,
-      Micromax.Q416,
       Micromax.Q417,
       Micromax.Q4202,
       Micromax.Q4204,
@@ -27195,13 +27579,10 @@ public object PreviewGroups {
       Micromax.Q4311,
       Micromax.Q437,
       Micromax.Q440,
-      Micromax.Q452,
-      Micromax.Q4601,
       Micromax.Q461,
       Micromax.Q462,
       Micromax.Q463,
       Micromax.Q465,
-      Micromax.Q479,
       Micromax.R2,
       Micromax.TCL_EU
   )
@@ -27222,7 +27603,9 @@ public object PreviewGroups {
    * Useful for microtouch testing.
    */
   public fun getMicrotouchDevices(): List<String> = listOf(
-      Microtouch.IDC_SERIES
+      Microtouch.IDC_SERIES,
+      Microtouch.IDC_SERIES_4G,
+      Microtouch.MACH_10
   )
 
   /**
@@ -27230,10 +27613,17 @@ public object PreviewGroups {
    * Useful for mightier testing.
    */
   public fun getMightierDevices(): List<String> = listOf(
-      Mightier.MT003_19,
       Mightier.MT003_20,
       Mightier.MT003_21,
       Mightier.MT004_20
+  )
+
+  /**
+   * Get all device specifications for MIKITECH devices.
+   * Useful for mikitech testing.
+   */
+  public fun getMikitechDevices(): List<String> = listOf(
+      Mikitech.MK_ES300
   )
 
   /**
@@ -27257,6 +27647,7 @@ public object PreviewGroups {
    * Useful for mindeo testing.
    */
   public fun getMindeoDevices(): List<String> = listOf(
+      Mindeo.M50_EEA,
       Mindeo.MS8389
   )
 
@@ -27273,6 +27664,7 @@ public object PreviewGroups {
    * Useful for minister testing.
    */
   public fun getMinisterDevices(): List<String> = listOf(
+      Minister.ALIMOS,
       Minister.R1,
       Minister.R2
   )
@@ -27291,10 +27683,7 @@ public object PreviewGroups {
    */
   public fun getMintDevices(): List<String> = listOf(
       Mint.M5CR,
-      Mint.MINT_FOX,
-      Mint.MINT_FUSION,
-      Mint.MINT_TRITON,
-      Mint.PEARL_NEO
+      Mint.MINT_TRITON
   )
 
   /**
@@ -27318,10 +27707,14 @@ public object PreviewGroups {
       Mintt.COOLMINTT_RIVAL_3,
       Mintt.COOLMINTT_X7,
       Mintt.COOLMINTT_X9,
+      Mintt.MINTT_ASPIRE_X9,
       Mintt.MINTT_DIGI_2,
       Mintt.MINTT_M3,
       Mintt.MINTT_M5,
+      Mintt.MINTT_PRIME_S11,
       Mintt.MINTT_T11,
+      Mintt.MINTT_T11_SE,
+      Mintt.MINTT_T3_SE,
       Mintt.MINTTPORO,
       Mintt.P25,
       Mintt.P25_PLUS,
@@ -27388,12 +27781,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Mirage devices.
-   * Useful for mirage testing.
+   * Get all device specifications for MIRAI_TOUCH devices.
+   * Useful for mirai_touch testing.
    */
-  public fun getMirageDevices(): List<String> = listOf(
-      Mirage._62S,
-      Mirage.MI_CH_82S
+  public fun getMiraiTouchDevices(): List<String> = listOf(
+      MiraiTouch.PE3S_SERIES
   )
 
   /**
@@ -27401,9 +27793,9 @@ public object PreviewGroups {
    * Useful for miramage testing.
    */
   public fun getMiramageDevices(): List<String> = listOf(
+      Miramage.ALKEN,
       Miramage.BARKING,
-      Miramage.BEAUDRY,
-      Miramage.SURFACE
+      Miramage.BEAUDRY
   )
 
   /**
@@ -27419,6 +27811,7 @@ public object PreviewGroups {
    * Useful for miray testing.
    */
   public fun getMirayDevices(): List<String> = listOf(
+      Miray.DONGNAE,
       Miray.MIDM_F10,
       Miray.R1,
       Miray.R10G,
@@ -27427,6 +27820,7 @@ public object PreviewGroups {
       Miray.R3_GTV,
       Miray.R4,
       Miray.R4_GTV,
+      Miray.SEPOLIA,
       Miray.TM4G_1006,
       Miray.TM4G_806,
       Miray.TPM4G_105,
@@ -27442,6 +27836,7 @@ public object PreviewGroups {
    */
   public fun getMiroDevices(): List<String> = listOf(
       Miro.A1,
+      Miro.MIRO_C69M_PRO,
       Miro.MIRO_S67
   )
 
@@ -27452,6 +27847,7 @@ public object PreviewGroups {
   public fun getMitacDevices(): List<String> = listOf(
       Mitac.CHIRON_PRO,
       Mitac.HERA_PRO,
+      Mitac.PHAETON,
       Mitac.SURFING_PRO
   )
 
@@ -27460,10 +27856,8 @@ public object PreviewGroups {
    * Useful for mito testing.
    */
   public fun getMitoDevices(): List<String> = listOf(
-      Mito.A21,
       Mito.A67,
       Mito.MATEO,
-      Mito.MITO_A16,
       Mito.MITO_A17,
       Mito.MITO_A19_1GB,
       Mito.MITO_A19_2GB,
@@ -27493,14 +27887,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for MITSUSHIBA devices.
-   * Useful for mitsushiba testing.
-   */
-  public fun getMitsushibaDevices(): List<String> = listOf(
-      Mitsushiba.TP_10_0232P3G
-  )
-
-  /**
    * Get all device specifications for mlab devices.
    * Useful for mlab testing.
    */
@@ -27513,13 +27899,11 @@ public object PreviewGroups {
       Mlab._9343,
       Mlab._9344,
       Mlab.MB4,
-      Mlab.MB4_3G,
       Mlab.MB4_3G_PLUS_SE,
       Mlab.MB4_WIFI,
       Mlab.MB8715,
       Mlab.MB8717,
       Mlab.MB8866,
-      Mlab.MLAB_GLOWY7,
       Mlab.MLAB_GLOWY8,
       Mlab.MLAB_KIDS_PLUS,
       Mlab.STUDIO_PHONE_10
@@ -27551,7 +27935,6 @@ public object PreviewGroups {
       Mls.IQ1012N,
       Mls.IQ1019N,
       Mls.IQ1060M,
-      Mls.IQ1568,
       Mls.IQ181011N,
       Mls.IQ5011_E,
       Mls.IQ8011,
@@ -27561,11 +27944,9 @@ public object PreviewGroups {
       Mls.IQD700,
       Mls.IQE200,
       Mls.IQGW516,
-      Mls.IQL550,
       Mls.IQL626,
       Mls.IQM960,
       Mls.IQM960L,
-      Mls.IQN700,
       Mls.IQS1001,
       Mls.IQS300,
       Mls.IQS805,
@@ -27598,7 +27979,6 @@ public object PreviewGroups {
    */
   public fun getMobellDevices(): List<String> = listOf(
       Mobell.MBLTAB81,
-      Mobell.NOVA_P3,
       Mobell.P41,
       Mobell.S41,
       Mobell.S51,
@@ -27679,6 +28059,7 @@ public object PreviewGroups {
       Mobicel.LEGEND_PRO_LTE,
       Mobicel.MERCURY,
       Mobicel.MOBICEL_ICON,
+      Mobicel.MOBICEL_P12_PLUS,
       Mobicel.MOBICEL_R1,
       Mobicel.MOBICEL_R6,
       Mobicel.MX2_PLUS,
@@ -27692,7 +28073,6 @@ public object PreviewGroups {
       Mobicel.P12,
       Mobicel.P5,
       Mobicel.PULSE_1,
-      Mobicel.PURE,
       Mobicel.PURE_MINI,
       Mobicel.PURE_PLUS,
       Mobicel.PX12,
@@ -27705,7 +28085,6 @@ public object PreviewGroups {
       Mobicel.R7,
       Mobicel.R7_1,
       Mobicel.R7_2,
-      Mobicel.R8,
       Mobicel.R9_LITE,
       Mobicel.R9_PRO,
       Mobicel.REBEL,
@@ -27714,7 +28093,6 @@ public object PreviewGroups {
       Mobicel.RIO_SS,
       Mobicel.RIO_ZAM,
       Mobicel.RUBY,
-      Mobicel.RUSH,
       Mobicel.RX,
       Mobicel.RX17,
       Mobicel.RX_PLUS,
@@ -27731,7 +28109,6 @@ public object PreviewGroups {
       Mobicel.TRENDY_2,
       Mobicel.TRENDY_LITE,
       Mobicel.TRENDY_PLUS,
-      Mobicel.U2,
       Mobicel.ULTRA,
       Mobicel.V1,
       Mobicel.V2_LTE,
@@ -27760,7 +28137,6 @@ public object PreviewGroups {
    * Useful for mobicell testing.
    */
   public fun getMobicellDevices(): List<String> = listOf(
-      Mobicell.ICE,
       Mobicell.SHIFT
   )
 
@@ -27776,8 +28152,9 @@ public object PreviewGroups {
       Mobiiot.MOBIGO2PQV,
       Mobiiot.MOBIPRINT4_PLUS,
       Mobiiot.MP5,
+      Mobiiot.WM18PPV2,
       Mobiiot.WM19,
-      Mobiiot.WM58
+      Mobiiot.WM26
   )
 
   /**
@@ -27794,10 +28171,7 @@ public object PreviewGroups {
       Mobiistar.MOBIISTAR_X,
       Mobiistar.MOBIISTAR_ZUMBO_J2,
       Mobiistar.X1_DUAL,
-      Mobiistar.X1_NOTCH,
-      Mobiistar.X1_SELFIE,
-      Mobiistar.XQ_DUAL,
-      Mobiistar.ZUMBO_S_2017_LITE
+      Mobiistar.X1_NOTCH
   )
 
   /**
@@ -27809,11 +28183,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Mobily devices.
-   * Useful for mobily testing.
+   * Get all device specifications for MOBIOCEAN devices.
+   * Useful for mobiocean testing.
    */
-  public fun getMobilyDevices(): List<String> = listOf(
-      Mobily.QNBML
+  public fun getMobioceanDevices(): List<String> = listOf(
+      Mobiocean.MO_T3
   )
 
   /**
@@ -27936,9 +28310,9 @@ public object PreviewGroups {
    * Useful for mode-1 testing.
    */
   public fun getMode1Devices(): List<String> = listOf(
-      Mode1.MD_03P,
       Mode1.MD_04P,
       Mode1.MD_05P,
+      Mode1.MD_07P,
       Mode1.MD06P
   )
 
@@ -28022,13 +28396,15 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Morep devices.
+   * Get all device specifications for morep devices.
    * Useful for morep testing.
    */
   public fun getMorepDevices(): List<String> = listOf(
       Morep.MAVIC_10,
+      Morep.MAVIC_20,
       Morep.MAVIC_30,
       Morep.MAVIC_PLUS,
+      Morep.MOREP_V5,
       Morep.SMART_V1
   )
 
@@ -28046,14 +28422,6 @@ public object PreviewGroups {
    */
   public fun getMoshimoreDevices(): List<String> = listOf(
       Moshimore.RG1
-  )
-
-  /**
-   * Get all device specifications for MoT devices.
-   * Useful for mot testing.
-   */
-  public fun getMotDevices(): List<String> = listOf(
-      Mot.S22_8A
   )
 
   /**
@@ -28131,6 +28499,7 @@ public object PreviewGroups {
       Motorola.DOHA,
       Motorola.DOHA_N,
       Motorola.DUBAI,
+      Motorola.ELLINIKO,
       Motorola.ELLIS,
       Motorola.EQE,
       Motorola.EQS,
@@ -28166,13 +28535,13 @@ public object PreviewGroups {
       Motorola.HAWAIIP,
       Motorola.HAWAO,
       Motorola.HAWK35_UMTS,
-      Motorola.HAWK40_UMTS,
       Motorola.HAYWARD,
       Motorola.HIPHI,
       Motorola.HIPHIC,
       Motorola.HIPHID,
       Motorola.HONGKONG,
       Motorola.IBIZA,
+      Motorola.JAGALCHI,
       Motorola.JAMES,
       Motorola.JAVA,
       Motorola.JETER,
@@ -28182,12 +28551,13 @@ public object PreviewGroups {
       Motorola.KIEVV,
       Motorola.KINZIE,
       Motorola.KINZIE_UDS,
-      Motorola.KUNGFU_M,
       Motorola.KYOTO,
+      Motorola.LAGOS,
       Motorola.LAKE,
       Motorola.LAKE_N,
       Motorola.LAMU,
       Motorola.LAMUL,
+      Motorola.LANDEN,
       Motorola.LEAP,
       Motorola.LIBER,
       Motorola.LIMA,
@@ -28199,6 +28569,7 @@ public object PreviewGroups {
       Motorola.LYNKCO,
       Motorola.LYRIQ,
       Motorola.M_51E,
+      Motorola.M_51F,
       Motorola.MALMO,
       Motorola.MALTA,
       Motorola.MALTALSC,
@@ -28219,6 +28590,7 @@ public object PreviewGroups {
       Motorola.MOTOTABG70,
       Motorola.MOTOTABG70LTE,
       Motorola.MOUNTBAKER,
+      Motorola.MUMBA,
       Motorola.NAIRO,
       Motorola.NAMATH,
       Motorola.NASH,
@@ -28263,6 +28635,7 @@ public object PreviewGroups {
       Motorola.PETTYL,
       Motorola.PNANGN,
       Motorola.POKERP,
+      Motorola.PORTOV,
       Motorola.POTTER,
       Motorola.POTTER_N,
       Motorola.POTTER_NT,
@@ -28282,6 +28655,7 @@ public object PreviewGroups {
       Motorola.RIVER_N,
       Motorola.RJAMES_F,
       Motorola.RJAMES_GO,
+      Motorola.ROADSTR,
       Motorola.ROBUSTA,
       Motorola.RTWO,
       Motorola.SABAHL,
@@ -28322,9 +28696,7 @@ public object PreviewGroups {
       Motorola.TROIKA,
       Motorola.TROIKA_SPROUT,
       Motorola.TUNDRA,
-      Motorola.UMTS_SPYDER,
       Motorola.VANQUISH,
-      Motorola.VANQUISH_U,
       Motorola.VEGAS,
       Motorola.VICKY,
       Motorola.VICTARA,
@@ -28337,6 +28709,8 @@ public object PreviewGroups {
       Motorola.XT1663,
       Motorola.XT2261_1,
       Motorola.XT2261_2,
+      Motorola.XT2575_1,
+      Motorola.XT2575_3,
       Motorola.ZEEKR,
       Motorola.ZHONGSHAN
   )
@@ -28419,14 +28793,11 @@ public object PreviewGroups {
   public fun getMovitelDevices(): List<String> = listOf(
       Movitel.M8416,
       Movitel.M8419,
-      Movitel.M8420,
-      Movitel.M8421,
       Movitel.M8422,
       Movitel.M8423,
       Movitel.M8424,
       Movitel.M8425,
       Movitel.M8426,
-      Movitel.M9106,
       Movitel.M9107,
       Movitel.M9108,
       Movitel.M9109,
@@ -28468,8 +28839,7 @@ public object PreviewGroups {
    */
   public fun getMoxniceDevices(): List<String> = listOf(
       Moxnice.P50_EEA,
-      Moxnice.P50_ROW,
-      Moxnice.P63
+      Moxnice.P50_ROW
   )
 
   /**
@@ -28513,8 +28883,7 @@ public object PreviewGroups {
    * Useful for msi testing.
    */
   public fun getMsiDevices(): List<String> = listOf(
-      Msi.CAOYA,
-      Msi.ND52_GEN2
+      Msi.CAOYA
   )
 
   /**
@@ -28524,14 +28893,6 @@ public object PreviewGroups {
   public fun getMsotaDevices(): List<String> = listOf(
       Msota.NOBBY_S500,
       Msota.NOBBY_X800
-  )
-
-  /**
-   * Get all device specifications for MStar devices.
-   * Useful for mstar testing.
-   */
-  public fun getMstarDevices(): List<String> = listOf(
-      Mstar.WATERMELON
   )
 
   /**
@@ -28559,6 +28920,7 @@ public object PreviewGroups {
    * Useful for mtek testing.
    */
   public fun getMtekDevices(): List<String> = listOf(
+      Mtek.ELLINIKO,
       Mtek.HONGKONG,
       Mtek.MOUNTBAKER,
       Mtek.STANFORD,
@@ -28579,7 +28941,8 @@ public object PreviewGroups {
    */
   public fun getMtnDevices(): List<String> = listOf(
       Mtn.ALOLA_MAX,
-      Mtn.G56
+      Mtn.G56,
+      Mtn.H6032_MTN
   )
 
   /**
@@ -28615,7 +28978,6 @@ public object PreviewGroups {
    * Useful for mu testing.
    */
   public fun getMuDevices(): List<String> = listOf(
-      Mu._8,
       Mu.MU6,
       Mu.MU_1
   )
@@ -28626,6 +28988,14 @@ public object PreviewGroups {
    */
   public fun getMujenyzDevices(): List<String> = listOf(
       Mujenyz.A9
+  )
+
+  /**
+   * Get all device specifications for Multi devices.
+   * Useful for multi testing.
+   */
+  public fun getMultiDevices(): List<String> = listOf(
+      Multi.KUALAKAI
   )
 
   /**
@@ -28740,7 +29110,6 @@ public object PreviewGroups {
       Multilaser.MS45S_A6,
       Multilaser.MS50L,
       Multilaser.MS50L_4G,
-      Multilaser.MS50S,
       Multilaser.MS55M,
       Multilaser.MS60,
       Multilaser.MS60F,
@@ -28778,6 +29147,7 @@ public object PreviewGroups {
    * Useful for multismart testing.
    */
   public fun getMultismartDevices(): List<String> = listOf(
+      Multismart.ELLINIKO,
       Multismart.LAVENDER,
       Multismart.MOUNTBAKER
   )
@@ -28789,8 +29159,17 @@ public object PreviewGroups {
   public fun getMultynetDevices(): List<String> = listOf(
       Multynet.MARINA,
       Multynet.NAGATA,
+      Multynet.SEPOLIA,
       Multynet.TAMACHI,
       Multynet.YEONGDEUNGPO
+  )
+
+  /**
+   * Get all device specifications for MUNBYN devices.
+   * Useful for munbyn testing.
+   */
+  public fun getMunbynDevices(): List<String> = listOf(
+      Munbyn.AS01
   )
 
   /**
@@ -28836,12 +29215,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for myPhone devices.
+   * Get all device specifications for MyPhone devices.
    * Useful for myphone testing.
    */
   public fun getMyphoneDevices(): List<String> = listOf(
       Myphone.FUN6LITE,
-      Myphone.FUN_LTE,
       Myphone.HAMMER_ACTIVE2,
       Myphone.HAMMER_ACTIVE2_LTE,
       Myphone.HAMMER_AXE_PRO_OPM,
@@ -28853,7 +29231,6 @@ public object PreviewGroups {
       Myphone.HAMMER_ENERGY_3G,
       Myphone.HAMMER_ENERGY_PLAY,
       Myphone.HAMMER_EXPLORER,
-      Myphone.HAMMER_IRON_2,
       Myphone.HAMMER_IRON_3,
       Myphone.HAMMER_IRON_3_LTE,
       Myphone.HAMMER_IRON_3_LTEV2,
@@ -28863,6 +29240,7 @@ public object PreviewGroups {
       Myphone.MS2303X,
       Myphone.MS2401X,
       Myphone.MS2402X,
+      Myphone.MYA15,
       Myphone.MYA17,
       Myphone.MYA18,
       Myphone.MYA1_PLUS,
@@ -28870,15 +29248,12 @@ public object PreviewGroups {
       Myphone.MYP1,
       Myphone.MYPHONE_CITY,
       Myphone.MYPHONE_CITY_2,
-      Myphone.MYPHONE_CITYXL,
       Myphone.MYPHONE_FUN_6,
       Myphone.MYPHONE_FUN_7_LTE,
       Myphone.MYPHONE_FUN_8,
       Myphone.MYPHONE_FUN_9,
-      Myphone.MYPHONE_MY96_DTV,
       Myphone.MYPHONE_NOW_ESIM,
       Myphone.MYPHONE_POCKET_PRO,
-      Myphone.MYPHONE_PRIME_2,
       Myphone.MYPHONE_PRIME_3,
       Myphone.MYPHONE_PRIME_5,
       Myphone.MYT10,
@@ -28892,7 +29267,6 @@ public object PreviewGroups {
       Myphone.MYWX2_PRO,
       Myphone.MYX12,
       Myphone.MYX2,
-      Myphone.MYX8,
       Myphone.MYXI1_PLUS,
       Myphone.MYXI1_PRO,
       Myphone.MYXI3,
@@ -28903,8 +29277,6 @@ public object PreviewGroups {
       Myphone.PRIME_18X9,
       Myphone.PRIME_18X9_LTE,
       Myphone.PRIME_4_LITE,
-      Myphone.PRIME_PLUS_EN,
-      Myphone.Q_SMART_III_PLUS,
       Myphone.SMARTVIEW_7_3G,
       Myphone.SMARTVIEW_9_6_3G,
       Myphone.V4701_I01
@@ -28979,10 +29351,6 @@ public object PreviewGroups {
    */
   public fun getNabiDevices(): List<String> = listOf(
       Nabi.DMTAB_NV20A,
-      Nabi.DMTAB_NV24A,
-      Nabi.MT799,
-      Nabi.NABI2S,
-      Nabi.NBFP07PMKG,
       Nabi.NBTY07SMKG
   )
 
@@ -29008,6 +29376,7 @@ public object PreviewGroups {
    * Useful for nano testing.
    */
   public fun getNanoDevices(): List<String> = listOf(
+      Nano.DONGNAE,
       Nano.GANGBYEON,
       Nano.MARINA,
       Nano.MARTIN,
@@ -29035,14 +29404,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Nasco devices.
+   * Get all device specifications for NASCO devices.
    * Useful for nasco testing.
    */
   public fun getNascoDevices(): List<String> = listOf(
-      Nasco.NAS_400,
       Nasco.NAS_503,
-      Nasco.NAS_510,
-      Nasco.POWER_PLUS
+      Nasco.NAS_510
   )
 
   /**
@@ -29084,17 +29451,10 @@ public object PreviewGroups {
    * Useful for navon testing.
    */
   public fun getNavonDevices(): List<String> = listOf(
-      Navon.D455,
-      Navon.INFINITY,
       Navon.IQ7_2018,
-      Navon.NAVON_IQ8_2021,
       Navon.NAVON_SPT1100,
       Navon.PLATINUM103G2019,
-      Navon.PLATINUM_10_3G_V2,
-      Navon.PURE_MICRO,
-      Navon.SKY,
-      Navon.SPIRIT,
-      Navon.SPIRIT_PLUS
+      Navon.PURE_MICRO
   )
 
   /**
@@ -29106,9 +29466,7 @@ public object PreviewGroups {
       Naxa.NID_1055,
       Naxa.NID_1056,
       Naxa.NID_1070,
-      Naxa.NID_7021,
       Naxa.NID_7022,
-      Naxa.NID_7055,
       Naxa.NID_7056
   )
 
@@ -29121,6 +29479,8 @@ public object PreviewGroups {
       Nebula.D2140_COSMOS,
       Nebula.DM8260,
       Nebula.DM8261,
+      Nebula.LAVASA,
+      Nebula.MATHERAN,
       Nebula.TAIHANG
   )
 
@@ -29131,7 +29491,6 @@ public object PreviewGroups {
   public fun getNecDevices(): List<String> = listOf(
       Nec._508T1W,
       Nec._708T1W,
-      Nec.D000000039,
       Nec.LAVIET11112K1,
       Nec.LAVIET1111QHD1,
       Nec.LAVIET77SD1,
@@ -29142,6 +29501,7 @@ public object PreviewGroups {
       Nec.LAVIETAB112K2,
       Nec.LAVIETAB11FHD1,
       Nec.LAVIETAB11QHD2,
+      Nec.LAVIETAB11QHD3,
       Nec.LAVIETAB143K1,
       Nec.LAVIETAB9QHD1,
       Nec.LAVIETABE10FHD1,
@@ -29167,8 +29527,7 @@ public object PreviewGroups {
   public fun getNecnonDevices(): List<String> = listOf(
       Necnon._3L_2,
       Necnon.M002K_2,
-      Necnon.M002K_2,
-      Necnon.M002N_3T,
+      Necnon.M002K_2_600X1024,
       Necnon.M002Q_2,
       Necnon.M002U_2T
   )
@@ -29291,7 +29650,8 @@ public object PreviewGroups {
    * Useful for netmak testing.
    */
   public fun getNetmakDevices(): List<String> = listOf(
-      Netmak.NM_VELOCITY
+      Netmak.NM_VELOCITY,
+      Netmak.NM_VISION
   )
 
   /**
@@ -29317,14 +29677,6 @@ public object PreviewGroups {
   public fun getNewalDevices(): List<String> = listOf(
       Newal.MARINA,
       Newal.NAGATA
-  )
-
-  /**
-   * Get all device specifications for newbalance devices.
-   * Useful for newbalance testing.
-   */
-  public fun getNewbalanceDevices(): List<String> = listOf(
-      Newbalance.SHASTA
   )
 
   /**
@@ -29376,13 +29728,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for NEWORK devices.
+   * Useful for nework testing.
+   */
+  public fun getNeworkDevices(): List<String> = listOf(
+      Nework.NEWBOARD
+  )
+
+  /**
    * Get all device specifications for newspice devices.
    * Useful for newspice testing.
    */
   public fun getNewspiceDevices(): List<String> = listOf(
       Newspice.SPICE_F305,
       Newspice.SPICE_F311,
-      Newspice.SPICE_F301,
       Newspice.SPICE_F302,
       Newspice.SPICE_K601,
       Newspice.SPICE_V801
@@ -29405,14 +29764,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for NEXA devices.
-   * Useful for nexa testing.
-   */
-  public fun getNexaDevices(): List<String> = listOf(
-      Nexa.NEXAN5A
-  )
-
-  /**
    * Get all device specifications for Next devices.
    * Useful for next testing.
    */
@@ -29429,6 +29780,8 @@ public object PreviewGroups {
    * Useful for next-g testing.
    */
   public fun getNextGDevices(): List<String> = listOf(
+      NextG.ELLINIKO,
+      NextG.JAGALCHI,
       NextG.STANFORD,
       NextG.ZHONGSHAN
   )
@@ -29474,19 +29827,19 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for NeXTbyMaxis_M1 devices.
-   * Useful for nextbymaxis_m1 testing.
-   */
-  public fun getNextbymaxisM1Devices(): List<String> = listOf(
-      NextbymaxisM1.VFD700
-  )
-
-  /**
    * Get all device specifications for Nextgear devices.
    * Useful for nextgear testing.
    */
   public fun getNextgearDevices(): List<String> = listOf(
       Nextgear.NEXTGEAR_N1
+  )
+
+  /**
+   * Get all device specifications for NEXTSTAR devices.
+   * Useful for nextstar testing.
+   */
+  public fun getNextstarDevices(): List<String> = listOf(
+      Nextstar.ELLINIKO
   )
 
   /**
@@ -29511,7 +29864,6 @@ public object PreviewGroups {
    * Useful for ngm testing.
    */
   public fun getNgmDevices(): List<String> = listOf(
-      Ngm.E506,
       Ngm.R1,
       Ngm.R2
   )
@@ -29521,6 +29873,7 @@ public object PreviewGroups {
    * Useful for nikai-pro testing.
    */
   public fun getNikaiProDevices(): List<String> = listOf(
+      NikaiPro.ELLINIKO,
       NikaiPro.HONGKONG
   )
 
@@ -29684,7 +30037,6 @@ public object PreviewGroups {
    * Useful for nokia testing.
    */
   public fun getNokiaDevices(): List<String> = listOf(
-      Nokia.A1N,
       Nokia.A1N_SPROUT,
       Nokia.AGT,
       Nokia.AGTA,
@@ -29830,7 +30182,6 @@ public object PreviewGroups {
    */
   public fun getNomiDevices(): List<String> = listOf(
       Nomi.I5012,
-      Nomi.I5013,
       Nomi.I5014,
       Nomi.I5050,
       Nomi.I6030,
@@ -29849,8 +30200,6 @@ public object PreviewGroups {
       Nomi.NOMI_C101034,
       Nomi.NOMI_C101040,
       Nomi.NOMI_C101044,
-      Nomi.NOMI_I5001,
-      Nomi.NOMI_I5510,
       Nomi.NOMI_I5532
   )
 
@@ -29881,20 +30230,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for NORTH_TECH devices.
-   * Useful for north_tech testing.
-   */
-  public fun getNorthTechDevices(): List<String> = listOf(
-      NorthTech.NT_S10
-  )
-
-  /**
    * Get all device specifications for Noryox devices.
    * Useful for noryox testing.
    */
   public fun getNoryoxDevices(): List<String> = listOf(
       Noryox.HANDHELD_POS,
-      Noryox.HANDHELD_POS
+      Noryox.HANDHELD_POS_720X1440
   )
 
   /**
@@ -29912,6 +30253,7 @@ public object PreviewGroups {
   public fun getNothingDevices(): List<String> = listOf(
       Nothing.ASTEROIDS,
       Nothing.GALAGA,
+      Nothing.GALAXIAN,
       Nothing.METROID,
       Nothing.PACMAN,
       Nothing.PACMANPRO,
@@ -29984,6 +30326,7 @@ public object PreviewGroups {
    * Useful for npls testing.
    */
   public fun getNplsDevices(): List<String> = listOf(
+      Npls.UZW4068NPS,
       Npls.UZX4020NPS
   )
 
@@ -30010,6 +30353,7 @@ public object PreviewGroups {
   public fun getNubiaDevices(): List<String> = listOf(
       Nubia.K68,
       Nubia.K99J,
+      Nubia.K99O,
       Nubia.NUBIA_NB1001_UN,
       Nubia.NX503A,
       Nubia.NX505J,
@@ -30072,15 +30416,20 @@ public object PreviewGroups {
       Nubia.P606F18,
       Nubia.P606F19,
       Nubia.P606F20,
+      Nubia.P606F21,
+      Nubia.P615F01,
       Nubia.P616F02,
       Nubia.P616F03,
       Nubia.P616F05,
+      Nubia.P620F01,
+      Nubia.P620F02,
       Nubia.P678F01,
       Nubia.P720F08,
       Nubia.P720F09,
       Nubia.P720F09_U,
       Nubia.P720F10,
       Nubia.P720F11,
+      Nubia.P720F11UG,
       Nubia.P720F12,
       Nubia.P745F01,
       Nubia.P780F01,
@@ -30099,12 +30448,18 @@ public object PreviewGroups {
       Nubia.PQ83A06,
       Nubia.PQ83F01,
       Nubia.PQ83P01,
+      Nubia.PQ83P02,
       Nubia.PQ84A01,
       Nubia.PQ84A02,
+      Nubia.PQ84P01,
       Nubia.Z6255,
+      Nubia.Z6305R,
       Nubia.Z6657,
       Nubia.Z6701S,
-      Nubia.Z8900S
+      Nubia.Z7305O,
+      Nubia.Z8900,
+      Nubia.Z8900S,
+      Nubia.Z9900S
   )
 
   /**
@@ -30112,8 +30467,7 @@ public object PreviewGroups {
    * Useful for nubio_lite testing.
    */
   public fun getNubioLiteDevices(): List<String> = listOf(
-      NubioLite.LS032I,
-      NubioLite.LS032M
+      NubioLite.LS032I
   )
 
   /**
@@ -30139,9 +30493,9 @@ public object PreviewGroups {
       Nuu.N5501LE,
       Nuu.N5502LA,
       Nuu.N5702L,
-      Nuu.N5L,
       Nuu.N6001LA,
       Nuu.N6501LA,
+      Nuu.N6504LA,
       Nuu.NUU_A1,
       Nuu.NUU_A3,
       Nuu.NUU_M2,
@@ -30153,6 +30507,7 @@ public object PreviewGroups {
       Nuu.S5704LE,
       Nuu.S6001LE,
       Nuu.S6003LA,
+      Nuu.S6008LA,
       Nuu.S6303LA,
       Nuu.S6303LA_GO,
       Nuu.S6304LA,
@@ -30168,12 +30523,12 @@ public object PreviewGroups {
       Nuu.S6703LA,
       Nuu.S6704LA,
       Nuu.S6707XA,
+      Nuu.S6710XA,
       Nuu.T0801LAV1,
       Nuu.T0801LAV2,
       Nuu.T0805LAV1,
       Nuu.T1001LA,
-      Nuu.T1005LAV1,
-      Nuu.X4
+      Nuu.T1005LAV1
   )
 
   /**
@@ -30194,16 +30549,7 @@ public object PreviewGroups {
       Nvidia.MDARCY,
       Nvidia.ROTH,
       Nvidia.SHIELDTABLET,
-      Nvidia.SIF,
-      Nvidia.TEGRANOTE
-  )
-
-  /**
-   * Get all device specifications for NW devices.
-   * Useful for nw testing.
-   */
-  public fun getNwDevices(): List<String> = listOf(
-      Nw.NW1
+      Nvidia.SIF
   )
 
   /**
@@ -30211,7 +30557,6 @@ public object PreviewGroups {
    * Useful for nyx_mobile testing.
    */
   public fun getNyxMobileDevices(): List<String> = listOf(
-      NyxMobile.CLICK,
       NyxMobile.GLAM,
       NyxMobile.KIN,
       NyxMobile.NYX_SHADE,
@@ -30231,13 +30576,10 @@ public object PreviewGroups {
    * Useful for oale testing.
    */
   public fun getOaleDevices(): List<String> = listOf(
-      Oale.APEX1,
-      Oale.APEX2,
       Oale.APEX3,
       Oale.DBX,
       Oale.P2,
       Oale.P3,
-      Oale.P5S,
       Oale.XS2_LTE
   )
 
@@ -30251,13 +30593,11 @@ public object PreviewGroups {
       Oangcc.A6_EEA,
       Oangcc.A6_US,
       Oangcc.A9_EEA,
-      Oangcc.A9_EEA,
+      Oangcc.A9_EEA_800X1280,
       Oangcc.A9_US,
       Oangcc.TAB_A8_EEA,
-      Oangcc.TAB_A6,
       Oangcc.TAB_A6_EEA,
-      Oangcc.TAB_A8_EEA_T,
-      Oangcc.TAB_A8_T
+      Oangcc.TAB_A8_EEA_T
   )
 
   /**
@@ -30275,8 +30615,24 @@ public object PreviewGroups {
   public fun getOasysDevices(): List<String> = listOf(
       Oasys.TEG9300,
       Oasys.TEG9300_4,
-      Oasys.TEG9300_5,
       Oasys.TEG9300_M
+  )
+
+  /**
+   * Get all device specifications for oboni devices.
+   * Useful for oboni testing.
+   */
+  public fun getOboniDevices(): List<String> = listOf(
+      Oboni.ALIMOS,
+      Oboni.DANGNI
+  )
+
+  /**
+   * Get all device specifications for Ocilion-WL devices.
+   * Useful for ocilion-wl testing.
+   */
+  public fun getOcilionWlDevices(): List<String> = listOf(
+      OcilionWl.HP4CD_OCILION
   )
 
   /**
@@ -30296,6 +30652,7 @@ public object PreviewGroups {
       Odea.A10_ROW,
       Odea.A11_ROW,
       Odea.A12_ROW,
+      Odea.A13,
       Odea.S11_EEA,
       Odea.S11_ROW
   )
@@ -30306,22 +30663,6 @@ public object PreviewGroups {
    */
   public fun getOdidoDevices(): List<String> = listOf(
       Odido.SEI800TFAS
-  )
-
-  /**
-   * Get all device specifications for ODO devices.
-   * Useful for odo testing.
-   */
-  public fun getOdoDevices(): List<String> = listOf(
-      Odo.A7008
-  )
-
-  /**
-   * Get all device specifications for odotpad devices.
-   * Useful for odotpad testing.
-   */
-  public fun getOdotpadDevices(): List<String> = listOf(
-      Odotpad.PS8
   )
 
   /**
@@ -30340,7 +30681,6 @@ public object PreviewGroups {
    */
   public fun getOdysDevices(): List<String> = listOf(
       Odys.FALCON_10_PLUS_3G,
-      Odys.GOAL_10_PLUS_3G,
       Odys.JUNIOR_8_PRO,
       Odys.MAVEN_T10_PRO,
       Odys.NOTETAB_PRO,
@@ -30356,7 +30696,8 @@ public object PreviewGroups {
    * Useful for ofd testing.
    */
   public fun getOfdDevices(): List<String> = listOf(
-      Ofd.D01
+      Ofd.D01,
+      Ofd.HSD_215
   )
 
   /**
@@ -30486,6 +30827,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Olvy devices.
+   * Useful for olvy testing.
+   */
+  public fun getOlvyDevices(): List<String> = listOf(
+      Olvy.CH10PLUS
+  )
+
+  /**
    * Get all device specifications for Olympia devices.
    * Useful for olympia testing.
    */
@@ -30512,6 +30861,8 @@ public object PreviewGroups {
       Omix.MIXTAB_PRO_2,
       Omix.OMIX_X4,
       Omix.X2032,
+      Omix.X2033,
+      Omix.X2034,
       Omix.X3,
       Omix.X300,
       Omix.X400,
@@ -30547,6 +30898,14 @@ public object PreviewGroups {
   public fun getOnelernDevices(): List<String> = listOf(
       Onelern.ONELERNDB009,
       Onelern.ONELERNDB010
+  )
+
+  /**
+   * Get all device specifications for ONENZ devices.
+   * Useful for onenz testing.
+   */
+  public fun getOnenzDevices(): List<String> = listOf(
+      Onenz.SMART_V26
   )
 
   /**
@@ -30593,6 +30952,7 @@ public object PreviewGroups {
       Oneplus.ONEPLUSN10TMO,
       Oneplus.ONEPLUSN200,
       Oneplus.ONEPLUSN200TMO,
+      Oneplus.ONEPLUSNORDCE,
       Oneplus.OP5154L1,
       Oneplus.OP5155L1,
       Oneplus.OP5159L1,
@@ -30636,13 +30996,18 @@ public object PreviewGroups {
       Oneplus.OP60EDL1,
       Oneplus.OP60F5L1,
       Oneplus.OP60F9L1,
+      Oneplus.OP60FFL1,
+      Oneplus.OP6113L1,
+      Oneplus.OP611FL1,
       Oneplus.OP612BL1,
       Oneplus.OP6131L1,
       Oneplus.OP613BL1,
       Oneplus.OP615AL1,
       Oneplus.OP615EL1,
       Oneplus.OP6190L1,
+      Oneplus.OP6194L1,
       Oneplus.OP6195L1,
+      Oneplus.OP6543L1,
       Oneplus.OP7PRONRSPR,
       Oneplus.OPWE242,
       Oneplus.OPWWE231,
@@ -30657,9 +31022,14 @@ public object PreviewGroups {
    */
   public fun getOneruggedDevices(): List<String> = listOf(
       Onerugged.M185QE,
+      Onerugged.M86X,
       Onerugged.M86XE,
       Onerugged.MP1T,
-      Onerugged.MPC80T
+      Onerugged.MP1TE,
+      Onerugged.MPC80T,
+      Onerugged.MT1MAX,
+      Onerugged.MT1MAXE,
+      Onerugged.MT1N
   )
 
   /**
@@ -30667,6 +31037,7 @@ public object PreviewGroups {
    * Useful for onescreen testing.
    */
   public fun getOnescreenDevices(): List<String> = listOf(
+      Onescreen.ONESCREEN_CORE,
       Onescreen.RK3588_T,
       Onescreen.WANDR
   )
@@ -30676,6 +31047,7 @@ public object PreviewGroups {
    * Useful for onida testing.
    */
   public fun getOnidaDevices(): List<String> = listOf(
+      Onida.LANDEN,
       Onida.LASALLE,
       Onida.R3,
       Onida.R4_GTV
@@ -30738,8 +31110,11 @@ public object PreviewGroups {
       Onn.ONN11TABLETPRO,
       Onn.ONN12TABLETPRO,
       Onn.PM1042T_W,
+      Onn.PM1042TW,
       Onn.PM106A,
+      Onn.PM116T,
       Onn.PM82T,
+      Onn.PM82TW,
       Onn.PP86A_W,
       Onn.PP86AW,
       Onn.SNA,
@@ -30750,6 +31125,14 @@ public object PreviewGroups {
       Onn.W723,
       Onn.XNA,
       Onn.YOC
+  )
+
+  /**
+   * Get all device specifications for ONVO devices.
+   * Useful for onvo testing.
+   */
+  public fun getOnvoDevices(): List<String> = listOf(
+      Onvo.SEPOLIA
   )
 
   /**
@@ -30765,7 +31148,8 @@ public object PreviewGroups {
    * Useful for ooredoo testing.
    */
   public fun getOoredooDevices(): List<String> = listOf(
-      Ooredoo.DIW387OOR
+      Ooredoo.DIW387OOR,
+      Ooredoo.HP44J
   )
 
   /**
@@ -30781,25 +31165,7 @@ public object PreviewGroups {
    * Useful for opel testing.
    */
   public fun getOpelDevices(): List<String> = listOf(
-      Opel.SMARTJ5_M,
       Opel.SMARTKIDS
-  )
-
-  /**
-   * Get all device specifications for Opel_Mobile devices.
-   * Useful for opel_mobile testing.
-   */
-  public fun getOpelMobileDevices(): List<String> = listOf(
-      OpelMobile.EASY_SMART_2,
-      OpelMobile.OMS5525B,
-      OpelMobile.OMS55Q23B,
-      OpelMobile.OMS65E24B,
-      OpelMobile.OMS65Q23B,
-      OpelMobile.OMS65R24B,
-      OpelMobile.OMSX6524B,
-      OpelMobile.SMART_J2,
-      OpelMobile.SMARTX6,
-      OpelMobile.SMARTZ6
   )
 
   /**
@@ -30807,12 +31173,31 @@ public object PreviewGroups {
    * Useful for opelmobile testing.
    */
   public fun getOpelmobileDevices(): List<String> = listOf(
+      Opelmobile.EASY_SMART_2,
+      Opelmobile.OM65SX25B,
       Opelmobile.OMR60Q23O,
+      Opelmobile.OMR8T25,
+      Opelmobile.OMS5525B,
+      Opelmobile.OMS55Q23B,
       Opelmobile.OMS60R24B,
+      Opelmobile.OMS65Q23B,
+      Opelmobile.OMS65R24B,
+      Opelmobile.OMSX6524B,
       Opelmobile.OPELMOBILE_OMSJ523B,
       Opelmobile.SMART55R,
+      Opelmobile.SMART_J2,
       Opelmobile.SMARTJX,
-      Opelmobile.SMARTX1
+      Opelmobile.SMARTX1,
+      Opelmobile.SMARTX6,
+      Opelmobile.SMARTZ6
+  )
+
+  /**
+   * Get all device specifications for OPEN devices.
+   * Useful for open testing.
+   */
+  public fun getOpenDevices(): List<String> = listOf(
+      Open.OPEN_PRO
   )
 
   /**
@@ -30843,7 +31228,6 @@ public object PreviewGroups {
       Oppo.A11W,
       Oppo.A1601,
       Oppo.A1603,
-      Oppo.A31U,
       Oppo.A33,
       Oppo.A33W,
       Oppo.A37,
@@ -31093,6 +31477,7 @@ public object PreviewGroups {
       Oppo.OP5A1F,
       Oppo.OP5A29L1,
       Oppo.OP5A2BL1,
+      Oppo.OP5A33,
       Oppo.OP5A3DL1,
       Oppo.OP5A41L1,
       Oppo.OP5A47,
@@ -31119,16 +31504,25 @@ public object PreviewGroups {
       Oppo.OP5DD5L1,
       Oppo.OP5DD7L1,
       Oppo.OP5DDF,
+      Oppo.OP5DE2L1,
+      Oppo.OP5DE3,
       Oppo.OP5DF3,
       Oppo.OP5DF5L1,
       Oppo.OP5DF7,
+      Oppo.OP5DFB,
       Oppo.OP5DFDL1,
       Oppo.OP5E01L1,
       Oppo.OP5E03L1,
       Oppo.OP5E05L1,
       Oppo.OP5E07L1,
       Oppo.OP5E0BL1,
+      Oppo.OP5E11L1,
+      Oppo.OP5E17L1,
+      Oppo.OP5E1BL1,
+      Oppo.OP5E1C,
       Oppo.OP5E89L1,
+      Oppo.OP5E8BL1,
+      Oppo.OP5E8EL1,
       Oppo.OP5E9EL1,
       Oppo.OP5EA7L1,
       Oppo.OP5EB1L1,
@@ -31147,12 +31541,19 @@ public object PreviewGroups {
       Oppo.OP5F02L1,
       Oppo.OP5F05L1,
       Oppo.OP5F0FL1,
+      Oppo.OP5F15L1,
+      Oppo.OP5F19L1,
+      Oppo.OP5F2BL1,
       Oppo.OP6159L1,
       Oppo.OP615CL1,
       Oppo.OP6160L1,
       Oppo.OP618BL1,
       Oppo.OP6192L1,
       Oppo.OP6193L1,
+      Oppo.OP61B3L1,
+      Oppo.OP61B7L1,
+      Oppo.OP6285L1,
+      Oppo.OP6542L1,
       Oppo.OPD2A0,
       Oppo.OPD4A1L1,
       Oppo.ORCA,
@@ -31190,7 +31591,6 @@ public object PreviewGroups {
       Oppo.R11PLUSK,
       Oppo.R11S,
       Oppo.R11SPLUS,
-      Oppo.R2017,
       Oppo.R5,
       Oppo.R7,
       Oppo.R7007,
@@ -31202,7 +31602,6 @@ public object PreviewGroups {
       Oppo.R7SF,
       Oppo.R7SM,
       Oppo.R7SPLUS,
-      Oppo.R8001,
       Oppo.R8006,
       Oppo.R815,
       Oppo.R821,
@@ -31261,36 +31660,35 @@ public object PreviewGroups {
    * Useful for optoma testing.
    */
   public fun getOptomaDevices(): List<String> = listOf(
-      Optoma.RK3588_T
+      Optoma.RK3588_T,
+      Optoma.SXXSRK
   )
 
   /**
-   * Get all device specifications for orange devices.
+   * Get all device specifications for Orange devices.
    * Useful for orange testing.
    */
   public fun getOrangeDevices(): List<String> = listOf(
-      Orange._820MINI,
       Orange.ALTO45,
       Orange.BUZZ6T4G,
       Orange.C1905,
       Orange.C5303,
-      Orange.CALIFORNIA,
-      Orange.D2005,
       Orange.D2303,
       Orange.DIVE_70,
       Orange.DIVE_73,
       Orange.DSB0010,
       Orange.DSB0110,
       Orange.DV8555_KPO,
+      Orange.DV9651_KPO,
       Orange.HS8937QCS,
       Orange.HWG535_L11,
       Orange.HWG740_L00,
       Orange.HWT1821L,
       Orange.HWT1A21L,
-      Orange.IDOL3,
       Orange.IDOL4,
       Orange.KSTB7259,
       Orange.LUNO,
+      Orange.M377_OPL,
       Orange.M393VSB_OSP,
       Orange.M812,
       Orange.M823_ORANGE,
@@ -31309,9 +31707,9 @@ public object PreviewGroups {
       Orange.NOLA_PLAY_PLUS,
       Orange.NOLA_UP,
       Orange.ORANGE_RISE32,
+      Orange.ORANGE_V652L,
       Orange.ORANGE_DIVE_71,
       Orange.ORANGE_NEVA_80,
-      Orange.ORANGE_SEGO,
       Orange.P635E40,
       Orange.PIXI3_4,
       Orange.PIXI3_45_4G_ORANGE,
@@ -31326,7 +31724,6 @@ public object PreviewGroups {
       Orange.SANZA_PLUS,
       Orange.SANZA_TOUCH,
       Orange.SGP321,
-      Orange.VEC4G,
       Orange.YARIS35_GSM
   )
 
@@ -31336,6 +31733,7 @@ public object PreviewGroups {
    */
   public fun getOrbicDevices(): List<String> = listOf(
       Orbic.JOY2,
+      Orbic.R10L5TR,
       Orbic.R678EL,
       Orbic.R678L5,
       Orbic.R8L5T,
@@ -31449,6 +31847,7 @@ public object PreviewGroups {
       Oscal.PAD_10_EEA,
       Oscal.PAD_10_NEU,
       Oscal.PAD_10_RU,
+      Oscal.PAD_30_WIFI,
       Oscal.PAD_5,
       Oscal.PAD_50_KIDS,
       Oscal.PAD_50_WIFI,
@@ -31459,17 +31858,22 @@ public object PreviewGroups {
       Oscal.PAD_80_WIFI,
       Oscal.PAD_9,
       Oscal.PAD_90,
+      Oscal.PAD_90_PRO,
       Oscal.PILOT_1,
       Oscal.PILOT_2,
+      Oscal.PILOT_3,
       Oscal.S60,
       Oscal.S60PRO,
       Oscal.S70,
       Oscal.S70_PRO,
       Oscal.S80,
       Oscal.SPIDER8,
+      Oscal.SPIDER_10,
+      Oscal.TANK_1,
       Oscal.TIGER10,
       Oscal.TIGER12,
-      Oscal.TIGER_13
+      Oscal.TIGER_13,
+      Oscal.TIGER_8
   )
 
   /**
@@ -31531,12 +31935,20 @@ public object PreviewGroups {
       Oukitel.C58,
       Oukitel.C58_PRO,
       Oukitel.C59_PRO,
+      Oukitel.C6,
+      Oukitel.C60_PRO,
+      Oukitel.C61,
+      Oukitel.C61_PLUS,
       Oukitel.C61_PRO,
+      Oukitel.C62,
+      Oukitel.C62_PRO,
       Oukitel.C65,
       Oukitel.C65_PRO,
+      Oukitel.C68,
+      Oukitel.C68_PLUS,
+      Oukitel.C69,
       Oukitel.C8,
       Oukitel.C8_4G,
-      Oukitel.C9,
       Oukitel.G1,
       Oukitel.G2,
       Oukitel.K10,
@@ -31575,7 +31987,9 @@ public object PreviewGroups {
       Oukitel.OT9,
       Oukitel.OUKITEL_C1,
       Oukitel.OUKITEL_C59,
+      Oukitel.OUKITEL_C60,
       Oukitel.OUKITEL_C61,
+      Oukitel.OUKITEL_G3,
       Oukitel.OUKITEL_G5,
       Oukitel.OUKITEL_K7,
       Oukitel.OUKITEL_P1,
@@ -31583,14 +31997,17 @@ public object PreviewGroups {
       Oukitel.OUKITEL_WP36,
       Oukitel.OUKITEL_WP38,
       Oukitel.P07,
+      Oukitel.P1_PRO,
       Oukitel.RT1,
       Oukitel.RT2,
       Oukitel.RT3,
       Oukitel.RT3_EEA,
+      Oukitel.RT3_PLUS,
       Oukitel.RT3_PRO,
       Oukitel.RT5,
       Oukitel.RT6,
       Oukitel.RT7_TITAN,
+      Oukitel.RT7_TITAN_5G,
       Oukitel.RT8,
       Oukitel.RT9,
       Oukitel.S105B,
@@ -31598,13 +32015,13 @@ public object PreviewGroups {
       Oukitel.S111,
       Oukitel.S115,
       Oukitel.S118,
-      Oukitel.U11_PLUS,
       Oukitel.U18,
       Oukitel.U20_PLUS,
       Oukitel.U22,
       Oukitel.U23,
       Oukitel.U25_PRO,
       Oukitel.WP10,
+      Oukitel.WP100,
       Oukitel.WP100_TITAN,
       Oukitel.WP12,
       Oukitel.WP12_PRO,
@@ -31622,6 +32039,7 @@ public object PreviewGroups {
       Oukitel.WP200_PRO,
       Oukitel.WP20_PRO,
       Oukitel.WP21,
+      Oukitel.WP210_PRO,
       Oukitel.WP21_U,
       Oukitel.WP23_PLUS,
       Oukitel.WP27,
@@ -31644,14 +32062,22 @@ public object PreviewGroups {
       Oukitel.WP50,
       Oukitel.WP5000,
       Oukitel.WP52,
+      Oukitel.WP53,
+      Oukitel.WP53_PRO,
+      Oukitel.WP53_S,
       Oukitel.WP55,
+      Oukitel.WP55_ULTRA,
+      Oukitel.WP56,
+      Oukitel.WP58_PRO,
       Oukitel.WP5_PRO,
       Oukitel.WP6,
+      Oukitel.WP62,
       Oukitel.WP7,
       Oukitel.WP8_PRO,
       Oukitel.WP9,
       Oukitel.Y1000,
-      Oukitel.Y4800
+      Oukitel.Y4800,
+      Oukitel.YJC235
   )
 
   /**
@@ -31689,7 +32115,9 @@ public object PreviewGroups {
    */
   public fun getOvionDevices(): List<String> = listOf(
       Ovion.V11_LITE,
-      Ovion.V20_PRO
+      Ovion.V15_LITE,
+      Ovion.V20_PRO,
+      Ovion.V30_ULTRA
   )
 
   /**
@@ -31702,8 +32130,6 @@ public object PreviewGroups {
       Own.OWN_SMART_9,
       Own.SMART8,
       Own.SMART_9_PRO,
-      Own.SMART_O2,
-      Own.SMART_PLUS_LTE,
       Own.VFD511
   )
 
@@ -31732,19 +32158,20 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for OXYGEN-id devices.
-   * Useful for oxygen-id testing.
-   */
-  public fun getOxygenIdDevices(): List<String> = listOf(
-      OxygenId.SEI700MRT
-  )
-
-  /**
    * Get all device specifications for OxygenId devices.
    * Useful for oxygenid testing.
    */
   public fun getOxygenidDevices(): List<String> = listOf(
-      Oxygenid.B866V2FA
+      Oxygenid.B866V2FA,
+      Oxygenid.SEI700MRT
+  )
+
+  /**
+   * Get all device specifications for OyeFit devices.
+   * Useful for oyefit testing.
+   */
+  public fun getOyefitDevices(): List<String> = listOf(
+      Oyefit.T10
   )
 
   /**
@@ -31787,8 +32214,6 @@ public object PreviewGroups {
       PackardBell.M10905_32,
       PackardBell.M10950,
       PackardBell.M11550,
-      PackardBell.M7500,
-      PackardBell.M7600_D,
       PackardBell.MONZA_T5,
       PackardBell.PB1009,
       PackardBell.PB101,
@@ -31797,11 +32222,13 @@ public object PreviewGroups {
       PackardBell.SILVERSTONE_T10X,
       PackardBell.SILVERSTONE_T11,
       PackardBell.SILVERSTONE_T18,
-      PackardBell.TARGA_F10PRO
+      PackardBell.TARGA_F10PRO,
+      PackardBell.TARGA_F11PRO,
+      PackardBell.TARGA_F8
   )
 
   /**
-   * Get all device specifications for PAITANRY devices.
+   * Get all device specifications for Paitanry devices.
    * Useful for paitanry testing.
    */
   public fun getPaitanryDevices(): List<String> = listOf(
@@ -31809,7 +32236,10 @@ public object PreviewGroups {
       Paitanry.CH10PROMAX,
       Paitanry.R16,
       Paitanry.R16_PRO,
-      Paitanry.SSK10
+      Paitanry.R16PROMAX,
+      Paitanry.R95,
+      Paitanry.SSK10,
+      Paitanry.Y85
   )
 
   /**
@@ -31834,27 +32264,20 @@ public object PreviewGroups {
    */
   public fun getPanasonicDevices(): List<String> = listOf(
       Panasonic.ANAHEIM,
-      Panasonic.DMC_CM1,
       Panasonic.ELUGA_A2,
-      Panasonic.ELUGA_A3,
       Panasonic.ELUGA_A4,
       Panasonic.ELUGA_ARC_2,
       Panasonic.ELUGA_F,
       Panasonic.ELUGA_I2,
       Panasonic.ELUGA_I3,
-      Panasonic.ELUGA_I3_MEGA,
       Panasonic.ELUGA_I6,
       Panasonic.ELUGA_I7,
       Panasonic.ELUGA_I7_EE,
       Panasonic.ELUGA_I8,
       Panasonic.ELUGA_MARK_2,
       Panasonic.ELUGA_NOTE,
-      Panasonic.ELUGA_PRIM,
-      Panasonic.ELUGA_PULSE_X,
       Panasonic.ELUGA_RAY,
       Panasonic.ELUGA_RAY_500,
-      Panasonic.ELUGA_RAY_530,
-      Panasonic.ELUGA_RAY_550,
       Panasonic.ELUGA_RAY_600,
       Panasonic.ELUGA_RAY_610,
       Panasonic.ELUGA_RAY_700,
@@ -31864,7 +32287,6 @@ public object PreviewGroups {
       Panasonic.ELUGA_RAY_X,
       Panasonic.ELUGA_TURBO,
       Panasonic.ELUGA_U3,
-      Panasonic.ELUGA_WE,
       Panasonic.ELUGA_X1,
       Panasonic.ELUGA_Y,
       Panasonic.ELUGA_Y_PRO,
@@ -31888,17 +32310,11 @@ public object PreviewGroups {
       Panasonic.JUPITER,
       Panasonic.KADOMA,
       Panasonic.OD0M_EA_T32,
-      Panasonic.P100,
       Panasonic.P101,
-      Panasonic.P55_NOVO_4G,
       Panasonic.P6,
-      Panasonic.P71,
-      Panasonic.P77,
       Panasonic.P85,
       Panasonic.P85NXT,
       Panasonic.P91,
-      Panasonic.PANASONIC_ELUGA_C,
-      Panasonic.PANASONIC_P90,
       Panasonic.R1,
       Panasonic.R2,
       Panasonic.R3,
@@ -31913,10 +32329,10 @@ public object PreviewGroups {
       Panasonic.SW4H,
       Panasonic.SW4H_FF,
       Panasonic.SW6H,
-      Panasonic.T44,
       Panasonic.TAB_A05,
       Panasonic.TAB_A05_BA1,
-      Panasonic.TAB_8
+      Panasonic.TAB_8,
+      Panasonic.UMEDA
   )
 
   /**
@@ -31947,14 +32363,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Pantech devices.
-   * Useful for pantech testing.
-   */
-  public fun getPantechDevices(): List<String> = listOf(
-      Pantech.HS8929QC
-  )
-
-  /**
    * Get all device specifications for PANTECH_SMART devices.
    * Useful for pantech_smart testing.
    */
@@ -31976,6 +32384,7 @@ public object PreviewGroups {
    */
   public fun getPartnerDevices(): List<String> = listOf(
       Partner.BATMAN,
+      Partner.SEI800PNTV,
       Partner.UZW4054PTN
   )
 
@@ -32038,7 +32447,8 @@ public object PreviewGroups {
    * Useful for pc_smart testing.
    */
   public fun getPcSmartDevices(): List<String> = listOf(
-      PcSmart.PCSGOB10LTE_V2
+      PcSmart.PCSGOB10LTE_V2,
+      PcSmart.PCSGOB10MVA_A
   )
 
   /**
@@ -32046,12 +32456,12 @@ public object PreviewGroups {
    * Useful for pcbox testing.
    */
   public fun getPcboxDevices(): List<String> = listOf(
-      Pcbox.KOVA_PCB_T730,
       Pcbox.MID1008,
       Pcbox.MID1032_MK,
       Pcbox.MID7015A_MK,
       Pcbox.PCB_T105,
       Pcbox.PCB_T106,
+      Pcbox.PCB_S1063,
       Pcbox.PCB_T801
   )
 
@@ -32061,6 +32471,7 @@ public object PreviewGroups {
    */
   public fun getPcdDevices(): List<String> = listOf(
       Pcd.BENGAL_MAX_IW,
+      Pcd.C58_ARG,
       Pcd.P40,
       Pcd.P41,
       Pcd.P50,
@@ -32070,23 +32481,13 @@ public object PreviewGroups {
       Pcd.P60_CA,
       Pcd.P60_CENAM,
       Pcd.P63L_PR,
-      Pcd.P65,
       Pcd.P65_CA,
+      Pcd.P65L,
       Pcd.PH4003,
       Pcd.PH4003GO,
-      Pcd.PH5003,
-      Pcd.PH5003_GO,
       Pcd.PL550,
       Pcd.PL571,
       Pcd.PL571US
-  )
-
-  /**
-   * Get all device specifications for PCSMART devices.
-   * Useful for pcsmart testing.
-   */
-  public fun getPcsmartDevices(): List<String> = listOf(
-      Pcsmart.PCSGOB10MVA_A
   )
 
   /**
@@ -32094,20 +32495,27 @@ public object PreviewGroups {
    * Useful for peaq testing.
    */
   public fun getPeaqDevices(): List<String> = listOf(
+      Peaq.ALIMOS,
+      Peaq.DANGNI,
       Peaq.PET_1008_F464E,
       Peaq.PET_1008_H332E,
       Peaq.PET_101_F464S,
       Peaq.PET_101_H232E,
       Peaq.PET_101_H332S_W,
+      Peaq.PET_10182_H332E,
       Peaq.PET_102_H232S,
       Peaq.PET_10380_H628S,
       Peaq.PET_1081_H232S,
       Peaq.PET_1081_LH332S,
       Peaq.PET_10980_F628E,
+      Peaq.PET_11080_2K628E,
+      Peaq.PET_11080_F428E,
       Peaq.PET_882_H232S,
       Peaq.PET_10180_H464S,
+      Peaq.PET_10181_H464S,
       Peaq.PET_11080_F628S,
       Peaq.PET_11080_H428S,
+      Peaq.PET_11081_H428S,
       Peaq.PET_8040_H464S,
       Peaq.R4_GTV,
       Peaq.THMTKAW04232
@@ -32118,11 +32526,17 @@ public object PreviewGroups {
    * Useful for peicheng testing.
    */
   public fun getPeichengDevices(): List<String> = listOf(
+      Peicheng.CP31M,
+      Peicheng.P13PRO,
+      Peicheng.P13ULTRA,
       Peicheng.Q1,
       Peicheng.Q8,
       Peicheng.Q8PRO,
+      Peicheng.YQ10SPRO,
+      Peicheng.YQ11M,
       Peicheng.ZB31,
-      Peicheng.ZB32
+      Peicheng.ZB32,
+      Peicheng.ZB32A
   )
 
   /**
@@ -32130,6 +32544,7 @@ public object PreviewGroups {
    * Useful for pel testing.
    */
   public fun getPelDevices(): List<String> = listOf(
+      Pel.ELLINIKO,
       Pel.LAVENDER,
       Pel.MOUNTBAKER
   )
@@ -32156,7 +32571,8 @@ public object PreviewGroups {
    * Useful for pepperl_fuchs testing.
    */
   public fun getPepperlFuchsDevices(): List<String> = listOf(
-      PepperlFuchs.SMART_EX03
+      PepperlFuchs.SMART_EX03,
+      PepperlFuchs.SMART_EX203
   )
 
   /**
@@ -32216,10 +32632,11 @@ public object PreviewGroups {
       Philco.SW4H,
       Philco.SW6H,
       Philco.TP10A332,
-      Philco.TP10A3N,
       Philco.TP10A464,
+      Philco.TP10A464D,
       Philco.TP10F,
       Philco.TP7A464,
+      Philco.TP7A464D,
       Philco.TP7A4N,
       Philco.ZHONGSHAN
   )
@@ -32229,20 +32646,23 @@ public object PreviewGroups {
    * Useful for philips testing.
    */
   public fun getPhilipsDevices(): List<String> = listOf(
+      Philips._65BDL4152E,
       Philips.ANAHEIM,
       Philips.E1027,
       Philips.ELEONAS,
+      Philips.ELLINIKO,
       Philips.GMP,
       Philips.GOTANDA,
       Philips.GUUI,
       Philips.HINO,
       Philips.HONGKONG,
+      Philips.JAGALCHI,
       Philips.KHARDI,
       Philips.KUJO,
       Philips.LAVENDER,
-      Philips.MARATHON,
       Philips.MOUNTBAKER,
       Philips.MT5593UPLUS,
+      Philips.PH0M_EA_T32,
       Philips.PH1M_EA_9970A,
       Philips.PH1M_WW_9687,
       Philips.PH1M_WW_9972,
@@ -32266,7 +32686,6 @@ public object PreviewGroups {
       Philips.PHILIPS_X586,
       Philips.PHILIPS_X586_NEW,
       Philips.PHILIPS_XENIUM_V787,
-      Philips.PI3100_98,
       Philips.QM16XE_F,
       Philips.QM16XE_U,
       Philips.QM16XE_UB,
@@ -32287,11 +32706,13 @@ public object PreviewGroups {
       Philips.S6206,
       Philips.SCX35_SP7731GEA_HD,
       Philips.SINDAP,
+      Philips.T7315,
       Philips.T8010,
       Philips.T8015,
       Philips.TAKAO,
+      Philips.TEMPLETON,
       Philips.TLE722G,
-      Philips.V387,
+      Philips.UMEDA,
       Philips.WHITEFIELD,
       Philips.X588_RU,
       Philips.X818,
@@ -32314,6 +32735,7 @@ public object PreviewGroups {
    * Useful for phoenix testing.
    */
   public fun getPhoenixDevices(): List<String> = listOf(
+      Phoenix.BELFORD,
       Phoenix.PHONETABPRO,
       Phoenix.PHPHOENIXONETAB
   )
@@ -32389,15 +32811,8 @@ public object PreviewGroups {
    */
   public fun getPioneerDigitalTvDevices(): List<String> = listOf(
       PioneerDigitalTv.DV8535_KIP,
+      PioneerDigitalTv.PDTV_COMBO_BOX,
       PioneerDigitalTv.SEI900PD
-  )
-
-  /**
-   * Get all device specifications for PIPO devices.
-   * Useful for pipo testing.
-   */
-  public fun getPipoDevices(): List<String> = listOf(
-      Pipo.ICONX_P109
   )
 
   /**
@@ -32430,7 +32845,8 @@ public object PreviewGroups {
    * Useful for pixart testing.
    */
   public fun getPixartDevices(): List<String> = listOf(
-      Pixart.PIXART_P20
+      Pixart.PIXART_P20,
+      Pixart.SZ10M68
   )
 
   /**
@@ -32443,11 +32859,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for PIXGOOD devices.
+   * Useful for pixgood testing.
+   */
+  public fun getPixgoodDevices(): List<String> = listOf(
+      Pixgood.M103_EEA
+  )
+
+  /**
    * Get all device specifications for PIXPEAK devices.
    * Useful for pixpeak testing.
    */
   public fun getPixpeakDevices(): List<String> = listOf(
       Pixpeak.L60_EEA,
+      Pixpeak.M186_EEA,
       Pixpeak.M258_EEA,
       Pixpeak.P107_EEA,
       Pixpeak.TABLET,
@@ -32500,8 +32925,7 @@ public object PreviewGroups {
    * Useful for plaisio testing.
    */
   public fun getPlaisioDevices(): List<String> = listOf(
-      Plaisio.EARTH3G,
-      Plaisio.TURBOX_S3
+      Plaisio.EARTH3G
   )
 
   /**
@@ -32546,7 +32970,10 @@ public object PreviewGroups {
    * Useful for plimpton testing.
    */
   public fun getPlimptonDevices(): List<String> = listOf(
+      Plimpton.KIDS10_A15,
+      Plimpton.KIDS10_A15_EEA,
       Plimpton.KIDS20,
+      Plimpton.KIDS20_PA15,
       Plimpton.KIDS20A14,
       Plimpton.KIDS20A14_EEA,
       Plimpton.KIDS20A15,
@@ -32556,6 +32983,7 @@ public object PreviewGroups {
       Plimpton.KIDS_10_VER14,
       Plimpton.KIDS_10_VER14_EEA,
       Plimpton.KIDS_8,
+      Plimpton.P1A15,
       Plimpton.P2,
       Plimpton.P60PLUS,
       Plimpton.P60PRO,
@@ -32575,7 +33003,9 @@ public object PreviewGroups {
    * Useful for ployer testing.
    */
   public fun getPloyerDevices(): List<String> = listOf(
-      Ployer.A1190
+      Ployer.A1190,
+      Ployer.CP_518,
+      Ployer.CP_519
   )
 
   /**
@@ -32595,6 +33025,14 @@ public object PreviewGroups {
    */
   public fun getPlusstyleDevices(): List<String> = listOf(
       Plusstyle.PS_TAB_WB01
+  )
+
+  /**
+   * Get all device specifications for PLUX devices.
+   * Useful for plux testing.
+   */
+  public fun getPluxDevices(): List<String> = listOf(
+      Plux.DANGNI
   )
 
   /**
@@ -32621,6 +33059,7 @@ public object PreviewGroups {
   public fun getPocoDevices(): List<String> = listOf(
       Poco.ALIOTH,
       Poco.ANGELICAIN,
+      Poco.ANNIBALE,
       Poco.ARESIN,
       Poco.BERYL,
       Poco.BHIMA,
@@ -32631,6 +33070,8 @@ public object PreviewGroups {
       Poco.CHOPIN,
       Poco.CITRINE,
       Poco.CITRUS,
+      Poco.CREEK,
+      Poco.DEW,
       Poco.DIZI,
       Poco.DUCHAMP,
       Poco.EARTH,
@@ -32638,6 +33079,7 @@ public object PreviewGroups {
       Poco.EVERGREEN,
       Poco.FLAME,
       Poco.FLEUR,
+      Poco.FLUTE,
       Poco.GALE,
       Poco.GARNET,
       Poco.GRAM,
@@ -32654,6 +33096,7 @@ public object PreviewGroups {
       Poco.MIRO,
       Poco.MOON,
       Poco.MUNCH,
+      Poco.MYRON,
       Poco.ONYX,
       Poco.PERIDOT,
       Poco.PEUX,
@@ -32667,9 +33110,11 @@ public object PreviewGroups {
       Poco.SHIVA,
       Poco.SKY,
       Poco.SNOW,
+      Poco.SPRING,
       Poco.STONE,
       Poco.SURYA,
       Poco.THUNDER,
+      Poco.TORNADO,
       Poco.VERMEER,
       Poco.VEUX,
       Poco.WARM,
@@ -32700,6 +33145,7 @@ public object PreviewGroups {
       Pointmobile.PM550,
       Pointmobile.PM66,
       Pointmobile.PM67,
+      Pointmobile.PM68,
       Pointmobile.PM75,
       Pointmobile.PM80,
       Pointmobile.PM84,
@@ -32708,14 +33154,6 @@ public object PreviewGroups {
       Pointmobile.PM90,
       Pointmobile.PM95,
       Pointmobile.PT11
-  )
-
-  /**
-   * Get all device specifications for Pokini devices.
-   * Useful for pokini testing.
-   */
-  public fun getPokiniDevices(): List<String> = listOf(
-      Pokini.K6
   )
 
   /**
@@ -32731,13 +33169,11 @@ public object PreviewGroups {
    * Useful for polaroid testing.
    */
   public fun getPolaroidDevices(): List<String> = listOf(
-      Polaroid.A1000,
       Polaroid.BANGBAE,
       Polaroid.BDL0232PR,
       Polaroid.BDL1064PR001,
       Polaroid.BDL424,
       Polaroid.BDLE716_EEA,
-      Polaroid.BDLE716PR,
       Polaroid.BDLT107,
       Polaroid.BRUNO,
       Polaroid.CONNECT4G,
@@ -32746,33 +33182,28 @@ public object PreviewGroups {
       Polaroid.KENTON,
       Polaroid.KOMAGOME,
       Polaroid.L10,
-      Polaroid.L9,
       Polaroid.LASALLE,
       Polaroid.MID1064FHDP,
       Polaroid.MID1464PR001,
       Polaroid.MID4004JBL,
       Polaroid.MID4G64PR002,
-      Polaroid.MID8254PR,
-      Polaroid.MIDS2410PR001,
+      Polaroid.MIDCB232PR,
       Polaroid.MOBILITY3G,
       Polaroid.P4526A,
       Polaroid.P5006A,
       Polaroid.P5026A,
-      Polaroid.P5046A,
       Polaroid.P5047A,
       Polaroid.P5526A,
+      Polaroid.P902,
       Polaroid.PMID7102DC,
       Polaroid.POMDTB005,
       Polaroid.POMDTB006,
       Polaroid.POMDTB007,
       Polaroid.PRO5584PGE01,
       Polaroid.PSPCK20NA,
-      Polaroid.PSPCK21NA,
       Polaroid.PSPCL20A0,
       Polaroid.PSPCL30A0,
       Polaroid.PSPCM20A0,
-      Polaroid.PSPCZ20A0,
-      Polaroid.PSPTD21NA,
       Polaroid.R1,
       Polaroid.R2,
       Polaroid.REDWOOD,
@@ -32785,6 +33216,7 @@ public object PreviewGroups {
    * Useful for polestar testing.
    */
   public fun getPolestarDevices(): List<String> = listOf(
+      Polestar.IHU42,
       Polestar.IHU_ABL_CAR,
       Polestar.JALAPENO,
       Polestar.MOOSE
@@ -32804,6 +33236,7 @@ public object PreviewGroups {
    */
   public fun getPolytronDevices(): List<String> = listOf(
       Polytron.HAYWARD,
+      Polytron.HIRANO,
       Polytron.LAKESIDE,
       Polytron.LUSHAN,
       Polytron.MATEO,
@@ -32835,6 +33268,14 @@ public object PreviewGroups {
    */
   public fun getPoolsDevices(): List<String> = listOf(
       Pools.POOLS_THE_DOLLAR
+  )
+
+  /**
+   * Get all device specifications for POP_TV devices.
+   * Useful for pop_tv testing.
+   */
+  public fun getPopTvDevices(): List<String> = listOf(
+      PopTv.POPTV_B866V2F01
   )
 
   /**
@@ -32920,7 +33361,6 @@ public object PreviewGroups {
       Positivo.MJA1031,
       Positivo.Q20,
       Positivo.QF74,
-      Positivo.S430B,
       Positivo.S431,
       Positivo.S432,
       Positivo.S455,
@@ -32950,9 +33390,9 @@ public object PreviewGroups {
       Positivo.T2040B,
       Positivo.T2050C,
       Positivo.T2050M,
+      Positivo.T2070D,
       Positivo.T3010D,
       Positivo.T307F,
-      Positivo.T701,
       Positivo.T770,
       Positivo.T770E,
       Positivo.T770G,
@@ -32961,15 +33401,13 @@ public object PreviewGroups {
       Positivo.T810,
       Positivo.T810C,
       Positivo.TL10,
+      Positivo.TL12,
       Positivo.US2070,
-      Positivo.W750,
       Positivo.Y1000,
-      Positivo.Y1010,
       Positivo.Y210,
       Positivo.Y400,
       Positivo.Y700,
       Positivo.YPY_AB10H,
-      Positivo.YPY_AB7,
       Positivo.YPY_L1050
   )
 
@@ -32979,6 +33417,7 @@ public object PreviewGroups {
    */
   public fun getPossafeDevices(): List<String> = listOf(
       Possafe.ORDERGO5,
+      Possafe.ORDERGO7,
       Possafe.ORDERGO_6
   )
 
@@ -32997,6 +33436,14 @@ public object PreviewGroups {
   public fun getPowerGreenDevices(): List<String> = listOf(
       PowerGreen.STANFORD,
       PowerGreen.ZHONGSHAN
+  )
+
+  /**
+   * Get all device specifications for POWER_PAD devices.
+   * Useful for power_pad testing.
+   */
+  public fun getPowerPadDevices(): List<String> = listOf(
+      PowerPad.G11PRO
   )
 
   /**
@@ -33076,15 +33523,14 @@ public object PreviewGroups {
       Premio._186HS1080233,
       Premio.HMR5510,
       Premio.P520,
-      Premio.PREMIO,
-      Premio.PREMIO_P420,
       Premio.S51,
       Premio.S53,
       Premio.S54,
       Premio.S55,
       Premio.S56,
       Premio.S57,
-      Premio.S73,
+      Premio.S58,
+      Premio.S59,
       Premio.S75,
       Premio.S80,
       Premio.S81,
@@ -33109,7 +33555,6 @@ public object PreviewGroups {
       Premio.X80,
       Premio.X81,
       Premio.X82,
-      Premio.X83,
       Premio.X84,
       Premio.X85,
       Premio.X85_PRO,
@@ -33153,7 +33598,6 @@ public object PreviewGroups {
       Prestigio.CD80A1G,
       Prestigio.CD80A3L,
       Prestigio.CD80A5G,
-      Prestigio.CD80A6L,
       Prestigio.CF10A1L,
       Prestigio.CF80A2G,
       Prestigio.CF80A5L,
@@ -33163,7 +33607,6 @@ public object PreviewGroups {
       Prestigio.DW53B01G,
       Prestigio.DW53B3G,
       Prestigio.DW53B4G,
-      Prestigio.DW55B02L,
       Prestigio.DW55B8L,
       Prestigio.EB50B1L,
       Prestigio.HP10A11W,
@@ -33184,7 +33627,6 @@ public object PreviewGroups {
       Prestigio.HP8A6L,
       Prestigio.HT50B2G,
       Prestigio.IN39B3G,
-      Prestigio.IN50B1L,
       Prestigio.JU10A3G,
       Prestigio.JU70A1G,
       Prestigio.JU80A2G,
@@ -33195,15 +33637,12 @@ public object PreviewGroups {
       Prestigio.LS70A5G,
       Prestigio.LS70A6L,
       Prestigio.LS80A1L,
-      Prestigio.LS80A4L,
       Prestigio.LS96A7G,
       Prestigio.NS70A03W,
       Prestigio.PMT3011_3G,
       Prestigio.PMT3038_3G,
-      Prestigio.PMT3057_3G,
       Prestigio.PMT3277_3G,
       Prestigio.PMT3287_3G,
-      Prestigio.PMT3777_3G,
       Prestigio.PMT5001_3G,
       Prestigio.PMT5002_WI,
       Prestigio.PMT5008_3G,
@@ -33213,19 +33652,15 @@ public object PreviewGroups {
       Prestigio.PMT5887_3G,
       Prestigio.PMT7077_3G,
       Prestigio.PMT7177_3G,
-      Prestigio.PMT7287_3G,
       Prestigio.PN10A01G,
       Prestigio.PN80A03G,
-      Prestigio.PSP5504DUO,
       Prestigio.TC10A2L,
       Prestigio.TC10A3L,
       Prestigio.TC70A1G,
       Prestigio.TE50B2G,
-      Prestigio.TE50B4L,
       Prestigio.TE52B10G,
       Prestigio.TE55B9G,
       Prestigio.TL47B1G,
-      Prestigio.TL49B4L,
       Prestigio.TL52B5L,
       Prestigio.TL55B3L,
       Prestigio.TL61B8L,
@@ -33255,12 +33690,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Prime devices.
+   * Get all device specifications for PRIME devices.
    * Useful for prime testing.
    */
   public fun getPrimeDevices(): List<String> = listOf(
-      Prime.SHINAGAWA,
-      Prime.X6_PRO
+      Prime.SHINAGAWA
   )
 
   /**
@@ -33268,6 +33702,8 @@ public object PreviewGroups {
    * Useful for prism testing.
    */
   public fun getPrismDevices(): List<String> = listOf(
+      Prism.ALIMOS,
+      Prism.DANGNI,
       Prism.LONGSHAN,
       Prism.SINDORIM
   )
@@ -33295,6 +33731,7 @@ public object PreviewGroups {
       Pritom.K7,
       Pritom.K7_A04,
       Pritom.K7_A04_EEA,
+      Pritom.K7_A05,
       Pritom.K7_A101,
       Pritom.K7_A101_EEA,
       Pritom.K7_A102,
@@ -33304,6 +33741,7 @@ public object PreviewGroups {
       Pritom.L10_EEA,
       Pritom.L10_T07,
       Pritom.L10_T13,
+      Pritom.L10_T13_EEA,
       Pritom.L8,
       Pritom.L8_T01,
       Pritom.L8_A01,
@@ -33311,6 +33749,7 @@ public object PreviewGroups {
       Pritom.L8_B02,
       Pritom.L8_B02_EEA,
       Pritom.L8_B03,
+      Pritom.L8_B04_EEA,
       Pritom.L8_C01,
       Pritom.L8_C01_EEA,
       Pritom.L8_C02,
@@ -33327,6 +33766,9 @@ public object PreviewGroups {
       Pritom.M10_B05,
       Pritom.M10_B05_EEA,
       Pritom.M10_B06,
+      Pritom.M10_B07,
+      Pritom.M10_B07_EEA,
+      Pritom.M10_B08,
       Pritom.M10_C01,
       Pritom.M10_C01_EEA,
       Pritom.M10_C02,
@@ -33340,6 +33782,7 @@ public object PreviewGroups {
       Pritom.M10_C05_KIDS,
       Pritom.M10_C06_KIDS,
       Pritom.M10_C07,
+      Pritom.M10_C07_EEA,
       Pritom.M10_EEA,
       Pritom.M10_LITE,
       Pritom.M10_MAX,
@@ -33359,13 +33802,16 @@ public object PreviewGroups {
       Pritom.P7_A03,
       Pritom.P7_A04,
       Pritom.P7_A05,
+      Pritom.P7_A06,
       Pritom.P7_A07,
+      Pritom.P7_A07_EEA,
       Pritom.P7_A1,
       Pritom.P7_A1_EEA,
       Pritom.P7PLUS,
       Pritom.P7PLUS_EEA,
       Pritom.P7PRO,
-      Pritom.P7PRO_EEA
+      Pritom.P7PRO_EEA,
+      Pritom.PRITOM_M10_EEA
   )
 
   /**
@@ -33421,6 +33867,7 @@ public object PreviewGroups {
    * Useful for promethean testing.
    */
   public fun getPrometheanDevices(): List<String> = listOf(
+      Promethean.ACTIVPANEL_LE,
       Promethean.OPS_A2,
       Promethean.XM3566D
   )
@@ -33458,6 +33905,7 @@ public object PreviewGroups {
   public fun getProtonDevices(): List<String> = listOf(
       Proton.BANDRA,
       Proton.CAPITOLHILL,
+      Proton.INFINITY_8,
       Proton.KENTON,
       Proton.KEONEAE,
       Proton.LASALLE,
@@ -33580,9 +34028,9 @@ public object PreviewGroups {
       Qilive.Q6T10IN,
       Qilive.Q7T10INP,
       Qilive.Q8S55IN4G2,
-      Qilive.Q8S5IN4GP,
       Qilive.Q8S6IN4G,
       Qilive.Q9S5IN4G,
+      Qilive.Q9T10IN4G,
       Qilive.QT19071,
       Qilive.QT19101,
       Qilive.QT19101HV,
@@ -33598,6 +34046,8 @@ public object PreviewGroups {
       Qilive.QT23126BP,
       Qilive.QT24101B,
       Qilive.QT24105BP,
+      Qilive.QT24109B,
+      Qilive.SEPOLIA,
       Qilive.TAMACHI,
       Qilive.YEONGDEUNGPO
   )
@@ -33650,7 +34100,6 @@ public object PreviewGroups {
       Qmobile.E3_DUAL,
       Qmobile.ENERGY_X1,
       Qmobile.ENERGY_X2,
-      Qmobile.EVOK_POWER_LITE,
       Qmobile.FIRE,
       Qmobile.GBL7325QM,
       Qmobile.I2_POWER,
@@ -33668,13 +34117,9 @@ public object PreviewGroups {
       Qmobile.J1,
       Qmobile.J2,
       Qmobile.J5,
-      Qmobile.J7,
-      Qmobile.J7_PRO,
-      Qmobile.KING_KONG_MAX,
       Qmobile.LT100,
       Qmobile.LT360,
       Qmobile.LT700_PRO,
-      Qmobile.LT750,
       Qmobile.LT900,
       Qmobile.M350_PRO,
       Qmobile.NOIR_A1_LITE,
@@ -33684,7 +34129,6 @@ public object PreviewGroups {
       Qmobile.Q_INFINITY,
       Qmobile.Q_INFINITY_B,
       Qmobile.Q_INFINITY_C,
-      Qmobile.Q_INFINITY_CINEMA,
       Qmobile.Q_INFINITY_D,
       Qmobile.Q_INFINITY_E,
       Qmobile.Q_INFINITY_E_LITE,
@@ -33695,14 +34139,11 @@ public object PreviewGroups {
       Qmobile.QMOBILE_EVOK_POWER,
       Qmobile.QMOBILE_HD_PLUS,
       Qmobile.QMOBILE_I9I,
-      Qmobile.QMOBILE_LT500_PRO,
       Qmobile.QMOBILE_LT550,
-      Qmobile.QMOBILE_NOIR_A1,
       Qmobile.QMOBILE_S4,
       Qmobile.QMOBILE_S6_PLUS,
       Qmobile.QMOBILE_S6S,
       Qmobile.QMOBILE_S8,
-      Qmobile.QMOBILE_X33,
       Qmobile.QMOBILE_X36,
       Qmobile.QMOBILE_XLI,
       Qmobile.QMOBILES6,
@@ -33743,13 +34184,16 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for QRIOM devices.
+   * Get all device specifications for Qriom devices.
    * Useful for qriom testing.
    */
   public fun getQriomDevices(): List<String> = listOf(
+      Qriom.ELLINIKO,
       Qriom.LAVENDER,
       Qriom.MINAMI,
-      Qriom.MOUNTBAKER
+      Qriom.MOUNTBAKER,
+      Qriom.QA15_101,
+      Qriom.QA15_80
   )
 
   /**
@@ -33769,8 +34213,6 @@ public object PreviewGroups {
       Qsmart.I7I_2020,
       Qsmart.LT950,
       Qsmart.MARK_2,
-      Qsmart.MARK_5,
-      Qsmart.QSMART_I5I_2019,
       Qsmart.QSMART_I6I_2020,
       Qsmart.QSMART_LT900,
       Qsmart.ROCKET,
@@ -33797,7 +34239,6 @@ public object PreviewGroups {
       Qtab.QTAB_V500,
       Qtab.V5,
       Qtab.V5_PLUS,
-      Qtab.V6_METAL,
       Qtab.V7_LTE,
       Qtab.V7_METAL
   )
@@ -33807,6 +34248,7 @@ public object PreviewGroups {
    * Useful for qti testing.
    */
   public fun getQtiDevices(): List<String> = listOf(
+      Qti.KALAMA,
       Qti.KONA
   )
 
@@ -33821,15 +34263,24 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for Quantic devices.
+   * Useful for quantic testing.
+   */
+  public fun getQuanticDevices(): List<String> = listOf(
+      Quantic.CM4805,
+      Quantic.CM4806
+  )
+
+  /**
    * Get all device specifications for Quantum devices.
    * Useful for quantum testing.
    */
   public fun getQuantumDevices(): List<String> = listOf(
+      Quantum.ELISE_T65,
       Quantum.Q03,
       Quantum.Q11,
       Quantum.Q13,
       Quantum.Q17,
-      Quantum.Q19,
       Quantum.Q2,
       Quantum.Q3,
       Quantum.Q3C,
@@ -33841,14 +34292,6 @@ public object PreviewGroups {
       Quantum.QX2,
       Quantum.S518AR,
       Quantum.S600AR
-  )
-
-  /**
-   * Get all device specifications for QUATRO devices.
-   * Useful for quatro testing.
-   */
-  public fun getQuatroDevices(): List<String> = listOf(
-      Quatro.QUATRO_8
   )
 
   /**
@@ -33865,7 +34308,6 @@ public object PreviewGroups {
    */
   public fun getQuboDevices(): List<String> = listOf(
       Qubo.BIG1,
-      Qubo.P19,
       Qubo.SP510,
       Qubo.T104_64GB,
       Qubo.T10_32GB,
@@ -33961,7 +34403,8 @@ public object PreviewGroups {
    * Useful for rainx testing.
    */
   public fun getRainxDevices(): List<String> = listOf(
-      Rainx.THE101LOOP
+      Rainx.THE101LOOP,
+      Rainx.THELOOP
   )
 
   /**
@@ -34007,6 +34450,7 @@ public object PreviewGroups {
    */
   public fun getRanconDevices(): List<String> = listOf(
       Rancon.ELLINIKO,
+      Rancon.JAGALCHI,
       Rancon.MOUNTBAKER
   )
 
@@ -34015,6 +34459,7 @@ public object PreviewGroups {
    * Useful for rangs testing.
    */
   public fun getRangsDevices(): List<String> = listOf(
+      Rangs.ELLINIKO,
       Rangs.LAVENDER,
       Rangs.MOUNTBAKER
   )
@@ -34100,10 +34545,10 @@ public object PreviewGroups {
       Rca.CAPITOLHILL,
       Rca.DRP2091,
       Rca.DRP2091Q,
-      Rca.DRP29101QD,
       Rca.ELLINIKO,
       Rca.GANGBYEON,
       Rca.HONGKONG,
+      Rca.JAGALCHI,
       Rca.KANDA,
       Rca.KENTON,
       Rca.KEONEAE,
@@ -34118,6 +34563,7 @@ public object PreviewGroups {
       Rca.RATM21036,
       Rca.RATM30846,
       Rca.RATM31046,
+      Rca.RATM31249,
       Rca.RATM3144B,
       Rca.RATR30824,
       Rca.RATR31024,
@@ -34126,6 +34572,7 @@ public object PreviewGroups {
       Rca.RC7T3G21,
       Rca.RC8T3G21,
       Rca.RCA_G2,
+      Rca.RCA_PRIME,
       Rca.RCA_RENO_MAX,
       Rca.RCARENO5011619,
       Rca.RCS13101T,
@@ -34136,18 +34583,15 @@ public object PreviewGroups {
       Rca.RCT6213W23,
       Rca.RCT6213W24,
       Rca.RCT6213W87DK,
-      Rca.RCT6223W87,
       Rca.RCT6223W97,
       Rca.RCT6272W23,
       Rca.RCT6303W87DK,
-      Rca.RCT6303W87M,
       Rca.RCT6303W87M7,
       Rca.RCT6378W2,
       Rca.RCT6513W87,
       Rca.RCT6513W87DK5E,
       Rca.RCT6513W87DK5EQ,
       Rca.RCT6513W87DK5EQE,
-      Rca.RCT6513W87DK5EQM,
       Rca.RCT6573W23,
       Rca.RCT6603W47M7,
       Rca.RCT6603W87M7,
@@ -34183,7 +34627,6 @@ public object PreviewGroups {
       Rca.RCT6A03W13E,
       Rca.RCT6A03W13FU,
       Rca.RCT6A03W13M,
-      Rca.RCT6A06E12,
       Rca.RCT6A06Q22,
       Rca.RCT6B03Q23,
       Rca.RCT6B03W12,
@@ -34212,14 +34655,6 @@ public object PreviewGroups {
    */
   public fun getRctDevices(): List<String> = listOf(
       Rct.MX101M2
-  )
-
-  /**
-   * Get all device specifications for RDP devices.
-   * Useful for rdp testing.
-   */
-  public fun getRdpDevices(): List<String> = listOf(
-      Rdp.TP802
   )
 
   /**
@@ -34344,6 +34779,8 @@ public object PreviewGroups {
       Realme.RE602AL1,
       Realme.RE602CL1,
       Realme.RE602EL1,
+      Realme.RE6030L1,
+      Realme.RE6031L1,
       Realme.RE6054,
       Realme.RE605FL1,
       Realme.RE6063L1,
@@ -34367,8 +34804,18 @@ public object PreviewGroups {
       Realme.RE60B4L1,
       Realme.RE60B8,
       Realme.RE60BA,
+      Realme.RE60C8L1,
       Realme.RE60CCL1,
       Realme.RE60CDL1,
+      Realme.RE6400L1,
+      Realme.RE6404L1,
+      Realme.RE6440L1,
+      Realme.RE6441L1,
+      Realme.RE6444L1,
+      Realme.RE644BL1,
+      Realme.RE644C,
+      Realme.RE6450L1,
+      Realme.RE645F,
       Realme.RE811C,
       Realme.RE873B,
       Realme.RE873D,
@@ -34504,13 +34951,14 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for REALTIME devices.
+   * Get all device specifications for Realtime devices.
    * Useful for realtime testing.
    */
   public fun getRealtimeDevices(): List<String> = listOf(
       Realtime.REALTIME_T503F_L1,
       Realtime.RS405,
-      Realtime.RT8
+      Realtime.RT8,
+      Realtime.T503F
   )
 
   /**
@@ -34519,15 +34967,35 @@ public object PreviewGroups {
    */
   public fun getRebeccoDevices(): List<String> = listOf(
       Rebecco.K30_EEA,
+      Rebecco.K30_EEA_B,
       Rebecco.K30_ROW,
+      Rebecco.K30_ROW_B,
       Rebecco.K50_EEA,
+      Rebecco.K50_EEA_B,
       Rebecco.K50_ROW,
       Rebecco.K50_ROW_B,
       Rebecco.K70_EEA,
+      Rebecco.K70_EEA_B,
       Rebecco.K70_ROW,
       Rebecco.K70I_EEA,
+      Rebecco.K80_EEA,
       Rebecco.K80_ROW,
-      Rebecco.M30_PRO
+      Rebecco.K80_ROW_B,
+      Rebecco.M30_PRO,
+      Rebecco.M30PRO,
+      Rebecco.M70
+  )
+
+  /**
+   * Get all device specifications for RebotAi devices.
+   * Useful for rebotai testing.
+   */
+  public fun getRebotaiDevices(): List<String> = listOf(
+      Rebotai.A10_PRO,
+      Rebotai.A11,
+      Rebotai.A11_EEA,
+      Rebotai.A9_EEA,
+      Rebotai.D101
   )
 
   /**
@@ -34552,7 +35020,8 @@ public object PreviewGroups {
    * Useful for red_mobile testing.
    */
   public fun getRedMobileDevices(): List<String> = listOf(
-      RedMobile.QUICK_5_0
+      RedMobile.QUICK_5_0,
+      RedMobile.VOLT_L
   )
 
   /**
@@ -34585,7 +35054,6 @@ public object PreviewGroups {
   public fun getRedfoxDevices(): List<String> = listOf(
       Redfox.P11,
       Redfox.R10S,
-      Redfox.VALUER_V8,
       Redfox.WIZPAD_VALUER_R10X,
       Redfox.WVV832
   )
@@ -34612,6 +35080,7 @@ public object PreviewGroups {
       Redmi.AMETHYST,
       Redmi.ANGELICA,
       Redmi.ANGELICAN,
+      Redmi.ANNIBALE,
       Redmi.APOLLO,
       Redmi.ARES,
       Redmi.ATMOS,
@@ -34633,9 +35102,11 @@ public object PreviewGroups {
       Redmi.CITRINE,
       Redmi.CLOUD,
       Redmi.COROT,
+      Redmi.CREEK,
       Redmi.CURTANA,
       Redmi.DALI,
       Redmi.DANDELION,
+      Redmi.DEW,
       Redmi.DITING,
       Redmi.DIZI,
       Redmi.DUCHAMP,
@@ -34647,6 +35118,8 @@ public object PreviewGroups {
       Redmi.FLAME,
       Redmi.FLARE,
       Redmi.FLEUR,
+      Redmi.FLOURITE,
+      Redmi.FLUTE,
       Redmi.FOG,
       Redmi.GALAHAD,
       Redmi.GALE,
@@ -34662,8 +35135,10 @@ public object PreviewGroups {
       Redmi.JOYEUSE,
       Redmi.KLEIN,
       Redmi.KOTO,
+      Redmi.KUNZITE,
       Redmi.LAKE,
       Redmi.LANCELOT,
+      Redmi.LAPIS,
       Redmi.LEMON,
       Redmi.LIGHT,
       Redmi.LIME,
@@ -34681,11 +35156,13 @@ public object PreviewGroups {
       Redmi.MONDRIAN,
       Redmi.MOON,
       Redmi.MUNCH,
+      Redmi.MYRON,
       Redmi.OBSIDIAN,
       Redmi.OCEAN,
       Redmi.OLIVEWOOD,
       Redmi.ONYX,
       Redmi.OPAL,
+      Redmi.ORGAN,
       Redmi.PEARL,
       Redmi.PERIDOT,
       Redmi.PEUX,
@@ -34721,6 +35198,7 @@ public object PreviewGroups {
       Redmi.SPARK,
       Redmi.SPES,
       Redmi.SPESN,
+      Redmi.SPRING,
       Redmi.SUNNY,
       Redmi.SUNSTONE,
       Redmi.SWEET,
@@ -34732,6 +35210,8 @@ public object PreviewGroups {
       Redmi.THUNDER,
       Redmi.TIDES,
       Redmi.TOPAZ,
+      Redmi.TORNADO,
+      Redmi.TURNER,
       Redmi.VERMEER,
       Redmi.VEUX,
       Redmi.VIDA,
@@ -34749,14 +35229,6 @@ public object PreviewGroups {
       Redmi.YUNLUO,
       Redmi.ZIRCON,
       Redmi.ZORN
-  )
-
-  /**
-   * Get all device specifications for RedMobile devices.
-   * Useful for redmobile testing.
-   */
-  public fun getRedmobileDevices(): List<String> = listOf(
-      Redmobile.VOLT_L
   )
 
   /**
@@ -34821,7 +35293,6 @@ public object PreviewGroups {
       Reeder.REEDER_M7_GO,
       Reeder.REEDER_M7PLUS,
       Reeder.REEDER_M8_PLUS,
-      Reeder.REEDER_M8S,
       Reeder.REEDER_T8,
       Reeder.S19_MAX,
       Reeder.S19_MAX_2_128GB,
@@ -34836,7 +35307,8 @@ public object PreviewGroups {
       Reeder.S23_PRO_MAX,
       Reeder.S23_PRO_MAX_256GB,
       Reeder.S71,
-      Reeder.S919
+      Reeder.S919,
+      Reeder.T71
   )
 
   /**
@@ -34873,25 +35345,18 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Reliance devices.
-   * Useful for reliance testing.
-   */
-  public fun getRelianceDevices(): List<String> = listOf(
-      Reliance.RC500L,
-      Reliance.RC501L
-  )
-
-  /**
    * Get all device specifications for Relndoo devices.
    * Useful for relndoo testing.
    */
   public fun getRelndooDevices(): List<String> = listOf(
+      Relndoo.P30_US,
       Relndoo.P60_EEA,
       Relndoo.P60_ROW,
       Relndoo.P60_US,
       Relndoo.P80,
       Relndoo.P80_EU,
       Relndoo.P80_US,
+      Relndoo.P90_ROW,
       Relndoo.T10P,
       Relndoo.T10P_A,
       Relndoo.T10P_ROW,
@@ -34902,9 +35367,13 @@ public object PreviewGroups {
       Relndoo.T88,
       Relndoo.TAB10_EU,
       Relndoo.TAB10_EUR,
+      Relndoo.TAB10_US,
+      Relndoo.TAB9,
       Relndoo.TB02,
+      Relndoo.TB02_EEA_A,
       Relndoo.TB02_EUR,
-      Relndoo.TB02_ROW
+      Relndoo.TB02_ROW,
+      Relndoo.TB02_US
   )
 
   /**
@@ -34974,14 +35443,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Revomovil devices.
-   * Useful for revomovil testing.
-   */
-  public fun getRevomovilDevices(): List<String> = listOf(
-      Revomovil.S6523_RU
-  )
-
-  /**
    * Get all device specifications for REVOX devices.
    * Useful for revox testing.
    */
@@ -35002,6 +35463,7 @@ public object PreviewGroups {
    * Useful for revvl testing.
    */
   public fun getRevvlDevices(): List<String> = listOf(
+      Revvl.DIANA_TMO,
       Revvl.REVVLTAB5G
   )
 
@@ -35018,9 +35480,11 @@ public object PreviewGroups {
    * Useful for rhino testing.
    */
   public fun getRhinoDevices(): List<String> = listOf(
+      Rhino.ATOM,
       Rhino.NOVAX,
       Rhino.PACE,
       Rhino.PORTAL,
+      Rhino.RHINO_C10,
       Rhino.RHINO_M10P,
       Rhino.RHINO_T8,
       Rhino.SCOUTX,
@@ -35071,6 +35535,8 @@ public object PreviewGroups {
    * Useful for riviera testing.
    */
   public fun getRivieraDevices(): List<String> = listOf(
+      Riviera.ALIMOS,
+      Riviera.DANGNI,
       Riviera.HAMAMATSUCHO,
       Riviera.IKEBUKURO,
       Riviera.SINDORIM,
@@ -35108,6 +35574,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for RNRUO devices.
+   * Useful for rnruo testing.
+   */
+  public fun getRnruoDevices(): List<String> = listOf(
+      Rnruo.T10A863_51
+  )
+
+  /**
    * Get all device specifications for RoadQuest devices.
    * Useful for roadquest testing.
    */
@@ -35116,18 +35590,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Rockcel devices.
-   * Useful for rockcel testing.
-   */
-  public fun getRockcelDevices(): List<String> = listOf(
-      Rockcel.QUARTZO_UP
-  )
-
-  /**
    * Get all device specifications for RockTek devices.
    * Useful for rocktek testing.
    */
   public fun getRocktekDevices(): List<String> = listOf(
+      Rocktek.RMQ,
       Rocktek.RTBOX
   )
 
@@ -35145,7 +35612,6 @@ public object PreviewGroups {
    * Useful for rokit testing.
    */
   public fun getRokitDevices(): List<String> = listOf(
-      Rokit.CHINCHILLA,
       Rokit.DINGO,
       Rokit.EMU,
       Rokit.GECKO
@@ -35180,6 +35646,7 @@ public object PreviewGroups {
    * Useful for rosso testing.
    */
   public fun getRossoDevices(): List<String> = listOf(
+      Rosso.JAGALCHI,
       Rosso.STANFORD,
       Rosso.ZHONGSHAN
   )
@@ -35235,6 +35702,7 @@ public object PreviewGroups {
       Ruggear.RG750_ROW,
       Ruggear.RG850,
       Ruggear.RG880,
+      Ruggear.RG880I,
       Ruggear.RG910,
       Ruggear.RG930I,
       Ruggear.RG935
@@ -35245,8 +35713,16 @@ public object PreviewGroups {
    * Useful for ruggon testing.
    */
   public fun getRuggonDevices(): List<String> = listOf(
-      Ruggon.PA501BG,
-      Ruggon.PA501BWR
+      Ruggon.PA501BG
+  )
+
+  /**
+   * Get all device specifications for RugOne devices.
+   * Useful for rugone testing.
+   */
+  public fun getRugoneDevices(): List<String> = listOf(
+      Rugone.GR1000BF1,
+      Rugone.GR1000BF2
   )
 
   /**
@@ -35265,14 +35741,26 @@ public object PreviewGroups {
       Ruio.A870,
       Ruio.BLITZ,
       Ruio.M671M4,
-      Ruio.M675M4,
       Ruio.RUIO_I7ULTRA,
       Ruio.RUIO_S5006,
       Ruio.RUIO_S518,
+      Ruio.RUIO_ZIP,
       Ruio.S5506,
+      Ruio.S5521,
       Ruio.S6501,
       Ruio.S6506,
-      Ruio.S6518
+      Ruio.S6518,
+      Ruio.S6537G,
+      Ruio.S6539Q
+  )
+
+  /**
+   * Get all device specifications for RUSHAR devices.
+   * Useful for rushar testing.
+   */
+  public fun getRusharDevices(): List<String> = listOf(
+      Rushar.M132_EEA,
+      Rushar.M159_EEA
   )
 
   /**
@@ -35289,14 +35777,6 @@ public object PreviewGroups {
    */
   public fun getRuufuuxyDevices(): List<String> = listOf(
       Ruufuuxy.R16MAX
-  )
-
-  /**
-   * Get all device specifications for RVP devices.
-   * Useful for rvp testing.
-   */
-  public fun getRvpDevices(): List<String> = listOf(
-      Rvp.RVPVK808
   )
 
   /**
@@ -35331,6 +35811,7 @@ public object PreviewGroups {
    * Useful for saba testing.
    */
   public fun getSabaDevices(): List<String> = listOf(
+      Saba.ALIMOS,
       Saba.LONGSHAN,
       Saba.REDWOOD
   )
@@ -35352,13 +35833,22 @@ public object PreviewGroups {
       Safaricom.NEON_LITE,
       Safaricom.NEON_NOVA,
       Safaricom.NEON_RAY,
-      Safaricom.NEON_RAY_2,
+      Safaricom.NEON_RAY_2_480X854,
       Safaricom.NEON_RAY_PRO,
       Safaricom.NEON_SMARTA_2,
       Safaricom.NEON_STORM,
       Safaricom.NEON_ULTRA_2,
+      Safaricom.NEON_ULTRA_2_M,
       Safaricom.SAFARICOM_ET_KIMEM,
       Safaricom.SAJIPRO
+  )
+
+  /**
+   * Get all device specifications for Safex_Instruments devices.
+   * Useful for safex_instruments testing.
+   */
+  public fun getSafexInstrumentsDevices(): List<String> = listOf(
+      SafexInstruments.EX_MOBILE_20_NC
   )
 
   /**
@@ -35380,7 +35870,8 @@ public object PreviewGroups {
       Saiet.STS571,
       Saiet.STS600,
       Saiet.STS601,
-      Saiet.STS602
+      Saiet.STS602,
+      Saiet.STS650
   )
 
   /**
@@ -35440,6 +35931,8 @@ public object PreviewGroups {
       Samsung.A16,
       Samsung.A16X,
       Samsung.A16XM,
+      Samsung.A17,
+      Samsung.A17X,
       Samsung.A20,
       Samsung.A20E,
       Samsung.A20P,
@@ -35458,7 +35951,6 @@ public object PreviewGroups {
       Samsung.A2CORELTE,
       Samsung.A30,
       Samsung.A30C,
-      Samsung.A30S,
       Samsung.A31,
       Samsung.A32,
       Samsung.A32X,
@@ -35582,6 +36074,7 @@ public object PreviewGroups {
       Samsung.ASTARQLTESKT,
       Samsung.B0S,
       Samsung.B2Q,
+      Samsung.B4Q,
       Samsung.B5Q,
       Samsung.B6Q,
       Samsung.B7R,
@@ -35603,7 +36096,8 @@ public object PreviewGroups {
       Samsung.BLOOMQ,
       Samsung.BLOOMXQ,
       Samsung.C1KTT,
-      Samsung.C1LGT,
+      Samsung.C1Q,
+      Samsung.C1S,
       Samsung.C1SKT,
       Samsung.C5LTECHN,
       Samsung.C5PLTECHN,
@@ -35641,7 +36135,6 @@ public object PreviewGroups {
       Samsung.CORSICA,
       Samsung.CORSICASS,
       Samsung.CORSICAVE3G,
-      Samsung.CORSICAVEDS3GVJ,
       Samsung.CPRIMELTEMTR,
       Samsung.CPRIMELTETMO,
       Samsung.CRATER,
@@ -35655,7 +36148,6 @@ public object PreviewGroups {
       Samsung.CRUISERLTEATT,
       Samsung.CRUISERLTESQ,
       Samsung.CS02,
-      Samsung.CS023G,
       Samsung.CS02VE3G,
       Samsung.CS02VE3GDTV,
       Samsung.CS02VE3GSS,
@@ -35695,15 +36187,18 @@ public object PreviewGroups {
       Samsung.DELOSLTESKT,
       Samsung.DM1Q,
       Samsung.DM2Q,
+      Samsung.DM3Q,
       Samsung.DREAM2LTEKS,
       Samsung.DREAM2QLTECAN,
       Samsung.DREAM2QLTECHN,
+      Samsung.DREAM2QLTESQ,
       Samsung.DREAM2QLTEUE,
       Samsung.DREAMLITEQLTECHN,
       Samsung.DREAMLTEKS,
       Samsung.DREAMQLTECAN,
       Samsung.DREAMQLTECHN,
       Samsung.DREAMQLTECMCC,
+      Samsung.DREAMQLTESQ,
       Samsung.DREAMQLTEUE,
       Samsung.E1Q,
       Samsung.E1S,
@@ -35809,6 +36304,7 @@ public object PreviewGroups {
       Samsung.GRANDPRIMEVELTELTN,
       Samsung.GRANDPRIMEVELTEZT,
       Samsung.GREATLTEKS,
+      Samsung.GREATQLTE,
       Samsung.GREATQLTECHN,
       Samsung.GREATQLTECMCC,
       Samsung.GREATQLTECS,
@@ -35820,10 +36316,8 @@ public object PreviewGroups {
       Samsung.GT_I9100G,
       Samsung.GT_I9100P,
       Samsung.GT_N7000,
-      Samsung.GT_P1000,
       Samsung.GT_P6200,
       Samsung.GT_P6200L,
-      Samsung.GT_P6210,
       Samsung.GT_P6800,
       Samsung.GT510LTE,
       Samsung.GT510LTECHN,
@@ -35843,6 +36337,10 @@ public object PreviewGroups {
       Samsung.GT5NOTE8LTE,
       Samsung.GT5NOTE8LTECHN,
       Samsung.GT5NOTE8WIFI,
+      Samsung.GTA11,
+      Samsung.GTA11P,
+      Samsung.GTA11PWIFI,
+      Samsung.GTA11WIFI,
       Samsung.GTA2SLTE,
       Samsung.GTA2SLTECHN,
       Samsung.GTA2SLTEKTT,
@@ -35856,7 +36354,6 @@ public object PreviewGroups {
       Samsung.GTA2XLLTEKX,
       Samsung.GTA2XLLTESPR,
       Samsung.GTA2XLWIFI,
-      Samsung.GTA2XLWIFICHN,
       Samsung.GTA3XL,
       Samsung.GTA3XLWIFI,
       Samsung.GTA4L,
@@ -35925,10 +36422,16 @@ public object PreviewGroups {
       Samsung.GTS10FEP,
       Samsung.GTS10FEPWIFI,
       Samsung.GTS10FEWIFI,
+      Samsung.GTS10LITE,
+      Samsung.GTS10LITEWIFI,
       Samsung.GTS10P,
       Samsung.GTS10PWIFI,
       Samsung.GTS10U,
       Samsung.GTS10UWIFI,
+      Samsung.GTS11,
+      Samsung.GTS11U,
+      Samsung.GTS11UWIFI,
+      Samsung.GTS11WIFI,
       Samsung.GTS210LTE,
       Samsung.GTS210LTEATT,
       Samsung.GTS210LTECAN,
@@ -36365,8 +36868,6 @@ public object PreviewGroups {
       Samsung.MELIUS3G,
       Samsung.MELIUSLTE,
       Samsung.MELIUSLTEATT,
-      Samsung.MELIUSLTECAN,
-      Samsung.MELIUSLTEMETROPCS,
       Samsung.MELIUSLTESKT,
       Samsung.MILLET3G,
       Samsung.MILLETLTE,
@@ -36384,7 +36885,6 @@ public object PreviewGroups {
       Samsung.MONDRIANWIFIKX,
       Samsung.MONDRIANWIFIUE,
       Samsung.MPROJECT3G,
-      Samsung.MPROJECTQLTE,
       Samsung.MS013G,
       Samsung.MS013GDTV,
       Samsung.MS013GSS,
@@ -36417,6 +36917,7 @@ public object PreviewGroups {
       Samsung.NOVELLTELGT,
       Samsung.NOVELLTESKT,
       Samsung.O1Q,
+      Samsung.O1S,
       Samsung.O5LTE,
       Samsung.O5LTECHN,
       Samsung.O5PROLTE,
@@ -36458,7 +36959,6 @@ public object PreviewGroups {
       Samsung.PA1Q,
       Samsung.PA2Q,
       Samsung.PA3Q,
-      Samsung.PHILIPPELTECHN,
       Samsung.PHOENIX,
       Samsung.PICASSOLTE,
       Samsung.PICASSOWIFI,
@@ -36471,16 +36971,19 @@ public object PreviewGroups {
       Samsung.PROJECTXUL,
       Samsung.PSQ,
       Samsung.Q2Q,
+      Samsung.Q4Q,
       Samsung.Q5Q,
       Samsung.Q6AQ,
       Samsung.Q6Q,
       Samsung.Q7LTESKT,
+      Samsung.Q7MQ,
       Samsung.Q7Q,
       Samsung.R0Q,
       Samsung.R0S,
       Samsung.R11Q,
       Samsung.R11S,
       Samsung.R12S,
+      Samsung.R13S,
       Samsung.R1Q,
       Samsung.R3Q,
       Samsung.R5Q,
@@ -36488,14 +36991,12 @@ public object PreviewGroups {
       Samsung.R8Q,
       Samsung.R8S,
       Samsung.R9Q,
-      Samsung.RAYBST,
-      Samsung.ROSSALTE,
+      Samsung.R9S,
       Samsung.ROSSALTEXSA,
       Samsung.ROY,
       Samsung.ROYDTV,
       Samsung.ROYSS,
       Samsung.ROYSSNFC,
-      Samsung.ROYSSVEDTV,
       Samsung.ROYVEDTV,
       Samsung.RUBENSLTE,
       Samsung.RUBENSLTEKX,
@@ -36615,7 +37116,6 @@ public object PreviewGroups {
       Samsung.SERRANOLTE,
       Samsung.SERRANOLTEBMC,
       Samsung.SERRANOLTEKTT,
-      Samsung.SERRANOLTESPR,
       Samsung.SERRANOVE3G,
       Samsung.SERRANOVELTE,
       Samsung.SERRANOVOLTEATT,
@@ -36638,6 +37138,7 @@ public object PreviewGroups {
       Samsung.STAR2LTEKS,
       Samsung.STAR2QLTECHN,
       Samsung.STAR2QLTECS,
+      Samsung.STAR2QLTESQ,
       Samsung.STAR2QLTEUE,
       Samsung.STARLTEKS,
       Samsung.STARQLTECHN,
@@ -36648,7 +37149,6 @@ public object PreviewGroups {
       Samsung.SUPERIORLTESKT,
       Samsung.T03G,
       Samsung.T03GCHN,
-      Samsung.T03GCHNDUOS,
       Samsung.T0LTE,
       Samsung.T0LTEATT,
       Samsung.T0LTECAN,
@@ -36693,12 +37193,10 @@ public object PreviewGroups {
       Samsung.V4Q,
       Samsung.VASTA3G,
       Samsung.VASTALTEZH,
-      Samsung.VICTORLTE,
       Samsung.VICTORY,
       Samsung.VIENNALTE,
       Samsung.VIENNALTEATT,
       Samsung.VIENNALTEKX,
-      Samsung.VIVALTO,
       Samsung.VIVALTO3G,
       Samsung.VIVALTO3GVN,
       Samsung.VIVALTO3MVE3GLTN,
@@ -36736,6 +37234,7 @@ public object PreviewGroups {
       Samsung.XCOVER7PRO,
       Samsung.XCOVERPRO,
       Samsung.XCOVERPRO2,
+      Samsung.XRVST2,
       Samsung.Y2Q,
       Samsung.Y2S,
       Samsung.YOUNG23G,
@@ -36820,6 +37319,7 @@ public object PreviewGroups {
    * Useful for sanlux testing.
    */
   public fun getSanluxDevices(): List<String> = listOf(
+      Sanlux.ALIMOS,
       Sanlux.SW4H
   )
 
@@ -36837,9 +37337,7 @@ public object PreviewGroups {
    * Useful for sansei testing.
    */
   public fun getSanseiDevices(): List<String> = listOf(
-      Sansei.TS10A1,
-      Sansei.TS7A1,
-      Sansei.TS7K
+      Sansei.TS10A1
   )
 
   /**
@@ -36847,12 +37345,14 @@ public object PreviewGroups {
    * Useful for sansui testing.
    */
   public fun getSansuiDevices(): List<String> = listOf(
+      Sansui.BEOMIL,
       Sansui.COTTONGREEN,
+      Sansui.DONGNAE,
+      Sansui.ELEONAS,
       Sansui.GRAND,
       Sansui.MARINA,
       Sansui.MARTIN,
       Sansui.NAGATA,
-      Sansui.SANSUI_NOVA,
       Sansui.SHIBUYA,
       Sansui.SHILIN,
       Sansui.STANFORD,
@@ -36931,12 +37431,9 @@ public object PreviewGroups {
       Sbm._404SC,
       Sbm._601LV,
       Sbm._602LV,
-      Sbm.DM016SH,
       Sbm.E2JPS,
       Sbm.HWCPN_Q,
       Sbm.HWFDR,
-      Sbm.HWS10231L,
-      Sbm.MSM8974,
       Sbm.P809F10,
       Sbm.SBM200SH,
       Sbm.SBM203SH,
@@ -37046,14 +37543,13 @@ public object PreviewGroups {
   public fun getSebbeDevices(): List<String> = listOf(
       Sebbe.S21_EEA,
       Sebbe.S22_EEA,
-      Sebbe.S22_EEA,
+      Sebbe.S22_EEA_800X1280,
       Sebbe.S22_T_EEA,
       Sebbe.S22_T_US,
       Sebbe.S23_EEA,
       Sebbe.S23_EEA_A,
       Sebbe.S23_T_EEA,
       Sebbe.S23_T_US,
-      Sebbe.S23_US,
       Sebbe.S23_US_B
   )
 
@@ -37086,9 +37582,13 @@ public object PreviewGroups {
    * Useful for sego testing.
    */
   public fun getSegoDevices(): List<String> = listOf(
+      Sego.NOTE_70,
       Sego.S24,
+      Sego.S25,
       Sego.S25_NEO,
       Sego.S_PAD,
+      Sego.SHARK,
+      Sego.SMART_10,
       Sego.ZERO_50
   )
 
@@ -37128,8 +37628,7 @@ public object PreviewGroups {
    * Useful for selectron testing.
    */
   public fun getSelectronDevices(): List<String> = listOf(
-      Selectron.T101G,
-      Selectron.T856G
+      Selectron.T101G
   )
 
   /**
@@ -37138,8 +37637,7 @@ public object PreviewGroups {
    */
   public fun getSelfixDevices(): List<String> = listOf(
       Selfix.ES733,
-      Selfix.X5,
-      Selfix.X7
+      Selfix.X5
   )
 
   /**
@@ -37160,9 +37658,7 @@ public object PreviewGroups {
       Semc.LT22I,
       Semc.LT26I,
       Semc.LT26II,
-      Semc.LT26W,
-      Semc.LT28H,
-      Semc.ST27I
+      Semc.LT26W
   )
 
   /**
@@ -37170,8 +37666,6 @@ public object PreviewGroups {
    * Useful for semeakoko testing.
    */
   public fun getSemeakokoDevices(): List<String> = listOf(
-      Semeakoko.M_766,
-      Semeakoko.S_764,
       Semeakoko.S_764_EEA,
       Semeakoko.S10A,
       Semeakoko.SS_35,
@@ -37207,6 +37701,7 @@ public object PreviewGroups {
    */
   public fun getSenlintechDevices(): List<String> = listOf(
       Senlintech.PAD6_EEA,
+      Senlintech.S12_PRO_EEA,
       Senlintech.S30_PRO
   )
 
@@ -37227,12 +37722,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for SENSEIT devices.
+   * Get all device specifications for Senseit devices.
    * Useful for senseit testing.
    */
   public fun getSenseitDevices(): List<String> = listOf(
-      Senseit.SENSEIT,
-      Senseit.SENSEIT_A109
+      Senseit.SENSEIT
   )
 
   /**
@@ -37294,6 +37788,7 @@ public object PreviewGroups {
    * Useful for sewoo testing.
    */
   public fun getSewooDevices(): List<String> = listOf(
+      Sewoo.NBP_75,
       Sewoo.NBP_65
   )
 
@@ -37305,8 +37800,7 @@ public object PreviewGroups {
       Sfr.DIW377_ALT_FR,
       Sfr.DV8219,
       Sfr.DV8555_SFR,
-      Sfr.DV8945_KFS,
-      Sfr.MSM8916_32
+      Sfr.DV8945_KFS
   )
 
   /**
@@ -37324,6 +37818,7 @@ public object PreviewGroups {
       Sg.LEVIL,
       Sg.LEVIL5,
       Sg.LOCKON,
+      Sg.LYLE,
       Sg.MIKAZUKI,
       Sg.MINEVA,
       Sg.MINEVAL,
@@ -37423,6 +37918,7 @@ public object PreviewGroups {
       Sharp.CHARA,
       Sharp.CRUZE_LITE_S,
       Sharp.CRUZE_PRO,
+      Sharp.DONGNAE,
       Sharp.EBISU,
       Sharp.EGALEO,
       Sharp.EWHA,
@@ -37453,6 +37949,8 @@ public object PreviewGroups {
       Sharp.LC_XU930X_830X,
       Sharp.LEVIN,
       Sharp.LOCKON,
+      Sharp.LYLE,
+      Sharp.MANIATIKA,
       Sharp.MARTIN,
       Sharp.MEGURO,
       Sharp.MIKAZUKI,
@@ -37476,7 +37974,6 @@ public object PreviewGroups {
       Sharp.SAT,
       Sharp.SD1,
       Sharp.SE3,
-      Sharp.SE3_TH,
       Sharp.SE3_VN,
       Sharp.SG1,
       Sharp.SG306SH,
@@ -37502,7 +37999,6 @@ public object PreviewGroups {
       Sharp.SH_Z01,
       Sharp.SH_Z10,
       Sharp.SH_Z20,
-      Sharp.SH825WI,
       Sharp.SH90B,
       Sharp.SHARP_2K15_US_ANDROID,
       Sharp.SHILIN,
@@ -37512,6 +38008,7 @@ public object PreviewGroups {
       Sharp.SJ3,
       Sharp.SK3,
       Sharp.SS2,
+      Sharp.ST4,
       Sharp.STANFORD,
       Sharp.STTM21VAPP,
       Sharp.SW4H_FF,
@@ -37538,7 +38035,6 @@ public object PreviewGroups {
       Sharp.UMEDA,
       Sharp.VG2,
       Sharp.VGO,
-      Sharp.VN3N,
       Sharp.VZJ
   )
 
@@ -37548,6 +38044,14 @@ public object PreviewGroups {
    */
   public fun getShelbyDevices(): List<String> = listOf(
       Shelby.ZA555
+  )
+
+  /**
+   * Get all device specifications for Shiarffe devices.
+   * Useful for shiarffe testing.
+   */
+  public fun getShiarffeDevices(): List<String> = listOf(
+      Shiarffe.T7_AN400
   )
 
   /**
@@ -37565,6 +38069,8 @@ public object PreviewGroups {
    * Useful for shinon testing.
    */
   public fun getShinonDevices(): List<String> = listOf(
+      Shinon.ALIMOS,
+      Shinon.DANGNI,
       Shinon.IKEBUKURO,
       Shinon.LONGSHAN,
       Shinon.REDWOOD,
@@ -37600,6 +38106,22 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for SHOWNIC devices.
+   * Useful for shownic testing.
+   */
+  public fun getShownicDevices(): List<String> = listOf(
+      Shownic.SEPOLIA
+  )
+
+  /**
+   * Get all device specifications for shuodum devices.
+   * Useful for shuodum testing.
+   */
+  public fun getShuodumDevices(): List<String> = listOf(
+      Shuodum.X50_15US
+  )
+
+  /**
    * Get all device specifications for Shuttle devices.
    * Useful for shuttle testing.
    */
@@ -37608,16 +38130,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Sico devices.
+   * Get all device specifications for sico devices.
    * Useful for sico testing.
    */
   public fun getSicoDevices(): List<String> = listOf(
       Sico.DIAMOND_2,
-      Sico.INFINITY,
-      Sico.INFINITYMAX,
       Sico.MEGA2,
-      Sico.MEGA2MAX,
-      Sico.MORE_3,
       Sico.NILE_X,
       Sico.PLUS2,
       Sico.PLUS2_4G,
@@ -37664,7 +38182,6 @@ public object PreviewGroups {
       SigmaMobile.X_TREME_PQ29,
       SigmaMobile.X_TREME_PQ36,
       SigmaMobile.X_TREME_PQ37,
-      SigmaMobile.X_TREME_PQ52,
       SigmaMobile.X_TREME_PQ53,
       SigmaMobile.X_TREME_PQ54,
       SigmaMobile.X_TREME_PQ54_MAX,
@@ -37695,9 +38212,12 @@ public object PreviewGroups {
    * Useful for silver_line testing.
    */
   public fun getSilverLineDevices(): List<String> = listOf(
+      SilverLine.SL1021,
+      SilverLine.SL1022,
+      SilverLine.SL1046,
       SilverLine.SL1068,
       SilverLine.SL1069,
-      SilverLine.SL729
+      SilverLine.SL868G
   )
 
   /**
@@ -37711,18 +38231,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Silverline devices.
-   * Useful for silverline testing.
-   */
-  public fun getSilverlineDevices(): List<String> = listOf(
-      Silverline.SL1021,
-      Silverline.SL1022,
-      Silverline.SL1046,
-      Silverline.SL721,
-      Silverline.SL868G
-  )
-
-  /**
    * Get all device specifications for Simbans devices.
    * Useful for simbans testing.
    */
@@ -37730,6 +38238,7 @@ public object PreviewGroups {
       Simbans.PICASSOTAB,
       Simbans.PICASSOTAB8S,
       Simbans.PICASSOTAB_9,
+      Simbans.PICASSOTAB_A12,
       Simbans.PICASSOTAB_X,
       Simbans.PICASSOTAB_XL,
       Simbans.PICASSOTABX14,
@@ -37753,6 +38262,8 @@ public object PreviewGroups {
    * Useful for simi testing.
    */
   public fun getSimiDevices(): List<String> = listOf(
+      Simi.COOL2,
+      Simi.DREAM2,
       Simi.MECHA,
       Simi.S501PLUS_Z,
       Simi.S502,
@@ -37811,6 +38322,7 @@ public object PreviewGroups {
   public fun getSiragonDevices(): List<String> = listOf(
       Siragon.ELLINIKO,
       Siragon.HONGKONG,
+      Siragon.JAGALCHI,
       Siragon.LAVENDER,
       Siragon.MOUNTBAKER,
       Siragon.R3_GTV,
@@ -37826,6 +38338,7 @@ public object PreviewGroups {
       Siragon.SP_6150,
       Siragon.SP_6200,
       Siragon.SP_7050,
+      Siragon.SP_6300,
       Siragon.SP_7250,
       Siragon.SP_7275,
       Siragon.STANFORD,
@@ -37885,7 +38398,6 @@ public object PreviewGroups {
       Sky.EF71K,
       Sky.EF71S,
       Sky.ELIBI_55,
-      Sky.ELITE_4T_GT,
       Sky.ELITE_A6,
       Sky.ELITE_A63,
       Sky.ELITE_B5MS,
@@ -37893,14 +38405,10 @@ public object PreviewGroups {
       Sky.ELITE_C55US,
       Sky.ELITE_C55USA,
       Sky.ELITE_H55,
-      Sky.ELITE_H55_HD,
       Sky.ELITE_H5_FW,
       Sky.ELITE_J55,
       Sky.ELITE_J55US,
       Sky.ELITE_L55,
-      Sky.ELITE_M45,
-      Sky.ELITE_M5PLUS_PA,
-      Sky.ELITE_M5PLUS_SAL,
       Sky.ELITE_N55,
       Sky.ELITE_N55MAX,
       Sky.ELITE_OCTA_PLUS,
@@ -37951,7 +38459,6 @@ public object PreviewGroups {
       Sky.SKY_PAD8PROUS,
       Sky.SKY_PAX10US,
       Sky.SKY_PRESTIGE,
-      Sky.SKY_PRESTIGE2,
       Sky.SKY_VISION2_PLUS
   )
 
@@ -37970,10 +38477,13 @@ public object PreviewGroups {
   public fun getSkyDevicesDevices(): List<String> = listOf(
       SkyDevices.ASSIST_55,
       SkyDevices.BITA_5,
+      SkyDevices.ELITE65_PRO,
       SkyDevices.ELITE_45SM,
       SkyDevices.ELITE_45T,
       SkyDevices.ELITE_6MAX,
       SkyDevices.ELITE_A5,
+      SkyDevices.ELITE_A63MAX,
+      SkyDevices.ELITE_A63MUS,
       SkyDevices.ELITE_A65,
       SkyDevices.ELITE_AMS,
       SkyDevices.ELITE_B5,
@@ -37986,6 +38496,7 @@ public object PreviewGroups {
       SkyDevices.ELITE_D55,
       SkyDevices.ELITE_D5MAX_US,
       SkyDevices.ELITE_D5MAXUS2,
+      SkyDevices.ELITE_D65,
       SkyDevices.ELITE_E55,
       SkyDevices.ELITE_E55MAX,
       SkyDevices.ELITE_F55,
@@ -38002,26 +38513,49 @@ public object PreviewGroups {
       SkyDevices.ELITE_OCTAMAXOM,
       SkyDevices.ELITE_OCTUS,
       SkyDevices.ELITE_OCUS3,
+      SkyDevices.ELITE_P5,
+      SkyDevices.ELITE_P55,
+      SkyDevices.ELITE_P55_CMAX,
+      SkyDevices.ELITE_P55BMAXB,
+      SkyDevices.ELITE_P55LIFE,
+      SkyDevices.ELITE_P55MANAL,
+      SkyDevices.ELITE_P55MAX,
+      SkyDevices.ELITE_P55MAXA,
+      SkyDevices.ELITE_P55MUSAN,
+      SkyDevices.ELITE_P55MXUS,
+      SkyDevices.ELITE_P55US,
       SkyDevices.ELITE_T10,
       SkyDevices.ELITE_T10_PRO,
       SkyDevices.ELITE_T10A,
       SkyDevices.ELITE_T11_MAXLT,
       SkyDevices.ELITE_T8PLUS,
+      SkyDevices.ELITE_V55,
       SkyDevices.NEG10_SKY_BLACK,
       SkyDevices.NEGRO_SKY_BLACK,
-      SkyDevices.NEGTI28,
       SkyDevices.PLATINUM_B4,
       SkyDevices.PLATINUM_B4P,
       SkyDevices.PLATINUM_F5,
       SkyDevices.PLATINUM_G5,
       SkyDevices.PLATINUM_G55,
+      SkyDevices.PLATINUM_H5_PLUS,
+      SkyDevices.PLATINUM_J5,
+      SkyDevices.PLATINUM_J5US,
+      SkyDevices.SKY_B63,
+      SkyDevices.SKY_B632NUS,
+      SkyDevices.SKY_B63CUW,
+      SkyDevices.SKY_B63NAL,
+      SkyDevices.SKY_B63NUSA,
       SkyDevices.SKY_BLACK,
       SkyDevices.SKY_BLACK2,
       SkyDevices.SKY_BLACK2GT,
       SkyDevices.SKY_BLACKMAX,
+      SkyDevices.SKY_D63,
       SkyDevices.SKY_KID1US,
       SkyDevices.SKY_PAD10MAXEXUS,
+      SkyDevices.SKY_PAD10MXUSNA,
+      SkyDevices.SKY_PAD10XOP,
       SkyDevices.SKY_PAD8PROUSON,
+      SkyDevices.SKY_PADMAXNAL,
       SkyDevices.SKY_PRESTIGEX,
       SkyDevices.SKY_PRESTIGEX1,
       SkyDevices.SKY_PRESTIGEX2,
@@ -38039,58 +38573,20 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for SkyDevices devices.
-   * Useful for skydevices testing.
-   */
-  public fun getSkydevicesDevices(): List<String> = listOf(
-      Skydevices.ELITE65_PRO,
-      Skydevices.ELITE_65_PRO,
-      Skydevices.ELITE_6PRO,
-      Skydevices.ELITE_A63_A_MAXA,
-      Skydevices.ELITE_A63_D_MAX_D,
-      Skydevices.ELITE_A63B_MAX_B,
-      Skydevices.ELITE_A63CMAXC,
-      Skydevices.ELITE_A63MAX,
-      Skydevices.ELITE_A63MUS,
-      Skydevices.ELITE_D65,
-      Skydevices.ELITE_P5,
-      Skydevices.ELITE_P55,
-      Skydevices.ELITE_P55_CMAX,
-      Skydevices.ELITE_P55_MAX_D,
-      Skydevices.ELITE_P55BMAXB,
-      Skydevices.ELITE_P55LIFE,
-      Skydevices.ELITE_P55MANAL,
-      Skydevices.ELITE_P55MAX,
-      Skydevices.ELITE_P55MAXA,
-      Skydevices.ELITE_P55MUSAN,
-      Skydevices.ELITE_P55MXUS,
-      Skydevices.ELITE_P55US,
-      Skydevices.ELITE_V55,
-      Skydevices.PLATINUM_H5_PLUS,
-      Skydevices.PLATINUM_J5,
-      Skydevices.PLATINUM_J5US,
-      Skydevices.SKY_B63,
-      Skydevices.SKY_B632NUS,
-      Skydevices.SKY_B63CUW,
-      Skydevices.SKY_B63HA,
-      Skydevices.SKY_B63NAL,
-      Skydevices.SKY_B63NUSA,
-      Skydevices.SKY_D63,
-      Skydevices.SKY_PAD10MXUSNA,
-      Skydevices.SKY_PADMAXNAL
-  )
-
-  /**
    * Get all device specifications for SKYEGG devices.
    * Useful for skyegg testing.
    */
   public fun getSkyeggDevices(): List<String> = listOf(
       Skyegg.K11_EEA,
       Skyegg.K11_US,
+      Skyegg.K13_U_EEA,
+      Skyegg.K13_U_US,
       Skyegg.K13_EEA,
       Skyegg.K13_US,
       Skyegg.K15_EEA,
-      Skyegg.K15_US
+      Skyegg.K15_US,
+      Skyegg.K16_EEA,
+      Skyegg.K16_US
   )
 
   /**
@@ -38138,17 +38634,18 @@ public object PreviewGroups {
    */
   public fun getSkyworthDevices(): List<String> = listOf(
       Skyworth.ANAHEIM,
-      Skyworth.BEOMIL,
       Skyworth.BOS,
       Skyworth.BYCULLA,
       Skyworth.ELEONAS,
       Skyworth.GRAPE,
+      Skyworth.KATEHAKI,
       Skyworth.LAS,
       Skyworth.SHIBUYA,
       Skyworth.SHIMBASHI,
       Skyworth.SHINJUKU,
       Skyworth.SUNNYVALE,
       Skyworth.UMEDA,
+      Skyworth.YDA,
       Skyworth.YYC,
       Skyworth.YYT
   )
@@ -38189,10 +38686,10 @@ public object PreviewGroups {
       Smart.M20,
       Smart.M30,
       Smart.M50,
-      Smart.MAX,
+      Smart.SHERBET,
       Smart.SLIDE_LITE,
       Smart.SMART_HERO_II,
-      Smart.SMART_PRIME_II
+      Smart.SORBET
   )
 
   /**
@@ -38218,15 +38715,6 @@ public object PreviewGroups {
       SmartTechnology.ELLINIKO,
       SmartTechnology.STANFORD,
       SmartTechnology.ZHONGSHAN
-  )
-
-  /**
-   * Get all device specifications for SMART_TEK devices.
-   * Useful for smart_tek testing.
-   */
-  public fun getSmartTekDevices(): List<String> = listOf(
-      SmartTek.MR_POTATO_HEAD,
-      SmartTek.PLAY_DOH
   )
 
   /**
@@ -38257,8 +38745,7 @@ public object PreviewGroups {
    * Useful for smartbook testing.
    */
   public fun getSmartbookDevices(): List<String> = listOf(
-      Smartbook.S104G,
-      Smartbook.S204G
+      Smartbook.S104G
   )
 
   /**
@@ -38302,7 +38789,6 @@ public object PreviewGroups {
       Smartfren.A36C5H,
       Smartfren.B16C2H,
       Smartfren.B26D2H,
-      Smartfren.G36C1H,
       Smartfren.HS8916QC,
       Smartfren.HS8929QC,
       Smartfren.MSM8909QC
@@ -38350,9 +38836,11 @@ public object PreviewGroups {
    */
   public fun getSmarttechDevices(): List<String> = listOf(
       Smarttech.COTTONGREEN,
+      Smarttech.DONGNAE,
       Smarttech.GUANDU,
       Smarttech.MARINA,
       Smarttech.MARTIN,
+      Smarttech.SEPOLIA,
       Smarttech.TAMACHI,
       Smarttech.YEONGDEUNGPO
   )
@@ -38384,19 +38872,19 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Smile devices.
-   * Useful for smile testing.
-   */
-  public fun getSmileDevices(): List<String> = listOf(
-      Smile.A955Z
-  )
-
-  /**
    * Get all device specifications for Smooth devices.
    * Useful for smooth testing.
    */
   public fun getSmoothDevices(): List<String> = listOf(
       Smooth.SMOOTH626
+  )
+
+  /**
+   * Get all device specifications for Snowa devices.
+   * Useful for snowa testing.
+   */
+  public fun getSnowaDevices(): List<String> = listOf(
+      Snowa.ALIMOS
   )
 
   /**
@@ -38440,15 +38928,22 @@ public object PreviewGroups {
    * Useful for soho_style testing.
    */
   public fun getSohoStyleDevices(): List<String> = listOf(
+      SohoStyle.AMS5518R,
       SohoStyle.S1582C,
       SohoStyle.S1586K,
-      SohoStyle.S65,
       SohoStyle.S6561,
       SohoStyle.SS5114G,
       SohoStyle.SS5314G,
-      SohoStyle.SS5424G,
       SohoStyle.SS5514G,
       SohoStyle.SS5539G
+  )
+
+  /**
+   * Get all device specifications for solanamobile devices.
+   * Useful for solanamobile testing.
+   */
+  public fun getSolanamobileDevices(): List<String> = listOf(
+      Solanamobile.SEEKER
   )
 
   /**
@@ -38456,8 +38951,6 @@ public object PreviewGroups {
    * Useful for solone testing.
    */
   public fun getSoloneDevices(): List<String> = listOf(
-      Solone.E1457,
-      Solone.W1450,
       Solone.W1452
   )
 
@@ -38466,6 +38959,7 @@ public object PreviewGroups {
    * Useful for soneview testing.
    */
   public fun getSoneviewDevices(): List<String> = listOf(
+      Soneview.JAGALCHI,
       Soneview.MOUNTBAKER,
       Soneview.SV_TAB10
   )
@@ -38571,7 +39065,6 @@ public object PreviewGroups {
       Sony.C6602,
       Sony.C6603,
       Sony.C6606,
-      Sony.C6616,
       Sony.C6802,
       Sony.C6806,
       Sony.C6833,
@@ -38589,7 +39082,6 @@ public object PreviewGroups {
       Sony.D2203,
       Sony.D2206,
       Sony.D2212,
-      Sony.D2243,
       Sony.D2302,
       Sony.D2303,
       Sony.D2305,
@@ -38636,7 +39128,6 @@ public object PreviewGroups {
       Sony.E5303,
       Sony.E5306,
       Sony.E5333,
-      Sony.E5343,
       Sony.E5353,
       Sony.E5363,
       Sony.E5506,
@@ -38781,7 +39272,6 @@ public object PreviewGroups {
       Sony.SGP712,
       Sony.SGP771,
       Sony.SOV42_U,
-      Sony.ST26A,
       Sony.ST26I,
       Sony.SVP_DTV15,
       Sony.TXS03,
@@ -38842,6 +39332,7 @@ public object PreviewGroups {
       Sony.XQ_ES44,
       Sony.XQ_ES54,
       Sony.XQ_ES72,
+      Sony.XQ_FE,
       Sony.XQ_FS
   )
 
@@ -38863,14 +39354,6 @@ public object PreviewGroups {
    */
   public fun getSookaDevices(): List<String> = listOf(
       Sooka.SOOKA_TV_V1
-  )
-
-  /**
-   * Get all device specifications for SORIANA devices.
-   * Useful for soriana testing.
-   */
-  public fun getSorianaDevices(): List<String> = listOf(
-      Soriana.BE_ETS
   )
 
   /**
@@ -38913,7 +39396,6 @@ public object PreviewGroups {
   public fun getSoymomoDevices(): List<String> = listOf(
       Soymomo.PRO_V1,
       Soymomo.SOYMOMO_LITE_V1,
-      Soymomo.SOYMOMO_PRO_EU_V1,
       Soymomo.SOYMOMO_PRO_V2,
       Soymomo.SOYMOMO_PRO_V2_24
   )
@@ -38939,6 +39421,7 @@ public object PreviewGroups {
    * Useful for sparx testing.
    */
   public fun getSparxDevices(): List<String> = listOf(
+      Sparx.EDGE_20,
       Sparx.NEO5,
       Sparx.NEO8LITE,
       Sparx.NEO_11,
@@ -39004,15 +39487,15 @@ public object PreviewGroups {
       Spc.GRAVITY_5_SE_EEA,
       Spc.GRAVITY_6_10,
       Spc.GRAVITY_6_11,
+      Spc.GRAVITY_6_PRO_11,
+      Spc.GRAVITY_6_PRO_12,
       Spc.GRAVITY_MAX,
       Spc.GRAVITY_OCTACORE,
       Spc.GRAVITY_PRO,
       Spc.HEAVEN_10_1,
       Spc.L52,
-      Spc.L52_PRO,
       Spc.L53,
       Spc.L56,
-      Spc.L60,
       Spc.L60_PRO,
       Spc.L60_TURBO,
       Spc.L70_LITE,
@@ -39032,10 +39515,11 @@ public object PreviewGroups {
       Spc.SPC_GEN_MAX,
       Spc.SPC_GEN_PLUS,
       Spc.SPC_L52X,
-      Spc.SPC_SMART,
       Spc.SPC_SMART_LITE,
       Spc.SPC_SMART_MAX,
       Spc.SPC_SMART_PLUS,
+      Spc.ZEUS_2,
+      Spc.ZEUS_2_PRO,
       Spc.ZEUS_4G,
       Spc.ZEUS_4G_PRO
   )
@@ -39046,16 +39530,18 @@ public object PreviewGroups {
    */
   public fun getSpecktronDevices(): List<String> = listOf(
       Specktron.CDX,
+      Specktron.UDX_PRO_SERIES,
       Specktron.UDX_SERIES
   )
 
   /**
-   * Get all device specifications for SPECTRA devices.
+   * Get all device specifications for Spectra devices.
    * Useful for spectra testing.
    */
   public fun getSpectraDevices(): List<String> = listOf(
       Spectra.BCAT,
       Spectra.MOBILEMAPPER6,
+      Spectra.SPECTRA_J2,
       Spectra.TAP_POS
   )
 
@@ -39064,15 +39550,8 @@ public object PreviewGroups {
    * Useful for spectra_geospatial testing.
    */
   public fun getSpectraGeospatialDevices(): List<String> = listOf(
+      SpectraGeospatial.E7167,
       SpectraGeospatial.MM60_2
-  )
-
-  /**
-   * Get all device specifications for SpectraGeospatial devices.
-   * Useful for spectrageospatial testing.
-   */
-  public fun getSpectrageospatialDevices(): List<String> = listOf(
-      Spectrageospatial.E7167
   )
 
   /**
@@ -39099,16 +39578,22 @@ public object PreviewGroups {
    * Useful for spectraprecision testing.
    */
   public fun getSpectraprecisionDevices(): List<String> = listOf(
-      Spectraprecision.EE773X_4G,
-      Spectraprecision.EE773X_WIFI
+      Spectraprecision.EE773X_4G
   )
 
   /**
-   * Get all device specifications for speedata devices.
+   * Get all device specifications for Speechi devices.
+   * Useful for speechi testing.
+   */
+  public fun getSpeechiDevices(): List<String> = listOf(
+      Speechi.RK3576
+  )
+
+  /**
+   * Get all device specifications for Speedata devices.
    * Useful for speedata testing.
    */
   public fun getSpeedataDevices(): List<String> = listOf(
-      Speedata.FG60,
       Speedata.SD100
   )
 
@@ -39145,6 +39630,8 @@ public object PreviewGroups {
    * Useful for sprange testing.
    */
   public fun getSprangeDevices(): List<String> = listOf(
+      Sprange.M20_PLUS,
+      Sprange.M30_PLUS,
       Sprange.SPRANGE_L8
   )
 
@@ -39233,14 +39720,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for STAR devices.
-   * Useful for star testing.
-   */
-  public fun getStarDevices(): List<String> = listOf(
-      Star.Y11
-  )
-
-  /**
    * Get all device specifications for STAR-TRACK devices.
    * Useful for star-track testing.
    */
@@ -39277,20 +39756,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for STARK_FUTURE devices.
-   * Useful for stark_future testing.
-   */
-  public fun getStarkFutureDevices(): List<String> = listOf(
-      StarkFuture.VARG
-  )
-
-  /**
    * Get all device specifications for StarkFuture devices.
    * Useful for starkfuture testing.
    */
   public fun getStarkfutureDevices(): List<String> = listOf(
       Starkfuture.ARKENSTONE,
-      Starkfuture.ARKENSTONE_US
+      Starkfuture.ARKENSTONE_US,
+      Starkfuture.VARG
   )
 
   /**
@@ -39298,6 +39770,8 @@ public object PreviewGroups {
    * Useful for starlight testing.
    */
   public fun getStarlightDevices(): List<String> = listOf(
+      Starlight.ALPHA_100,
+      Starlight.ALPHA_200,
       Starlight.ALPHA_300,
       Starlight.ALPHA_400,
       Starlight.C_NOTE,
@@ -39305,20 +39779,17 @@ public object PreviewGroups {
       Starlight.GIONEE_STAR,
       Starlight.I_STAR,
       Starlight.I_STAR_PLUS,
-      Starlight.I_STAR_TWO,
       Starlight.MILAN_2G,
       Starlight.MILAN_PRO,
       Starlight.MY_STAR_18,
       Starlight.MY_STAR_X,
       Starlight.RIO_STAR,
       Starlight.SAFARI,
-      Starlight.STAR_MIX,
       Starlight.STAR_MIX_2,
       Starlight.STAR_PLUS,
       Starlight.STAR_PLUS_PLUS,
       Starlight.STAR_TWO,
       Starlight.TAMACHI,
-      Starlight.UMI_G,
       Starlight.VEGAS,
       Starlight.VENUS,
       Starlight.VENUS_PLUS,
@@ -39330,8 +39801,16 @@ public object PreviewGroups {
    * Useful for starmobile testing.
    */
   public fun getStarmobileDevices(): List<String> = listOf(
-      Starmobile.PLAY_CLICK_LTE,
-      Starmobile.UP_PRIME
+      Starmobile.PLAY_CLICK_LTE
+  )
+
+  /**
+   * Get all device specifications for StarSat devices.
+   * Useful for starsat testing.
+   */
+  public fun getStarsatDevices(): List<String> = listOf(
+      Starsat.DONGNAE,
+      Starsat.SEPOLIA
   )
 
   /**
@@ -39381,11 +39860,8 @@ public object PreviewGroups {
    * Useful for stf testing.
    */
   public fun getStfDevices(): List<String> = listOf(
-      Stf.AURA,
-      Stf.BLOCK,
       Stf.BLOCK_3,
-      Stf.BLOCK_GO,
-      Stf.BLOCK_MINI
+      Stf.BLOCK_GO
   )
 
   /**
@@ -39394,7 +39870,6 @@ public object PreviewGroups {
    */
   public fun getStgDevices(): List<String> = listOf(
       Stg.STG_A1,
-      Stg.STG_A1_PRO,
       Stg.STG_A2_PRO,
       Stg.STG_B10,
       Stg.STG_C10,
@@ -39434,8 +39909,6 @@ public object PreviewGroups {
   public fun getStkDevices(): List<String> = listOf(
       Stk.CAYENNE,
       Stk.EVO_2,
-      Stk.STK_SYNC_5E,
-      Stk.STK_TRANSPORTER_1,
       Stk.STK_X2,
       Stk.X3
   )
@@ -39474,12 +39947,13 @@ public object PreviewGroups {
       Stream.B2PLUS,
       Stream.B3PRO,
       Stream.CAPITOLHILL,
+      Stream.DONGNAE,
       Stream.DV8555_ALTICE,
-      Stream.EVEREST,
       Stream.HT16,
       Stream.KEONEAE,
       Stream.MIRROR,
       Stream.R10G,
+      Stream.SEPOLIA,
       Stream.SHARK
   )
 
@@ -39502,7 +39976,9 @@ public object PreviewGroups {
    * Useful for strong testing.
    */
   public fun getStrongDevices(): List<String> = listOf(
+      Strong.ALIMOS,
       Strong.BANGBAE,
+      Strong.BKK,
       Strong.KOMAGOME,
       Strong.LAS,
       Strong.LONGSHAN,
@@ -39526,7 +40002,7 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for STUDYNLEARN devices.
+   * Get all device specifications for StudynLearn devices.
    * Useful for studynlearn testing.
    */
   public fun getStudynlearnDevices(): List<String> = listOf(
@@ -39552,16 +40028,16 @@ public object PreviewGroups {
       Stylo.BOLD_PLUS,
       Stylo.BRAVE,
       Stylo.COMET,
-      Stylo.CPE91,
       Stylo.DQR22,
       Stylo.DVK82_MERCURY,
       Stylo.DVK83,
       Stylo.DVK87_ORION_8_TAB,
       Stylo.DVK88,
       Stylo.ENERGY,
+      Stylo.EOA39_STYLO_AXIS,
+      Stylo.FUTURE,
       Stylo.GALAXY,
       Stylo.INKOSI,
-      Stylo.INKOSI_PRO,
       Stylo.INKOSI_PRO_4G,
       Stylo.INKULU_PRO,
       Stylo.ITHEMBA,
@@ -39578,7 +40054,6 @@ public object PreviewGroups {
       Stylo.RAIN,
       Stylo.S40_LIFE,
       Stylo.S40_VIDA,
-      Stylo.S40_VINO,
       Stylo.S40_VISTA,
       Stylo.S49_ECO,
       Stylo.S49_MONO,
@@ -39586,7 +40061,6 @@ public object PreviewGroups {
       Stylo.S55_NOVA,
       Stylo.S56_MIST,
       Stylo.S64_ALPHA,
-      Stylo.S9_TOPAZ,
       Stylo.SATURN,
       Stylo.SIRIUS_PLUS_TAB_10,
       Stylo.SIRIUS_TAB_8,
@@ -39601,7 +40075,6 @@ public object PreviewGroups {
       Stylo.UNIVERSE,
       Stylo.V,
       Stylo.VERTIGO,
-      Stylo.VS571,
       Stylo.X5,
       Stylo.X7
   )
@@ -39631,9 +40104,15 @@ public object PreviewGroups {
    * Useful for suaat testing.
    */
   public fun getSuaatDevices(): List<String> = listOf(
+      Suaat.G2_EEA,
       Suaat.S10_U_EEA,
       Suaat.S10_U_US,
+      Suaat.S10_V_EEA,
+      Suaat.S10_V_US,
+      Suaat.S11_V_EEA,
       Suaat.S3_EEA,
+      Suaat.S3_U_EEA,
+      Suaat.S3_U_US,
       Suaat.S3_US,
       Suaat.S6_EEA,
       Suaat.S6_US
@@ -39712,6 +40191,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for SunDirectMax devices.
+   * Useful for sundirectmax testing.
+   */
+  public fun getSundirectmaxDevices(): List<String> = listOf(
+      Sundirectmax.SEI730SUN
+  )
+
+  /**
    * Get all device specifications for Sunelan devices.
    * Useful for sunelan testing.
    */
@@ -39727,7 +40214,6 @@ public object PreviewGroups {
    */
   public fun getSunmaxDevices(): List<String> = listOf(
       Sunmax.MODEL_3,
-      Sunmax.MODEL_6,
       Sunmax.MODEL_6_4G,
       Sunmax.MODEL_6_PRO,
       Sunmax.MODEL_6_PRO_4G,
@@ -39739,6 +40225,7 @@ public object PreviewGroups {
       Sunmax.MODEL_ONE,
       Sunmax.MODEL_S,
       Sunmax.MODEL_S_4G,
+      Sunmax.MODEL_S_ULTRA_4G,
       Sunmax.MODEL_T,
       Sunmax.MODEL_T1,
       Sunmax.MODEL_T2,
@@ -39756,10 +40243,14 @@ public object PreviewGroups {
   public fun getSunmiDevices(): List<String> = listOf(
       Sunmi.D3_PRO,
       Sunmi.D3MINI,
+      Sunmi.FLEX3,
       Sunmi.K2,
+      Sunmi.L3,
+      Sunmi.ORDERPAD_3,
       Sunmi.SUNMI_L2HNFC,
       Sunmi.SUNMI_L2KSNFC,
       Sunmi.SUNMI_L2S_PRO,
+      Sunmi.T3,
       Sunmi.T3_PRO,
       Sunmi.V2S,
       Sunmi.V2SNC,
@@ -39816,12 +40307,10 @@ public object PreviewGroups {
       Sunwind.SS1259PG,
       Sunwind.SS1260PG,
       Sunwind.SS1270PL,
-      Sunwind.SS7238PG,
       Sunwind.SS7265PG,
       Sunwind.SS8263PG,
       Sunwind.SS9236PG,
-      Sunwind.SS9237MG,
-      Sunwind.ST7230MG
+      Sunwind.SS9237MG
   )
 
   /**
@@ -39830,14 +40319,13 @@ public object PreviewGroups {
    */
   public fun getSupersonicDevices(): List<String> = listOf(
       Supersonic.KANDA,
-      Supersonic.SC_2110,
-      Supersonic.SC_4317BT,
       Supersonic.SC_813,
       Supersonic.SC_1010JBBT,
       Supersonic.SC_2110A,
       Supersonic.SC_3107,
       Supersonic.SC_3110,
-      Supersonic.SC_4317,
+      Supersonic.SC_4107,
+      Supersonic.SC_4110,
       Supersonic.SC_5310BDL,
       Supersonic.SC_779KT
   )
@@ -39847,8 +40335,7 @@ public object PreviewGroups {
    * Useful for supertab testing.
    */
   public fun getSupertabDevices(): List<String> = listOf(
-      Supertab._16G4H101,
-      Supertab.K7_KIDS
+      Supertab._16G4H101
   )
 
   /**
@@ -39900,6 +40387,7 @@ public object PreviewGroups {
    * Useful for suxi testing.
    */
   public fun getSuxiDevices(): List<String> = listOf(
+      Suxi.SUXI_I11,
       Suxi.T700,
       Suxi.T900
   )
@@ -39919,12 +40407,22 @@ public object PreviewGroups {
    * Useful for svitoo testing.
    */
   public fun getSvitooDevices(): List<String> = listOf(
+      Svitoo.G99,
+      Svitoo.MOMO8,
       Svitoo.P08,
       Svitoo.P10,
+      Svitoo.P108,
+      Svitoo.P108_T,
+      Svitoo.P10_A,
+      Svitoo.P10_T,
       Svitoo.P11,
       Svitoo.P11_PRO_EEA,
+      Svitoo.P11_T,
       Svitoo.SVITOO_P10,
-      Svitoo.TAB_P12
+      Svitoo.TAB_P10,
+      Svitoo.TAB_P10_ROW,
+      Svitoo.TAB_P12,
+      Svitoo.TAB_P1300_EEA
   )
 
   /**
@@ -39967,15 +40465,6 @@ public object PreviewGroups {
       Swisscom.IP1800,
       Swisscom.IP2000,
       Swisscom.IP2300
-  )
-
-  /**
-   * Get all device specifications for SWISSMOBILITY devices.
-   * Useful for swissmobility testing.
-   */
-  public fun getSwissmobilityDevices(): List<String> = listOf(
-      Swissmobility.B4SWM,
-      Swissmobility.Z7
   )
 
   /**
@@ -40022,6 +40511,7 @@ public object PreviewGroups {
   public fun getSyinixDevices(): List<String> = listOf(
       Syinix.BARKING,
       Syinix.BEAUDRY,
+      Syinix.ELEONAS,
       Syinix.IKEBUKURO,
       Syinix.REDWOOD,
       Syinix.SAMSEONG,
@@ -40063,7 +40553,6 @@ public object PreviewGroups {
       Symphony.ATOM4,
       Symphony.ATOM_II,
       Symphony.E90,
-      Symphony.E95,
       Symphony.G10,
       Symphony.G100,
       Symphony.G10PLUS,
@@ -40077,7 +40566,6 @@ public object PreviewGroups {
       Symphony.HELIO_80,
       Symphony.HELIO_S60,
       Symphony.I10,
-      Symphony.I100,
       Symphony.I10_PLUS,
       Symphony.I12,
       Symphony.I120,
@@ -40109,9 +40597,9 @@ public object PreviewGroups {
       Symphony.INNOVA20,
       Symphony.INNOVA30,
       Symphony.INNOVA_40,
+      Symphony.MAX_60,
       Symphony.P11,
       Symphony.P6_PRO,
-      Symphony.P7_PRO,
       Symphony.P8_PRO,
       Symphony.P9,
       Symphony.P9_PLUS,
@@ -40119,8 +40607,6 @@ public object PreviewGroups {
       Symphony.R20,
       Symphony.R30,
       Symphony.R40,
-      Symphony.ROAR_V150,
-      Symphony.ROAR_V78,
       Symphony.ROARV95,
       Symphony.SYMPHONY_Z12,
       Symphony.SYMPHONY_Z50,
@@ -40144,7 +40630,6 @@ public object PreviewGroups {
       Symphony.V145,
       Symphony.V155,
       Symphony.V34,
-      Symphony.V44,
       Symphony.V47,
       Symphony.V48,
       Symphony.V65,
@@ -40181,7 +40666,6 @@ public object PreviewGroups {
       Symphony.Z70,
       Symphony.Z72,
       Symphony.Z9,
-      Symphony.ZVII,
       Symphony.ZVIII
   )
 
@@ -40190,7 +40674,16 @@ public object PreviewGroups {
    * Useful for synetech testing.
    */
   public fun getSynetechDevices(): List<String> = listOf(
+      Synetech.PISCIS,
       Synetech.RK3588_T
+  )
+
+  /**
+   * Get all device specifications for SZANFU devices.
+   * Useful for szanfu testing.
+   */
+  public fun getSzanfuDevices(): List<String> = listOf(
+      Szanfu.AF930
   )
 
   /**
@@ -40208,10 +40701,12 @@ public object PreviewGroups {
   public fun getTMobileDevices(): List<String> = listOf(
       TMobile.AUGUSTA,
       TMobile.BETHPAGE,
+      TMobile.BREMERTON,
       TMobile.CYPRESSPOINT,
       TMobile.NEWCASTLE,
       TMobile.PINEHURST,
       TMobile.PORTO,
+      TMobile.PRESCOTT,
       TMobile.SEATTLE_5G,
       TMobile.SOUTHERNDUNES,
       TMobile.SPROUT,
@@ -40265,9 +40760,19 @@ public object PreviewGroups {
    * Useful for tabwee testing.
    */
   public fun getTabweeDevices(): List<String> = listOf(
+      Tabwee.K10_EEA,
+      Tabwee.K10_NEU,
       Tabwee.T20,
       Tabwee.T90,
       Tabwee.W90
+  )
+
+  /**
+   * Get all device specifications for TADI devices.
+   * Useful for tadi testing.
+   */
+  public fun getTadiDevices(): List<String> = listOf(
+      Tadi.TADI_TOUCH_1
   )
 
   /**
@@ -40276,14 +40781,6 @@ public object PreviewGroups {
    */
   public fun getTagDcDevices(): List<String> = listOf(
       TagDc.TAG_DC
-  )
-
-  /**
-   * Get all device specifications for TAG-TECH devices.
-   * Useful for tag-tech testing.
-   */
-  public fun getTagTechDevices(): List<String> = listOf(
-      TagTech.TAG_TAB_II
   )
 
   /**
@@ -40317,6 +40814,7 @@ public object PreviewGroups {
       Tagtech.TAG_TAB_III,
       Tagtech.TAG_TABKIDS,
       Tagtech.TAG_PHONE,
+      Tagtech.TAG_TAB_II,
       Tagtech.TAGPHONE,
       Tagtech.TAGPHONE_PLUS
   )
@@ -40343,17 +40841,8 @@ public object PreviewGroups {
    */
   public fun getTaiwanmobileDevices(): List<String> = listOf(
       Taiwanmobile.AMAZING_A32,
-      Taiwanmobile.AMAZING_A35,
       Taiwanmobile.AMAZING_A55,
       Taiwanmobile.AMAZING_A57
-  )
-
-  /**
-   * Get all device specifications for Takara devices.
-   * Useful for takara testing.
-   */
-  public fun getTakaraDevices(): List<String> = listOf(
-      Takara.MID169
   )
 
   /**
@@ -40378,7 +40867,8 @@ public object PreviewGroups {
    * Useful for tambo testing.
    */
   public fun getTamboDevices(): List<String> = listOf(
-      Tambo.TA_55_POWER
+      Tambo.ELITE4T,
+      Tambo.TA_1
   )
 
   /**
@@ -40387,14 +40877,6 @@ public object PreviewGroups {
    */
   public fun getTamboardDevices(): List<String> = listOf(
       Tamboard.TB_GH
-  )
-
-  /**
-   * Get all device specifications for Tanoshi devices.
-   * Useful for tanoshi testing.
-   */
-  public fun getTanoshiDevices(): List<String> = listOf(
-      Tanoshi.TTBKB10_01
   )
 
   /**
@@ -40436,8 +40918,7 @@ public object PreviewGroups {
    * Useful for taztag testing.
    */
   public fun getTaztagDevices(): List<String> = listOf(
-      Taztag.TAZPAD_FAP30,
-      Taztag.TAZPAD_FAP60
+      Taztag.TAZPAD_FAP30
   )
 
   /**
@@ -40465,6 +40946,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for TCH devices.
+   * Useful for tch testing.
+   */
+  public fun getTchDevices(): List<String> = listOf(
+      Tch.ONE
+  )
+
+  /**
    * Get all device specifications for TCL devices.
    * Useful for tcl testing.
    */
@@ -40483,10 +40972,8 @@ public object PreviewGroups {
       Tcl.A5X,
       Tcl.A70AXLTMO,
       Tcl.ALTO45,
-      Tcl.ALTO45TMO,
       Tcl.ALTO4_8G,
       Tcl.ALTO5,
-      Tcl.ALTO5_PREMIUM,
       Tcl.ALTO5_SPORTY,
       Tcl.ANT,
       Tcl.APOLLO84GBOOSTR,
@@ -40509,6 +40996,7 @@ public object PreviewGroups {
       Tcl.BELLONA_WF_GL,
       Tcl.BENZ,
       Tcl.BERYL_TMO,
+      Tcl.BERYL_VZW,
       Tcl.BEYONDTV4,
       Tcl.BORA_NA_OM,
       Tcl.BORA_TF,
@@ -40544,6 +41032,7 @@ public object PreviewGroups {
       Tcl.CRUZE_LITE_TF,
       Tcl.CRUZE_PRO,
       Tcl.CURIE,
+      Tcl.DAHLIAS,
       Tcl.DELHI_TF,
       Tcl.DOHA_TMO,
       Tcl.DRAGONFLY,
@@ -40589,6 +41078,8 @@ public object PreviewGroups {
       Tcl.G09,
       Tcl.G10,
       Tcl.G13,
+      Tcl.G15,
+      Tcl.G16,
       Tcl.GAIA,
       Tcl.GAUSS,
       Tcl.GOLDFINCH_DISH,
@@ -40599,6 +41090,7 @@ public object PreviewGroups {
       Tcl.HANDYT2,
       Tcl.HERA_VIS_WIFI,
       Tcl.HERO2C,
+      Tcl.HIMALAYA,
       Tcl.HONG_KONG,
       Tcl.HONG_KONG_PRO,
       Tcl.I1_5_4G,
@@ -40628,6 +41120,7 @@ public object PreviewGroups {
       Tcl.LOGAN,
       Tcl.LOGAN_FHD,
       Tcl.LOTUS,
+      Tcl.LUGH_10_4G,
       Tcl.LUNA,
       Tcl.LUNA_8_4G_ATT,
       Tcl.LUNA_8_4G_TMO,
@@ -40637,7 +41130,6 @@ public object PreviewGroups {
       Tcl.MIATA_3G,
       Tcl.MIATA_LTE,
       Tcl.MICKEY6,
-      Tcl.MICKEY6CC,
       Tcl.MICKEY6T,
       Tcl.MICKEY6TFEVDO,
       Tcl.MICKEY6TTMO,
@@ -40645,6 +41137,7 @@ public object PreviewGroups {
       Tcl.MICKEY6US,
       Tcl.MICKEY6VZW,
       Tcl.MODEL_3,
+      Tcl.MONALISA,
       Tcl.MORGAN_4G,
       Tcl.OAKLAND,
       Tcl.ODIN,
@@ -40692,7 +41185,6 @@ public object PreviewGroups {
       Tcl.PIXI4_7_4G_TELUS,
       Tcl.PIXI4_7_4G_TMO,
       Tcl.PIXI4_7_WIFI,
-      Tcl.PIXI445,
       Tcl.PIXI445CAN,
       Tcl.PIXI445CRICKET,
       Tcl.PIXI445SPR,
@@ -40742,6 +41234,7 @@ public object PreviewGroups {
       Tcl.SCARABLITE_TMO,
       Tcl.SEATTLE,
       Tcl.SEATTLE_VZW,
+      Tcl.SELENE_VZW,
       Tcl.SEOUL,
       Tcl.SEOUL_ATT,
       Tcl.SEOUL_TF,
@@ -40789,11 +41282,11 @@ public object PreviewGroups {
       Tcl.UNIONTV,
       Tcl.VENICE,
       Tcl.VENUS_4G_GL,
+      Tcl.VENUS_4G_NA_OM,
       Tcl.VENUS_WIFI_GL,
       Tcl.VINCA,
       Tcl.WRIGHT,
       Tcl.WRIGHT_PRO,
-      Tcl.X1,
       Tcl.X1_PLUS,
       Tcl.XESS,
       Tcl.XESS_MINI,
@@ -40821,16 +41314,12 @@ public object PreviewGroups {
    * Useful for tct testing.
    */
   public fun getTctDevices(): List<String> = listOf(
-      Tct.ALPHA,
-      Tct.BEETLE_GSM,
       Tct.CALIFORNIA,
-      Tct.DIABLO,
       Tct.DIABLOXPLUS,
       Tct.MEGANE_GSM,
       Tct.POP7,
       Tct.RAV4,
       Tct.SCRIBEPRO,
-      Tct.VODAFONE_875,
       Tct.YARIS35_GSM,
       Tct.YARIS_55,
       Tct.YARIS_M_GSM,
@@ -40839,21 +41328,24 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for TD_SYSTEMS devices.
-   * Useful for td_systems testing.
-   */
-  public fun getTdSystemsDevices(): List<String> = listOf(
-      TdSystems.MARTIN,
-      TdSystems.TAMACHI,
-      TdSystems.YEONGDEUNGPO
-  )
-
-  /**
    * Get all device specifications for TDSYSTEMS devices.
    * Useful for tdsystems testing.
    */
   public fun getTdsystemsDevices(): List<String> = listOf(
-      Tdsystems.REDWOOD
+      Tdsystems.ALIMOS,
+      Tdsystems.DANGNI,
+      Tdsystems.MARTIN,
+      Tdsystems.REDWOOD,
+      Tdsystems.TAMACHI,
+      Tdsystems.YEONGDEUNGPO
+  )
+
+  /**
+   * Get all device specifications for TDTECH devices.
+   * Useful for tdtech testing.
+   */
+  public fun getTdtechDevices(): List<String> = listOf(
+      Tdtech.V900
   )
 
   /**
@@ -40877,13 +41369,40 @@ public object PreviewGroups {
    * Useful for tech_pad testing.
    */
   public fun getTechPadDevices(): List<String> = listOf(
+      TechPad._1016S,
+      TechPad._1032,
       TechPad._816,
+      TechPad._816X,
+      TechPad.GAMEPAD,
+      TechPad.I700,
+      TechPad.K13,
+      TechPad.K13PRO,
+      TechPad.KIDS_PRO,
+      TechPad.M55_4G,
+      TechPad.M5GO,
+      TechPad.NOTE_4CAM,
+      TechPad.NOTE_4CAM_R,
+      TechPad.R10,
+      TechPad.R11_ULTRA,
+      TechPad.S6,
+      TechPad.S6_720X1520,
       TechPad.TECH_PAD_3G16,
       TechPad.TECH_PAD_732,
       TechPad.TECH_PAD_S813G,
       TechPad.TECH_PAD_X10,
+      TechPad.TECHPAD_1032,
+      TechPad.TECHPAD_1032S,
+      TechPad.TECHPAD_10Y,
+      TechPad.TECHPAD_10Z,
+      TechPad.TECHPAD_3GX,
+      TechPad.TECHPAD_716,
+      TechPad.TECHPAD_864,
+      TechPad.TECHPAD_9X,
+      TechPad.TECHPAD_KIDS_7,
       TechPad.X11,
-      TechPad.X9_PLUS
+      TechPad.X7,
+      TechPad.X9_PLUS,
+      TechPad.Z10
   )
 
   /**
@@ -40893,7 +41412,8 @@ public object PreviewGroups {
   public fun getTechbiteDevices(): List<String> = listOf(
       Techbite.DV8219,
       Techbite.SMARTBOARD_10_LTE,
-      Techbite.SMARTBOARD_2
+      Techbite.SMARTBOARD_2,
+      Techbite.TT2401X
   )
 
   /**
@@ -40901,6 +41421,7 @@ public object PreviewGroups {
    * Useful for techcomputer testing.
    */
   public fun getTechcomputerDevices(): List<String> = listOf(
+      Techcomputer.F102_MT8781_EEA,
       Techcomputer.F102_T610_EEA,
       Techcomputer.F102_T610_EEA_GG5,
       Techcomputer.F102_T618_EEA
@@ -40914,7 +41435,11 @@ public object PreviewGroups {
       Techlife.REDWOOD,
       Techlife.TLPAD001,
       Techlife.TLPAD002,
-      Techlife.TLPADP04
+      Techlife.TLPADL03,
+      Techlife.TLPADNEO,
+      Techlife.TLPADP04,
+      Techlife.TLPADPLUS,
+      Techlife.TLPADPRO1
   )
 
   /**
@@ -40951,6 +41476,7 @@ public object PreviewGroups {
    * Useful for technopc testing.
    */
   public fun getTechnopcDevices(): List<String> = listOf(
+      Technopc.QUANTUM_ZIRCON_11Q801,
       Technopc.TECHNOPC_UP10S43LA,
       Technopc.TECHNOPC_UP10SI36LA,
       Technopc.TM_T10SA,
@@ -40958,34 +41484,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for TechPad devices.
-   * Useful for techpad testing.
+   * Get all device specifications for Techview devices.
+   * Useful for techview testing.
    */
-  public fun getTechpadDevices(): List<String> = listOf(
-      Techpad._1016S,
-      Techpad._1032,
-      Techpad._816X,
-      Techpad.GAMEPAD,
-      Techpad.I700,
-      Techpad.K13,
-      Techpad.K13PRO,
-      Techpad.M55_4G,
-      Techpad.M5GO,
-      Techpad.NOTE_4CAM,
-      Techpad.NOTE_4CAM_R,
-      Techpad.R10,
-      Techpad.S6,
-      Techpad.S6,
-      Techpad.TECHPAD_1032,
-      Techpad.TECHPAD_1032S,
-      Techpad.TECHPAD_10Y,
-      Techpad.TECHPAD_10Z,
-      Techpad.TECHPAD_3GX,
-      Techpad.TECHPAD_716,
-      Techpad.TECHPAD_9X,
-      Techpad.TECHPAD_KIDS_7,
-      Techpad.X7,
-      Techpad.Z10
+  public fun getTechviewDevices(): List<String> = listOf(
+      Techview.TAB_80_LTE
   )
 
   /**
@@ -40993,6 +41496,8 @@ public object PreviewGroups {
    * Useful for teclast testing.
    */
   public fun getTeclastDevices(): List<String> = listOf(
+      Teclast.ARTPADAIR,
+      Teclast.ARTPADPRO_ROW,
       Teclast.M20_4G,
       Teclast.M30_PRO_ROW,
       Teclast.M40_EEA,
@@ -41019,7 +41524,7 @@ public object PreviewGroups {
       Teclast.M50_EEA,
       Teclast.M50_ROW,
       Teclast.M50_EU,
-      Teclast.M50_ROW,
+      Teclast.M50_ROW_800X1280,
       Teclast.M50_T,
       Teclast.M50HD_EEA,
       Teclast.M50HD_ROW,
@@ -41069,6 +41574,7 @@ public object PreviewGroups {
       Teclast.P30T_B,
       Teclast.P30T_EEA,
       Teclast.P30T_ROW,
+      Teclast.P33_ROW,
       Teclast.P40HD_EEA,
       Teclast.P40HD_ROW,
       Teclast.P40HD_T,
@@ -41095,6 +41601,7 @@ public object PreviewGroups {
       Teclast.P80T,
       Teclast.P80T_Y_EEA,
       Teclast.P80X,
+      Teclast.P85_B_ROW,
       Teclast.P85_EEA,
       Teclast.P85_ROW,
       Teclast.P85T,
@@ -41127,19 +41634,23 @@ public object PreviewGroups {
       Teclast.T50HD_ROW,
       Teclast.T50MAX_EEA,
       Teclast.T50MAX_ROW,
+      Teclast.T50PLUS_E,
       Teclast.T50PRO_W_EEA,
       Teclast.T50PRO_W_ROW,
       Teclast.T60,
       Teclast.T60_EEA,
       Teclast.T60_ROW,
-      Teclast.T60_EEA,
-      Teclast.T60_ROW,
+      Teclast.T60_EEA_1200X2000,
+      Teclast.T60_ROW_1200X2000,
       Teclast.T60AI,
       Teclast.T60PLUS_EEA,
       Teclast.T60PLUS_ROW,
       Teclast.T65,
       Teclast.T65MAX_EEA,
       Teclast.T65MAX_ROW,
+      Teclast.T65PLUS_EEA,
+      Teclast.T70,
+      Teclast.T70_EEA,
       Teclast.T70_ROW,
       Teclast.TECLAST_T40PRO,
       Teclast.TECLAST_T40PRO_EA,
@@ -41169,7 +41680,6 @@ public object PreviewGroups {
       Tecno.DP7CPRO_SGA1,
       Tecno.DP8D,
       Tecno.L8LITE,
-      Tecno.N5S,
       Tecno.N9,
       Tecno.N9S,
       Tecno.PHANTOM6,
@@ -41406,11 +41916,17 @@ public object PreviewGroups {
       Tecno.TECNO_KL8S,
       Tecno.TECNO_KM4,
       Tecno.TECNO_KM4K,
+      Tecno.TECNO_KM4S,
       Tecno.TECNO_KM5,
       Tecno.TECNO_KM5N,
+      Tecno.TECNO_KM5S,
       Tecno.TECNO_KM6,
       Tecno.TECNO_KM7,
+      Tecno.TECNO_KM7K,
+      Tecno.TECNO_KM8,
+      Tecno.TECNO_KM8N,
       Tecno.TECNO_KM9,
+      Tecno.TECNO_KN3,
       Tecno.TECNO_L5,
       Tecno.TECNO_L6502S,
       Tecno.TECNO_L8,
@@ -41440,6 +41956,7 @@ public object PreviewGroups {
       Tecno.TECNO_LH7N,
       Tecno.TECNO_LH8N,
       Tecno.TECNO_LI7,
+      Tecno.TECNO_LI9,
       Tecno.TECNO_LJ6,
       Tecno.TECNO_LJ7,
       Tecno.TECNO_LJ8,
@@ -41478,6 +41995,8 @@ public object PreviewGroups {
       Tecno.TECNO_SA7S,
       Tecno.TECNO_SC7S,
       Tecno.TECNO_T1101,
+      Tecno.TECNO_T1102,
+      Tecno.TECNO_T1201,
       Tecno.TECNO_W3,
       Tecno.TECNO_W3LTE,
       Tecno.TECNO_W3PRO,
@@ -41541,6 +42060,7 @@ public object PreviewGroups {
    * Useful for teco testing.
    */
   public fun getTecoDevices(): List<String> = listOf(
+      Teco.ALIMOS,
       Teco.IKEBUKURO,
       Teco.LONGSHAN,
       Teco.SAMSEONG
@@ -41578,14 +42098,6 @@ public object PreviewGroups {
    */
   public fun getTeklioDevices(): List<String> = listOf(
       Teklio.REDWOOD
-  )
-
-  /**
-   * Get all device specifications for Teknosa devices.
-   * Useful for teknosa testing.
-   */
-  public fun getTeknosaDevices(): List<String> = listOf(
-      Teknosa.PREO_P2
   )
 
   /**
@@ -41647,7 +42159,6 @@ public object PreviewGroups {
       Telefunken.TEL_73GIQA,
       Telefunken.TEL_73GIQA11,
       Telefunken.TEL_74GIQA,
-      Telefunken.TF501_EC,
       Telefunken.TF600
   )
 
@@ -41681,10 +42192,9 @@ public object PreviewGroups {
    * Useful for telenor testing.
    */
   public fun getTelenorDevices(): List<String> = listOf(
-      Telenor.B3680,
       Telenor.DV6113Z_KST,
       Telenor.HIPERNET_TV_BOX_B866V2,
-      Telenor.I6379,
+      Telenor.KSTB7277,
       Telenor.MEDIABOX_B866V2
   )
 
@@ -41703,6 +42213,7 @@ public object PreviewGroups {
   public fun getTelesystemDevices(): List<String> = listOf(
       Telesystem.MARTIN,
       Telesystem.ONT2HD,
+      Telesystem.ROM,
       Telesystem.UPT24K
   )
 
@@ -41745,7 +42256,6 @@ public object PreviewGroups {
    * Useful for telma testing.
    */
   public fun getTelmaDevices(): List<String> = listOf(
-      Telma.EGO_PLUS,
       Telma.IFEEL_MAX_4G,
       Telma.S_MAX,
       Telma.TELMA_F1_MAX_4G,
@@ -41779,6 +42289,7 @@ public object PreviewGroups {
    * Useful for telpo testing.
    */
   public fun getTelpoDevices(): List<String> = listOf(
+      Telpo.C9D,
       Telpo.M10,
       Telpo.M1K,
       Telpo.M8
@@ -41879,12 +42390,12 @@ public object PreviewGroups {
       Tesla.L6195,
       Tesla.LAS,
       Tesla.MARTIN,
+      Tesla.SEPOLIA,
       Tesla.SHINAGAWA,
       Tesla.SW4H,
       Tesla.SW6H,
       Tesla.TAMACHI,
       Tesla.TESLA_L8_2,
-      Tesla.TESLA_SP3_3,
       Tesla.TESLA_SP3_3LITE,
       Tesla.TESLA_SP3_4,
       Tesla.TESLA_SP3_5,
@@ -41914,8 +42425,7 @@ public object PreviewGroups {
       Texet.TM_5077,
       Texet.TM_5083,
       Texet.TM_5084,
-      Texet.TM_5583,
-      Texet.TM_5703
+      Texet.TM_5583
   )
 
   /**
@@ -41936,19 +42446,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for THE-UHD devices.
-   * Useful for the-uhd testing.
-   */
-  public fun getTheUhdDevices(): List<String> = listOf(
-      TheUhd.R2,
-      TheUhd.R4
-  )
-
-  /**
    * Get all device specifications for THEHAAM devices.
    * Useful for thehaam testing.
    */
   public fun getThehaamDevices(): List<String> = listOf(
+      Thehaam.ALIMOS,
       Thehaam.HONGKONG
   )
 
@@ -41967,6 +42469,24 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for TheNudge devices.
+   * Useful for thenudge testing.
+   */
+  public fun getThenudgeDevices(): List<String> = listOf(
+      Thenudge.OVERSEA_V
+  )
+
+  /**
+   * Get all device specifications for THEUHD devices.
+   * Useful for theuhd testing.
+   */
+  public fun getTheuhdDevices(): List<String> = listOf(
+      Theuhd.HONGKONG,
+      Theuhd.R2,
+      Theuhd.R4
+  )
+
+  /**
    * Get all device specifications for ThinkAcademy devices.
    * Useful for thinkacademy testing.
    */
@@ -41979,8 +42499,9 @@ public object PreviewGroups {
    * Useful for thomson testing.
    */
   public fun getThomsonDevices(): List<String> = listOf(
+      Thomson.ANAHEIM,
       Thomson.DELIGHT_TH201,
-      Thomson.EBL_5304G,
+      Thomson.DONGNAE,
       Thomson.FRIENDLY_TH101,
       Thomson.GUANDU,
       Thomson.IKEBUKURO,
@@ -41998,20 +42519,21 @@ public object PreviewGroups {
       Thomson.R4,
       Thomson.REDWOOD,
       Thomson.SAMSEONG,
+      Thomson.SEPOLIA,
       Thomson.SNA,
       Thomson.SW6H,
       Thomson.TEO10,
       Thomson.TEO10_KID2BL32,
-      Thomson.TEO104G,
       Thomson.TEO10A2BK32P_EEA,
       Thomson.TEO10A4BK64P_EEA,
-      Thomson.TEO10S,
+      Thomson.TEO13M,
       Thomson.TEO13P,
       Thomson.TEO84G332,
       Thomson.TEO8M2BK32LTE,
       Thomson.TEOX10_MT8SL128LTE,
       Thomson.TEOX102,
       Thomson.TEOX103,
+      Thomson.THOMSON_GO,
       Thomson.YDA,
       Thomson.YXQ,
       Thomson.YZF
@@ -42055,6 +42577,7 @@ public object PreviewGroups {
    * Useful for tibuta testing.
    */
   public fun getTibutaDevices(): List<String> = listOf(
+      Tibuta.A10_M_EU,
       Tibuta.A30,
       Tibuta.A40,
       Tibuta.E101,
@@ -42101,22 +42624,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for TIME2 devices.
-   * Useful for time2 testing.
-   */
-  public fun getTime2Devices(): List<String> = listOf(
-      Time2.TP1060J
-  )
-
-  /**
    * Get all device specifications for Timovi devices.
    * Useful for timovi testing.
    */
   public fun getTimoviDevices(): List<String> = listOf(
-      Timovi.INSIGNIA_DELTA_2,
       Timovi.INSIGNIA_LAB,
-      Timovi.TIMOVI_INFINIT_LITE_2,
-      Timovi.TIMOVI_INFINIT_MX,
       Timovi.TIMOVI_VISION_PRO
   )
 
@@ -42161,7 +42673,6 @@ public object PreviewGroups {
   public fun getTiwellDevices(): List<String> = listOf(
       Tiwell.AP_115G,
       Tiwell.AS_601L,
-      Tiwell.T662_DH4_TIWELL,
       Tiwell.T662_GQ_TIWELL
   )
 
@@ -42182,14 +42693,6 @@ public object PreviewGroups {
       Tjd.MT_761QU_PRO,
       Tjd.MT_790QR_V1,
       Tjd.MT_1025QU
-  )
-
-  /**
-   * Get all device specifications for TKDS devices.
-   * Useful for tkds testing.
-   */
-  public fun getTkdsDevices(): List<String> = listOf(
-      Tkds.T_101H
   )
 
   /**
@@ -42280,10 +42783,17 @@ public object PreviewGroups {
    */
   public fun getTopelotekDevices(): List<String> = listOf(
       Topelotek.KIDS06,
-      Topelotek.KIDS708_709A,
       Topelotek.KIDS709,
       Topelotek.KIDS720,
       Topelotek.V7
+  )
+
+  /**
+   * Get all device specifications for Topicon devices.
+   * Useful for topicon testing.
+   */
+  public fun getTopiconDevices(): List<String> = listOf(
+      Topicon.MDT865
   )
 
   /**
@@ -42300,6 +42810,7 @@ public object PreviewGroups {
    */
   public fun getTopsandDevices(): List<String> = listOf(
       Topsand.G12_A14,
+      Topsand.G12_PRO,
       Topsand.M8_U,
       Topsand.N10_T,
       Topsand.N8,
@@ -42320,6 +42831,8 @@ public object PreviewGroups {
    * Useful for tornado testing.
    */
   public fun getTornadoDevices(): List<String> = listOf(
+      Tornado.BARKING,
+      Tornado.BEAUDRY,
       Tornado.SW4H,
       Tornado.SW6H,
       Tornado.UMEDA
@@ -42340,8 +42853,6 @@ public object PreviewGroups {
       Toscido.T181,
       Toscido.T181_EEA,
       Toscido.T20_EEA,
-      Toscido.T201,
-      Toscido.T201_EEA,
       Toscido.T21_EEA,
       Toscido.T211_EEA,
       Toscido.T22,
@@ -42379,7 +42890,6 @@ public object PreviewGroups {
       Toshiba.TOS15AST20,
       Toshiba.TOST7T,
       Toshiba.TOSTAB11BA,
-      Toshiba.TOSTAB11BS,
       Toshiba.TOSTAB12AL,
       Toshiba.TOSTAB12BA,
       Toshiba.TOSTAB12BL,
@@ -42391,13 +42901,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for TOUCH_DYNAMIC devices.
+   * Useful for touch_dynamic testing.
+   */
+  public fun getTouchDynamicDevices(): List<String> = listOf(
+      TouchDynamic.NEXUS
+  )
+
+  /**
    * Get all device specifications for TOUCH_Plus devices.
    * Useful for touch_plus testing.
    */
   public fun getTouchPlusDevices(): List<String> = listOf(
       TouchPlus._1100AS,
       TouchPlus._770G,
-      TouchPlus._770N,
       TouchPlus.AS1000
   )
 
@@ -42420,6 +42937,15 @@ public object PreviewGroups {
    */
   public fun getTouchviewInteractiveDevices(): List<String> = listOf(
       TouchviewInteractive.TVULTRA98_G5
+  )
+
+  /**
+   * Get all device specifications for TOXIIK devices.
+   * Useful for toxiik testing.
+   */
+  public fun getToxiikDevices(): List<String> = listOf(
+      Toxiik.A7K,
+      Toxiik.TOXIIK_A8
   )
 
   /**
@@ -42476,8 +43002,9 @@ public object PreviewGroups {
    * Useful for tps testing.
    */
   public fun getTpsDevices(): List<String> = listOf(
+      Tps.A101,
       Tps.K1091F,
-      Tps.TPS_SC10
+      Tps.KF7
   )
 
   /**
@@ -42505,7 +43032,9 @@ public object PreviewGroups {
   public fun getTrecfoneDevices(): List<String> = listOf(
       Trecfone._16_PRO_MAX,
       Trecfone._17_PRO_MAX,
+      Trecfone.T15,
       Trecfone.T20,
+      Trecfone.V30,
       Trecfone.V35
   )
 
@@ -42520,7 +43049,6 @@ public object PreviewGroups {
       Trekstor.TFMTKAW01332,
       Trekstor.THMTKAW01232,
       Trekstor.THMTKAW03232,
-      Trekstor.TOLINO7,
       Trekstor.TOLINO8,
       Trekstor.TOLINO89
   )
@@ -42563,10 +43091,11 @@ public object PreviewGroups {
    * Useful for trimble testing.
    */
   public fun getTrimbleDevices(): List<String> = listOf(
+      Trimble.AKITA,
       Trimble.BCAT,
       Trimble.E7167,
       Trimble.EE773X_4G,
-      Trimble.EE773X_WIFI,
+      Trimble.MEERKAT,
       Trimble.PDOG,
       Trimble.TDC6,
       Trimble.TDC600_2
@@ -42577,8 +43106,7 @@ public object PreviewGroups {
    * Useful for trimble_navigation testing.
    */
   public fun getTrimbleNavigationDevices(): List<String> = listOf(
-      TrimbleNavigation.DUO,
-      TrimbleNavigation.MS5
+      TrimbleNavigation.DUO
   )
 
   /**
@@ -42601,14 +43129,6 @@ public object PreviewGroups {
       True.SMART_TAB_4G_E_BIZ,
       True.SMART_TAB_4G_E_BIZ_PRO,
       True.SMART_TAB_4G_M1
-  )
-
-  /**
-   * Get all device specifications for TRUE_SLIM devices.
-   * Useful for true_slim testing.
-   */
-  public fun getTrueSlimDevices(): List<String> = listOf(
-      TrueSlim.T1586K
   )
 
   /**
@@ -42690,14 +43210,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for TuCEL devices.
-   * Useful for tucel testing.
-   */
-  public fun getTucelDevices(): List<String> = listOf(
-      Tucel.TL554B
-  )
-
-  /**
    * Get all device specifications for TUFEN devices.
    * Useful for tufen testing.
    */
@@ -42710,33 +43222,27 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for TUFF devices.
-   * Useful for tuff testing.
-   */
-  public fun getTuffDevices(): List<String> = listOf(
-      Tuff.T500
-  )
-
-  /**
-   * Get all device specifications for Turbo devices.
-   * Useful for turbo testing.
-   */
-  public fun getTurboDevices(): List<String> = listOf(
-      Turbo.TURBO_X8
-  )
-
-  /**
    * Get all device specifications for Turbo-x devices.
    * Useful for turbo-x testing.
    */
   public fun getTurboXDevices(): List<String> = listOf(
       TurboX.A4,
       TurboX.AQUA,
+      TurboX.AQUA_II,
       TurboX.CALLTAB2GB10,
       TurboX.FIRE,
       TurboX.FIRE_II_WIFI,
+      TurboX.MERCURY,
       TurboX.TAMACHI,
       TurboX.YEONGDEUNGPO
+  )
+
+  /**
+   * Get all device specifications for Turbokids devices.
+   * Useful for turbokids testing.
+   */
+  public fun getTurbokidsDevices(): List<String> = listOf(
+      Turbokids.TURBOKIDS_STAR
   )
 
   /**
@@ -42748,15 +43254,6 @@ public object PreviewGroups {
       Turbopad.TURBOPAD1015NEW,
       Turbopad.TURBOPAD1016NEW,
       Turbopad.TURBOPADPRO
-  )
-
-  /**
-   * Get all device specifications for Turbox devices.
-   * Useful for turbox testing.
-   */
-  public fun getTurboxDevices(): List<String> = listOf(
-      Turbox.AQUA_II,
-      Turbox.MERCURY
   )
 
   /**
@@ -42831,12 +43328,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for TVPLUS devices.
+   * Get all device specifications for TVplus devices.
    * Useful for tvplus testing.
    */
   public fun getTvplusDevices(): List<String> = listOf(
       Tvplus.DV6069Y_TVPLUS,
-      Tvplus.HP44H
+      Tvplus.HP44H,
+      Tvplus.HP4CD_TVPLUS
   )
 
   /**
@@ -42874,12 +43372,20 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for TwinBox-4k devices.
+   * Useful for twinbox-4k testing.
+   */
+  public fun getTwinbox4kDevices(): List<String> = listOf(
+      Twinbox4k.SEI700DA
+  )
+
+  /**
    * Get all device specifications for TwinMOS devices.
    * Useful for twinmos testing.
    */
   public fun getTwinmosDevices(): List<String> = listOf(
       Twinmos.MQ703G,
-      Twinmos.MQ703G,
+      Twinmos.MQ703G_600X1024,
       Twinmos.MQ703G_1
   )
 
@@ -42888,8 +43394,7 @@ public object PreviewGroups {
    * Useful for twm testing.
    */
   public fun getTwmDevices(): List<String> = listOf(
-      Twm.AMAZING_X3S,
-      Twm.P839V56
+      Twm.AMAZING_X3S
   )
 
   /**
@@ -42898,8 +43403,7 @@ public object PreviewGroups {
    */
   public fun getTwzDevices(): List<String> = listOf(
       Twz.OX_X1,
-      Twz.V10,
-      Twz.V6
+      Twz.V10
   )
 
   /**
@@ -42965,6 +43469,7 @@ public object PreviewGroups {
    * Useful for ugrihach testing.
    */
   public fun getUgrihachDevices(): List<String> = listOf(
+      Ugrihach.A7,
       Ugrihach.C11
   )
 
@@ -42975,12 +43480,18 @@ public object PreviewGroups {
   public fun getUjjDevices(): List<String> = listOf(
       Ujj.U3_EEA,
       Ujj.U3_US,
+      Ujj.U3_V_EEA,
+      Ujj.U3_V_US,
       Ujj.U6_EEA,
       Ujj.U6_US,
+      Ujj.U6_V_EEA,
+      Ujj.U6_V_US,
       Ujj.U7_EEA,
       Ujj.U7_US,
       Ujj.U8_EEA,
-      Ujj.U8_US
+      Ujj.U8_US,
+      Ujj.U8_V_EEA,
+      Ujj.U8_V_US
   )
 
   /**
@@ -43054,11 +43565,13 @@ public object PreviewGroups {
       Ulefone.ARMORPADLITE,
       Ulefone.ARMORPADPRO,
       Ulefone.GQ3087,
+      Ulefone.GQ3103RH2,
       Ulefone.GQ3106,
       Ulefone.GQ3121AF1,
       Ulefone.GQ3286,
       Ulefone.GQ3289SH1,
       Ulefone.GQ3290BH1,
+      Ulefone.GQ3290RH1,
       Ulefone.GQ3291SH1,
       Ulefone.GQ5007AF2,
       Ulefone.GQ5007TF1,
@@ -43072,15 +43585,23 @@ public object PreviewGroups {
       Ulefone.GQ5010TH1,
       Ulefone.GQ5011AF1,
       Ulefone.GQ5011BF1,
+      Ulefone.GQ5012AF1,
+      Ulefone.GQ5012BF1,
       Ulefone.GQ5013BF2,
+      Ulefone.GQ5013TF1,
       Ulefone.GQ5015AH1,
       Ulefone.GQ5015RH1,
+      Ulefone.GQ5016BF1,
+      Ulefone.GQ5016TF1,
       Ulefone.GQ5017BF3,
+      Ulefone.GQ5017BF4,
       Ulefone.GQ5020BH1,
       Ulefone.GQ5020TH1P19,
       Ulefone.GQ5021AH1,
       Ulefone.GQ5021RH1,
+      Ulefone.GQ8000BF1,
       Ulefone.MIX_2,
+      Ulefone.NOTE_10,
       Ulefone.NOTE_10P,
       Ulefone.NOTE_11P,
       Ulefone.NOTE_12,
@@ -43129,8 +43650,10 @@ public object PreviewGroups {
       Ulefone.T662_GQ_N1616_WE,
       Ulefone.T662_GQ_ULEFONE,
       Ulefone.T816_GQ_ULEFONE,
+      Ulefone.UF0901_1,
       Ulefone.UF1001_1,
       Ulefone.UF1002,
+      Ulefone.UF1002A_1,
       Ulefone.UF1103,
       Ulefone.UF1103A,
       Ulefone.ULEFONE_ARMOR_5,
@@ -43149,14 +43672,6 @@ public object PreviewGroups {
   public fun getUlessonDevices(): List<String> = listOf(
       Ulesson.ULESSON_EDUCATION_TAB,
       Ulesson.ULESSON_TAB_V2
-  )
-
-  /**
-   * Get all device specifications for Ultimate devices.
-   * Useful for ultimate testing.
-   */
-  public fun getUltimateDevices(): List<String> = listOf(
-      Ultimate.ULTIMATE_FU
   )
 
   /**
@@ -43184,7 +43699,7 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Umax devices.
+   * Get all device specifications for UMAX devices.
    * Useful for umax testing.
    */
   public fun getUmaxDevices(): List<String> = listOf(
@@ -43201,7 +43716,6 @@ public object PreviewGroups {
       Umax._8A_PLUS_EEA,
       Umax._8C_LTE,
       Umax._8L_PLUS_EEA,
-      Umax._8QA_3G,
       Umax.KAITAK,
       Umax.SEOCHO,
       Umax.SHILIN,
@@ -43268,7 +43782,9 @@ public object PreviewGroups {
       Umidigi.F3_PRO_5G,
       Umidigi.F3S,
       Umidigi.G100,
+      Umidigi.G100_PRO,
       Umidigi.G100A,
+      Umidigi.G100X,
       Umidigi.G1_MAX,
       Umidigi.G1_PLUS,
       Umidigi.G1_TAB,
@@ -43341,7 +43857,6 @@ public object PreviewGroups {
       Umx.U2VR,
       Umx.U3AR,
       Umx.U504TL,
-      Umx.U673C,
       Umx.U683CL,
       Umx.U693CL,
       Umx.U696CL
@@ -43369,7 +43884,8 @@ public object PreviewGroups {
    */
   public fun getUnifiTvDevices(): List<String> = listOf(
       UnifiTv.HP40A3,
-      UnifiTv.HP43A
+      UnifiTv.HP43A,
+      UnifiTv.HP4BF_TM
   )
 
   /**
@@ -43390,9 +43906,27 @@ public object PreviewGroups {
       Unihertz.TICKTOCK,
       Unihertz.TICKTOCK_S,
       Unihertz.TITAN,
+      Unihertz.TITAN_2,
       Unihertz.TITAN_POCKET,
       Unihertz.TITAN_SLIM,
       Unihertz.UNIA62
+  )
+
+  /**
+   * Get all device specifications for UNION99 devices.
+   * Useful for union99 testing.
+   */
+  public fun getUnion99Devices(): List<String> = listOf(
+      Union99.ZLQ9
+  )
+
+  /**
+   * Get all device specifications for UnionTek devices.
+   * Useful for uniontek testing.
+   */
+  public fun getUniontekDevices(): List<String> = listOf(
+      Uniontek.S65,
+      Uniontek.S65L
   )
 
   /**
@@ -43400,7 +43934,6 @@ public object PreviewGroups {
    * Useful for uniq testing.
    */
   public fun getUniqDevices(): List<String> = listOf(
-      Uniq.D10,
       Uniq.D7
   )
 
@@ -43485,7 +44018,9 @@ public object PreviewGroups {
    * Useful for unitel testing.
    */
   public fun getUnitelDevices(): List<String> = listOf(
+      Unitel.SMART_4G_II,
       Unitel.U903,
+      Unitel.UNITEL_SMART_5G_S25,
       Unitel.UNITEL_TAB_4G_H101,
       Unitel.USMART6
   )
@@ -43497,6 +44032,7 @@ public object PreviewGroups {
   public fun getUniwaDevices(): List<String> = listOf(
       Uniwa.K626,
       Uniwa.M101,
+      Uniwa.UNIWA_F400,
       Uniwa.UNIWA_W888,
       Uniwa.UNIWA_W999,
       Uniwa.W555
@@ -43509,7 +44045,8 @@ public object PreviewGroups {
   public fun getUnnectoDevices(): List<String> = listOf(
       Unnecto.BOLT1,
       Unnecto.BOLT10,
-      Unnecto.BOLT20
+      Unnecto.BOLT20,
+      Unnecto.BOLT_5G
   )
 
   /**
@@ -43538,7 +44075,6 @@ public object PreviewGroups {
       Uno.PREMIER5MAX,
       Uno.PREMIER_PRO,
       Uno.PREMIER_PRO_B,
-      Uno.PREMIER_PROA,
       Uno.UNO_PRIME6
   )
 
@@ -43582,10 +44118,21 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for URAO devices.
+   * Useful for urao testing.
+   */
+  public fun getUraoDevices(): List<String> = listOf(
+      Urao.A10MAX,
+      Urao.C109,
+      Urao.G140L
+  )
+
+  /**
    * Get all device specifications for Urovo devices.
    * Useful for urovo testing.
    */
   public fun getUrovoDevices(): List<String> = listOf(
+      Urovo.CT58S,
       Urovo.DT40,
       Urovo.DT50,
       Urovo.DT50_5G,
@@ -43650,6 +44197,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for V-MOCCS devices.
+   * Useful for v-moccs testing.
+   */
+  public fun getVMoccsDevices(): List<String> = listOf(
+      VMoccs.VT_A9
+  )
+
+  /**
    * Get all device specifications for VAIO devices.
    * Useful for vaio testing.
    */
@@ -43662,8 +44217,10 @@ public object PreviewGroups {
    * Useful for vale testing.
    */
   public fun getValeDevices(): List<String> = listOf(
+      Vale.V10A,
       Vale.V10A_4128,
       Vale.V10E_LTE,
+      Vale.V10E_LTE_464,
       Vale.V11E_LTE_4128,
       Vale.V12E_LTE,
       Vale.V12E_LTE_8128
@@ -43685,7 +44242,8 @@ public object PreviewGroups {
       Valifone.V200,
       Valifone.V710,
       Valifone.V730,
-      Valifone.W888
+      Valifone.W888,
+      Valifone.W999
   )
 
   /**
@@ -43693,6 +44251,7 @@ public object PreviewGroups {
    * Useful for vankyo testing.
    */
   public fun getVankyoDevices(): List<String> = listOf(
+      Vankyo.HIMALAYA,
       Vankyo.MATRIXPAD_X36,
       Vankyo.P10,
       Vankyo.P31,
@@ -43743,6 +44302,7 @@ public object PreviewGroups {
       Vasoun.L10_A03_EEA,
       Vasoun.L10_A05,
       Vasoun.L10_A05_EEA,
+      Vasoun.L10_A06,
       Vasoun.L10_T05,
       Vasoun.L10_T05_EEA,
       Vasoun.L10_T06,
@@ -43751,6 +44311,7 @@ public object PreviewGroups {
       Vasoun.L10_T08_EEA,
       Vasoun.L10_T10,
       Vasoun.L10_T10_EEA,
+      Vasoun.L10_T14,
       Vasoun.M7,
       Vasoun.M7_EEA,
       Vasoun.TAB12,
@@ -43781,7 +44342,6 @@ public object PreviewGroups {
    * Useful for vatenick testing.
    */
   public fun getVatenickDevices(): List<String> = listOf(
-      Vatenick.V7,
       Vatenick.V7_EEA
   )
 
@@ -43824,10 +44384,7 @@ public object PreviewGroups {
    * Useful for vega testing.
    */
   public fun getVegaDevices(): List<String> = listOf(
-      Vega.EF49K,
       Vega.EF51K,
-      Vega.EF52K,
-      Vega.EF52S,
       Vega.EF56S,
       Vega.EF59K,
       Vega.EF59L,
@@ -43856,7 +44413,6 @@ public object PreviewGroups {
       Veidoo.T80,
       Veidoo.T80_PLUS,
       Veidoo.V88,
-      Veidoo.VEIDOO_T30_PLUS,
       Veidoo.VEIDOO_T40,
       Veidoo.VEIDOO_T40_EEA,
       Veidoo.VEIDOO_T50,
@@ -43912,6 +44468,7 @@ public object PreviewGroups {
   public fun getVeonDevices(): List<String> = listOf(
       Veon.BANGBAE,
       Veon.BRUNO,
+      Veon.ELEONAS,
       Veon.SEI103,
       Veon.SW6H
   )
@@ -43937,7 +44494,6 @@ public object PreviewGroups {
       Verizon.ESPRESSO10VZW,
       Verizon.ESPRESSOVZW,
       Verizon.F354,
-      Verizon.GOLDENLTEVZW,
       Verizon.GRACEQLTEVZW,
       Verizon.GTA2XLLTEVZW,
       Verizon.GTASLITELTEVZW,
@@ -44018,7 +44574,6 @@ public object PreviewGroups {
    * Useful for vertex testing.
    */
   public fun getVertexDevices(): List<String> = listOf(
-      Vertex.BACCARA,
       Vertex.BLK3D,
       Vertex.CS24,
       Vertex.CS28,
@@ -44036,23 +44591,16 @@ public object PreviewGroups {
       Vertex.IMPRESS_EAGLE,
       Vertex.IMPRESS_FIRE,
       Vertex.IMPRESS_FOREST,
-      Vertex.IMPRESS_FROST,
-      Vertex.IMPRESS_INDIGO,
       Vertex.IMPRESS_LIFE,
       Vertex.IMPRESS_LUCK,
       Vertex.IMPRESS_LUCK4G_NFC,
-      Vertex.IMPRESS_PLAY,
-      Vertex.IMPRESS_STONE,
       Vertex.IMPRESS_SUNSET4G,
       Vertex.IMPRESS_TOR,
-      Vertex.IMPRESS_VEGA,
-      Vertex.IMPRESS_VIRA,
-      Vertex.IMPRESS_WIN,
       Vertex.IMPRESS_WOLF,
       Vertex.IMPRESS_ZEON4G,
+      Vertex.INTERACTIVE_MULTIMEDIA_DISPLAY,
       Vertex.LION_DC,
       Vertex.LUCK,
-      Vertex.LUCK_L100_3G,
       Vertex.LUCK_L120_4G,
       Vertex.LUCK_L130,
       Vertex.PRO_P300_4G,
@@ -44068,7 +44616,6 @@ public object PreviewGroups {
   public fun getVertuDevices(): List<String> = listOf(
       Vertu.ALEXA,
       Vertu.ASTER_P,
-      Vertu.GAMBIT,
       Vertu.ODIN,
       Vertu.TITAN,
       Vertu.TRON,
@@ -44134,7 +44681,8 @@ public object PreviewGroups {
    * Useful for vexia testing.
    */
   public fun getVexiaDevices(): List<String> = listOf(
-      Vexia.NICATABLETV3
+      Vexia.VEXIA_FCS_E2_CLM,
+      Vexia.VEXIA_TRES_10
   )
 
   /**
@@ -44147,47 +44695,32 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for VfonX devices.
-   * Useful for vfonx testing.
-   */
-  public fun getVfonxDevices(): List<String> = listOf(
-      Vfonx.GP8
-  )
-
-  /**
-   * Get all device specifications for VGO_TEL devices.
-   * Useful for vgo_tel testing.
-   */
-  public fun getVgoTelDevices(): List<String> = listOf(
-      VgoTel.FLEX_2,
-      VgoTel.NEW_10,
-      VgoTel.NEW_20,
-      VgoTel.NOTE_23,
-      VgoTel.SMART_8,
-      VgoTel.SMARTPHONE
-  )
-
-  /**
    * Get all device specifications for VGOTEL devices.
    * Useful for vgotel testing.
    */
   public fun getVgotelDevices(): List<String> = listOf(
+      Vgotel.FLEX_2,
+      Vgotel.NEW_10,
       Vgotel.NEW_15,
       Vgotel.NEW_15_PRO,
+      Vgotel.NEW_16_PRO,
+      Vgotel.NEW_17,
+      Vgotel.NEW_20,
       Vgotel.NEW_24,
       Vgotel.NEW_25,
       Vgotel.NEW_26,
+      Vgotel.NEW_26_LITE,
       Vgotel.NEW_7,
+      Vgotel.NOTE_23,
       Vgotel.NOTE_24,
-      Vgotel.OCEAN9L,
       Vgotel.OCEAN_9,
-      Vgotel.SMART_2,
+      Vgotel.SMART_12,
+      Vgotel.SMART_13,
       Vgotel.SMART_4,
-      Vgotel.SMART_5,
       Vgotel.SMART_7,
-      Vgotel.VENTURE_V12,
-      Vgotel.VENTUREV10,
-      Vgotel.VGOTEL_OCEAN_6
+      Vgotel.SMART_8,
+      Vgotel.SMARTPHONE,
+      Vgotel.VENTURE_V12
   )
 
   /**
@@ -44195,8 +44728,7 @@ public object PreviewGroups {
    * Useful for victurio testing.
    */
   public fun getVicturioDevices(): List<String> = listOf(
-      Victurio.VI108,
-      Victurio.VI86
+      Victurio.VI108
   )
 
   /**
@@ -44204,7 +44736,9 @@ public object PreviewGroups {
    * Useful for vid testing.
    */
   public fun getVidDevices(): List<String> = listOf(
-      Vid.GQ3115TF5_VID
+      Vid.GQ3115TF5_VID,
+      Vid.GQ5021AH2_VID,
+      Vid.GQ5021RH1_VID
   )
 
   /**
@@ -44242,7 +44776,7 @@ public object PreviewGroups {
       Viewsonic.IFP51,
       Viewsonic.IFP8652_2,
       Viewsonic.IN02_SERIES,
-      Viewsonic.MID1016_MA,
+      Viewsonic.IN03,
       Viewsonic.MID1032_MK,
       Viewsonic.MID7015_MK_32,
       Viewsonic.VPC_A31_O1,
@@ -44260,6 +44794,7 @@ public object PreviewGroups {
       Vikusha.V_Z40PRO,
       Vikusha.V_Z70,
       Vikusha.V_Z80PLUS,
+      Vikusha.V_M1,
       Vikusha.VZ_1,
       Vikusha.VZ_30,
       Vikusha.VZ_30PRO
@@ -44275,7 +44810,9 @@ public object PreviewGroups {
       Villaon.VILLAON_V30_RS,
       Villaon.VILLAON_V40,
       Villaon.VILLAON_V40S,
+      Villaon.VILLAON_V501L,
       Villaon.VILLAON_V652L,
+      Villaon.VILLAON_V654L,
       Villaon.VILLAON_V20_SE
   )
 
@@ -44288,10 +44825,19 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for ViMASS devices.
+   * Useful for vimass testing.
+   */
+  public fun getVimassDevices(): List<String> = listOf(
+      Vimass.VPHONE_22
+  )
+
+  /**
    * Get all device specifications for VIMEEL devices.
    * Useful for vimeel testing.
    */
   public fun getVimeelDevices(): List<String> = listOf(
+      Vimeel.ELLINIKO,
       Vimeel.LAVENDER,
       Vimeel.MOUNTBAKER
   )
@@ -44359,7 +44905,6 @@ public object PreviewGroups {
    */
   public fun getVirzoDevices(): List<String> = listOf(
       Virzo.V511,
-      Virzo.V608_C,
       Virzo.VT1001,
       Virzo.VT701
   )
@@ -44386,7 +44931,8 @@ public object PreviewGroups {
    * Useful for vision testing.
    */
   public fun getVisionDevices(): List<String> = listOf(
-      Vision.B866V2F,
+      Vision.DONGNAE,
+      Vision.ELEONAS,
       Vision.MARTIN,
       Vision.MEDIABOX_B866V2,
       Vision.NAGATA,
@@ -44394,7 +44940,8 @@ public object PreviewGroups {
       Vision.SW6H,
       Vision.TAMACHI,
       Vision.UMEDA,
-      Vision.VISION_V1
+      Vision.VISION_V1,
+      Vision.YQX
   )
 
   /**
@@ -44405,6 +44952,14 @@ public object PreviewGroups {
       VisionTechnology.R1,
       VisionTechnology.R2,
       VisionTechnology.R3
+  )
+
+  /**
+   * Get all device specifications for VisionPlus devices.
+   * Useful for visionplus testing.
+   */
+  public fun getVisionplusDevices(): List<String> = listOf(
+      Visionplus.VPTB8A
   )
 
   /**
@@ -44430,7 +44985,10 @@ public object PreviewGroups {
    */
   public fun getVisualLandDevices(): List<String> = listOf(
       VisualLand.ELITE10QH,
-      VisualLand.ELITE10QHPRO
+      VisualLand.ELITE10QHPRO,
+      VisualLand.PRESTIGE_10QH_PLUS,
+      VisualLand.PRESTIGE_P10_PLUS,
+      VisualLand.PRESTIGE_P11_PRO
   )
 
   /**
@@ -44454,12 +45012,10 @@ public object PreviewGroups {
    * Useful for vivax testing.
    */
   public fun getVivaxDevices(): List<String> = listOf(
-      Vivax.FUN_S20,
       Vivax.LONGSHAN,
       Vivax.MID7015A_MK,
       Vivax.POINT_X2,
       Vivax.POINT_X502,
-      Vivax.POINT_X503,
       Vivax.STANFORD,
       Vivax.TPC_102_4G,
       Vivax.TPC_8043G,
@@ -44471,6 +45027,14 @@ public object PreviewGroups {
       Vivax.VIVAX_PRO3,
       Vivax.VIVAX_TPC_105_4G,
       Vivax.ZHONGSHAN
+  )
+
+  /**
+   * Get all device specifications for Vivensis devices.
+   * Useful for vivensis testing.
+   */
+  public fun getVivensisDevices(): List<String> = listOf(
+      Vivensis.HYR2B_VIVENSIS
   )
 
   /**
@@ -44557,6 +45121,7 @@ public object PreviewGroups {
       Vivo._1921,
       Vivo._1930,
       Vivo._1933,
+      Vivo._1935,
       Vivo._1937,
       Vivo._1938,
       Vivo._1951,
@@ -44864,6 +45429,7 @@ public object PreviewGroups {
       Vivo.PD2435,
       Vivo.PD2436,
       Vivo.PD2442,
+      Vivo.PD2443,
       Vivo.PD2444,
       Vivo.PD2445,
       Vivo.PD2452,
@@ -44873,6 +45439,13 @@ public object PreviewGroups {
       Vivo.PD2463,
       Vivo.PD2464,
       Vivo.PD2465,
+      Vivo.PD2502,
+      Vivo.PD2505,
+      Vivo.PD2506,
+      Vivo.PD2507,
+      Vivo.PD2509,
+      Vivo.PD2516,
+      Vivo.PD2520,
       Vivo.V1,
       Vivo.V2144,
       Vivo.V2145,
@@ -44939,16 +45512,26 @@ public object PreviewGroups {
       Vivo.V2429,
       Vivo.V2430,
       Vivo.V2434,
+      Vivo.V2434L,
       Vivo.V2436,
       Vivo.V2437,
       Vivo.V2439,
       Vivo.V2440,
       Vivo.V2441,
       Vivo.V2446,
+      Vivo.V2455,
       Vivo.V2502,
       Vivo.V2503,
       Vivo.V2504,
       Vivo.V2506,
+      Vivo.V2511,
+      Vivo.V2513,
+      Vivo.V2514,
+      Vivo.V2515,
+      Vivo.V2520,
+      Vivo.V2521,
+      Vivo.V2521L,
+      Vivo.V2529,
       Vivo.V3,
       Vivo.V3MAX,
       Vivo.X5PRO,
@@ -44957,7 +45540,6 @@ public object PreviewGroups {
       Vivo.Y15S,
       Vivo.Y21,
       Vivo.Y21L,
-      Vivo.Y27,
       Vivo.Y31,
       Vivo.Y31I,
       Vivo.Y31L,
@@ -44970,8 +45552,6 @@ public object PreviewGroups {
    * Useful for viwa testing.
    */
   public fun getViwaDevices(): List<String> = listOf(
-      Viwa.VIWA_LIGHT_ONE,
-      Viwa.VIWA_LIGHT_PLUS,
       Viwa.VIWA_V10
   )
 
@@ -45003,6 +45583,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for VK_DIGITAL devices.
+   * Useful for vk_digital testing.
+   */
+  public fun getVkDigitalDevices(): List<String> = listOf(
+      VkDigital.SEI740VK
+  )
+
+  /**
    * Get all device specifications for vkworld devices.
    * Useful for vkworld testing.
    */
@@ -45031,7 +45619,8 @@ public object PreviewGroups {
       Vocal.V01,
       Vocal.V0CORE,
       Vocal.V1,
-      Vocal.V11
+      Vocal.V11,
+      Vocal.V1_CORE
   )
 
   /**
@@ -45047,7 +45636,8 @@ public object PreviewGroups {
    * Useful for vodacom testing.
    */
   public fun getVodacomDevices(): List<String> = listOf(
-      Vodacom.H6032_VDC
+      Vodacom.H6032_VDC,
+      Vodacom.SECHOCHA_ULTRA_2
   )
 
   /**
@@ -45065,6 +45655,8 @@ public object PreviewGroups {
       Vodafone.SMART_GRAND,
       Vodafone.TAB7,
       Vodafone.UIW4030VHA,
+      Vodafone.V_LITE_3,
+      Vodafone.V_PRO_3,
       Vodafone.VF_895N,
       Vodafone.VF685,
       Vodafone.VF695,
@@ -45075,7 +45667,6 @@ public object PreviewGroups {
       Vodafone.VFD301,
       Vodafone.VFD320,
       Vodafone.VFD500,
-      Vodafone.VFD501,
       Vodafone.VFD502,
       Vodafone.VFD510,
       Vodafone.VFD511,
@@ -45151,6 +45742,7 @@ public object PreviewGroups {
    * Useful for volkano testing.
    */
   public fun getVolkanoDevices(): List<String> = listOf(
+      Volkano.VK74012BLV2,
       Volkano.VK_740_12
   )
 
@@ -45188,6 +45780,7 @@ public object PreviewGroups {
       Vonino.PLURI_M8,
       Vonino.PLURI_M8_2020,
       Vonino.PLURI_M8_2020_A10,
+      Vonino.XAVY_G7,
       Vonino.XAVY_T7
   )
 
@@ -45205,6 +45798,14 @@ public object PreviewGroups {
    */
   public fun getVooboxDevices(): List<String> = listOf(
       Voobox.SEI700TMM
+  )
+
+  /**
+   * Get all device specifications for VOPLLS devices.
+   * Useful for voplls testing.
+   */
+  public fun getVopllsDevices(): List<String> = listOf(
+      Voplls.HIMALAYA
   )
 
   /**
@@ -45257,6 +45858,7 @@ public object PreviewGroups {
       Vortex.HD65_ULTRA,
       Vortex.HD67,
       Vortex.J24,
+      Vortex.JK68,
       Vortex.MUV,
       Vortex.NS65,
       Vortex.PG65,
@@ -45284,12 +45886,13 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for VOXelectronics devices.
+   * Get all device specifications for VOXELECTRONICS devices.
    * Useful for voxelectronics testing.
    */
   public fun getVoxelectronicsDevices(): List<String> = listOf(
       Voxelectronics.ELLINIKO,
       Voxelectronics.HONGKONG,
+      Voxelectronics.JAGALCHI,
       Voxelectronics.KENTON,
       Voxelectronics.LASALLE,
       Voxelectronics.LAVENDER,
@@ -45330,7 +45933,10 @@ public object PreviewGroups {
    * Useful for vsp testing.
    */
   public fun getVspDevices(): List<String> = listOf(
-      Vsp.BEAUDRY
+      Vsp.ALKEN,
+      Vsp.BARKING,
+      Vsp.BEAUDRY,
+      Vsp.SURFACE
   )
 
   /**
@@ -45368,7 +45974,6 @@ public object PreviewGroups {
    */
   public fun getVucatimesDevices(): List<String> = listOf(
       Vucatimes.N10,
-      Vucatimes.N7,
       Vucatimes.N8,
       Vucatimes.VUCAPAD_N20,
       Vucatimes.VUCAPAD_NS20_EEA
@@ -45405,6 +46010,7 @@ public object PreviewGroups {
    */
   public fun getWainyokDevices(): List<String> = listOf(
       Wainyok.P10S,
+      Wainyok.P10U,
       Wainyok.P10X
   )
 
@@ -45415,7 +46021,8 @@ public object PreviewGroups {
   public fun getWaiputvDevices(): List<String> = listOf(
       Waiputv.SEI700WP,
       Waiputv.SEI730WP,
-      Waiputv.SEID00BWP
+      Waiputv.SEID00BWP,
+      Waiputv.SEID00DWP
   )
 
   /**
@@ -45424,7 +46031,10 @@ public object PreviewGroups {
    */
   public fun getWaltonDevices(): List<String> = listOf(
       Walton._10P,
+      Walton.ALIMOS,
       Walton.ANAHEIM,
+      Walton.BEOMIL,
+      Walton.ELEONAS,
       Walton.GUANDU,
       Walton.IAD,
       Walton.MARTIN,
@@ -45437,6 +46047,7 @@ public object PreviewGroups {
       Walton.NEXG_N72,
       Walton.NEXG_N73,
       Walton.NEXG_N74,
+      Walton.NEXG_N75,
       Walton.NEXG_N8,
       Walton.NEXG_N9,
       Walton.ORBIT_Y11,
@@ -45472,7 +46083,6 @@ public object PreviewGroups {
       Walton.PRIMO_GH7I,
       Walton.PRIMO_GH8,
       Walton.PRIMO_GH9,
-      Walton.PRIMO_GM2,
       Walton.PRIMO_GM2_PLUS,
       Walton.PRIMO_GM3,
       Walton.PRIMO_GM3_PLUS,
@@ -45487,12 +46097,10 @@ public object PreviewGroups {
       Walton.PRIMO_HM7,
       Walton.PRIMO_N4,
       Walton.PRIMO_N5,
-      Walton.PRIMO_NF3,
       Walton.PRIMO_NF4,
       Walton.PRIMO_NF4_2GB,
       Walton.PRIMO_NF5,
       Walton.PRIMO_NH3,
-      Walton.PRIMO_NH3_LITE,
       Walton.PRIMO_NH3I,
       Walton.PRIMO_NH4,
       Walton.PRIMO_NH5,
@@ -45504,14 +46112,12 @@ public object PreviewGroups {
       Walton.PRIMO_R6_MAX,
       Walton.PRIMO_R8,
       Walton.PRIMO_R9,
-      Walton.PRIMO_RM3,
       Walton.PRIMO_RM4,
       Walton.PRIMO_RX6,
       Walton.PRIMO_RX7,
       Walton.PRIMO_RX8,
       Walton.PRIMO_RX8_MINI,
       Walton.PRIMO_RX9,
-      Walton.PRIMO_S6,
       Walton.PRIMO_S6_DUAL,
       Walton.PRIMO_S6_INFINITY,
       Walton.PRIMO_S7,
@@ -45531,6 +46137,7 @@ public object PreviewGroups {
       Walton.WALPAD_8G,
       Walton.WALPAD_9G,
       Walton.WBW5616WA,
+      Walton.XANON_X1_ULTRA,
       Walton.XANON_X20,
       Walton.XANON_X21,
       Walton.XANON_X90,
@@ -45545,6 +46152,8 @@ public object PreviewGroups {
    * Useful for wansa testing.
    */
   public fun getWansaDevices(): List<String> = listOf(
+      Wansa.ALIMOS,
+      Wansa.DANGNI,
       Wansa.LONGSHAN,
       Wansa.REDWOOD,
       Wansa.SAMSEONG,
@@ -45608,12 +46217,10 @@ public object PreviewGroups {
       We.A10,
       We.A50,
       We.F1,
-      We.L7,
       We.V5,
       We.WE_F20,
       We.WE_L9,
-      We.WE_R4,
-      We.WE_T1
+      We.WE_R4
   )
 
   /**
@@ -45679,6 +46286,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for WEONEX devices.
+   * Useful for weonex testing.
+   */
+  public fun getWeonexDevices(): List<String> = listOf(
+      Weonex.WX_IFPD01
+  )
+
+  /**
    * Get all device specifications for Westgate devices.
    * Useful for westgate testing.
    */
@@ -45687,18 +46302,11 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Westgate_Resorts devices.
-   * Useful for westgate_resorts testing.
-   */
-  public fun getWestgateResortsDevices(): List<String> = listOf(
-      WestgateResorts.T802
-  )
-
-  /**
    * Get all device specifications for WestgateResorts devices.
    * Useful for westgateresorts testing.
    */
   public fun getWestgateresortsDevices(): List<String> = listOf(
+      Westgateresorts.T802,
       Westgateresorts.T803,
       Westgateresorts.T805
   )
@@ -45709,7 +46317,6 @@ public object PreviewGroups {
    */
   public fun getWestinghouseDevices(): List<String> = listOf(
       Westinghouse.UENO,
-      Westinghouse.W10TWF19,
       Westinghouse.WH10S9863232
   )
 
@@ -45742,7 +46349,9 @@ public object PreviewGroups {
    * Useful for whitedeer testing.
    */
   public fun getWhitedeerDevices(): List<String> = listOf(
-      Whitedeer.G13
+      Whitedeer.G13,
+      Whitedeer.G13A,
+      Whitedeer.KT1028
   )
 
   /**
@@ -45766,15 +46375,8 @@ public object PreviewGroups {
    * Useful for widevu testing.
    */
   public fun getWidevuDevices(): List<String> = listOf(
+      Widevu.SEPOLIA,
       Widevu.YEONGDEUNGPO
-  )
-
-  /**
-   * Get all device specifications for Wieppo devices.
-   * Useful for wieppo testing.
-   */
-  public fun getWieppoDevices(): List<String> = listOf(
-      Wieppo.T596_JW_WIEPPO
   )
 
   /**
@@ -45808,7 +46410,6 @@ public object PreviewGroups {
       Wiko.P4601AN,
       Wiko.P4661AN,
       Wiko.P4901AC,
-      Wiko.P4903JP,
       Wiko.P4903LA,
       Wiko.P6601AE,
       Wiko.P6609BC,
@@ -45819,13 +46420,11 @@ public object PreviewGroups {
       Wiko.S4050AP,
       Wiko.S5030,
       Wiko.S5030AP12H,
-      Wiko.S5201AP,
       Wiko.S5222,
       Wiko.S5250,
       Wiko.S5254,
       Wiko.S5260,
       Wiko.S5420,
-      Wiko.S8515,
       Wiko.T20,
       Wiko.T2800AN,
       Wiko.T3903BN,
@@ -45844,7 +46443,6 @@ public object PreviewGroups {
       Wiko.V12ENLITE,
       Wiko.V2502AN,
       Wiko.V2508,
-      Wiko.V2510,
       Wiko.V2520,
       Wiko.V2600CN,
       Wiko.V2610,
@@ -45949,15 +46547,21 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Win devices.
+   * Get all device specifications for WiMiUS devices.
+   * Useful for wimius testing.
+   */
+  public fun getWimiusDevices(): List<String> = listOf(
+      Wimius.HIMALAYA
+  )
+
+  /**
+   * Get all device specifications for WIN devices.
    * Useful for win testing.
    */
   public fun getWinDevices(): List<String> = listOf(
       Win.DV8947_KPW,
       Win.M3,
       Win.M5PLUS,
-      Win.N4,
-      Win.N4PLUS,
       Win.Q9
   )
 
@@ -45967,14 +46571,6 @@ public object PreviewGroups {
    */
   public fun getWindDevices(): List<String> = listOf(
       Wind.UZW4030WNH
-  )
-
-  /**
-   * Get all device specifications for WINDS devices.
-   * Useful for winds testing.
-   */
-  public fun getWindsDevices(): List<String> = listOf(
-      Winds.WINDS_T3
   )
 
   /**
@@ -46004,7 +46600,6 @@ public object PreviewGroups {
    */
   public fun getWinmaxDevices(): List<String> = listOf(
       Winmax.TIGER_X12,
-      Winmax.TIGER_X7,
       Winmax.X50
   )
 
@@ -46015,7 +46610,6 @@ public object PreviewGroups {
   public fun getWinnovoDevices(): List<String> = listOf(
       Winnovo.H10,
       Winnovo.H10_US,
-      Winnovo.H7,
       Winnovo.H7_US,
       Winnovo.H8,
       Winnovo.H8_US,
@@ -46037,7 +46631,8 @@ public object PreviewGroups {
    * Useful for winro testing.
    */
   public fun getWinroDevices(): List<String> = listOf(
-      Winro.VONI10
+      Winro.VONI10,
+      Winro.VONI10PRO
   )
 
   /**
@@ -46078,7 +46673,9 @@ public object PreviewGroups {
       WiseTech.TECH_A1,
       WiseTech.TECH_A1_PLUS,
       WiseTech.WISE_TECH_M1,
-      WiseTech.WISE_TAB
+      WiseTech.WISE_TAB,
+      WiseTech.WISETECH_NOTE_10,
+      WiseTech.WISETECH_NOTE_12
   )
 
   /**
@@ -46090,24 +46687,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for WiseTech devices.
-   * Useful for wisetech testing.
-   */
-  public fun getWisetechDevices(): List<String> = listOf(
-      Wisetech.WISETECH_NOTE_10,
-      Wisetech.WISETECH_NOTE_12
-  )
-
-  /**
    * Get all device specifications for Wishtel devices.
    * Useful for wishtel testing.
    */
   public fun getWishtelDevices(): List<String> = listOf(
-      Wishtel.IRA,
-      Wishtel.IRA07,
       Wishtel.IRA102017I,
       Wishtel.IRA_DUO,
-      Wishtel.IRA_S1,
       Wishtel.IRAJ2,
       Wishtel.IRAW7258,
       Wishtel.IRAW801,
@@ -46120,6 +46705,7 @@ public object PreviewGroups {
    * Useful for wismann testing.
    */
   public fun getWismannDevices(): List<String> = listOf(
+      Wismann.ELLINIKO,
       Wismann.STANFORD,
       Wismann.ZHONGSHAN
   )
@@ -46187,6 +46773,7 @@ public object PreviewGroups {
    * Useful for wow testing.
    */
   public fun getWowDevices(): List<String> = listOf(
+      Wow.SEI800WOW,
       Wow.UIW4020WOW
   )
 
@@ -46208,7 +46795,6 @@ public object PreviewGroups {
    * Useful for woxter testing.
    */
   public fun getWoxterDevices(): List<String> = listOf(
-      Woxter.WOXTER_N200,
       Woxter.X100,
       Woxter.X100_PRO,
       Woxter.X100V3,
@@ -46227,8 +46813,7 @@ public object PreviewGroups {
       Wozifan.W10_EEA,
       Wozifan.W10_T_US,
       Wozifan.W10_US,
-      Wozifan.W3_EEA,
-      Wozifan.W3_US
+      Wozifan.W3_EEA
   )
 
   /**
@@ -46236,7 +46821,9 @@ public object PreviewGroups {
    * Useful for wpawa testing.
    */
   public fun getWpawaDevices(): List<String> = listOf(
-      Wpawa.HT10_A
+      Wpawa.HT10_A,
+      Wpawa.HT10_AB,
+      Wpawa.HT10_PRO
   )
 
   /**
@@ -46245,7 +46832,8 @@ public object PreviewGroups {
    */
   public fun getWsDevices(): List<String> = listOf(
       Ws.TD_TP010G_2,
-      Ws.WS_T01
+      Ws.WS_T01,
+      Ws.WS_T02
   )
 
   /**
@@ -46271,21 +46859,11 @@ public object PreviewGroups {
    * Useful for x-age testing.
    */
   public fun getXAgeDevices(): List<String> = listOf(
-      XAge.A1,
-      XAge.ACE,
       XAge.G1,
       XAge.G1LITE,
       XAge.G2,
       XAge.X_AGE_LEAP_1,
       XAge.X_AGE_SNAP_1
-  )
-
-  /**
-   * Get all device specifications for X-mobile devices.
-   * Useful for x-mobile testing.
-   */
-  public fun getXMobileDevices(): List<String> = listOf(
-      XMobile.XM_SW1
   )
 
   /**
@@ -46297,8 +46875,8 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for X_TIGI devices.
-   * Useful for x_tigi testing.
+   * Get all device specifications for X-TIGI devices.
+   * Useful for x-tigi testing.
    */
   public fun getXTigiDevices(): List<String> = listOf(
       XTigi._9C,
@@ -46325,26 +46903,20 @@ public object PreviewGroups {
       XTigi.KIDS7_PRO,
       XTigi.KIDS8_PRO,
       XTigi.KIDS9_PRO,
-      XTigi.KIDS_TAB,
       XTigi.M20S,
       XTigi.MID,
-      XTigi.PHOTO_P16,
-      XTigi.SHARP1,
       XTigi.SHARP_2,
       XTigi.V12,
       XTigi.V18_PRO_A,
       XTigi.V28,
       XTigi.V28_LTE,
+      XTigi.V51,
       XTigi.V8,
       XTigi.X_TIGI_A55,
       XTigi.X_TIGI_JOY7_MAX,
-      XTigi.X_TIGI_V15,
       XTigi.X_TIGI_V18_PRO,
       XTigi.X_TIGI_V5,
-      XTigi.X_TIGI_V9,
       XTigi.X_TIGI_PHOTO_P20,
-      XTigi.X_TIGI_V16,
-      XTigi.X_TIGI_V16_LTE,
       XTigi.X_TIGI_V19
   )
 
@@ -46370,13 +46942,12 @@ public object PreviewGroups {
       XView.SAPPHIRE_HDLT,
       XView.TABLET10_X_VIEW,
       XView.TABLET7_X_VIEW,
-      XView.TITANIUMCOLORS,
       XView.TITANIUMHD,
       XView.X_VIEWGAMER10,
       XView.X_VIEWTABLET10,
       XView.X_VIEWTABLET7,
       XView.X_VIEW_Q7,
-      XView.X_VIEWTABLET10,
+      XView.X_VIEWTABLET10_800X1280,
       XView.XRB15,
       XView.XVIEW_TABLET_7,
       XView.ZPB17
@@ -46430,6 +47001,7 @@ public object PreviewGroups {
    * Useful for xenon testing.
    */
   public fun getXenonDevices(): List<String> = listOf(
+      Xenon.DONGNAE,
       Xenon.MARINA,
       Xenon.NAGATA
   )
@@ -46440,6 +47012,7 @@ public object PreviewGroups {
    */
   public fun getXgimiDevices(): List<String> = listOf(
       Xgimi.ALTAI,
+      Xgimi.KASOL,
       Xgimi.XGIMIAPOLLO,
       Xgimi.XGIMIGALILEO
   )
@@ -46452,13 +47025,13 @@ public object PreviewGroups {
       Xgody.MATE_70,
       Xgody.N02,
       Xgody.N02_A,
+      Xgody.N02_PRO,
       Xgody.N02_PROA,
       Xgody.P60PRO,
       Xgody.P60PRO_15,
       Xgody.Q16,
       Xgody.Q17,
       Xgody.R15_EEA,
-      Xgody.T702,
       Xgody.T702E_EEA,
       Xgody.T702PRO_A,
       Xgody.T702PRO_S,
@@ -46466,7 +47039,7 @@ public object PreviewGroups {
       Xgody.TAB_M10,
       Xgody.TAB_M10_EEA,
       Xgody.X32,
-      Xgody.XGT_EEA
+      Xgody.X36
   )
 
   /**
@@ -46531,8 +47104,9 @@ public object PreviewGroups {
       Xiaomi.GAUGUININPRO,
       Xiaomi.GEMINI,
       Xiaomi.GINKGO,
-      Xiaomi.GINKGO,
+      Xiaomi.GINKGO_1080X2388,
       Xiaomi.GOKU,
+      Xiaomi.GOYA,
       Xiaomi.GRUS,
       Xiaomi.GUCCI,
       Xiaomi.HAOTIAN,
@@ -46561,6 +47135,7 @@ public object PreviewGroups {
       Xiaomi.JINGHU,
       Xiaomi.KATE,
       Xiaomi.KENZO,
+      Xiaomi.KLIMT,
       Xiaomi.KUNGFUPANDA,
       Xiaomi.LADYBIRD,
       Xiaomi.LALALAND,
@@ -46575,6 +47150,7 @@ public object PreviewGroups {
       Xiaomi.LITHIUM,
       Xiaomi.LIUQIN,
       Xiaomi.LOTUS,
+      Xiaomi.LUMING,
       Xiaomi.MACHUCA,
       Xiaomi.MAGNOLIA,
       Xiaomi.MARKW,
@@ -46600,7 +47176,9 @@ public object PreviewGroups {
       Xiaomi.ONCE,
       Xiaomi.ONEDAY,
       Xiaomi.OXYGEN,
+      Xiaomi.PANDORA,
       Xiaomi.PERSEUS,
+      Xiaomi.PIANO,
       Xiaomi.PINE,
       Xiaomi.PIPA,
       Xiaomi.PISCES,
@@ -46609,8 +47187,10 @@ public object PreviewGroups {
       Xiaomi.PLATINA,
       Xiaomi.PLATO,
       Xiaomi.POLARIS,
+      Xiaomi.POPSICLE,
       Xiaomi.PRADA,
       Xiaomi.PSYCHE,
+      Xiaomi.PUDDING,
       Xiaomi.PYXIS,
       Xiaomi.RANGO,
       Xiaomi.RAPHAELIN,
@@ -46640,6 +47220,7 @@ public object PreviewGroups {
       Xiaomi.TISSOT_SPROUT,
       Xiaomi.TOCO,
       Xiaomi.TUCANA,
+      Xiaomi.TURNER,
       Xiaomi.TWILIGHT,
       Xiaomi.UGG,
       Xiaomi.UGGLITE,
@@ -46650,8 +47231,10 @@ public object PreviewGroups {
       Xiaomi.VANGOGH,
       Xiaomi.VAYU,
       Xiaomi.VENOM,
+      Xiaomi.VILI,
       Xiaomi.VINCE,
       Xiaomi.VIOLET,
+      Xiaomi.VIOLIN,
       Xiaomi.VIRGO,
       Xiaomi.VOLVER,
       Xiaomi.WATCHMEN,
@@ -46663,6 +47246,7 @@ public object PreviewGroups {
       Xiaomi.YSL,
       Xiaomi.YUDI,
       Xiaomi.YUECHU,
+      Xiaomi.YUPEI,
       Xiaomi.ZEUS,
       Xiaomi.ZIJIN,
       Xiaomi.ZIYI,
@@ -46696,6 +47280,14 @@ public object PreviewGroups {
   )
 
   /**
+   * Get all device specifications for XMART devices.
+   * Useful for xmart testing.
+   */
+  public fun getXmartDevices(): List<String> = listOf(
+      Xmart.X10S
+  )
+
+  /**
    * Get all device specifications for Xming devices.
    * Useful for xming testing.
    */
@@ -46710,18 +47302,15 @@ public object PreviewGroups {
   public fun getXmobileDevices(): List<String> = listOf(
       Xmobile.X1,
       Xmobile.X10MAX,
-      Xmobile.X55NALU,
       Xmobile.X55USA,
       Xmobile.X63,
-      Xmobile.X63PRO,
       Xmobile.X7,
       Xmobile.X8MAX,
       Xmobile.X8PRO,
       Xmobile.X8PRONUS,
       Xmobile.X_55_A,
       Xmobile.X_55B,
-      Xmobile.X_63_B_PROB,
-      Xmobile.X_63_PROA,
+      Xmobile.XM_SW1,
       Xmobile.XMOBILE,
       Xmobile.XMOBILE_X2,
       Xmobile.XMOBILE_X2_US,
@@ -46735,12 +47324,8 @@ public object PreviewGroups {
   public fun getXoloDevices(): List<String> = listOf(
       Xolo.ERA1X,
       Xolo.ERA5X,
-      Xolo.ERA_2,
-      Xolo.ERA_2V,
-      Xolo.ERA_3X,
       Xolo.ERA_4X,
       Xolo.ERA_4X_2GB,
-      Xolo.XE2X,
       Xolo.XE2X3GB,
       Xolo.XOLO_ERA_4K
   )
@@ -46769,7 +47354,6 @@ public object PreviewGroups {
    */
   public fun getXploreDevices(): List<String> = listOf(
       Xplore.M6,
-      Xplore.XP8105,
       Xplore.XP8105A
   )
 
@@ -46808,27 +47392,16 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for XTIGI devices.
-   * Useful for xtigi testing.
-   */
-  public fun getXtigiDevices(): List<String> = listOf(
-      Xtigi.V51
-  )
-
-  /**
    * Get all device specifications for XTOUCH devices.
    * Useful for xtouch testing.
    */
   public fun getXtouchDevices(): List<String> = listOf(
-      Xtouch.A5,
       Xtouch.S20,
       Xtouch.S40,
       Xtouch.X40,
       Xtouch.XBOT_JUNIOR,
       Xtouch.XBOT_SENIOR,
       Xtouch.XP10_4G,
-      Xtouch.XP10_WIFI,
-      Xtouch.XTOUCH_A4,
       Xtouch.XTOUCH_X,
       Xtouch.XTOUCH_X10
   )
@@ -46847,7 +47420,6 @@ public object PreviewGroups {
    * Useful for xtratech testing.
    */
   public fun getXtratechDevices(): List<String> = listOf(
-      Xtratech.BND8163_TB_N,
       Xtratech.BRIO_X31,
       Xtratech.X10MT16,
       Xtratech.X10MT87,
@@ -46875,14 +47447,6 @@ public object PreviewGroups {
       Xtreme.SW4H,
       Xtreme.SW6H,
       Xtreme.UMEDA
-  )
-
-  /**
-   * Get all device specifications for Xwave devices.
-   * Useful for xwave testing.
-   */
-  public fun getXwaveDevices(): List<String> = listOf(
-      Xwave.XPAD
   )
 
   /**
@@ -46923,14 +47487,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for YELLYOUTH devices.
-   * Useful for yellyouth testing.
-   */
-  public fun getYellyouthDevices(): List<String> = listOf(
-      Yellyouth.TAB_101
-  )
-
-  /**
    * Get all device specifications for Yes devices.
    * Useful for yes testing.
    */
@@ -46940,7 +47496,8 @@ public object PreviewGroups {
       Yes.M631Y,
       Yes.M685Y4,
       Yes.SEI500Y,
-      Yes.SEI800Y
+      Yes.SEI800Y,
+      Yes.SEID00Y
   )
 
   /**
@@ -47069,9 +47626,9 @@ public object PreviewGroups {
    * Useful for yosatoo testing.
    */
   public fun getYosatooDevices(): List<String> = listOf(
+      Yosatoo.K15,
       Yosatoo.Y10,
-      Yosatoo.Y101,
-      Yosatoo.Y102
+      Yosatoo.Y101
   )
 
   /**
@@ -47144,15 +47701,8 @@ public object PreviewGroups {
    * Useful for yqsvaior testing.
    */
   public fun getYqsvaiorDevices(): List<String> = listOf(
-      Yqsvaior.YQ10
-  )
-
-  /**
-   * Get all device specifications for YSF devices.
-   * Useful for ysf testing.
-   */
-  public fun getYsfDevices(): List<String> = listOf(
-      Ysf.RUGGED_TABLET
+      Yqsvaior.YQ10,
+      Yqsvaior.YQ81_ROW
   )
 
   /**
@@ -47234,14 +47784,6 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for ZAITH devices.
-   * Useful for zaith testing.
-   */
-  public fun getZaithDevices(): List<String> = listOf(
-      Zaith.Z3211G
-  )
-
-  /**
    * Get all device specifications for ZAMOLXE devices.
    * Useful for zamolxe testing.
    */
@@ -47264,11 +47806,16 @@ public object PreviewGroups {
    * Useful for zatec testing.
    */
   public fun getZatecDevices(): List<String> = listOf(
-      Zatec.JOY,
-      Zatec.JOY_PLUS,
       Zatec.WIND,
-      Zatec.ZATEC_ZPOWER_2018,
       Zatec.ZPAD_1
+  )
+
+  /**
+   * Get all device specifications for zcobro devices.
+   * Useful for zcobro testing.
+   */
+  public fun getZcobroDevices(): List<String> = listOf(
+      Zcobro.KIDS710
   )
 
   /**
@@ -47301,6 +47848,7 @@ public object PreviewGroups {
       Zebra.EC50,
       Zebra.EC55,
       Zebra.EM45,
+      Zebra.ET401L0,
       Zebra.ET40L,
       Zebra.ET40S,
       Zebra.ET45L,
@@ -47325,11 +47873,13 @@ public object PreviewGroups {
       Zebra.MC3300XC,
       Zebra.MC33C,
       Zebra.MC3400,
+      Zebra.MC3450,
       Zebra.MC93,
       Zebra.MC93C,
       Zebra.MC9400,
       Zebra.MC9450,
       Zebra.PS20JP,
+      Zebra.PS30JX,
       Zebra.TC15,
       Zebra.TC20KB,
       Zebra.TC20RD,
@@ -47382,22 +47932,21 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for Zeki devices.
+   * Get all device specifications for ZEKI devices.
    * Useful for zeki testing.
    */
   public fun getZekiDevices(): List<String> = listOf(
       Zeki.TBDV986,
       Zeki.TBOG1034,
-      Zeki.TBQG1031,
-      Zeki.TBQG1038
+      Zeki.TBQG1031
   )
 
   /**
-   * Get all device specifications for ZELU devices.
-   * Useful for zelu testing.
+   * Get all device specifications for ZENET devices.
+   * Useful for zenet testing.
    */
-  public fun getZeluDevices(): List<String> = listOf(
-      Zelu.C400
+  public fun getZenetDevices(): List<String> = listOf(
+      Zenet.ELLINIKO
   )
 
   /**
@@ -47499,6 +48048,10 @@ public object PreviewGroups {
       Ziovo.Z128_US,
       Ziovo.Z138_EEA,
       Ziovo.Z138_US,
+      Ziovo.Z138_V_EEA,
+      Ziovo.Z138_V_US,
+      Ziovo.Z168_EU,
+      Ziovo.Z168_W,
       Ziovo.Z168_EEA,
       Ziovo.Z168_U_EEA,
       Ziovo.Z168_U_US,
@@ -47562,7 +48115,6 @@ public object PreviewGroups {
    */
   public fun getZojiDevices(): List<String> = listOf(
       Zoji.Z33,
-      Zoji.Z8,
       Zoji.Z9
   )
 
@@ -47589,6 +48141,7 @@ public object PreviewGroups {
    */
   public fun getZonkoDevices(): List<String> = listOf(
       Zonko.D105,
+      Zonko.D105_EEA,
       Zonko.D106,
       Zonko.D110,
       Zonko.D115,
@@ -47667,13 +48220,11 @@ public object PreviewGroups {
   public fun getZteDevices(): List<String> = listOf(
       Zte.ABBY,
       Zte.ACHILL,
-      Zte.AILSA,
       Zte.AILSA_II,
       Zte.ALICE,
       Zte.B860H_V1,
       Zte.BAFFIN,
       Zte.BEAM,
-      Zte.BENZ,
       Zte.BILLY,
       Zte.BLADE_L3_PLUS,
       Zte.BOLTON,
@@ -47726,7 +48277,6 @@ public object PreviewGroups {
       Zte.MO_01K,
       Zte.MSM8226,
       Zte.MSM8909,
-      Zte.MSM8916_32,
       Zte.MSM8916_64,
       Zte.MSM8937,
       Zte.MSM8952_64,
@@ -47755,6 +48305,7 @@ public object PreviewGroups {
       Zte.P606F17,
       Zte.P606F19,
       Zte.P606F20,
+      Zte.P606F20_A,
       Zte.P606F21,
       Zte.P606T07C,
       Zte.P609,
@@ -47768,6 +48319,7 @@ public object PreviewGroups {
       Zte.P616T02C,
       Zte.P616T03_AC,
       Zte.P616T03C,
+      Zte.P616T04C,
       Zte.P618A01,
       Zte.P618A03,
       Zte.P618A11,
@@ -47776,8 +48328,6 @@ public object PreviewGroups {
       Zte.P618F07,
       Zte.P618F08,
       Zte.P618T01C,
-      Zte.P632A10,
-      Zte.P632T31,
       Zte.P633F05,
       Zte.P633F08,
       Zte.P633F10,
@@ -47841,6 +48391,7 @@ public object PreviewGroups {
       Zte.P720F09,
       Zte.P720S07,
       Zte.P720S11,
+      Zte.P720T01,
       Zte.P725A02,
       Zte.P725A11,
       Zte.P725A12,
@@ -47961,7 +48512,6 @@ public object PreviewGroups {
       Zte.STOLLEN,
       Zte.SWEET,
       Zte.T86,
-      Zte.TOM,
       Zte.TULIP,
       Zte.TURKCELL_T40,
       Zte.URD,
@@ -47979,10 +48529,12 @@ public object PreviewGroups {
       Zte.YXE,
       Zte.Z_01K,
       Zte.Z2339,
+      Zte.Z2470C,
       Zte.Z3051T,
       Zte.Z3052O,
       Zte.Z3052T,
       Zte.Z3101T,
+      Zte.Z3103O,
       Zte.Z3153,
       Zte.Z3351,
       Zte.Z3352CA,
@@ -48023,7 +48575,9 @@ public object PreviewGroups {
       Zte.Z6650S,
       Zte.Z6750,
       Zte.Z6750K,
+      Zte.Z7306O,
       Zte.Z7540,
+      Zte.Z7602O,
       Zte.Z7750R,
       Zte.Z8850K,
       Zte.Z8888S,
@@ -48071,6 +48625,7 @@ public object PreviewGroups {
       Ztleke.P10,
       Ztleke.P10MAX,
       Ztleke.P10PRO,
+      Ztleke.P10PRO3,
       Ztleke.S8PLUS,
       Ztleke.S8PLUS2
   )
@@ -48100,7 +48655,9 @@ public object PreviewGroups {
    * Useful for zuleisy testing.
    */
   public fun getZuleisyDevices(): List<String> = listOf(
-      Zuleisy.E8A
+      Zuleisy.E10A,
+      Zuleisy.E8A,
+      Zuleisy.E8A_EEA
   )
 
   /**
@@ -48110,8 +48667,7 @@ public object PreviewGroups {
   public fun getZuopuDevices(): List<String> = listOf(
       Zuopu.JH101,
       Zuopu.JH103,
-      Zuopu.JH105,
-      Zuopu.JH863
+      Zuopu.JH105
   )
 
   /**
@@ -48119,7 +48675,6 @@ public object PreviewGroups {
    * Useful for zuum testing.
    */
   public fun getZuumDevices(): List<String> = listOf(
-      Zuum.AKUS,
       Zuum.AKUS_P1,
       Zuum.AKUS_PRO,
       Zuum.AKUS_TAB,
@@ -48142,10 +48697,12 @@ public object PreviewGroups {
       Zuum.GRAVITY,
       Zuum.GRAVITY_M,
       Zuum.GRAVITY_Z,
+      Zuum.HIDRA_MAX,
       Zuum.HIDRA_PLUS,
       Zuum.MAGNO_C,
       Zuum.MAGNO_C1,
       Zuum.MAGNO_C2,
+      Zuum.MAGNO_C3,
       Zuum.MAGNO_C_PLUS,
       Zuum.MAGNO_MINI,
       Zuum.MAGNO_P1,
@@ -48153,13 +48710,14 @@ public object PreviewGroups {
       Zuum.MAGNO_PLUS,
       Zuum.MAGNO_PRO,
       Zuum.MAGNO_S,
+      Zuum.NOVUS_PRO,
       Zuum.NOVUS_TAB,
-      Zuum.ONIX,
       Zuum.ONIX_S,
       Zuum.ROCKET_II,
       Zuum.ROCKET_III,
       Zuum.SENS_CURVE,
       Zuum.SENS_G,
+      Zuum.SENS_PRO,
       Zuum.STELLAR_M1,
       Zuum.STELLAR_M2,
       Zuum.STELLAR_M3,
@@ -48167,14 +48725,11 @@ public object PreviewGroups {
       Zuum.STELLAR_M5,
       Zuum.STELLAR_M6,
       Zuum.STELLAR_MAX,
-      Zuum.STELLAR_MINI,
       Zuum.STELLAR_P3,
       Zuum.STELLAR_P4,
       Zuum.STELLAR_P5,
       Zuum.STELLAR_P6,
       Zuum.STELLAR_P8,
-      Zuum.STELLAR_PLUS,
-      Zuum.STELLAR_Z,
       Zuum.VOLTA_KIDS,
       Zuum.ZUUM_PAD_KIDS,
       Zuum.ZUUM_PAD_LIGHTYEAR
@@ -48236,19 +48791,19 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for 3222222Satelital devices.
-   * Useful for 3222222satelital testing.
-   */
-  public fun get_3222222satelitalDevices(): List<String> = listOf(
-      _3222222satelital.G706
-  )
-
-  /**
    * Get all device specifications for 3BBTV devices.
    * Useful for 3bbtv testing.
    */
   public fun get_3bbtvDevices(): List<String> = listOf(
       _3bbtv.TBBTV01
+  )
+
+  /**
+   * Get all device specifications for 3nStar devices.
+   * Useful for 3nstar testing.
+   */
+  public fun get_3nstarDevices(): List<String> = listOf(
+      _3nstar.NUSTAR65
   )
 
   /**
@@ -48260,12 +48815,12 @@ public object PreviewGroups {
   )
 
   /**
-   * Get all device specifications for 7mobile devices.
-   * Useful for 7mobile testing.
+   * Get all device specifications for 4iG devices.
+   * Useful for 4ig testing.
    */
-  public fun get_7mobileDevices(): List<String> = listOf(
-      _7mobile._7MOBILE_KAMBA_2,
-      _7mobile.SWEGUE_2
+  public fun get_4igDevices(): List<String> = listOf(
+      _4ig.M252_4IG,
+      _4ig.M3918_4IG
   )
 
   /**
@@ -48274,6 +48829,7 @@ public object PreviewGroups {
    */
   public fun get_8849Devices(): List<String> = listOf(
       _8849.OB_A98,
+      _8849.OB_A99,
       _8849.OB_P08,
       _8849.OB_P10,
       _8849.TANK2,
@@ -48288,8 +48844,7 @@ public object PreviewGroups {
    * @param brandName The name of the brand (case-insensitive)
    * @return List of device specification strings for the brand, or empty list if brand not found
    */
-  public fun getDevicesForBrand(brandName: String): List<String> =
-      brandMap[brandName.lowercase()]?.invoke() ?: emptyList()
+  public fun getDevicesForBrand(brandName: String): List<String> = brandMap[brandName.lowercase()]?.invoke() ?: emptyList()
 
   /**
    * Get names of all supported brands with preview groups.

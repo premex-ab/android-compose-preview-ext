@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for JUEDUR (7 models).
+ * Device specifications for JUEDUR (9 models).
  */
 public object Juedur {
   /**
@@ -16,6 +16,16 @@ public object Juedur {
    * JUEDUR R500_US
    */
   public const val R500_US: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * JUEDUR R500_V_EEA
+   */
+  public const val R500_V_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * JUEDUR R500_V_US
+   */
+  public const val R500_V_US: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * JUEDUR R700_EEA

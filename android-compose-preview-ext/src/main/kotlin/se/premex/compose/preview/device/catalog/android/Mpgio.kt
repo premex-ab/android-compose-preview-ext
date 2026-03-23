@@ -55,7 +55,7 @@ public object Mpgio {
   /**
    * MPGIO MLT156001
    */
-  public const val MLT156001: String = "spec:width=1080px,height=1920px,dpi=240"
+  public const val MLT156001: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * MPGIO MLT703824

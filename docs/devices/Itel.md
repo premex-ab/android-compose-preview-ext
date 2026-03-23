@@ -1,6 +1,6 @@
 # Itel Devices
 
-Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog.android.Itel`
+Total: **224** devices. Import: `import se.premex.compose.preview.device.catalog.android.Itel`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,7 +14,6 @@ Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog
 | itel-A16 | ITEL_A16 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_A16)` |
 | itel-A16-Plus | ITEL_A16_PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_A16_PLUS)` |
 | itel-A16S | ITEL_A16S | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_A16S)` |
-| itel-A20 | ITEL_A20 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Itel.ITEL_A20)` |
 | itel-A22 | ITEL_A22 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_A22)` |
 | itel-A22-Pro | ITEL_A22_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_A22_PRO)` |
 | itel-A23 | ITEL_A23 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_A23)` |
@@ -58,10 +57,11 @@ Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog
 | itel-A631L | ITEL_A631L | 480x1014 | 200 | `spec:width=480px,height=1014px,dpi=200` | `@Preview(device = Itel.ITEL_A631L)` |
 | itel-A631W | ITEL_A631W | 480x1014 | 213 | `spec:width=480px,height=1014px,dpi=213` | `@Preview(device = Itel.ITEL_A631W)` |
 | itel-A631W-R2 | ITEL_A631W_R2 | 480x1014 | 213 | `spec:width=480px,height=1014px,dpi=213` | `@Preview(device = Itel.ITEL_A631W_R2)` |
-| itel-A632L | ITEL_A632L | 480x1014 | 200 | `spec:width=480px,height=1014px,dpi=200` | `@Preview(device = Itel.ITEL_A632L)` |
+| itel-A632L | ITEL_A632L | 480x1014 | 240 | `spec:width=480px,height=1014px,dpi=240` | `@Preview(device = Itel.ITEL_A632L)` |
 | itel-A632W | ITEL_A632W | 480x1014 | 200 | `spec:width=480px,height=1014px,dpi=200` | `@Preview(device = Itel.ITEL_A632W)` |
 | itel-A632WM | ITEL_A632WM | 480x1014 | 200 | `spec:width=480px,height=1014px,dpi=200` | `@Preview(device = Itel.ITEL_A632WM)` |
 | itel-A6610L | ITEL_A6610L | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Itel.ITEL_A6610L)` |
+| itel-A6611L | ITEL_A6611L | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Itel.ITEL_A6611L)` |
 | itel-A661L | ITEL_A661L | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Itel.ITEL_A661L)` |
 | itel-A661W | ITEL_A661W | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Itel.ITEL_A661W)` |
 | itel-A661WP | ITEL_A661WP | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Itel.ITEL_A661WP)` |
@@ -78,7 +78,10 @@ Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog
 | itel-A671L | ITEL_A671L | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Itel.ITEL_A671L)` |
 | itel-A671LC | ITEL_A671LC | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Itel.ITEL_A671LC)` |
 | itel-A671N | ITEL_A671N | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Itel.ITEL_A671N)` |
+| itel-A673L | ITEL_A673L | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Itel.ITEL_A673L)` |
+| itel-A676L | ITEL_A676L | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Itel.ITEL_A676L)` |
 | itel-C671L | ITEL_C671L | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Itel.ITEL_C671L)` |
+| itel-C681L | ITEL_C681L | 720x1576 | 280 | `spec:width=720px,height=1576px,dpi=280` | `@Preview(device = Itel.ITEL_C681L)` |
 | itel-IKP-31 | ITEL_IKP_31 | 800x1280 | 214 | `spec:width=800px,height=1280px,dpi=214` | `@Preview(device = Itel.ITEL_IKP_31)` |
 | itel-it1460-Pro | ITEL_IT1460_PRO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Itel.ITEL_IT1460_PRO)` |
 | itel-it1520 | ITEL_IT1520 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Itel.ITEL_IT1520)` |
@@ -113,6 +116,7 @@ Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog
 | itel-P1102GT | ITEL_P1102GT | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Itel.ITEL_P1102GT)` |
 | itel-P13 | ITEL_P13 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Itel.ITEL_P13)` |
 | itel-P13-Plus | ITEL_P13_PLUS | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Itel.ITEL_P13_PLUS)` |
+| itel-P13001L | ITEL_P13001L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Itel.ITEL_P13001L)` |
 | itel-P31 | ITEL_P31 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_P31)` |
 | itel-P32 | ITEL_P32 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Itel.ITEL_P32)` |
 | itel-P551W | ITEL_P551W | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Itel.ITEL_P551W)` |
@@ -161,6 +165,7 @@ Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog
 | itel-S681LN | ITEL_S681LN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Itel.ITEL_S681LN)` |
 | itel-S685LN | ITEL_S685LN | 1080x2436 | 480 | `spec:width=1080px,height=2436px,dpi=480` | `@Preview(device = Itel.ITEL_S685LN)` |
 | itel-S686LN | ITEL_S686LN | 1080x2436 | 480 | `spec:width=1080px,height=2436px,dpi=480` | `@Preview(device = Itel.ITEL_S686LN)` |
+| itel-S688LN | ITEL_S688LN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Itel.ITEL_S688LN)` |
 | itel-W4001 | ITEL_W4001 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Itel.ITEL_W4001)` |
 | itel-W4001O | ITEL_W4001O | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Itel.ITEL_W4001O)` |
 | itel-W4001P | ITEL_W4001P | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Itel.ITEL_W4001P)` |
@@ -207,8 +212,6 @@ Total: **221** devices. Import: `import se.premex.compose.preview.device.catalog
 | itel_it1508Plus | ITEL_IT1508PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_IT1508PLUS)` |
 | itel_it1513 | ITEL_IT1513 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_IT1513)` |
 | itel_it1516Plus | ITEL_IT1516PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_IT1516PLUS)` |
-| itel_it1518 | ITEL_IT1518 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Itel.ITEL_IT1518)` |
-| itel_it1556 | ITEL_IT1556 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_IT1556)` |
 | itel_it1556Plus | ITEL_IT1556PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Itel.ITEL_IT1556PLUS)` |
 | itel_it1702 | ITEL_IT1702 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Itel.ITEL_IT1702)` |
 | itel_it1703 | ITEL_IT1703 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Itel.ITEL_IT1703)` |

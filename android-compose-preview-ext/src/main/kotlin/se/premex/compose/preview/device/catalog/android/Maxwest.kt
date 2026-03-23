@@ -8,11 +8,6 @@ import kotlin.String
  */
 public object Maxwest {
   /**
-   * MAXWEST Astro_4_PRO
-   */
-  public const val ASTRO_4_PRO: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * Maxwest Astro_55R
    */
   public const val ASTRO_55R: String = "spec:width=480px,height=960px,dpi=240"
@@ -118,9 +113,19 @@ public object Maxwest {
   public const val MX_A66WW: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * Maxwest MX-A67WW
+   */
+  public const val MX_A67WW: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * Maxwest MX-A6T
    */
   public const val MX_A6T: String = "spec:width=480px,height=960px,dpi=213"
+
+  /**
+   * Maxwest MX-AA8WW01
+   */
+  public const val MX_AA8WW01: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * Maxwest MX-G55
@@ -143,6 +148,11 @@ public object Maxwest {
   public const val MX_GG65: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * Maxwest MX-GG68WW
+   */
+  public const val MX_GG68WW: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
    * Maxwest MX-NA65
    */
   public const val MX_NA65: String = "spec:width=720px,height=1600px,dpi=320"
@@ -156,11 +166,6 @@ public object Maxwest {
    * Maxwest MX-NN62WW01
    */
   public const val MX_NN62WW01: String = "spec:width=720px,height=1520px,dpi=280"
-
-  /**
-   * Maxwest Nitro_4X
-   */
-  public const val NITRO_4X: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Maxwest Nitro_55A
@@ -181,11 +186,6 @@ public object Maxwest {
    * Maxwest Nitro_55Q
    */
   public const val NITRO_55Q: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Maxwest Nitro_55R
-   */
-  public const val NITRO_55R: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Maxwest Nitro_5C

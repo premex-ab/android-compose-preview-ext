@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Aligator (16 models).
+ * Device specifications for Aligator (17 models).
  */
 public object Aligator {
   /**
@@ -66,6 +66,11 @@ public object Aligator {
    * Aligator Aligator_S6600
    */
   public const val ALIGATOR_S6600: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Aligator Aligator_S6700
+   */
+  public const val ALIGATOR_S6700: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Aligator RX600

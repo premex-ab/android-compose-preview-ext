@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for REALTIME (3 models).
+ * Device specifications for Realtime (4 models).
  */
 public object Realtime {
   /**
@@ -21,4 +21,9 @@ public object Realtime {
    * Realtime RT8
    */
   public const val RT8: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * Realtime T503F
+   */
+  public const val T503F: String = "spec:width=800px,height=1280px,dpi=240"
 }

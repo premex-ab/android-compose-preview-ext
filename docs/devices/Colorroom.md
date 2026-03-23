@@ -1,6 +1,6 @@
 # Colorroom Devices
 
-Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.android.Colorroom`
+Total: **29** devices. Import: `import se.premex.compose.preview.device.catalog.android.Colorroom`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,6 +11,7 @@ Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.
 | C2 | C2 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Colorroom.C2)` |
 | C20 | C20 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Colorroom.C20)` |
 | C30_Pro | C30_PRO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.C30_PRO)` |
+| C30D | C30D | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.C30D)` |
 | C3_Pro_EEA | C3_PRO_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.C3_PRO_EEA)` |
 | C3_Pro_ROW | C3_PRO_ROW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.C3_PRO_ROW)` |
 | C3_ROW | C3_ROW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.C3_ROW)` |
@@ -22,6 +23,7 @@ Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.
 | E20_ROW | E20_ROW | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Colorroom.E20_ROW)` |
 | E30_Pro | E30_PRO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.E30_PRO)` |
 | E5 | E5 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.E5)` |
+| E5_EEA | E5_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.E5_EEA)` |
 | K07-pro_EEA | K07_PRO_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Colorroom.K07_PRO_EEA)` |
 | K10 | K10 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.K10)` |
 | K10C | K10C | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Colorroom.K10C)` |

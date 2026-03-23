@@ -1,4 +1,4 @@
-// Generated Zebra Preview Group utility. Categories=6, Devices=76
+// Generated Zebra Preview Group utility. Categories=6, Devices=79
 package se.premex.compose.preview.groups
 
 import kotlin.String
@@ -8,8 +8,7 @@ import se.premex.compose.preview.device.catalog.android.Zebra
 /**
  * Zebra device preview group providing categorized access to Zebra's enterprise device catalog.
  *
- * This utility organizes 76 Zebra devices into logical categories based on their intended use
- * cases,
+ * This utility organizes 79 Zebra devices into logical categories based on their intended use cases,
  * making it easier to target specific device types for enterprise application testing.
  */
 public object ZebraPreviewGroup {
@@ -18,7 +17,7 @@ public object ZebraPreviewGroup {
    */
   public object Categories {
     /**
-     * Mobile computers and handheld scanners (MC series) (11 devices)
+     * Mobile computers and handheld scanners (MC series) (12 devices)
      */
     public val handhelds: List<String> = listOf(
                 Zebra.MC2200,
@@ -28,6 +27,7 @@ public object ZebraPreviewGroup {
                 Zebra.MC3300XC,
                 Zebra.MC33C,
                 Zebra.MC3400,
+                Zebra.MC3450,
                 Zebra.MC93,
                 Zebra.MC93C,
                 Zebra.MC9400,
@@ -76,9 +76,10 @@ public object ZebraPreviewGroup {
             )
 
     /**
-     * Enterprise tablets (ET series) (15 devices)
+     * Enterprise tablets (ET series) (16 devices)
      */
     public val tablets: List<String> = listOf(
+                Zebra.ET401L0,
                 Zebra.ET40L,
                 Zebra.ET40S,
                 Zebra.ET45L,
@@ -114,7 +115,7 @@ public object ZebraPreviewGroup {
             )
 
     /**
-     * Other Zebra devices (10 devices)
+     * Other Zebra devices (11 devices)
      */
     public val others: List<String> = listOf(
                 Zebra.CC605LN,
@@ -126,7 +127,8 @@ public object ZebraPreviewGroup {
                 Zebra.EM45,
                 Zebra.KC50L,
                 Zebra.KC50S,
-                Zebra.PS20JP
+                Zebra.PS20JP,
+                Zebra.PS30JX
             )
   }
 }

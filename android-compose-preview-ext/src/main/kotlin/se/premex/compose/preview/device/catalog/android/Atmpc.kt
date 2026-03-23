@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ATMPC (7 models).
+ * Device specifications for ATMPC (11 models).
  */
 public object Atmpc {
   /**
@@ -23,9 +23,24 @@ public object Atmpc {
   public const val IT_801B: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * ATMPC IT-801BA1_EEA
+   */
+  public const val IT_801BA1_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * ATMPC IT-801BA3
    */
   public const val IT_801BA3: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ATMPC IT-801BA5_EEA
+   */
+  public const val IT_801BA5_EEA: String = "spec:width=800px,height=1280px,dpi=195"
+
+  /**
+   * ATMPC IT-801BA6
+   */
+  public const val IT_801BA6: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * ATMPC IT_701A
@@ -41,4 +56,9 @@ public object Atmpc {
    * ATMPC IT_801B
    */
   public const val IT_801B_800X1280: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ATMPC IT_801BA4_EEA
+   */
+  public const val IT_801BA4_EEA: String = "spec:width=800px,height=1280px,dpi=160"
 }

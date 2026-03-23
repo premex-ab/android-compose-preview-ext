@@ -15,7 +15,7 @@ public object Teracube {
   /**
    * Teracube Teracube_2e
    */
-  public const val TERACUBE_2E: String = "spec:width=720px,height=1560px,dpi=320"
+  public const val TERACUBE_2E: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * Teracube Teracube_One

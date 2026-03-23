@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Safaricom (11 models).
+ * Device specifications for Safaricom (12 models).
  */
 public object Safaricom {
   /**
@@ -51,6 +51,11 @@ public object Safaricom {
    * Safaricom Neon_Ultra_2
    */
   public const val NEON_ULTRA_2: String = "spec:width=720px,height=1600px,dpi=300"
+
+  /**
+   * Safaricom Neon_Ultra_2_M
+   */
+  public const val NEON_ULTRA_2_M: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
    * Safaricom Safaricom_ET_Kimem

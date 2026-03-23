@@ -1,22 +1,12 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ENTITY (9 models).
+ * Device specifications for ENTITY (7 models).
  */
 public object Entity {
-  /**
-   * ENTITY ENT11QF12
-   */
-  public const val ENT11QF12: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * ENTITY ENT15QF220
-   */
-  public const val ENT15QF220: String = "spec:width=800px,height=1280px,dpi=160"
-
   /**
    * ENTITY ENT75QF620
    */

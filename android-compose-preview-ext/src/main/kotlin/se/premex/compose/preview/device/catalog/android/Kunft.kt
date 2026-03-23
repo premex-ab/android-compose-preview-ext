@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KUNFT (3 models).
+ * Device specifications for KUNFT (4 models).
  */
 public object Kunft {
+  /**
+   * KUNFT dangni
+   */
+  public const val DANGNI: String = "spec:width=720px,height=1280px,dpi=213"
+
   /**
    * KUNFT ikebukuro
    */

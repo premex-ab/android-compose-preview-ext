@@ -1,6 +1,6 @@
 # Symphony Devices
 
-Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog.android.Symphony`
+Total: **119** devices. Import: `import se.premex.compose.preview.device.catalog.android.Symphony`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -9,7 +9,6 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | ATOM4 | ATOM4 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Symphony.ATOM4)` |
 | Atom_ii | ATOM_II | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.ATOM_II)` |
 | E90 | E90 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Symphony.E90)` |
-| E95 | E95 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Symphony.E95)` |
 | G10 | G10 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.G10)` |
 | G100 | G100 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Symphony.G100)` |
 | G10plus | G10PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.G10PLUS)` |
@@ -23,7 +22,6 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | helio_80 | HELIO_80 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Symphony.HELIO_80)` |
 | Helio_S60 | HELIO_S60 | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Symphony.HELIO_S60)` |
 | i10 | I10 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.I10)` |
-| i100 | I100 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.I100)` |
 | i10_plus | I10_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.I10_PLUS)` |
 | i12 | I12 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Symphony.I12)` |
 | i120 | I120 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Symphony.I120)` |
@@ -55,9 +53,9 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | innova20 | INNOVA20 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.INNOVA20)` |
 | innova30 | INNOVA30 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Symphony.INNOVA30)` |
 | innova_40 | INNOVA_40 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Symphony.INNOVA_40)` |
+| MAX_60 | MAX_60 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.MAX_60)` |
 | P11 | P11 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Symphony.P11)` |
 | P6_PRO | P6_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.P6_PRO)` |
-| P7_PRO | P7_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.P7_PRO)` |
 | P8_PRO | P8_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.P8_PRO)` |
 | P9 | P9 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.P9)` |
 | P9_Plus | P9_PLUS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Symphony.P9_PLUS)` |
@@ -65,8 +63,6 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | R20 | R20 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.R20)` |
 | R30 | R30 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.R30)` |
 | R40 | R40 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Symphony.R40)` |
-| roar_V150 | ROAR_V150 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Symphony.ROAR_V150)` |
-| Roar_V78 | ROAR_V78 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Symphony.ROAR_V78)` |
 | roarV95 | ROARV95 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.ROARV95)` |
 | Symphony_Z12 | SYMPHONY_Z12 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Symphony.SYMPHONY_Z12)` |
 | Symphony_Z50 | SYMPHONY_Z50 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.SYMPHONY_Z50)` |
@@ -90,7 +86,6 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | V145 | V145 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.V145)` |
 | V155 | V155 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Symphony.V155)` |
 | V34 | V34 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Symphony.V34)` |
-| V44 | V44 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.V44)` |
 | V47 | V47 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.V47)` |
 | V48 | V48 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.V48)` |
 | V65 | V65 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Symphony.V65)` |
@@ -116,18 +111,17 @@ Total: **125** devices. Import: `import se.premex.compose.preview.device.catalog
 | Z30_pro | Z30_PRO | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.Z30_PRO)` |
 | Z32 | Z32 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.Z32)` |
 | Z33 | Z33 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.Z33)` |
-| Z35 | Z35 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Symphony.Z35)` |
+| Z35 | Z35 | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Symphony.Z35)` |
 | Z40 | Z40 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.Z40)` |
 | Z42 | Z42 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.Z42)` |
 | Z42_pro | Z42_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.Z42_PRO)` |
 | Z45 | Z45 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.Z45)` |
-| Z55 | Z55 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Symphony.Z55)` |
+| Z55 | Z55 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Symphony.Z55)` |
 | Z60 | Z60 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.Z60)` |
 | Z60_plus | Z60_PLUS | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Symphony.Z60_PLUS)` |
 | Z70 | Z70 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Symphony.Z70)` |
 | Z72 | Z72 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Symphony.Z72)` |
 | Z9 | Z9 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Symphony.Z9)` |
-| ZVII | ZVII | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Symphony.ZVII)` |
 | ZVIII | ZVIII | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Symphony.ZVIII)` |
 
 <!-- Generated automatically. Do not edit manually. -->

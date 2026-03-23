@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TABWEE (3 models).
+ * Device specifications for TABWEE (5 models).
  */
 public object Tabwee {
+  /**
+   * TABWEE K10_EEA
+   */
+  public const val K10_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * TABWEE K10_NEU
+   */
+  public const val K10_NEU: String = "spec:width=800px,height=1280px,dpi=213"
+
   /**
    * TABWEE T20
    */

@@ -40,7 +40,7 @@ public object Ssmooth {
   /**
    * SSmooth Smooth6_5
    */
-  public const val SMOOTH6_5: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val SMOOTH6_5: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * SSmooth Smooth_5_0_2022

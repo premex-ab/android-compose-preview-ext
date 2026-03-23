@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=216
+// Generated manufacturer device catalog. Devices=210
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HTC (216 models).
+ * Device specifications for HTC (210 models).
  */
 public object Htc {
   /**
@@ -308,16 +308,6 @@ public object Htc {
   public const val HTC_A52DTUL: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * htc htc_a52dwgl
-   */
-  public const val HTC_A52DWGL: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * htc htc_a52tuhl
-   */
-  public const val HTC_A52TUHL: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * htc htc_a53ml_dtul
    */
   public const val HTC_A53ML_DTUL: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -336,11 +326,6 @@ public object Htc {
    * htc htc_a56dj_pro_dugl
    */
   public const val HTC_A56DJ_PRO_DUGL: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * htc htc_a56dj_pro_uhl
-   */
-  public const val HTC_A56DJ_PRO_UHL: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * htc htc_a56djdugl
@@ -388,11 +373,6 @@ public object Htc {
   public const val HTC_A5MGP_DUG: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * htc htc_a5mgp_u
-   */
-  public const val HTC_A5MGP_U: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * htc htc_a5ul
    */
   public const val HTC_A5UL: String = "spec:width=720px,height=1280px,dpi=320"
@@ -421,6 +401,11 @@ public object Htc {
    * HTC HTC_AT01
    */
   public const val HTC_AT01: String = "spec:width=800px,height=1280px,dpi=240"
+
+  /**
+   * HTC HTC_AT01_Plus
+   */
+  public const val HTC_AT01_PLUS: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * htc htc_b2ul
@@ -491,11 +476,6 @@ public object Htc {
    * htc htc_e56ml_dtul
    */
   public const val HTC_E56ML_DTUL: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * htc htc_e56ml_tuhl
-   */
-  public const val HTC_E56ML_TUHL: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * htc htc_e66_dtwl
@@ -571,11 +551,6 @@ public object Htc {
    * htc htc_hiau_ml_tuhl
    */
   public const val HTC_HIAU_ML_TUHL: String = "spec:width=1440px,height=2560px,dpi=640"
-
-  /**
-   * htc htc_hiaur2_ml_tuhl
-   */
-  public const val HTC_HIAUR2_ML_TUHL: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * htc htc_hiaur_ml_tuhl
@@ -748,11 +723,6 @@ public object Htc {
   public const val HTC_OCLUL: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * htc htc_ocmdtwl
-   */
-  public const val HTC_OCMDTWL: String = "spec:width=1440px,height=2880px,dpi=640"
-
-  /**
    * htc htc_ocmdugl
    */
   public const val HTC_OCMDUGL: String = "spec:width=1440px,height=2880px,dpi=640"
@@ -898,11 +868,6 @@ public object Htc {
   public const val JEWEL: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * htc k2u
-   */
-  public const val K2U: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * htc m7
    */
   public const val M7: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -948,6 +913,11 @@ public object Htc {
   public const val T6DUG: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
+   * htc t6dwg
+   */
+  public const val T6DWG: String = "spec:width=1080px,height=1920px,dpi=400"
+
+  /**
    * htc t6tl
    */
   public const val T6TL: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -955,7 +925,7 @@ public object Htc {
   /**
    * htc t6ul
    */
-  public const val T6UL: String = "spec:width=1080px,height=1920px,dpi=400"
+  public const val T6UL: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * htc t6whl
@@ -966,11 +936,6 @@ public object Htc {
    * htc ville
    */
   public const val VILLE: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * htc villec2
-   */
-  public const val VILLEC2: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * HTC Wildfire-E1
@@ -1026,6 +991,11 @@ public object Htc {
    * HTC Wildfire_E5
    */
   public const val WILDFIRE_E5: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * HTC Wildfire_E5_Life
+   */
+  public const val WILDFIRE_E5_LIFE: String = "spec:width=540px,height=960px,dpi=220"
 
   /**
    * HTC Wildfire_E5_Plus

@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BGH (10 models).
+ * Device specifications for BGH (11 models).
  */
 public object Bgh {
   /**
    * BGH BGH_Joy_303
    */
   public const val BGH_JOY_303: String = "spec:width=480px,height=854px,dpi=240"
+
+  /**
+   * BGH eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * BGH hamamatsucho

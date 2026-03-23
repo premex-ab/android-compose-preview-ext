@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SEMC (6 models).
+ * Device specifications for SEMC (4 models).
  */
 public object Semc {
   /**
@@ -26,14 +26,4 @@ public object Semc {
    * SEMC LT26w
    */
   public const val LT26W: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * SEMC LT28h
-   */
-  public const val LT28H: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * SEMC ST27i
-   */
-  public const val ST27I: String = "spec:width=320px,height=480px,dpi=160"
 }

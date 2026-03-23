@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=23
+// Generated manufacturer device catalog. Devices=25
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ATT (23 models).
+ * Device specifications for ATT (25 models).
  */
 public object Att {
   /**
@@ -53,9 +53,19 @@ public object Att {
   public const val SL219A: String = "spec:width=720px,height=1600px,dpi=260"
 
   /**
+   * ATT SN333A
+   */
+  public const val SN333A: String = "spec:width=720px,height=1640px,dpi=260"
+
+  /**
    * ATT SN509A
    */
   public const val SN509A: String = "spec:width=720px,height=1600px,dpi=260"
+
+  /**
+   * ATT SN512A
+   */
+  public const val SN512A: String = "spec:width=720px,height=1600px,dpi=260"
 
   /**
    * ATT tint8_att

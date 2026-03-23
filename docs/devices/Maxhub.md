@@ -1,10 +1,11 @@
 # Maxhub Devices
 
-Total: **2** devices. Import: `import se.premex.compose.preview.device.catalog.android.Maxhub`
+Total: **3** devices. Import: `import se.premex.compose.preview.device.catalog.android.Maxhub`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | E3 | E3 | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Maxhub.E3)` |
+| oversea_v | OVERSEA_V | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Maxhub.OVERSEA_V)` |
 | rk3588_t | RK3588_T | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Maxhub.RK3588_T)` |
 
 <!-- Generated automatically. Do not edit manually. -->

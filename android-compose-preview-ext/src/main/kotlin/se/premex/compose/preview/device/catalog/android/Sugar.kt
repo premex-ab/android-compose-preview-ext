@@ -15,7 +15,7 @@ public object Sugar {
   /**
    * SUGAR p101bs
    */
-  public const val P101BS: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val P101BS: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * SUGAR p201as

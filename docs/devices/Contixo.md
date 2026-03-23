@@ -1,11 +1,10 @@
 # Contixo Devices
 
-Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Contixo`
+Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Contixo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | CONTIXO-V8 | CONTIXO_V8 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Contixo.CONTIXO_V8)` |
-| CONTIXO-V9 | CONTIXO_V9 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Contixo.CONTIXO_V9)` |
 | K101A | K101A | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Contixo.K101A)` |
 | K103 | K103 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Contixo.K103)` |
 | K103A | K103A | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Contixo.K103A)` |

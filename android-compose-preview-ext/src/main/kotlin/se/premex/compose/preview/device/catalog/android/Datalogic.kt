@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Datalogic (8 models).
+ * Device specifications for Datalogic (10 models).
  */
 public object Datalogic {
   /**
    * Datalogic dl35
    */
   public const val DL35: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * Datalogic jta11
+   */
+  public const val JTA11: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Datalogic m11
@@ -21,6 +26,11 @@ public object Datalogic {
    * Datalogic M1_HANDHELD
    */
   public const val M1_HANDHELD: String = "spec:width=480px,height=854px,dpi=240"
+
+  /**
+   * Datalogic mk2
+   */
+  public const val MK2: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Datalogic nebula_pda

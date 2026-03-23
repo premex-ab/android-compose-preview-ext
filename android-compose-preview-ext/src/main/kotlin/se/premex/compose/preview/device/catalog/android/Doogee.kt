@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=187
+// Generated manufacturer device catalog. Devices=227
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DOOGEE (187 models).
+ * Device specifications for DOOGEE (227 models).
  */
 public object Doogee {
   /**
@@ -43,6 +43,21 @@ public object Doogee {
   public const val _1928: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * DOOGEE 1928C
+   */
+  public const val _1928C: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE 1928CT
+   */
+  public const val _1928CT: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE 1928CV
+   */
+  public const val _1928CV: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * DOOGEE 1928P
    */
   public const val _1928P: String = "spec:width=720px,height=1612px,dpi=320"
@@ -51,6 +66,16 @@ public object Doogee {
    * DOOGEE 1928S
    */
   public const val _1928S: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE 1928SC
+   */
+  public const val _1928SC: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE 1928SE
+   */
+  public const val _1928SE: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * DOOGEE 1928Y
@@ -71,6 +96,11 @@ public object Doogee {
    * DOOGEE 1929SC
    */
   public const val _1929SC: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * DOOGEE 1929SH
+   */
+  public const val _1929SH: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * DOOGEE 1929ST
@@ -98,9 +128,19 @@ public object Doogee {
   public const val DOOGEE_X10: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
+   * DOOGEE F1_Plus
+   */
+  public const val F1_PLUS: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * DOOGEE F1C
    */
   public const val F1C: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE F1C_Pro
+   */
+  public const val F1C_PRO: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * DOOGEE F1CK
@@ -108,14 +148,34 @@ public object Doogee {
   public const val F1CK: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * DOOGEE F1CK_Pro
+   */
+  public const val F1CK_PRO: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * DOOGEE F1CT
    */
   public const val F1CT: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * DOOGEE F1CT_Pro
+   */
+  public const val F1CT_PRO: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * DOOGEE F1G
    */
   public const val F1G: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE F1GC
+   */
+  public const val F1GC: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE F1GT
+   */
+  public const val F1GT: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * DOOGEE F1P
@@ -138,9 +198,44 @@ public object Doogee {
   public const val F1SE: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * DOOGEE F1T
+   */
+  public const val F1T: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE F1TK
+   */
+  public const val F1TK: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * DOOGEE F2PS
    */
   public const val F2PS: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * DOOGEE G1
+   */
+  public const val G1: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE G1C
+   */
+  public const val G1C: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE G1E
+   */
+  public const val G1E: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE G1T
+   */
+  public const val G1T: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * DOOGEE G1TS
+   */
+  public const val G1TS: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * DOOGEE M19H
@@ -151,6 +246,26 @@ public object Doogee {
    * DOOGEE M21
    */
   public const val M21: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * DOOGEE M21SC
+   */
+  public const val M21SC: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * DOOGEE M21SE
+   */
+  public const val M21SE: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * DOOGEE M21ST
+   */
+  public const val M21ST: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * DOOGEE M21SU
+   */
+  public const val M21SU: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * DOOGEE M21T
@@ -278,9 +393,24 @@ public object Doogee {
   public const val M24PS: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
+   * DOOGEE M24PST
+   */
+  public const val M24PST: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * DOOGEE M24PT
    */
   public const val M24PT: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * DOOGEE M24PX
+   */
+  public const val M24PX: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * DOOGEE M24S
+   */
+  public const val M24S: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * DOOGEE M24SE
@@ -363,6 +493,11 @@ public object Doogee {
   public const val P2TH: String = "spec:width=1200px,height=2000px,dpi=280"
 
   /**
+   * DOOGEE P2TU
+   */
+  public const val P2TU: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
    * DOOGEE P3
    */
   public const val P3: String = "spec:width=1600px,height=2560px,dpi=320"
@@ -418,14 +553,44 @@ public object Doogee {
   public const val P4: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * DOOGEE P4S
+   */
+  public const val P4S: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * DOOGEE P5C
+   */
+  public const val P5C: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * DOOGEE P5S
    */
   public const val P5S: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
+   * DOOGEE P6
+   */
+  public const val P6: String = "spec:width=1440px,height=2160px,dpi=280"
+
+  /**
    * DOOGEE P7
    */
   public const val P7: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * DOOGEE P7C
+   */
+  public const val P7C: String = "spec:width=1200px,height=2000px,dpi=280"
+
+  /**
+   * DOOGEE P7S
+   */
+  public const val P7S: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * DOOGEE P8
+   */
+  public const val P8: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * DOOGEE PT1
@@ -466,6 +631,16 @@ public object Doogee {
    * DOOGEE RK2KID
    */
   public const val RK2KID: String = "spec:width=800px,height=1280px,dpi=186"
+
+  /**
+   * DOOGEE RK5
+   */
+  public const val RK5: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * DOOGEE RK5S
+   */
+  public const val RK5S: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DOOGEE S30
@@ -630,12 +805,12 @@ public object Doogee {
   /**
    * DOOGEE S96Pro
    */
-  public const val S96PRO: String = "spec:width=720px,height=1520px,dpi=320"
+  public const val S96PRO: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * DOOGEE S97Pro
    */
-  public const val S97PRO: String = "spec:width=720px,height=1560px,dpi=320"
+  public const val S97PRO: String = "spec:width=1080px,height=1920px,dpi=484"
 
   /**
    * DOOGEE S98
@@ -668,9 +843,29 @@ public object Doogee {
   public const val T2: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * DOOGEE T2C
+   */
+  public const val T2C: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * DOOGEE T2CS
+   */
+  public const val T2CS: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * DOOGEE T2U
    */
   public const val T2U: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * DOOGEE T3
+   */
+  public const val T3: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * DOOGEE T4
+   */
+  public const val T4: String = "spec:width=1200px,height=1920px,dpi=320"
 
   /**
    * DOOGEE t530_dg_a54
@@ -725,7 +920,7 @@ public object Doogee {
   /**
    * DOOGEE V20
    */
-  public const val V20: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val V20: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * DOOGEE X100
@@ -910,7 +1105,7 @@ public object Doogee {
   /**
    * DOOGEE ZN136T
    */
-  public const val ZN136T: String = "spec:width=1080px,height=2340px,dpi=480"
+  public const val ZN136T: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * DOOGEE ZN137
@@ -931,6 +1126,11 @@ public object Doogee {
    * DOOGEE ZN138PE
    */
   public const val ZN138PE: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * DOOGEE ZN139T
+   */
+  public const val ZN139T: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
    * DOOGEE ZN140

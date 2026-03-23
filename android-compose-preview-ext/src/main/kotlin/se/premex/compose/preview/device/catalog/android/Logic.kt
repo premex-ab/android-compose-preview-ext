@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=42
+// Generated manufacturer device catalog. Devices=43
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LOGIC (42 models).
+ * Device specifications for LOGIC (43 models).
  */
 public object Logic {
   /**
@@ -28,6 +28,11 @@ public object Logic {
   public const val L63A: String = "spec:width=720px,height=1520px,dpi=300"
 
   /**
+   * LOGIC L65E
+   */
+  public const val L65E: String = "spec:width=576px,height=1280px,dpi=240"
+
+  /**
    * LOGIC L66
    */
   public const val L66: String = "spec:width=720px,height=1600px,dpi=320"
@@ -41,6 +46,11 @@ public object Logic {
    * LOGIC L66_PRO
    */
   public const val L66_PRO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * LOGIC L66F
+   */
+  public const val L66F: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * LOGIC L68_Ultra
@@ -71,6 +81,11 @@ public object Logic {
    * LOGIC LOGIC_L55S
    */
   public const val LOGIC_L55S: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * LOGIC LOGIC_L55V
+   */
+  public const val LOGIC_L55V: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * LOGIC LOGIC_L55V_PLUS
@@ -121,11 +136,6 @@ public object Logic {
    * LOGIC LOGIC_L66M
    */
   public const val LOGIC_L66M: String = "spec:width=720px,height=1612px,dpi=320"
-
-  /**
-   * LOGIC LOGIC_L68
-   */
-  public const val LOGIC_L68: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * LOGIC LOGIC_MV01
@@ -211,9 +221,4 @@ public object Logic {
    * LOGIC X4G
    */
   public const val X4G: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * LOGIC X50A
-   */
-  public const val X50A: String = "spec:width=480px,height=854px,dpi=240"
 }

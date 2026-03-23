@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KYASTER (4 models).
+ * Device specifications for KYASTER (3 models).
  */
 public object Kyaster {
-  /**
-   * KYASTER KPad_U2
-   */
-  public const val KPAD_U2: String = "spec:width=1200px,height=1920px,dpi=240"
-
   /**
    * KYASTER KPad_U2_P
    */

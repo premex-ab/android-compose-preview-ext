@@ -140,7 +140,7 @@ public object Vestel {
   /**
    * Vestel Venus_V3_5040
    */
-  public const val VENUS_V3_5040: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val VENUS_V3_5040: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Vestel Venus_V3_5045

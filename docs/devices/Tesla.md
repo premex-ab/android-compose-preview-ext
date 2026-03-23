@@ -10,12 +10,12 @@ Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.
 | L6195 | L6195 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Tesla.L6195)` |
 | LAS | LAS | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Tesla.LAS)` |
 | martin | MARTIN | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Tesla.MARTIN)` |
+| sepolia | SEPOLIA | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Tesla.SEPOLIA)` |
 | shinagawa | SHINAGAWA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Tesla.SHINAGAWA)` |
 | SW4H | SW4H | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Tesla.SW4H)` |
 | SW6H | SW6H | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Tesla.SW6H)` |
 | tamachi | TAMACHI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Tesla.TAMACHI)` |
 | Tesla_L8_2 | TESLA_L8_2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Tesla.TESLA_L8_2)` |
-| Tesla_SP3_3 | TESLA_SP3_3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tesla.TESLA_SP3_3)` |
 | Tesla_SP3_3Lite | TESLA_SP3_3LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tesla.TESLA_SP3_3LITE)` |
 | Tesla_SP3_4 | TESLA_SP3_4 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tesla.TESLA_SP3_4)` |
 | Tesla_SP3_5 | TESLA_SP3_5 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tesla.TESLA_SP3_5)` |

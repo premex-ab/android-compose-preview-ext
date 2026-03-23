@@ -1,11 +1,12 @@
 # Nubia Devices
 
-Total: **97** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nubia`
+Total: **109** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nubia`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | K68 | K68 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Nubia.K68)` |
 | K99J | K99J | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Nubia.K99J)` |
+| K99O | K99O | 1200x1920 | 260 | `spec:width=1200px,height=1920px,dpi=260` | `@Preview(device = Nubia.K99O)` |
 | nubia_NB1001-UN | NUBIA_NB1001_UN | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Nubia.NUBIA_NB1001_UN)` |
 | NX503A | NX503A | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX503A)` |
 | NX505J | NX505J | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX505J)` |
@@ -21,7 +22,7 @@ Total: **97** devices. Import: `import se.premex.compose.preview.device.catalog.
 | NX541J | NX541J | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX541J)` |
 | NX549J | NX549J | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX549J)` |
 | NX551J | NX551J | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX551J)` |
-| NX563J | NX563J | 1080x1920 | 440 | `spec:width=1080px,height=1920px,dpi=440` | `@Preview(device = Nubia.NX563J)` |
+| NX563J | NX563J | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX563J)` |
 | NX569J | NX569J | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nubia.NX569J)` |
 | NX573J | NX573J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX573J)` |
 | NX575J | NX575J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX575J)` |
@@ -47,17 +48,17 @@ Total: **97** devices. Import: `import se.premex.compose.preview.device.catalog.
 | NX669J | NX669J | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX669J)` |
 | NX669J-EEA | NX669J_EEA | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX669J_EEA)` |
 | NX669J-UN | NX669J_UN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX669J_UN)` |
-| NX679J | NX679J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX679J)` |
+| NX679J | NX679J | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX679J)` |
 | NX679J-EEA | NX679J_EEA | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX679J_EEA)` |
 | NX679J-UN | NX679J_UN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX679J_UN)` |
 | NX679S | NX679S | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX679S)` |
-| NX709J | NX709J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX709J)` |
+| NX709J | NX709J | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX709J)` |
 | NX709J-EEA | NX709J_EEA | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX709J_EEA)` |
 | NX709J-UN | NX709J_UN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX709J_UN)` |
 | NX709S | NX709S | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX709S)` |
-| NX709S-EEA | NX709S_EEA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX709S_EEA)` |
+| NX709S-EEA | NX709S_EEA | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX709S_EEA)` |
 | NX709S-UN | NX709S_UN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.NX709S_UN)` |
-| NX729J | NX729J | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Nubia.NX729J)` |
+| NX729J | NX729J | 1116x2480 | 480 | `spec:width=1116px,height=2480px,dpi=480` | `@Preview(device = Nubia.NX729J)` |
 | NX729J-EEA | NX729J_EEA | 1116x2480 | 480 | `spec:width=1116px,height=2480px,dpi=480` | `@Preview(device = Nubia.NX729J_EEA)` |
 | NX729J-UN | NX729J_UN | 1116x2480 | 480 | `spec:width=1116px,height=2480px,dpi=480` | `@Preview(device = Nubia.NX729J_UN)` |
 | NX769J | NX769J | 1116x2480 | 480 | `spec:width=1116px,height=2480px,dpi=480` | `@Preview(device = Nubia.NX769J)` |
@@ -68,15 +69,20 @@ Total: **97** devices. Import: `import se.premex.compose.preview.device.catalog.
 | P606F18 | P606F18 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P606F18)` |
 | P606F19 | P606F19 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Nubia.P606F19)` |
 | P606F20 | P606F20 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P606F20)` |
+| P606F21 | P606F21 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P606F21)` |
+| P615F01 | P615F01 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P615F01)` |
 | P616F02 | P616F02 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.P616F02)` |
 | P616F03 | P616F03 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Nubia.P616F03)` |
 | P616F05 | P616F05 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P616F05)` |
+| P620F01 | P620F01 | 900x1940 | 400 | `spec:width=900px,height=1940px,dpi=400` | `@Preview(device = Nubia.P620F01)` |
+| P620F02 | P620F02 | 900x1940 | 400 | `spec:width=900px,height=1940px,dpi=400` | `@Preview(device = Nubia.P620F02)` |
 | P678F01 | P678F01 | 1188x2790 | 520 | `spec:width=1188px,height=2790px,dpi=520` | `@Preview(device = Nubia.P678F01)` |
 | P720F08 | P720F08 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.P720F08)` |
 | P720F09 | P720F09 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Nubia.P720F09)` |
 | P720F09_U | P720F09_U | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Nubia.P720F09_U)` |
 | P720F10 | P720F10 | 900x2030 | 400 | `spec:width=900px,height=2030px,dpi=400` | `@Preview(device = Nubia.P720F10)` |
 | P720F11 | P720F11 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P720F11)` |
+| P720F11UG | P720F11UG | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.P720F11UG)` |
 | P720F12 | P720F12 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Nubia.P720F12)` |
 | P745F01 | P745F01 | 1188x2790 | 520 | `spec:width=1188px,height=2790px,dpi=520` | `@Preview(device = Nubia.P745F01)` |
 | P780F01 | P780F01 | 900x2030 | 400 | `spec:width=900px,height=2030px,dpi=400` | `@Preview(device = Nubia.P780F01)` |
@@ -95,11 +101,17 @@ Total: **97** devices. Import: `import se.premex.compose.preview.device.catalog.
 | PQ83A06 | PQ83A06 | 1116x2480 | 480 | `spec:width=1116px,height=2480px,dpi=480` | `@Preview(device = Nubia.PQ83A06)` |
 | PQ83F01 | PQ83F01 | 1116x2480 | 480 | `spec:width=1116px,height=2480px,dpi=480` | `@Preview(device = Nubia.PQ83F01)` |
 | PQ83P01 | PQ83P01 | 1800x2880 | 400 | `spec:width=1800px,height=2880px,dpi=400` | `@Preview(device = Nubia.PQ83P01)` |
+| PQ83P02 | PQ83P02 | 1800x2880 | 400 | `spec:width=1800px,height=2880px,dpi=400` | `@Preview(device = Nubia.PQ83P02)` |
 | PQ84A01 | PQ84A01 | 1216x2688 | 520 | `spec:width=1216px,height=2688px,dpi=520` | `@Preview(device = Nubia.PQ84A01)` |
 | PQ84A02 | PQ84A02 | 1216x2688 | 520 | `spec:width=1216px,height=2688px,dpi=520` | `@Preview(device = Nubia.PQ84A02)` |
+| PQ84P01 | PQ84P01 | 1504x2400 | 360 | `spec:width=1504px,height=2400px,dpi=360` | `@Preview(device = Nubia.PQ84P01)` |
 | Z6255 | Z6255 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.Z6255)` |
+| Z6305R | Z6305R | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.Z6305R)` |
 | Z6657 | Z6657 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.Z6657)` |
 | Z6701S | Z6701S | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Nubia.Z6701S)` |
+| Z7305O | Z7305O | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Nubia.Z7305O)` |
+| Z8900 | Z8900 | 1188x2790 | 520 | `spec:width=1188px,height=2790px,dpi=520` | `@Preview(device = Nubia.Z8900)` |
 | Z8900S | Z8900S | 1188x2790 | 520 | `spec:width=1188px,height=2790px,dpi=520` | `@Preview(device = Nubia.Z8900S)` |
+| Z9900S | Z9900S | 2200x2480 | 520 | `spec:width=2200px,height=2480px,dpi=520` | `@Preview(device = Nubia.Z9900S)` |
 
 <!-- Generated automatically. Do not edit manually. -->

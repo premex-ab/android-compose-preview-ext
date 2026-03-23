@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=135
+// Generated manufacturer device catalog. Devices=134
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LAVA (135 models).
+ * Device specifications for LAVA (134 models).
  */
 public object Lava {
   /**
@@ -16,11 +16,6 @@ public object Lava {
    * Lava A52
    */
   public const val A52: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Lava A76Plus
-   */
-  public const val A76PLUS: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Lava A77
@@ -78,11 +73,6 @@ public object Lava {
   public const val IRIS51: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * LAVA iris53
-   */
-  public const val IRIS53: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * LAVA iris60
    */
   public const val IRIS60: String = "spec:width=480px,height=854px,dpi=240"
@@ -126,11 +116,6 @@ public object Lava {
    * LAVA iris88
    */
   public const val IRIS88: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * LAVA iris880
-   */
-  public const val IRIS880: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * LAVA iris88_go
@@ -320,17 +305,17 @@ public object Lava {
   /**
    * LAVA LXX501
    */
-  public const val LXX501: String = "spec:width=1080px,height=2160px,dpi=403"
+  public const val LXX501: String = "spec:width=1080px,height=2354px,dpi=480"
 
   /**
    * LAVA LXX503
    */
-  public const val LXX503: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val LXX503: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * LAVA LXX504
    */
-  public const val LXX504: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val LXX504: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * LAVA LXX505
@@ -393,9 +378,29 @@ public object Lava {
   public const val LXX518: String = "spec:width=1200px,height=2652px,dpi=520"
 
   /**
+   * LAVA LXX519
+   */
+  public const val LXX519: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * LAVA LXX521
+   */
+  public const val LXX521: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * LAVA LXX522
    */
   public const val LXX522: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * LAVA LXX523
+   */
+  public const val LXX523: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * LAVA LXX525
+   */
+  public const val LXX525: String = "spec:width=1220px,height=2712px,dpi=480"
 
   /**
    * Lava LZG01
@@ -443,9 +448,14 @@ public object Lava {
   public const val LZG410: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * LAVA LZG411
+   */
+  public const val LZG411: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * LAVA LZX403
    */
-  public const val LZX403: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val LZX403: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * LAVA LZX406
@@ -478,14 +488,14 @@ public object Lava {
   public const val LZX419: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * LAVA LZX421
+   */
+  public const val LZX421: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * LAVA Magnum_Pro
    */
   public const val MAGNUM_PRO: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Lava P7
-   */
-  public const val P7: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * LAVA R1_Lite
@@ -513,11 +523,6 @@ public object Lava {
   public const val T71_W: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * LAVA T71N
-   */
-  public const val T71N: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * LAVA T71N_M
    */
   public const val T71N_M: String = "spec:width=800px,height=1280px,dpi=160"
@@ -538,11 +543,6 @@ public object Lava {
   public const val T81N: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
-   * Lava V23GB
-   */
-  public const val V23GB: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Lava X10
    */
   public const val X10: String = "spec:width=720px,height=1280px,dpi=320"
@@ -551,11 +551,6 @@ public object Lava {
    * Lava X41_Plus
    */
   public const val X41_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Lava X50_Plus
-   */
-  public const val X50_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Lava X81

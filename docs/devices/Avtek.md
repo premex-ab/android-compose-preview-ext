@@ -1,9 +1,10 @@
 # Avtek Devices
 
-Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.android.Avtek`
+Total: **2** devices. Import: `import se.premex.compose.preview.device.catalog.android.Avtek`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | MTK9679 | MTK9679 | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Avtek.MTK9679)` |
+| rk3576_u | RK3576_U | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Avtek.RK3576_U)` |
 
 <!-- Generated automatically. Do not edit manually. -->

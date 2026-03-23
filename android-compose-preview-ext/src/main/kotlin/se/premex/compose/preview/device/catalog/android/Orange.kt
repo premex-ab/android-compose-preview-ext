@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=59
+// Generated manufacturer device catalog. Devices=56
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for orange (59 models).
+ * Device specifications for Orange (56 models).
  */
 public object Orange {
-  /**
-   * orange 820Mini
-   */
-  public const val _820MINI: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * Orange Alto45
    */
@@ -31,16 +26,6 @@ public object Orange {
    * orange C5303
    */
   public const val C5303: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * orange California
-   */
-  public const val CALIFORNIA: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * orange D2005
-   */
-  public const val D2005: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * orange D2303
@@ -73,6 +58,11 @@ public object Orange {
   public const val DV8555_KPO: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * Orange DV9651-KPO
+   */
+  public const val DV9651_KPO: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
    * orange HS8937QCs
    */
   public const val HS8937QCS: String = "spec:width=720px,height=1280px,dpi=320"
@@ -98,11 +88,6 @@ public object Orange {
   public const val HWT1A21L: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * orange idol3
-   */
-  public const val IDOL3: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * orange idol4
    */
   public const val IDOL4: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -116,6 +101,11 @@ public object Orange {
    * Orange Luno
    */
   public const val LUNO: String = "spec:width=480px,height=800px,dpi=240"
+
+  /**
+   * Orange m377_opl
+   */
+  public const val M377_OPL: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * Orange m393vsb_osp
@@ -208,6 +198,11 @@ public object Orange {
   public const val ORANGE_RISE32: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
+   * Orange Orange-V652L
+   */
+  public const val ORANGE_V652L: String = "spec:width=576px,height=1280px,dpi=240"
+
+  /**
    * Orange Orange_Dive_71
    */
   public const val ORANGE_DIVE_71: String = "spec:width=720px,height=1280px,dpi=320"
@@ -216,11 +211,6 @@ public object Orange {
    * Orange Orange_Neva_80
    */
   public const val ORANGE_NEVA_80: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * Orange Orange_Sego
-   */
-  public const val ORANGE_SEGO: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Orange P635E40
@@ -291,11 +281,6 @@ public object Orange {
    * orange SGP321
    */
   public const val SGP321: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * Orange Vec4G
-   */
-  public const val VEC4G: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Orange Yaris35_GSM

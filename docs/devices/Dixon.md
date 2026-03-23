@@ -1,6 +1,6 @@
 # Dixon Devices
 
-Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dixon`
+Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dixon`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -9,7 +9,6 @@ Total: **16** devices. Import: `import se.premex.compose.preview.device.catalog.
 | DN6015 | DN6015 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Dixon.DN6015)` |
 | DN6023D | DN6023D | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Dixon.DN6023D)` |
 | DN6901 | DN6901 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Dixon.DN6901)` |
-| KT5512 | KT5512 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Dixon.KT5512)` |
 | L-5 | L_5 | 442x960 | 240 | `spec:width=442px,height=960px,dpi=240` | `@Preview(device = Dixon.L_5)` |
 | L1 | L1 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Dixon.L1)` |
 | S5790 | S5790 | 720x1520 | 300 | `spec:width=720px,height=1520px,dpi=300` | `@Preview(device = Dixon.S5790)` |

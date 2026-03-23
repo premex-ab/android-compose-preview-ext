@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Win (6 models).
+ * Device specifications for WIN (4 models).
  */
 public object Win {
   /**
@@ -21,16 +21,6 @@ public object Win {
    * Win M5plus
    */
   public const val M5PLUS: String = "spec:width=720px,height=1280px,dpi=300"
-
-  /**
-   * Win N4
-   */
-  public const val N4: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Win N4plus
-   */
-  public const val N4PLUS: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Win Q9

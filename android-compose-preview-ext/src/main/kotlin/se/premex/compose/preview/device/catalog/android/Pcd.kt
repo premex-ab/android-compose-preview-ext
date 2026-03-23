@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=19
+// Generated manufacturer device catalog. Devices=18
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PCD (19 models).
+ * Device specifications for PCD (18 models).
  */
 public object Pcd {
   /**
    * PCD Bengal_Max_iW
    */
   public const val BENGAL_MAX_IW: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * PCD C58_ARG
+   */
+  public const val C58_ARG: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * PCD P40
@@ -58,14 +63,14 @@ public object Pcd {
   public const val P63L_PR: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
-   * PCD P65
-   */
-  public const val P65: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
    * PCD P65_CA
    */
   public const val P65_CA: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * PCD P65L
+   */
+  public const val P65L: String = "spec:width=576px,height=1280px,dpi=260"
 
   /**
    * PCD PH4003
@@ -76,16 +81,6 @@ public object Pcd {
    * PCD PH4003GO
    */
   public const val PH4003GO: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * PCD PH5003
-   */
-  public const val PH5003: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * PCD PH5003_Go
-   */
-  public const val PH5003_GO: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * PCD PL550

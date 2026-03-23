@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=18
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ZONKO (17 models).
+ * Device specifications for ZONKO (18 models).
  */
 public object Zonko {
   /**
    * ZONKO D105
    */
   public const val D105: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * ZONKO D105_EEA
+   */
+  public const val D105_EEA: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * ZONKO D106

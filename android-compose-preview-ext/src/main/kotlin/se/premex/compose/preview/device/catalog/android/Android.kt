@@ -8,9 +8,9 @@ import kotlin.String
  */
 public object Android {
   /**
-   * Android nanopc-t4
+   * Android m201
    */
-  public const val NANOPC_T4: String = "spec:width=720px,height=1200px,dpi=260"
+  public const val M201: String = "spec:width=720px,height=1280px,dpi=160"
 
   /**
    * Android rk322x_box

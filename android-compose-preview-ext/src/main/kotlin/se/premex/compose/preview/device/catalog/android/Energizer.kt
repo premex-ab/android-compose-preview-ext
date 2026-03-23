@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Energizer (16 models).
+ * Device specifications for Energizer (17 models).
  */
 public object Energizer {
   /**
@@ -58,11 +58,6 @@ public object Energizer {
   public const val POWERMAXP600S: String = "spec:width=1080px,height=2160px,dpi=480"
 
   /**
-   * Energizer S550
-   */
-  public const val S550: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Energizer U505S
    */
   public const val U505S: String = "spec:width=480px,height=854px,dpi=200"
@@ -81,6 +76,16 @@ public object Energizer {
    * Energizer U652S
    */
   public const val U652S: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Energizer U652S_PLUS
+   */
+  public const val U652S_PLUS: String = "spec:width=576px,height=1280px,dpi=240"
+
+  /**
+   * Energizer U683S
+   */
+  public const val U683S: String = "spec:width=720px,height=1640px,dpi=280"
 
   /**
    * ENERGIZER Ultimate_U710S

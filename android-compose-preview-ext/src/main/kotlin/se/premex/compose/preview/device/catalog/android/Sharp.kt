@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=128
+// Generated manufacturer device catalog. Devices=129
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SHARP (128 models).
+ * Device specifications for SHARP (129 models).
  */
 public object Sharp {
   /**
@@ -61,6 +61,11 @@ public object Sharp {
    * Sharp Cruze_Pro
    */
   public const val CRUZE_PRO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * SHARP dongnae
+   */
+  public const val DONGNAE: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * SHARP ebisu
@@ -213,6 +218,16 @@ public object Sharp {
   public const val LOCKON: String = "spec:width=1080px,height=2340px,dpi=420"
 
   /**
+   * SHARP Lyle
+   */
+  public const val LYLE: String = "spec:width=1080px,height=2340px,dpi=440"
+
+  /**
+   * SHARP maniatika
+   */
+  public const val MANIATIKA: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * SHARP martin
    */
   public const val MARTIN: String = "spec:width=720px,height=1280px,dpi=213"
@@ -326,11 +341,6 @@ public object Sharp {
    * Sharp SE3
    */
   public const val SE3: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Sharp SE3_TH
-   */
-  public const val SE3_TH: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Sharp SE3_VN
@@ -458,11 +468,6 @@ public object Sharp {
   public const val SH_Z20: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
-   * SHARP SH825Wi
-   */
-  public const val SH825WI: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * SHARP SH90B
    */
   public const val SH90B: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -506,6 +511,11 @@ public object Sharp {
    * SHARP SS2
    */
   public const val SS2: String = "spec:width=1080px,height=2040px,dpi=480"
+
+  /**
+   * SHARP ST4
+   */
+  public const val ST4: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * SHARP stanford
@@ -636,11 +646,6 @@ public object Sharp {
    * SHARP VGO
    */
   public const val VGO: String = "spec:width=1080px,height=2160px,dpi=420"
-
-  /**
-   * SHARP VN3N
-   */
-  public const val VN3N: String = "spec:width=1440px,height=2560px,dpi=560"
 
   /**
    * SHARP VZJ

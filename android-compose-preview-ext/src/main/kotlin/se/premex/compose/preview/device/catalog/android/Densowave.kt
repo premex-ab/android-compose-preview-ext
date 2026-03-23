@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DENSOWAVE (13 models).
+ * Device specifications for DENSOWAVE (12 models).
  */
 public object Densowave {
   /**
@@ -46,11 +46,6 @@ public object Densowave {
    * DENSOWAVE BHT-M60-QW-A10
    */
   public const val BHT_M60_QW_A10: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * DENSOWAVE BHT-M60-QWG-A10
-   */
-  public const val BHT_M60_QWG_A10: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * DENSOWAVE BHT-M70-QW-A10

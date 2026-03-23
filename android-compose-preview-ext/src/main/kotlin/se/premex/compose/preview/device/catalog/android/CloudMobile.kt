@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Cloud_Mobile (3 models).
+ * Device specifications for Cloud_Mobile (4 models).
  */
 public object CloudMobile {
+  /**
+   * Cloud_Mobile MC8B654B
+   */
+  public const val MC8B654B: String = "spec:width=720px,height=1612px,dpi=260"
+
   /**
    * Cloud_Mobile Stratus_C7
    */

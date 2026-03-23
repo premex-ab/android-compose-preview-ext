@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DGTEC (5 models).
+ * Device specifications for DGTEC (6 models).
  */
 public object Dgtec {
+  /**
+   * DGTEC 11_inch_tablet
+   */
+  public const val _11_INCH_TABLET: String = "spec:width=800px,height=1280px,dpi=160"
+
   /**
    * Dgtec DG101HSTB
    */

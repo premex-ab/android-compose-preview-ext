@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=32
+// Generated manufacturer device catalog. Devices=31
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Masstel (32 models).
+ * Device specifications for Masstel (31 models).
  */
 public object Masstel {
-  /**
-   * Masstel 3G_Tablet_PC
-   */
-  public const val _3G_TABLET_PC: String = "spec:width=600px,height=1024px,dpi=160"
-
   /**
    * Masstel Masstel_Hapi_15
    */
@@ -56,11 +51,6 @@ public object Masstel {
    * Masstel Masstel_Tab11_Pro_4G
    */
   public const val MASSTEL_TAB11_PRO_4G: String = "spec:width=1200px,height=1920px,dpi=280"
-
-  /**
-   * Masstel Masstel_Tab8
-   */
-  public const val MASSTEL_TAB8: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * Masstel Masstel_Tab8_4G
@@ -136,6 +126,11 @@ public object Masstel {
    * Masstel Tab10Ultra
    */
   public const val TAB10ULTRA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Masstel Tab11_Ultra_4G
+   */
+  public const val TAB11_ULTRA_4G: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * Masstel Tab7Plus

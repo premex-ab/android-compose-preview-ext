@@ -10,5 +10,5 @@ public object AtilimMpad {
   /**
    * ATILIM_mPAD ATILIM_mPAD07
    */
-  public const val ATILIM_MPAD07: String = "spec:width=1200px,height=1920px,dpi=240"
+  public const val ATILIM_MPAD07: String = "spec:width=1072px,height=1448px,dpi=240"
 }

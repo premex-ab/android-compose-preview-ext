@@ -1,10 +1,9 @@
 # Nokia Devices
 
-Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nokia`
+Total: **137** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nokia`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| A1N | A1N | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Nokia.A1N)` |
 | A1N_sprout | A1N_SPROUT | 1440x2560 | 560 | `spec:width=1440px,height=2560px,dpi=560` | `@Preview(device = Nokia.A1N_SPROUT)` |
 | AGT | AGT | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Nokia.AGT)` |
 | AGTA | AGTA | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Nokia.AGTA)` |

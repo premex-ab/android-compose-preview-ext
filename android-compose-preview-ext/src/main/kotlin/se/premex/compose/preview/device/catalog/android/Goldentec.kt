@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Goldentec (3 models).
+ * Device specifications for Goldentec (4 models).
  */
 public object Goldentec {
   /**
    * Goldentec GT_METAL_TAB10
    */
   public const val GT_METAL_TAB10: String = "spec:width=800px,height=1280px,dpi=200"
+
+  /**
+   * Goldentec GT_Tab
+   */
+  public const val GT_TAB: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Goldentec GT_TAB10

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VALE (5 models).
+ * Device specifications for VALE (7 models).
  */
 public object Vale {
+  /**
+   * VALE V10A
+   */
+  public const val V10A: String = "spec:width=800px,height=1280px,dpi=160"
+
   /**
    * VALE V10A-4128
    */
@@ -16,6 +21,11 @@ public object Vale {
    * VALE V10E-LTE
    */
   public const val V10E_LTE: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * VALE V10E_LTE_464
+   */
+  public const val V10E_LTE_464: String = "spec:width=800px,height=1280px,dpi=200"
 
   /**
    * VALE V11E_LTE_4128

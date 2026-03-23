@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for alps (2 models).
+ * Device specifications for alps (1 models).
  */
 public object Alps {
-  /**
-   * alps 8227L_demo
-   */
-  public const val _8227L_DEMO: String = "spec:width=600px,height=1024px,dpi=160"
-
   /**
    * alps hct77_jb
    */

@@ -1,6 +1,6 @@
 # Hiking Devices
 
-Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hiking`
+Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hiking`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -19,6 +19,7 @@ Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.
 | A44 | A44 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Hiking.A44)` |
 | A45 | A45 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hiking.A45)` |
 | A46 | A46 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Hiking.A46)` |
+| A49 | A49 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hiking.A49)` |
 | A51 | A51 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Hiking.A51)` |
 | A55 | A55 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hiking.A55)` |
 | KIDS_1 | KIDS_1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hiking.KIDS_1)` |

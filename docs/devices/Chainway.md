@@ -1,9 +1,10 @@
 # Chainway Devices
 
-Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.android.Chainway`
+Total: **12** devices. Import: `import se.premex.compose.preview.device.catalog.android.Chainway`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| C5 | C5 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Chainway.C5)` |
 | C6000 | C6000 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Chainway.C6000)` |
 | C61P | C61P | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Chainway.C61P)` |
 | C66 | C66 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Chainway.C66)` |

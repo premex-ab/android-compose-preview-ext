@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=20
+// Generated manufacturer device catalog. Devices=21
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HiKING (20 models).
+ * Device specifications for HiKING (21 models).
  */
 public object Hiking {
   /**
@@ -81,6 +81,11 @@ public object Hiking {
    * HiKING A46
    */
   public const val A46: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * HIKING A49
+   */
+  public const val A49: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * HiKING A51

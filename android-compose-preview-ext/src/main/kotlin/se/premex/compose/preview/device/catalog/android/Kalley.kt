@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=28
+// Generated manufacturer device catalog. Devices=32
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Kalley (28 models).
+ * Device specifications for Kalley (32 models).
  */
 public object Kalley {
   /**
@@ -28,6 +28,11 @@ public object Kalley {
   public const val BLACK_5: String = "spec:width=720px,height=1612px,dpi=280"
 
   /**
+   * Kalley Black_6C
+   */
+  public const val BLACK_6C: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * Kalley Black_C_Plus
    */
   public const val BLACK_C_PLUS: String = "spec:width=720px,height=1600px,dpi=320"
@@ -38,6 +43,11 @@ public object Kalley {
   public const val BLACK_E: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * Kalley Black_E2
+   */
+  public const val BLACK_E2: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * Kalley Black_G
    */
   public const val BLACK_G: String = "spec:width=720px,height=1600px,dpi=320"
@@ -46,6 +56,11 @@ public object Kalley {
    * Kalley Black_G3
    */
   public const val BLACK_G3: String = "spec:width=720px,height=1612px,dpi=280"
+
+  /**
+   * Kalley Black_G4
+   */
+  public const val BLACK_G4: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Kalley Black_G_2
@@ -66,6 +81,11 @@ public object Kalley {
    * Kalley Black_Z
    */
   public const val BLACK_Z: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Kalley Black_Z2
+   */
+  public const val BLACK_Z2: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * Kalley Element_5

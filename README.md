@@ -9,7 +9,7 @@ Super‑charge your Jetpack Compose previews with production‑grade device spec
 > Stop eyeballing layouts on a single Pixel. Catch density, width/height & aspect issues instantly – before they ship.
 
 <!-- SUPPORTED_DEVICE_STATS_START -->
-Total devices: **24282** across **2668** manufacturers. See the full list: [Supported Devices](docs/devices/README.md).
+Total devices: **24633** across **2691** manufacturers. See the full list: [Supported Devices](docs/devices/README.md).
 <!-- SUPPORTED_DEVICE_STATS_END -->
 
 ## Why this exists

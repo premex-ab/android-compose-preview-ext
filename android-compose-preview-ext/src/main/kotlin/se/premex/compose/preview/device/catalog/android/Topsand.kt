@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Topsand (6 models).
+ * Device specifications for Topsand (7 models).
  */
 public object Topsand {
   /**
    * TOPSAND G12_A14
    */
   public const val G12_A14: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * TOPSAND G12_Pro
+   */
+  public const val G12_PRO: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * TOPSAND M8_U

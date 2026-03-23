@@ -8,6 +8,11 @@ import kotlin.String
  */
 public object Hoozo {
   /**
+   * HOOZO AL-13
+   */
+  public const val AL_13: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * HOOZO F13
    */
   public const val F13: String = "spec:width=800px,height=1280px,dpi=160"
@@ -61,11 +66,6 @@ public object Hoozo {
    * HOOZO MID
    */
   public const val MID: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Hoozo MR768
-   */
-  public const val MR768: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * HOOZO MZ10863W

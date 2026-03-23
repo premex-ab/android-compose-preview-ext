@@ -20,5 +20,5 @@ public object Ehlel {
   /**
    * Ehlel Ehlel_Defender_D23
    */
-  public const val EHLEL_DEFENDER_D23: String = "spec:width=720px,height=1520px,dpi=320"
+  public const val EHLEL_DEFENDER_D23: String = "spec:width=1080px,height=1920px,dpi=280"
 }

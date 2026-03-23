@@ -1,6 +1,6 @@
 # Mintt Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mintt`
+Total: **28** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mintt`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,10 +12,14 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | COOLMINTT_RIVAL_3 | COOLMINTT_RIVAL_3 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Mintt.COOLMINTT_RIVAL_3)` |
 | COOLMINTT_X7 | COOLMINTT_X7 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Mintt.COOLMINTT_X7)` |
 | COOLMINTT_X9 | COOLMINTT_X9 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Mintt.COOLMINTT_X9)` |
+| MINTT_ASPIRE_X9 | MINTT_ASPIRE_X9 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Mintt.MINTT_ASPIRE_X9)` |
 | MINTT_DIGI_2 | MINTT_DIGI_2 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Mintt.MINTT_DIGI_2)` |
 | Mintt_M3 | MINTT_M3 | 720x1560 | 300 | `spec:width=720px,height=1560px,dpi=300` | `@Preview(device = Mintt.MINTT_M3)` |
 | MINTT_M5 | MINTT_M5 | 480x960 | 220 | `spec:width=480px,height=960px,dpi=220` | `@Preview(device = Mintt.MINTT_M5)` |
+| MINTT_PRIME_S11 | MINTT_PRIME_S11 | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Mintt.MINTT_PRIME_S11)` |
 | MINTT_T11 | MINTT_T11 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mintt.MINTT_T11)` |
+| Mintt_T11_SE | MINTT_T11_SE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mintt.MINTT_T11_SE)` |
+| Mintt_T3_SE | MINTT_T3_SE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mintt.MINTT_T3_SE)` |
 | MinttPoro | MINTTPORO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Mintt.MINTTPORO)` |
 | P25 | P25 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Mintt.P25)` |
 | P25_PLUS | P25_PLUS | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Mintt.P25_PLUS)` |

@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Beeline (3 models).
+ * Device specifications for Beeline (2 models).
  */
 public object Beeline {
-  /**
-   * Beeline Beeline_Pro_6
-   */
-  public const val BEELINE_PRO_6: String = "spec:width=480px,height=854px,dpi=240"
-
   /**
    * Beeline SWG2001A
    */

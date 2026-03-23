@@ -10,5 +10,5 @@ public object Joyar {
   /**
    * joyar joyar_mid
    */
-  public const val JOYAR_MID: String = "spec:width=1200px,height=1920px,dpi=240"
+  public const val JOYAR_MID: String = "spec:width=800px,height=1280px,dpi=240"
 }

@@ -24,7 +24,7 @@ class UsageExamplesTest {
         val zebraDevices = PreviewGroups.getZebraDevices()
         
         // Should contain all 76 Zebra devices
-        assertEquals(76, zebraDevices.size)
+        assertEquals(79, zebraDevices.size)
         
         // All should be proper device specifications
         zebraDevices.forEach { device ->
@@ -52,7 +52,7 @@ class UsageExamplesTest {
         val zebraByNameCaps = PreviewGroups.getDevicesForBrand("ZEBRA")
         val unknownBrand = PreviewGroups.getDevicesForBrand("unknown")
         
-        assertEquals(76, zebraByName.size)
+        assertEquals(79, zebraByName.size)
         assertEquals(zebraByName, zebraByNameCaps) // Case insensitive
         assertTrue(unknownBrand.isEmpty()) // Unknown brand returns empty
     }

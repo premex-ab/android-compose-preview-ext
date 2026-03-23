@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Prism (2 models).
+ * Device specifications for Prism (4 models).
  */
 public object Prism {
+  /**
+   * PRISM alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * PRISM dangni
+   */
+  public const val DANGNI: String = "spec:width=720px,height=1280px,dpi=213"
+
   /**
    * Prism longshan
    */

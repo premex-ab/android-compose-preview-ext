@@ -1,6 +1,6 @@
 # Realme Devices
 
-Total: **257** devices. Import: `import se.premex.compose.preview.device.catalog.android.Realme`
+Total: **269** devices. Import: `import se.premex.compose.preview.device.catalog.android.Realme`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -31,7 +31,7 @@ Total: **257** devices. Import: `import se.premex.compose.preview.device.catalog
 | RE54ABL1 | RE54ABL1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RE54ABL1)` |
 | RE54B4L1 | RE54B4L1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Realme.RE54B4L1)` |
 | RE54BFL1 | RE54BFL1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Realme.RE54BFL1)` |
-| RE54C1L1 | RE54C1L1 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Realme.RE54C1L1)` |
+| RE54C1L1 | RE54C1L1 | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Realme.RE54C1L1)` |
 | RE54CBL1 | RE54CBL1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Realme.RE54CBL1)` |
 | RE54D1 | RE54D1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RE54D1)` |
 | RE54D8L1 | RE54D8L1 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Realme.RE54D8L1)` |
@@ -104,6 +104,8 @@ Total: **257** devices. Import: `import se.premex.compose.preview.device.catalog
 | RE602AL1 | RE602AL1 | 1264x2780 | 560 | `spec:width=1264px,height=2780px,dpi=560` | `@Preview(device = Realme.RE602AL1)` |
 | RE602CL1 | RE602CL1 | 1264x2780 | 560 | `spec:width=1264px,height=2780px,dpi=560` | `@Preview(device = Realme.RE602CL1)` |
 | RE602EL1 | RE602EL1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Realme.RE602EL1)` |
+| RE6030L1 | RE6030L1 | 1440x3136 | 640 | `spec:width=1440px,height=3136px,dpi=640` | `@Preview(device = Realme.RE6030L1)` |
+| RE6031L1 | RE6031L1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Realme.RE6031L1)` |
 | RE6054 | RE6054 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RE6054)` |
 | RE605FL1 | RE605FL1 | 1264x2780 | 560 | `spec:width=1264px,height=2780px,dpi=560` | `@Preview(device = Realme.RE605FL1)` |
 | RE6063L1 | RE6063L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RE6063L1)` |
@@ -127,8 +129,18 @@ Total: **257** devices. Import: `import se.premex.compose.preview.device.catalog
 | RE60B4L1 | RE60B4L1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Realme.RE60B4L1)` |
 | RE60B8 | RE60B8 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Realme.RE60B8)` |
 | RE60BA | RE60BA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RE60BA)` |
+| RE60C8L1 | RE60C8L1 | 1440x3136 | 640 | `spec:width=1440px,height=3136px,dpi=640` | `@Preview(device = Realme.RE60C8L1)` |
 | RE60CCL1 | RE60CCL1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Realme.RE60CCL1)` |
 | RE60CDL1 | RE60CDL1 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Realme.RE60CDL1)` |
+| RE6400L1 | RE6400L1 | 1440x3136 | 640 | `spec:width=1440px,height=3136px,dpi=640` | `@Preview(device = Realme.RE6400L1)` |
+| RE6404L1 | RE6404L1 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Realme.RE6404L1)` |
+| RE6440L1 | RE6440L1 | 1080x2392 | 480 | `spec:width=1080px,height=2392px,dpi=480` | `@Preview(device = Realme.RE6440L1)` |
+| RE6441L1 | RE6441L1 | 1080x2344 | 480 | `spec:width=1080px,height=2344px,dpi=480` | `@Preview(device = Realme.RE6441L1)` |
+| RE6444L1 | RE6444L1 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Realme.RE6444L1)` |
+| RE644BL1 | RE644BL1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Realme.RE644BL1)` |
+| RE644C | RE644C | 720x1570 | 320 | `spec:width=720px,height=1570px,dpi=320` | `@Preview(device = Realme.RE644C)` |
+| RE6450L1 | RE6450L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RE6450L1)` |
+| RE645F | RE645F | 720x1570 | 320 | `spec:width=720px,height=1570px,dpi=320` | `@Preview(device = Realme.RE645F)` |
 | RE811C | RE811C | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RE811C)` |
 | RE873B | RE873B | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Realme.RE873B)` |
 | RE873D | RE873D | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Realme.RE873D)` |
@@ -231,7 +243,7 @@ Total: **257** devices. Import: `import se.premex.compose.preview.device.catalog
 | RMX2193 | RMX2193 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RMX2193)` |
 | RMX2195L1 | RMX2195L1 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RMX2195L1)` |
 | RMX2200CN | RMX2200CN | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RMX2200CN)` |
-| RMX2201CN | RMX2201CN | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Realme.RMX2201CN)` |
+| RMX2201CN | RMX2201CN | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Realme.RMX2201CN)` |
 | RMX2202CN | RMX2202CN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RMX2202CN)` |
 | RMX2202L1 | RMX2202L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RMX2202L1)` |
 | RMX2205CN | RMX2205CN | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Realme.RMX2205CN)` |

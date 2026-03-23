@@ -1,23 +1,18 @@
 # Bmobile Devices
 
-Total: **106** devices. Import: `import se.premex.compose.preview.device.catalog.android.Bmobile`
+Total: **96** devices. Import: `import se.premex.compose.preview.device.catalog.android.Bmobile`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | AX1073PLUSMV18 | AX1073PLUSMV18 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.AX1073PLUSMV18)` |
 | B55 | B55 | 442x960 | 213 | `spec:width=442px,height=960px,dpi=213` | `@Preview(device = Bmobile.B55)` |
 | B60Pro_MV03 | B60PRO_MV03 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Bmobile.B60PRO_MV03)` |
-| Bmobile_AX1016 | BMOBILE_AX1016 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1016)` |
 | Bmobile_AX1017_MV12 | BMOBILE_AX1017_MV12 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1017_MV12)` |
 | Bmobile_AX1017_TG05 | BMOBILE_AX1017_TG05 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1017_TG05)` |
-| Bmobile_AX1035 | BMOBILE_AX1035 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1035)` |
 | Bmobile_AX1065E | BMOBILE_AX1065E | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1065E)` |
-| Bmobile_AX1070 | BMOBILE_AX1070 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1070)` |
-| Bmobile_AX1073 | BMOBILE_AX1073 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1073)` |
 | Bmobile_AX1073Plus | BMOBILE_AX1073PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1073PLUS)` |
 | Bmobile_AX1073PLUSW | BMOBILE_AX1073PLUSW | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1073PLUSW)` |
 | Bmobile_AX1074 | BMOBILE_AX1074 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1074)` |
-| Bmobile_AX1075 | BMOBILE_AX1075 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_AX1075)` |
 | Bmobile_AX1076P_MV03 | BMOBILE_AX1076P_MV03 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1076P_MV03)` |
 | Bmobile_AX1076P_MV05 | BMOBILE_AX1076P_MV05 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1076P_MV05)` |
 | Bmobile_AX1076P_MV12 | BMOBILE_AX1076P_MV12 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1076P_MV12)` |
@@ -32,32 +27,24 @@ Total: **106** devices. Import: `import se.premex.compose.preview.device.catalog
 | Bmobile_AX1078_TG07 | BMOBILE_AX1078_TG07 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1078_TG07)` |
 | Bmobile_AX1078_TG07B | BMOBILE_AX1078_TG07B | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1078_TG07B)` |
 | Bmobile_AX1082 | BMOBILE_AX1082 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1082)` |
-| Bmobile_AX1082_MV15 | BMOBILE_AX1082_MV15 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX1082_MV15)` |
 | Bmobile_AX680_ | BMOBILE_AX680 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX680)` |
 | Bmobile_AX681 | BMOBILE_AX681 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX681)` |
-| Bmobile_AX683 | BMOBILE_AX683 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX683)` |
-| Bmobile_AX685 | BMOBILE_AX685 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX685)` |
 | Bmobile_AX687 | BMOBILE_AX687 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX687)` |
 | Bmobile_AX687_MV03 | BMOBILE_AX687_MV03 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX687_MV03)` |
 | Bmobile_AX688 | BMOBILE_AX688 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX688)` |
-| Bmobile_AX715 | BMOBILE_AX715 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX715)` |
 | Bmobile_AX751 | BMOBILE_AX751 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX751)` |
 | Bmobile_AX751_PLUS | BMOBILE_AX751_PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX751_PLUS)` |
 | Bmobile_AX754 | BMOBILE_AX754 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX754)` |
 | Bmobile_AX754PLUS | BMOBILE_AX754PLUS | 540x960 | 260 | `spec:width=540px,height=960px,dpi=260` | `@Preview(device = Bmobile.BMOBILE_AX754PLUS)` |
 | Bmobile_AX820 | BMOBILE_AX820 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX820)` |
 | Bmobile_AX821 | BMOBILE_AX821 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX821)` |
-| Bmobile_AX823 | BMOBILE_AX823 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX823)` |
 | Bmobile_AX824_MV03 | BMOBILE_AX824_MV03 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX824_MV03)` |
-| Bmobile_AX824A | BMOBILE_AX824A | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX824A)` |
 | Bmobile_AX824PLUS_MV03 | BMOBILE_AX824PLUS_MV03 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX824PLUS_MV03)` |
 | Bmobile_AX824Plus_MV15 | BMOBILE_AX824PLUS_MV15 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX824PLUS_MV15)` |
-| Bmobile_AX825 | BMOBILE_AX825 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX825)` |
 | Bmobile_AX830 | BMOBILE_AX830 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX830)` |
 | Bmobile_AX905 | BMOBILE_AX905 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX905)` |
 | Bmobile_AX920 | BMOBILE_AX920 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_AX920)` |
 | Bmobile_AX921 | BMOBILE_AX921 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_AX921)` |
-| Bmobile_AX951 | BMOBILE_AX951 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX951)` |
 | Bmobile_AX960_MV03 | BMOBILE_AX960_MV03 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX960_MV03)` |
 | Bmobile_AX960_MV15 | BMOBILE_AX960_MV15 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_AX960_MV15)` |
 | Bmobile_B50 | BMOBILE_B50 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_B50)` |
@@ -106,9 +93,12 @@ Total: **106** devices. Import: `import se.premex.compose.preview.device.catalog
 | Bmobile_NOVUS65_TG07 | BMOBILE_NOVUS65_TG07 | 576x1280 | 260 | `spec:width=576px,height=1280px,dpi=260` | `@Preview(device = Bmobile.BMOBILE_NOVUS65_TG07)` |
 | Bmobile_Novus_65 | BMOBILE_NOVUS_65 | 576x1280 | 260 | `spec:width=576px,height=1280px,dpi=260` | `@Preview(device = Bmobile.BMOBILE_NOVUS_65)` |
 | Bmobile_Novus_65_MV03 | BMOBILE_NOVUS_65_MV03 | 576x1280 | 260 | `spec:width=576px,height=1280px,dpi=260` | `@Preview(device = Bmobile.BMOBILE_NOVUS_65_MV03)` |
+| Bmobile_ORION_TG05 | BMOBILE_ORION_TG05 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_ORION_TG05)` |
+| Bmobile_ORION_TG07 | BMOBILE_ORION_TG07 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_ORION_TG07)` |
 | Bmobile_T70 | BMOBILE_T70 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Bmobile.BMOBILE_T70)` |
 | Bmobile_ULTRA | BMOBILE_ULTRA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_ULTRA)` |
 | Bmobile_ULTRA_S_MV03 | BMOBILE_ULTRA_S_MV03 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Bmobile.BMOBILE_ULTRA_S_MV03)` |
+| Bmobile_VENUS_TG05 | BMOBILE_VENUS_TG05 | 576x1280 | 240 | `spec:width=576px,height=1280px,dpi=240` | `@Preview(device = Bmobile.BMOBILE_VENUS_TG05)` |
 | ULTRA_S | ULTRA_S | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Bmobile.ULTRA_S)` |
 
 <!-- Generated automatically. Do not edit manually. -->

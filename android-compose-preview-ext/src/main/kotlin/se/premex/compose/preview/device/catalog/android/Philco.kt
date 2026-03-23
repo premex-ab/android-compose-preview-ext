@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=32
+// Generated manufacturer device catalog. Devices=33
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for PHILCO (32 models).
+ * Device specifications for PHILCO (33 models).
  */
 public object Philco {
   /**
@@ -138,14 +138,14 @@ public object Philco {
   public const val TP10A332: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * PHILCO TP10A3N
-   */
-  public const val TP10A3N: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * PHILCO TP10A464
    */
   public const val TP10A464: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * PHILCO TP10A464D
+   */
+  public const val TP10A464D: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * PHILCO TP10F
@@ -156,6 +156,11 @@ public object Philco {
    * PHILCO TP7A464
    */
   public const val TP7A464: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * PHILCO TP7A464D
+   */
+  public const val TP7A464D: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * PHILCO TP7A4N

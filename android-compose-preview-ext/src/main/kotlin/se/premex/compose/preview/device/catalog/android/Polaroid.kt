@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=47
+// Generated manufacturer device catalog. Devices=40
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Polaroid (47 models).
+ * Device specifications for Polaroid (40 models).
  */
 public object Polaroid {
-  /**
-   * Polaroid A1000
-   */
-  public const val A1000: String = "spec:width=600px,height=1024px,dpi=160"
-
   /**
    * Polaroid bangbae
    */
@@ -36,11 +31,6 @@ public object Polaroid {
    * Polaroid BDLE716_EEA
    */
   public const val BDLE716_EEA: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Polaroid BDLE716PR
-   */
-  public const val BDLE716PR: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Polaroid BDLT107
@@ -83,11 +73,6 @@ public object Polaroid {
   public const val L10: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * Polaroid L9
-   */
-  public const val L9: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Polaroid lasalle
    */
   public const val LASALLE: String = "spec:width=720px,height=1280px,dpi=213"
@@ -110,17 +95,12 @@ public object Polaroid {
   /**
    * POLAROID MID4G64PR002
    */
-  public const val MID4G64PR002: String = "spec:width=800px,height=1280px,dpi=213"
+  public const val MID4G64PR002: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
-   * Polaroid MID8254PR
+   * Polaroid midcb232pr
    */
-  public const val MID8254PR: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * POLAROID MIDS2410PR001
-   */
-  public const val MIDS2410PR001: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val MIDCB232PR: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Polaroid Mobility3G
@@ -143,11 +123,6 @@ public object Polaroid {
   public const val P5026A: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
-   * Polaroid P5046A
-   */
-  public const val P5046A: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Polaroid P5047A
    */
   public const val P5047A: String = "spec:width=720px,height=1280px,dpi=320"
@@ -156,6 +131,11 @@ public object Polaroid {
    * Polaroid P5526A
    */
   public const val P5526A: String = "spec:width=480px,height=854px,dpi=240"
+
+  /**
+   * Polaroid P902
+   */
+  public const val P902: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Polaroid PMID7102DC
@@ -188,11 +168,6 @@ public object Polaroid {
   public const val PSPCK20NA: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
-   * Polaroid PSPCK21NA
-   */
-  public const val PSPCK21NA: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * Polaroid PSPCL20A0
    */
   public const val PSPCL20A0: String = "spec:width=480px,height=854px,dpi=213"
@@ -206,16 +181,6 @@ public object Polaroid {
    * Polaroid PSPCM20A0
    */
   public const val PSPCM20A0: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Polaroid PSPCZ20A0
-   */
-  public const val PSPCZ20A0: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Polaroid PSPTD21NA
-   */
-  public const val PSPTD21NA: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * POLAROID R1

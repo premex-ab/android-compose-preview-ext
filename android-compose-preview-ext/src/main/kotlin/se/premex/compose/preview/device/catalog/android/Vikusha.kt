@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VIKUSHA (9 models).
+ * Device specifications for VIKUSHA (10 models).
  */
 public object Vikusha {
   /**
@@ -36,6 +36,11 @@ public object Vikusha {
    * VIKUSHA V-Z80Plus
    */
   public const val V_Z80PLUS: String = "spec:width=1200px,height=2000px,dpi=252"
+
+  /**
+   * VIKUSHA V_M1
+   */
+  public const val V_M1: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * VIKUSHA VZ-1

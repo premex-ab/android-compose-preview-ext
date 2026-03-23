@@ -38,6 +38,11 @@ public object Tesla {
   public const val MARTIN: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
+   * Tesla sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * Tesla shinagawa
    */
   public const val SHINAGAWA: String = "spec:width=720px,height=1280px,dpi=213"
@@ -61,11 +66,6 @@ public object Tesla {
    * Tesla Tesla_L8_2
    */
   public const val TESLA_L8_2: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Tesla Tesla_SP3_3
-   */
-  public const val TESLA_SP3_3: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Tesla Tesla_SP3_3Lite

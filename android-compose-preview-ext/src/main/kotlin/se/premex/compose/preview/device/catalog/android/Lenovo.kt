@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=363
+// Generated manufacturer device catalog. Devices=358
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Lenovo (363 models).
+ * Device specifications for Lenovo (358 models).
  */
 public object Lenovo {
   /**
@@ -25,7 +25,7 @@ public object Lenovo {
   /**
    * Lenovo 7305I
    */
-  public const val _7305I: String = "spec:width=360px,height=360px,dpi=160"
+  public const val _7305I: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Lenovo 7305X
@@ -228,6 +228,16 @@ public object Lenovo {
   public const val A369I: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
+   * Lenovo A3860
+   */
+  public const val A3860: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * Lenovo A401LV
+   */
+  public const val A401LV: String = "spec:width=1600px,height=2560px,dpi=320"
+
+  /**
    * Lenovo A5000
    */
   public const val A5000: String = "spec:width=720px,height=1280px,dpi=320"
@@ -241,11 +251,6 @@ public object Lenovo {
    * Lenovo A516_ROW
    */
   public const val A516_ROW: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Lenovo A526
-   */
-  public const val A526: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Lenovo A536
@@ -408,11 +413,6 @@ public object Lenovo {
   public const val A806: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Lenovo A850
-   */
-  public const val A850: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * Lenovo A850p
    */
   public const val A850P: String = "spec:width=540px,height=960px,dpi=240"
@@ -431,16 +431,6 @@ public object Lenovo {
    * Lenovo A916
    */
   public const val A916: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Lenovo A936
-   */
-  public const val A936: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Lenovo A938t
-   */
-  public const val A938T: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * LENOVO aio_3m_otfp_m
@@ -673,11 +663,6 @@ public object Lenovo {
   public const val K33B36: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Lenovo K33b37
-   */
-  public const val K33B37: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * Lenovo K350t
    */
   public const val K350T: String = "spec:width=720px,height=1440px,dpi=320"
@@ -723,11 +708,6 @@ public object Lenovo {
   public const val K5FP_M: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Lenovo K5S
-   */
-  public const val K5S: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * Lenovo K606F
    */
   public const val K606F: String = "spec:width=1350px,height=2160px,dpi=240"
@@ -741,11 +721,6 @@ public object Lenovo {
    * Lenovo K9
    */
   public const val K9: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Lenovo K900_ROW
-   */
-  public const val K900_ROW: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Lenovo kingdom_row
@@ -923,11 +898,6 @@ public object Lenovo {
   public const val PB2PRO: String = "spec:width=1440px,height=2560px,dpi=480"
 
   /**
-   * Lenovo pxa1L88H2
-   */
-  public const val PXA1L88H2: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * Lenovo Q706F
    */
   public const val Q706F: String = "spec:width=1600px,height=2560px,dpi=240"
@@ -1021,11 +991,6 @@ public object Lenovo {
    * Lenovo S920_ROW
    */
   public const val S920_ROW: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Lenovo S930_ROW
-   */
-  public const val S930_ROW: String = "spec:width=720px,height=1280px,dpi=240"
 
   /**
    * Lenovo S960
@@ -1373,6 +1338,11 @@ public object Lenovo {
   public const val TB305FU: String = "spec:width=800px,height=1340px,dpi=180"
 
   /**
+   * Lenovo TB305XU
+   */
+  public const val TB305XU: String = "spec:width=800px,height=1340px,dpi=180"
+
+  /**
    * Lenovo TB310FU
    */
   public const val TB310FU: String = "spec:width=800px,height=1340px,dpi=200"
@@ -1468,6 +1438,11 @@ public object Lenovo {
   public const val TB360ZU: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
+   * Lenovo TB361FU
+   */
+  public const val TB361FU: String = "spec:width=1600px,height=2560px,dpi=320"
+
+  /**
    * Lenovo TB370FU
    */
   public const val TB370FU: String = "spec:width=1840px,height=2944px,dpi=340"
@@ -1496,6 +1471,11 @@ public object Lenovo {
    * Lenovo TB570FU
    */
   public const val TB570FU: String = "spec:width=1876px,height=3000px,dpi=320"
+
+  /**
+   * Lenovo TB571FU
+   */
+  public const val TB571FU: String = "spec:width=1876px,height=3000px,dpi=320"
 
   /**
    * Lenovo TB7104F
@@ -1691,11 +1671,6 @@ public object Lenovo {
    * Lenovo X704V
    */
   public const val X704V: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * Lenovo X704Y
-   */
-  public const val X704Y: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * Lenovo X705F

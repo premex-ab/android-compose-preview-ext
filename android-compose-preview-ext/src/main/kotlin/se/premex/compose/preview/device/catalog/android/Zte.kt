@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=388
+// Generated manufacturer device catalog. Devices=389
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ZTE (388 models).
+ * Device specifications for ZTE (389 models).
  */
 public object Zte {
   /**
@@ -16,11 +16,6 @@ public object Zte {
    * ZTE achill
    */
   public const val ACHILL: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * ZTE ailsa
-   */
-  public const val AILSA: String = "spec:width=1440px,height=2560px,dpi=640"
 
   /**
    * ZTE ailsa_ii
@@ -46,11 +41,6 @@ public object Zte {
    * ZTE beam
    */
   public const val BEAM: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * ZTE benz
-   */
-  public const val BENZ: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * ZTE billy
@@ -313,11 +303,6 @@ public object Zte {
   public const val MSM8909: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * ZTE msm8916_32
-   */
-  public const val MSM8916_32: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * ZTE msm8916_64
    */
   public const val MSM8916_64: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -458,6 +443,11 @@ public object Zte {
   public const val P606F20: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * ZTE P606F20_A
+   */
+  public const val P606F20_A: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * ZTE P606F21
    */
   public const val P606F21: String = "spec:width=720px,height=1600px,dpi=320"
@@ -523,6 +513,11 @@ public object Zte {
   public const val P616T03C: String = "spec:width=1200px,height=1920px,dpi=360"
 
   /**
+   * ZTE P616T04C
+   */
+  public const val P616T04C: String = "spec:width=1200px,height=1920px,dpi=480"
+
+  /**
    * ZTE P618A01
    */
   public const val P618A01: String = "spec:width=1080px,height=2460px,dpi=480"
@@ -561,16 +556,6 @@ public object Zte {
    * ZTE P618T01C
    */
   public const val P618T01C: String = "spec:width=1200px,height=2000px,dpi=340"
-
-  /**
-   * ZTE P632A10
-   */
-  public const val P632A10: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * ZTE P632T31
-   */
-  public const val P632T31: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * ZTE P633F05
@@ -770,7 +755,7 @@ public object Zte {
   /**
    * ZTE P662F02_D1
    */
-  public const val P662F02_D1: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val P662F02_D1: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
    * ZTE P662F02_D2
@@ -795,7 +780,7 @@ public object Zte {
   /**
    * ZTE P671F20
    */
-  public const val P671F20: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val P671F20: String = "spec:width=1080px,height=2280px,dpi=480"
 
   /**
    * ZTE P671F20D
@@ -810,7 +795,7 @@ public object Zte {
   /**
    * ZTE P671F50_D
    */
-  public const val P671F50_D: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val P671F50_D: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
    * ZTE P671F60
@@ -886,6 +871,11 @@ public object Zte {
    * ZTE P720S11
    */
   public const val P720S11: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * ZTE P720T01
+   */
+  public const val P720T01: String = "spec:width=1200px,height=1920px,dpi=260"
 
   /**
    * ZTE P725A02
@@ -1110,7 +1100,7 @@ public object Zte {
   /**
    * ZTE P840S18
    */
-  public const val P840S18: String = "spec:width=720px,height=1440px,dpi=320"
+  public const val P840S18: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * ZTE P840T22
@@ -1488,11 +1478,6 @@ public object Zte {
   public const val T86: String = "spec:width=1080px,height=2160px,dpi=480"
 
   /**
-   * zte tom
-   */
-  public const val TOM: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * ZTE tulip
    */
   public const val TULIP: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -1555,7 +1540,7 @@ public object Zte {
   /**
    * ZTE YEV
    */
-  public const val YEV: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val YEV: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * ZTE YMA
@@ -1578,6 +1563,11 @@ public object Zte {
   public const val Z2339: String = "spec:width=480px,height=800px,dpi=220"
 
   /**
+   * ZTE Z2470C
+   */
+  public const val Z2470C: String = "spec:width=720px,height=1612px,dpi=270"
+
+  /**
    * ZTE Z3051T
    */
   public const val Z3051T: String = "spec:width=480px,height=960px,dpi=240"
@@ -1598,9 +1588,14 @@ public object Zte {
   public const val Z3101T: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
+   * ZTE Z3103O
+   */
+  public const val Z3103O: String = "spec:width=576px,height=1152px,dpi=240"
+
+  /**
    * ZTE Z3153
    */
-  public const val Z3153: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val Z3153: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * ZTE Z3351
@@ -1798,9 +1793,19 @@ public object Zte {
   public const val Z6750K: String = "spec:width=1080px,height=2340px,dpi=480"
 
   /**
+   * ZTE Z7306O
+   */
+  public const val Z7306O: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * ZTE Z7540
    */
   public const val Z7540: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * ZTE Z7602O
+   */
+  public const val Z7602O: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * ZTE Z7750R

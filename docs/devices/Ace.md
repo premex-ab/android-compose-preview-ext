@@ -6,7 +6,7 @@ Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.
 |------|----------|------------|-----|-------------|---------------|
 | AS0218 | AS0218 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ace.AS0218)` |
 | AS0518 | AS0518 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ace.AS0518)` |
-| AS0618 | AS0618 | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Ace.AS0618)` |
+| AS0618 | AS0618 | 720x1500 | 320 | `spec:width=720px,height=1500px,dpi=320` | `@Preview(device = Ace.AS0618)` |
 | BUZZ_1_Lite | BUZZ_1_LITE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ace.BUZZ_1_LITE)` |
 | BUZZ_1_Plus | BUZZ_1_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ace.BUZZ_1_PLUS)` |
 | BUZZ_2 | BUZZ_2 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ace.BUZZ_2)` |
@@ -34,6 +34,7 @@ Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.
 | BUZZ_6_Pro | BUZZ_6_PRO | 720x1612 | 480 | `spec:width=720px,height=1612px,dpi=480` | `@Preview(device = Ace.BUZZ_6_PRO)` |
 | BUZZ_6_Pro_PLUS | BUZZ_6_PRO_PLUS | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Ace.BUZZ_6_PRO_PLUS)` |
 | BUZZ_6_Ultra | BUZZ_6_ULTRA | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Ace.BUZZ_6_ULTRA)` |
+| BUZZ_7_GT | BUZZ_7_GT | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ace.BUZZ_7_GT)` |
 | BUZZ_7_Lite | BUZZ_7_LITE | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ace.BUZZ_7_LITE)` |
 | BUZZ_7_Note | BUZZ_7_NOTE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ace.BUZZ_7_NOTE)` |
 | BUZZ_7_Prime | BUZZ_7_PRIME | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ace.BUZZ_7_PRIME)` |
@@ -42,7 +43,6 @@ Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.
 | BUZZ_7_Ultra | BUZZ_7_ULTRA | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Ace.BUZZ_7_ULTRA)` |
 | CLEVER_3 | CLEVER_3 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ace.CLEVER_3)` |
 | URBAN_1 | URBAN_1 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ace.URBAN_1)` |
-| URBAN_2 | URBAN_2 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ace.URBAN_2)` |
 | URBAN_3 | URBAN_3 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ace.URBAN_3)` |
 | URBAN_3_PlusE | URBAN_3_PLUSE | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Ace.URBAN_3_PLUSE)` |
 | URBAN_3E | URBAN_3E | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ace.URBAN_3E)` |

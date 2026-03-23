@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SUNWIND (9 models).
+ * Device specifications for SUNWIND (7 models).
  */
 public object Sunwind {
   /**
@@ -21,11 +21,6 @@ public object Sunwind {
    * SUNWIND SS1270PL
    */
   public const val SS1270PL: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * SUNWIND SS7238PG
-   */
-  public const val SS7238PG: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * SUNWIND SS7265PG
@@ -46,9 +41,4 @@ public object Sunwind {
    * SUNWIND SS9237MG
    */
   public const val SS9237MG: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * SUNWIND ST7230MG
-   */
-  public const val ST7230MG: String = "spec:width=600px,height=1024px,dpi=160"
 }

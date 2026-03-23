@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FIGI (10 models).
+ * Device specifications for FIGI (8 models).
  */
 public object Figi {
-  /**
-   * FiGi Fj
-   */
-  public const val FJ: String = "spec:width=600px,height=1280px,dpi=300"
-
   /**
    * FiGi FX
    */
@@ -21,11 +16,6 @@ public object Figi {
    * FiGi G6
    */
   public const val G6: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * FIGI Mtwo
-   */
-  public const val MTWO: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * FIGI Note_11_Pro

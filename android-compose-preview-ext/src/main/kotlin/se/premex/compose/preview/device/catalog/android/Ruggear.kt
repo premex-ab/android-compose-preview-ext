@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Ruggear (14 models).
+ * Device specifications for Ruggear (15 models).
  */
 public object Ruggear {
   /**
@@ -61,6 +61,11 @@ public object Ruggear {
    * RugGear RG880
    */
   public const val RG880: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * RugGear RG880i
+   */
+  public const val RG880I: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * RugGear RG910

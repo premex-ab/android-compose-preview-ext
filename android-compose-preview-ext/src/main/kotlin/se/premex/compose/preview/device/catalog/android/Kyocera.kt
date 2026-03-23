@@ -53,11 +53,6 @@ public object Kyocera {
   public const val C6530N: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
-   * kyocera C6725
-   */
-  public const val C6725: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * kyocera C6730
    */
   public const val C6730: String = "spec:width=540px,height=960px,dpi=240"
@@ -121,6 +116,11 @@ public object Kyocera {
    * kyocera E6782
    */
   public const val E6782: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * kyocera E6782L
+   */
+  public const val E6782L: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * kyocera E6790

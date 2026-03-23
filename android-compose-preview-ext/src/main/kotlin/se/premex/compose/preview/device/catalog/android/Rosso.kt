@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ROSSO (2 models).
+ * Device specifications for ROSSO (3 models).
  */
 public object Rosso {
+  /**
+   * ROSSO jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=720px,height=1280px,dpi=213"
+
   /**
    * ROSSO stanford
    */

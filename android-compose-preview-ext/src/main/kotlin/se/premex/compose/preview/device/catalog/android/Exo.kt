@@ -18,14 +18,14 @@ public object Exo {
   public const val EXO_WAVE_I726: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * EXO i101GMC
+   */
+  public const val I101GMC: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
    * EXO Wave_i007Kids
    */
   public const val WAVE_I007KIDS: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * EXO Wave_i007T
-   */
-  public const val WAVE_I007T: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * EXO Wave_i101G

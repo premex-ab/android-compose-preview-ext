@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ZUOPU (4 models).
+ * Device specifications for ZUOPU (3 models).
  */
 public object Zuopu {
   /**
@@ -21,9 +21,4 @@ public object Zuopu {
    * ZUOPU JH105
    */
   public const val JH105: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * ZUOPU JH863
-   */
-  public const val JH863: String = "spec:width=800px,height=1280px,dpi=213"
 }

@@ -1,16 +1,16 @@
-// Generated manufacturer device catalog. Devices=23
+// Generated manufacturer device catalog. Devices=25
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VASOUN (23 models).
+ * Device specifications for VASOUN (25 models).
  */
 public object Vasoun {
   /**
    * VASOUN L10-T02
    */
-  public const val L10_T02: String = "spec:width=1200px,height=2000px,dpi=320"
+  public const val L10_T02: String = "spec:width=1200px,height=2000px,dpi=280"
 
   /**
    * VASOUN L10-T02-EEA
@@ -63,6 +63,11 @@ public object Vasoun {
   public const val L10_A05_EEA: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * VASOUN L10_A06
+   */
+  public const val L10_A06: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * VASOUN L10_T05
    */
   public const val L10_T05: String = "spec:width=1200px,height=2000px,dpi=280"
@@ -101,6 +106,11 @@ public object Vasoun {
    * VASOUN L10_T10_EEA
    */
   public const val L10_T10_EEA: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * VASOUN L10_T14
+   */
+  public const val L10_T14: String = "spec:width=1200px,height=2000px,dpi=320"
 
   /**
    * VASOUN M7

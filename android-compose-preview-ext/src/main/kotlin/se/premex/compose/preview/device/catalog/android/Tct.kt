@@ -1,31 +1,16 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TCT (15 models).
+ * Device specifications for TCT (11 models).
  */
 public object Tct {
-  /**
-   * TCT Alpha
-   */
-  public const val ALPHA: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * TCT Beetle_GSM
-   */
-  public const val BEETLE_GSM: String = "spec:width=320px,height=480px,dpi=160"
-
   /**
    * TCT California
    */
   public const val CALIFORNIA: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * TCT Diablo
-   */
-  public const val DIABLO: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * TCT DIABLOXPLUS
@@ -51,11 +36,6 @@ public object Tct {
    * TCT SCRIBEPRO
    */
   public const val SCRIBEPRO: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * TCT Vodafone_875
-   */
-  public const val VODAFONE_875: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
    * TCT Yaris35_GSM

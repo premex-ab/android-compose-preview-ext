@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FASTWD (6 models).
+ * Device specifications for FASTWD (8 models).
  */
 public object Fastwd {
   /**
@@ -28,6 +28,11 @@ public object Fastwd {
   public const val M109_EEA: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
+   * FASTWD M193-EEA
+   */
+  public const val M193_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * FASTWD M20L
    */
   public const val M20L: String = "spec:width=800px,height=1280px,dpi=213"
@@ -36,4 +41,9 @@ public object Fastwd {
    * FASTWD M518-EEA
    */
   public const val M518_EEA: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * FASTWD M986-EEA
+   */
+  public const val M986_EEA: String = "spec:width=1200px,height=2000px,dpi=240"
 }

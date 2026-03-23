@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for T-Mobile (12 models).
+ * Device specifications for T-Mobile (14 models).
  */
 public object TMobile {
   /**
@@ -16,6 +16,11 @@ public object TMobile {
    * T-Mobile Bethpage
    */
   public const val BETHPAGE: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * T-Mobile Bremerton
+   */
+  public const val BREMERTON: String = "spec:width=1080px,height=2408px,dpi=480"
 
   /**
    * T-Mobile CypressPoint
@@ -36,6 +41,11 @@ public object TMobile {
    * T-Mobile Porto
    */
   public const val PORTO: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * T-Mobile Prescott
+   */
+  public const val PRESCOTT: String = "spec:width=1080px,height=2392px,dpi=480"
 
   /**
    * T-Mobile Seattle_5G

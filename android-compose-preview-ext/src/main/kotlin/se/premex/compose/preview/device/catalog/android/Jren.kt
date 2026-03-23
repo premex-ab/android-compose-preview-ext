@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for JREN (11 models).
+ * Device specifications for JREN (14 models).
  */
 public object Jren {
   /**
@@ -28,9 +28,19 @@ public object Jren {
   public const val J11: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * JREN J11A
+   */
+  public const val J11A: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * JREN J11PLUS
    */
   public const val J11PLUS: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * JREN J12NEW
+   */
+  public const val J12NEW: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * JREN JR-802
@@ -41,6 +51,11 @@ public object Jren {
    * JREN JR-J10A
    */
   public const val JR_J10A: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * JREN JR-J10B
+   */
+  public const val JR_J10B: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * JREN JR-J71

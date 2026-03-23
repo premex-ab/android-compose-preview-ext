@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HY (4 models).
+ * Device specifications for HY (5 models).
  */
 public object Hy {
   /**
@@ -21,6 +21,11 @@ public object Hy {
    * HY HT10WB3MSG01
    */
   public const val HT10WB3MSG01: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * HY HT10WB4MSG01
+   */
+  public const val HT10WB4MSG01: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * HY HT8WB3RBK01

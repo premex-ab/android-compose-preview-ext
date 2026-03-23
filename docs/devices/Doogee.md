@@ -1,6 +1,6 @@
 # Doogee Devices
 
-Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog.android.Doogee`
+Total: **227** devices. Import: `import se.premex.compose.preview.device.catalog.android.Doogee`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,28 +11,51 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | 1918T | _1918T | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1918T)` |
 | 1918Y | _1918Y | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1918Y)` |
 | 1928 | _1928 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928)` |
+| 1928C | _1928C | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928C)` |
+| 1928CT | _1928CT | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928CT)` |
+| 1928CV | _1928CV | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928CV)` |
 | 1928P | _1928P | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928P)` |
 | 1928S | _1928S | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928S)` |
+| 1928SC | _1928SC | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928SC)` |
+| 1928SE | _1928SE | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928SE)` |
 | 1928Y | _1928Y | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee._1928Y)` |
 | 1929C | _1929C | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1929C)` |
 | 1929H | _1929H | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1929H)` |
 | 1929SC | _1929SC | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1929SC)` |
+| 1929SH | _1929SH | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1929SH)` |
 | 1929ST | _1929ST | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Doogee._1929ST)` |
 | BL5000 | BL5000 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Doogee.BL5000)` |
 | BL5500_Lite | BL5500_LITE | 720x1500 | 320 | `spec:width=720px,height=1500px,dpi=320` | `@Preview(device = Doogee.BL5500_LITE)` |
 | BL7000 | BL7000 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Doogee.BL7000)` |
 | doogee-X10 | DOOGEE_X10 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Doogee.DOOGEE_X10)` |
+| F1_Plus | F1_PLUS | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1_PLUS)` |
 | F1C | F1C | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1C)` |
+| F1C_Pro | F1C_PRO | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1C_PRO)` |
 | F1CK | F1CK | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1CK)` |
+| F1CK_Pro | F1CK_PRO | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1CK_PRO)` |
 | F1CT | F1CT | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1CT)` |
+| F1CT_Pro | F1CT_PRO | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1CT_PRO)` |
 | F1G | F1G | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1G)` |
+| F1GC | F1GC | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1GC)` |
+| F1GT | F1GT | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1GT)` |
 | F1P | F1P | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1P)` |
 | F1PS | F1PS | 720x1612 | 480 | `spec:width=720px,height=1612px,dpi=480` | `@Preview(device = Doogee.F1PS)` |
 | F1S | F1S | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1S)` |
 | F1SE | F1SE | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1SE)` |
+| F1T | F1T | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1T)` |
+| F1TK | F1TK | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.F1TK)` |
 | F2PS | F2PS | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.F2PS)` |
+| G1 | G1 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.G1)` |
+| G1C | G1C | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.G1C)` |
+| G1E | G1E | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.G1E)` |
+| G1T | G1T | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.G1T)` |
+| G1TS | G1TS | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Doogee.G1TS)` |
 | M19H | M19H | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M19H)` |
 | M21 | M21 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21)` |
+| M21SC | M21SC | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21SC)` |
+| M21SE | M21SE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21SE)` |
+| M21ST | M21ST | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21ST)` |
+| M21SU | M21SU | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21SU)` |
 | M21T | M21T | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21T)` |
 | M21TE | M21TE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21TE)` |
 | M21TP | M21TP | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Doogee.M21TP)` |
@@ -58,7 +81,10 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | M24CT | M24CT | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24CT)` |
 | M24P | M24P | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24P)` |
 | M24PS | M24PS | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24PS)` |
+| M24PST | M24PST | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24PST)` |
 | M24PT | M24PT | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24PT)` |
+| M24PX | M24PX | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24PX)` |
+| M24S | M24S | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24S)` |
 | M24SE | M24SE | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.M24SE)` |
 | MIX | MIX | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.MIX)` |
 | N100 | N100 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Doogee.N100)` |
@@ -75,6 +101,7 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | P2D | P2D | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Doogee.P2D)` |
 | P2T | P2T | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Doogee.P2T)` |
 | P2TH | P2TH | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Doogee.P2TH)` |
+| P2TU | P2TU | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Doogee.P2TU)` |
 | P3 | P3 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Doogee.P3)` |
 | P3_Plus | P3_PLUS | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Doogee.P3_PLUS)` |
 | P3C | P3C | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Doogee.P3C)` |
@@ -86,8 +113,14 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | P3Pro | P3PRO | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Doogee.P3PRO)` |
 | P3T | P3T | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Doogee.P3T)` |
 | P4 | P4 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.P4)` |
+| P4S | P4S | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Doogee.P4S)` |
+| P5C | P5C | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Doogee.P5C)` |
 | P5S | P5S | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Doogee.P5S)` |
+| P6 | P6 | 1440x2160 | 280 | `spec:width=1440px,height=2160px,dpi=280` | `@Preview(device = Doogee.P6)` |
 | P7 | P7 | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Doogee.P7)` |
+| P7C | P7C | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Doogee.P7C)` |
+| P7S | P7S | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Doogee.P7S)` |
+| P8 | P8 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Doogee.P8)` |
 | PT1 | PT1 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Doogee.PT1)` |
 | PT2 | PT2 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Doogee.PT2)` |
 | PT3 | PT3 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Doogee.PT3)` |
@@ -96,6 +129,8 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | RK1S | RK1S | 800x1280 | 186 | `spec:width=800px,height=1280px,dpi=186` | `@Preview(device = Doogee.RK1S)` |
 | RK2 | RK2 | 800x1280 | 186 | `spec:width=800px,height=1280px,dpi=186` | `@Preview(device = Doogee.RK2)` |
 | RK2KID | RK2KID | 800x1280 | 186 | `spec:width=800px,height=1280px,dpi=186` | `@Preview(device = Doogee.RK2KID)` |
+| RK5 | RK5 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.RK5)` |
+| RK5S | RK5S | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.RK5S)` |
 | S30 | S30 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.S30)` |
 | S35 | S35 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.S35)` |
 | S35H | S35H | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.S35H)` |
@@ -128,15 +163,19 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | S90Pro | S90PRO | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Doogee.S90PRO)` |
 | S95 | S95 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Doogee.S95)` |
 | S95Pro | S95PRO | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Doogee.S95PRO)` |
-| S96Pro | S96PRO | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Doogee.S96PRO)` |
-| S97Pro | S97PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Doogee.S97PRO)` |
+| S96Pro | S96PRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Doogee.S96PRO)` |
+| S97Pro | S97PRO | 1080x1920 | 484 | `spec:width=1080px,height=1920px,dpi=484` | `@Preview(device = Doogee.S97PRO)` |
 | S98 | S98 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Doogee.S98)` |
 | S98Pro | S98PRO | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Doogee.S98PRO)` |
 | Selfie | SELFIE | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Doogee.SELFIE)` |
 | Shoot_1 | SHOOT_1 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Doogee.SHOOT_1)` |
 | T1 | T1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.T1)` |
 | T2 | T2 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.T2)` |
+| T2C | T2C | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.T2C)` |
+| T2CS | T2CS | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.T2CS)` |
 | T2U | T2U | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.T2U)` |
+| T3 | T3 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Doogee.T3)` |
+| T4 | T4 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Doogee.T4)` |
 | t530_dg_a54 | T530_DG_A54 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.T530_DG_A54)` |
 | t591_dga57_we | T591_DGA57_WE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.T591_DGA57_WE)` |
 | t596_dg_d5506_x60l | T596_DG_D5506_X60L | 640x1280 | 320 | `spec:width=640px,height=1280px,dpi=320` | `@Preview(device = Doogee.T596_DG_D5506_X60L)` |
@@ -147,7 +186,7 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | t766_dg_n_mix | T766_DG_N_MIX | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.T766_DG_N_MIX)` |
 | t777_dg_m1_65_n | T777_DG_M1_65_N | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Doogee.T777_DG_M1_65_N)` |
 | V10 | V10 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Doogee.V10)` |
-| V20 | V20 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.V20)` |
+| V20 | V20 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.V20)` |
 | X100 | X100 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.X100)` |
 | X11 | X11 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Doogee.X11)` |
 | X20 | X20 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Doogee.X20)` |
@@ -184,11 +223,12 @@ Total: **187** devices. Import: `import se.premex.compose.preview.device.catalog
 | Y9Plus | Y9PLUS | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Doogee.Y9PLUS)` |
 | ZN133S | ZN133S | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.ZN133S)` |
 | ZN133T | ZN133T | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.ZN133T)` |
-| ZN136T | ZN136T | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Doogee.ZN136T)` |
+| ZN136T | ZN136T | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Doogee.ZN136T)` |
 | ZN137 | ZN137 | 480x1170 | 240 | `spec:width=480px,height=1170px,dpi=240` | `@Preview(device = Doogee.ZN137)` |
 | ZN138 | ZN138 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.ZN138)` |
 | ZN138P | ZN138P | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Doogee.ZN138P)` |
 | ZN138PE | ZN138PE | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Doogee.ZN138PE)` |
+| ZN139T | ZN139T | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Doogee.ZN139T)` |
 | ZN140 | ZN140 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.ZN140)` |
 | ZN140S | ZN140S | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Doogee.ZN140S)` |
 

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=54
+// Generated manufacturer device catalog. Devices=56
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Meizu (54 models).
+ * Device specifications for Meizu (56 models).
  */
 public object Meizu {
   /**
@@ -45,7 +45,7 @@ public object Meizu {
   /**
    * Meizu 16X
    */
-  public const val _16X: String = "spec:width=1080px,height=2160px,dpi=480"
+  public const val _16X: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Meizu M15
@@ -55,7 +55,7 @@ public object Meizu {
   /**
    * Meizu M1813
    */
-  public const val M1813: String = "spec:width=1080px,height=1920px,dpi=556"
+  public const val M1813: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
    * Meizu M1822
@@ -80,12 +80,12 @@ public object Meizu {
   /**
    * meizu meizu16sPro
    */
-  public const val MEIZU16SPRO: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val MEIZU16SPRO: String = "spec:width=1440px,height=3120px,dpi=600"
 
   /**
    * meizu meizu16T
    */
-  public const val MEIZU16T: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val MEIZU16T: String = "spec:width=1080px,height=2232px,dpi=380"
 
   /**
    * meizu meizu16Xs
@@ -156,6 +156,11 @@ public object Meizu {
    * meizu meizu21Pro
    */
   public const val MEIZU21PRO: String = "spec:width=1368px,height=3192px,dpi=480"
+
+  /**
+   * meizu Meizu22
+   */
+  public const val MEIZU22: String = "spec:width=1200px,height=2670px,dpi=480"
 
   /**
    * Meizu Meizu6T
@@ -246,6 +251,11 @@ public object Meizu {
    * Meizu MeizuS6
    */
   public const val MEIZUS6: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * meizu MeizuVenus
+   */
+  public const val MEIZUVENUS: String = "spec:width=1264px,height=2780px,dpi=520"
 
   /**
    * meizu Note9

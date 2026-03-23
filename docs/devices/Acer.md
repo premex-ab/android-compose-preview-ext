@@ -1,11 +1,17 @@
 # Acer Devices
 
-Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog.android.Acer`
+Total: **148** devices. Import: `import se.premex.compose.preview.device.catalog.android.Acer`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| A10P2 | A10P2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.A10P2)` |
 | acer_A10M1 | ACER_A10M1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.ACER_A10M1)` |
+| acer_A10M2 | ACER_A10M2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ACER_A10M2)` |
+| acer_A10P2 | ACER_A10P2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ACER_A10P2)` |
 | acer_A11M1 | ACER_A11M1 | 1200x1920 | 213 | `spec:width=1200px,height=1920px,dpi=213` | `@Preview(device = Acer.ACER_A11M1)` |
+| acer_A11M2 | ACER_A11M2 | 1200x1920 | 213 | `spec:width=1200px,height=1920px,dpi=213` | `@Preview(device = Acer.ACER_A11M2)` |
+| acer_A11P2 | ACER_A11P2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ACER_A11P2)` |
+| acer_A12M1N | ACER_A12M1N | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Acer.ACER_A12M1N)` |
 | Acer_A60 | ACER_A60 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Acer.ACER_A60)` |
 | Acer_A60L | ACER_A60L | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Acer.ACER_A60L)` |
 | Acer_A61LX | ACER_A61LX | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Acer.ACER_A61LX)` |
@@ -26,7 +32,6 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | acer_barricade | ACER_BARRICADE | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Acer.ACER_BARRICADE)` |
 | acer_barricade_3G | ACER_BARRICADE_3G | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Acer.ACER_BARRICADE_3G)` |
 | acer_barricadewifi | ACER_BARRICADEWIFI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Acer.ACER_BARRICADEWIFI)` |
-| acer_c01 | ACER_C01 | 480x640 | 240 | `spec:width=480px,height=640px,dpi=240` | `@Preview(device = Acer.ACER_C01)` |
 | acer_Colnago | ACER_COLNAGO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ACER_COLNAGO)` |
 | acer_ColnagoFHD | ACER_COLNAGOFHD | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.ACER_COLNAGOFHD)` |
 | acer_e39 | ACER_E39 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Acer.ACER_E39)` |
@@ -54,10 +59,10 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | acer_Titan | ACER_TITAN | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.ACER_TITAN)` |
 | acer_V10M2 | ACER_V10M2 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.ACER_V10M2)` |
 | acer_V11M1 | ACER_V11M1 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.ACER_V11M1)` |
+| acer_V12M1 | ACER_V12M1 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Acer.ACER_V12M1)` |
 | acer_Vulcan | ACER_VULCAN | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Acer.ACER_VULCAN)` |
 | acer_X12M1 | ACER_X12M1 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Acer.ACER_X12M1)` |
 | acer_z410 | ACER_Z410 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Acer.ACER_Z410)` |
-| acer_Z500 | ACER_Z500 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Acer.ACER_Z500)` |
 | acer_z520 | ACER_Z520 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Acer.ACER_Z520)` |
 | acer_Zipp | ACER_ZIPP | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.ACER_ZIPP)` |
 | AcerO10T412LI | ACERO10T412LI | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ACERO10T412LI)` |
@@ -75,13 +80,18 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | ACTAB723 | ACTAB723 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Acer.ACTAB723)` |
 | ACTAB821_A | ACTAB821_A | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.ACTAB821_A)` |
 | ACTABKID | ACTABKID | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ACTABKID)` |
+| AITiM10-22 | AITIM10_22 | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Acer.AITIM10_22)` |
+| AITiM9-12M | AITIM9_12M | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.AITIM9_12M)` |
 | AKMEI14 | AKMEI14 | 2160x3840 | 420 | `spec:width=2160px,height=3840px,dpi=420` | `@Preview(device = Acer.AKMEI14)` |
 | anglelake | ANGLELAKE | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Acer.ANGLELAKE)` |
 | AOT10-22L | AOT10_22L | 1200x2000 | 260 | `spec:width=1200px,height=2000px,dpi=260` | `@Preview(device = Acer.AOT10_22L)` |
+| AOT11-22L | AOT11_22L | 1440x2200 | 260 | `spec:width=1440px,height=2200px,dpi=260` | `@Preview(device = Acer.AOT11_22L)` |
 | ARSP25MTA14A1 | ARSP25MTA14A1 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Acer.ARSP25MTA14A1)` |
+| AS10L | AS10L | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Acer.AS10L)` |
 | AS10LXPro | AS10LXPRO | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Acer.AS10LXPRO)` |
 | AS10W | AS10W | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Acer.AS10W)` |
 | AS10WF | AS10WF | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Acer.AS10WF)` |
+| AS20WF | AS20WF | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.AS20WF)` |
 | AS8W | AS8W | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.AS8W)` |
 | ATAB1021E | ATAB1021E | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.ATAB1021E)` |
 | ATAB1024E | ATAB1024E | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.ATAB1024E)` |
@@ -101,7 +111,6 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | Battlezone | BATTLEZONE | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.BATTLEZONE)` |
 | Battlezone_LTE | BATTLEZONE_LTE | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.BATTLEZONE_LTE)` |
 | Baymax | BAYMAX | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.BAYMAX)` |
-| C11 | C11 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Acer.C11)` |
 | chester | CHESTER | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Acer.CHESTER)` |
 | citizen | CITIZEN | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.CITIZEN)` |
 | corona | CORONA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Acer.CORONA)` |
@@ -113,6 +122,7 @@ Total: **138** devices. Import: `import se.premex.compose.preview.device.catalog
 | ducati2hd3g | DUCATI2HD3G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.DUCATI2HD3G)` |
 | Frenzy | FRENZY | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Acer.FRENZY)` |
 | Frontier | FRONTIER | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Acer.FRONTIER)` |
+| iM11-12M | IM11_12M | 1440x2200 | 260 | `spec:width=1440px,height=2200px,dpi=260` | `@Preview(device = Acer.IM11_12M)` |
 | mango | MANGO | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Acer.MANGO)` |
 | oban | OBAN | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Acer.OBAN)` |
 | omega | OMEGA | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Acer.OMEGA)` |

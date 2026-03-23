@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for EE (3 models).
+ * Device specifications for ee (2 models).
  */
 public object Ee {
-  /**
-   * EE harrier_mini
-   */
-  public const val HARRIER_MINI: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * ee harrier_tab
    */

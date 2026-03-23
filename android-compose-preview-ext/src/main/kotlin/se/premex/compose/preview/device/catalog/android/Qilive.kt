@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=30
+// Generated manufacturer device catalog. Devices=32
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for QILIVE (30 models).
+ * Device specifications for QILIVE (32 models).
  */
 public object Qilive {
   /**
@@ -58,11 +58,6 @@ public object Qilive {
   public const val Q8S55IN4G2: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Qilive Q8S5IN4GP
-   */
-  public const val Q8S5IN4GP: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * Qilive Q8S6IN4G
    */
   public const val Q8S6IN4G: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -71,6 +66,11 @@ public object Qilive {
    * Qilive Q9S5IN4G
    */
   public const val Q9S5IN4G: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * Qilive Q9T10IN4G
+   */
+  public const val Q9T10IN4G: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * QILIVE QT19071
@@ -146,6 +146,16 @@ public object Qilive {
    * QILIVE QT24105BP
    */
   public const val QT24105BP: String = "spec:width=1200px,height=1920px,dpi=210"
+
+  /**
+   * QILIVE QT24109B
+   */
+  public const val QT24109B: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * Qilive sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Qilive tamachi

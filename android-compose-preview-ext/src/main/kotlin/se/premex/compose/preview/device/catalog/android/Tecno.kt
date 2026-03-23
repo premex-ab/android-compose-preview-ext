@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=332
+// Generated manufacturer device catalog. Devices=340
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TECNO (332 models).
+ * Device specifications for TECNO (340 models).
  */
 public object Tecno {
   /**
@@ -31,11 +31,6 @@ public object Tecno {
    * TECNO L8Lite
    */
   public const val L8LITE: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Tecno N5S
-   */
-  public const val N5S: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * tecno N9
@@ -1218,6 +1213,11 @@ public object Tecno {
   public const val TECNO_KM4K: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * TECNO TECNO-KM4s
+   */
+  public const val TECNO_KM4S: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
    * TECNO TECNO-KM5
    */
   public const val TECNO_KM5: String = "spec:width=720px,height=1600px,dpi=320"
@@ -1226,6 +1226,11 @@ public object Tecno {
    * TECNO TECNO-KM5n
    */
   public const val TECNO_KM5N: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * TECNO TECNO-KM5s
+   */
+  public const val TECNO_KM5S: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * TECNO TECNO-KM6
@@ -1238,9 +1243,29 @@ public object Tecno {
   public const val TECNO_KM7: String = "spec:width=1080px,height=2400px,dpi=420"
 
   /**
+   * TECNO TECNO-KM7k
+   */
+  public const val TECNO_KM7K: String = "spec:width=1080px,height=2400px,dpi=420"
+
+  /**
+   * TECNO TECNO-KM8
+   */
+  public const val TECNO_KM8: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * TECNO TECNO-KM8n
+   */
+  public const val TECNO_KM8N: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
    * TECNO TECNO-KM9
    */
   public const val TECNO_KM9: String = "spec:width=1080px,height=2400px,dpi=420"
+
+  /**
+   * TECNO TECNO-KN3
+   */
+  public const val TECNO_KN3: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
    * TECNO TECNO-L5
@@ -1385,7 +1410,12 @@ public object Tecno {
   /**
    * TECNO TECNO-LI7
    */
-  public const val TECNO_LI7: String = "spec:width=1080px,height=2436px,dpi=480"
+  public const val TECNO_LI7: String = "spec:width=1080px,height=2436px,dpi=440"
+
+  /**
+   * TECNO TECNO-LI9
+   */
+  public const val TECNO_LI9: String = "spec:width=1080px,height=2436px,dpi=440"
 
   /**
    * TECNO TECNO-LJ6
@@ -1576,6 +1606,16 @@ public object Tecno {
    * TECNO TECNO-T1101
    */
   public const val TECNO_T1101: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * TECNO TECNO-T1102
+   */
+  public const val TECNO_T1102: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
+   * TECNO TECNO-T1201
+   */
+  public const val TECNO_T1201: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
    * TECNO TECNO-W3

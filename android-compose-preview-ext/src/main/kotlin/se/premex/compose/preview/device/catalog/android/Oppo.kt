@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=390
+// Generated manufacturer device catalog. Devices=404
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for OPPO (390 models).
+ * Device specifications for OPPO (404 models).
  */
 public object Oppo {
   /**
@@ -31,11 +31,6 @@ public object Oppo {
    * OPPO A1603
    */
   public const val A1603: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * OPPO A31u
-   */
-  public const val A31U: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * OPPO A33
@@ -90,7 +85,7 @@ public object Oppo {
   /**
    * OPPO A77
    */
-  public const val A77: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val A77: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * OPPO A79
@@ -205,7 +200,7 @@ public object Oppo {
   /**
    * OPPO CPH1801
    */
-  public const val CPH1801: String = "spec:width=1080px,height=2160px,dpi=440"
+  public const val CPH1801: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * OPPO CPH1803
@@ -1283,6 +1278,11 @@ public object Oppo {
   public const val OP5A2BL1: String = "spec:width=1080px,height=2412px,dpi=480"
 
   /**
+   * OPPO OP5A33
+   */
+  public const val OP5A33: String = "spec:width=1080px,height=2412px,dpi=480"
+
+  /**
    * OPPO OP5A3DL1
    */
   public const val OP5A3DL1: String = "spec:width=1256px,height=2760px,dpi=560"
@@ -1413,6 +1413,16 @@ public object Oppo {
   public const val OP5DDF: String = "spec:width=720px,height=1604px,dpi=320"
 
   /**
+   * OPPO OP5DE2L1
+   */
+  public const val OP5DE2L1: String = "spec:width=1280px,height=2800px,dpi=560"
+
+  /**
+   * OPPO OP5DE3
+   */
+  public const val OP5DE3: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
    * OPPO OP5DF3
    */
   public const val OP5DF3: String = "spec:width=1080px,height=2412px,dpi=480"
@@ -1426,6 +1436,11 @@ public object Oppo {
    * OPPO OP5DF7
    */
   public const val OP5DF7: String = "spec:width=1080px,height=2412px,dpi=480"
+
+  /**
+   * OPPO OP5DFB
+   */
+  public const val OP5DFB: String = "spec:width=720px,height=1604px,dpi=320"
 
   /**
    * OPPO OP5DFDL1
@@ -1458,9 +1473,39 @@ public object Oppo {
   public const val OP5E0BL1: String = "spec:width=1256px,height=2760px,dpi=560"
 
   /**
+   * OPPO OP5E11L1
+   */
+  public const val OP5E11L1: String = "spec:width=1272px,height=2772px,dpi=560"
+
+  /**
+   * OPPO OP5E17L1
+   */
+  public const val OP5E17L1: String = "spec:width=1256px,height=2760px,dpi=560"
+
+  /**
+   * OPPO OP5E1BL1
+   */
+  public const val OP5E1BL1: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
+   * OPPO OP5E1C
+   */
+  public const val OP5E1C: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
    * OPPO OP5E89L1
    */
   public const val OP5E89L1: String = "spec:width=2248px,height=2480px,dpi=520"
+
+  /**
+   * OPPO OP5E8BL1
+   */
+  public const val OP5E8BL1: String = "spec:width=1256px,height=2760px,dpi=560"
+
+  /**
+   * OPPO OP5E8EL1
+   */
+  public const val OP5E8EL1: String = "spec:width=1272px,height=2772px,dpi=560"
 
   /**
    * OPPO OP5E9EL1
@@ -1553,6 +1598,21 @@ public object Oppo {
   public const val OP5F0FL1: String = "spec:width=1080px,height=2372px,dpi=480"
 
   /**
+   * OPPO OP5F15L1
+   */
+  public const val OP5F15L1: String = "spec:width=1280px,height=2800px,dpi=560"
+
+  /**
+   * OPPO OP5F19L1
+   */
+  public const val OP5F19L1: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
+   * OPPO OP5F2BL1
+   */
+  public const val OP5F2BL1: String = "spec:width=720px,height=1570px,dpi=320"
+
+  /**
    * OPPO OP6159L1
    */
   public const val OP6159L1: String = "spec:width=2000px,height=2800px,dpi=400"
@@ -1581,6 +1641,26 @@ public object Oppo {
    * OPPO OP6193L1
    */
   public const val OP6193L1: String = "spec:width=1200px,height=1920px,dpi=280"
+
+  /**
+   * OPPO OP61B3L1
+   */
+  public const val OP61B3L1: String = "spec:width=1272px,height=2772px,dpi=560"
+
+  /**
+   * OPPO OP61B7L1
+   */
+  public const val OP61B7L1: String = "spec:width=1216px,height=2640px,dpi=560"
+
+  /**
+   * OPPO OP6285L1
+   */
+  public const val OP6285L1: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
+   * OPPO OP6542L1
+   */
+  public const val OP6542L1: String = "spec:width=2120px,height=3000px,dpi=400"
 
   /**
    * OPPO OPD2A0
@@ -1620,7 +1700,7 @@ public object Oppo {
   /**
    * OPPO PAAT00
    */
-  public const val PAAT00: String = "spec:width=1080px,height=2280px,dpi=480"
+  public const val PAAT00: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * OPPO PACM00
@@ -1675,7 +1755,7 @@ public object Oppo {
   /**
    * OPPO PBBM30
    */
-  public const val PBBM30: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val PBBM30: String = "spec:width=720px,height=1467px,dpi=320"
 
   /**
    * OPPO PBBT00
@@ -1768,11 +1848,6 @@ public object Oppo {
   public const val R11SPLUS: String = "spec:width=1080px,height=2160px,dpi=480"
 
   /**
-   * OPPO R2017
-   */
-  public const val R2017: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * OPPO R5
    */
   public const val R5: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -1826,11 +1901,6 @@ public object Oppo {
    * OPPO R7sPlus
    */
   public const val R7SPLUS: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * OPPO R8001
-   */
-  public const val R8001: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * OPPO R8006

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for freetel (15 models).
+ * Device specifications for freetel (12 models).
  */
 public object Freetel {
   /**
@@ -43,16 +43,6 @@ public object Freetel {
   public const val FTJ161B: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * FREETEL FTU161G
-   */
-  public const val FTU161G: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * freetel ICE2
-   */
-  public const val ICE2: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * freetel Priori4
    */
   public const val PRIORI4: String = "spec:width=720px,height=1280px,dpi=320"
@@ -71,11 +61,6 @@ public object Freetel {
    * FREETEL SAKURA_FTE1
    */
   public const val SAKURA_FTE1: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * FREETEL SAMURAI_KIWAMI2
-   */
-  public const val SAMURAI_KIWAMI2: String = "spec:width=1440px,height=2560px,dpi=640"
 
   /**
    * FREETEL SAMURAI_REI2

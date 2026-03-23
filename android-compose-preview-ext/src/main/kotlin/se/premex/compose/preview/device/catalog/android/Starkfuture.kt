@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for StarkFuture (2 models).
+ * Device specifications for StarkFuture (3 models).
  */
 public object Starkfuture {
   /**
@@ -16,4 +16,9 @@ public object Starkfuture {
    * StarkFuture ARKENSTONE_US
    */
   public const val ARKENSTONE_US: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * STARK_FUTURE VARG
+   */
+  public const val VARG: String = "spec:width=720px,height=1440px,dpi=320"
 }

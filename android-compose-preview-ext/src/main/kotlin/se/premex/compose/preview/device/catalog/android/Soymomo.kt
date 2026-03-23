@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SoyMomo (5 models).
+ * Device specifications for SoyMomo (4 models).
  */
 public object Soymomo {
   /**
@@ -16,11 +16,6 @@ public object Soymomo {
    * Soymomo SoyMomo_Lite_V1
    */
   public const val SOYMOMO_LITE_V1: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * SoyMomo SoyMomo_Pro_EU_V1
-   */
-  public const val SOYMOMO_PRO_EU_V1: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * SoyMomo SoyMomo_Pro_V2

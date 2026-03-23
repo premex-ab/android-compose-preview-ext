@@ -25,5 +25,5 @@ public object Bphone {
   /**
    * Bphone Bphone_B86
    */
-  public const val BPHONE_B86: String = "spec:width=1080px,height=2220px,dpi=440"
+  public const val BPHONE_B86: String = "spec:width=1080px,height=2160px,dpi=480"
 }

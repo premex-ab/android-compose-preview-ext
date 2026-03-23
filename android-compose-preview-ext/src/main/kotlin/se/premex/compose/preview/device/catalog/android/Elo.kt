@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Elo (15 models).
+ * Device specifications for Elo (17 models).
  */
 public object Elo {
   /**
@@ -38,6 +38,11 @@ public object Elo {
   public const val _15IN_I_SERIES_4_VALUE: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
+   * Elo 15in-I-Series-5
+   */
+  public const val _15IN_I_SERIES_5: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
    * Elo 22in-I-Series-4
    */
   public const val _22IN_I_SERIES_4: String = "spec:width=1080px,height=1920px,dpi=240"
@@ -46,6 +51,11 @@ public object Elo {
    * Elo 22in-I-Series-4-Value
    */
   public const val _22IN_I_SERIES_4_VALUE: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
+   * Elo 22in-I-Series-5
+   */
+  public const val _22IN_I_SERIES_5: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
    * Elo Backpack-4

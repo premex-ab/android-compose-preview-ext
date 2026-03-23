@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=127
+// Generated manufacturer device catalog. Devices=116
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Hyundai (127 models).
+ * Device specifications for Hyundai (116 models).
  */
 public object Hyundai {
   /**
@@ -16,6 +16,11 @@ public object Hyundai {
    * Hyundai 10LB1
    */
   public const val _10LB1: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Hyundai 10LB4
+   */
+  public const val _10LB4: String = "spec:width=800px,height=1280px,dpi=320"
 
   /**
    * Hyundai 10LC1
@@ -38,6 +43,11 @@ public object Hyundai {
   public const val _8LAB1: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * HYUNDAI alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * Hyundai bangbae
    */
   public const val BANGBAE: String = "spec:width=1080px,height=1920px,dpi=320"
@@ -53,9 +63,9 @@ public object Hyundai {
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
-   * HYUNDAI E435_Plus
+   * HYUNDAI dangni
    */
-  public const val E435_PLUS: String = "spec:width=480px,height=800px,dpi=240"
+  public const val DANGNI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * HYUNDAI E465GO
@@ -78,19 +88,9 @@ public object Hyundai {
   public const val E501: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * HYUNDAI e502
-   */
-  public const val E502: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * HYUNDAI E506
    */
   public const val E506: String = "spec:width=480px,height=854px,dpi=200"
-
-  /**
-   * HYUNDAI e551_Lite
-   */
-  public const val E551_LITE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * HYUNDAI E553
@@ -168,19 +168,9 @@ public object Hyundai {
   public const val HT0704K08: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Hyundai HT0705W08
-   */
-  public const val HT0705W08: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Hyundai HT0802W16
    */
   public const val HT0802W16: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * Hyundai HT1003X16
-   */
-  public const val HT1003X16: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Hyundai HT1004L16
@@ -273,11 +263,6 @@ public object Hyundai {
   public const val HT7WB1RBK: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Hyundai HT7WC1PBK
-   */
-  public const val HT7WC1PBK: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Hyundai HT8LA1RBKNA01
    */
   public const val HT8LA1RBKNA01: String = "spec:width=1200px,height=1920px,dpi=240"
@@ -326,11 +311,6 @@ public object Hyundai {
    * Hyundai HY65PB1401NA
    */
   public const val HY65PB1401NA: String = "spec:width=720px,height=1612px,dpi=320"
-
-  /**
-   * HYUNDAI HY_BDL163G_001_EEA
-   */
-  public const val HY_BDL163G_001_EEA: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Hyundai HyTab_Plus_10LC2
@@ -388,11 +368,6 @@ public object Hyundai {
   public const val KORAL_7WB1: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * Hyundai Koral_7WC1
-   */
-  public const val KORAL_7WC1: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Hyundai Koral_7WD1
    */
   public const val KORAL_7WD1: String = "spec:width=600px,height=1024px,dpi=160"
@@ -406,11 +381,6 @@ public object Hyundai {
    * HYUNDAI L465
    */
   public const val L465: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * HYUNDAI L503F
-   */
-  public const val L503F: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * HYUNDAI L503F_Plus
@@ -528,11 +498,6 @@ public object Hyundai {
   public const val SAMSEONG: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * HYUNDAI Seoul_9
-   */
-  public const val SEOUL_9: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * HYUNDAI Seoul_S8
    */
   public const val SEOUL_S8: String = "spec:width=720px,height=1440px,dpi=320"
@@ -578,21 +543,6 @@ public object Hyundai {
   public const val ULTRA_ACTIVE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * HYUNDAI Ultra_Dream
-   */
-  public const val ULTRA_DREAM: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * HYUNDAI Ultra_Energy_Lite
-   */
-  public const val ULTRA_ENERGY_LITE: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * HYUNDAI Ultra_Energy_Plus
-   */
-  public const val ULTRA_ENERGY_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * HYUNDAI Ultra_Latitude
    */
   public const val ULTRA_LATITUDE: String = "spec:width=720px,height=1280px,dpi=320"
@@ -621,11 +571,6 @@ public object Hyundai {
    * HYUNDAI Ultra_Sync
    */
   public const val ULTRA_SYNC: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * HYUNDAI Ultra_Trend
-   */
-  public const val ULTRA_TREND: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * HYUNDAI Ultra_Vision

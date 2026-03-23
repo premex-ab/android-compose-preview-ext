@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CipherLab (10 models).
+ * Device specifications for CipherLab (11 models).
  */
 public object Cipherlab {
   /**
@@ -46,6 +46,11 @@ public object Cipherlab {
    * CipherLab RS36
    */
   public const val RS36: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * CipherLab RS36PLUS
+   */
+  public const val RS36PLUS: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * CipherLab RS38

@@ -1,6 +1,6 @@
 # Sony Devices
 
-Total: **339** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sony`
+Total: **336** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sony`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -71,7 +71,6 @@ Total: **339** devices. Import: `import se.premex.compose.preview.device.catalog
 | C6602 | C6602 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.C6602)` |
 | C6603 | C6603 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.C6603)` |
 | C6606 | C6606 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.C6606)` |
-| C6616 | C6616 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.C6616)` |
 | C6802 | C6802 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sony.C6802)` |
 | C6806 | C6806 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.C6806)` |
 | C6833 | C6833 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sony.C6833)` |
@@ -89,7 +88,6 @@ Total: **339** devices. Import: `import se.premex.compose.preview.device.catalog
 | D2203 | D2203 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sony.D2203)` |
 | D2206 | D2206 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sony.D2206)` |
 | D2212 | D2212 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sony.D2212)` |
-| D2243 | D2243 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sony.D2243)` |
 | D2302 | D2302 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Sony.D2302)` |
 | D2303 | D2303 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Sony.D2303)` |
 | D2305 | D2305 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Sony.D2305)` |
@@ -136,7 +134,6 @@ Total: **339** devices. Import: `import se.premex.compose.preview.device.catalog
 | E5303 | E5303 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5303)` |
 | E5306 | E5306 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5306)` |
 | E5333 | E5333 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5333)` |
-| E5343 | E5343 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5343)` |
 | E5353 | E5353 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5353)` |
 | E5363 | E5363 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5363)` |
 | E5506 | E5506 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Sony.E5506)` |
@@ -281,7 +278,6 @@ Total: **339** devices. Import: `import se.premex.compose.preview.device.catalog
 | SGP712 | SGP712 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Sony.SGP712)` |
 | SGP771 | SGP771 | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Sony.SGP771)` |
 | SOV42-u | SOV42_U | 1080x2520 | 420 | `spec:width=1080px,height=2520px,dpi=420` | `@Preview(device = Sony.SOV42_U)` |
-| ST26a | ST26A | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sony.ST26A)` |
 | ST26i | ST26I | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Sony.ST26I)` |
 | SVP-DTV15 | SVP_DTV15 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sony.SVP_DTV15)` |
 | txs03 | TXS03 | 752x1280 | 160 | `spec:width=752px,height=1280px,dpi=160` | `@Preview(device = Sony.TXS03)` |
@@ -342,6 +338,7 @@ Total: **339** devices. Import: `import se.premex.compose.preview.device.catalog
 | XQ-ES44 | XQ_ES44 | 1080x2520 | 450 | `spec:width=1080px,height=2520px,dpi=450` | `@Preview(device = Sony.XQ_ES44)` |
 | XQ-ES54 | XQ_ES54 | 1080x2520 | 450 | `spec:width=1080px,height=2520px,dpi=450` | `@Preview(device = Sony.XQ_ES54)` |
 | XQ-ES72 | XQ_ES72 | 1080x2520 | 450 | `spec:width=1080px,height=2520px,dpi=450` | `@Preview(device = Sony.XQ_ES72)` |
+| XQ-FE | XQ_FE | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Sony.XQ_FE)` |
 | XQ-FS | XQ_FS | 1080x2340 | 400 | `spec:width=1080px,height=2340px,dpi=400` | `@Preview(device = Sony.XQ_FS)` |
 
 <!-- Generated automatically. Do not edit manually. -->

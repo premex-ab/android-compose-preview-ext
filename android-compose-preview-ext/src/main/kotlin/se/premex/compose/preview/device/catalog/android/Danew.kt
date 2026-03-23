@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=34
+// Generated manufacturer device catalog. Devices=31
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Danew (34 models).
+ * Device specifications for Danew (31 models).
  */
 public object Danew {
   /**
@@ -93,11 +93,6 @@ public object Danew {
   public const val DSLIDE_1021: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * Danew Dslide_1021C
-   */
-  public const val DSLIDE_1021C: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Danew Dslide_1095
    */
   public const val DSLIDE_1095: String = "spec:width=800px,height=1280px,dpi=160"
@@ -138,11 +133,6 @@ public object Danew {
   public const val KONNECT402: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * Danew Konnect602
-   */
-  public const val KONNECT602: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * Danew Konnect_508
    */
   public const val KONNECT_508: String = "spec:width=480px,height=854px,dpi=213"
@@ -171,9 +161,4 @@ public object Danew {
    * Danew Konnect_608
    */
   public const val KONNECT_608: String = "spec:width=720px,height=1560px,dpi=320"
-
-  /**
-   * Danew T_ONE
-   */
-  public const val T_ONE: String = "spec:width=720px,height=1440px,dpi=320"
 }

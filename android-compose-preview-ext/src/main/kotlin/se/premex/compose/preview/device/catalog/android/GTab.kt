@@ -103,6 +103,11 @@ public object GTab {
   public const val G9: String = "spec:width=600px,height=1024px,dpi=213"
 
   /**
+   * G-Tab G9_1
+   */
+  public const val G9_1: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * G-Tab N271
    */
   public const val N271: String = "spec:width=600px,height=1024px,dpi=160"
@@ -138,19 +143,14 @@ public object GTab {
   public const val PAD10_PRO: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * G-Tab PAD11
+   */
+  public const val PAD11: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * G-Tab Q2
    */
   public const val Q2: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * G-Tab Q2S
-   */
-  public const val Q2S: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * G-Tab Q3
-   */
-  public const val Q3: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * G-Tab Q4
@@ -181,11 +181,6 @@ public object GTab {
    * G-Tab S20
    */
   public const val S20: String = "spec:width=800px,height=1280px,dpi=240"
-
-  /**
-   * G-tab S3
-   */
-  public const val S3: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * G-Tab S30
@@ -271,4 +266,9 @@ public object GTab {
    * G-tab Tablet
    */
   public const val TABLET: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * G-Tab X
+   */
+  public const val X: String = "spec:width=720px,height=1600px,dpi=320"
 }

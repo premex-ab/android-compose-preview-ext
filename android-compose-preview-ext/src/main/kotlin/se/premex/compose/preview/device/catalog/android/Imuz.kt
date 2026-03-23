@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=20
+// Generated manufacturer device catalog. Devices=21
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iMUZ (20 models).
+ * Device specifications for iMUZ (21 models).
  */
 public object Imuz {
   /**
@@ -28,6 +28,11 @@ public object Imuz {
   public const val G10: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
+   * iMUZ IM-B101F
+   */
+  public const val IM_B101F: String = "spec:width=1200px,height=1920px,dpi=240"
+
+  /**
    * iMUZ IM-B101H
    */
   public const val IM_B101H: String = "spec:width=800px,height=1280px,dpi=160"
@@ -35,7 +40,7 @@ public object Imuz {
   /**
    * iMUZ IM-H031
    */
-  public const val IM_H031: String = "spec:width=1200px,height=2000px,dpi=240"
+  public const val IM_H031: String = "spec:width=1200px,height=2000px,dpi=213"
 
   /**
    * iMUZ IM-H092L

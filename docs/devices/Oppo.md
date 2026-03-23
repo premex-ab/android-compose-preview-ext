@@ -1,6 +1,6 @@
 # Oppo Devices
 
-Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog.android.Oppo`
+Total: **404** devices. Import: `import se.premex.compose.preview.device.catalog.android.Oppo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -9,7 +9,6 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | A11w | A11W | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Oppo.A11W)` |
 | A1601 | A1601 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.A1601)` |
 | A1603 | A1603 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Oppo.A1603)` |
-| A31u | A31U | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Oppo.A31U)` |
 | A33 | A33 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Oppo.A33)` |
 | A33w | A33W | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Oppo.A33W)` |
 | A37 | A37 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.A37)` |
@@ -20,7 +19,7 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | A59 | A59 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.A59)` |
 | A73 | A73 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.A73)` |
 | A73t | A73T | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.A73T)` |
-| A77 | A77 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.A77)` |
+| A77 | A77 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.A77)` |
 | A79 | A79 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.A79)` |
 | A79k | A79K | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.A79K)` |
 | A79kt | A79KT | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.A79KT)` |
@@ -43,7 +42,7 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | CPH1725 | CPH1725 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.CPH1725)` |
 | CPH1727 | CPH1727 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.CPH1727)` |
 | CPH1729 | CPH1729 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Oppo.CPH1729)` |
-| CPH1801 | CPH1801 | 1080x2160 | 440 | `spec:width=1080px,height=2160px,dpi=440` | `@Preview(device = Oppo.CPH1801)` |
+| CPH1801 | CPH1801 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.CPH1801)` |
 | CPH1803 | CPH1803 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oppo.CPH1803)` |
 | CPH1805 | CPH1805 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oppo.CPH1805)` |
 | CPH1809 | CPH1809 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oppo.CPH1809)` |
@@ -259,6 +258,7 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | OP5A1F | OP5A1F | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oppo.OP5A1F)` |
 | OP5A29L1 | OP5A29L1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oppo.OP5A29L1)` |
 | OP5A2BL1 | OP5A2BL1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oppo.OP5A2BL1)` |
+| OP5A33 | OP5A33 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oppo.OP5A33)` |
 | OP5A3DL1 | OP5A3DL1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5A3DL1)` |
 | OP5A41L1 | OP5A41L1 | 1264x2780 | 560 | `spec:width=1264px,height=2780px,dpi=560` | `@Preview(device = Oppo.OP5A41L1)` |
 | OP5A47 | OP5A47 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Oppo.OP5A47)` |
@@ -285,16 +285,25 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | OP5DD5L1 | OP5DD5L1 | 1272x2800 | 560 | `spec:width=1272px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5DD5L1)` |
 | OP5DD7L1 | OP5DD7L1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5DD7L1)` |
 | OP5DDF | OP5DDF | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Oppo.OP5DDF)` |
+| OP5DE2L1 | OP5DE2L1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5DE2L1)` |
+| OP5DE3 | OP5DE3 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Oppo.OP5DE3)` |
 | OP5DF3 | OP5DF3 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oppo.OP5DF3)` |
 | OP5DF5L1 | OP5DF5L1 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Oppo.OP5DF5L1)` |
 | OP5DF7 | OP5DF7 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oppo.OP5DF7)` |
+| OP5DFB | OP5DFB | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Oppo.OP5DFB)` |
 | OP5DFDL1 | OP5DFDL1 | 1080x2412 | 480 | `spec:width=1080px,height=2412px,dpi=480` | `@Preview(device = Oppo.OP5DFDL1)` |
 | OP5E01L1 | OP5E01L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oppo.OP5E01L1)` |
 | OP5E03L1 | OP5E03L1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5E03L1)` |
 | OP5E05L1 | OP5E05L1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5E05L1)` |
 | OP5E07L1 | OP5E07L1 | 1272x2800 | 560 | `spec:width=1272px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5E07L1)` |
 | OP5E0BL1 | OP5E0BL1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5E0BL1)` |
+| OP5E11L1 | OP5E11L1 | 1272x2772 | 560 | `spec:width=1272px,height=2772px,dpi=560` | `@Preview(device = Oppo.OP5E11L1)` |
+| OP5E17L1 | OP5E17L1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5E17L1)` |
+| OP5E1BL1 | OP5E1BL1 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Oppo.OP5E1BL1)` |
+| OP5E1C | OP5E1C | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Oppo.OP5E1C)` |
 | OP5E89L1 | OP5E89L1 | 2248x2480 | 520 | `spec:width=2248px,height=2480px,dpi=520` | `@Preview(device = Oppo.OP5E89L1)` |
+| OP5E8BL1 | OP5E8BL1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5E8BL1)` |
+| OP5E8EL1 | OP5E8EL1 | 1272x2772 | 560 | `spec:width=1272px,height=2772px,dpi=560` | `@Preview(device = Oppo.OP5E8EL1)` |
 | OP5E9EL1 | OP5E9EL1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5E9EL1)` |
 | OP5EA7L1 | OP5EA7L1 | 720x1604 | 320 | `spec:width=720px,height=1604px,dpi=320` | `@Preview(device = Oppo.OP5EA7L1)` |
 | OP5EB1L1 | OP5EB1L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oppo.OP5EB1L1)` |
@@ -313,12 +322,19 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | OP5F02L1 | OP5F02L1 | 1256x2760 | 560 | `spec:width=1256px,height=2760px,dpi=560` | `@Preview(device = Oppo.OP5F02L1)` |
 | OP5F05L1 | OP5F05L1 | 1272x2800 | 560 | `spec:width=1272px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5F05L1)` |
 | OP5F0FL1 | OP5F0FL1 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Oppo.OP5F0FL1)` |
+| OP5F15L1 | OP5F15L1 | 1280x2800 | 560 | `spec:width=1280px,height=2800px,dpi=560` | `@Preview(device = Oppo.OP5F15L1)` |
+| OP5F19L1 | OP5F19L1 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Oppo.OP5F19L1)` |
+| OP5F2BL1 | OP5F2BL1 | 720x1570 | 320 | `spec:width=720px,height=1570px,dpi=320` | `@Preview(device = Oppo.OP5F2BL1)` |
 | OP6159L1 | OP6159L1 | 2000x2800 | 400 | `spec:width=2000px,height=2800px,dpi=400` | `@Preview(device = Oppo.OP6159L1)` |
 | OP615CL1 | OP615CL1 | 2400x3392 | 420 | `spec:width=2400px,height=3392px,dpi=420` | `@Preview(device = Oppo.OP615CL1)` |
 | OP6160L1 | OP6160L1 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Oppo.OP6160L1)` |
 | OP618BL1 | OP618BL1 | 2000x2800 | 400 | `spec:width=2000px,height=2800px,dpi=400` | `@Preview(device = Oppo.OP618BL1)` |
 | OP6192L1 | OP6192L1 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Oppo.OP6192L1)` |
 | OP6193L1 | OP6193L1 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Oppo.OP6193L1)` |
+| OP61B3L1 | OP61B3L1 | 1272x2772 | 560 | `spec:width=1272px,height=2772px,dpi=560` | `@Preview(device = Oppo.OP61B3L1)` |
+| OP61B7L1 | OP61B7L1 | 1216x2640 | 560 | `spec:width=1216px,height=2640px,dpi=560` | `@Preview(device = Oppo.OP61B7L1)` |
+| OP6285L1 | OP6285L1 | 1080x2372 | 480 | `spec:width=1080px,height=2372px,dpi=480` | `@Preview(device = Oppo.OP6285L1)` |
+| OP6542L1 | OP6542L1 | 2120x3000 | 400 | `spec:width=2120px,height=3000px,dpi=400` | `@Preview(device = Oppo.OP6542L1)` |
 | OPD2A0 | OPD2A0 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oppo.OPD2A0)` |
 | OPD4A1L1 | OPD4A1L1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Oppo.OPD4A1L1)` |
 | orca | ORCA | 402x476 | 320 | `spec:width=402px,height=476px,dpi=320` | `@Preview(device = Oppo.ORCA)` |
@@ -326,7 +342,7 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | OWWE242 | OWWE242 | 466x466 | 360 | `spec:width=466px,height=466px,dpi=360` | `@Preview(device = Oppo.OWWE242)` |
 | OWWE251 | OWWE251 | 466x466 | 320 | `spec:width=466px,height=466px,dpi=320` | `@Preview(device = Oppo.OWWE251)` |
 | PAAM00 | PAAM00 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Oppo.PAAM00)` |
-| PAAT00 | PAAT00 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Oppo.PAAT00)` |
+| PAAT00 | PAAT00 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.PAAT00)` |
 | PACM00 | PACM00 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Oppo.PACM00)` |
 | PACT00 | PACT00 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Oppo.PACT00)` |
 | PADM00 | PADM00 | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Oppo.PADM00)` |
@@ -337,7 +353,7 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | PBAM00 | PBAM00 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oppo.PBAM00)` |
 | PBAT00 | PBAT00 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oppo.PBAT00)` |
 | PBBM00 | PBBM00 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Oppo.PBBM00)` |
-| PBBM30 | PBBM30 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.PBBM30)` |
+| PBBM30 | PBBM30 | 720x1467 | 320 | `spec:width=720px,height=1467px,dpi=320` | `@Preview(device = Oppo.PBBM30)` |
 | PBBT00 | PBBT00 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Oppo.PBBT00)` |
 | PBBT30 | PBBT30 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Oppo.PBBT30)` |
 | PBCM10 | PBCM10 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Oppo.PBCM10)` |
@@ -356,7 +372,6 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | R11Plusk | R11PLUSK | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.R11PLUSK)` |
 | R11s | R11S | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.R11S)` |
 | R11sPlus | R11SPLUS | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Oppo.R11SPLUS)` |
-| R2017 | R2017 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Oppo.R2017)` |
 | R5 | R5 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.R5)` |
 | R7 | R7 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.R7)` |
 | R7007 | R7007 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.R7007)` |
@@ -368,7 +383,6 @@ Total: **390** devices. Import: `import se.premex.compose.preview.device.catalog
 | R7sf | R7SF | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.R7SF)` |
 | R7sm | R7SM | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.R7SM)` |
 | R7sPlus | R7SPLUS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Oppo.R7SPLUS)` |
-| R8001 | R8001 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.R8001)` |
 | R8006 | R8006 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Oppo.R8006)` |
 | R815 | R815 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Oppo.R815)` |
 | R821 | R821 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Oppo.R821)` |

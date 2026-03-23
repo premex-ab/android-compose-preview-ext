@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for unnecto (3 models).
+ * Device specifications for unnecto (4 models).
  */
 public object Unnecto {
   /**
@@ -21,4 +21,9 @@ public object Unnecto {
    * unnecto Bolt20
    */
   public const val BOLT20: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
+   * unnecto Bolt_5G
+   */
+  public const val BOLT_5G: String = "spec:width=720px,height=1600px,dpi=320"
 }

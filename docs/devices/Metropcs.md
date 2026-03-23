@@ -1,13 +1,12 @@
 # Metropcs Devices
 
-Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.android.Metropcs`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Metropcs`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | c50 | C50 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Metropcs.C50)` |
 | e2nam | E2NAM | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Metropcs.E2NAM)` |
 | g4stylusn | G4STYLUSN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Metropcs.G4STYLUSN)` |
-| hwY301A1 | HWY301A1 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Metropcs.HWY301A1)` |
 | lv3 | LV3 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Metropcs.LV3)` |
 | lv517 | LV517 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Metropcs.LV517)` |
 | m1 | M1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Metropcs.M1)` |

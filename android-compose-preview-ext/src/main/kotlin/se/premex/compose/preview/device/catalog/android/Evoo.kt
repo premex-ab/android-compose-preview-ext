@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for EVOO (5 models).
+ * Device specifications for EVOO (4 models).
  */
 public object Evoo {
   /**
@@ -26,9 +26,4 @@ public object Evoo {
    * EVOO EV-A-156-1
    */
   public const val EV_A_156_1: String = "spec:width=1080px,height=1920px,dpi=160"
-
-  /**
-   * EVOO EVMFV2
-   */
-  public const val EVMFV2: String = "spec:width=720px,height=1440px,dpi=320"
 }

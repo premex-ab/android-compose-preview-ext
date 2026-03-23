@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=32
+// Generated manufacturer device catalog. Devices=33
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Vankyo (32 models).
+ * Device specifications for Vankyo (33 models).
  */
 public object Vankyo {
+  /**
+   * VANKYO himalaya
+   */
+  public const val HIMALAYA: String = "spec:width=1080px,height=1920px,dpi=320"
+
   /**
    * VANKYO MatrixPad-X36
    */

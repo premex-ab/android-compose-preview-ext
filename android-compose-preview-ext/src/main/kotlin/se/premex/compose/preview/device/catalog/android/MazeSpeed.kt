@@ -33,11 +33,6 @@ public object MazeSpeed {
   public const val MS5314G: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * MAZE_SPEED MS5414G
-   */
-  public const val MS5414G: String = "spec:width=480px,height=854px,dpi=213"
-
-  /**
    * MAZE_SPEED MS5424G
    */
   public const val MS5424G: String = "spec:width=480px,height=960px,dpi=220"
@@ -56,6 +51,11 @@ public object MazeSpeed {
    * Maze_Speed MS5614G
    */
   public const val MS5614G: String = "spec:width=480px,height=960px,dpi=200"
+
+  /**
+   * Maze_Speed SM4T
+   */
+  public const val SM4T: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * Maze_Speed SSB10T323

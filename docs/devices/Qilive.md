@@ -1,6 +1,6 @@
 # Qilive Devices
 
-Total: **30** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qilive`
+Total: **32** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qilive`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,9 +14,9 @@ Total: **30** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Q6T10IN | Q6T10IN | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Qilive.Q6T10IN)` |
 | Q7T10INP | Q7T10INP | 1200x1920 | 213 | `spec:width=1200px,height=1920px,dpi=213` | `@Preview(device = Qilive.Q7T10INP)` |
 | Q8S55IN4G2 | Q8S55IN4G2 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qilive.Q8S55IN4G2)` |
-| Q8S5IN4GP | Q8S5IN4GP | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qilive.Q8S5IN4GP)` |
 | Q8S6IN4G | Q8S6IN4G | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qilive.Q8S6IN4G)` |
 | Q9S5IN4G | Q9S5IN4G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qilive.Q9S5IN4G)` |
+| Q9T10IN4G | Q9T10IN4G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Qilive.Q9T10IN4G)` |
 | QT19071 | QT19071 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Qilive.QT19071)` |
 | QT19101 | QT19101 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Qilive.QT19101)` |
 | QT19101HV | QT19101HV | 1200x1920 | 213 | `spec:width=1200px,height=1920px,dpi=213` | `@Preview(device = Qilive.QT19101HV)` |
@@ -32,6 +32,8 @@ Total: **30** devices. Import: `import se.premex.compose.preview.device.catalog.
 | QT23126BP | QT23126BP | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Qilive.QT23126BP)` |
 | QT24101B | QT24101B | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Qilive.QT24101B)` |
 | QT24105BP | QT24105BP | 1200x1920 | 210 | `spec:width=1200px,height=1920px,dpi=210` | `@Preview(device = Qilive.QT24105BP)` |
+| QT24109B | QT24109B | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Qilive.QT24109B)` |
+| sepolia | SEPOLIA | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Qilive.SEPOLIA)` |
 | tamachi | TAMACHI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Qilive.TAMACHI)` |
 | yeongdeungpo | YEONGDEUNGPO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Qilive.YEONGDEUNGPO)` |
 

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=18
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for POINTMOBILE (17 models).
+ * Device specifications for POINTMOBILE (18 models).
  */
 public object Pointmobile {
   /**
@@ -51,6 +51,11 @@ public object Pointmobile {
    * POINTMOBILE PM67
    */
   public const val PM67: String = "spec:width=480px,height=800px,dpi=240"
+
+  /**
+   * POINTMOBILE PM68
+   */
+  public const val PM68: String = "spec:width=480px,height=800px,dpi=200"
 
   /**
    * POINTMOBILE PM75

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=26
+// Generated manufacturer device catalog. Devices=23
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MLS (26 models).
+ * Device specifications for MLS (23 models).
  */
 public object Mls {
   /**
@@ -21,11 +21,6 @@ public object Mls {
    * MLS iQ1060M
    */
   public const val IQ1060M: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * MLS iQ1568
-   */
-  public const val IQ1568: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * MLS iQ181011N
@@ -73,11 +68,6 @@ public object Mls {
   public const val IQGW516: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * MLS iQL550
-   */
-  public const val IQL550: String = "spec:width=540px,height=1132px,dpi=240"
-
-  /**
    * MLS iQL626
    */
   public const val IQL626: String = "spec:width=720px,height=1520px,dpi=320"
@@ -91,11 +81,6 @@ public object Mls {
    * MLS iQM960L
    */
   public const val IQM960L: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * MLS iQN700
-   */
-  public const val IQN700: String = "spec:width=600px,height=1280px,dpi=240"
 
   /**
    * MLS iQS1001

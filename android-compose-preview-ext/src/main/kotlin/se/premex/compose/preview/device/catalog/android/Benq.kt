@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BenQ (16 models).
+ * Device specifications for BenQ (20 models).
  */
 public object Benq {
+  /**
+   * BenQ alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * BenQ coonoor
+   */
+  public const val COONOOR: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * BenQ himalaya
    */
@@ -16,6 +26,11 @@ public object Benq {
    * BenQ ikebukuro
    */
   public const val IKEBUKURO: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * BenQ khandala
+   */
+  public const val KHANDALA: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * BENQ laoshan
@@ -31,6 +46,11 @@ public object Benq {
    * BenQ RE04_series
    */
   public const val RE04_SERIES: String = "spec:width=2160px,height=3840px,dpi=480"
+
+  /**
+   * BenQ RE04A_series
+   */
+  public const val RE04A_SERIES: String = "spec:width=2160px,height=3840px,dpi=480"
 
   /**
    * BenQ RE04N_series

@@ -11,7 +11,7 @@ Total: **23** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Artel_Quadro_Pro | ARTEL_QUADRO_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Artel.ARTEL_QUADRO_PRO)` |
 | Artel_T10 | ARTEL_T10 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Artel.ARTEL_T10)` |
 | Artel_Tesla | ARTEL_TESLA | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Artel.ARTEL_TESLA)` |
-| Artel_Tomchi | ARTEL_TOMCHI | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Artel.ARTEL_TOMCHI)` |
+| Artel_Tomchi | ARTEL_TOMCHI | 600x1280 | 240 | `spec:width=600px,height=1280px,dpi=240` | `@Preview(device = Artel.ARTEL_TOMCHI)` |
 | GAP_YOQ | GAP_YOQ | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Artel.GAP_YOQ)` |
 | GAPYOQ | GAPYOQ | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Artel.GAPYOQ)` |
 | nagai | NAGAI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Artel.NAGAI)` |

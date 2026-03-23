@@ -10,7 +10,7 @@ public object Yuho {
   /**
    * YUHO A1332E
    */
-  public const val A1332E: String = "spec:width=480px,height=1014px,dpi=200"
+  public const val A1332E: String = "spec:width=480px,height=960px,dpi=200"
 
   /**
    * YUHO Netra

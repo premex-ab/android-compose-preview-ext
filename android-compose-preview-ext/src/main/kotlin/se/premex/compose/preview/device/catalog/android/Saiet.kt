@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SAIET (7 models).
+ * Device specifications for SAIET (8 models).
  */
 public object Saiet {
   /**
@@ -41,4 +41,9 @@ public object Saiet {
    * SAIET STS602
    */
   public const val STS602: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
+   * SAIET STS650
+   */
+  public const val STS650: String = "spec:width=720px,height=1612px,dpi=320"
 }

@@ -1,6 +1,6 @@
 # Iqoo Devices
 
-Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.android.Iqoo`
+Total: **40** devices. Import: `import se.premex.compose.preview.device.catalog.android.Iqoo`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -41,5 +41,8 @@ Total: **37** devices. Import: `import se.premex.compose.preview.device.catalog.
 | I2407 | I2407 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Iqoo.I2407)` |
 | I2409 | I2409 | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Iqoo.I2409)` |
 | I2410 | I2410 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Iqoo.I2410)` |
+| I2501 | I2501 | 1440x3168 | 440 | `spec:width=1440px,height=3168px,dpi=440` | `@Preview(device = Iqoo.I2501)` |
+| I2502 | I2502 | 1080x2400 | 440 | `spec:width=1080px,height=2400px,dpi=440` | `@Preview(device = Iqoo.I2502)` |
+| I2505 | I2505 | 1080x2392 | 440 | `spec:width=1080px,height=2392px,dpi=440` | `@Preview(device = Iqoo.I2505)` |
 
 <!-- Generated automatically. Do not edit manually. -->

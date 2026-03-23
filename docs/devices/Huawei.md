@@ -1,6 +1,6 @@
 # Huawei Devices
 
-Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog.android.Huawei`
+Total: **222** devices. Import: `import se.premex.compose.preview.device.catalog.android.Huawei`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,6 +10,7 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | hw7d501l | HW7D501L | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Huawei.HW7D501L)` |
 | HWAGS-Q | HWAGS_Q | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Huawei.HWAGS_Q)` |
 | HWAGS2 | HWAGS2 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Huawei.HWAGS2)` |
+| HWAGS6-A | HWAGS6_A | 1920x1200 | 280 | `spec:width=1920px,height=1200px,dpi=280` | `@Preview(device = Huawei.HWAGS6_A)` |
 | hwALE-H | HWALE_H | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWALE_H)` |
 | hwALE-Q | HWALE_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWALE_Q)` |
 | HWALP | HWALP | 1440x2560 | 480 | `spec:width=1440px,height=2560px,dpi=480` | `@Preview(device = Huawei.HWALP)` |
@@ -29,8 +30,8 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | HWBLA | HWBLA | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Huawei.HWBLA)` |
 | HWBLN-H | HWBLN_H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWBLN_H)` |
 | HWBND-H | HWBND_H | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Huawei.HWBND_H)` |
+| HWBTKR | HWBTKR | 1440x2200 | 300 | `spec:width=1440px,height=2200px,dpi=300` | `@Preview(device = Huawei.HWBTKR)` |
 | HWBZT | HWBZT | 1440x2200 | 300 | `spec:width=1440px,height=2200px,dpi=300` | `@Preview(device = Huawei.HWBZT)` |
-| hwC199 | HWC199 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWC199)` |
 | HWCAG-L6737M | HWCAG_L6737M | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWCAG_L6737M)` |
 | HWCAM-H | HWCAM_H | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWCAM_H)` |
 | HWCAM-Q | HWCAM_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWCAM_Q)` |
@@ -63,27 +64,20 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | HWFIG-H | HWFIG_H | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Huawei.HWFIG_H)` |
 | HWFLA-H | HWFLA_H | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Huawei.HWFLA_H)` |
 | hwG510-0100 | HWG510_0100 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWG510_0100)` |
-| hwG510-0200 | HWG510_0200 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWG510_0200)` |
 | hwG525-U00 | HWG525_U00 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG525_U00)` |
-| hwG526-L11 | HWG526_L11 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG526_L11)` |
-| hwG526-L33 | HWG526_L33 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG526_L33)` |
 | hwG527-U081 | HWG527_U081 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG527_U081)` |
 | hwG535-L11 | HWG535_L11 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG535_L11)` |
 | hwG6-L11 | HWG6_L11 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG6_L11)` |
 | hwG6-L22 | HWG6_L22 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG6_L22)` |
-| hwG6-L33 | HWG6_L33 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG6_L33)` |
 | hwG6-U10 | HWG6_U10 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG6_U10)` |
-| hwG610-U00 | HWG610_U00 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG610_U00)` |
 | hwG610-U15 | HWG610_U15 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG610_U15)` |
 | hwG610-U20 | HWG610_U20 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG610_U20)` |
-| hwG615-U10 | HWG615_U10 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG615_U10)` |
 | hwG620-A2 | HWG620_A2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG620_A2)` |
 | hwG620-L72 | HWG620_L72 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWG620_L72)` |
 | hwG620S-L01 | HWG620S_L01 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG620S_L01)` |
 | hwG620S-L02 | HWG620S_L02 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG620S_L02)` |
 | hwG620S-L03 | HWG620S_L03 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG620S_L03)` |
 | hwG620S-UL00 | HWG620S_UL00 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG620S_UL00)` |
-| HWG629-UL | HWG629_UL | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG629_UL)` |
 | hwG630-U10 | HWG630_U10 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG630_U10)` |
 | hwG630-U20 | HWG630_U20 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG630_U20)` |
 | hwG630-U251 | HWG630_U251 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWG630_U251)` |
@@ -148,16 +142,14 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | HWNMO-H | HWNMO_H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWNMO_H)` |
 | HWNXT | HWNXT | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWNXT)` |
 | hwp6-u06 | HWP6_U06 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWP6_U06)` |
-| hwp6s-l04 | HWP6S_L04 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWP6S_L04)` |
 | hwp7 | HWP7 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWP7)` |
-| hwP7Mini | HWP7MINI | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Huawei.HWP7MINI)` |
 | HWP8max | HWP8MAX | 1080x1920 | 400 | `spec:width=1080px,height=1920px,dpi=400` | `@Preview(device = Huawei.HWP8MAX)` |
 | HWPAR | HWPAR | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Huawei.HWPAR)` |
 | hwPE | HWPE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWPE)` |
 | HWPIC | HWPIC | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWPIC)` |
 | hwple703l | HWPLE703L | 1200x1920 | 400 | `spec:width=1200px,height=1920px,dpi=400` | `@Preview(device = Huawei.HWPLE703L)` |
 | HWPOT-H | HWPOT_H | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Huawei.HWPOT_H)` |
-| HWPOT-HF | HWPOT_HF | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Huawei.HWPOT_HF)` |
+| HWPOT-HF | HWPOT_HF | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Huawei.HWPOT_HF)` |
 | HWPRA-H | HWPRA_H | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWPRA_H)` |
 | HWRIO | HWRIO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWRIO)` |
 | hwRIO-AL00 | HWRIO_AL00 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWRIO_AL00)` |
@@ -174,7 +166,7 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | hws7701w | HWS7701W | 552x1024 | 160 | `spec:width=552px,height=1024px,dpi=160` | `@Preview(device = Huawei.HWS7701W)` |
 | hws7721g | HWS7721G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Huawei.HWS7721G)` |
 | hws7721u | HWS7721U | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Huawei.HWS7721U)` |
-| hws7951w | HWS7951W | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Huawei.HWS7951W)` |
+| hws7951w | HWS7951W | 552x1024 | 160 | `spec:width=552px,height=1024px,dpi=160` | `@Preview(device = Huawei.HWS7951W)` |
 | hws7961w | HWS7961W | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Huawei.HWS7961W)` |
 | hws8301l | HWS8301L | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Huawei.HWS8301L)` |
 | hws8701 | HWS8701 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Huawei.HWS8701)` |
@@ -194,6 +186,7 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | HWTIT-L6735 | HWTIT_L6735 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWTIT_L6735)` |
 | HWTIT-U6582 | HWTIT_U6582 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWTIT_U6582)` |
 | HWTRT-Q | HWTRT_Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWTRT_Q)` |
+| HWTXZ | HWTXZ | 2456x1600 | 300 | `spec:width=2456px,height=1600px,dpi=300` | `@Preview(device = Huawei.HWTXZ)` |
 | hwu9700L | HWU9700L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Huawei.HWU9700L)` |
 | HWVCE | HWVCE | 1080x2310 | 480 | `spec:width=1080px,height=2310px,dpi=480` | `@Preview(device = Huawei.HWVCE)` |
 | HWVIE | HWVIE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Huawei.HWVIE)` |
@@ -206,7 +199,6 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | hwY300-0100 | HWY300_0100 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY300_0100)` |
 | hwY300-0151 | HWY300_0151 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY300_0151)` |
 | HWY320-U | HWY320_U | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY320_U)` |
-| HWY321-U | HWY321_U | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY321_U)` |
 | hwY330-U01 | HWY330_U01 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY330_U01)` |
 | hwY330-U05 | HWY330_U05 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY330_U05)` |
 | hwY330-U11 | HWY330_U11 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Huawei.HWY330_U11)` |
@@ -221,7 +213,6 @@ Total: **231** devices. Import: `import se.premex.compose.preview.device.catalog
 | hwY530-U051 | HWY530_U051 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY530_U051)` |
 | hwY536A1 | HWY536A1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY536A1)` |
 | hwY538 | HWY538 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY538)` |
-| HWY540-U | HWY540_U | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY540_U)` |
 | HWY541-U | HWY541_U | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY541_U)` |
 | hwY550-L01 | HWY550_L01 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY550_L01)` |
 | hwY550-L03 | HWY550_L03 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Huawei.HWY550_L03)` |

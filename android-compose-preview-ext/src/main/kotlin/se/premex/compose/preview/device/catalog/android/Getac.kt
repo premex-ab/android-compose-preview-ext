@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Getac (4 models).
+ * Device specifications for Getac (5 models).
  */
 public object Getac {
   /**
    * Getac zx10
    */
   public const val ZX10: String = "spec:width=1200px,height=1920px,dpi=260"
+
+  /**
+   * Getac zx10g2
+   */
+  public const val ZX10G2: String = "spec:width=1200px,height=1920px,dpi=240"
 
   /**
    * Getac zx70

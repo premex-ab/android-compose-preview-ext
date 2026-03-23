@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=121
+// Generated manufacturer device catalog. Devices=124
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Hisense (121 models).
+ * Device specifications for Hisense (124 models).
  */
 public object Hisense {
   /**
@@ -180,7 +180,7 @@ public object Hisense {
   /**
    * Hisense HLTE120E_01
    */
-  public const val HLTE120E_01: String = "spec:width=720px,height=1552px,dpi=272"
+  public const val HLTE120E_01: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * Hisense HLTE121E
@@ -190,12 +190,12 @@ public object Hisense {
   /**
    * Hisense HLTE202N
    */
-  public const val HLTE202N: String = "spec:width=1080px,height=1920px,dpi=420"
+  public const val HLTE202N: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Hisense HLTE203T
    */
-  public const val HLTE203T: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val HLTE203T: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
    * Hisense HLTE222E
@@ -365,7 +365,7 @@ public object Hisense {
   /**
    * Hisense HLTE243E
    */
-  public const val HLTE243E: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val HLTE243E: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
    * Hisense HLTE243E_01
@@ -386,6 +386,21 @@ public object Hisense {
    * Hisense HLTE263E
    */
   public const val HLTE263E: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Hisense HLTE268E_10
+   */
+  public const val HLTE268E_10: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Hisense HLTE271E
+   */
+  public const val HLTE271E: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
+   * Hisense HLTE272E
+   */
+  public const val HLTE272E: String = "spec:width=720px,height=1560px,dpi=480"
 
   /**
    * Hisense HLTE315E
@@ -430,7 +445,7 @@ public object Hisense {
   /**
    * Hisense HS6580MT
    */
-  public const val HS6580MT: String = "spec:width=480px,height=960px,dpi=240"
+  public const val HS6580MT: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Hisense HS6735MT
@@ -493,9 +508,9 @@ public object Hisense {
   public const val HS8937QC: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * Hisense HS8953QC
+   * Hisense HS8952QC
    */
-  public const val HS8953QC: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val HS8952QC: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Hisense HSSC9850
@@ -548,9 +563,9 @@ public object Hisense {
   public const val MOERAKI: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Hisense rk3028a
+   * Hisense mt9679_u
    */
-  public const val RK3028A: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val MT9679_U: String = "spec:width=2160px,height=3840px,dpi=480"
 
   /**
    * Hisense rk3288

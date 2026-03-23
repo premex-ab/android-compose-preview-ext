@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SUXI (2 models).
+ * Device specifications for SUXI (3 models).
  */
 public object Suxi {
+  /**
+   * SUXI SUXI_I11
+   */
+  public const val SUXI_I11: String = "spec:width=800px,height=1280px,dpi=213"
+
   /**
    * SUXI T700
    */

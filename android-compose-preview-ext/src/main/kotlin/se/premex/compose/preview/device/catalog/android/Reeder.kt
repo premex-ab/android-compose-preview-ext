@@ -193,11 +193,6 @@ public object Reeder {
   public const val REEDER_M8_PLUS: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * reeder reeder_M8S
-   */
-  public const val REEDER_M8S: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
    * reeder reeder_T8
    */
   public const val REEDER_T8: String = "spec:width=800px,height=1280px,dpi=203"
@@ -271,4 +266,9 @@ public object Reeder {
    * Reeder S919
    */
   public const val S919: String = "spec:width=1200px,height=2664px,dpi=480"
+
+  /**
+   * reeder T71
+   */
+  public const val T71: String = "spec:width=800px,height=1340px,dpi=214"
 }

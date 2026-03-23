@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for indurama (8 models).
+ * Device specifications for indurama (9 models).
  */
 public object Indurama {
   /**
@@ -16,6 +16,11 @@ public object Indurama {
    * INDURAMA hongkong
    */
   public const val HONGKONG: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * INDURAMA jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * INDURAMA mountbaker

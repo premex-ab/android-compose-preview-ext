@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=94
+// Generated manufacturer device catalog. Devices=96
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Condor (94 models).
+ * Device specifications for Condor (96 models).
  */
 public object Condor {
+  /**
+   * Condor alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * Condor Allure_A8_Pro
    */
@@ -41,6 +46,11 @@ public object Condor {
    * Condor Allure_X
    */
   public const val ALLURE_X: String = "spec:width=1080px,height=2340px,dpi=480"
+
+  /**
+   * Condor dangni
+   */
+  public const val DANGNI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * Condor Griffe_T1
@@ -143,9 +153,29 @@ public object Condor {
   public const val NOVA_70I: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * Condor NOVA_70PRO
+   */
+  public const val NOVA_70PRO: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Condor NOVA_70S
+   */
+  public const val NOVA_70S: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
    * Condor NOVA_70SE
    */
   public const val NOVA_70SE: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Condor NOVA_80A
+   */
+  public const val NOVA_80A: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
+   * Condor NOVA_80i
+   */
+  public const val NOVA_80I: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * Condor PAM524
@@ -156,11 +186,6 @@ public object Condor {
    * condor PGN409
    */
   public const val PGN409: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * condor PGN511
-   */
-  public const val PGN511: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * condor PGN513
@@ -238,11 +263,6 @@ public object Condor {
   public const val PGN608: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * condor PGN609
-   */
-  public const val PGN609: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * condor PGN610
    */
   public const val PGN610: String = "spec:width=720px,height=1280px,dpi=320"
@@ -266,11 +286,6 @@ public object Condor {
    * condor PHQ520
    */
   public const val PHQ520: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Condor PHQ526
-   */
-  public const val PHQ526: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * CONDOR phs601
@@ -406,11 +421,6 @@ public object Condor {
    * Condor TB109L
    */
   public const val TB109L: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Condor TB716
-   */
-  public const val TB716: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Condor TB717G

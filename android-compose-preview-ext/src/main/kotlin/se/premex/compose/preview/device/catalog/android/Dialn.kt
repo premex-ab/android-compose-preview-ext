@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=22
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Dialn (22 models).
+ * Device specifications for Dialn (20 models).
  */
 public object Dialn {
   /**
@@ -20,17 +20,17 @@ public object Dialn {
   /**
    * Dialn Neo
    */
-  public const val NEO: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val NEO: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * Dialn NeoA
    */
-  public const val NEOA: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val NEOA: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * Dialn Nova
    */
-  public const val NOVA: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val NOVA: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * Dialn NovaA
@@ -83,11 +83,6 @@ public object Dialn {
   public const val X62C: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
-   * DIALN X62S
-   */
-  public const val X62S: String = "spec:width=720px,height=1520px,dpi=320"
-
-  /**
    * Dialn X65A
    */
   public const val X65A: String = "spec:width=720px,height=1600px,dpi=320"
@@ -100,12 +95,7 @@ public object Dialn {
   /**
    * Dialn X65C
    */
-  public const val X65C: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
-   * Dialn X68B
-   */
-  public const val X68B: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val X65C: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * DIALN X8G

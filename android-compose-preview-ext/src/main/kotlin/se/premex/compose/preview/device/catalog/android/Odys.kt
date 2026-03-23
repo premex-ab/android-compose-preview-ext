@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ODYS (10 models).
+ * Device specifications for ODYS (9 models).
  */
 public object Odys {
   /**
    * ODYS FALCON_10_PLUS_3G
    */
   public const val FALCON_10_PLUS_3G: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * ODYS GOAL_10_PLUS_3G
-   */
-  public const val GOAL_10_PLUS_3G: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * ODYS JUNIOR_8_PRO

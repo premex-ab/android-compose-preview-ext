@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=61
+// Generated manufacturer device catalog. Devices=58
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for positivo (61 models).
+ * Device specifications for positivo (58 models).
  */
 public object Positivo {
   /**
@@ -56,11 +56,6 @@ public object Positivo {
    * positivo QF74
    */
   public const val QF74: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * positivo S430B
-   */
-  public const val S430B: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * positivo S431
@@ -208,6 +203,11 @@ public object Positivo {
   public const val T2050M: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * Positivo T2070D
+   */
+  public const val T2070D: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
    * Positivo T3010D
    */
   public const val T3010D: String = "spec:width=800px,height=1280px,dpi=160"
@@ -216,11 +216,6 @@ public object Positivo {
    * Positivo T307F
    */
   public const val T307F: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * positivo T701
-   */
-  public const val T701: String = "spec:width=480px,height=800px,dpi=120"
 
   /**
    * positivo T770
@@ -263,24 +258,19 @@ public object Positivo {
   public const val TL10: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
+   * Positivo TL12
+   */
+  public const val TL12: String = "spec:width=1600px,height=2560px,dpi=360"
+
+  /**
    * positivo US2070
    */
   public const val US2070: String = "spec:width=768px,height=1366px,dpi=160"
 
   /**
-   * positivo W750
-   */
-  public const val W750: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * positivo Y1000
    */
   public const val Y1000: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * positivo Y1010
-   */
-  public const val Y1010: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * positivo Y210
@@ -301,11 +291,6 @@ public object Positivo {
    * positivo YPY_AB10H
    */
   public const val YPY_AB10H: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * positivo YPY_AB7
-   */
-  public const val YPY_AB7: String = "spec:width=600px,height=976px,dpi=160"
 
   /**
    * positivo YPY_L1050

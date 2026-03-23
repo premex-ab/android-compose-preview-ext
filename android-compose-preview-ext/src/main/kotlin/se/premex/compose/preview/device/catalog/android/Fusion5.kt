@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=20
+// Generated manufacturer device catalog. Devices=18
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Fusion5 (20 models).
+ * Device specifications for Fusion5 (18 models).
  */
 public object Fusion5 {
-  /**
-   * Fusion5 F104Bv2_EEA
-   */
-  public const val F104BV2_EEA: String = "spec:width=800px,height=1280px,dpi=160"
-
   /**
    * FUSION5 F104Bv2_PRO
    */
@@ -86,11 +81,6 @@ public object Fusion5 {
    * Fusion5 F202_v2_EEA
    */
   public const val F202_V2_EEA: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * FUSION5 F704Bv2
-   */
-  public const val F704BV2: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Fusion5 Fusion5_F104Bv2

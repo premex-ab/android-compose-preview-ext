@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for XENON (2 models).
+ * Device specifications for XENON (3 models).
  */
 public object Xenon {
+  /**
+   * XENON dongnae
+   */
+  public const val DONGNAE: String = "spec:width=720px,height=1280px,dpi=213"
+
   /**
    * XENON marina
    */

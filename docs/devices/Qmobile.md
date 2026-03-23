@@ -1,6 +1,6 @@
 # Qmobile Devices
 
-Total: **77** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qmobile`
+Total: **68** devices. Import: `import se.premex.compose.preview.device.catalog.android.Qmobile`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,7 +12,6 @@ Total: **77** devices. Import: `import se.premex.compose.preview.device.catalog.
 | E3_Dual | E3_DUAL | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.E3_DUAL)` |
 | ENERGY_X1 | ENERGY_X1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.ENERGY_X1)` |
 | ENERGY_X2 | ENERGY_X2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.ENERGY_X2)` |
-| Evok_Power_Lite | EVOK_POWER_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.EVOK_POWER_LITE)` |
 | Fire | FIRE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.FIRE)` |
 | GBL7325QM | GBL7325QM | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.GBL7325QM)` |
 | i2_POWER | I2_POWER | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.I2_POWER)` |
@@ -30,13 +29,9 @@ Total: **77** devices. Import: `import se.premex.compose.preview.device.catalog.
 | J1 | J1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.J1)` |
 | J2 | J2 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.J2)` |
 | J5 | J5 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.J5)` |
-| J7 | J7 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.J7)` |
-| J7_PRO | J7_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.J7_PRO)` |
-| KING_KONG_MAX | KING_KONG_MAX | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.KING_KONG_MAX)` |
 | LT100 | LT100 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.LT100)` |
 | LT360 | LT360 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.LT360)` |
 | LT700_PRO | LT700_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.LT700_PRO)` |
-| LT750 | LT750 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.LT750)` |
 | LT900 | LT900 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.LT900)` |
 | M350_Pro | M350_PRO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.M350_PRO)` |
 | Noir_A1_lite | NOIR_A1_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.NOIR_A1_LITE)` |
@@ -46,7 +41,6 @@ Total: **77** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Q_Infinity | Q_INFINITY | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.Q_INFINITY)` |
 | Q_Infinity_B | Q_INFINITY_B | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_B)` |
 | Q_Infinity_C | Q_INFINITY_C | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_C)` |
-| Q_Infinity_Cinema | Q_INFINITY_CINEMA | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.Q_INFINITY_CINEMA)` |
 | Q_Infinity_D | Q_INFINITY_D | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_D)` |
 | Q_Infinity_E | Q_INFINITY_E | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_E)` |
 | Q_Infinity_E_Lite | Q_INFINITY_E_LITE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Qmobile.Q_INFINITY_E_LITE)` |
@@ -57,14 +51,11 @@ Total: **77** devices. Import: `import se.premex.compose.preview.device.catalog.
 | QMobile_Evok_Power | QMOBILE_EVOK_POWER | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_EVOK_POWER)` |
 | QMobile_HD_Plus | QMOBILE_HD_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_HD_PLUS)` |
 | QMobile_i9i | QMOBILE_I9I | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Qmobile.QMOBILE_I9I)` |
-| QMobile_LT500_PRO | QMOBILE_LT500_PRO | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_LT500_PRO)` |
 | QMobile_LT550 | QMOBILE_LT550 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_LT550)` |
-| QMobile_Noir_A1 | QMOBILE_NOIR_A1 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Qmobile.QMOBILE_NOIR_A1)` |
 | QMobile_S4 | QMOBILE_S4 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S4)` |
 | QMobile_S6_PLUS | QMOBILE_S6_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S6_PLUS)` |
 | QMobile_S6S | QMOBILE_S6S | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S6S)` |
 | QMobile_S8 | QMOBILE_S8 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILE_S8)` |
-| QMobile_X33 | QMOBILE_X33 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_X33)` |
 | QMobile_X36 | QMOBILE_X36 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_X36)` |
 | QMobile_XLi | QMOBILE_XLI | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Qmobile.QMOBILE_XLI)` |
 | QMobileS6 | QMOBILES6 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Qmobile.QMOBILES6)` |

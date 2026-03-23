@@ -28,11 +28,6 @@ public object Majestic {
   public const val TAB_714: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * MAJESTIC TAB-746
-   */
-  public const val TAB_746: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * MAJESTIC TAB_611_3G
    */
   public const val TAB_611_3G: String = "spec:width=600px,height=1024px,dpi=160"
@@ -106,4 +101,9 @@ public object Majestic {
    * MAJESTIC TAB_920_PLUS_4G
    */
   public const val TAB_920_PLUS_4G: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * MAJESTIC TAB_922_MAX
+   */
+  public const val TAB_922_MAX: String = "spec:width=1200px,height=2000px,dpi=320"
 }

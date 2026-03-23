@@ -4,6 +4,6 @@ Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.a
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| TVT-T108 | TVT_T108 | 1200x1920 | 300 | `spec:width=1200px,height=1920px,dpi=300` | `@Preview(device = Tvt.TVT_T108)` |
+| TVT-T108 | TVT_T108 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Tvt.TVT_T108)` |
 
 <!-- Generated automatically. Do not edit manually. -->

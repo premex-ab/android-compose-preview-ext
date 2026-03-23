@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Datamini (7 models).
+ * Device specifications for Datamini (8 models).
  */
 public object Datamini {
   /**
@@ -26,6 +26,11 @@ public object Datamini {
    * Datamini T84G
    */
   public const val T84G: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Datamini T84G_OC
+   */
+  public const val T84G_OC: String = "spec:width=800px,height=1280px,dpi=205"
 
   /**
    * Datamini T84G_T310

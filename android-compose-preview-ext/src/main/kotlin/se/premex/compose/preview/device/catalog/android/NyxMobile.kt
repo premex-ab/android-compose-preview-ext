@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for NYX_Mobile (5 models).
+ * Device specifications for NYX_Mobile (4 models).
  */
 public object NyxMobile {
-  /**
-   * NYX_Mobile Click
-   */
-  public const val CLICK: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * NYX_Mobile GLAM
    */

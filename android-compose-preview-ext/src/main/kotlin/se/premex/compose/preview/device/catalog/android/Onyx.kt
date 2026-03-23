@@ -10,5 +10,5 @@ public object Onyx {
   /**
    * ONYX BOOX
    */
-  public const val BOOX: String = "spec:width=1404px,height=1872px,dpi=240"
+  public const val BOOX: String = "spec:width=1264px,height=1680px,dpi=300"
 }

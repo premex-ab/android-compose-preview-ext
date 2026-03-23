@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=48
+// Generated manufacturer device catalog. Devices=49
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Vodafone (48 models).
+ * Device specifications for Vodafone (49 models).
  */
 public object Vodafone {
   /**
@@ -58,6 +58,16 @@ public object Vodafone {
   public const val UIW4030VHA: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * Vodafone V_Lite_3
+   */
+  public const val V_LITE_3: String = "spec:width=720px,height=1480px,dpi=280"
+
+  /**
+   * Vodafone V_Pro_3
+   */
+  public const val V_PRO_3: String = "spec:width=720px,height=1612px,dpi=280"
+
+  /**
    * Vodafone VF-895N
    */
   public const val VF_895N: String = "spec:width=720px,height=1280px,dpi=320"
@@ -106,11 +116,6 @@ public object Vodafone {
    * Vodafone VFD500
    */
   public const val VFD500: String = "spec:width=480px,height=854px,dpi=213"
-
-  /**
-   * Vodafone VFD501
-   */
-  public const val VFD501: String = "spec:width=480px,height=854px,dpi=213"
 
   /**
    * Vodafone VFD502

@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for E-tel (4 models).
+ * Device specifications for E-tel (3 models).
  */
 public object ETel {
-  /**
-   * E-tel E-tel_i10
-   */
-  public const val E_TEL_I10: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * E-tel E-tel_i20
    */

@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for VISION (9 models).
+ * Device specifications for VISION (11 models).
  */
 public object Vision {
   /**
-   * VISION B866V2F
+   * VISION dongnae
    */
-  public const val B866V2F: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val DONGNAE: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * VISION eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Vision martin
@@ -51,4 +56,9 @@ public object Vision {
    * VISION VISION_V1
    */
   public const val VISION_V1: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * Vision YQX
+   */
+  public const val YQX: String = "spec:width=1080px,height=1920px,dpi=320"
 }

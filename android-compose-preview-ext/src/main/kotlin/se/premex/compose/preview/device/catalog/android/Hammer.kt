@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=13
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Hammer (13 models).
+ * Device specifications for Hammer (15 models).
  */
 public object Hammer {
   /**
@@ -38,9 +38,19 @@ public object Hammer {
   public const val HAMMER_CONSTRUCTION: String = "spec:width=1080px,height=2160px,dpi=480"
 
   /**
+   * Hammer Hammer_Energy_X2
+   */
+  public const val HAMMER_ENERGY_X2: String = "spec:width=720px,height=1560px,dpi=320"
+
+  /**
    * Hammer Hammer_Expl_Pro
    */
   public const val HAMMER_EXPL_PRO: String = "spec:width=1080px,height=2160px,dpi=480"
+
+  /**
+   * Hammer Hammer_Iron_6_5G
+   */
+  public const val HAMMER_IRON_6_5G: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Hammer HS2302x

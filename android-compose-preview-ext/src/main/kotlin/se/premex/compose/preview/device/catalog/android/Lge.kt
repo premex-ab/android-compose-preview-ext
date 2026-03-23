@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=331
+// Generated manufacturer device catalog. Devices=322
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for lge (331 models).
+ * Device specifications for lge (322 models).
  */
 public object Lge {
   /**
@@ -318,11 +318,6 @@ public object Lge {
   public const val E1Q: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * lge e2
-   */
-  public const val E2: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * lge e2n
    */
   public const val E2N: String = "spec:width=480px,height=800px,dpi=240"
@@ -461,11 +456,6 @@ public object Lge {
    * lge g4stylusc
    */
   public const val G4STYLUSC: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * lge g4stylusds
-   */
-  public const val G4STYLUSDS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * lge g4stylusdsn
@@ -723,11 +713,6 @@ public object Lge {
   public const val LUV20SS: String = "spec:width=240px,height=320px,dpi=120"
 
   /**
-   * lge luv20ts
-   */
-  public const val LUV20TS: String = "spec:width=240px,height=320px,dpi=120"
-
-  /**
    * lge luv30ds
    */
   public const val LUV30DS: String = "spec:width=240px,height=320px,dpi=120"
@@ -748,11 +733,6 @@ public object Lge {
   public const val LUV50SS: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * lge luv50ssn
-   */
-  public const val LUV50SSN: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * lge luv80ds
    */
   public const val LUV80DS: String = "spec:width=480px,height=854px,dpi=240"
@@ -761,11 +741,6 @@ public object Lge {
    * lge luv80ss
    */
   public const val LUV80SS: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * lge luv90ds
-   */
-  public const val LUV90DS: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * lge luv90ss
@@ -985,7 +960,7 @@ public object Lge {
   /**
    * lge meh20lm
    */
-  public const val MEH20LM: String = "spec:width=720px,height=1600px,dpi=280"
+  public const val MEH20LM: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * lge meh35lm
@@ -995,7 +970,7 @@ public object Lge {
   /**
    * lge mfh10lm
    */
-  public const val MFH10LM: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val MFH10LM: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
    * lge mh2lm
@@ -1258,11 +1233,6 @@ public object Lge {
   public const val P1: String = "spec:width=1440px,height=2560px,dpi=640"
 
   /**
-   * lge p1bds3g
-   */
-  public const val P1BDS3G: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * lge p1bdsn
    */
   public const val P1BDSN: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -1498,11 +1468,6 @@ public object Lge {
   public const val VU2KT: String = "spec:width=768px,height=1024px,dpi=320"
 
   /**
-   * lge vu2sk
-   */
-  public const val VU2SK: String = "spec:width=768px,height=1024px,dpi=320"
-
-  /**
    * lge vu3
    */
   public const val VU3: String = "spec:width=960px,height=1280px,dpi=320"
@@ -1513,19 +1478,9 @@ public object Lge {
   public const val W3: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
-   * lge w3c
-   */
-  public const val W3C: String = "spec:width=320px,height=480px,dpi=160"
-
-  /**
    * lge w3ds
    */
   public const val W3DS: String = "spec:width=320px,height=480px,dpi=160"
-
-  /**
-   * lge w3voip
-   */
-  public const val W3VOIP: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
    * lge w5

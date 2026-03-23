@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=257
+// Generated manufacturer device catalog. Devices=269
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for realme (257 models).
+ * Device specifications for realme (269 models).
  */
 public object Realme {
   /**
@@ -145,7 +145,7 @@ public object Realme {
   /**
    * realme RE54C1L1
    */
-  public const val RE54C1L1: String = "spec:width=1200px,height=2000px,dpi=240"
+  public const val RE54C1L1: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * realme RE54CBL1
@@ -508,6 +508,16 @@ public object Realme {
   public const val RE602EL1: String = "spec:width=1280px,height=2800px,dpi=560"
 
   /**
+   * realme RE6030L1
+   */
+  public const val RE6030L1: String = "spec:width=1440px,height=3136px,dpi=640"
+
+  /**
+   * realme RE6031L1
+   */
+  public const val RE6031L1: String = "spec:width=1280px,height=2800px,dpi=560"
+
+  /**
    * realme RE6054
    */
   public const val RE6054: String = "spec:width=720px,height=1600px,dpi=320"
@@ -623,6 +633,11 @@ public object Realme {
   public const val RE60BA: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * realme RE60C8L1
+   */
+  public const val RE60C8L1: String = "spec:width=1440px,height=3136px,dpi=640"
+
+  /**
    * realme RE60CCL1
    */
   public const val RE60CCL1: String = "spec:width=1280px,height=2800px,dpi=560"
@@ -631,6 +646,51 @@ public object Realme {
    * realme RE60CDL1
    */
   public const val RE60CDL1: String = "spec:width=1080px,height=2392px,dpi=480"
+
+  /**
+   * realme RE6400L1
+   */
+  public const val RE6400L1: String = "spec:width=1440px,height=3136px,dpi=640"
+
+  /**
+   * realme RE6404L1
+   */
+  public const val RE6404L1: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
+   * realme RE6440L1
+   */
+  public const val RE6440L1: String = "spec:width=1080px,height=2392px,dpi=480"
+
+  /**
+   * realme RE6441L1
+   */
+  public const val RE6441L1: String = "spec:width=1080px,height=2344px,dpi=480"
+
+  /**
+   * realme RE6444L1
+   */
+  public const val RE6444L1: String = "spec:width=1080px,height=2372px,dpi=480"
+
+  /**
+   * realme RE644BL1
+   */
+  public const val RE644BL1: String = "spec:width=1280px,height=2800px,dpi=560"
+
+  /**
+   * realme RE644C
+   */
+  public const val RE644C: String = "spec:width=720px,height=1570px,dpi=320"
+
+  /**
+   * realme RE6450L1
+   */
+  public const val RE6450L1: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * realme RE645F
+   */
+  public const val RE645F: String = "spec:width=720px,height=1570px,dpi=320"
 
   /**
    * realme RE811C
@@ -1145,7 +1205,7 @@ public object Realme {
   /**
    * realme RMX2201CN
    */
-  public const val RMX2201CN: String = "spec:width=1080px,height=2400px,dpi=420"
+  public const val RMX2201CN: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * realme RMX2202CN

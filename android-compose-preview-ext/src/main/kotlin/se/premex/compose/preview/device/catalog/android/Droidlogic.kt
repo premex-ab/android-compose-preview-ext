@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Droidlogic (3 models).
+ * Device specifications for Droidlogic (4 models).
  */
 public object Droidlogic {
   /**
@@ -16,6 +16,11 @@ public object Droidlogic {
    * Droidlogic franklin
    */
   public const val FRANKLIN: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
+   * Droidlogic ohm
+   */
+  public const val OHM: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
    * Droidlogic oppen

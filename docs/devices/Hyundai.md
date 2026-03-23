@@ -1,26 +1,26 @@
 # Hyundai Devices
 
-Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hyundai`
+Total: **116** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hyundai`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | 10LA2 | _10LA2 | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Hyundai._10LA2)` |
 | 10LB1 | _10LB1 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Hyundai._10LB1)` |
+| 10LB4 | _10LB4 | 800x1280 | 320 | `spec:width=800px,height=1280px,dpi=320` | `@Preview(device = Hyundai._10LB4)` |
 | 10LC1 | _10LC1 | 1200x1920 | 360 | `spec:width=1200px,height=1920px,dpi=360` | `@Preview(device = Hyundai._10LC1)` |
 | 7LB1 | _7LB1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai._7LB1)` |
 | 7WA1 | _7WA1 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Hyundai._7WA1)` |
 | 8LAB1 | _8LAB1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hyundai._8LAB1)` |
+| alimos | ALIMOS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Hyundai.ALIMOS)` |
 | bangbae | BANGBAE | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Hyundai.BANGBAE)` |
 | bruno | BRUNO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Hyundai.BRUNO)` |
 | capitolhill | CAPITOLHILL | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Hyundai.CAPITOLHILL)` |
-| E435_Plus | E435_PLUS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Hyundai.E435_PLUS)` |
+| dangni | DANGNI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Hyundai.DANGNI)` |
 | E465GO | E465GO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Hyundai.E465GO)` |
 | E475 | E475 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Hyundai.E475)` |
 | E485 | E485 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Hyundai.E485)` |
 | e501 | E501 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Hyundai.E501)` |
-| e502 | E502 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.E502)` |
 | E506 | E506 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Hyundai.E506)` |
-| e551_Lite | E551_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.E551_LITE)` |
 | E553 | E553 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hyundai.E553)` |
 | E554 | E554 | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Hyundai.E554)` |
 | E601F | E601F | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hyundai.E601F)` |
@@ -36,9 +36,7 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | HT0703K | HT0703K | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT0703K)` |
 | HT0703W08 | HT0703W08 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT0703W08)` |
 | HT0704K08 | HT0704K08 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT0704K08)` |
-| HT0705W08 | HT0705W08 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT0705W08)` |
 | HT0802W16 | HT0802W16 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hyundai.HT0802W16)` |
-| HT1003X16 | HT1003X16 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hyundai.HT1003X16)` |
 | HT1004L16 | HT1004L16 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Hyundai.HT1004L16)` |
 | HT1004X16 | HT1004X16 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Hyundai.HT1004X16)` |
 | HT10LA1MSGNA02 | HT10LA1MSGNA02 | 1200x1920 | 360 | `spec:width=1200px,height=1920px,dpi=360` | `@Preview(device = Hyundai.HT10LA1MSGNA02)` |
@@ -57,7 +55,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | HT3G60L | HT3G60L | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Hyundai.HT3G60L)` |
 | HT7GB1MBK_ | HT7GB1MBK | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT7GB1MBK)` |
 | HT7WB1RBK | HT7WB1RBK | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT7WB1RBK)` |
-| HT7WC1PBK | HT7WC1PBK | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HT7WC1PBK)` |
 | HT8LA1RBKNA01 | HT8LA1RBKNA01 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Hyundai.HT8LA1RBKNA01)` |
 | HT8LAB1PBKLTM | HT8LAB1PBKLTM | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Hyundai.HT8LAB1PBKLTM)` |
 | HT8LB1PBK01 | HT8LB1PBK01 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hyundai.HT8LB1PBK01)` |
@@ -68,7 +65,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | HY65PA1401NA | HY65PA1401NA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hyundai.HY65PA1401NA)` |
 | HY65PA1402NA | HY65PA1402NA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hyundai.HY65PA1402NA)` |
 | HY65PB1401NA | HY65PB1401NA | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hyundai.HY65PB1401NA)` |
-| HY_BDL163G_001_EEA | HY_BDL163G_001_EEA | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.HY_BDL163G_001_EEA)` |
 | HyTab_Plus_10LC2 | HYTAB_PLUS_10LC2 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hyundai.HYTAB_PLUS_10LC2)` |
 | HYUNDAI_Ultra_Live_II | HYUNDAI_ULTRA_LIVE_II | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Hyundai.HYUNDAI_ULTRA_LIVE_II)` |
 | ikebukuro | IKEBUKURO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Hyundai.IKEBUKURO)` |
@@ -80,11 +76,9 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | Koral_10XL | KORAL_10XL | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Hyundai.KORAL_10XL)` |
 | Koral_7W4X | KORAL_7W4X | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.KORAL_7W4X)` |
 | Koral_7WB1 | KORAL_7WB1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.KORAL_7WB1)` |
-| Koral_7WC1 | KORAL_7WC1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.KORAL_7WC1)` |
 | Koral_7WD1 | KORAL_7WD1 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hyundai.KORAL_7WD1)` |
 | Koral_8WC1 | KORAL_8WC1 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hyundai.KORAL_8WC1)` |
 | L465 | L465 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Hyundai.L465)` |
-| L503F | L503F | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hyundai.L503F)` |
 | L503F_Plus | L503F_PLUS | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Hyundai.L503F_PLUS)` |
 | L506 | L506 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Hyundai.L506)` |
 | L553 | L553 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hyundai.L553)` |
@@ -108,7 +102,6 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | R4 | R4 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Hyundai.R4)` |
 | redwood | REDWOOD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Hyundai.REDWOOD)` |
 | samseong | SAMSEONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Hyundai.SAMSEONG)` |
-| Seoul_9 | SEOUL_9 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hyundai.SEOUL_9)` |
 | Seoul_S8 | SEOUL_S8 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hyundai.SEOUL_S8)` |
 | shinjuku | SHINJUKU | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Hyundai.SHINJUKU)` |
 | sindorim | SINDORIM | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Hyundai.SINDORIM)` |
@@ -118,16 +111,12 @@ Total: **127** devices. Import: `import se.premex.compose.preview.device.catalog
 | SW6H | SW6H | 1080x1920 | 160 | `spec:width=1080px,height=1920px,dpi=160` | `@Preview(device = Hyundai.SW6H)` |
 | tamachi | TAMACHI | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Hyundai.TAMACHI)` |
 | Ultra_Active | ULTRA_ACTIVE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.ULTRA_ACTIVE)` |
-| Ultra_Dream | ULTRA_DREAM | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Hyundai.ULTRA_DREAM)` |
-| Ultra_Energy_Lite | ULTRA_ENERGY_LITE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Hyundai.ULTRA_ENERGY_LITE)` |
-| Ultra_Energy_Plus | ULTRA_ENERGY_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.ULTRA_ENERGY_PLUS)` |
 | Ultra_Latitude | ULTRA_LATITUDE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.ULTRA_LATITUDE)` |
 | Ultra_Shadow | ULTRA_SHADOW | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.ULTRA_SHADOW)` |
 | Ultra_Shine | ULTRA_SHINE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.ULTRA_SHINE)` |
 | Ultra_Storm | ULTRA_STORM | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Hyundai.ULTRA_STORM)` |
 | Ultra_Style | ULTRA_STYLE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Hyundai.ULTRA_STYLE)` |
 | Ultra_Sync | ULTRA_SYNC | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Hyundai.ULTRA_SYNC)` |
-| Ultra_Trend | ULTRA_TREND | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hyundai.ULTRA_TREND)` |
 | Ultra_Vision | ULTRA_VISION | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hyundai.ULTRA_VISION)` |
 | Ultra_Vision_Plus | ULTRA_VISION_PLUS | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hyundai.ULTRA_VISION_PLUS)` |
 | yeongdeungpo | YEONGDEUNGPO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Hyundai.YEONGDEUNGPO)` |

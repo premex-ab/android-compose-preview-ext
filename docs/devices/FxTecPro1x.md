@@ -4,6 +4,6 @@ Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.a
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| QX1050 | QX1050 | 1440x2960 | 440 | `spec:width=1440px,height=2960px,dpi=440` | `@Preview(device = FxTecPro1x.QX1050)` |
+| QX1050 | QX1050 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = FxTecPro1x.QX1050)` |
 
 <!-- Generated automatically. Do not edit manually. -->

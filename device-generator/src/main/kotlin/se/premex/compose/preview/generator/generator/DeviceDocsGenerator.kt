@@ -3,7 +3,6 @@ package se.premex.compose.preview.generator.generator
 import se.premex.compose.preview.generator.model.DeviceSpec
 import java.nio.file.Files
 import java.nio.file.Path
-import java.security.MessageDigest
 import kotlin.io.path.createDirectories
 import kotlin.io.path.exists
 import kotlin.io.path.writeText
@@ -22,9 +21,8 @@ class DeviceDocsGenerator {
         val docsRoot = projectRoot.resolve("docs/devices")
         if (!docsRoot.exists()) docsRoot.createDirectories()
 
-        // Group & sort
-        val byManufacturer = devices.groupBy { it.toManufacturerClassName() }
-            .toSortedMap()
+        // Group & sort (case-insensitive to match DeviceCatalogGenerator)
+        val byManufacturer = NameResolver.groupByManufacturer(devices)
 
         // Generate per-manufacturer pages first (need counts & names)
         val manufacturerSummaries = mutableListOf<ManufacturerSummary>()
@@ -33,9 +31,7 @@ class DeviceDocsGenerator {
                 .distinctBy { it.code + ":" + it.toDeviceString() }
                 .sortedWith(compareBy<DeviceSpec> { it.code.lowercase() }.thenBy { it.width }.thenBy { it.height }.thenBy { it.dpi })
 
-            val usedNames = mutableSetOf<String>()
-            val rows = specs.map { spec ->
-                val constName = resolveUniqueName(spec, usedNames)
+            val rows = NameResolver.resolveAllNames(specs).map { (spec, constName) ->
                 DeviceRow(
                     manufacturerClassName = manufacturerClassName,
                     code = spec.code,
@@ -108,33 +104,6 @@ class DeviceDocsGenerator {
                 Files.writeString(readme, updated)
             }
         }
-    }
-
-    // Duplicate of naming logic to stay consistent with code constants
-    private fun resolveUniqueName(spec: DeviceSpec, used: MutableSet<String>): String {
-        val base = spec.toConstantName()
-        if (used.add(base)) return base
-        val resSuffix = "${spec.width}X${spec.height}".uppercase()
-        val resCandidate = "${base}_${resSuffix}".sanitizeUnderscores()
-        if (used.add(resCandidate)) return resCandidate
-        val dpiCandidate = "${base}_${resSuffix}_${spec.dpi}DPI".sanitizeUnderscores()
-        if (used.add(dpiCandidate)) return dpiCandidate
-        val hash = shortHash(spec.code + spec.width + spec.height + spec.dpi)
-        val hashCandidate = "${base}_${hash}".sanitizeUnderscores()
-        if (used.add(hashCandidate)) return hashCandidate
-        var counter = 2
-        while (true) {
-            val candidate = "${base}_${counter}".sanitizeUnderscores()
-            if (used.add(candidate)) return candidate
-            counter++
-        }
-    }
-
-    private fun String.sanitizeUnderscores(): String = this.replace(Regex("__+"), "_").trimEnd('_')
-
-    private fun shortHash(input: String): String {
-        val md = MessageDigest.getInstance("MD5")
-        return md.digest(input.toByteArray()).take(3).joinToString("") { (it.toInt() and 0xFF).toString(16).padStart(2, '0') }.uppercase()
     }
 
     private data class DeviceRow(

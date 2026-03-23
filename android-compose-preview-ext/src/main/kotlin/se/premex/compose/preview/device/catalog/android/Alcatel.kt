@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=39
+// Generated manufacturer device catalog. Devices=42
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Alcatel (39 models).
+ * Device specifications for Alcatel (42 models).
  */
 public object Alcatel {
   /**
    * Alcatel 5006
    */
   public const val _5006: String = "spec:width=720px,height=1440px,dpi=320"
+
+  /**
+   * Alcatel A01
+   */
+  public const val A01: String = "spec:width=720px,height=1600px,dpi=260"
 
   /**
    * Alcatel Apollo_8_4G
@@ -76,6 +81,11 @@ public object Alcatel {
    * Alcatel Dahlia
    */
   public const val DAHLIA: String = "spec:width=576px,height=1280px,dpi=220"
+
+  /**
+   * Alcatel DahliaMax
+   */
+  public const val DAHLIAMAX: String = "spec:width=576px,height=1280px,dpi=220"
 
   /**
    * Alcatel DahliaPro
@@ -196,6 +206,11 @@ public object Alcatel {
    * Alcatel U3A_7_WIFI_Refresh
    */
   public const val U3A_7_WIFI_REFRESH: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * Alcatel Vanilla
+   */
+  public const val VANILLA: String = "spec:width=480px,height=854px,dpi=200"
 
   /**
    * Alcatel Wright_Pro

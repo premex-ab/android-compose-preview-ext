@@ -1,6 +1,6 @@
 # Wiko Devices
 
-Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog.android.Wiko`
+Total: **122** devices. Import: `import se.premex.compose.preview.device.catalog.android.Wiko`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -20,7 +20,6 @@ Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog
 | P4601AN | P4601AN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P4601AN)` |
 | P4661AN | P4661AN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P4661AN)` |
 | P4901AC | P4901AC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P4901AC)` |
-| P4903JP | P4903JP | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P4903JP)` |
 | P4903LA | P4903LA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P4903LA)` |
 | P6601AE | P6601AE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P6601AE)` |
 | P6609BC | P6609BC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.P6609BC)` |
@@ -31,13 +30,11 @@ Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog
 | s4050ap | S4050AP | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Wiko.S4050AP)` |
 | s5030 | S5030 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.S5030)` |
 | S5030AP12H | S5030AP12H | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.S5030AP12H)` |
-| s5201ap | S5201AP | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.S5201AP)` |
 | s5222 | S5222 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.S5222)` |
 | s5250 | S5250 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.S5250)` |
 | s5254 | S5254 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.S5254)` |
 | S5260 | S5260 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.S5260)` |
 | S5420 | S5420 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.S5420)` |
-| s8515 | S8515 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Wiko.S8515)` |
 | T20 | T20 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Wiko.T20)` |
 | T2800AN | T2800AN | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.T2800AN)` |
 | T3903BN | T3903BN | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.T3903BN)` |
@@ -56,7 +53,6 @@ Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog
 | v12enlite | V12ENLITE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Wiko.V12ENLITE)` |
 | V2502AN | V2502AN | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Wiko.V2502AN)` |
 | v2508 | V2508 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Wiko.V2508)` |
-| v2510 | V2510 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Wiko.V2510)` |
 | v2520 | V2520 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Wiko.V2520)` |
 | v2600cn | V2600CN | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.V2600CN)` |
 | v2610 | V2610 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Wiko.V2610)` |
@@ -92,8 +88,8 @@ Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog
 | W-K510DG | W_K510DG | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Wiko.W_K510DG)` |
 | W-K521 | W_K521 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Wiko.W_K521)` |
 | W-K560 | W_K560 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Wiko.W_K560)` |
-| W-K610 | W_K610 | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Wiko.W_K610)` |
-| W-K630 | W_K630 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Wiko.W_K630)` |
+| W-K610 | W_K610 | 720x1503 | 288 | `spec:width=720px,height=1503px,dpi=288` | `@Preview(device = Wiko.W_K610)` |
+| W-K630 | W_K630 | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Wiko.W_K630)` |
 | W-P210 | W_P210 | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Wiko.W_P210)` |
 | W-P220 | W_P220 | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Wiko.W_P220)` |
 | W-P311 | W_P311 | 720x1520 | 280 | `spec:width=720px,height=1520px,dpi=280` | `@Preview(device = Wiko.W_P311)` |
@@ -106,7 +102,7 @@ Total: **126** devices. Import: `import se.premex.compose.preview.device.catalog
 | W-V720 | W_V720 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Wiko.W_V720)` |
 | W-V730 | W_V730 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Wiko.W_V730)` |
 | W-V745 | W_V745 | 720x1640 | 280 | `spec:width=720px,height=1640px,dpi=280` | `@Preview(device = Wiko.W_V745)` |
-| W-V750BN | W_V750BN | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Wiko.W_V750BN)` |
+| W-V750BN | W_V750BN | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Wiko.W_V750BN)` |
 | W-V755 | W_V755 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Wiko.W_V755)` |
 | W-V770 | W_V770 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Wiko.W_V770)` |
 | W-V800 | W_V800 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Wiko.W_V800)` |

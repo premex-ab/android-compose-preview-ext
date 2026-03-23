@@ -1,21 +1,21 @@
-// Generated manufacturer device catalog. Devices=21
+// Generated manufacturer device catalog. Devices=22
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LT (21 models).
+ * Device specifications for LT (22 models).
  */
 public object Lt {
   /**
    * LT HLTE227E
    */
-  public const val HLTE227E: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val HLTE227E: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * LT HS8909QC
    */
-  public const val HS8909QC: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val HS8909QC: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * LT HS8917QC
@@ -25,7 +25,7 @@ public object Lt {
   /**
    * LT LT
    */
-  public const val LT: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val LT: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
    * LT LT-NOTE-10S
@@ -48,6 +48,11 @@ public object Lt {
   public const val LT_6509: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
+   * LT LT_8102
+   */
+  public const val LT_8102: String = "spec:width=720px,height=1640px,dpi=320"
+
+  /**
    * LT LT_8103
    */
   public const val LT_8103: String = "spec:width=720px,height=1604px,dpi=320"
@@ -66,6 +71,11 @@ public object Lt {
    * LT LT_9902
    */
   public const val LT_9902: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
+   * LT LT_9904
+   */
+  public const val LT_9904: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * LT LT_9906
@@ -106,9 +116,4 @@ public object Lt {
    * LT LT_S9_NOTE
    */
   public const val LT_S9_NOTE: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * LT Note_30
-   */
-  public const val NOTE_30: String = "spec:width=1080px,height=2400px,dpi=480"
 }

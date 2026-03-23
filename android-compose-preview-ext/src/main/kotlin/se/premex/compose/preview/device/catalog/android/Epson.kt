@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Epson (6 models).
+ * Device specifications for Epson (9 models).
  */
 public object Epson {
   /**
@@ -21,6 +21,21 @@ public object Epson {
    * EPSON himalaya
    */
   public const val HIMALAYA: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * EPSON kasauli
+   */
+  public const val KASAULI: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * EPSON kodaikanal
+   */
+  public const val KODAIKANAL: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * EPSON ooty
+   */
+  public const val OOTY: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * Epson sti6200d101

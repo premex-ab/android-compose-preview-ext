@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=66
+// Generated manufacturer device catalog. Devices=63
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for STYLO (66 models).
+ * Device specifications for STYLO (63 models).
  */
 public object Stylo {
   /**
@@ -78,11 +78,6 @@ public object Stylo {
   public const val COMET: String = "spec:width=480px,height=960px,dpi=200"
 
   /**
-   * STYLO CPE91
-   */
-  public const val CPE91: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * STYLO DQR22
    */
   public const val DQR22: String = "spec:width=480px,height=960px,dpi=220"
@@ -113,6 +108,16 @@ public object Stylo {
   public const val ENERGY: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
+   * Stylo EOA39_STYLO_AXIS
+   */
+  public const val EOA39_STYLO_AXIS: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * STYLO Future
+   */
+  public const val FUTURE: String = "spec:width=540px,height=1200px,dpi=240"
+
+  /**
    * STYLO Galaxy
    */
   public const val GALAXY: String = "spec:width=720px,height=1600px,dpi=320"
@@ -121,11 +126,6 @@ public object Stylo {
    * STYLO INKOSI
    */
   public const val INKOSI: String = "spec:width=480px,height=960px,dpi=200"
-
-  /**
-   * STYLO INKOSI_PRO
-   */
-  public const val INKOSI_PRO: String = "spec:width=480px,height=960px,dpi=200"
 
   /**
    * STYLO INKOSI_PRO_4G
@@ -208,11 +208,6 @@ public object Stylo {
   public const val S40_VIDA: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * STYLO S40_Vino
-   */
-  public const val S40_VINO: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * STYLO S40_VISTA
    */
   public const val S40_VISTA: String = "spec:width=480px,height=800px,dpi=240"
@@ -246,11 +241,6 @@ public object Stylo {
    * STYLO S64_ALPHA
    */
   public const val S64_ALPHA: String = "spec:width=720px,height=1560px,dpi=320"
-
-  /**
-   * STYLO S9_TOPAZ
-   */
-  public const val S9_TOPAZ: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * STYLO SATURN
@@ -323,14 +313,9 @@ public object Stylo {
   public const val VERTIGO: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
-   * STYLO VS571
-   */
-  public const val VS571: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * STYLO X5
    */
-  public const val X5: String = "spec:width=540px,height=1200px,dpi=240"
+  public const val X5: String = "spec:width=600px,height=1280px,dpi=280"
 
   /**
    * STYLO X7

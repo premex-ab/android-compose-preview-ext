@@ -1,6 +1,6 @@
 # Saiet Devices
 
-Total: **7** devices. Import: `import se.premex.compose.preview.device.catalog.android.Saiet`
+Total: **8** devices. Import: `import se.premex.compose.preview.device.catalog.android.Saiet`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -11,5 +11,6 @@ Total: **7** devices. Import: `import se.premex.compose.preview.device.catalog.a
 | STS600 | STS600 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Saiet.STS600)` |
 | STS601 | STS601 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Saiet.STS601)` |
 | STS602 | STS602 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Saiet.STS602)` |
+| STS650 | STS650 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Saiet.STS650)` |
 
 <!-- Generated automatically. Do not edit manually. -->

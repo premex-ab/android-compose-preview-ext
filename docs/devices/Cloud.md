@@ -4,7 +4,7 @@ Total: **7** devices. Import: `import se.premex.compose.preview.device.catalog.a
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| Cyclone_C4 | CYCLONE_C4 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Cloud.CYCLONE_C4)` |
+| Cyclone_C4 | CYCLONE_C4 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Cloud.CYCLONE_C4)` |
 | Storm_C3 | STORM_C3 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Cloud.STORM_C3)` |
 | Stratus_C5 | STRATUS_C5 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Cloud.STRATUS_C5)` |
 | Stratus_C5_Elite | STRATUS_C5_ELITE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Cloud.STRATUS_C5_ELITE)` |

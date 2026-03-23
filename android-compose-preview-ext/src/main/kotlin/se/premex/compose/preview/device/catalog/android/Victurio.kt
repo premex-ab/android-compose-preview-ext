@@ -1,19 +1,14 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Victurio (2 models).
+ * Device specifications for Victurio (1 models).
  */
 public object Victurio {
   /**
    * Victurio VI108
    */
   public const val VI108: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * Victurio VI86
-   */
-  public const val VI86: String = "spec:width=600px,height=1024px,dpi=160"
 }

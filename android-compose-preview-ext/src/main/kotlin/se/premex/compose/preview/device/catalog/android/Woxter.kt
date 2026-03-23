@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for WOXTER (9 models).
+ * Device specifications for WOXTER (8 models).
  */
 public object Woxter {
-  /**
-   * Woxter Woxter_N200
-   */
-  public const val WOXTER_N200: String = "spec:width=1200px,height=1920px,dpi=213"
-
   /**
    * Woxter X100
    */

@@ -1,6 +1,6 @@
 # Onn Devices
 
-Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.android.Onn`
+Total: **57** devices. Import: `import se.premex.compose.preview.device.catalog.android.Onn`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -46,8 +46,11 @@ Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.
 | onn11TabletPro | ONN11TABLETPRO | 1280x1840 | 280 | `spec:width=1280px,height=1840px,dpi=280` | `@Preview(device = Onn.ONN11TABLETPRO)` |
 | onn12TabletPro | ONN12TABLETPRO | 1600x2560 | 280 | `spec:width=1600px,height=2560px,dpi=280` | `@Preview(device = Onn.ONN12TABLETPRO)` |
 | PM1042T-W | PM1042T_W | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Onn.PM1042T_W)` |
+| PM1042TW | PM1042TW | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Onn.PM1042TW)` |
 | PM106A | PM106A | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Onn.PM106A)` |
+| PM116T | PM116T | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Onn.PM116T)` |
 | PM82T | PM82T | 800x1340 | 240 | `spec:width=800px,height=1340px,dpi=240` | `@Preview(device = Onn.PM82T)` |
+| PM82TW | PM82TW | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Onn.PM82TW)` |
 | PP86A_W | PP86A_W | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Onn.PP86A_W)` |
 | PP86AW | PP86AW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Onn.PP86AW)` |
 | SNA | SNA | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Onn.SNA)` |
@@ -57,6 +60,6 @@ Total: **54** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TBBVNC100005208 | TBBVNC100005208 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Onn.TBBVNC100005208)` |
 | W723 | W723 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Onn.W723)` |
 | XNA | XNA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Onn.XNA)` |
-| YOC | YOC | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Onn.YOC)` |
+| YOC | YOC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Onn.YOC)` |
 
 <!-- Generated automatically. Do not edit manually. -->

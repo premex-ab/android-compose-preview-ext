@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LUCOMS (7 models).
+ * Device specifications for LUCOMS (8 models).
  */
 public object Lucoms {
+  /**
+   * LUCOMS alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * LUCOMS hongkong
    */

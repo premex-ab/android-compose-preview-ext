@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=16
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Polytron (16 models).
+ * Device specifications for Polytron (17 models).
  */
 public object Polytron {
   /**
    * Polytron hayward
    */
   public const val HAYWARD: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * POLYTRON hirano
+   */
+  public const val HIRANO: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * POLYTRON lakeside

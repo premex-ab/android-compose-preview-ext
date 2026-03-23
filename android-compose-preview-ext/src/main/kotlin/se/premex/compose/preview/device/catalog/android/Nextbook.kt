@@ -30,12 +30,12 @@ public object Nextbook {
   /**
    * NextBook NX16A8116K
    */
-  public const val NX16A8116K: String = "spec:width=1440px,height=3120px,dpi=560"
+  public const val NX16A8116K: String = "spec:width=1080px,height=2340px,dpi=440"
 
   /**
    * NextBook NX16A8116KP
    */
-  public const val NX16A8116KP: String = "spec:width=800px,height=1280px,dpi=240"
+  public const val NX16A8116KP: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * NextBook NXA116QC164

@@ -1,11 +1,10 @@
 # Ila Devices
 
-Total: **11** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ila`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ila`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | C3 | C3 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ila.C3)` |
-| E1_Plus | E1_PLUS | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ila.E1_PLUS)` |
 | E3 | E3 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ila.E3)` |
 | ILA_C1 | ILA_C1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ila.ILA_C1)` |
 | ILA_E1 | ILA_E1 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ila.ILA_E1)` |

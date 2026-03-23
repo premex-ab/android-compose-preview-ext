@@ -1,26 +1,16 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Supersonic (11 models).
+ * Device specifications for Supersonic (10 models).
  */
 public object Supersonic {
   /**
    * SUPERSONIC kanda
    */
   public const val KANDA: String = "spec:width=720px,height=1280px,dpi=213"
-
-  /**
-   * Supersonic SC-2110
-   */
-  public const val SC_2110: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Supersonic SC-4317BT
-   */
-  public const val SC_4317BT: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Supersonic SC-813
@@ -48,9 +38,14 @@ public object Supersonic {
   public const val SC_3110: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
-   * SUPERSONIC SC_4317
+   * SUPERSONIC SC_4107
    */
-  public const val SC_4317: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val SC_4107: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * SUPERSONIC SC_4110
+   */
+  public const val SC_4110: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Supersonic SC_5310BDL

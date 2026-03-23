@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for JCOM (3 models).
+ * Device specifications for JCOM (4 models).
  */
 public object Jcom {
+  /**
+   * J-COM SC40
+   */
+  public const val SC40: String = "spec:width=480px,height=800px,dpi=220"
+
   /**
    * JCOM sti6260d195
    */

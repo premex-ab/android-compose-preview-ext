@@ -1,6 +1,6 @@
 # Tcl Devices
 
-Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog.android.Tcl`
+Total: **333** devices. Import: `import se.premex.compose.preview.device.catalog.android.Tcl`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -18,10 +18,8 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | A5X | A5X | 720x1500 | 320 | `spec:width=720px,height=1500px,dpi=320` | `@Preview(device = Tcl.A5X)` |
 | A70AXLTMO | A70AXLTMO | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Tcl.A70AXLTMO)` |
 | Alto45 | ALTO45 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Tcl.ALTO45)` |
-| ALTO45TMO | ALTO45TMO | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Tcl.ALTO45TMO)` |
 | alto4_8g | ALTO4_8G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Tcl.ALTO4_8G)` |
 | alto5 | ALTO5 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Tcl.ALTO5)` |
-| alto5_premium | ALTO5_PREMIUM | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.ALTO5_PREMIUM)` |
 | alto5_sporty | ALTO5_SPORTY | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.ALTO5_SPORTY)` |
 | Ant | ANT | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.ANT)` |
 | Apollo84GBoostR | APOLLO84GBOOSTR | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Tcl.APOLLO84GBOOSTR)` |
@@ -44,6 +42,7 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | Bellona_WF_GL | BELLONA_WF_GL | 1440x2200 | 320 | `spec:width=1440px,height=2200px,dpi=320` | `@Preview(device = Tcl.BELLONA_WF_GL)` |
 | Benz | BENZ | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Tcl.BENZ)` |
 | Beryl_TMO | BERYL_TMO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.BERYL_TMO)` |
+| Beryl_VZW | BERYL_VZW | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.BERYL_VZW)` |
 | BeyondTV4 | BEYONDTV4 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Tcl.BEYONDTV4)` |
 | Bora_NA_OM | BORA_NA_OM | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tcl.BORA_NA_OM)` |
 | Bora_TF | BORA_TF | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tcl.BORA_TF)` |
@@ -79,6 +78,7 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | Cruze_Lite_TF | CRUZE_LITE_TF | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.CRUZE_LITE_TF)` |
 | Cruze_Pro | CRUZE_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.CRUZE_PRO)` |
 | Curie | CURIE | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Tcl.CURIE)` |
+| DahliaS | DAHLIAS | 576x1280 | 220 | `spec:width=576px,height=1280px,dpi=220` | `@Preview(device = Tcl.DAHLIAS)` |
 | Delhi_TF | DELHI_TF | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tcl.DELHI_TF)` |
 | Doha_TMO | DOHA_TMO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.DOHA_TMO)` |
 | Dragonfly | DRAGONFLY | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Tcl.DRAGONFLY)` |
@@ -124,6 +124,8 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | G09 | G09 | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Tcl.G09)` |
 | G10 | G10 | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Tcl.G10)` |
 | G13 | G13 | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Tcl.G13)` |
+| G15 | G15 | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Tcl.G15)` |
+| G16 | G16 | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Tcl.G16)` |
 | Gaia | GAIA | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Tcl.GAIA)` |
 | Gauss | GAUSS | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Tcl.GAUSS)` |
 | Goldfinch_Dish | GOLDFINCH_DISH | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Tcl.GOLDFINCH_DISH)` |
@@ -134,6 +136,7 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | HANDYT2 | HANDYT2 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tcl.HANDYT2)` |
 | Hera_Vis_WIFI | HERA_VIS_WIFI | 1600x2400 | 320 | `spec:width=1600px,height=2400px,dpi=320` | `@Preview(device = Tcl.HERA_VIS_WIFI)` |
 | Hero2C | HERO2C | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.HERO2C)` |
+| himalaya | HIMALAYA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Tcl.HIMALAYA)` |
 | HONG_KONG | HONG_KONG | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.HONG_KONG)` |
 | Hong_Kong_Pro | HONG_KONG_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.HONG_KONG_PRO)` |
 | I1-5_4G | I1_5_4G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.I1_5_4G)` |
@@ -163,6 +166,7 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | Logan | LOGAN | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Tcl.LOGAN)` |
 | Logan_FHD | LOGAN_FHD | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Tcl.LOGAN_FHD)` |
 | Lotus | LOTUS | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Tcl.LOTUS)` |
+| Lugh_10_4G | LUGH_10_4G | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Tcl.LUGH_10_4G)` |
 | Luna | LUNA | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Tcl.LUNA)` |
 | Luna_8_4G_ATT | LUNA_8_4G_ATT | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Tcl.LUNA_8_4G_ATT)` |
 | Luna_8_4G_TMO | LUNA_8_4G_TMO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Tcl.LUNA_8_4G_TMO)` |
@@ -172,7 +176,6 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | Miata_3G | MIATA_3G | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Tcl.MIATA_3G)` |
 | MIATA_lte | MIATA_LTE | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Tcl.MIATA_LTE)` |
 | mickey6 | MICKEY6 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6)` |
-| Mickey6CC | MICKEY6CC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6CC)` |
 | mickey6t | MICKEY6T | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6T)` |
 | Mickey6TFEVDO | MICKEY6TFEVDO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6TFEVDO)` |
 | Mickey6TTMO | MICKEY6TTMO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6TTMO)` |
@@ -180,6 +183,7 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | MICKEY6US | MICKEY6US | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6US)` |
 | Mickey6VZW | MICKEY6VZW | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.MICKEY6VZW)` |
 | Model_3 | MODEL_3 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.MODEL_3)` |
+| MonaLisa | MONALISA | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Tcl.MONALISA)` |
 | Morgan_4G | MORGAN_4G | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tcl.MORGAN_4G)` |
 | Oakland | OAKLAND | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.OAKLAND)` |
 | Odin | ODIN | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Tcl.ODIN)` |
@@ -227,7 +231,6 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | Pixi4-7_4G_Telus | PIXI4_7_4G_TELUS | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Tcl.PIXI4_7_4G_TELUS)` |
 | Pixi4-7_4G_TMO | PIXI4_7_4G_TMO | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Tcl.PIXI4_7_4G_TMO)` |
 | Pixi4-7_WIFI | PIXI4_7_WIFI | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Tcl.PIXI4_7_WIFI)` |
-| Pixi445 | PIXI445 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Tcl.PIXI445)` |
 | Pixi445CAN | PIXI445CAN | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Tcl.PIXI445CAN)` |
 | Pixi445Cricket | PIXI445CRICKET | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Tcl.PIXI445CRICKET)` |
 | Pixi445SPR | PIXI445SPR | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Tcl.PIXI445SPR)` |
@@ -277,6 +280,7 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | ScarabLite_TMO | SCARABLITE_TMO | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Tcl.SCARABLITE_TMO)` |
 | Seattle | SEATTLE | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Tcl.SEATTLE)` |
 | Seattle_VZW | SEATTLE_VZW | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Tcl.SEATTLE_VZW)` |
+| Selene_VZW | SELENE_VZW | 800x1340 | 240 | `spec:width=800px,height=1340px,dpi=240` | `@Preview(device = Tcl.SELENE_VZW)` |
 | Seoul | SEOUL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Tcl.SEOUL)` |
 | Seoul_ATT | SEOUL_ATT | 480x960 | 220 | `spec:width=480px,height=960px,dpi=220` | `@Preview(device = Tcl.SEOUL_ATT)` |
 | Seoul_TF | SEOUL_TF | 480x960 | 220 | `spec:width=480px,height=960px,dpi=220` | `@Preview(device = Tcl.SEOUL_TF)` |
@@ -324,11 +328,11 @@ Total: **329** devices. Import: `import se.premex.compose.preview.device.catalog
 | UnionTV | UNIONTV | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Tcl.UNIONTV)` |
 | Venice | VENICE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.VENICE)` |
 | Venus_4G_GL | VENUS_4G_GL | 800x1340 | 240 | `spec:width=800px,height=1340px,dpi=240` | `@Preview(device = Tcl.VENUS_4G_GL)` |
+| Venus_4G_NA_OM | VENUS_4G_NA_OM | 800x1340 | 240 | `spec:width=800px,height=1340px,dpi=240` | `@Preview(device = Tcl.VENUS_4G_NA_OM)` |
 | Venus_WiFi_GL | VENUS_WIFI_GL | 800x1340 | 240 | `spec:width=800px,height=1340px,dpi=240` | `@Preview(device = Tcl.VENUS_WIFI_GL)` |
 | Vinca | VINCA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Tcl.VINCA)` |
 | Wright | WRIGHT | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Tcl.WRIGHT)` |
 | Wright_Pro | WRIGHT_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Tcl.WRIGHT_PRO)` |
-| X1 | X1 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Tcl.X1)` |
 | x1_plus | X1_PLUS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Tcl.X1_PLUS)` |
 | Xess | XESS | 1080x1920 | 160 | `spec:width=1080px,height=1920px,dpi=160` | `@Preview(device = Tcl.XESS)` |
 | Xess-mini | XESS_MINI | 1080x1920 | 160 | `spec:width=1080px,height=1920px,dpi=160` | `@Preview(device = Tcl.XESS_MINI)` |

@@ -1,9 +1,10 @@
 # Tibuta Devices
 
-Total: **7** devices. Import: `import se.premex.compose.preview.device.catalog.android.Tibuta`
+Total: **8** devices. Import: `import se.premex.compose.preview.device.catalog.android.Tibuta`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| A10_M_EU | A10_M_EU | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Tibuta.A10_M_EU)` |
 | A30 | A30 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Tibuta.A30)` |
 | A40 | A40 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Tibuta.A40)` |
 | E101 | E101 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Tibuta.E101)` |

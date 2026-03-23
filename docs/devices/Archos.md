@@ -1,13 +1,11 @@
 # Archos Devices
 
-Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog.android.Archos`
+Total: **119** devices. Import: `import se.premex.compose.preview.device.catalog.android.Archos`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | A101NE | A101NE | 600x1024 | 120 | `spec:width=600px,height=1024px,dpi=120` | `@Preview(device = Archos.A101NE)` |
 | a101xe | A101XE | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.A101XE)` |
-| a70xe | A70XE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.A70XE)` |
-| ac101as3g | AC101AS3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101AS3G)` |
 | ac101as3gv2 | AC101AS3GV2 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101AS3GV2)` |
 | ac101as3gv3 | AC101AS3GV3 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101AS3GV3)` |
 | ac101aswf | AC101ASWF | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101ASWF)` |
@@ -22,6 +20,7 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | ac101cne | AC101CNE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101CNE)` |
 | ac101cpl | AC101CPL | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CPL)` |
 | ac101cplv2 | AC101CPLV2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CPLV2)` |
+| ac101cr3g | AC101CR3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CR3G)` |
 | ac101cr3gv2 | AC101CR3GV2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CR3GV2)` |
 | ac101cr3gv3 | AC101CR3GV3 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CR3GV3)` |
 | ac101cr3gv4 | AC101CR3GV4 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CR3GV4)` |
@@ -30,7 +29,6 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | ac101cv | AC101CV | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101CV)` |
 | ac101cxev2 | AC101CXEV2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101CXEV2)` |
 | ac101dne | AC101DNE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101DNE)` |
-| ac101dpl | AC101DPL | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101DPL)` |
 | ac101dplv2 | AC101DPLV2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101DPLV2)` |
 | ac101ene | AC101ENE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101ENE)` |
 | ac101enev2 | AC101ENEV2 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC101ENEV2)` |
@@ -42,7 +40,6 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | ac101sox | AC101SOX | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Archos.AC101SOX)` |
 | ac101soxaz | AC101SOXAZ | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Archos.AC101SOXAZ)` |
 | ac101soxul | AC101SOXUL | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Archos.AC101SOXUL)` |
-| ac101tr | AC101TR | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101TR)` |
 | ac101xel | AC101XEL | 600x1024 | 120 | `spec:width=600px,height=1024px,dpi=120` | `@Preview(device = Archos.AC101XEL)` |
 | AC101XPro4G | AC101XPRO4G | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Archos.AC101XPRO4G)` |
 | AC101XS2 | AC101XS2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC101XS2)` |
@@ -55,7 +52,6 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | ac45as4g | AC45AS4G | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Archos.AC45AS4G)` |
 | ac45dpl | AC45DPL | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Archos.AC45DPL)` |
 | ac50as3g | AC50AS3G | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Archos.AC50AS3G)` |
-| ac50as4g | AC50AS4G | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Archos.AC50AS4G)` |
 | ac50ass4g | AC50ASS4G | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Archos.AC50ASS4G)` |
 | ac50bco | AC50BCO | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC50BCO)` |
 | ac50co | AC50CO | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Archos.AC50CO)` |
@@ -73,9 +69,7 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | ac50sa | AC50SA | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC50SA)` |
 | ac50sax | AC50SAX | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Archos.AC50SAX)` |
 | ac50sedc | AC50SEDC | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC50SEDC)` |
-| ac50ti | AC50TI | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Archos.AC50TI)` |
 | ac50xse | AC50XSE | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Archos.AC50XSE)` |
-| ac55as3g | AC55AS3G | 540x960 | 213 | `spec:width=540px,height=960px,dpi=213` | `@Preview(device = Archos.AC55AS3G)` |
 | ac55bco | AC55BCO | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC55BCO)` |
 | ac55bpl | AC55BPL | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC55BPL)` |
 | ac55cop | AC55COP | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Archos.AC55COP)` |
@@ -83,31 +77,24 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | ac55diplus | AC55DIPLUS | 1080x1920 | 400 | `spec:width=1080px,height=1920px,dpi=400` | `@Preview(device = Archos.AC55DIPLUS)` |
 | ac55diselfie | AC55DISELFIE | 1080x1920 | 400 | `spec:width=1080px,height=1920px,dpi=400` | `@Preview(device = Archos.AC55DISELFIE)` |
 | ac55he | AC55HE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Archos.AC55HE)` |
-| ac55heplus | AC55HEPLUS | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC55HEPLUS)` |
 | ac55pl | AC55PL | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC55PL)` |
 | ac55sedc | AC55SEDC | 720x1280 | 280 | `spec:width=720px,height=1280px,dpi=280` | `@Preview(device = Archos.AC55SEDC)` |
 | ac55ses | AC55SES | 1080x1920 | 400 | `spec:width=1080px,height=1920px,dpi=400` | `@Preview(device = Archos.AC55SES)` |
 | ac57as3g | AC57AS3G | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Archos.AC57AS3G)` |
 | ac57as4g | AC57AS4G | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Archos.AC57AS4G)` |
-| ac57crs | AC57CRS | 720x1440 | 280 | `spec:width=720px,height=1440px,dpi=280` | `@Preview(device = Archos.AC57CRS)` |
 | ac57ox | AC57OX | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Archos.AC57OX)` |
-| ac60crs | AC60CRS | 720x1440 | 280 | `spec:width=720px,height=1440px,dpi=280` | `@Preview(device = Archos.AC60CRS)` |
-| ac60pl | AC60PL | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Archos.AC60PL)` |
 | ac62crs | AC62CRS | 480x996 | 240 | `spec:width=480px,height=996px,dpi=240` | `@Preview(device = Archos.AC62CRS)` |
 | ac63ox | AC63OX | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Archos.AC63OX)` |
 | ac68oxxl | AC68OXXL | 640x1352 | 240 | `spec:width=640px,height=1352px,dpi=240` | `@Preview(device = Archos.AC68OXXL)` |
 | ac70as3g | AC70AS3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC70AS3G)` |
 | ac70aswf | AC70ASWF | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Archos.AC70ASWF)` |
-| ac70cne | AC70CNE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC70CNE)` |
 | ac70cr3g | AC70CR3G | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Archos.AC70CR3G)` |
 | ac70cr3gv2 | AC70CR3GV2 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC70CR3GV2)` |
-| ac70cxe | AC70CXE | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC70CXE)` |
 | ac70hello | AC70HELLO | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Archos.AC70HELLO)` |
 | ac70ox | AC70OX | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Archos.AC70OX)` |
 | ac70plv3 | AC70PLV3 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC70PLV3)` |
 | ac70plv4 | AC70PLV4 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC70PLV4)` |
 | ac70xec | AC70XEC | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.AC70XEC)` |
-| ac80ox | AC80OX | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Archos.AC80OX)` |
 | ac94fff | AC94FFF | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.AC94FFF)` |
 | ac97cpl | AC97CPL | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Archos.AC97CPL)` |
 | ac97cplv2 | AC97CPLV2 | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Archos.AC97CPLV2)` |
@@ -134,6 +121,7 @@ Total: **131** devices. Import: `import se.premex.compose.preview.device.catalog
 | aza101soxul | AZA101SOXUL | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Archos.AZA101SOXUL)` |
 | hometablet | HOMETABLET | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Archos.HOMETABLET)` |
 | lifb57 | LIFB57 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Archos.LIFB57)` |
+| lifbk80 | LIFBK80 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Archos.LIFBK80)` |
 | X18_Ultra | X18_ULTRA | 1200x2000 | 280 | `spec:width=1200px,height=2000px,dpi=280` | `@Preview(device = Archos.X18_ULTRA)` |
 
 <!-- Generated automatically. Do not edit manually. -->

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TAGTECH (6 models).
+ * Device specifications for TAGTECH (7 models).
  */
 public object Tagtech {
   /**
@@ -26,6 +26,11 @@ public object Tagtech {
    * TAGTech TAG_Phone
    */
   public const val TAG_PHONE: String = "spec:width=720px,height=1520px,dpi=320"
+
+  /**
+   * TAG-TECH TAG_TAB_II
+   */
+  public const val TAG_TAB_II: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * TAGTech TAGPhone

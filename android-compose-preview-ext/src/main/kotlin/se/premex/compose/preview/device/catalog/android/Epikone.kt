@@ -1,26 +1,16 @@
-// Generated manufacturer device catalog. Devices=30
+// Generated manufacturer device catalog. Devices=24
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for EPIKONE (30 models).
+ * Device specifications for EPIKONE (24 models).
  */
 public object Epikone {
   /**
    * EPIKONE K406
    */
   public const val K406: String = "spec:width=360px,height=640px,dpi=160"
-
-  /**
-   * EPIKONE K501
-   */
-  public const val K501: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * EPIKONE K501_Plus
-   */
-  public const val K501_PLUS: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * EPIKONE K503
@@ -43,24 +33,9 @@ public object Epikone {
   public const val K503T: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * EPIKONE K504
-   */
-  public const val K504: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * EPIKONE K506
    */
   public const val K506: String = "spec:width=480px,height=854px,dpi=220"
-
-  /**
-   * EPIKONE K511
-   */
-  public const val K511: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * EPIKONE K536
-   */
-  public const val K536: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * EPIKONE K545
@@ -128,11 +103,6 @@ public object Epikone {
   public const val X547: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
-   * EPIKONE X572
-   */
-  public const val X572: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * EPIKONE X610
    */
   public const val X610: String = "spec:width=720px,height=1560px,dpi=320"
@@ -150,7 +120,7 @@ public object Epikone {
   /**
    * EPIKONE X650
    */
-  public const val X650: String = "spec:width=720px,height=1600px,dpi=300"
+  public const val X650: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * EPIKONE X655

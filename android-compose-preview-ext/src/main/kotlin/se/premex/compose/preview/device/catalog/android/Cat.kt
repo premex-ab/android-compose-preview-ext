@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Cat (17 models).
+ * Device specifications for Cat (16 models).
  */
 public object Cat {
   /**
@@ -43,9 +43,9 @@ public object Cat {
   public const val CATS48C: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Cat CatS50
+   * Cat CatS50c
    */
-  public const val CATS50: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val CATS50C: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Cat CatS52
@@ -86,9 +86,4 @@ public object Cat {
    * Cat S62Pro
    */
   public const val S62PRO: String = "spec:width=1080px,height=2160px,dpi=420"
-
-  /**
-   * CAT TOUGH
-   */
-  public const val TOUGH: String = "spec:width=480px,height=800px,dpi=240"
 }

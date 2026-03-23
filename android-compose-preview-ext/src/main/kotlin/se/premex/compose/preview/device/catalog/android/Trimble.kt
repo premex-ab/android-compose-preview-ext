@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Trimble (7 models).
+ * Device specifications for Trimble (8 models).
  */
 public object Trimble {
+  /**
+   * Trimble akita
+   */
+  public const val AKITA: String = "spec:width=800px,height=1280px,dpi=240"
+
   /**
    * Trimble bcat
    */
@@ -23,9 +28,9 @@ public object Trimble {
   public const val EE773X_4G: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Trimble EE773X_WiFi
+   * Trimble meerkat
    */
-  public const val EE773X_WIFI: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val MEERKAT: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Trimble pdog

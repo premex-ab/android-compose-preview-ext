@@ -10,5 +10,5 @@ public object Atoto {
   /**
    * ATOTO Multifunctional_Tablet
    */
-  public const val MULTIFUNCTIONAL_TABLET: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val MULTIFUNCTIONAL_TABLET: String = "spec:width=720px,height=1280px,dpi=160"
 }

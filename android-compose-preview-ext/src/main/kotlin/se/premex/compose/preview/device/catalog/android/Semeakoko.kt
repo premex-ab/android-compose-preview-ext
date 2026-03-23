@@ -1,22 +1,12 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Semeakoko (10 models).
+ * Device specifications for Semeakoko (8 models).
  */
 public object Semeakoko {
-  /**
-   * Semeakoko M_766
-   */
-  public const val M_766: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * Semeakoko S-764
-   */
-  public const val S_764: String = "spec:width=600px,height=1024px,dpi=160"
-
   /**
    * Semeakoko S-764-EEA
    */

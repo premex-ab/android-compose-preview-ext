@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Morep (4 models).
+ * Device specifications for morep (6 models).
  */
 public object Morep {
   /**
    * Morep Mavic_10
    */
   public const val MAVIC_10: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * morep mavic_20
+   */
+  public const val MAVIC_20: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Morep Mavic_30
@@ -21,6 +26,11 @@ public object Morep {
    * Morep Mavic_Plus
    */
   public const val MAVIC_PLUS: String = "spec:width=720px,height=1560px,dpi=280"
+
+  /**
+   * morep morep_v5
+   */
+  public const val MOREP_V5: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Morep Smart_V1

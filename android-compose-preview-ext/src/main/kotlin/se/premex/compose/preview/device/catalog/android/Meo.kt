@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MEO (4 models).
+ * Device specifications for MEO (6 models).
  */
 public object Meo {
   /**
@@ -26,4 +26,14 @@ public object Meo {
    * MEO DV8985-MEO
    */
   public const val DV8985_MEO: String = "spec:width=576px,height=720px,dpi=320"
+
+  /**
+   * MEO HP4C02-MEO
+   */
+  public const val HP4C02_MEO: String = "spec:width=720px,height=1280px,dpi=320"
+
+  /**
+   * MEO VSB3918-MEO
+   */
+  public const val VSB3918_MEO: String = "spec:width=1080px,height=1920px,dpi=320"
 }

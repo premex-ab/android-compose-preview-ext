@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=20
+// Generated manufacturer device catalog. Devices=19
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KODAK (20 models).
+ * Device specifications for KODAK (19 models).
  */
 public object Kodak {
   /**
@@ -51,11 +51,6 @@ public object Kodak {
    * KODAK KODAK_SMARTWAY_L1
    */
   public const val KODAK_SMARTWAY_L1: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * KODAK KODAK_SMARTWAY_T2
-   */
-  public const val KODAK_SMARTWAY_T2: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
    * Kodak KodakEktra

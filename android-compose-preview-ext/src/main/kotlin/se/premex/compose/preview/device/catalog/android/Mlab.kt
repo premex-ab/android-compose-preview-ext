@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=18
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for mlab (18 models).
+ * Device specifications for mlab (16 models).
  */
 public object Mlab {
   /**
@@ -48,11 +48,6 @@ public object Mlab {
   public const val MB4: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
-   * MLAB MB4_3G
-   */
-  public const val MB4_3G: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
    * Mlab MB4_3G_PLUS_SE
    */
   public const val MB4_3G_PLUS_SE: String = "spec:width=600px,height=1024px,dpi=160"
@@ -76,11 +71,6 @@ public object Mlab {
    * MLAB MB8866
    */
   public const val MB8866: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Mlab MLAB_GLOWY7
-   */
-  public const val MLAB_GLOWY7: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Mlab MLAB_GLOWY8

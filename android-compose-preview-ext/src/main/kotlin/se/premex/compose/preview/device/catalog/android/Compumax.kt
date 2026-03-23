@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for COMPUMAX (3 models).
+ * Device specifications for COMPUMAX (2 models).
  */
 public object Compumax {
   /**
@@ -16,9 +16,4 @@ public object Compumax {
    * COMPUMAX COMPUMAX
    */
   public const val COMPUMAX: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * Compumax mid1016_mk_64
-   */
-  public const val MID1016_MK_64: String = "spec:width=800px,height=1280px,dpi=160"
 }

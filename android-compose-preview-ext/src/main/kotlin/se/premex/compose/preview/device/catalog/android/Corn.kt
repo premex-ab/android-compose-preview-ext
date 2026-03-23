@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=28
+// Generated manufacturer device catalog. Devices=30
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CORN (28 models).
+ * Device specifications for CORN (30 models).
  */
 public object Corn {
   /**
@@ -36,6 +36,11 @@ public object Corn {
    * CORN Coco10_Ultra_4G
    */
   public const val COCO10_ULTRA_4G: String = "spec:width=720px,height=1600px,dpi=480"
+
+  /**
+   * CORN Coco20_Ultra_4G
+   */
+  public const val COCO20_ULTRA_4G: String = "spec:width=720px,height=1560px,dpi=480"
 
   /**
    * CORN CORN_R10
@@ -88,11 +93,6 @@ public object Corn {
   public const val R10S: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * CORN R20
-   */
-  public const val R20: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * CORN R40
    */
   public const val R40: String = "spec:width=720px,height=1520px,dpi=320"
@@ -116,6 +116,16 @@ public object Corn {
    * CORN Star8_3G
    */
   public const val STAR8_3G: String = "spec:width=600px,height=1024px,dpi=220"
+
+  /**
+   * CORN Star9_Max
+   */
+  public const val STAR9_MAX: String = "spec:width=800px,height=1340px,dpi=213"
+
+  /**
+   * CORN Star9_Pro
+   */
+  public const val STAR9_PRO: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * CORN Tronik_12

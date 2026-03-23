@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for speedata (2 models).
+ * Device specifications for Speedata (1 models).
  */
 public object Speedata {
-  /**
-   * speedata FG60
-   */
-  public const val FG60: String = "spec:width=1080px,height=2340px,dpi=480"
-
   /**
    * Speedata SD100
    */

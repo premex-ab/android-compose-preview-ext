@@ -1,6 +1,6 @@
 # Hammer Devices
 
-Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hammer`
+Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hammer`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -10,7 +10,9 @@ Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Hammer_Blade_4 | HAMMER_BLADE_4 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Hammer.HAMMER_BLADE_4)` |
 | Hammer_Blade_5G | HAMMER_BLADE_5G | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Hammer.HAMMER_BLADE_5G)` |
 | Hammer_Construction | HAMMER_CONSTRUCTION | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Hammer.HAMMER_CONSTRUCTION)` |
+| Hammer_Energy_X2 | HAMMER_ENERGY_X2 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Hammer.HAMMER_ENERGY_X2)` |
 | Hammer_Expl_Pro | HAMMER_EXPL_PRO | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Hammer.HAMMER_EXPL_PRO)` |
+| Hammer_Iron_6_5G | HAMMER_IRON_6_5G | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hammer.HAMMER_IRON_6_5G)` |
 | HS2302x | HS2302X | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hammer.HS2302X)` |
 | HS2401x | HS2401X | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hammer.HS2401X)` |
 | HS2402 | HS2402 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hammer.HS2402)` |

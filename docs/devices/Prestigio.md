@@ -1,6 +1,6 @@
 # Prestigio Devices
 
-Total: **89** devices. Import: `import se.premex.compose.preview.device.catalog.android.Prestigio`
+Total: **79** devices. Import: `import se.premex.compose.preview.device.catalog.android.Prestigio`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -12,7 +12,6 @@ Total: **89** devices. Import: `import se.premex.compose.preview.device.catalog.
 | CD80A1G | CD80A1G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.CD80A1G)` |
 | CD80A3L | CD80A3L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.CD80A3L)` |
 | CD80A5G | CD80A5G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.CD80A5G)` |
-| CD80A6L | CD80A6L | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.CD80A6L)` |
 | CF10A1L | CF10A1L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.CF10A1L)` |
 | CF80A2G | CF80A2G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.CF80A2G)` |
 | CF80A5L | CF80A5L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Prestigio.CF80A5L)` |
@@ -22,7 +21,6 @@ Total: **89** devices. Import: `import se.premex.compose.preview.device.catalog.
 | DW53B01G | DW53B01G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.DW53B01G)` |
 | DW53B3G | DW53B3G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.DW53B3G)` |
 | DW53B4G | DW53B4G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.DW53B4G)` |
-| DW55B02L | DW55B02L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.DW55B02L)` |
 | DW55B8L | DW55B8L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.DW55B8L)` |
 | EB50B1L | EB50B1L | 640x1280 | 320 | `spec:width=640px,height=1280px,dpi=320` | `@Preview(device = Prestigio.EB50B1L)` |
 | HP10A11W | HP10A11W | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.HP10A11W)` |
@@ -43,7 +41,6 @@ Total: **89** devices. Import: `import se.premex.compose.preview.device.catalog.
 | HP8A6L | HP8A6L | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.HP8A6L)` |
 | HT50B2G | HT50B2G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.HT50B2G)` |
 | IN39B3G | IN39B3G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Prestigio.IN39B3G)` |
-| IN50B1L | IN50B1L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.IN50B1L)` |
 | JU10A3G | JU10A3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.JU10A3G)` |
 | JU70A1G | JU70A1G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.JU70A1G)` |
 | JU80A2G | JU80A2G | 800x1280 | 190 | `spec:width=800px,height=1280px,dpi=190` | `@Preview(device = Prestigio.JU80A2G)` |
@@ -54,15 +51,12 @@ Total: **89** devices. Import: `import se.premex.compose.preview.device.catalog.
 | LS70A5G | LS70A5G | 720x1280 | 160 | `spec:width=720px,height=1280px,dpi=160` | `@Preview(device = Prestigio.LS70A5G)` |
 | LS70A6L | LS70A6L | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Prestigio.LS70A6L)` |
 | LS80A1L | LS80A1L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.LS80A1L)` |
-| LS80A4L | LS80A4L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.LS80A4L)` |
 | LS96A7G | LS96A7G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.LS96A7G)` |
 | NS70A03W | NS70A03W | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Prestigio.NS70A03W)` |
 | PMT3011_3G | PMT3011_3G | 600x1024 | 132 | `spec:width=600px,height=1024px,dpi=132` | `@Preview(device = Prestigio.PMT3011_3G)` |
 | PMT3038_3G | PMT3038_3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Prestigio.PMT3038_3G)` |
-| PMT3057_3G | PMT3057_3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Prestigio.PMT3057_3G)` |
 | PMT3277_3G | PMT3277_3G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Prestigio.PMT3277_3G)` |
 | PMT3287_3G | PMT3287_3G | 770x1024 | 160 | `spec:width=770px,height=1024px,dpi=160` | `@Preview(device = Prestigio.PMT3287_3G)` |
-| PMT3777_3G | PMT3777_3G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.PMT3777_3G)` |
 | PMT5001_3G | PMT5001_3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.PMT5001_3G)` |
 | PMT5002_Wi | PMT5002_WI | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.PMT5002_WI)` |
 | PMT5008_3G | PMT5008_3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.PMT5008_3G)` |
@@ -72,19 +66,15 @@ Total: **89** devices. Import: `import se.premex.compose.preview.device.catalog.
 | PMT5887_3G | PMT5887_3G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Prestigio.PMT5887_3G)` |
 | PMT7077_3G | PMT7077_3G | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Prestigio.PMT7077_3G)` |
 | PMT7177_3G | PMT7177_3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.PMT7177_3G)` |
-| PMT7287_3G | PMT7287_3G | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Prestigio.PMT7287_3G)` |
 | PN10A01G | PN10A01G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.PN10A01G)` |
 | PN80A03G | PN80A03G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.PN80A03G)` |
-| PSP5504DUO | PSP5504DUO | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Prestigio.PSP5504DUO)` |
 | TC10A2L | TC10A2L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Prestigio.TC10A2L)` |
 | TC10A3L | TC10A3L | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Prestigio.TC10A3L)` |
 | TC70A1G | TC70A1G | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Prestigio.TC70A1G)` |
 | TE50B2G | TE50B2G | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Prestigio.TE50B2G)` |
-| TE50B4L | TE50B4L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.TE50B4L)` |
 | TE52B10G | TE52B10G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.TE52B10G)` |
 | TE55B9G | TE55B9G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.TE55B9G)` |
 | TL47B1G | TL47B1G | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Prestigio.TL47B1G)` |
-| TL49B4L | TL49B4L | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Prestigio.TL49B4L)` |
 | TL52B5L | TL52B5L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Prestigio.TL52B5L)` |
 | TL55B3L | TL55B3L | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Prestigio.TL55B3L)` |
 | TL61B8L | TL61B8L | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Prestigio.TL61B8L)` |

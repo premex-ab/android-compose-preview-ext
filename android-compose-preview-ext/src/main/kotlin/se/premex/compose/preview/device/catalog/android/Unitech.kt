@@ -55,7 +55,7 @@ public object Unitech {
   /**
    * unitech HT730
    */
-  public const val HT730: String = "spec:width=480px,height=800px,dpi=160"
+  public const val HT730: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * unitech PA760

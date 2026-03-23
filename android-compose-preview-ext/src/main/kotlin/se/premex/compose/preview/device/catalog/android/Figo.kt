@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FIGO (2 models).
+ * Device specifications for FIGO (1 models).
  */
 public object Figo {
-  /**
-   * FIGO Orbit_ll
-   */
-  public const val ORBIT_LL: String = "spec:width=480px,height=800px,dpi=240"
-
   /**
    * FIGO Telecell
    */

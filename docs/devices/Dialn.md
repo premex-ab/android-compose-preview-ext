@@ -1,14 +1,14 @@
 # Dialn Devices
 
-Total: **22** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dialn`
+Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dialn`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | G10 | G10 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Dialn.G10)` |
 | G65 | G65 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.G65)` |
-| Neo | NEO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.NEO)` |
-| NeoA | NEOA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.NEOA)` |
-| Nova | NOVA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.NOVA)` |
+| Neo | NEO | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Dialn.NEO)` |
+| NeoA | NEOA | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Dialn.NEOA)` |
+| Nova | NOVA | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Dialn.NOVA)` |
 | NovaA | NOVAA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.NOVAA)` |
 | S10 | S10 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Dialn.S10)` |
 | S8 | S8 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Dialn.S8)` |
@@ -19,11 +19,9 @@ Total: **22** devices. Import: `import se.premex.compose.preview.device.catalog.
 | X62A | X62A | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Dialn.X62A)` |
 | X62B | X62B | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Dialn.X62B)` |
 | X62C | X62C | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Dialn.X62C)` |
-| X62S | X62S | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Dialn.X62S)` |
 | X65A | X65A | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.X65A)` |
 | X65B | X65B | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.X65B)` |
-| X65C | X65C | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.X65C)` |
-| X68B | X68B | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Dialn.X68B)` |
+| X65C | X65C | 1080x2248 | 480 | `spec:width=1080px,height=2248px,dpi=480` | `@Preview(device = Dialn.X65C)` |
 | X8G | X8G | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Dialn.X8G)` |
 | X8ULTRA | X8ULTRA | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Dialn.X8ULTRA)` |
 

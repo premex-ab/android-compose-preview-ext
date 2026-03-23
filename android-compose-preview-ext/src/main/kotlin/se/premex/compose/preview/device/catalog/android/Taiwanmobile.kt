@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TaiwanMobile (4 models).
+ * Device specifications for TaiwanMobile (3 models).
  */
 public object Taiwanmobile {
   /**
    * TaiwanMobile Amazing_A32
    */
   public const val AMAZING_A32: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * TaiwanMobile Amazing_A35
-   */
-  public const val AMAZING_A35: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * TaiwanMobile Amazing_A55

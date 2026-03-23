@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Polestar (3 models).
+ * Device specifications for Polestar (4 models).
  */
 public object Polestar {
+  /**
+   * Polestar ihu42
+   */
+  public const val IHU42: String = "spec:width=1152px,height=1536px,dpi=180"
+
   /**
    * Polestar ihu_abl_car
    */

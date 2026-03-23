@@ -1,6 +1,6 @@
 # Nebula Devices
 
-Total: **5** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nebula`
+Total: **7** devices. Import: `import se.premex.compose.preview.device.catalog.android.Nebula`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,6 +8,8 @@ Total: **5** devices. Import: `import se.premex.compose.preview.device.catalog.a
 | D2140-Cosmos | D2140_COSMOS | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Nebula.D2140_COSMOS)` |
 | DM8260 | DM8260 | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Nebula.DM8260)` |
 | DM8261 | DM8261 | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Nebula.DM8261)` |
+| lavasa | LAVASA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Nebula.LAVASA)` |
+| matheran | MATHERAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Nebula.MATHERAN)` |
 | taihang | TAIHANG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Nebula.TAIHANG)` |
 
 <!-- Generated automatically. Do not edit manually. -->

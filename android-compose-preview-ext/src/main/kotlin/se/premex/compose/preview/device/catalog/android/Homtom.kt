@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HOMTOM (10 models).
+ * Device specifications for HOMTOM (8 models).
  */
 public object Homtom {
-  /**
-   * HOMTOM C1
-   */
-  public const val C1: String = "spec:width=640px,height=1280px,dpi=320"
-
   /**
    * HOMTOM C2
    */
@@ -20,12 +15,7 @@ public object Homtom {
   /**
    * HOMTOM H10
    */
-  public const val H10: String = "spec:width=720px,height=1512px,dpi=272"
-
-  /**
-   * HOMTOM H5
-   */
-  public const val H5: String = "spec:width=720px,height=1440px,dpi=320"
+  public const val H10: String = "spec:width=720px,height=1512px,dpi=320"
 
   /**
    * HOMTOM HT70
@@ -45,7 +35,7 @@ public object Homtom {
   /**
    * HOMTOM S16
    */
-  public const val S16: String = "spec:width=640px,height=1136px,dpi=320"
+  public const val S16: String = "spec:width=640px,height=1280px,dpi=320"
 
   /**
    * HOMTOM S99

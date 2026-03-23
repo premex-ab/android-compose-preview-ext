@@ -1,6 +1,6 @@
 # Toscido Devices
 
-Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.android.Toscido`
+Total: **22** devices. Import: `import se.premex.compose.preview.device.catalog.android.Toscido`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,8 +14,6 @@ Total: **24** devices. Import: `import se.premex.compose.preview.device.catalog.
 | T181 | T181 | 1200x1920 | 200 | `spec:width=1200px,height=1920px,dpi=200` | `@Preview(device = Toscido.T181)` |
 | T181-EEA | T181_EEA | 1200x1920 | 200 | `spec:width=1200px,height=1920px,dpi=200` | `@Preview(device = Toscido.T181_EEA)` |
 | T20-EEA | T20_EEA | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Toscido.T20_EEA)` |
-| T201 | T201 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Toscido.T201)` |
-| T201-EEA | T201_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Toscido.T201_EEA)` |
 | T21-EEA | T21_EEA | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Toscido.T21_EEA)` |
 | T211-EEA | T211_EEA | 1200x1920 | 213 | `spec:width=1200px,height=1920px,dpi=213` | `@Preview(device = Toscido.T211_EEA)` |
 | T22 | T22 | 800x1280 | 186 | `spec:width=800px,height=1280px,dpi=186` | `@Preview(device = Toscido.T22)` |

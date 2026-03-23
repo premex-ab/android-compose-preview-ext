@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Tibuta (7 models).
+ * Device specifications for Tibuta (8 models).
  */
 public object Tibuta {
+  /**
+   * Tibuta A10_M_EU
+   */
+  public const val A10_M_EU: String = "spec:width=800px,height=1280px,dpi=160"
+
   /**
    * Tibuta A30
    */

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CloudFone (6 models).
+ * Device specifications for CloudFone (4 models).
  */
 public object Cloudfone {
   /**
@@ -18,11 +18,6 @@ public object Cloudfone {
   public const val GO_SP_2: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * CloudFone Next_Infinity_Plus
-   */
-  public const val NEXT_INFINITY_PLUS: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * CloudFone Next_Infinity_Pro
    */
   public const val NEXT_INFINITY_PRO: String = "spec:width=720px,height=1440px,dpi=320"
@@ -31,9 +26,4 @@ public object Cloudfone {
    * CloudFone Thrill_Boost_2
    */
   public const val THRILL_BOOST_2: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * CloudFone Thrill_Boost_3
-   */
-  public const val THRILL_BOOST_3: String = "spec:width=480px,height=960px,dpi=240"
 }

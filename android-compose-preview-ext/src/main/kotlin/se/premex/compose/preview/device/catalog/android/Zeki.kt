@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Zeki (4 models).
+ * Device specifications for ZEKI (3 models).
  */
 public object Zeki {
   /**
@@ -21,9 +21,4 @@ public object Zeki {
    * ZEKI TBQG1031
    */
   public const val TBQG1031: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * Zeki TBQG1038
-   */
-  public const val TBQG1038: String = "spec:width=600px,height=1024px,dpi=160"
 }

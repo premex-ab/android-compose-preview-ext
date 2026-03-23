@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=278
+// Generated manufacturer device catalog. Devices=284
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for motorola (278 models).
+ * Device specifications for motorola (284 models).
  */
 public object Motorola {
   /**
@@ -358,6 +358,11 @@ public object Motorola {
   public const val DUBAI: String = "spec:width=1080px,height=2400px,dpi=400"
 
   /**
+   * MOTOROLA elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * motorola ellis
    */
   public const val ELLIS: String = "spec:width=720px,height=1600px,dpi=280"
@@ -533,11 +538,6 @@ public object Motorola {
   public const val HAWK35_UMTS: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
-   * motorola hawk40_umts
-   */
-  public const val HAWK40_UMTS: String = "spec:width=480px,height=788px,dpi=240"
-
-  /**
    * MOTOROLA hayward
    */
   public const val HAYWARD: String = "spec:width=720px,height=1280px,dpi=213"
@@ -566,6 +566,11 @@ public object Motorola {
    * motorola ibiza
    */
   public const val IBIZA: String = "spec:width=720px,height=1600px,dpi=280"
+
+  /**
+   * MOTOROLA jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * motorola james
@@ -613,14 +618,14 @@ public object Motorola {
   public const val KINZIE_UDS: String = "spec:width=1440px,height=2560px,dpi=640"
 
   /**
-   * motorola kungfu_m
-   */
-  public const val KUNGFU_M: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * motorola kyoto
    */
   public const val KYOTO: String = "spec:width=1080px,height=2400px,dpi=400"
+
+  /**
+   * motorola lagos
+   */
+  public const val LAGOS: String = "spec:width=720px,height=1640px,dpi=280"
 
   /**
    * motorola lake
@@ -641,6 +646,11 @@ public object Motorola {
    * motorola lamul
    */
   public const val LAMUL: String = "spec:width=720px,height=1604px,dpi=280"
+
+  /**
+   * Motorola landen
+   */
+  public const val LANDEN: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * motorola leap
@@ -696,6 +706,11 @@ public object Motorola {
    * motorola M-51E
    */
   public const val M_51E: String = "spec:width=1080px,height=2640px,dpi=420"
+
+  /**
+   * motorola M-51F
+   */
+  public const val M_51F: String = "spec:width=1080px,height=2640px,dpi=420"
 
   /**
    * motorola malmo
@@ -796,6 +811,11 @@ public object Motorola {
    * MOTOROLA mountbaker
    */
   public const val MOUNTBAKER: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * motorola mumba
+   */
+  public const val MUMBA: String = "spec:width=1080px,height=2400px,dpi=390"
 
   /**
    * motorola nairo
@@ -1018,6 +1038,11 @@ public object Motorola {
   public const val POKERP: String = "spec:width=720px,height=1560px,dpi=280"
 
   /**
+   * motorola portov
+   */
+  public const val PORTOV: String = "spec:width=1080px,height=2400px,dpi=390"
+
+  /**
    * motorola potter
    */
   public const val POTTER: String = "spec:width=1080px,height=1920px,dpi=480"
@@ -1113,6 +1138,11 @@ public object Motorola {
   public const val RJAMES_GO: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
+   * motorola roadstr
+   */
+  public const val ROADSTR: String = "spec:width=1080px,height=2400px,dpi=480"
+
+  /**
    * motorola robusta
    */
   public const val ROBUSTA: String = "spec:width=1080px,height=2246px,dpi=480"
@@ -1165,7 +1195,7 @@ public object Motorola {
   /**
    * motorola smi
    */
-  public const val SMI: String = "spec:width=540px,height=960px,dpi=240"
+  public const val SMI: String = "spec:width=540px,height=888px,dpi=240"
 
   /**
    * motorola smith
@@ -1313,19 +1343,9 @@ public object Motorola {
   public const val TUNDRA: String = "spec:width=1080px,height=2400px,dpi=400"
 
   /**
-   * motorola umts_spyder
-   */
-  public const val UMTS_SPYDER: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * motorola vanquish
    */
   public const val VANQUISH: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * motorola vanquish_u
-   */
-  public const val VANQUISH_U: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * motorola vegas
@@ -1386,6 +1406,16 @@ public object Motorola {
    * Motorola XT2261-2
    */
   public const val XT2261_2: String = "spec:width=1200px,height=2000px,dpi=240"
+
+  /**
+   * Motorola XT2575-1
+   */
+  public const val XT2575_1: String = "spec:width=1600px,height=2560px,dpi=320"
+
+  /**
+   * Motorola XT2575-3
+   */
+  public const val XT2575_3: String = "spec:width=1600px,height=2560px,dpi=320"
 
   /**
    * motorola zeekr

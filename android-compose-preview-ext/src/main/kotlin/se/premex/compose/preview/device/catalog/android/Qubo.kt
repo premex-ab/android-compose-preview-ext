@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Qubo (11 models).
+ * Device specifications for Qubo (10 models).
  */
 public object Qubo {
   /**
    * Qubo BIG1
    */
   public const val BIG1: String = "spec:width=480px,height=1014px,dpi=213"
-
-  /**
-   * Qubo P19
-   */
-  public const val P19: String = "spec:width=640px,height=1280px,dpi=320"
 
   /**
    * Qubo SP510

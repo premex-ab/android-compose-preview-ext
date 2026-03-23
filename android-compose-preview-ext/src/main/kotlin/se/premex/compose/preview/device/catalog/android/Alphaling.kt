@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ALPHALING (3 models).
+ * Device specifications for ALPHALING (4 models).
  */
 public object Alphaling {
   /**
@@ -16,6 +16,11 @@ public object Alphaling {
    * ALPHALING A97GT
    */
   public const val A97GT: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * ALPHA_LING A97GT
+   */
+  public const val A97GT_800X1280: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * ALPHALING A97GT_Pro

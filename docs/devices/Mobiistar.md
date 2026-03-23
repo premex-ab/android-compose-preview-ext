@@ -1,6 +1,6 @@
 # Mobiistar Devices
 
-Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mobiistar`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Mobiistar`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -14,8 +14,5 @@ Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Mobiistar_Zumbo_J2 | MOBIISTAR_ZUMBO_J2 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Mobiistar.MOBIISTAR_ZUMBO_J2)` |
 | X1_Dual | X1_DUAL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Mobiistar.X1_DUAL)` |
 | X1_Notch | X1_NOTCH | 720x1498 | 320 | `spec:width=720px,height=1498px,dpi=320` | `@Preview(device = Mobiistar.X1_NOTCH)` |
-| X1_Selfie | X1_SELFIE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Mobiistar.X1_SELFIE)` |
-| XQ_Dual | XQ_DUAL | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Mobiistar.XQ_DUAL)` |
-| Zumbo_S_2017_Lite | ZUMBO_S_2017_LITE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Mobiistar.ZUMBO_S_2017_LITE)` |
 
 <!-- Generated automatically. Do not edit manually. -->

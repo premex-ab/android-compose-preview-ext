@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for i-Buddie (9 models).
+ * Device specifications for i-Buddie (7 models).
  */
 public object IBuddie {
-  /**
-   * i-Buddie RealPad_MA7BX2_1
-   */
-  public const val REALPAD_MA7BX2_1: String = "spec:width=768px,height=1024px,dpi=160"
-
   /**
    * i-Buddie TF10EA2_P8_1
    */
@@ -26,11 +21,6 @@ public object IBuddie {
    * i-Buddie TG08RK1
    */
   public const val TG08RK1: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * i-Buddie TP10RA1_1
-   */
-  public const val TP10RA1_1: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * i-Buddie TR10CS1_12

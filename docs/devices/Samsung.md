@@ -1,6 +1,6 @@
 # Samsung Devices
 
-Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalog.android.Samsung`
+Total: **1384** devices. Import: `import se.premex.compose.preview.device.catalog.android.Samsung`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -37,6 +37,8 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | a16 | A16 | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.A16)` |
 | a16x | A16X | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.A16X)` |
 | a16xm | A16XM | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.A16XM)` |
+| a17 | A17 | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.A17)` |
+| a17x | A17X | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.A17X)` |
 | a20 | A20 | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Samsung.A20)` |
 | a20e | A20E | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Samsung.A20E)` |
 | a20p | A20P | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Samsung.A20P)` |
@@ -55,7 +57,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | a2corelte | A2CORELTE | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.A2CORELTE)` |
 | a30 | A30 | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Samsung.A30)` |
 | a30c | A30C | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Samsung.A30C)` |
-| a30s | A30S | 720x1560 | 280 | `spec:width=720px,height=1560px,dpi=280` | `@Preview(device = Samsung.A30S)` |
 | a31 | A31 | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Samsung.A31)` |
 | a32 | A32 | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Samsung.A32)` |
 | a32x | A32X | 720x1600 | 300 | `spec:width=720px,height=1600px,dpi=300` | `@Preview(device = Samsung.A32X)` |
@@ -179,6 +180,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | astarqlteskt | ASTARQLTESKT | 1080x2220 | 420 | `spec:width=1080px,height=2220px,dpi=420` | `@Preview(device = Samsung.ASTARQLTESKT)` |
 | b0s | B0S | 1440x3088 | 450 | `spec:width=1440px,height=3088px,dpi=450` | `@Preview(device = Samsung.B0S)` |
 | b2q | B2Q | 1080x2640 | 480 | `spec:width=1080px,height=2640px,dpi=480` | `@Preview(device = Samsung.B2Q)` |
+| b4q | B4Q | 1080x2640 | 480 | `spec:width=1080px,height=2640px,dpi=480` | `@Preview(device = Samsung.B4Q)` |
 | b5q | B5Q | 1080x2640 | 480 | `spec:width=1080px,height=2640px,dpi=480` | `@Preview(device = Samsung.B5Q)` |
 | b6q | B6Q | 1080x2640 | 480 | `spec:width=1080px,height=2640px,dpi=480` | `@Preview(device = Samsung.B6Q)` |
 | b7r | B7R | 1080x2640 | 480 | `spec:width=1080px,height=2640px,dpi=480` | `@Preview(device = Samsung.B7R)` |
@@ -200,7 +202,8 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | bloomq | BLOOMQ | 1080x2636 | 480 | `spec:width=1080px,height=2636px,dpi=480` | `@Preview(device = Samsung.BLOOMQ)` |
 | bloomxq | BLOOMXQ | 1080x2636 | 480 | `spec:width=1080px,height=2636px,dpi=480` | `@Preview(device = Samsung.BLOOMXQ)` |
 | c1ktt | C1KTT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.C1KTT)` |
-| c1lgt | C1LGT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.C1LGT)` |
+| c1q | C1Q | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Samsung.C1Q)` |
+| c1s | C1S | 1080x2400 | 450 | `spec:width=1080px,height=2400px,dpi=450` | `@Preview(device = Samsung.C1S)` |
 | c1skt | C1SKT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.C1SKT)` |
 | c5ltechn | C5LTECHN | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.C5LTECHN)` |
 | c5pltechn | C5PLTECHN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.C5PLTECHN)` |
@@ -238,7 +241,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | corsica | CORSICA | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Samsung.CORSICA)` |
 | corsicass | CORSICASS | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Samsung.CORSICASS)` |
 | corsicave3g | CORSICAVE3G | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Samsung.CORSICAVE3G)` |
-| corsicaveds3gvj | CORSICAVEDS3GVJ | 240x320 | 120 | `spec:width=240px,height=320px,dpi=120` | `@Preview(device = Samsung.CORSICAVEDS3GVJ)` |
 | cprimeltemtr | CPRIMELTEMTR | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CPRIMELTEMTR)` |
 | cprimeltetmo | CPRIMELTETMO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CPRIMELTETMO)` |
 | crater | CRATER | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.CRATER)` |
@@ -252,7 +254,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | cruiserlteatt | CRUISERLTEATT | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.CRUISERLTEATT)` |
 | cruiserltesq | CRUISERLTESQ | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.CRUISERLTESQ)` |
 | cs02 | CS02 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CS02)` |
-| cs023g | CS023G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CS023G)` |
 | cs02ve3g | CS02VE3G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CS02VE3G)` |
 | cs02ve3gdtv | CS02VE3GDTV | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CS02VE3GDTV)` |
 | cs02ve3gss | CS02VE3GSS | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.CS02VE3GSS)` |
@@ -292,15 +293,18 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | deloslteskt | DELOSLTESKT | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.DELOSLTESKT)` |
 | dm1q | DM1Q | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.DM1Q)` |
 | dm2q | DM2Q | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.DM2Q)` |
+| dm3q | DM3Q | 1440x3088 | 450 | `spec:width=1440px,height=3088px,dpi=450` | `@Preview(device = Samsung.DM3Q)` |
 | dream2lteks | DREAM2LTEKS | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.DREAM2LTEKS)` |
 | dream2qltecan | DREAM2QLTECAN | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.DREAM2QLTECAN)` |
 | dream2qltechn | DREAM2QLTECHN | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.DREAM2QLTECHN)` |
+| dream2qltesq | DREAM2QLTESQ | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.DREAM2QLTESQ)` |
 | dream2qlteue | DREAM2QLTEUE | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.DREAM2QLTEUE)` |
 | dreamliteqltechn | DREAMLITEQLTECHN | 1080x2220 | 420 | `spec:width=1080px,height=2220px,dpi=420` | `@Preview(device = Samsung.DREAMLITEQLTECHN)` |
 | dreamlteks | DREAMLTEKS | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.DREAMLTEKS)` |
 | dreamqltecan | DREAMQLTECAN | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.DREAMQLTECAN)` |
 | dreamqltechn | DREAMQLTECHN | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.DREAMQLTECHN)` |
 | dreamqltecmcc | DREAMQLTECMCC | 1080x2220 | 480 | `spec:width=1080px,height=2220px,dpi=480` | `@Preview(device = Samsung.DREAMQLTECMCC)` |
+| dreamqltesq | DREAMQLTESQ | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.DREAMQLTESQ)` |
 | dreamqlteue | DREAMQLTEUE | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.DREAMQLTEUE)` |
 | e1q | E1Q | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.E1Q)` |
 | e1s | E1S | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.E1S)` |
@@ -406,6 +410,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | grandprimevelteltn | GRANDPRIMEVELTELTN | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.GRANDPRIMEVELTELTN)` |
 | grandprimeveltezt | GRANDPRIMEVELTEZT | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.GRANDPRIMEVELTEZT)` |
 | greatlteks | GREATLTEKS | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.GREATLTEKS)` |
+| greatqlte | GREATQLTE | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.GREATQLTE)` |
 | greatqltechn | GREATQLTECHN | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.GREATQLTECHN)` |
 | greatqltecmcc | GREATQLTECMCC | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.GREATQLTECMCC)` |
 | greatqltecs | GREATQLTECS | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.GREATQLTECS)` |
@@ -417,10 +422,8 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | GT-I9100G | GT_I9100G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.GT_I9100G)` |
 | GT-I9100P | GT_I9100P | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.GT_I9100P)` |
 | GT-N7000 | GT_N7000 | 800x1280 | 320 | `spec:width=800px,height=1280px,dpi=320` | `@Preview(device = Samsung.GT_N7000)` |
-| GT-P1000 | GT_P1000 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Samsung.GT_P1000)` |
 | GT-P6200 | GT_P6200 | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Samsung.GT_P6200)` |
 | GT-P6200L | GT_P6200L | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Samsung.GT_P6200L)` |
-| GT-P6210 | GT_P6210 | 600x976 | 160 | `spec:width=600px,height=976px,dpi=160` | `@Preview(device = Samsung.GT_P6210)` |
 | GT-P6800 | GT_P6800 | 800x1232 | 160 | `spec:width=800px,height=1232px,dpi=160` | `@Preview(device = Samsung.GT_P6800)` |
 | gt510lte | GT510LTE | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Samsung.GT510LTE)` |
 | gt510ltechn | GT510LTECHN | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Samsung.GT510LTECHN)` |
@@ -440,6 +443,10 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | gt5note8lte | GT5NOTE8LTE | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Samsung.GT5NOTE8LTE)` |
 | gt5note8ltechn | GT5NOTE8LTECHN | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Samsung.GT5NOTE8LTECHN)` |
 | gt5note8wifi | GT5NOTE8WIFI | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Samsung.GT5NOTE8WIFI)` |
+| gta11 | GTA11 | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Samsung.GTA11)` |
+| gta11p | GTA11P | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA11P)` |
+| gta11pwifi | GTA11PWIFI | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA11PWIFI)` |
+| gta11wifi | GTA11WIFI | 800x1340 | 213 | `spec:width=800px,height=1340px,dpi=213` | `@Preview(device = Samsung.GTA11WIFI)` |
 | gta2slte | GTA2SLTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.GTA2SLTE)` |
 | gta2sltechn | GTA2SLTECHN | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.GTA2SLTECHN)` |
 | gta2sltektt | GTA2SLTEKTT | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.GTA2SLTEKTT)` |
@@ -453,7 +460,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | gta2xlltekx | GTA2XLLTEKX | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA2XLLTEKX)` |
 | gta2xlltespr | GTA2XLLTESPR | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA2XLLTESPR)` |
 | gta2xlwifi | GTA2XLWIFI | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA2XLWIFI)` |
-| gta2xlwifichn | GTA2XLWIFICHN | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA2XLWIFICHN)` |
 | gta3xl | GTA3XL | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA3XL)` |
 | gta3xlwifi | GTA3XLWIFI | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Samsung.GTA3XLWIFI)` |
 | gta4l | GTA4L | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Samsung.GTA4L)` |
@@ -522,10 +528,16 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | gts10fep | GTS10FEP | 1800x2880 | 320 | `spec:width=1800px,height=2880px,dpi=320` | `@Preview(device = Samsung.GTS10FEP)` |
 | gts10fepwifi | GTS10FEPWIFI | 1800x2880 | 320 | `spec:width=1800px,height=2880px,dpi=320` | `@Preview(device = Samsung.GTS10FEPWIFI)` |
 | gts10fewifi | GTS10FEWIFI | 1440x2304 | 280 | `spec:width=1440px,height=2304px,dpi=280` | `@Preview(device = Samsung.GTS10FEWIFI)` |
+| gts10lite | GTS10LITE | 1320x2112 | 240 | `spec:width=1320px,height=2112px,dpi=240` | `@Preview(device = Samsung.GTS10LITE)` |
+| gts10litewifi | GTS10LITEWIFI | 1320x2112 | 240 | `spec:width=1320px,height=2112px,dpi=240` | `@Preview(device = Samsung.GTS10LITEWIFI)` |
 | gts10p | GTS10P | 1752x2800 | 320 | `spec:width=1752px,height=2800px,dpi=320` | `@Preview(device = Samsung.GTS10P)` |
 | gts10pwifi | GTS10PWIFI | 1752x2800 | 320 | `spec:width=1752px,height=2800px,dpi=320` | `@Preview(device = Samsung.GTS10PWIFI)` |
 | gts10u | GTS10U | 1848x2960 | 280 | `spec:width=1848px,height=2960px,dpi=280` | `@Preview(device = Samsung.GTS10U)` |
 | gts10uwifi | GTS10UWIFI | 1848x2960 | 280 | `spec:width=1848px,height=2960px,dpi=280` | `@Preview(device = Samsung.GTS10UWIFI)` |
+| gts11 | GTS11 | 1600x2560 | 340 | `spec:width=1600px,height=2560px,dpi=340` | `@Preview(device = Samsung.GTS11)` |
+| gts11u | GTS11U | 1848x2960 | 280 | `spec:width=1848px,height=2960px,dpi=280` | `@Preview(device = Samsung.GTS11U)` |
+| gts11uwifi | GTS11UWIFI | 1848x2960 | 280 | `spec:width=1848px,height=2960px,dpi=280` | `@Preview(device = Samsung.GTS11UWIFI)` |
+| gts11wifi | GTS11WIFI | 1600x2560 | 340 | `spec:width=1600px,height=2560px,dpi=340` | `@Preview(device = Samsung.GTS11WIFI)` |
 | gts210lte | GTS210LTE | 1536x2048 | 320 | `spec:width=1536px,height=2048px,dpi=320` | `@Preview(device = Samsung.GTS210LTE)` |
 | gts210lteatt | GTS210LTEATT | 1536x2048 | 320 | `spec:width=1536px,height=2048px,dpi=320` | `@Preview(device = Samsung.GTS210LTEATT)` |
 | gts210ltecan | GTS210LTECAN | 1536x2048 | 320 | `spec:width=1536px,height=2048px,dpi=320` | `@Preview(device = Samsung.GTS210LTECAN)` |
@@ -616,7 +628,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | hero2ltelgt | HERO2LTELGT | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.HERO2LTELGT)` |
 | hero2lteskt | HERO2LTESKT | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.HERO2LTESKT)` |
 | hero2qlteatt | HERO2QLTEATT | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.HERO2QLTEATT)` |
-| hero2qltecctvzw | HERO2QLTECCTVZW | 1440x2960 | 560 | `spec:width=1440px,height=2960px,dpi=560` | `@Preview(device = Samsung.HERO2QLTECCTVZW)` |
+| hero2qltecctvzw | HERO2QLTECCTVZW | 1080x1920 | 640 | `spec:width=1080px,height=1920px,dpi=640` | `@Preview(device = Samsung.HERO2QLTECCTVZW)` |
 | hero2qltechn | HERO2QLTECHN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.HERO2QLTECHN)` |
 | hero2qltespr | HERO2QLTESPR | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.HERO2QLTESPR)` |
 | hero2qltetmo | HERO2QLTETMO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.HERO2QLTETMO)` |
@@ -962,8 +974,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | melius3g | MELIUS3G | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.MELIUS3G)` |
 | meliuslte | MELIUSLTE | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.MELIUSLTE)` |
 | meliuslteatt | MELIUSLTEATT | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.MELIUSLTEATT)` |
-| meliusltecan | MELIUSLTECAN | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.MELIUSLTECAN)` |
-| meliuslteMetroPCS | MELIUSLTEMETROPCS | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.MELIUSLTEMETROPCS)` |
 | meliuslteskt | MELIUSLTESKT | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.MELIUSLTESKT)` |
 | millet3g | MILLET3G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.MILLET3G)` |
 | milletlte | MILLETLTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.MILLETLTE)` |
@@ -981,7 +991,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | mondrianwifikx | MONDRIANWIFIKX | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.MONDRIANWIFIKX)` |
 | mondrianwifiue | MONDRIANWIFIUE | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.MONDRIANWIFIUE)` |
 | mproject3g | MPROJECT3G | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.MPROJECT3G)` |
-| mprojectqlte | MPROJECTQLTE | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.MPROJECTQLTE)` |
 | ms013g | MS013G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.MS013G)` |
 | ms013gdtv | MS013GDTV | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.MS013GDTV)` |
 | ms013gss | MS013GSS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.MS013GSS)` |
@@ -1014,6 +1023,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | novelltelgt | NOVELLTELGT | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.NOVELLTELGT)` |
 | novellteskt | NOVELLTESKT | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.NOVELLTESKT)` |
 | o1q | O1Q | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Samsung.O1Q)` |
+| o1s | O1S | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Samsung.O1S)` |
 | o5lte | O5LTE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.O5LTE)` |
 | o5ltechn | O5LTECHN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.O5LTECHN)` |
 | o5prolte | O5PROLTE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.O5PROLTE)` |
@@ -1055,7 +1065,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | pa1q | PA1Q | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.PA1Q)` |
 | pa2q | PA2Q | 1440x3120 | 450 | `spec:width=1440px,height=3120px,dpi=450` | `@Preview(device = Samsung.PA2Q)` |
 | pa3q | PA3Q | 1440x3120 | 450 | `spec:width=1440px,height=3120px,dpi=450` | `@Preview(device = Samsung.PA3Q)` |
-| philippeltechn | PHILIPPELTECHN | 768x1280 | 320 | `spec:width=768px,height=1280px,dpi=320` | `@Preview(device = Samsung.PHILIPPELTECHN)` |
 | Phoenix | PHOENIX | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Samsung.PHOENIX)` |
 | picassolte | PICASSOLTE | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.PICASSOLTE)` |
 | picassowifi | PICASSOWIFI | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.PICASSOWIFI)` |
@@ -1068,16 +1077,19 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | projectxul | PROJECTXUL | 450x450 | 340 | `spec:width=450px,height=450px,dpi=340` | `@Preview(device = Samsung.PROJECTXUL)` |
 | psq | PSQ | 1440x3120 | 450 | `spec:width=1440px,height=3120px,dpi=450` | `@Preview(device = Samsung.PSQ)` |
 | q2q | Q2Q | 1768x2208 | 420 | `spec:width=1768px,height=2208px,dpi=420` | `@Preview(device = Samsung.Q2Q)` |
+| q4q | Q4Q | 1812x2176 | 420 | `spec:width=1812px,height=2176px,dpi=420` | `@Preview(device = Samsung.Q4Q)` |
 | q5q | Q5Q | 1812x2176 | 420 | `spec:width=1812px,height=2176px,dpi=420` | `@Preview(device = Samsung.Q5Q)` |
 | q6aq | Q6AQ | 1968x2184 | 420 | `spec:width=1968px,height=2184px,dpi=420` | `@Preview(device = Samsung.Q6AQ)` |
 | q6q | Q6Q | 1856x2160 | 420 | `spec:width=1856px,height=2160px,dpi=420` | `@Preview(device = Samsung.Q6Q)` |
 | q7lteskt | Q7LTESKT | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Samsung.Q7LTESKT)` |
+| q7mq | Q7MQ | 1584x2160 | 320 | `spec:width=1584px,height=2160px,dpi=320` | `@Preview(device = Samsung.Q7MQ)` |
 | q7q | Q7Q | 1968x2184 | 420 | `spec:width=1968px,height=2184px,dpi=420` | `@Preview(device = Samsung.Q7Q)` |
 | r0q | R0Q | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.R0Q)` |
 | r0s | R0S | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.R0S)` |
 | r11q | R11Q | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.R11Q)` |
 | r11s | R11S | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.R11S)` |
 | r12s | R12S | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.R12S)` |
+| r13s | R13S | 1080x2340 | 450 | `spec:width=1080px,height=2340px,dpi=450` | `@Preview(device = Samsung.R13S)` |
 | r1q | R1Q | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Samsung.R1Q)` |
 | r3q | R3Q | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Samsung.R3Q)` |
 | r5q | R5Q | 1080x2400 | 420 | `spec:width=1080px,height=2400px,dpi=420` | `@Preview(device = Samsung.R5Q)` |
@@ -1085,14 +1097,12 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | r8q | R8Q | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Samsung.R8Q)` |
 | r8s | R8S | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Samsung.R8S)` |
 | r9q | R9Q | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.R9Q)` |
-| raybst | RAYBST | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.RAYBST)` |
-| rossalte | ROSSALTE | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.ROSSALTE)` |
+| r9s | R9S | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Samsung.R9S)` |
 | rossaltexsa | ROSSALTEXSA | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.ROSSALTEXSA)` |
 | roy | ROY | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.ROY)` |
 | roydtv | ROYDTV | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.ROYDTV)` |
 | royss | ROYSS | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.ROYSS)` |
 | royssnfc | ROYSSNFC | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.ROYSSNFC)` |
-| royssvedtv | ROYSSVEDTV | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.ROYSSVEDTV)` |
 | royvedtv | ROYVEDTV | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.ROYVEDTV)` |
 | rubenslte | RUBENSLTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.RUBENSLTE)` |
 | rubensltekx | RUBENSLTEKX | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Samsung.RUBENSLTEKX)` |
@@ -1212,7 +1222,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | serranolte | SERRANOLTE | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOLTE)` |
 | serranoltebmc | SERRANOLTEBMC | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOLTEBMC)` |
 | serranoltektt | SERRANOLTEKTT | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOLTEKTT)` |
-| serranoltespr | SERRANOLTESPR | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOLTESPR)` |
 | serranove3g | SERRANOVE3G | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOVE3G)` |
 | serranovelte | SERRANOVELTE | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOVELTE)` |
 | serranovolteatt | SERRANOVOLTEATT | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Samsung.SERRANOVOLTEATT)` |
@@ -1235,6 +1244,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | star2lteks | STAR2LTEKS | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.STAR2LTEKS)` |
 | star2qltechn | STAR2QLTECHN | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.STAR2QLTECHN)` |
 | star2qltecs | STAR2QLTECS | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.STAR2QLTECS)` |
+| star2qltesq | STAR2QLTESQ | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.STAR2QLTESQ)` |
 | star2qlteue | STAR2QLTEUE | 1440x2960 | 420 | `spec:width=1440px,height=2960px,dpi=420` | `@Preview(device = Samsung.STAR2QLTEUE)` |
 | starlteks | STARLTEKS | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.STARLTEKS)` |
 | starqltechn | STARQLTECHN | 1440x2960 | 480 | `spec:width=1440px,height=2960px,dpi=480` | `@Preview(device = Samsung.STARQLTECHN)` |
@@ -1245,7 +1255,6 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | superiorlteskt | SUPERIORLTESKT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.SUPERIORLTESKT)` |
 | t03g | T03G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.T03G)` |
 | t03gchn | T03GCHN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.T03GCHN)` |
-| t03gchnduos | T03GCHNDUOS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.T03GCHNDUOS)` |
 | t0lte | T0LTE | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.T0LTE)` |
 | t0lteatt | T0LTEATT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.T0LTEATT)` |
 | t0ltecan | T0LTECAN | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.T0LTECAN)` |
@@ -1285,17 +1294,15 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | v1awifi | V1AWIFI | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.V1AWIFI)` |
 | v1awifikx | V1AWIFIKX | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.V1AWIFIKX)` |
 | v2lte | V2LTE | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.V2LTE)` |
-| v2q | V2Q | 900x1600 | 240 | `spec:width=900px,height=1600px,dpi=240` | `@Preview(device = Samsung.V2Q)` |
+| v2q | V2Q | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.V2Q)` |
 | v2wifi | V2WIFI | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.V2WIFI)` |
 | v4q | V4Q | 1812x2176 | 420 | `spec:width=1812px,height=2176px,dpi=420` | `@Preview(device = Samsung.V4Q)` |
 | vasta3g | VASTA3G | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.VASTA3G)` |
 | vastaltezh | VASTALTEZH | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Samsung.VASTALTEZH)` |
-| victorlte | VICTORLTE | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.VICTORLTE)` |
 | victory | VICTORY | 1768x2208 | 420 | `spec:width=1768px,height=2208px,dpi=420` | `@Preview(device = Samsung.VICTORY)` |
 | viennalte | VIENNALTE | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.VIENNALTE)` |
 | viennalteatt | VIENNALTEATT | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.VIENNALTEATT)` |
 | viennaltekx | VIENNALTEKX | 1600x2560 | 320 | `spec:width=1600px,height=2560px,dpi=320` | `@Preview(device = Samsung.VIENNALTEKX)` |
-| vivalto | VIVALTO | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.VIVALTO)` |
 | vivalto3g | VIVALTO3G | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.VIVALTO3G)` |
 | vivalto3gvn | VIVALTO3GVN | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.VIVALTO3GVN)` |
 | vivalto3mve3gltn | VIVALTO3MVE3GLTN | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Samsung.VIVALTO3MVE3GLTN)` |
@@ -1333,6 +1340,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | xcover7pro | XCOVER7PRO | 1080x2408 | 450 | `spec:width=1080px,height=2408px,dpi=450` | `@Preview(device = Samsung.XCOVER7PRO)` |
 | xcoverpro | XCOVERPRO | 1080x2340 | 420 | `spec:width=1080px,height=2340px,dpi=420` | `@Preview(device = Samsung.XCOVERPRO)` |
 | xcoverpro2 | XCOVERPRO2 | 1080x2408 | 450 | `spec:width=1080px,height=2408px,dpi=450` | `@Preview(device = Samsung.XCOVERPRO2)` |
+| xrvst2 | XRVST2 | 3840x7104 | 240 | `spec:width=3840px,height=7104px,dpi=240` | `@Preview(device = Samsung.XRVST2)` |
 | y2q | Y2Q | 1440x3200 | 450 | `spec:width=1440px,height=3200px,dpi=450` | `@Preview(device = Samsung.Y2Q)` |
 | y2s | Y2S | 1440x3200 | 450 | `spec:width=1440px,height=3200px,dpi=450` | `@Preview(device = Samsung.Y2S)` |
 | young23g | YOUNG23G | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Samsung.YOUNG23G)` |
@@ -1345,7 +1353,7 @@ Total: **1376** devices. Import: `import se.premex.compose.preview.device.catalo
 | zenlte | ZENLTE | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTE)` |
 | zenlteatt | ZENLTEATT | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTEATT)` |
 | zenltebmc | ZENLTEBMC | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTEBMC)` |
-| zenltechn | ZENLTECHN | 1440x2560 | 560 | `spec:width=1440px,height=2560px,dpi=560` | `@Preview(device = Samsung.ZENLTECHN)` |
+| zenltechn | ZENLTECHN | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTECHN)` |
 | zenltektt | ZENLTEKTT | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTEKTT)` |
 | zenltelgt | ZENLTELGT | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTELGT)` |
 | zenlteskt | ZENLTESKT | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Samsung.ZENLTESKT)` |

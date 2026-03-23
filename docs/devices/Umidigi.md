@@ -1,6 +1,6 @@
 # Umidigi Devices
 
-Total: **114** devices. Import: `import se.premex.compose.preview.device.catalog.android.Umidigi`
+Total: **116** devices. Import: `import se.premex.compose.preview.device.catalog.android.Umidigi`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -23,7 +23,7 @@ Total: **114** devices. Import: `import se.premex.compose.preview.device.catalog
 | A3_Pro | A3_PRO | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Umidigi.A3_PRO)` |
 | A3S | A3S | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Umidigi.A3S)` |
 | A3X | A3X | 720x1512 | 320 | `spec:width=720px,height=1512px,dpi=320` | `@Preview(device = Umidigi.A3X)` |
-| A5_Pro | A5_PRO | 1080x2280 | 480 | `spec:width=1080px,height=2280px,dpi=480` | `@Preview(device = Umidigi.A5_PRO)` |
+| A5_Pro | A5_PRO | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Umidigi.A5_PRO)` |
 | A7 | A7 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Umidigi.A7)` |
 | A7_EEA | A7_EEA | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Umidigi.A7_EEA)` |
 | A7_Pro | A7_PRO | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Umidigi.A7_PRO)` |
@@ -56,7 +56,9 @@ Total: **114** devices. Import: `import se.premex.compose.preview.device.catalog
 | F3_Pro_5G | F3_PRO_5G | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Umidigi.F3_PRO_5G)` |
 | F3S | F3S | 720x1650 | 320 | `spec:width=720px,height=1650px,dpi=320` | `@Preview(device = Umidigi.F3S)` |
 | G100 | G100 | 720x1640 | 480 | `spec:width=720px,height=1640px,dpi=480` | `@Preview(device = Umidigi.G100)` |
+| G100_Pro | G100_PRO | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Umidigi.G100_PRO)` |
 | G100A | G100A | 720x1640 | 480 | `spec:width=720px,height=1640px,dpi=480` | `@Preview(device = Umidigi.G100A)` |
+| G100x | G100X | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Umidigi.G100X)` |
 | G1_Max | G1_MAX | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Umidigi.G1_MAX)` |
 | G1_Plus | G1_PLUS | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Umidigi.G1_PLUS)` |
 | G1_Tab | G1_TAB | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Umidigi.G1_TAB)` |

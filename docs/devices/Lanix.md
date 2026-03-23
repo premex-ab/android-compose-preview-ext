@@ -1,16 +1,16 @@
 # Lanix Devices
 
-Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lanix`
+Total: **76** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lanix`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| ALPHA2 | ALPHA2 | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Lanix.ALPHA2)` |
 | Alpha_1R | ALPHA_1R | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_1R)` |
 | Alpha_1V | ALPHA_1V | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_1V)` |
 | ALPHA_3R | ALPHA_3R | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_3R)` |
 | Alpha_3V | ALPHA_3V | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lanix.ALPHA_3V)` |
 | Alpha_5V | ALPHA_5V | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lanix.ALPHA_5V)` |
 | Alpha_950 | ALPHA_950 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ALPHA_950)` |
-| Alpha_950XL | ALPHA_950XL | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lanix.ALPHA_950XL)` |
 | Alpha_9V | ALPHA_9V | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lanix.ALPHA_9V)` |
 | Ilium_Alpha7 | ILIUM_ALPHA7 | 720x1528 | 280 | `spec:width=720px,height=1528px,dpi=280` | `@Preview(device = Lanix.ILIUM_ALPHA7)` |
 | Ilium_Alpha_1s | ILIUM_ALPHA_1S | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Lanix.ILIUM_ALPHA_1S)` |
@@ -22,7 +22,6 @@ Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Ilium_L1100 | ILIUM_L1100 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L1100)` |
 | Ilium_L1120 | ILIUM_L1120 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L1120)` |
 | Ilium_L1400 | ILIUM_L1400 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lanix.ILIUM_L1400)` |
-| ILIUM_L200 | ILIUM_L200 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_L200)` |
 | Ilium_L610 | ILIUM_L610 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L610)` |
 | Ilium_L620 | ILIUM_L620 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L620)` |
 | Ilium_L910 | ILIUM_L910 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_L910)` |
@@ -46,10 +45,8 @@ Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.
 | ilium_PADE10 | ILIUM_PADE10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lanix.ILIUM_PADE10)` |
 | ILIUM_PADE8 | ILIUM_PADE8 | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Lanix.ILIUM_PADE8)` |
 | ILIUM_X110 | ILIUM_X110 | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lanix.ILIUM_X110)` |
-| Ilium_X200 | ILIUM_X200 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_X200)` |
 | Ilium_X210 | ILIUM_X210 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_X210)` |
 | Ilium_X220 | ILIUM_X220 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.ILIUM_X220)` |
-| Ilium_X500B | ILIUM_X500B | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_X500B)` |
 | Ilium_X510 | ILIUM_X510 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_X510)` |
 | Ilium_X520 | ILIUM_X520 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lanix.ILIUM_X520)` |
 | Ilium_X710 | ILIUM_X710 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lanix.ILIUM_X710)` |
@@ -70,6 +67,7 @@ Total: **78** devices. Import: `import se.premex.compose.preview.device.catalog.
 | stanford | STANFORD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Lanix.STANFORD)` |
 | X120C | X120C | 320x480 | 160 | `spec:width=320px,height=480px,dpi=160` | `@Preview(device = Lanix.X120C)` |
 | X1S | X1S | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Lanix.X1S)` |
+| X2 | X2 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lanix.X2)` |
 | X230 | X230 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.X230)` |
 | X240 | X240 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lanix.X240)` |
 | X5 | X5 | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Lanix.X5)` |

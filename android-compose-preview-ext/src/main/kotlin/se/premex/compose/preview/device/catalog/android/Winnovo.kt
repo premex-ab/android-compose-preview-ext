@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=17
+// Generated manufacturer device catalog. Devices=16
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for WINNOVO (17 models).
+ * Device specifications for WINNOVO (16 models).
  */
 public object Winnovo {
   /**
@@ -16,11 +16,6 @@ public object Winnovo {
    * WINNOVO H10_US
    */
   public const val H10_US: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * WINNOVO H7
-   */
-  public const val H7: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * WINNOVO H7_US

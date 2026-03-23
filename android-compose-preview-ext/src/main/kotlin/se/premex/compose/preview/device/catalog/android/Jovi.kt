@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for JOVI (4 models).
+ * Device specifications for JOVI (5 models).
  */
 public object Jovi {
   /**
@@ -26,4 +26,9 @@ public object Jovi {
    * JOVI V2440B
    */
   public const val V2440B: String = "spec:width=1080px,height=2392px,dpi=440"
+
+  /**
+   * JOVI V2446B
+   */
+  public const val V2446B: String = "spec:width=720px,height=1600px,dpi=300"
 }

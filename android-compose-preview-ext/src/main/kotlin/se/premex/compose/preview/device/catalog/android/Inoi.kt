@@ -123,11 +123,6 @@ public object Inoi {
   public const val INOI_5_LITE_2021: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
-   * INOI INOI_5_Pro
-   */
-  public const val INOI_5_PRO: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * INOI INOI_5i
    */
   public const val INOI_5I: String = "spec:width=640px,height=1280px,dpi=320"
@@ -158,11 +153,6 @@ public object Inoi {
   public const val INOI_7_4_64_2021: String = "spec:width=720px,height=1520px,dpi=340"
 
   /**
-   * INOI INOI_7i
-   */
-  public const val INOI_7I: String = "spec:width=480px,height=996px,dpi=240"
-
-  /**
    * INOI INOI_A14
    */
   public const val INOI_A14: String = "spec:width=720px,height=1612px,dpi=280"
@@ -178,9 +168,19 @@ public object Inoi {
   public const val INOI_A35_ADVENTURE: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
+   * INOI INOI_A55_Spectre_5G
+   */
+  public const val INOI_A55_SPECTRE_5G: String = "spec:width=720px,height=1604px,dpi=320"
+
+  /**
    * INOI INOI_A75_Elegance
    */
   public const val INOI_A75_ELEGANCE: String = "spec:width=1080px,height=2460px,dpi=480"
+
+  /**
+   * INOI INOI_Note_15
+   */
+  public const val INOI_NOTE_15: String = "spec:width=720px,height=1640px,dpi=320"
 
   /**
    * INOI inoiPad

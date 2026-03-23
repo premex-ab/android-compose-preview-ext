@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=231
+// Generated manufacturer device catalog. Devices=222
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Huawei (231 models).
+ * Device specifications for Huawei (222 models).
  */
 public object Huawei {
   /**
@@ -36,6 +36,11 @@ public object Huawei {
    * HUAWEI HWAGS2
    */
   public const val HWAGS2: String = "spec:width=1200px,height=1920px,dpi=320"
+
+  /**
+   * HUAWEI HWAGS6-A
+   */
+  public const val HWAGS6_A: String = "spec:width=1920px,height=1200px,dpi=280"
 
   /**
    * Huawei hwALE-H
@@ -133,14 +138,14 @@ public object Huawei {
   public const val HWBND_H: String = "spec:width=1080px,height=2160px,dpi=480"
 
   /**
+   * HUAWEI HWBTKR
+   */
+  public const val HWBTKR: String = "spec:width=1440px,height=2200px,dpi=300"
+
+  /**
    * HUAWEI HWBZT
    */
   public const val HWBZT: String = "spec:width=1440px,height=2200px,dpi=300"
-
-  /**
-   * Huawei hwC199
-   */
-  public const val HWC199: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * HUAWEI HWCAG-L6737M
@@ -303,24 +308,9 @@ public object Huawei {
   public const val HWG510_0100: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * Huawei hwG510-0200
-   */
-  public const val HWG510_0200: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * Huawei hwG525-U00
    */
   public const val HWG525_U00: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * Huawei hwG526-L11
-   */
-  public const val HWG526_L11: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * Huawei hwG526-L33
-   */
-  public const val HWG526_L33: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * Huawei hwG527-U081
@@ -343,19 +333,9 @@ public object Huawei {
   public const val HWG6_L22: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
-   * Huawei hwG6-L33
-   */
-  public const val HWG6_L33: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
    * Huawei hwG6-U10
    */
   public const val HWG6_U10: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * Huawei hwG610-U00
-   */
-  public const val HWG610_U00: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * Huawei hwG610-U15
@@ -366,11 +346,6 @@ public object Huawei {
    * Huawei hwG610-U20
    */
   public const val HWG610_U20: String = "spec:width=540px,height=960px,dpi=240"
-
-  /**
-   * Huawei hwG615-U10
-   */
-  public const val HWG615_U10: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * Huawei hwG620-A2
@@ -401,11 +376,6 @@ public object Huawei {
    * Huawei hwG620S-UL00
    */
   public const val HWG620S_UL00: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * HUAWEI HWG629-UL
-   */
-  public const val HWG629_UL: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Huawei hwG630-U10
@@ -728,19 +698,9 @@ public object Huawei {
   public const val HWP6_U06: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Huawei hwp6s-l04
-   */
-  public const val HWP6S_L04: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Huawei hwp7
    */
   public const val HWP7: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * Huawei hwP7Mini
-   */
-  public const val HWP7MINI: String = "spec:width=540px,height=960px,dpi=240"
 
   /**
    * HUAWEI HWP8max
@@ -775,7 +735,7 @@ public object Huawei {
   /**
    * HUAWEI HWPOT-HF
    */
-  public const val HWPOT_HF: String = "spec:width=1080px,height=2340px,dpi=480"
+  public const val HWPOT_HF: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * HUAWEI HWPRA-H
@@ -860,7 +820,7 @@ public object Huawei {
   /**
    * Huawei hws7951w
    */
-  public const val HWS7951W: String = "spec:width=600px,height=976px,dpi=160"
+  public const val HWS7951W: String = "spec:width=552px,height=1024px,dpi=160"
 
   /**
    * Huawei hws7961w
@@ -958,6 +918,11 @@ public object Huawei {
   public const val HWTRT_Q: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
+   * HUAWEI HWTXZ
+   */
+  public const val HWTXZ: String = "spec:width=2456px,height=1600px,dpi=300"
+
+  /**
    * Huawei hwu9700L
    */
   public const val HWU9700L: String = "spec:width=720px,height=1280px,dpi=320"
@@ -1016,11 +981,6 @@ public object Huawei {
    * HUAWEI HWY320-U
    */
   public const val HWY320_U: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * HUAWEI HWY321-U
-   */
-  public const val HWY321_U: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Huawei hwY330-U01
@@ -1091,11 +1051,6 @@ public object Huawei {
    * Huawei hwY538
    */
   public const val HWY538: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * HUAWEI HWY540-U
-   */
-  public const val HWY540_U: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * HUAWEI HWY541-U

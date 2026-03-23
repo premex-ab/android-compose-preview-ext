@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=78
+// Generated manufacturer device catalog. Devices=76
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for LANIX (78 models).
+ * Device specifications for LANIX (76 models).
  */
 public object Lanix {
+  /**
+   * LANIX ALPHA2
+   */
+  public const val ALPHA2: String = "spec:width=720px,height=1600px,dpi=480"
+
   /**
    * Lanix Alpha_1R
    */
@@ -36,11 +41,6 @@ public object Lanix {
    * LANIX Alpha_950
    */
   public const val ALPHA_950: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * LANIX Alpha_950XL
-   */
-  public const val ALPHA_950XL: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Lanix Alpha_9V
@@ -96,11 +96,6 @@ public object Lanix {
    * LANIX Ilium_L1400
    */
   public const val ILIUM_L1400: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * LANIX ILIUM_L200
-   */
-  public const val ILIUM_L200: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Lanix Ilium_L610
@@ -218,11 +213,6 @@ public object Lanix {
   public const val ILIUM_X110: String = "spec:width=320px,height=480px,dpi=160"
 
   /**
-   * LANIX Ilium_X200
-   */
-  public const val ILIUM_X200: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * LANIX Ilium_X210
    */
   public const val ILIUM_X210: String = "spec:width=480px,height=800px,dpi=240"
@@ -231,11 +221,6 @@ public object Lanix {
    * LANIX Ilium_X220
    */
   public const val ILIUM_X220: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * LANIX Ilium_X500B
-   */
-  public const val ILIUM_X500B: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * LANIX Ilium_X510
@@ -336,6 +321,11 @@ public object Lanix {
    * LANIX X1S
    */
   public const val X1S: String = "spec:width=480px,height=854px,dpi=200"
+
+  /**
+   * Lanix X2
+   */
+  public const val X2: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * LANIX X230

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=18
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for XMOBILE (18 models).
+ * Device specifications for XMOBILE (15 models).
  */
 public object Xmobile {
   /**
@@ -18,11 +18,6 @@ public object Xmobile {
   public const val X10MAX: String = "spec:width=800px,height=1280px,dpi=200"
 
   /**
-   * XMOBILE X55NALU
-   */
-  public const val X55NALU: String = "spec:width=480px,height=960px,dpi=213"
-
-  /**
    * XMOBILE X55USA
    */
   public const val X55USA: String = "spec:width=480px,height=960px,dpi=213"
@@ -31,11 +26,6 @@ public object Xmobile {
    * XMOBILE X63
    */
   public const val X63: String = "spec:width=720px,height=1520px,dpi=280"
-
-  /**
-   * XMOBILE X63Pro
-   */
-  public const val X63PRO: String = "spec:width=720px,height=1520px,dpi=280"
 
   /**
    * Xmobile X7
@@ -68,14 +58,9 @@ public object Xmobile {
   public const val X_55B: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
-   * XMOBILE X_63_B_ProB
+   * X-mobile XM-SW1
    */
-  public const val X_63_B_PROB: String = "spec:width=720px,height=1520px,dpi=280"
-
-  /**
-   * XMOBILE X_63_ProA
-   */
-  public const val X_63_PROA: String = "spec:width=720px,height=1520px,dpi=280"
+  public const val XM_SW1: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * XMOBILE XMOBILE

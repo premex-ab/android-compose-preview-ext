@@ -1,6 +1,6 @@
 # Homatics Devices
 
-Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.Homatics`
+Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Homatics`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,6 +8,7 @@ Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.a
 | IAD | IAD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Homatics.IAD)` |
 | ICN | ICN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Homatics.ICN)` |
 | MIA | MIA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Homatics.MIA)` |
+| SEI700GHMG | SEI700GHMG | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Homatics.SEI700GHMG)` |
 | SEI700HMG | SEI700HMG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Homatics.SEI700HMG)` |
 | YQB | YQB | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Homatics.YQB)` |
 | YQX | YQX | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Homatics.YQX)` |

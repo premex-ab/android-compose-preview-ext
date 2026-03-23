@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for UNIQ (2 models).
+ * Device specifications for UNIQ (1 models).
  */
 public object Uniq {
-  /**
-   * UNIQ D10
-   */
-  public const val D10: String = "spec:width=800px,height=1280px,dpi=180"
-
   /**
    * UNIQ D7
    */

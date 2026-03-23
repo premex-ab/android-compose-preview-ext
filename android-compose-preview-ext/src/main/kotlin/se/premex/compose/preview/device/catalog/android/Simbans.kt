@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Simbans (10 models).
+ * Device specifications for Simbans (11 models).
  */
 public object Simbans {
   /**
@@ -21,6 +21,11 @@ public object Simbans {
    * Simbans PicassoTab_9
    */
   public const val PICASSOTAB_9: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Simbans PicassoTab_A12
+   */
+  public const val PICASSOTAB_A12: String = "spec:width=1200px,height=2000px,dpi=240"
 
   /**
    * Simbans PicassoTab_X

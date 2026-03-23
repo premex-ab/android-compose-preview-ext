@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=23
+// Generated manufacturer device catalog. Devices=22
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KXD (23 models).
+ * Device specifications for KXD (22 models).
  */
 public object Kxd {
   /**
@@ -68,11 +68,6 @@ public object Kxd {
   public const val D70: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
-   * KXD K30M
-   */
-  public const val K30M: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * KXD T50
    */
   public const val T50: String = "spec:width=240px,height=296px,dpi=120"
@@ -80,7 +75,7 @@ public object Kxd {
   /**
    * KXD T50Y
    */
-  public const val T50Y: String = "spec:width=320px,height=385px,dpi=160"
+  public const val T50Y: String = "spec:width=240px,height=284px,dpi=120"
 
   /**
    * KXD T55
@@ -115,7 +110,7 @@ public object Kxd {
   /**
    * KXD X7s
    */
-  public const val X7S: String = "spec:width=800px,height=1280px,dpi=240"
+  public const val X7S: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * KXD Y20

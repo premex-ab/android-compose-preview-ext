@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=17
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for GOODTEL (15 models).
+ * Device specifications for GOODTEL (17 models).
  */
 public object Goodtel {
   /**
+   * GOODTEL G10
+   */
+  public const val G10: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * GOODTEL G10_EEA
    */
-  public const val G10_EEA: String = "spec:width=800px,height=1280px,dpi=180"
+  public const val G10_EEA: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * GOODTEL G10_T_EEA
@@ -71,6 +76,11 @@ public object Goodtel {
    * GOODTEL G7_T
    */
   public const val G7_T: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
+   * GOODTEL G9
+   */
+  public const val G9: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * GOODTEL G9_EEA

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TOUCH_Plus (4 models).
+ * Device specifications for TOUCH_Plus (3 models).
  */
 public object TouchPlus {
   /**
@@ -16,11 +16,6 @@ public object TouchPlus {
    * TOUCH_plus 770G
    */
   public const val _770G: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * TOUCH_Plus 770N
-   */
-  public const val _770N: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * TOUCH_Plus AS1000

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=21
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Veidoo (21 models).
+ * Device specifications for Veidoo (20 models).
  */
 public object Veidoo {
   /**
@@ -61,11 +61,6 @@ public object Veidoo {
    * Veidoo V88
    */
   public const val V88: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * VEIDOO VEIDOO_T30_PLUS
-   */
-  public const val VEIDOO_T30_PLUS: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Veidoo VEIDOO_T40

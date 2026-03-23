@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=10
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TELEFUNKEN (11 models).
+ * Device specifications for TELEFUNKEN (10 models).
  */
 public object Telefunken {
   /**
@@ -51,11 +51,6 @@ public object Telefunken {
    * TELEFUNKEN TEL-74GIQA
    */
   public const val TEL_74GIQA: String = "spec:width=600px,height=1024px,dpi=180"
-
-  /**
-   * TELEFUNKEN TF501_EC
-   */
-  public const val TF501_EC: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * TELEFUNKEN TF600

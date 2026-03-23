@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=4
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for GPELECTRONIC (3 models).
+ * Device specifications for GPELECTRONIC (4 models).
  */
 public object Gpelectronic {
+  /**
+   * GPELECTRONIC YC-08P
+   */
+  public const val YC_08P: String = "spec:width=800px,height=1280px,dpi=213"
+
   /**
    * gpelectronic YC-3135D
    */

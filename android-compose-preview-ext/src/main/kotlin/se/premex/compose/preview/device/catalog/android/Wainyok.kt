@@ -1,16 +1,21 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Wainyok (2 models).
+ * Device specifications for Wainyok (3 models).
  */
 public object Wainyok {
   /**
    * Wainyok P10S
    */
   public const val P10S: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Wainyok P10U
+   */
+  public const val P10U: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Wainyok P10X

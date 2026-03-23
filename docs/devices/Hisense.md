@@ -1,6 +1,6 @@
 # Hisense Devices
 
-Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hisense`
+Total: **124** devices. Import: `import se.premex.compose.preview.device.catalog.android.Hisense`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -38,10 +38,10 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | HLTE109E_02 | HLTE109E_02 | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Hisense.HLTE109E_02)` |
 | HLTE109E_03 | HLTE109E_03 | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Hisense.HLTE109E_03)` |
 | HLTE120E | HLTE120E | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HLTE120E)` |
-| HLTE120E_01 | HLTE120E_01 | 720x1552 | 272 | `spec:width=720px,height=1552px,dpi=272` | `@Preview(device = Hisense.HLTE120E_01)` |
+| HLTE120E_01 | HLTE120E_01 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE120E_01)` |
 | HLTE121E | HLTE121E | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE121E)` |
-| HLTE202N | HLTE202N | 1080x1920 | 420 | `spec:width=1080px,height=1920px,dpi=420` | `@Preview(device = Hisense.HLTE202N)` |
-| HLTE203T | HLTE203T | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HLTE203T)` |
+| HLTE202N | HLTE202N | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hisense.HLTE202N)` |
+| HLTE203T | HLTE203T | 1080x2340 | 440 | `spec:width=1080px,height=2340px,dpi=440` | `@Preview(device = Hisense.HLTE203T)` |
 | HLTE222E | HLTE222E | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Hisense.HLTE222E)` |
 | HLTE222E_01 | HLTE222E_01 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Hisense.HLTE222E_01)` |
 | HLTE226E | HLTE226E | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE226E)` |
@@ -75,11 +75,14 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | HLTE235E_12 | HLTE235E_12 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE235E_12)` |
 | HLTE235E_20 | HLTE235E_20 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE235E_20)` |
 | HLTE240E | HLTE240E | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Hisense.HLTE240E)` |
-| HLTE243E | HLTE243E | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE243E)` |
+| HLTE243E | HLTE243E | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Hisense.HLTE243E)` |
 | HLTE243E_01 | HLTE243E_01 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE243E_01)` |
 | HLTE262E | HLTE262E | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hisense.HLTE262E)` |
 | HLTE262E_01 | HLTE262E_01 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Hisense.HLTE262E_01)` |
 | HLTE263E | HLTE263E | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE263E)` |
+| HLTE268E_10 | HLTE268E_10 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Hisense.HLTE268E_10)` |
+| HLTE271E | HLTE271E | 720x1600 | 480 | `spec:width=720px,height=1600px,dpi=480` | `@Preview(device = Hisense.HLTE271E)` |
+| HLTE272E | HLTE272E | 720x1560 | 480 | `spec:width=720px,height=1560px,dpi=480` | `@Preview(device = Hisense.HLTE272E)` |
 | HLTE315E | HLTE315E | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Hisense.HLTE315E)` |
 | HLTE321E | HLTE321E | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Hisense.HLTE321E)` |
 | HLTE322E | HLTE322E | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Hisense.HLTE322E)` |
@@ -88,7 +91,7 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | HNR500E_02 | HNR500E_02 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Hisense.HNR500E_02)` |
 | HNR500E_03 | HNR500E_03 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Hisense.HNR500E_03)` |
 | HNR510E | HNR510E | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Hisense.HNR510E)` |
-| HS6580MT | HS6580MT | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hisense.HS6580MT)` |
+| HS6580MT | HS6580MT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HS6580MT)` |
 | HS6735MT | HS6735MT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HS6735MT)` |
 | HS6737MT | HS6737MT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HS6737MT)` |
 | HS6739MT | HS6739MT | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Hisense.HS6739MT)` |
@@ -101,7 +104,7 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | HS8917QC | HS8917QC | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hisense.HS8917QC)` |
 | HS8929QC | HS8929QC | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HS8929QC)` |
 | HS8937QC | HS8937QC | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hisense.HS8937QC)` |
-| HS8953QC | HS8953QC | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Hisense.HS8953QC)` |
+| HS8952QC | HS8952QC | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Hisense.HS8952QC)` |
 | HSSC9850 | HSSC9850 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Hisense.HSSC9850)` |
 | HSSDM450QC | HSSDM450QC | 720x1500 | 320 | `spec:width=720px,height=1500px,dpi=320` | `@Preview(device = Hisense.HSSDM450QC)` |
 | huaihe | HUAIHE | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Hisense.HUAIHE)` |
@@ -112,7 +115,7 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | lushan | LUSHAN | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Hisense.LUSHAN)` |
 | m470 | M470 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Hisense.M470)` |
 | moeraki | MOERAKI | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Hisense.MOERAKI)` |
-| rk3028a | RK3028A | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Hisense.RK3028A)` |
+| mt9679_u | MT9679_U | 2160x3840 | 480 | `spec:width=2160px,height=3840px,dpi=480` | `@Preview(device = Hisense.MT9679_U)` |
 | rk3288 | RK3288 | 1536x2048 | 320 | `spec:width=1536px,height=2048px,dpi=320` | `@Preview(device = Hisense.RK3288)` |
 | SC9832E | SC9832E | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Hisense.SC9832E)` |
 | SC9863A | SC9863A | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Hisense.SC9863A)` |

@@ -1,15 +1,17 @@
 # Sansui Devices
 
-Total: **12** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sansui`
+Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sansui`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| beomil | BEOMIL | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Sansui.BEOMIL)` |
 | cottongreen | COTTONGREEN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sansui.COTTONGREEN)` |
+| dongnae | DONGNAE | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Sansui.DONGNAE)` |
+| eleonas | ELEONAS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Sansui.ELEONAS)` |
 | Grand | GRAND | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sansui.GRAND)` |
 | marina | MARINA | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sansui.MARINA)` |
 | martin | MARTIN | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sansui.MARTIN)` |
 | nagata | NAGATA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sansui.NAGATA)` |
-| Sansui_Nova | SANSUI_NOVA | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Sansui.SANSUI_NOVA)` |
 | shibuya | SHIBUYA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sansui.SHIBUYA)` |
 | shilin | SHILIN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Sansui.SHILIN)` |
 | stanford | STANFORD | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Sansui.STANFORD)` |

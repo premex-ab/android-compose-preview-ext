@@ -10,7 +10,7 @@ public object Telia {
   /**
    * Telia DV8919-KLT
    */
-  public const val DV8919_KLT: String = "spec:width=1080px,height=1920px,dpi=320"
+  public const val DV8919_KLT: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Telia DV8919-KST

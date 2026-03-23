@@ -13,7 +13,7 @@ Total: **13** devices. Import: `import se.premex.compose.preview.device.catalog.
 | MAT10421 | MAT10421 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Mpgio.MAT10421)` |
 | MAT80211B | MAT80211B | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mpgio.MAT80211B)` |
 | MID | MID | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Mpgio.MID)` |
-| MLT156001 | MLT156001 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Mpgio.MLT156001)` |
+| MLT156001 | MLT156001 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Mpgio.MLT156001)` |
 | MLT703824 | MLT703824 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Mpgio.MLT703824)` |
 | MPGIO_10 | MPGIO_10 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Mpgio.MPGIO_10)` |
 | MPGIO_8 | MPGIO_8 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Mpgio.MPGIO_8)` |

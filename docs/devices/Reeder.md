@@ -41,7 +41,6 @@ Total: **53** devices. Import: `import se.premex.compose.preview.device.catalog.
 | reeder_M7_Go | REEDER_M7_GO | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Reeder.REEDER_M7_GO)` |
 | reeder_M7Plus | REEDER_M7PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Reeder.REEDER_M7PLUS)` |
 | reeder_M8_Plus | REEDER_M8_PLUS | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Reeder.REEDER_M8_PLUS)` |
-| reeder_M8S | REEDER_M8S | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Reeder.REEDER_M8S)` |
 | reeder_T8 | REEDER_T8 | 800x1280 | 203 | `spec:width=800px,height=1280px,dpi=203` | `@Preview(device = Reeder.REEDER_T8)` |
 | S19_Max | S19_MAX | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Reeder.S19_MAX)` |
 | S19_Max_2_128GB | S19_MAX_2_128GB | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Reeder.S19_MAX_2_128GB)` |
@@ -57,5 +56,6 @@ Total: **53** devices. Import: `import se.premex.compose.preview.device.catalog.
 | S23_Pro_Max_256GB | S23_PRO_MAX_256GB | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Reeder.S23_PRO_MAX_256GB)` |
 | S71 | S71 | 1080x2460 | 400 | `spec:width=1080px,height=2460px,dpi=400` | `@Preview(device = Reeder.S71)` |
 | S919 | S919 | 1200x2664 | 480 | `spec:width=1200px,height=2664px,dpi=480` | `@Preview(device = Reeder.S919)` |
+| T71 | T71 | 800x1340 | 214 | `spec:width=800px,height=1340px,dpi=214` | `@Preview(device = Reeder.T71)` |
 
 <!-- Generated automatically. Do not edit manually. -->

@@ -28,9 +28,9 @@ public object Viewsonic {
   public const val IN02_SERIES: String = "spec:width=2160px,height=3840px,dpi=420"
 
   /**
-   * ViewSonic mid1016_ma
+   * ViewSonic IN03
    */
-  public const val MID1016_MA: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val IN03: String = "spec:width=2160px,height=3840px,dpi=480"
 
   /**
    * ViewSonic mid1032_mk

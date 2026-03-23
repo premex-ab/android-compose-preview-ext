@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Own (8 models).
+ * Device specifications for Own (6 models).
  */
 public object Own {
   /**
@@ -31,16 +31,6 @@ public object Own {
    * OWN Smart_9_Pro
    */
   public const val SMART_9_PRO: String = "spec:width=1080px,height=2246px,dpi=480"
-
-  /**
-   * OWN SMART_O2
-   */
-  public const val SMART_O2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Own SMART_PLUS_LTE
-   */
-  public const val SMART_PLUS_LTE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * OWN VFD511

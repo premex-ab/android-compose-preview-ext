@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=23
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KRIP (24 models).
+ * Device specifications for KRIP (23 models).
  */
 public object Krip {
   /**
@@ -86,11 +86,6 @@ public object Krip {
    * KRIP K60
    */
   public const val K60: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
-   * KRIP K65
-   */
-  public const val K65: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
    * KRIP K66

@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ROKiT (4 models).
+ * Device specifications for ROKiT (3 models).
  */
 public object Rokit {
-  /**
-   * ROKiT Chinchilla
-   */
-  public const val CHINCHILLA: String = "spec:width=480px,height=854px,dpi=240"
-
   /**
    * ROKiT Dingo
    */

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=84
+// Generated manufacturer device catalog. Devices=70
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for panasonic (84 models).
+ * Device specifications for panasonic (70 models).
  */
 public object Panasonic {
   /**
@@ -13,19 +13,9 @@ public object Panasonic {
   public const val ANAHEIM: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Panasonic DMC-CM1
-   */
-  public const val DMC_CM1: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
    * Panasonic Eluga_A2
    */
   public const val ELUGA_A2: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Panasonic ELUGA_A3
-   */
-  public const val ELUGA_A3: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Panasonic ELUGA_A4
@@ -51,11 +41,6 @@ public object Panasonic {
    * Panasonic Eluga_I3
    */
   public const val ELUGA_I3: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Panasonic Eluga_I3_Mega
-   */
-  public const val ELUGA_I3_MEGA: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Panasonic Eluga_I6
@@ -88,16 +73,6 @@ public object Panasonic {
   public const val ELUGA_NOTE: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * Panasonic ELUGA_Prim
-   */
-  public const val ELUGA_PRIM: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Panasonic ELUGA_Pulse_X
-   */
-  public const val ELUGA_PULSE_X: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Panasonic ELUGA_Ray
    */
   public const val ELUGA_RAY: String = "spec:width=720px,height=1280px,dpi=320"
@@ -106,16 +81,6 @@ public object Panasonic {
    * Panasonic ELUGA_Ray_500
    */
   public const val ELUGA_RAY_500: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Panasonic ELUGA_Ray_530
-   */
-  public const val ELUGA_RAY_530: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Panasonic ELUGA_Ray_550
-   */
-  public const val ELUGA_RAY_550: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Panasonic ELUGA_Ray_600
@@ -161,11 +126,6 @@ public object Panasonic {
    * Panasonic ELUGA_U3
    */
   public const val ELUGA_U3: String = "spec:width=720px,height=1520px,dpi=320"
-
-  /**
-   * Panasonic ELUGA_WE
-   */
-  public const val ELUGA_WE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Panasonic ELUGA_X1
@@ -283,34 +243,14 @@ public object Panasonic {
   public const val OD0M_EA_T32: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
-   * Panasonic P100
-   */
-  public const val P100: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Panasonic P101
    */
   public const val P101: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * Panasonic P55_Novo_4G
-   */
-  public const val P55_NOVO_4G: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * Panasonic P6
    */
   public const val P6: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * Panasonic P71
-   */
-  public const val P71: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Panasonic P77
-   */
-  public const val P77: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Panasonic P85
@@ -326,16 +266,6 @@ public object Panasonic {
    * Panasonic P91
    */
   public const val P91: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Panasonic Panasonic_ELUGA_C
-   */
-  public const val PANASONIC_ELUGA_C: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Panasonic Panasonic_P90
-   */
-  public const val PANASONIC_P90: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * PANASONIC R1
@@ -408,11 +338,6 @@ public object Panasonic {
   public const val SW6H: String = "spec:width=1080px,height=1920px,dpi=160"
 
   /**
-   * Panasonic T44
-   */
-  public const val T44: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * Panasonic TAB-A05
    */
   public const val TAB_A05: String = "spec:width=800px,height=1280px,dpi=160"
@@ -420,10 +345,15 @@ public object Panasonic {
   /**
    * Panasonic TAB-A05-BA1
    */
-  public const val TAB_A05_BA1: String = "spec:width=1440px,height=2960px,dpi=440"
+  public const val TAB_A05_BA1: String = "spec:width=1440px,height=3040px,dpi=560"
 
   /**
    * Panasonic Tab_8
    */
   public const val TAB_8: String = "spec:width=800px,height=1280px,dpi=320"
+
+  /**
+   * Panasonic umeda
+   */
+  public const val UMEDA: String = "spec:width=720px,height=1280px,dpi=213"
 }

@@ -1,9 +1,10 @@
 # Dgtec Devices
 
-Total: **5** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dgtec`
+Total: **6** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dgtec`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| 11_inch_tablet | _11_INCH_TABLET | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Dgtec._11_INCH_TABLET)` |
 | DG101HSTB | DG101HSTB | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Dgtec.DG101HSTB)` |
 | DG101SVCB | DG101SVCB | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Dgtec.DG101SVCB)` |
 | DG101TBLS | DG101TBLS | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Dgtec.DG101TBLS)` |

@@ -1,6 +1,6 @@
 # Ihunt Devices
 
-Total: **50** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ihunt`
+Total: **48** devices. Import: `import se.premex.compose.preview.device.catalog.android.Ihunt`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -26,16 +26,15 @@ Total: **50** devices. Import: `import se.premex.compose.preview.device.catalog.
 | iHuntS22ULTRA | IHUNTS22ULTRA | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Ihunt.IHUNTS22ULTRA)` |
 | Like_8 | LIKE_8 | 442x960 | 213 | `spec:width=442px,height=960px,dpi=213` | `@Preview(device = Ihunt.LIKE_8)` |
 | Like_Hi10_2021 | LIKE_HI10_2021 | 442x960 | 240 | `spec:width=442px,height=960px,dpi=240` | `@Preview(device = Ihunt.LIKE_HI10_2021)` |
-| Like_Hi5 | LIKE_HI5 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ihunt.LIKE_HI5)` |
 | P10000_Pro | P10000_PRO | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Ihunt.P10000_PRO)` |
 | P11000_Pro | P11000_PRO | 720x1440 | 280 | `spec:width=720px,height=1440px,dpi=280` | `@Preview(device = Ihunt.P11000_PRO)` |
+| P11001_ULTRA | P11001_ULTRA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ihunt.P11001_ULTRA)` |
 | P15000_Ultra | P15000_ULTRA | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Ihunt.P15000_ULTRA)` |
 | P15000PRO_5G | P15000PRO_5G | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ihunt.P15000PRO_5G)` |
 | P22000_Ultra | P22000_ULTRA | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Ihunt.P22000_ULTRA)` |
 | P25000_Pro | P25000_PRO | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Ihunt.P25000_PRO)` |
 | P32000_Ultra | P32000_ULTRA | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Ihunt.P32000_ULTRA)` |
 | P8000_Ultra | P8000_ULTRA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ihunt.P8000_ULTRA)` |
-| S10_Tank_2019 | S10_TANK_2019 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ihunt.S10_TANK_2019)` |
 | S10_Tank_2020 | S10_TANK_2020 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Ihunt.S10_TANK_2020)` |
 | S10_Tank_PRO_2020 | S10_TANK_PRO_2020 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ihunt.S10_TANK_PRO_2020)` |
 | S21_Plus_2021_EEA | S21_PLUS_2021_EEA | 480x1014 | 213 | `spec:width=480px,height=1014px,dpi=213` | `@Preview(device = Ihunt.S21_PLUS_2021_EEA)` |
@@ -53,6 +52,5 @@ Total: **50** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Titan_P6000_PRO | TITAN_P6000_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ihunt.TITAN_P6000_PRO)` |
 | Titan_P8000_PRO_2021 | TITAN_P8000_PRO_2021 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Ihunt.TITAN_P8000_PRO_2021)` |
 | Titan_X_EEA | TITAN_X_EEA | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ihunt.TITAN_X_EEA)` |
-| TitanP6000 | TITANP6000 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Ihunt.TITANP6000)` |
 
 <!-- Generated automatically. Do not edit manually. -->

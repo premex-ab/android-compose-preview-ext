@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=106
+// Generated manufacturer device catalog. Devices=96
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Bmobile (106 models).
+ * Device specifications for Bmobile (96 models).
  */
 public object Bmobile {
   /**
@@ -23,11 +23,6 @@ public object Bmobile {
   public const val B60PRO_MV03: String = "spec:width=720px,height=1560px,dpi=320"
 
   /**
-   * Bmobile Bmobile_AX1016
-   */
-  public const val BMOBILE_AX1016: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * Bmobile Bmobile_AX1017_MV12
    */
   public const val BMOBILE_AX1017_MV12: String = "spec:width=480px,height=800px,dpi=240"
@@ -38,24 +33,9 @@ public object Bmobile {
   public const val BMOBILE_AX1017_TG05: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
-   * Bmobile Bmobile_AX1035
-   */
-  public const val BMOBILE_AX1035: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * Bmobile Bmobile_AX1065E
    */
   public const val BMOBILE_AX1065E: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX1070
-   */
-  public const val BMOBILE_AX1070: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX1073
-   */
-  public const val BMOBILE_AX1073: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Bmobile Bmobile_AX1073Plus
@@ -71,11 +51,6 @@ public object Bmobile {
    * Bmobile Bmobile_AX1074
    */
   public const val BMOBILE_AX1074: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX1075
-   */
-  public const val BMOBILE_AX1075: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Bmobile Bmobile_AX1076P_MV03
@@ -148,11 +123,6 @@ public object Bmobile {
   public const val BMOBILE_AX1082: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * Bmobile Bmobile_AX1082_MV15
-   */
-  public const val BMOBILE_AX1082_MV15: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * Bmobile Bmobile_AX680_
    */
   public const val BMOBILE_AX680: String = "spec:width=480px,height=800px,dpi=240"
@@ -161,16 +131,6 @@ public object Bmobile {
    * Bmobile Bmobile_AX681
    */
   public const val BMOBILE_AX681: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX683
-   */
-  public const val BMOBILE_AX683: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX685
-   */
-  public const val BMOBILE_AX685: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Bmobile Bmobile_AX687
@@ -186,11 +146,6 @@ public object Bmobile {
    * Bmobile Bmobile_AX688
    */
   public const val BMOBILE_AX688: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX715
-   */
-  public const val BMOBILE_AX715: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Bmobile Bmobile_AX751
@@ -223,19 +178,9 @@ public object Bmobile {
   public const val BMOBILE_AX821: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
-   * Bmobile Bmobile_AX823
-   */
-  public const val BMOBILE_AX823: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
    * Bmobile Bmobile_AX824_MV03
    */
   public const val BMOBILE_AX824_MV03: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX824A
-   */
-  public const val BMOBILE_AX824A: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Bmobile Bmobile_AX824PLUS_MV03
@@ -246,11 +191,6 @@ public object Bmobile {
    * Bmobile Bmobile_AX824Plus_MV15
    */
   public const val BMOBILE_AX824PLUS_MV15: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * Bmobile Bmobile_AX825
-   */
-  public const val BMOBILE_AX825: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Bmobile Bmobile_AX830
@@ -271,11 +211,6 @@ public object Bmobile {
    * Bmobile Bmobile_AX921
    */
   public const val BMOBILE_AX921: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Bmobile Bmobile_AX951
-   */
-  public const val BMOBILE_AX951: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Bmobile Bmobile_AX960_MV03
@@ -518,6 +453,16 @@ public object Bmobile {
   public const val BMOBILE_NOVUS_65_MV03: String = "spec:width=576px,height=1280px,dpi=260"
 
   /**
+   * Bmobile Bmobile_ORION_TG05
+   */
+  public const val BMOBILE_ORION_TG05: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * Bmobile Bmobile_ORION_TG07
+   */
+  public const val BMOBILE_ORION_TG07: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * Bmobile Bmobile_T70
    */
   public const val BMOBILE_T70: String = "spec:width=600px,height=1024px,dpi=213"
@@ -531,6 +476,11 @@ public object Bmobile {
    * Bmobile Bmobile_ULTRA_S_MV03
    */
   public const val BMOBILE_ULTRA_S_MV03: String = "spec:width=720px,height=1612px,dpi=320"
+
+  /**
+   * Bmobile Bmobile_VENUS_TG05
+   */
+  public const val BMOBILE_VENUS_TG05: String = "spec:width=576px,height=1280px,dpi=240"
 
   /**
    * Bmobile ULTRA_S

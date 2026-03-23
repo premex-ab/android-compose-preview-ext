@@ -30,7 +30,7 @@ Total: **33** devices. Import: `import se.premex.compose.preview.device.catalog.
 | V_TAB_1050 | V_TAB_1050 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Vestel.V_TAB_1050)` |
 | V_TAB_7020A | V_TAB_7020A | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Vestel.V_TAB_7020A)` |
 | V_TAB_7810 | V_TAB_7810 | 768x1024 | 160 | `spec:width=768px,height=1024px,dpi=160` | `@Preview(device = Vestel.V_TAB_7810)` |
-| Venus_V3_5040 | VENUS_V3_5040 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vestel.VENUS_V3_5040)` |
+| Venus_V3_5040 | VENUS_V3_5040 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vestel.VENUS_V3_5040)` |
 | Venus_V3_5045 | VENUS_V3_5045 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vestel.VENUS_V3_5045)` |
 | Venus_V3_5070 | VENUS_V3_5070 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vestel.VENUS_V3_5070)` |
 | Venus_V3_5570 | VENUS_V3_5570 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vestel.VENUS_V3_5570)` |

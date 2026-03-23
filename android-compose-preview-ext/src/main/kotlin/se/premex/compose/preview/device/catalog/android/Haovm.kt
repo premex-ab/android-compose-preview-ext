@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HAOVM (10 models).
+ * Device specifications for HAOVM (13 models).
  */
 public object Haovm {
   /**
@@ -53,7 +53,22 @@ public object Haovm {
   public const val PS30: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
+   * HAOVM Q16W
+   */
+  public const val Q16W: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * HAOVM T2000
    */
   public const val T2000: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * HAOVM T30W
+   */
+  public const val T30W: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * HAOVM V5
+   */
+  public const val V5: String = "spec:width=800px,height=1280px,dpi=213"
 }

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Gevo (2 models).
+ * Device specifications for Gevo (3 models).
  */
 public object Gevo {
+  /**
+   * Gevo E10
+   */
+  public const val E10: String = "spec:width=720px,height=1600px,dpi=320"
+
   /**
    * Gevo Gevo_V10
    */

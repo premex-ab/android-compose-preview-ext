@@ -33,6 +33,11 @@ public object Laser {
   public const val MID_785A100: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
+   * LASER MID-7A15
+   */
+  public const val MID_7A15: String = "spec:width=600px,height=1024px,dpi=160"
+
+  /**
    * Laser MID_1087V9
    */
   public const val MID_1087V9: String = "spec:width=600px,height=1024px,dpi=160"
@@ -61,11 +66,6 @@ public object Laser {
    * LASER MID_1099IPS_V13
    */
   public const val MID_1099IPS_V13: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * LASER MID_787V9
-   */
-  public const val MID_787V9: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * Laser MID_789A100

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=27
+// Generated manufacturer device catalog. Devices=29
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for COLORROOM (27 models).
+ * Device specifications for COLORROOM (29 models).
  */
 public object Colorroom {
   /**
@@ -41,6 +41,11 @@ public object Colorroom {
    * COLORROOM C30_Pro
    */
   public const val C30_PRO: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * COLORROOM C30D
+   */
+  public const val C30D: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * COLORROOM C3_Pro_EEA
@@ -96,6 +101,11 @@ public object Colorroom {
    * COLORROOM E5
    */
   public const val E5: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * COLORROOM E5_EEA
+   */
+  public const val E5_EEA: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * COLORROOM K07-pro_EEA

@@ -18,8 +18,8 @@ class PreviewGroupsGenerator {
         val baseDir = kotlinSrcRoot.resolve(basePackage.replace('.', '/'))
         if (!baseDir.exists()) baseDir.createDirectories()
         
-        // Group devices by manufacturer
-        val byManufacturer = devices.groupBy { it.toManufacturerClassName() }.toSortedMap()
+        // Group devices by manufacturer (case-insensitive to avoid filesystem collisions)
+        val byManufacturer = NameResolver.groupByManufacturer(devices)
         
         // Generate main PreviewGroups class
         generatePreviewGroupsClass(byManufacturer, basePackage, kotlinSrcRoot)
@@ -48,23 +48,23 @@ class PreviewGroupsGenerator {
             val uniqueSpecs = specs
                 .distinctBy { it.code + ":" + it.toDeviceString() }
                 .sortedWith(compareBy<DeviceSpec> { it.code.lowercase() }.thenBy { it.width }.thenBy { it.height }.thenBy { it.dpi })
-            
+
+            val resolvedNames = NameResolver.resolveAllNames(uniqueSpecs)
             val methodName = "get${manufacturerClassName}Devices"
             val manufacturerName = specs.first().manufacturer
-            
+
             val methodBuilder = FunSpec.builder(methodName)
                 .addKdoc("Get all device specifications for $manufacturerName devices.\nUseful for ${if (manufacturerClassName == "Zebra") "enterprise and rugged device" else manufacturerName.lowercase()} testing.")
                 .returns(List::class.asClassName().parameterizedBy(String::class.asClassName()))
-            
+
             // Build the device constants as string list
             methodBuilder.addCode("return listOf(\n")
-            uniqueSpecs.forEachIndexed { index, spec ->
-                val constName = resolveConstantName(spec)
-                val comma = if (index < uniqueSpecs.size - 1) "," else ""
+            resolvedNames.forEachIndexed { index, (_, constName) ->
+                val comma = if (index < resolvedNames.size - 1) "," else ""
                 methodBuilder.addCode("    %T.$constName$comma\n", ClassName("se.premex.compose.preview.device.catalog.android", manufacturerClassName))
             }
             methodBuilder.addCode(")\n")
-            
+
             previewGroupsClass.addFunction(methodBuilder.build())
         }
         
@@ -122,14 +122,18 @@ class PreviewGroupsGenerator {
     }
     
     private fun generateZebraPreviewGroupClass(
-        specs: List<DeviceSpec>, 
-        basePackage: String, 
+        specs: List<DeviceSpec>,
+        basePackage: String,
         kotlinSrcRoot: Path
     ) {
         val uniqueSpecs = specs
             .distinctBy { it.code + ":" + it.toDeviceString() }
             .sortedWith(compareBy<DeviceSpec> { it.code.lowercase() }.thenBy { it.width }.thenBy { it.height }.thenBy { it.dpi })
-        
+
+        // Resolve names consistently with DeviceCatalogGenerator
+        val resolvedNames = NameResolver.resolveAllNames(uniqueSpecs)
+        val nameMap = resolvedNames.toMap()
+
         // Categorize Zebra devices based on their model codes
         val handhelds = mutableListOf<DeviceSpec>()
         val touchComputers = mutableListOf<DeviceSpec>()
@@ -137,12 +141,12 @@ class PreviewGroupsGenerator {
         val vehicleComputers = mutableListOf<DeviceSpec>()
         val wearables = mutableListOf<DeviceSpec>()
         val others = mutableListOf<DeviceSpec>()
-        
+
         uniqueSpecs.forEach { spec ->
             val code = spec.code.uppercase()
             when {
                 code.startsWith("MC") -> handhelds.add(spec)
-                code.startsWith("TC") -> touchComputers.add(spec) 
+                code.startsWith("TC") -> touchComputers.add(spec)
                 code.startsWith("ET") || code.startsWith("L10") -> tablets.add(spec)
                 code.startsWith("VC") -> vehicleComputers.add(spec)
                 code.startsWith("WT") -> wearables.add(spec)
@@ -159,22 +163,22 @@ class PreviewGroupsGenerator {
         
         // Add category lists
         if (handhelds.isNotEmpty()) {
-            categoriesObject.addProperty(createCategoryProperty("handhelds", handhelds, "Mobile computers and handheld scanners (MC series)", "Zebra"))
+            categoriesObject.addProperty(createCategoryProperty("handhelds", handhelds, "Mobile computers and handheld scanners (MC series)", "Zebra", nameMap))
         }
         if (touchComputers.isNotEmpty()) {
-            categoriesObject.addProperty(createCategoryProperty("touchComputers", touchComputers, "Touch computers and mobile devices (TC series)", "Zebra"))
+            categoriesObject.addProperty(createCategoryProperty("touchComputers", touchComputers, "Touch computers and mobile devices (TC series)", "Zebra", nameMap))
         }
         if (tablets.isNotEmpty()) {
-            categoriesObject.addProperty(createCategoryProperty("tablets", tablets, "Enterprise tablets (ET series)", "Zebra"))
+            categoriesObject.addProperty(createCategoryProperty("tablets", tablets, "Enterprise tablets (ET series)", "Zebra", nameMap))
         }
         if (vehicleComputers.isNotEmpty()) {
-            categoriesObject.addProperty(createCategoryProperty("vehicleComputers", vehicleComputers, "Vehicle-mounted computers (VC series)", "Zebra"))
+            categoriesObject.addProperty(createCategoryProperty("vehicleComputers", vehicleComputers, "Vehicle-mounted computers (VC series)", "Zebra", nameMap))
         }
         if (wearables.isNotEmpty()) {
-            categoriesObject.addProperty(createCategoryProperty("wearables", wearables, "Wearable computers and devices (WT series)", "Zebra"))
+            categoriesObject.addProperty(createCategoryProperty("wearables", wearables, "Wearable computers and devices (WT series)", "Zebra", nameMap))
         }
         if (others.isNotEmpty()) {
-            categoriesObject.addProperty(createCategoryProperty("others", others, "Other Zebra devices", "Zebra"))
+            categoriesObject.addProperty(createCategoryProperty("others", others, "Other Zebra devices", "Zebra", nameMap))
         }
         
         zebraPreviewGroupClass.addType(categoriesObject.build())
@@ -191,27 +195,24 @@ class PreviewGroupsGenerator {
         propertyName: String,
         devices: List<DeviceSpec>,
         description: String,
-        manufacturerClassName: String
+        manufacturerClassName: String,
+        nameMap: Map<DeviceSpec, String>
     ): PropertySpec {
         val propertyBuilder = PropertySpec.builder(propertyName, List::class.asClassName().parameterizedBy(String::class.asClassName()))
             .addKdoc("$description (${devices.size} devices)")
-        
+
         // Build the device list with CodeBlock
         val codeBlockBuilder = CodeBlock.builder()
         codeBlockBuilder.add("listOf(\n")
         devices.forEachIndexed { index, spec ->
-            val constName = resolveConstantName(spec)
+            val constName = nameMap[spec] ?: spec.toConstantName()
             val comma = if (index < devices.size - 1) "," else ""
             codeBlockBuilder.add("        %T.$constName$comma\n", ClassName("se.premex.compose.preview.device.catalog.android", manufacturerClassName))
         }
         codeBlockBuilder.add("    )")
-        
+
         propertyBuilder.initializer(codeBlockBuilder.build())
-        
+
         return propertyBuilder.build()
-    }
-    
-    private fun resolveConstantName(spec: DeviceSpec): String {
-        return spec.toConstantName()
     }
 }

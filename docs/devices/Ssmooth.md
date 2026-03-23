@@ -10,7 +10,7 @@ Total: **18** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Smooth6_26_Lite | SMOOTH6_26_LITE | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Ssmooth.SMOOTH6_26_LITE)` |
 | Smooth6_26_Max | SMOOTH6_26_MAX | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Ssmooth.SMOOTH6_26_MAX)` |
 | Smooth6_26_Pro | SMOOTH6_26_PRO | 720x1520 | 300 | `spec:width=720px,height=1520px,dpi=300` | `@Preview(device = Ssmooth.SMOOTH6_26_PRO)` |
-| Smooth6_5 | SMOOTH6_5 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Ssmooth.SMOOTH6_5)` |
+| Smooth6_5 | SMOOTH6_5 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Ssmooth.SMOOTH6_5)` |
 | Smooth_5_0_2022 | SMOOTH_5_0_2022 | 480x854 | 213 | `spec:width=480px,height=854px,dpi=213` | `@Preview(device = Ssmooth.SMOOTH_5_0_2022)` |
 | Smooth_5_5_MAX | SMOOTH_5_5_MAX | 480x960 | 213 | `spec:width=480px,height=960px,dpi=213` | `@Preview(device = Ssmooth.SMOOTH_5_5_MAX)` |
 | Smooth_6_0 | SMOOTH_6_0 | 480x960 | 200 | `spec:width=480px,height=960px,dpi=200` | `@Preview(device = Ssmooth.SMOOTH_6_0)` |

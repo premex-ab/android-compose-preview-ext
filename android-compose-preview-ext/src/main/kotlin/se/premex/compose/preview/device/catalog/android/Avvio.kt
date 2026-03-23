@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=3
+// Generated manufacturer device catalog. Devices=2
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Avvio (3 models).
+ * Device specifications for Avvio (2 models).
  */
 public object Avvio {
   /**
    * Avvio Avvio_4GO
    */
   public const val AVVIO_4GO: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Avvio Avvio_A400
-   */
-  public const val AVVIO_A400: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Avvio Avvio_Q503

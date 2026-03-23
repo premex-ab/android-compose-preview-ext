@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=22
+// Generated manufacturer device catalog. Devices=26
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for FOXXD (22 models).
+ * Device specifications for FOXXD (26 models).
  */
 public object Foxxd {
   /**
@@ -33,11 +33,6 @@ public object Foxxd {
   public const val A5PRO: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * FOXXD A62
-   */
-  public const val A62: String = "spec:width=480px,height=1014px,dpi=200"
-
-  /**
    * FOXXD A65
    */
   public const val A65: String = "spec:width=720px,height=1600px,dpi=320"
@@ -45,7 +40,7 @@ public object Foxxd {
   /**
    * FOXXD A65L
    */
-  public const val A65L: String = "spec:width=540px,height=1200px,dpi=200"
+  public const val A65L: String = "spec:width=576px,height=1280px,dpi=240"
 
   /**
    * FOXXD A65Plus
@@ -53,9 +48,29 @@ public object Foxxd {
   public const val A65PLUS: String = "spec:width=720px,height=1600px,dpi=300"
 
   /**
+   * FOXXD A65U
+   */
+  public const val A65U: String = "spec:width=576px,height=1280px,dpi=240"
+
+  /**
    * FOXXD A67L
    */
   public const val A67L: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * FOXXD A67U
+   */
+  public const val A67U: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * FOXXD A67W
+   */
+  public const val A67W: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
+   * FOXXD A67W_Lite
+   */
+  public const val A67W_LITE: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * FOXXD AS65U
@@ -66,6 +81,11 @@ public object Foxxd {
    * FOXXD C10
    */
   public const val C10: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
+   * FOXXD C10_Pro
+   */
+  public const val C10_PRO: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * FOXXD FOXXD_C65

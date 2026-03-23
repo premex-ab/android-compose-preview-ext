@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=59
+// Generated manufacturer device catalog. Devices=58
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ADVAN (59 models).
+ * Device specifications for ADVAN (58 models).
  */
 public object Advan {
   /**
@@ -133,11 +133,6 @@ public object Advan {
   public const val ADVAN_I5D: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
-   * ADVAN ADVAN_I5E
-   */
-  public const val ADVAN_I5E: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * ADVAN ADVAN_i5G
    */
   public const val ADVAN_I5G: String = "spec:width=480px,height=854px,dpi=240"
@@ -233,6 +228,11 @@ public object Advan {
   public const val ADVAN_TAB_8: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
+   * ADVAN ADVAN_TAB_A10
+   */
+  public const val ADVAN_TAB_A10: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * ADVAN ADVAN_TAB_A8
    */
   public const val ADVAN_TAB_A8: String = "spec:width=800px,height=1280px,dpi=213"
@@ -286,11 +286,6 @@ public object Advan {
    * ADVAN i10
    */
   public const val I10: String = "spec:width=800px,height=1280px,dpi=240"
-
-  /**
-   * ADVAN i5C
-   */
-  public const val I5C: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * ADVAN T2J

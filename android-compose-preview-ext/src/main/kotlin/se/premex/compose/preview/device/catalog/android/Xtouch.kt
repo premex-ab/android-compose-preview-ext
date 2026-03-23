@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for XTOUCH (11 models).
+ * Device specifications for XTOUCH (8 models).
  */
 public object Xtouch {
-  /**
-   * XTOUCH A5
-   */
-  public const val A5: String = "spec:width=480px,height=960px,dpi=240"
-
   /**
    * XTOUCH S20
    */
@@ -41,16 +36,6 @@ public object Xtouch {
    * XTouch XP10_4G
    */
   public const val XP10_4G: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * XTouch XP10_Wifi
-   */
-  public const val XP10_WIFI: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * XTOUCH XTOUCH_A4
-   */
-  public const val XTOUCH_A4: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * XTouch XTouch_X

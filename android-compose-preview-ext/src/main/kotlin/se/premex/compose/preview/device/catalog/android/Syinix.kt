@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Syinix (7 models).
+ * Device specifications for Syinix (8 models).
  */
 public object Syinix {
   /**
@@ -16,6 +16,11 @@ public object Syinix {
    * Syinix beaudry
    */
   public const val BEAUDRY: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Syinix eleonas
+   */
+  public const val ELEONAS: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Syinix ikebukuro

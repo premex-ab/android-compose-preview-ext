@@ -1,16 +1,26 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for enova (7 models).
+ * Device specifications for enova (9 models).
  */
 public object Enova {
+  /**
+   * enova E10_View_Max
+   */
+  public const val E10_VIEW_MAX: String = "spec:width=720px,height=1600px,dpi=320"
+
   /**
    * ENOVA elliniko
    */
   public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * ENOVA jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
    * ENOVA N10

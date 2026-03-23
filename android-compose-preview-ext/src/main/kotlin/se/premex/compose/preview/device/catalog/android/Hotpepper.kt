@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=19
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for HotPepper (19 models).
+ * Device specifications for HotPepper (20 models).
  */
 public object Hotpepper {
   /**
@@ -46,6 +46,11 @@ public object Hotpepper {
    * HotPepper HPPAP16
    */
   public const val HPPAP16: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Hotpepper HPPH88L
+   */
+  public const val HPPH88L: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * HotPepper HPPL60A

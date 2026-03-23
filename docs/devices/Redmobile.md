@@ -1,9 +1,10 @@
-# Redmobile Devices
+# RedMobile Devices
 
-Total: **1** devices. Import: `import se.premex.compose.preview.device.catalog.android.Redmobile`
+Total: **2** devices. Import: `import se.premex.compose.preview.device.catalog.android.RedMobile`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
-| Volt_L | VOLT_L | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Redmobile.VOLT_L)` |
+| Quick_5_0 | QUICK_5_0 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = RedMobile.QUICK_5_0)` |
+| Volt_L | VOLT_L | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = RedMobile.VOLT_L)` |
 
 <!-- Generated automatically. Do not edit manually. -->

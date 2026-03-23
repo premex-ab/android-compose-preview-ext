@@ -1,6 +1,6 @@
 # SigmaMobile Devices
 
-Total: **31** devices. Import: `import se.premex.compose.preview.device.catalog.android.SigmaMobile`
+Total: **30** devices. Import: `import se.premex.compose.preview.device.catalog.android.SigmaMobile`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -20,7 +20,6 @@ Total: **31** devices. Import: `import se.premex.compose.preview.device.catalog.
 | X-treme_PQ29 | X_TREME_PQ29 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ29)` |
 | X-treme_PQ36 | X_TREME_PQ36 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ36)` |
 | X-TREME_PQ37 | X_TREME_PQ37 | 640x1280 | 320 | `spec:width=640px,height=1280px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ37)` |
-| X-TREME_PQ52 | X_TREME_PQ52 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ52)` |
 | X-treme_PQ53 | X_TREME_PQ53 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ53)` |
 | X-treme_PQ54 | X_TREME_PQ54 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ54)` |
 | X-treme_PQ54_MAX | X_TREME_PQ54_MAX | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = SigmaMobile.X_TREME_PQ54_MAX)` |

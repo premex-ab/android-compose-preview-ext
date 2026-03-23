@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for AngelTech (2 models).
+ * Device specifications for AngelTech (3 models).
  */
 public object Angeltech {
+  /**
+   * AngelTech ATKSLIM
+   */
+  public const val ATKSLIM: String = "spec:width=600px,height=1024px,dpi=160"
+
   /**
    * AngelTech E109GCM
    */

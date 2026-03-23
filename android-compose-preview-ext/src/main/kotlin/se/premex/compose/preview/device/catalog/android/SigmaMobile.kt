@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=31
+// Generated manufacturer device catalog. Devices=30
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SIGMA_MOBILE (31 models).
+ * Device specifications for SIGMA_MOBILE (30 models).
  */
 public object SigmaMobile {
   /**
@@ -86,11 +86,6 @@ public object SigmaMobile {
    * Sigma_mobile X-TREME_PQ37
    */
   public const val X_TREME_PQ37: String = "spec:width=640px,height=1280px,dpi=320"
-
-  /**
-   * Sigma_mobile X-TREME_PQ52
-   */
-  public const val X_TREME_PQ52: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Sigma_mobile X-treme_PQ53

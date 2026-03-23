@@ -10,5 +10,5 @@ public object Zofywnas {
   /**
    * ZOFYWNAS D10
    */
-  public const val D10: String = "spec:width=1080px,height=1920px,dpi=160"
+  public const val D10: String = "spec:width=1200px,height=1920px,dpi=200"
 }

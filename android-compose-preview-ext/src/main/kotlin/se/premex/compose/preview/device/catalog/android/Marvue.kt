@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=9
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MARVUE (9 models).
+ * Device specifications for MARVUE (8 models).
  */
 public object Marvue {
   /**
@@ -26,11 +26,6 @@ public object Marvue {
    * MARVUE M15
    */
   public const val M15: String = "spec:width=800px,height=1280px,dpi=160"
-
-  /**
-   * MARVUE M8
-   */
-  public const val M8: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * MARVUE M81

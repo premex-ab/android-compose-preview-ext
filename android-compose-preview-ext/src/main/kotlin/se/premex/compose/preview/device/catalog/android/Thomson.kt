@@ -1,21 +1,26 @@
-// Generated manufacturer device catalog. Devices=36
+// Generated manufacturer device catalog. Devices=38
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for THOMSON (36 models).
+ * Device specifications for THOMSON (38 models).
  */
 public object Thomson {
+  /**
+   * THOMSON anaheim
+   */
+  public const val ANAHEIM: String = "spec:width=1080px,height=1920px,dpi=320"
+
   /**
    * THOMSON Delight_TH201
    */
   public const val DELIGHT_TH201: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
-   * Thomson EBL_5304G
+   * Thomson dongnae
    */
-  public const val EBL_5304G: String = "spec:width=480px,height=960px,dpi=240"
+  public const val DONGNAE: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * THOMSON Friendly_TH101
@@ -103,6 +108,11 @@ public object Thomson {
   public const val SAMSEONG: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
+   * Thomson sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * THOMSON SNA
    */
   public const val SNA: String = "spec:width=720px,height=1280px,dpi=320"
@@ -123,11 +133,6 @@ public object Thomson {
   public const val TEO10_KID2BL32: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
-   * THOMSON TEO104G
-   */
-  public const val TEO104G: String = "spec:width=800px,height=1280px,dpi=240"
-
-  /**
    * THOMSON TEO10A2BK32P_EEA
    */
   public const val TEO10A2BK32P_EEA: String = "spec:width=800px,height=1280px,dpi=160"
@@ -138,9 +143,9 @@ public object Thomson {
   public const val TEO10A4BK64P_EEA: String = "spec:width=1200px,height=1920px,dpi=213"
 
   /**
-   * THOMSON TEO10S
+   * Thomson TEO13M
    */
-  public const val TEO10S: String = "spec:width=800px,height=1280px,dpi=160"
+  public const val TEO13M: String = "spec:width=1080px,height=1920px,dpi=240"
 
   /**
    * THOMSON TEO13P
@@ -171,6 +176,11 @@ public object Thomson {
    * Thomson TEOX103
    */
   public const val TEOX103: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Thomson Thomson_Go
+   */
+  public const val THOMSON_GO: String = "spec:width=2160px,height=3840px,dpi=540"
 
   /**
    * Thomson YDA

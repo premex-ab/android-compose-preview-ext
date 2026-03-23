@@ -1,6 +1,6 @@
 # Dexp Devices
 
-Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dexp`
+Total: **116** devices. Import: `import se.premex.compose.preview.device.catalog.android.Dexp`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -33,14 +33,12 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | BL160 | BL160 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Dexp.BL160)` |
 | BL250 | BL250 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Dexp.BL250)` |
 | BL350 | BL350 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Dexp.BL350)` |
-| BS155 | BS155 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Dexp.BS155)` |
 | C18 | C18 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.C18)` |
 | C37 | C37 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.C37)` |
 | C38 | C38 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.C38)` |
-| D11 | D11 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Dexp.D11)` |
+| D11 | D11 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.D11)` |
 | D21 | D21 | 1200x2000 | 320 | `spec:width=1200px,height=2000px,dpi=320` | `@Preview(device = Dexp.D21)` |
 | E110 | E110 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Dexp.E110)` |
-| E170 | E170 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Dexp.E170)` |
 | E180 | E180 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Dexp.E180)` |
 | E210 | E210 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Dexp.E210)` |
 | EX111 | EX111 | 1080x1920 | 240 | `spec:width=1080px,height=1920px,dpi=240` | `@Preview(device = Dexp.EX111)` |
@@ -76,7 +74,6 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | L210 | L210 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Dexp.L210)` |
 | L270 | L270 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Dexp.L270)` |
 | L310i | L310I | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.L310I)` |
-| L370i | L370I | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Dexp.L370I)` |
 | L470 | L470 | 600x1024 | 213 | `spec:width=600px,height=1024px,dpi=213` | `@Preview(device = Dexp.L470)` |
 | M110 | M110 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Dexp.M110)` |
 | M170 | M170 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Dexp.M170)` |
@@ -121,8 +118,6 @@ Total: **121** devices. Import: `import se.premex.compose.preview.device.catalog
 | T155 | T155 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Dexp.T155)` |
 | T21 | T21 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.T21)` |
 | VA110 | VA110 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Dexp.VA110)` |
-| VA210 | VA210 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Dexp.VA210)` |
-| XL150 | XL150 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Dexp.XL150)` |
 | Z250 | Z250 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Dexp.Z250)` |
 | Z455 | Z455 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Dexp.Z455)` |
 

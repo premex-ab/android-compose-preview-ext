@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Beafon (7 models).
+ * Device specifications for Beafon (8 models).
  */
 public object Beafon {
   /**
@@ -26,6 +26,11 @@ public object Beafon {
    * Beafon M7_Lite
    */
   public const val M7_LITE: String = "spec:width=720px,height=1440px,dpi=280"
+
+  /**
+   * Bea-fon MX1
+   */
+  public const val MX1: String = "spec:width=720px,height=1520px,dpi=320"
 
   /**
    * Beafon TL20

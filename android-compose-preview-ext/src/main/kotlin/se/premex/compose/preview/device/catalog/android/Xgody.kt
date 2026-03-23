@@ -23,6 +23,11 @@ public object Xgody {
   public const val N02_A: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * XGODY N02_Pro
+   */
+  public const val N02_PRO: String = "spec:width=800px,height=1280px,dpi=200"
+
+  /**
    * XGODY N02_ProA
    */
   public const val N02_PROA: String = "spec:width=800px,height=1280px,dpi=160"
@@ -51,11 +56,6 @@ public object Xgody {
    * XGODY R15_EEA
    */
   public const val R15_EEA: String = "spec:width=1200px,height=1920px,dpi=280"
-
-  /**
-   * XGODY T702
-   */
-  public const val T702: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * XGODY T702E_EEA
@@ -93,7 +93,7 @@ public object Xgody {
   public const val X32: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
-   * XGODY XGT_EEA
+   * XGODY X36
    */
-  public const val XGT_EEA: String = "spec:width=600px,height=1024px,dpi=160"
+  public const val X36: String = "spec:width=720px,height=1600px,dpi=320"
 }

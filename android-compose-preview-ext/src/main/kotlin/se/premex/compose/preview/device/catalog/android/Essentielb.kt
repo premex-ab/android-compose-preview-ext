@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=9
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for ESSENTIELB (11 models).
+ * Device specifications for ESSENTIELB (9 models).
  */
 public object Essentielb {
   /**
@@ -48,17 +48,7 @@ public object Essentielb {
   public const val SMARTTAB1008: String = "spec:width=1200px,height=1920px,dpi=213"
 
   /**
-   * Essentielb SmartTab_1004_XS
-   */
-  public const val SMARTTAB_1004_XS: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
    * Essentielb Wooze_L
    */
   public const val WOOZE_L: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Essentielb Wooze_XL
-   */
-  public const val WOOZE_XL: String = "spec:width=720px,height=1280px,dpi=320"
 }

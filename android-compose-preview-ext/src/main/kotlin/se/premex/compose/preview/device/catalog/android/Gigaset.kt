@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=31
+// Generated manufacturer device catalog. Devices=33
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Gigaset (31 models).
+ * Device specifications for Gigaset (33 models).
  */
 public object Gigaset {
   /**
@@ -26,6 +26,11 @@ public object Gigaset {
    * Gigaset Gigaset_GS4
    */
   public const val GIGASET_GS4: String = "spec:width=1080px,height=2340px,dpi=480"
+
+  /**
+   * Gigaset GP20
+   */
+  public const val GP20: String = "spec:width=720px,height=1600px,dpi=480"
 
   /**
    * Gigaset GS100
@@ -106,6 +111,11 @@ public object Gigaset {
    * Gigaset GS5_Senior
    */
   public const val GS5_SENIOR: String = "spec:width=1080px,height=2340px,dpi=480"
+
+  /**
+   * Gigaset GS6_Venus
+   */
+  public const val GS6_VENUS: String = "spec:width=1080px,height=2400px,dpi=480"
 
   /**
    * Gigaset GS80

@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MULTISMART (2 models).
+ * Device specifications for MULTISMART (3 models).
  */
 public object Multismart {
+  /**
+   * MULTISMART elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
   /**
    * MULTISMART lavender
    */

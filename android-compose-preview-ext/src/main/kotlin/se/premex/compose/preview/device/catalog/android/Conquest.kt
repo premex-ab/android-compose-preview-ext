@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for CONQUEST (7 models).
+ * Device specifications for CONQUEST (6 models).
  */
 public object Conquest {
   /**
@@ -26,11 +26,6 @@ public object Conquest {
    * CONQUEST conquest_S20
    */
   public const val CONQUEST_S20_1080X2340: String = "spec:width=1080px,height=2340px,dpi=480"
-
-  /**
-   * CONQUEST F5
-   */
-  public const val F5: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * CONQUEST S12Pro

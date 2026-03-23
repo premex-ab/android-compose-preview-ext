@@ -1,6 +1,6 @@
 # Pointmobile Devices
 
-Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.android.Pointmobile`
+Total: **18** devices. Import: `import se.premex.compose.preview.device.catalog.android.Pointmobile`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -13,6 +13,7 @@ Total: **17** devices. Import: `import se.premex.compose.preview.device.catalog.
 | pm550 | PM550 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Pointmobile.PM550)` |
 | pm66 | PM66 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Pointmobile.PM66)` |
 | PM67 | PM67 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Pointmobile.PM67)` |
+| PM68 | PM68 | 480x800 | 200 | `spec:width=480px,height=800px,dpi=200` | `@Preview(device = Pointmobile.PM68)` |
 | PM75 | PM75 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Pointmobile.PM75)` |
 | pm80 | PM80 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Pointmobile.PM80)` |
 | PM84 | PM84 | 720x1440 | 280 | `spec:width=720px,height=1440px,dpi=280` | `@Preview(device = Pointmobile.PM84)` |

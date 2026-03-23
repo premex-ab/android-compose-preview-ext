@@ -1,6 +1,6 @@
 # Umax Devices
 
-Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.android.Umax`
+Total: **20** devices. Import: `import se.premex.compose.preview.device.catalog.android.Umax`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -17,7 +17,6 @@ Total: **21** devices. Import: `import se.premex.compose.preview.device.catalog.
 | 8A_Plus_eea | _8A_PLUS_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Umax._8A_PLUS_EEA)` |
 | 8C_LTE | _8C_LTE | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Umax._8C_LTE)` |
 | 8L_PLUS_EEA | _8L_PLUS_EEA | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Umax._8L_PLUS_EEA)` |
-| 8Qa_3G | _8QA_3G | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Umax._8QA_3G)` |
 | kaitak | KAITAK | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Umax.KAITAK)` |
 | seocho | SEOCHO | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Umax.SEOCHO)` |
 | shilin | SHILIN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Umax.SHILIN)` |

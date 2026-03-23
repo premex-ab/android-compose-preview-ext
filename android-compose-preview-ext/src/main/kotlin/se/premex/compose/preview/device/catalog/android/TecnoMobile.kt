@@ -95,5 +95,5 @@ public object TecnoMobile {
   /**
    * TECNO-Mobile TECNO-Mobile-LI6
    */
-  public const val TECNO_MOBILE_LI6: String = "spec:width=1080px,height=2460px,dpi=480"
+  public const val TECNO_MOBILE_LI6: String = "spec:width=1080px,height=2460px,dpi=440"
 }

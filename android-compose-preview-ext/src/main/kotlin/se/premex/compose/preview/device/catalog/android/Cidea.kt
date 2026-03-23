@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Cidea (12 models).
+ * Device specifications for Cidea (13 models).
  */
 public object Cidea {
   /**
@@ -66,4 +66,9 @@ public object Cidea {
    * Cidea P1150
    */
   public const val P1150: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Cidea R1036
+   */
+  public const val R1036: String = "spec:width=1200px,height=2000px,dpi=320"
 }

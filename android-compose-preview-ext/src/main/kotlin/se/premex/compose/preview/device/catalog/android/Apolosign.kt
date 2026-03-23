@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=23
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Apolosign (14 models).
+ * Device specifications for Apolosign (23 models).
  */
 public object Apolosign {
   /**
@@ -33,14 +33,44 @@ public object Apolosign {
   public const val EP103B: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * Apolosign EP1095_T
+   */
+  public const val EP1095_T: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
    * Apolosign EP1095T
    */
   public const val EP1095T: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
+   * Apolosign FA1569T
+   */
+  public const val FA1569T: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
    * Apolosign FA158AT
    */
   public const val FA158AT: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
+   * Apolosign FA2169T
+   */
+  public const val FA2169T: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
+   * Apolosign FA2769T
+   */
+  public const val FA2769T: String = "spec:width=1080px,height=1920px,dpi=240"
+
+  /**
+   * Apolosign K103_A
+   */
+  public const val K103_A: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Apolosign K106A
+   */
+  public const val K106A: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Apolosign K109_Pro
@@ -61,6 +91,21 @@ public object Apolosign {
    * Apolosign NW1495T
    */
   public const val NW1495T: String = "spec:width=1080px,height=1920px,dpi=160"
+
+  /**
+   * Apolosign SW3299T
+   */
+  public const val SW3299T: String = "spec:width=2160px,height=3840px,dpi=480"
+
+  /**
+   * Apolosign SW3299TFHD
+   */
+  public const val SW3299TFHD: String = "spec:width=1080px,height=1920px,dpi=160"
+
+  /**
+   * Apolosign WF1589T
+   */
+  public const val WF1589T: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
    * Apolosign WF2189T

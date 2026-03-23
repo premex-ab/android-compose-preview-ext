@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=5
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Kbro (5 models).
+ * Device specifications for Kbro (7 models).
  */
 public object Kbro {
+  /**
+   * kbro A0B_RTD1325
+   */
+  public const val A0B_RTD1325: String = "spec:width=720px,height=1280px,dpi=320"
+
   /**
    * Kbro A1_3796
    */
@@ -26,6 +31,11 @@ public object Kbro {
    * Kbro A2_S905X4
    */
   public const val A2_S905X4: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * Kbro A2_X4_N
+   */
+  public const val A2_X4_N: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * kbro sti6160d19

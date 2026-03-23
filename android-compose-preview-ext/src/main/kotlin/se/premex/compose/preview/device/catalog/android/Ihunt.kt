@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=50
+// Generated manufacturer device catalog. Devices=48
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for iHunt (50 models).
+ * Device specifications for iHunt (48 models).
  */
 public object Ihunt {
   /**
@@ -118,11 +118,6 @@ public object Ihunt {
   public const val LIKE_HI10_2021: String = "spec:width=442px,height=960px,dpi=240"
 
   /**
-   * iHunt Like_Hi5
-   */
-  public const val LIKE_HI5: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
    * iHunt P10000_Pro
    */
   public const val P10000_PRO: String = "spec:width=720px,height=1600px,dpi=280"
@@ -131,6 +126,11 @@ public object Ihunt {
    * iHunt P11000_Pro
    */
   public const val P11000_PRO: String = "spec:width=720px,height=1440px,dpi=280"
+
+  /**
+   * iHunt P11001_ULTRA
+   */
+  public const val P11001_ULTRA: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * iHunt P15000_Ultra
@@ -161,11 +161,6 @@ public object Ihunt {
    * iHunt P8000_Ultra
    */
   public const val P8000_ULTRA: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
-   * iHunt S10_Tank_2019
-   */
-  public const val S10_TANK_2019: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * iHunt S10_Tank_2020
@@ -251,9 +246,4 @@ public object Ihunt {
    * iHunt Titan_X_EEA
    */
   public const val TITAN_X_EEA: String = "spec:width=720px,height=1600px,dpi=320"
-
-  /**
-   * iHunt TitanP6000
-   */
-  public const val TITANP6000: String = "spec:width=480px,height=960px,dpi=240"
 }

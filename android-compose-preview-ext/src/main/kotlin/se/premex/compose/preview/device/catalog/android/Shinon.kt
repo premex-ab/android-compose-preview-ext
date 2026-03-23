@@ -1,12 +1,22 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for SHINON (4 models).
+ * Device specifications for SHINON (6 models).
  */
 public object Shinon {
+  /**
+   * SHINON alimos
+   */
+  public const val ALIMOS: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * SHINON dangni
+   */
+  public const val DANGNI: String = "spec:width=1080px,height=1920px,dpi=213"
+
   /**
    * SHINON ikebukuro
    */

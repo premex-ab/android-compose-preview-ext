@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MediaTek (2 models).
+ * Device specifications for MediaTek (3 models).
  */
 public object Mediatek {
+  /**
+   * MediaTek m7332
+   */
+  public const val M7332: String = "spec:width=1080px,height=1920px,dpi=240"
+
   /**
    * MediaTek m7332_eu
    */

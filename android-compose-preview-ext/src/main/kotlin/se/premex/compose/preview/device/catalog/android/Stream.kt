@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=11
+// Generated manufacturer device catalog. Devices=12
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for STREAM (11 models).
+ * Device specifications for STREAM (12 models).
  */
 public object Stream {
   /**
@@ -28,14 +28,14 @@ public object Stream {
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
 
   /**
+   * STREAM dongnae
+   */
+  public const val DONGNAE: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
    * Stream DV8555-Altice
    */
   public const val DV8555_ALTICE: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * STREAM Everest
-   */
-  public const val EVEREST: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * STREAM HT16
@@ -56,6 +56,11 @@ public object Stream {
    * STREAM R10G
    */
   public const val R10G: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
+   * STREAM sepolia
+   */
+  public const val SEPOLIA: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * STREAM SHARK

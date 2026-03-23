@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=51
+// Generated manufacturer device catalog. Devices=50
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for MEDION (51 models).
+ * Device specifications for MEDION (50 models).
  */
 public object Medion {
   /**
@@ -246,11 +246,6 @@ public object Medion {
    * MEDION S5004
    */
   public const val S5004: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * MEDION S9714
-   */
-  public const val S9714: String = "spec:width=752px,height=1280px,dpi=160"
 
   /**
    * MEDION X1030X

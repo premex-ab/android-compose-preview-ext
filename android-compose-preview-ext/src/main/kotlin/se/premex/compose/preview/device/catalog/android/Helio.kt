@@ -1,16 +1,26 @@
-// Generated manufacturer device catalog. Devices=6
+// Generated manufacturer device catalog. Devices=8
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Helio (6 models).
+ * Device specifications for helio (8 models).
  */
 public object Helio {
+  /**
+   * helio helio_15
+   */
+  public const val HELIO_15: String = "spec:width=720px,height=1600px,dpi=280"
+
   /**
    * helio helio_40
    */
   public const val HELIO_40: String = "spec:width=720px,height=1604px,dpi=280"
+
+  /**
+   * helio helio_45
+   */
+  public const val HELIO_45: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
    * helio helio_50

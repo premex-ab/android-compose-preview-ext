@@ -35,5 +35,5 @@ public object Meberry {
   /**
    * Meberry M8_US
    */
-  public const val M8_US: String = "spec:width=1200px,height=2000px,dpi=240"
+  public const val M8_US: String = "spec:width=1080px,height=1920px,dpi=164"
 }

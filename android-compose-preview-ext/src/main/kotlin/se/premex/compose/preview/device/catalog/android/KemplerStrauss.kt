@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=15
+// Generated manufacturer device catalog. Devices=14
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KEMPLER_STRAUSS (15 models).
+ * Device specifications for KEMPLER_STRAUSS (14 models).
  */
 public object KemplerStrauss {
-  /**
-   * Kempler_Strauss Alumini_3_Plus
-   */
-  public const val ALUMINI_3_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
-
   /**
    * KEMPLER_STRAUSS KEMPLER_9
    */

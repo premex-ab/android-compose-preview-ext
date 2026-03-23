@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=14
+// Generated manufacturer device catalog. Devices=15
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for skyworth (14 models).
+ * Device specifications for skyworth (15 models).
  */
 public object Skyworth {
   /**
    * skyworth anaheim
    */
   public const val ANAHEIM: String = "spec:width=1080px,height=1920px,dpi=320"
-
-  /**
-   * skyworth beomil
-   */
-  public const val BEOMIL: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * Skyworth BOS
@@ -36,6 +31,11 @@ public object Skyworth {
    * skyworth grape
    */
   public const val GRAPE: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * skyworth katehaki
+   */
+  public const val KATEHAKI: String = "spec:width=2160px,height=3840px,dpi=320"
 
   /**
    * Skyworth LAS
@@ -66,6 +66,11 @@ public object Skyworth {
    * skyworth umeda
    */
   public const val UMEDA: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * Skyworth YDA
+   */
+  public const val YDA: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * Skyworth YYC

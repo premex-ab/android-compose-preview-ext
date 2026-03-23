@@ -1,18 +1,23 @@
 # Aiwa Devices
 
-Total: **44** devices. Import: `import se.premex.compose.preview.device.catalog.android.Aiwa`
+Total: **53** devices. Import: `import se.premex.compose.preview.device.catalog.android.Aiwa`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | AIWA_A81 | AIWA_A81 | 800x1280 | 300 | `spec:width=800px,height=1280px,dpi=300` | `@Preview(device = Aiwa.AIWA_A81)` |
-| AIWA_Z9_PLUS | AIWA_Z9_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Aiwa.AIWA_Z9_PLUS)` |
+| alimos | ALIMOS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Aiwa.ALIMOS)` |
 | AW-P | AW_P | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Aiwa.AW_P)` |
 | AW790 | AW790 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Aiwa.AW790)` |
 | AW_TAB10_14 | AW_TAB10_14 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Aiwa.AW_TAB10_14)` |
 | AWM501 | AWM501 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Aiwa.AWM501)` |
 | AWM539 | AWM539 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Aiwa.AWM539)` |
+| AWM999 | AWM999 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Aiwa.AWM999)` |
+| AWPM106A | AWPM106A | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Aiwa.AWPM106A)` |
+| AWPM108T | AWPM108T | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Aiwa.AWPM108T)` |
 | AWPP101AW | AWPP101AW | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Aiwa.AWPP101AW)` |
+| AWPP86AW | AWPP86AW | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Aiwa.AWPP86AW)` |
 | AWT10H | AWT10H | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Aiwa.AWT10H)` |
+| elliniko | ELLINIKO | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Aiwa.ELLINIKO)` |
 | hongkong | HONGKONG | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Aiwa.HONGKONG)` |
 | ikebukuro | IKEBUKURO | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Aiwa.IKEBUKURO)` |
 | JA2-SMP0601 | JA2_SMP0601 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Aiwa.JA2_SMP0601)` |
@@ -27,6 +32,9 @@ Total: **44** devices. Import: `import se.premex.compose.preview.device.catalog.
 | JA3-TBA1007 | JA3_TBA1007 | 1200x1920 | 320 | `spec:width=1200px,height=1920px,dpi=320` | `@Preview(device = Aiwa.JA3_TBA1007)` |
 | JA4-TBA1008 | JA4_TBA1008 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Aiwa.JA4_TBA1008)` |
 | JA4-TBA1101 | JA4_TBA1101 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Aiwa.JA4_TBA1101)` |
+| JA5-TBA1011 | JA5_TBA1011 | 800x1280 | 180 | `spec:width=800px,height=1280px,dpi=180` | `@Preview(device = Aiwa.JA5_TBA1011)` |
+| JA5-TBA1012 | JA5_TBA1012 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Aiwa.JA5_TBA1012)` |
+| JA5-TBA1102 | JA5_TBA1102 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Aiwa.JA5_TBA1102)` |
 | lavender | LAVENDER | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Aiwa.LAVENDER)` |
 | longshan | LONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Aiwa.LONGSHAN)` |
 | mountbaker | MOUNTBAKER | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Aiwa.MOUNTBAKER)` |
@@ -47,6 +55,7 @@ Total: **44** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TAB-1103 | TAB_1103 | 1200x1920 | 240 | `spec:width=1200px,height=1920px,dpi=240` | `@Preview(device = Aiwa.TAB_1103)` |
 | TAB_1003G | TAB_1003G | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Aiwa.TAB_1003G)` |
 | TABLETAWTH801 | TABLETAWTH801 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Aiwa.TABLETAWTH801)` |
+| umeda | UMEDA | 720x1280 | 213 | `spec:width=720px,height=1280px,dpi=213` | `@Preview(device = Aiwa.UMEDA)` |
 | zhongshan | ZHONGSHAN | 1080x1920 | 320 | `spec:width=1080px,height=1920px,dpi=320` | `@Preview(device = Aiwa.ZHONGSHAN)` |
 
 <!-- Generated automatically. Do not edit manually. -->

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=7
+// Generated manufacturer device catalog. Devices=6
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for DUODUOGO (7 models).
+ * Device specifications for DUODUOGO (6 models).
  */
 public object Duoduogo {
   /**
@@ -31,11 +31,6 @@ public object Duoduogo {
    * DUODUOGO Tab_A7
    */
   public const val TAB_A7: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * DUODUOGO TAB_S2
-   */
-  public const val TAB_S2: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * DUODUOGO TAB_S2_EEA

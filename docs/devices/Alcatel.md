@@ -1,10 +1,11 @@
 # Alcatel Devices
 
-Total: **39** devices. Import: `import se.premex.compose.preview.device.catalog.android.Alcatel`
+Total: **42** devices. Import: `import se.premex.compose.preview.device.catalog.android.Alcatel`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | 5006 | _5006 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Alcatel._5006)` |
+| A01 | A01 | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Alcatel.A01)` |
 | Apollo_8_4G | APOLLO_8_4G | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Alcatel.APOLLO_8_4G)` |
 | Apollo_8_4G_TMO | APOLLO_8_4G_TMO | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Alcatel.APOLLO_8_4G_TMO)` |
 | Aquaman_10_4G | AQUAMAN_10_4G | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Alcatel.AQUAMAN_10_4G)` |
@@ -18,6 +19,7 @@ Total: **39** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Cruze_Lite | CRUZE_LITE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Alcatel.CRUZE_LITE)` |
 | Cruze_Pro | CRUZE_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Alcatel.CRUZE_PRO)` |
 | Dahlia | DAHLIA | 576x1280 | 220 | `spec:width=576px,height=1280px,dpi=220` | `@Preview(device = Alcatel.DAHLIA)` |
+| DahliaMax | DAHLIAMAX | 576x1280 | 220 | `spec:width=576px,height=1280px,dpi=220` | `@Preview(device = Alcatel.DAHLIAMAX)` |
 | DahliaPro | DAHLIAPRO | 576x1280 | 220 | `spec:width=576px,height=1280px,dpi=220` | `@Preview(device = Alcatel.DAHLIAPRO)` |
 | Goldfinch_NP_Pro | GOLDFINCH_NP_PRO | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Alcatel.GOLDFINCH_NP_PRO)` |
 | HONG_KONG | HONG_KONG | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Alcatel.HONG_KONG)` |
@@ -42,6 +44,7 @@ Total: **39** devices. Import: `import se.premex.compose.preview.device.catalog.
 | U3A_10_WIFI_P | U3A_10_WIFI_P | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Alcatel.U3A_10_WIFI_P)` |
 | U3A_7_3G_Refresh | U3A_7_3G_REFRESH | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Alcatel.U3A_7_3G_REFRESH)` |
 | U3A_7_WIFI_Refresh | U3A_7_WIFI_REFRESH | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Alcatel.U3A_7_WIFI_REFRESH)` |
+| Vanilla | VANILLA | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Alcatel.VANILLA)` |
 | Wright_Pro | WRIGHT_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Alcatel.WRIGHT_PRO)` |
 
 <!-- Generated automatically. Do not edit manually. -->

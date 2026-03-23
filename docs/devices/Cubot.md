@@ -1,6 +1,6 @@
 # Cubot Devices
 
-Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.android.Cubot`
+Total: **99** devices. Import: `import se.premex.compose.preview.device.catalog.android.Cubot`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
@@ -8,6 +8,7 @@ Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.
 | A10 | A10 | 720x1612 | 272 | `spec:width=720px,height=1612px,dpi=272` | `@Preview(device = Cubot.A10)` |
 | A20 | A20 | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Cubot.A20)` |
 | A30 | A30 | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Cubot.A30)` |
+| A40 | A40 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Cubot.A40)` |
 | C20 | C20 | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Cubot.C20)` |
 | C30 | C30 | 1080x2310 | 480 | `spec:width=1080px,height=2310px,dpi=480` | `@Preview(device = Cubot.C30)` |
 | CUBOT_A5 | CUBOT_A5 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Cubot.CUBOT_A5)` |
@@ -33,6 +34,7 @@ Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.
 | J8 | J8 | 442x960 | 240 | `spec:width=442px,height=960px,dpi=240` | `@Preview(device = Cubot.J8)` |
 | KING_KONG_3 | KING_KONG_3 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Cubot.KING_KONG_3)` |
 | KING_KONG_CS | KING_KONG_CS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Cubot.KING_KONG_CS)` |
+| KINGKONG_11 | KINGKONG_11 | 1080x2400 | 400 | `spec:width=1080px,height=2400px,dpi=400` | `@Preview(device = Cubot.KINGKONG_11)` |
 | KINGKONG_5 | KINGKONG_5 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Cubot.KINGKONG_5)` |
 | KINGKONG_5_Pro | KINGKONG_5_PRO | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Cubot.KINGKONG_5_PRO)` |
 | KINGKONG_6 | KINGKONG_6 | 720x1560 | 320 | `spec:width=720px,height=1560px,dpi=320` | `@Preview(device = Cubot.KINGKONG_6)` |
@@ -42,9 +44,11 @@ Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.
 | KINGKONG_ACE_2 | KINGKONG_ACE_2 | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Cubot.KINGKONG_ACE_2)` |
 | KINGKONG_ACE_3 | KINGKONG_ACE_3 | 1080x2408 | 400 | `spec:width=1080px,height=2408px,dpi=400` | `@Preview(device = Cubot.KINGKONG_ACE_3)` |
 | KINGKONG_ES | KINGKONG_ES | 720x1612 | 272 | `spec:width=720px,height=1612px,dpi=272` | `@Preview(device = Cubot.KINGKONG_ES)` |
+| KINGKONG_ES_3 | KINGKONG_ES_3 | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Cubot.KINGKONG_ES_3)` |
 | KINGKONG_MINI | KINGKONG_MINI | 540x1080 | 240 | `spec:width=540px,height=1080px,dpi=240` | `@Preview(device = Cubot.KINGKONG_MINI)` |
 | KINGKONG_MINI2 | KINGKONG_MINI2 | 540x1080 | 240 | `spec:width=540px,height=1080px,dpi=240` | `@Preview(device = Cubot.KINGKONG_MINI2)` |
 | KINGKONG_MINI2_Pro | KINGKONG_MINI2_PRO | 540x1080 | 240 | `spec:width=540px,height=1080px,dpi=240` | `@Preview(device = Cubot.KINGKONG_MINI2_PRO)` |
+| KINGKONG_MINI_4 | KINGKONG_MINI_4 | 720x1600 | 260 | `spec:width=720px,height=1600px,dpi=260` | `@Preview(device = Cubot.KINGKONG_MINI_4)` |
 | KINGKONG_POWER_3 | KINGKONG_POWER_3 | 1080x2400 | 390 | `spec:width=1080px,height=2400px,dpi=390` | `@Preview(device = Cubot.KINGKONG_POWER_3)` |
 | KINGKONG_POWER_5 | KINGKONG_POWER_5 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Cubot.KINGKONG_POWER_5)` |
 | KINGKONG_STAR | KINGKONG_STAR | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Cubot.KINGKONG_STAR)` |
@@ -59,6 +63,7 @@ Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.
 | NOTE_30 | NOTE_30 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Cubot.NOTE_30)` |
 | NOTE_40 | NOTE_40 | 720x1612 | 260 | `spec:width=720px,height=1612px,dpi=260` | `@Preview(device = Cubot.NOTE_40)` |
 | NOTE_50 | NOTE_50 | 720x1612 | 260 | `spec:width=720px,height=1612px,dpi=260` | `@Preview(device = Cubot.NOTE_50)` |
+| NOTE_60 | NOTE_60 | 720x1560 | 240 | `spec:width=720px,height=1560px,dpi=240` | `@Preview(device = Cubot.NOTE_60)` |
 | NOTE_7 | NOTE_7 | 442x960 | 240 | `spec:width=442px,height=960px,dpi=240` | `@Preview(device = Cubot.NOTE_7)` |
 | NOTE_8 | NOTE_8 | 442x960 | 240 | `spec:width=442px,height=960px,dpi=240` | `@Preview(device = Cubot.NOTE_8)` |
 | NOTE_9 | NOTE_9 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Cubot.NOTE_9)` |
@@ -67,6 +72,7 @@ Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.
 | P50 | P50 | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Cubot.P50)` |
 | P60 | P60 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Cubot.P60)` |
 | P80 | P80 | 1080x2408 | 480 | `spec:width=1080px,height=2408px,dpi=480` | `@Preview(device = Cubot.P80)` |
+| P90 | P90 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Cubot.P90)` |
 | Pocket | POCKET | 540x1080 | 240 | `spec:width=540px,height=1080px,dpi=240` | `@Preview(device = Cubot.POCKET)` |
 | POCKET_3 | POCKET_3 | 480x1170 | 204 | `spec:width=480px,height=1170px,dpi=204` | `@Preview(device = Cubot.POCKET_3)` |
 | QUEST | QUEST | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Cubot.QUEST)` |
@@ -81,9 +87,11 @@ Total: **91** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TAB_40 | TAB_40 | 1200x2000 | 240 | `spec:width=1200px,height=2000px,dpi=240` | `@Preview(device = Cubot.TAB_40)` |
 | TAB_50 | TAB_50 | 1200x2000 | 220 | `spec:width=1200px,height=2000px,dpi=220` | `@Preview(device = Cubot.TAB_50)` |
 | TAB_60 | TAB_60 | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Cubot.TAB_60)` |
+| TAB_65 | TAB_65 | 800x1280 | 150 | `spec:width=800px,height=1280px,dpi=150` | `@Preview(device = Cubot.TAB_65)` |
 | TAB_70 | TAB_70 | 800x1280 | 200 | `spec:width=800px,height=1280px,dpi=200` | `@Preview(device = Cubot.TAB_70)` |
 | TAB_KINGKONG | TAB_KINGKONG | 1200x1920 | 280 | `spec:width=1200px,height=1920px,dpi=280` | `@Preview(device = Cubot.TAB_KINGKONG)` |
 | TAB_KINGKONG_2 | TAB_KINGKONG_2 | 1200x1920 | 200 | `spec:width=1200px,height=1920px,dpi=200` | `@Preview(device = Cubot.TAB_KINGKONG_2)` |
+| X100 | X100 | 720x1640 | 260 | `spec:width=720px,height=1640px,dpi=260` | `@Preview(device = Cubot.X100)` |
 | X19 | X19 | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Cubot.X19)` |
 | X19_S | X19_S | 1080x2160 | 480 | `spec:width=1080px,height=2160px,dpi=480` | `@Preview(device = Cubot.X19_S)` |
 | X20 | X20 | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Cubot.X20)` |

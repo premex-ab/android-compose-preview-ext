@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=8
+// Generated manufacturer device catalog. Devices=7
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Athesi (8 models).
+ * Device specifications for Athesi (7 models).
  */
 public object Athesi {
   /**
@@ -26,11 +26,6 @@ public object Athesi {
    * Athesi AT-E8T
    */
   public const val AT_E8T: String = "spec:width=800px,height=1280px,dpi=320"
-
-  /**
-   * Athesi E55
-   */
-  public const val E55: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
    * Athesi E65

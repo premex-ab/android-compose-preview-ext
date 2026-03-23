@@ -13,7 +13,6 @@ Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.
 | A001KC | A001KC | 720x1480 | 320 | `spec:width=720px,height=1480px,dpi=320` | `@Preview(device = Kyocera.A001KC)` |
 | A201KC | A201KC | 720x1480 | 320 | `spec:width=720px,height=1480px,dpi=320` | `@Preview(device = Kyocera.A201KC)` |
 | C6530N | C6530N | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Kyocera.C6530N)` |
-| C6725 | C6725 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Kyocera.C6725)` |
 | C6730 | C6730 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Kyocera.C6730)` |
 | C6740 | C6740 | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Kyocera.C6740)` |
 | C6740N | C6740N | 540x960 | 240 | `spec:width=540px,height=960px,dpi=240` | `@Preview(device = Kyocera.C6740N)` |
@@ -27,6 +26,7 @@ Total: **84** devices. Import: `import se.premex.compose.preview.device.catalog.
 | E6560T | E6560T | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Kyocera.E6560T)` |
 | E6762 | E6762 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Kyocera.E6762)` |
 | E6782 | E6782 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Kyocera.E6782)` |
+| E6782L | E6782L | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Kyocera.E6782L)` |
 | E6790 | E6790 | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Kyocera.E6790)` |
 | E6790TM | E6790TM | 720x1280 | 240 | `spec:width=720px,height=1280px,dpi=240` | `@Preview(device = Kyocera.E6790TM)` |
 | E6810_3GB | E6810_3GB | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Kyocera.E6810_3GB)` |

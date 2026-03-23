@@ -1,21 +1,16 @@
-// Generated manufacturer device catalog. Devices=68
+// Generated manufacturer device catalog. Devices=61
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for myPhone (68 models).
+ * Device specifications for MyPhone (61 models).
  */
 public object Myphone {
   /**
    * myPhone Fun6Lite
    */
   public const val FUN6LITE: String = "spec:width=480px,height=854px,dpi=240"
-
-  /**
-   * myPhone Fun_LTE
-   */
-  public const val FUN_LTE: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * myPhone Hammer_Active2
@@ -73,11 +68,6 @@ public object Myphone {
   public const val HAMMER_EXPLORER: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * myPhone Hammer_Iron_2
-   */
-  public const val HAMMER_IRON_2: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
    * myPhone Hammer_IRON_3
    */
   public const val HAMMER_IRON_3: String = "spec:width=720px,height=1440px,dpi=320"
@@ -123,6 +113,11 @@ public object Myphone {
   public const val MS2402X: String = "spec:width=1080px,height=2460px,dpi=480"
 
   /**
+   * MyPhone myA15
+   */
+  public const val MYA15: String = "spec:width=1080px,height=1920px,dpi=480"
+
+  /**
    * MyPhone myA17
    */
   public const val MYA17: String = "spec:width=720px,height=1280px,dpi=320"
@@ -158,11 +153,6 @@ public object Myphone {
   public const val MYPHONE_CITY_2: String = "spec:width=720px,height=1440px,dpi=320"
 
   /**
-   * myPhone myPhone_CityXL
-   */
-  public const val MYPHONE_CITYXL: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * myPhone myPhone_Fun_6
    */
   public const val MYPHONE_FUN_6: String = "spec:width=720px,height=1280px,dpi=320"
@@ -183,11 +173,6 @@ public object Myphone {
   public const val MYPHONE_FUN_9: String = "spec:width=480px,height=960px,dpi=213"
 
   /**
-   * MyPhone MyPhone_my96_DTV
-   */
-  public const val MYPHONE_MY96_DTV: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
    * myPhone myPhone_Now_eSIM
    */
   public const val MYPHONE_NOW_ESIM: String = "spec:width=720px,height=1560px,dpi=320"
@@ -196,11 +181,6 @@ public object Myphone {
    * myPhone myPhone_Pocket_Pro
    */
   public const val MYPHONE_POCKET_PRO: String = "spec:width=720px,height=1520px,dpi=320"
-
-  /**
-   * myPhone myPhone_Prime_2
-   */
-  public const val MYPHONE_PRIME_2: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * myPhone myPhone_Prime_3
@@ -268,11 +248,6 @@ public object Myphone {
   public const val MYX2: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
-   * MyPhone myX8
-   */
-  public const val MYX8: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
    * MyPhone myXI1_Plus
    */
   public const val MYXI1_PLUS: String = "spec:width=720px,height=1440px,dpi=320"
@@ -321,16 +296,6 @@ public object Myphone {
    * myPhone Prime_4_Lite
    */
   public const val PRIME_4_LITE: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * myPhone Prime_Plus_EN
-   */
-  public const val PRIME_PLUS_EN: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * myPhone Q-Smart_III_Plus
-   */
-  public const val Q_SMART_III_PLUS: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * myPhone SmartView_7_3G

@@ -23,12 +23,12 @@ public object Haitech {
   public const val HPAD_M2: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
+   * Haitech HPAD_IA65
+   */
+  public const val HPAD_IA65: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
    * Haitech HPAD_IP8045
    */
   public const val HPAD_IP8045: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * Haitech HPAD_IP8045_1
-   */
-  public const val HPAD_IP8045_1: String = "spec:width=800px,height=1280px,dpi=213"
 }

@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=3
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for OASYS (4 models).
+ * Device specifications for OASYS (3 models).
  */
 public object Oasys {
   /**
@@ -16,11 +16,6 @@ public object Oasys {
    * OASYS TEG9300-4
    */
   public const val TEG9300_4: String = "spec:width=600px,height=1024px,dpi=160"
-
-  /**
-   * OASYS TEG9300-5
-   */
-  public const val TEG9300_5: String = "spec:width=600px,height=1024px,dpi=160"
 
   /**
    * OASYS TEG9300-M

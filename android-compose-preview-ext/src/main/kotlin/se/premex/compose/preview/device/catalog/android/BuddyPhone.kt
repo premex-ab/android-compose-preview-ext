@@ -1,17 +1,12 @@
-// Generated manufacturer device catalog. Devices=2
+// Generated manufacturer device catalog. Devices=1
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for BUDDY_PHONE (2 models).
+ * Device specifications for BUDDY_PHONE (1 models).
  */
 public object BuddyPhone {
-  /**
-   * BUDDY_PHONE BP
-   */
-  public const val BP: String = "spec:width=600px,height=1280px,dpi=240"
-
   /**
    * BUDDY_PHONE P2
    */

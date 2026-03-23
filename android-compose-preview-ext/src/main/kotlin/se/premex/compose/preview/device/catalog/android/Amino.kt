@@ -45,5 +45,5 @@ public object Amino {
   /**
    * Amino Amigo7Y
    */
-  public const val AMIGO7Y: String = "spec:width=480px,height=720px,dpi=320"
+  public const val AMIGO7Y: String = "spec:width=720px,height=1280px,dpi=320"
 }

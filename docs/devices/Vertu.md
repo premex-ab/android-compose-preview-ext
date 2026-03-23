@@ -1,12 +1,11 @@
 # Vertu Devices
 
-Total: **10** devices. Import: `import se.premex.compose.preview.device.catalog.android.Vertu`
+Total: **9** devices. Import: `import se.premex.compose.preview.device.catalog.android.Vertu`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | alexa | ALEXA | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vertu.ALEXA)` |
 | ASTER_P | ASTER_P | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vertu.ASTER_P)` |
-| gambit | GAMBIT | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Vertu.GAMBIT)` |
 | odin | ODIN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vertu.ODIN)` |
 | titan | TITAN | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Vertu.TITAN)` |
 | tron | TRON | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Vertu.TRON)` |

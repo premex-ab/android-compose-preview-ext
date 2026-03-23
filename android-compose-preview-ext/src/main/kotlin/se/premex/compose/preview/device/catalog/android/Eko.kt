@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=19
+// Generated manufacturer device catalog. Devices=20
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for EKO (19 models).
+ * Device specifications for EKO (20 models).
  */
 public object Eko {
   /**
@@ -21,6 +21,11 @@ public object Eko {
    * EKO capitolhill
    */
   public const val CAPITOLHILL: String = "spec:width=720px,height=1280px,dpi=213"
+
+  /**
+   * EKO dongmae
+   */
+  public const val DONGMAE: String = "spec:width=1080px,height=1920px,dpi=213"
 
   /**
    * EKO expo

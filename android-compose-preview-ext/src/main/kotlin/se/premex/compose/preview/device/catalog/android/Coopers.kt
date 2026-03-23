@@ -25,7 +25,7 @@ public object Coopers {
   /**
    * COOPERS CP80
    */
-  public const val CP80: String = "spec:width=720px,height=1280px,dpi=320"
+  public const val CP80: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * COOPERS CP81

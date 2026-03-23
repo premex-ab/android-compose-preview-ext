@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=10
+// Generated manufacturer device catalog. Devices=13
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for KTC (10 models).
+ * Device specifications for KTC (13 models).
  */
 public object Ktc {
   /**
@@ -18,9 +18,24 @@ public object Ktc {
   public const val CAPRICORN: String = "spec:width=2160px,height=3840px,dpi=560"
 
   /**
+   * KTC elliniko
+   */
+  public const val ELLINIKO: String = "spec:width=2160px,height=3840px,dpi=320"
+
+  /**
    * KTC hongkong
    */
   public const val HONGKONG: String = "spec:width=1080px,height=1920px,dpi=320"
+
+  /**
+   * KTC jagalchi
+   */
+  public const val JAGALCHI: String = "spec:width=1080px,height=1920px,dpi=213"
+
+  /**
+   * KTC kaisyuan
+   */
+  public const val KAISYUAN: String = "spec:width=1080px,height=1920px,dpi=320"
 
   /**
    * KTC lavender

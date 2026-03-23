@@ -1,9 +1,10 @@
 # Condor Devices
 
-Total: **94** devices. Import: `import se.premex.compose.preview.device.catalog.android.Condor`
+Total: **96** devices. Import: `import se.premex.compose.preview.device.catalog.android.Condor`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| alimos | ALIMOS | 2160x3840 | 320 | `spec:width=2160px,height=3840px,dpi=320` | `@Preview(device = Condor.ALIMOS)` |
 | Allure_A8_Pro | ALLURE_A8_PRO | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Condor.ALLURE_A8_PRO)` |
 | Allure_M1 | ALLURE_M1 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.ALLURE_M1)` |
 | Allure_M1_Plus | ALLURE_M1_PLUS | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.ALLURE_M1_PLUS)` |
@@ -11,6 +12,7 @@ Total: **94** devices. Import: `import se.premex.compose.preview.device.catalog.
 | Allure_M3 | ALLURE_M3 | 1080x2246 | 480 | `spec:width=1080px,height=2246px,dpi=480` | `@Preview(device = Condor.ALLURE_M3)` |
 | Allure_M3_Lite | ALLURE_M3_LITE | 720x1520 | 320 | `spec:width=720px,height=1520px,dpi=320` | `@Preview(device = Condor.ALLURE_M3_LITE)` |
 | Allure_X | ALLURE_X | 1080x2340 | 480 | `spec:width=1080px,height=2340px,dpi=480` | `@Preview(device = Condor.ALLURE_X)` |
+| dangni | DANGNI | 1080x1920 | 213 | `spec:width=1080px,height=1920px,dpi=213` | `@Preview(device = Condor.DANGNI)` |
 | Griffe_T1 | GRIFFE_T1 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Condor.GRIFFE_T1)` |
 | Griffe_T5 | GRIFFE_T5 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Condor.GRIFFE_T5)` |
 | Griffe_T6 | GRIFFE_T6 | 480x960 | 240 | `spec:width=480px,height=960px,dpi=240` | `@Preview(device = Condor.GRIFFE_T6)` |
@@ -31,10 +33,13 @@ Total: **94** devices. Import: `import se.premex.compose.preview.device.catalog.
 | NOVA60_i | NOVA60_I | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Condor.NOVA60_I)` |
 | NOVA_70 | NOVA_70 | 720x1612 | 280 | `spec:width=720px,height=1612px,dpi=280` | `@Preview(device = Condor.NOVA_70)` |
 | NOVA_70i | NOVA_70I | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Condor.NOVA_70I)` |
+| NOVA_70PRO | NOVA_70PRO | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Condor.NOVA_70PRO)` |
+| NOVA_70S | NOVA_70S | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Condor.NOVA_70S)` |
 | NOVA_70SE | NOVA_70SE | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Condor.NOVA_70SE)` |
+| NOVA_80A | NOVA_80A | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Condor.NOVA_80A)` |
+| NOVA_80i | NOVA_80I | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Condor.NOVA_80I)` |
 | PAM524 | PAM524 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Condor.PAM524)` |
 | PGN409 | PGN409 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Condor.PGN409)` |
-| PGN511 | PGN511 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.PGN511)` |
 | PGN513 | PGN513 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Condor.PGN513)` |
 | PGN514 | PGN514 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PGN514)` |
 | PGN515 | PGN515 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Condor.PGN515)` |
@@ -50,13 +55,11 @@ Total: **94** devices. Import: `import se.premex.compose.preview.device.catalog.
 | PGN606 | PGN606 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PGN606)` |
 | PGN607 | PGN607 | 1440x2560 | 640 | `spec:width=1440px,height=2560px,dpi=640` | `@Preview(device = Condor.PGN607)` |
 | PGN608 | PGN608 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PGN608)` |
-| PGN609 | PGN609 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.PGN609)` |
 | PGN610 | PGN610 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PGN610)` |
 | PGN611 | PGN611 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.PGN611)` |
 | PGN612 | PGN612 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.PGN612)` |
 | PGN613 | PGN613 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Condor.PGN613)` |
 | PHQ520 | PHQ520 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Condor.PHQ520)` |
-| PHQ526 | PHQ526 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PHQ526)` |
 | phs601 | PHS601 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PHS601)` |
 | Plume_L1_Plus | PLUME_L1_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Condor.PLUME_L1_PLUS)` |
 | Plume_L2 | PLUME_L2 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Condor.PLUME_L2)` |
@@ -84,7 +87,6 @@ Total: **94** devices. Import: `import se.premex.compose.preview.device.catalog.
 | TB105L | TB105L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Condor.TB105L)` |
 | TB108W | TB108W | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Condor.TB108W)` |
 | TB109L | TB109L | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Condor.TB109L)` |
-| TB716 | TB716 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Condor.TB716)` |
 | TB717G | TB717G | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Condor.TB717G)` |
 | TB717L | TB717L | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Condor.TB717L)` |
 | TB718 | TB718 | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Condor.TB718)` |

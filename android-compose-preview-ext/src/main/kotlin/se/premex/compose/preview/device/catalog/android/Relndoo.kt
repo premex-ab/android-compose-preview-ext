@@ -1,12 +1,17 @@
-// Generated manufacturer device catalog. Devices=19
+// Generated manufacturer device catalog. Devices=25
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Relndoo (19 models).
+ * Device specifications for Relndoo (25 models).
  */
 public object Relndoo {
+  /**
+   * Relndoo P30_US
+   */
+  public const val P30_US: String = "spec:width=800px,height=1280px,dpi=180"
+
   /**
    * Relndoo P60_EEA
    */
@@ -36,6 +41,11 @@ public object Relndoo {
    * Relndoo P80_US
    */
   public const val P80_US: String = "spec:width=800px,height=1280px,dpi=213"
+
+  /**
+   * Relndoo P90_ROW
+   */
+  public const val P90_ROW: String = "spec:width=1200px,height=1920px,dpi=280"
 
   /**
    * Relndoo T10P
@@ -88,9 +98,24 @@ public object Relndoo {
   public const val TAB10_EUR: String = "spec:width=800px,height=1280px,dpi=160"
 
   /**
+   * Relndoo TAB10_US
+   */
+  public const val TAB10_US: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
+   * Relndoo TAB9
+   */
+  public const val TAB9: String = "spec:width=1200px,height=2000px,dpi=213"
+
+  /**
    * Relndoo TB02
    */
   public const val TB02: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Relndoo TB02_EEA_A
+   */
+  public const val TB02_EEA_A: String = "spec:width=800px,height=1280px,dpi=180"
 
   /**
    * Relndoo TB02_EUR
@@ -101,4 +126,9 @@ public object Relndoo {
    * Relndoo TB02_ROW
    */
   public const val TB02_ROW: String = "spec:width=800px,height=1280px,dpi=160"
+
+  /**
+   * Relndoo TB02_US
+   */
+  public const val TB02_US: String = "spec:width=800px,height=1280px,dpi=180"
 }

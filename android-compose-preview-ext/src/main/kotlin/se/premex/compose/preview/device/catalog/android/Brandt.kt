@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=12
+// Generated manufacturer device catalog. Devices=11
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Brandt (12 models).
+ * Device specifications for Brandt (11 models).
  */
 public object Brandt {
   /**
@@ -21,11 +21,6 @@ public object Brandt {
    * Brandt BPRIMES
    */
   public const val BPRIMES: String = "spec:width=1080px,height=2160px,dpi=480"
-
-  /**
-   * Brandt BSTAR
-   */
-  public const val BSTAR: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Brandt BSTAR_PLUS

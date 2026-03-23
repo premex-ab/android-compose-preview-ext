@@ -1,9 +1,10 @@
 # Sparx Devices
 
-Total: **27** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sparx`
+Total: **28** devices. Import: `import se.premex.compose.preview.device.catalog.android.Sparx`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| Edge_20 | EDGE_20 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Sparx.EDGE_20)` |
 | NEO5 | NEO5 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Sparx.NEO5)` |
 | Neo8Lite | NEO8LITE | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Sparx.NEO8LITE)` |
 | Neo_11 | NEO_11 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Sparx.NEO_11)` |

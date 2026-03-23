@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=24
+// Generated manufacturer device catalog. Devices=22
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for TOSCIDO (24 models).
+ * Device specifications for TOSCIDO (22 models).
  */
 public object Toscido {
   /**
@@ -56,16 +56,6 @@ public object Toscido {
    * TOSCIDO T20-EEA
    */
   public const val T20_EEA: String = "spec:width=1200px,height=1920px,dpi=240"
-
-  /**
-   * TOSCIDO T201
-   */
-  public const val T201: String = "spec:width=800px,height=1280px,dpi=213"
-
-  /**
-   * TOSCIDO T201-EEA
-   */
-  public const val T201_EEA: String = "spec:width=800px,height=1280px,dpi=213"
 
   /**
    * TOSCIDO T21-EEA

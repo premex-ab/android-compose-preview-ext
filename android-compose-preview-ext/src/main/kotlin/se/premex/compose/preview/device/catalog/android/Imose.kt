@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=4
+// Generated manufacturer device catalog. Devices=5
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Imose (4 models).
+ * Device specifications for Imose (5 models).
  */
 public object Imose {
   /**
@@ -21,6 +21,11 @@ public object Imose {
    * Imose Omotab_2s
    */
   public const val OMOTAB_2S: String = "spec:width=800px,height=1280px,dpi=180"
+
+  /**
+   * Imose OPOR
+   */
+  public const val OPOR: String = "spec:width=800px,height=1280px,dpi=240"
 
   /**
    * Imose SEMPE

@@ -1,12 +1,11 @@
 # Lava Devices
 
-Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lava`
+Total: **134** devices. Import: `import se.premex.compose.preview.device.catalog.android.Lava`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
 | A3_mini | A3_MINI | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.A3_MINI)` |
 | A52 | A52 | 480x800 | 240 | `spec:width=480px,height=800px,dpi=240` | `@Preview(device = Lava.A52)` |
-| A76Plus | A76PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.A76PLUS)` |
 | A77 | A77 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.A77)` |
 | A97 | A97 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.A97)` |
 | A97_2GB_PLUS | A97_2GB_PLUS | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.A97_2GB_PLUS)` |
@@ -18,7 +17,6 @@ Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog
 | iris50 | IRIS50 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.IRIS50)` |
 | iris50c | IRIS50C | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.IRIS50C)` |
 | iris51 | IRIS51 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.IRIS51)` |
-| iris53 | IRIS53 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.IRIS53)` |
 | iris60 | IRIS60 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.IRIS60)` |
 | iris60c | IRIS60C | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.IRIS60C)` |
 | iris65 | IRIS65 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.IRIS65)` |
@@ -28,7 +26,6 @@ Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog
 | iris821 | IRIS821 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.IRIS821)` |
 | iris870 | IRIS870 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.IRIS870)` |
 | iris88 | IRIS88 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lava.IRIS88)` |
-| iris880 | IRIS880 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.IRIS880)` |
 | iris88_go | IRIS88_GO | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lava.IRIS88_GO)` |
 | iris88_lite | IRIS88_LITE | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lava.IRIS88_LITE)` |
 | iris88s | IRIS88S | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lava.IRIS88S)` |
@@ -66,9 +63,9 @@ Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog
 | LN9910 | LN9910 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.LN9910)` |
 | LTN10RT | LTN10RT | 800x1280 | 213 | `spec:width=800px,height=1280px,dpi=213` | `@Preview(device = Lava.LTN10RT)` |
 | LTN8RT | LTN8RT | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lava.LTN8RT)` |
-| LXX501 | LXX501 | 1080x2160 | 403 | `spec:width=1080px,height=2160px,dpi=403` | `@Preview(device = Lava.LXX501)` |
-| LXX503 | LXX503 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lava.LXX503)` |
-| LXX504 | LXX504 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LXX504)` |
+| LXX501 | LXX501 | 1080x2354 | 480 | `spec:width=1080px,height=2354px,dpi=480` | `@Preview(device = Lava.LXX501)` |
+| LXX503 | LXX503 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LXX503)` |
+| LXX504 | LXX504 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lava.LXX504)` |
 | LXX505 | LXX505 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lava.LXX505)` |
 | LXX506 | LXX506 | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Lava.LXX506)` |
 | LXX507 | LXX507 | 720x1612 | 320 | `spec:width=720px,height=1612px,dpi=320` | `@Preview(device = Lava.LXX507)` |
@@ -81,7 +78,11 @@ Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog
 | LXX516 | LXX516 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LXX516)` |
 | LXX517 | LXX517 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LXX517)` |
 | LXX518 | LXX518 | 1200x2652 | 520 | `spec:width=1200px,height=2652px,dpi=520` | `@Preview(device = Lava.LXX518)` |
+| LXX519 | LXX519 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lava.LXX519)` |
+| LXX521 | LXX521 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lava.LXX521)` |
 | LXX522 | LXX522 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LXX522)` |
+| LXX523 | LXX523 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Lava.LXX523)` |
+| LXX525 | LXX525 | 1220x2712 | 480 | `spec:width=1220px,height=2712px,dpi=480` | `@Preview(device = Lava.LXX525)` |
 | LZG01 | LZG01 | 720x1640 | 280 | `spec:width=720px,height=1640px,dpi=280` | `@Preview(device = Lava.LZG01)` |
 | LZG401 | LZG401 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZG401)` |
 | LZG402_1 | LZG402_1 | 480x854 | 200 | `spec:width=480px,height=854px,dpi=200` | `@Preview(device = Lava.LZG402_1)` |
@@ -91,29 +92,27 @@ Total: **135** devices. Import: `import se.premex.compose.preview.device.catalog
 | LZG403_25 | LZG403_25 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZG403_25)` |
 | LZG409 | LZG409 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZG409)` |
 | LZG410 | LZG410 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZG410)` |
-| LZX403 | LZX403 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZX403)` |
+| LZG411 | LZG411 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZG411)` |
+| LZX403 | LZX403 | 1080x1920 | 480 | `spec:width=1080px,height=1920px,dpi=480` | `@Preview(device = Lava.LZX403)` |
 | LZX406 | LZX406 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lava.LZX406)` |
 | LZX408 | LZX408 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZX408)` |
 | LZX414 | LZX414 | 720x1600 | 280 | `spec:width=720px,height=1600px,dpi=280` | `@Preview(device = Lava.LZX414)` |
 | LZX415 | LZX415 | 720x1612 | 480 | `spec:width=720px,height=1612px,dpi=480` | `@Preview(device = Lava.LZX415)` |
 | LZX417 | LZX417 | 720x1612 | 480 | `spec:width=720px,height=1612px,dpi=480` | `@Preview(device = Lava.LZX417)` |
 | LZX419 | LZX419 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZX419)` |
+| LZX421 | LZX421 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.LZX421)` |
 | Magnum_Pro | MAGNUM_PRO | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lava.MAGNUM_PRO)` |
-| P7 | P7 | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.P7)` |
 | R1_Lite | R1_LITE | 480x854 | 240 | `spec:width=480px,height=854px,dpi=240` | `@Preview(device = Lava.R1_LITE)` |
 | R3 | R3 | 720x1440 | 320 | `spec:width=720px,height=1440px,dpi=320` | `@Preview(device = Lava.R3)` |
 | T101 | T101 | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lava.T101)` |
 | T101N | T101N | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lava.T101N)` |
 | T71_w | T71_W | 600x1024 | 160 | `spec:width=600px,height=1024px,dpi=160` | `@Preview(device = Lava.T71_W)` |
-| T71N | T71N | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lava.T71N)` |
 | T71N_M | T71N_M | 800x1280 | 160 | `spec:width=800px,height=1280px,dpi=160` | `@Preview(device = Lava.T71N_M)` |
 | T81 | T81 | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lava.T81)` |
 | T81_PB | T81_PB | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lava.T81_PB)` |
 | T81N | T81N | 800x1280 | 240 | `spec:width=800px,height=1280px,dpi=240` | `@Preview(device = Lava.T81N)` |
-| V23GB | V23GB | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.V23GB)` |
 | X10 | X10 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.X10)` |
 | X41_Plus | X41_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.X41_PLUS)` |
-| X50_Plus | X50_PLUS | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.X50_PLUS)` |
 | X81 | X81 | 720x1280 | 320 | `spec:width=720px,height=1280px,dpi=320` | `@Preview(device = Lava.X81)` |
 | Z1 | Z1 | 480x854 | 180 | `spec:width=480px,height=854px,dpi=180` | `@Preview(device = Lava.Z1)` |
 | Z100 | Z100 | 720x1600 | 320 | `spec:width=720px,height=1600px,dpi=320` | `@Preview(device = Lava.Z100)` |

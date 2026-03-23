@@ -58,9 +58,9 @@ public object Smart {
   public const val M50: String = "spec:width=720px,height=1600px,dpi=320"
 
   /**
-   * smart Max
+   * SMART sherbet
    */
-  public const val MAX: String = "spec:width=480px,height=800px,dpi=240"
+  public const val SHERBET: String = "spec:width=2160px,height=3840px,dpi=480"
 
   /**
    * SMART Slide_Lite
@@ -73,7 +73,7 @@ public object Smart {
   public const val SMART_HERO_II: String = "spec:width=720px,height=1600px,dpi=280"
 
   /**
-   * Smart Smart_PRIME_II
+   * SMART sorbet
    */
-  public const val SMART_PRIME_II: String = "spec:width=480px,height=960px,dpi=240"
+  public const val SORBET: String = "spec:width=2160px,height=3840px,dpi=480"
 }

@@ -55,7 +55,7 @@ public object Yu {
   /**
    * YU YUREKA2
    */
-  public const val YUREKA2: String = "spec:width=1080px,height=1920px,dpi=480"
+  public const val YUREKA2: String = "spec:width=1080px,height=1920px,dpi=420"
 
   /**
    * YU YUREKAS

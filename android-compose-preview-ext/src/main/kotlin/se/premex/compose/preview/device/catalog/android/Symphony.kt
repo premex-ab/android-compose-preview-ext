@@ -1,10 +1,10 @@
-// Generated manufacturer device catalog. Devices=125
+// Generated manufacturer device catalog. Devices=119
 package se.premex.compose.preview.device.catalog.android
 
 import kotlin.String
 
 /**
- * Device specifications for Symphony (125 models).
+ * Device specifications for Symphony (119 models).
  */
 public object Symphony {
   /**
@@ -31,11 +31,6 @@ public object Symphony {
    * Symphony E90
    */
   public const val E90: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Symphony E95
-   */
-  public const val E95: String = "spec:width=480px,height=800px,dpi=240"
 
   /**
    * Symphony G10
@@ -101,11 +96,6 @@ public object Symphony {
    * Symphony i10
    */
   public const val I10: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Symphony i100
-   */
-  public const val I100: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Symphony i10_plus
@@ -263,6 +253,11 @@ public object Symphony {
   public const val INNOVA_40: String = "spec:width=720px,height=1600px,dpi=480"
 
   /**
+   * Symphony MAX_60
+   */
+  public const val MAX_60: String = "spec:width=720px,height=1600px,dpi=320"
+
+  /**
    * Symphony P11
    */
   public const val P11: String = "spec:width=720px,height=1440px,dpi=320"
@@ -271,11 +266,6 @@ public object Symphony {
    * Symphony P6_PRO
    */
   public const val P6_PRO: String = "spec:width=720px,height=1280px,dpi=320"
-
-  /**
-   * Symphony P7_PRO
-   */
-  public const val P7_PRO: String = "spec:width=720px,height=1280px,dpi=320"
 
   /**
    * Symphony P8_PRO
@@ -311,16 +301,6 @@ public object Symphony {
    * SYMPHONY R40
    */
   public const val R40: String = "spec:width=720px,height=1440px,dpi=320"
-
-  /**
-   * Symphony roar_V150
-   */
-  public const val ROAR_V150: String = "spec:width=480px,height=960px,dpi=240"
-
-  /**
-   * Symphony Roar_V78
-   */
-  public const val ROAR_V78: String = "spec:width=480px,height=960px,dpi=240"
 
   /**
    * Symphony roarV95
@@ -436,11 +416,6 @@ public object Symphony {
    * Symphony V34
    */
   public const val V34: String = "spec:width=480px,height=800px,dpi=240"
-
-  /**
-   * Symphony V44
-   */
-  public const val V44: String = "spec:width=480px,height=854px,dpi=240"
 
   /**
    * Symphony V47
@@ -570,7 +545,7 @@ public object Symphony {
   /**
    * Symphony Z35
    */
-  public const val Z35: String = "spec:width=720px,height=1640px,dpi=260"
+  public const val Z35: String = "spec:width=1080px,height=2248px,dpi=480"
 
   /**
    * Symphony Z40
@@ -595,7 +570,7 @@ public object Symphony {
   /**
    * Symphony Z55
    */
-  public const val Z55: String = "spec:width=720px,height=1600px,dpi=320"
+  public const val Z55: String = "spec:width=720px,height=1612px,dpi=320"
 
   /**
    * Symphony Z60
@@ -621,11 +596,6 @@ public object Symphony {
    * Symphony Z9
    */
   public const val Z9: String = "spec:width=1080px,height=1920px,dpi=480"
-
-  /**
-   * Symphony ZVII
-   */
-  public const val ZVII: String = "spec:width=1080px,height=1920px,dpi=480"
 
   /**
    * Symphony ZVIII

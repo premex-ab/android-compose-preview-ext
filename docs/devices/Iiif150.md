@@ -1,9 +1,10 @@
 # Iiif150 Devices
 
-Total: **14** devices. Import: `import se.premex.compose.preview.device.catalog.android.Iiif150`
+Total: **15** devices. Import: `import se.premex.compose.preview.device.catalog.android.Iiif150`
 
 | Code | Constant | Resolution | DPI | Compose Spec | Preview Usage |
 |------|----------|------------|-----|-------------|---------------|
+| Action_A5Pro | ACTION_A5PRO | 720x1640 | 320 | `spec:width=720px,height=1640px,dpi=320` | `@Preview(device = Iiif150.ACTION_A5PRO)` |
 | Air1 | AIR1 | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Iiif150.AIR1)` |
 | Air1_Pro | AIR1_PRO | 1080x2400 | 480 | `spec:width=1080px,height=2400px,dpi=480` | `@Preview(device = Iiif150.AIR1_PRO)` |
 | Air1_Ultra | AIR1_ULTRA | 1080x2460 | 480 | `spec:width=1080px,height=2460px,dpi=480` | `@Preview(device = Iiif150.AIR1_ULTRA)` |
