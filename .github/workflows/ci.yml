@@ -30,14 +30,14 @@ jobs:
       run: ./gradlew build
     
     - name: Upload test results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       if: always()
       with:
         name: test-results
         path: android-compose-preview-ext/build/reports/tests/test/
         
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: build-artifacts
         path: android-compose-preview-ext/build/libs/
