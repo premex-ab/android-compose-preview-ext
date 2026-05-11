@@ -6,7 +6,7 @@ plugins {
 dependencies {
     implementation("com.squareup:kotlinpoet:2.3.0")
     implementation("com.opencsv:opencsv:5.12.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.11.0")
     
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.3")
