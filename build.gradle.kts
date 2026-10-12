@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.4.20" apply false
+    kotlin("jvm") version "2.4.21" apply false
 }
 
 // Read version from env var first, then gradle.properties, then default
